@@ -48,7 +48,7 @@
 
       <section class="workspace">
         <div class="map-wrap" aria-label="50 state forecast map">
-          <div id="state-map" class="state-map"></div>
+          <div id="state-map" class="state-map" aria-label="United States forecast map"></div>
           <div class="legend" aria-label="Map legend">
             <span><i class="swatch republican"></i>Republican</span>
             <span><i class="swatch democratic"></i>Democratic</span>
@@ -96,6 +96,8 @@
       </section>
     </main>
 
+    <script src="vendor/d3.min.js"></script>
+    <script src="vendor/topojson-client.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

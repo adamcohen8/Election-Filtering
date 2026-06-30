@@ -1,55 +1,58 @@
-const states = [
-  { code: "AK", name: "Alaska", col: 1, row: 1 },
-  { code: "ME", name: "Maine", col: 11, row: 1 },
-  { code: "VT", name: "Vermont", col: 9, row: 2 },
-  { code: "NH", name: "New Hampshire", col: 10, row: 2 },
-  { code: "WA", name: "Washington", col: 2, row: 2 },
-  { code: "ID", name: "Idaho", col: 3, row: 3 },
-  { code: "MT", name: "Montana", col: 4, row: 3 },
-  { code: "ND", name: "North Dakota", col: 5, row: 3 },
-  { code: "MN", name: "Minnesota", col: 6, row: 3 },
-  { code: "WI", name: "Wisconsin", col: 7, row: 3 },
-  { code: "MI", name: "Michigan", col: 8, row: 3 },
-  { code: "NY", name: "New York", col: 9, row: 3 },
-  { code: "MA", name: "Massachusetts", col: 10, row: 3 },
-  { code: "OR", name: "Oregon", col: 2, row: 4 },
-  { code: "NV", name: "Nevada", col: 3, row: 4 },
-  { code: "WY", name: "Wyoming", col: 4, row: 4 },
-  { code: "SD", name: "South Dakota", col: 5, row: 4 },
-  { code: "IA", name: "Iowa", col: 6, row: 4 },
-  { code: "IL", name: "Illinois", col: 7, row: 4 },
-  { code: "IN", name: "Indiana", col: 8, row: 4 },
-  { code: "OH", name: "Ohio", col: 9, row: 4 },
-  { code: "PA", name: "Pennsylvania", col: 10, row: 4 },
-  { code: "RI", name: "Rhode Island", col: 11, row: 4 },
-  { code: "CA", name: "California", col: 2, row: 5 },
-  { code: "UT", name: "Utah", col: 3, row: 5 },
-  { code: "CO", name: "Colorado", col: 4, row: 5 },
-  { code: "NE", name: "Nebraska", col: 5, row: 5 },
-  { code: "MO", name: "Missouri", col: 6, row: 5 },
-  { code: "KY", name: "Kentucky", col: 7, row: 5 },
-  { code: "WV", name: "West Virginia", col: 8, row: 5 },
-  { code: "VA", name: "Virginia", col: 9, row: 5 },
-  { code: "MD", name: "Maryland", col: 10, row: 5 },
-  { code: "CT", name: "Connecticut", col: 11, row: 5 },
-  { code: "AZ", name: "Arizona", col: 3, row: 6 },
-  { code: "NM", name: "New Mexico", col: 4, row: 6 },
-  { code: "KS", name: "Kansas", col: 5, row: 6 },
-  { code: "AR", name: "Arkansas", col: 6, row: 6 },
-  { code: "TN", name: "Tennessee", col: 7, row: 6 },
-  { code: "NC", name: "North Carolina", col: 8, row: 6 },
-  { code: "SC", name: "South Carolina", col: 9, row: 6 },
-  { code: "DE", name: "Delaware", col: 10, row: 6 },
-  { code: "OK", name: "Oklahoma", col: 5, row: 7 },
-  { code: "LA", name: "Louisiana", col: 6, row: 7 },
-  { code: "MS", name: "Mississippi", col: 7, row: 7 },
-  { code: "AL", name: "Alabama", col: 8, row: 7 },
-  { code: "GA", name: "Georgia", col: 9, row: 7 },
-  { code: "NJ", name: "New Jersey", col: 10, row: 7 },
-  { code: "HI", name: "Hawaii", col: 1, row: 8 },
-  { code: "TX", name: "Texas", col: 5, row: 8 },
-  { code: "FL", name: "Florida", col: 10, row: 8 },
+const stateMeta = [
+  { fips: "01", code: "AL", name: "Alabama" },
+  { fips: "02", code: "AK", name: "Alaska" },
+  { fips: "04", code: "AZ", name: "Arizona" },
+  { fips: "05", code: "AR", name: "Arkansas" },
+  { fips: "06", code: "CA", name: "California" },
+  { fips: "08", code: "CO", name: "Colorado" },
+  { fips: "09", code: "CT", name: "Connecticut" },
+  { fips: "10", code: "DE", name: "Delaware" },
+  { fips: "12", code: "FL", name: "Florida" },
+  { fips: "13", code: "GA", name: "Georgia" },
+  { fips: "15", code: "HI", name: "Hawaii" },
+  { fips: "16", code: "ID", name: "Idaho" },
+  { fips: "17", code: "IL", name: "Illinois" },
+  { fips: "18", code: "IN", name: "Indiana" },
+  { fips: "19", code: "IA", name: "Iowa" },
+  { fips: "20", code: "KS", name: "Kansas" },
+  { fips: "21", code: "KY", name: "Kentucky" },
+  { fips: "22", code: "LA", name: "Louisiana" },
+  { fips: "23", code: "ME", name: "Maine" },
+  { fips: "24", code: "MD", name: "Maryland" },
+  { fips: "25", code: "MA", name: "Massachusetts" },
+  { fips: "26", code: "MI", name: "Michigan" },
+  { fips: "27", code: "MN", name: "Minnesota" },
+  { fips: "28", code: "MS", name: "Mississippi" },
+  { fips: "29", code: "MO", name: "Missouri" },
+  { fips: "30", code: "MT", name: "Montana" },
+  { fips: "31", code: "NE", name: "Nebraska" },
+  { fips: "32", code: "NV", name: "Nevada" },
+  { fips: "33", code: "NH", name: "New Hampshire" },
+  { fips: "34", code: "NJ", name: "New Jersey" },
+  { fips: "35", code: "NM", name: "New Mexico" },
+  { fips: "36", code: "NY", name: "New York" },
+  { fips: "37", code: "NC", name: "North Carolina" },
+  { fips: "38", code: "ND", name: "North Dakota" },
+  { fips: "39", code: "OH", name: "Ohio" },
+  { fips: "40", code: "OK", name: "Oklahoma" },
+  { fips: "41", code: "OR", name: "Oregon" },
+  { fips: "42", code: "PA", name: "Pennsylvania" },
+  { fips: "44", code: "RI", name: "Rhode Island" },
+  { fips: "45", code: "SC", name: "South Carolina" },
+  { fips: "46", code: "SD", name: "South Dakota" },
+  { fips: "47", code: "TN", name: "Tennessee" },
+  { fips: "48", code: "TX", name: "Texas" },
+  { fips: "49", code: "UT", name: "Utah" },
+  { fips: "50", code: "VT", name: "Vermont" },
+  { fips: "51", code: "VA", name: "Virginia" },
+  { fips: "53", code: "WA", name: "Washington" },
+  { fips: "54", code: "WV", name: "West Virginia" },
+  { fips: "55", code: "WI", name: "Wisconsin" },
+  { fips: "56", code: "WY", name: "Wyoming" },
 ];
+
+const fipsToState = new Map(stateMeta.map((state) => [state.fips, state]));
+const codeToState = new Map(stateMeta.map((state) => [state.code, state]));
 
 const map = document.querySelector("#state-map");
 const tabs = document.querySelectorAll(".tab");
@@ -73,32 +76,119 @@ const detailBarRight = document.querySelector("#detail-bar-right");
 let selectedOffice = "senate";
 let selectedState = null;
 let forecastPayload = { generated_at: null, races: [] };
+let stateFeatures = [];
 
 function renderMap() {
   const byState = racesByState(selectedOffice);
   map.innerHTML = "";
-  states.forEach((state) => {
-    const race = byState.get(state.code);
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = `state ${race ? race.status : "unmodeled"}`;
-    button.textContent = state.code;
-    button.title = race ? `${state.name} ${officeLabel(selectedOffice)}` : `${state.name}`;
-    button.style.gridColumn = state.col;
-    button.style.gridRow = state.row;
-    button.dataset.state = state.code;
-    button.setAttribute("aria-label", button.title);
-    if (selectedState === state.code) {
-      button.classList.add("is-selected");
-    }
-    button.addEventListener("click", () => {
-      selectedState = state.code;
-      renderMap();
-      renderDetail();
+
+  if (!stateFeatures.length || !window.d3 || !window.topojson) {
+    map.classList.add("is-loading");
+    map.textContent = "Map data unavailable";
+    renderSummary();
+    return;
+  }
+
+  map.classList.remove("is-loading");
+  const width = 975;
+  const height = 610;
+  const featureCollection = { type: "FeatureCollection", features: stateFeatures };
+  const projection = d3.geoAlbersUsa().fitSize([width, height], featureCollection);
+  const path = d3.geoPath(projection);
+  const svg = d3
+    .select(map)
+    .append("svg")
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("role", "img")
+    .attr("aria-label", `${officeLabel(selectedOffice)} forecast map`);
+
+  svg
+    .append("g")
+    .attr("class", "states-layer")
+    .selectAll("path")
+    .data(stateFeatures)
+    .join("path")
+    .attr("class", (feature) => {
+      const state = stateForFeature(feature);
+      const race = state ? byState.get(state.code) : null;
+      const selected = state?.code === selectedState ? " is-selected" : "";
+      return `state-shape ${race ? race.status : "unmodeled"}${selected}`;
+    })
+    .attr("d", path)
+    .attr("tabindex", 0)
+    .attr("role", "button")
+    .attr("aria-label", (feature) => {
+      const state = stateForFeature(feature);
+      const race = state ? byState.get(state.code) : null;
+      return race
+        ? `${state.name} ${officeLabel(selectedOffice)} ${statusLabel(race.status)}`
+        : `${state?.name ?? "State"} unmodeled`;
+    })
+    .on("click", (_, feature) => selectFeature(feature))
+    .on("keydown", (event, feature) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        selectFeature(feature);
+      }
+    })
+    .append("title")
+    .text((feature) => {
+      const state = stateForFeature(feature);
+      const race = state ? byState.get(state.code) : null;
+      return race
+        ? `${state.name}: ${statusLabel(race.status)}, ${signedPercent(race.margin_percent)}`
+        : `${state?.name ?? "State"}: unmodeled`;
     });
-    map.appendChild(button);
-  });
+
+  svg
+    .append("path")
+    .datum(topojson.mesh(window.usTopology, window.usTopology.objects.states, (a, b) => a !== b))
+    .attr("class", "state-borders")
+    .attr("d", path);
+
+  svg
+    .append("g")
+    .attr("class", "state-labels")
+    .selectAll("text")
+    .data(stateFeatures)
+    .join("text")
+    .attr("x", (feature) => labelPoint(path, feature)[0])
+    .attr("y", (feature) => labelPoint(path, feature)[1])
+    .text((feature) => stateForFeature(feature)?.code ?? "")
+    .attr("dy", "0.35em");
+
   renderSummary();
+}
+
+function selectFeature(feature) {
+  const state = stateForFeature(feature);
+  if (!state) {
+    return;
+  }
+  selectedState = state.code;
+  renderMap();
+  renderDetail();
+}
+
+function labelPoint(path, feature) {
+  const state = stateForFeature(feature);
+  const manual = {
+    CT: [858, 176],
+    DE: [827, 260],
+    FL: [760, 455],
+    HI: [335, 548],
+    LA: [535, 410],
+    MD: [805, 249],
+    MA: [874, 151],
+    NH: [850, 112],
+    NJ: [825, 227],
+    RI: [892, 176],
+    VT: [817, 113],
+  };
+  if (state && manual[state.code]) {
+    return manual[state.code];
+  }
+  return path.centroid(feature);
 }
 
 function renderSummary() {
@@ -119,7 +209,7 @@ function renderSummary() {
 
 function renderDetail() {
   const race = selectedState ? racesByState(selectedOffice).get(selectedState) : null;
-  const state = states.find((item) => item.code === selectedState);
+  const state = selectedState ? codeToState.get(selectedState) : null;
   detailOffice.textContent = officeLabel(selectedOffice);
 
   if (!race) {
@@ -159,6 +249,10 @@ function racesByState(office) {
   return byState;
 }
 
+function stateForFeature(feature) {
+  return fipsToState.get(String(feature.id).padStart(2, "0"));
+}
+
 function officeLabel(office) {
   return office === "senate" ? "Senate" : "Governor";
 }
@@ -193,7 +287,7 @@ function signedPercent(value) {
 
 function defaultStateForOffice(office) {
   const races = forecastPayload.races.filter((race) => race.office === office);
-  const preferred = office === "senate" ? "FL" : "FL";
+  const preferred = "FL";
   if (races.some((race) => race.state_code === preferred)) {
     return preferred;
   }
@@ -214,15 +308,26 @@ tabs.forEach((tab) => {
   });
 });
 
-fetch("data/forecasts.json", { cache: "no-store" })
-  .then((response) => {
+Promise.all([
+  fetch("data/forecasts.json", { cache: "no-store" }).then((response) => {
     if (!response.ok) {
       throw new Error(`Forecast data unavailable: ${response.status}`);
     }
     return response.json();
-  })
-  .then((payload) => {
+  }),
+  fetch("data/states-10m.json").then((response) => {
+    if (!response.ok) {
+      throw new Error(`Map data unavailable: ${response.status}`);
+    }
+    return response.json();
+  }),
+])
+  .then(([payload, topology]) => {
     forecastPayload = payload;
+    window.usTopology = topology;
+    stateFeatures = topojson
+      .feature(topology, topology.objects.states)
+      .features.filter((feature) => fipsToState.has(String(feature.id).padStart(2, "0")));
     selectedState = defaultStateForOffice(selectedOffice);
     renderMap();
     renderDetail();

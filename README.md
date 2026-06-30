@@ -131,5 +131,5 @@ from the current model snapshot.
 python scripts/export_public.py
 ```
 
-The page includes Senate and Governor tabs, a 50-state interactive map, modeled
-race coloring, and a race detail panel.
+The page includes Senate and Governor tabs, a geographic 50-state interactive
+map, modeled race coloring, and a race detail panel.
