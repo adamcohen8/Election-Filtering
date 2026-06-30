@@ -53,6 +53,58 @@ const stateMeta = [
 
 const fipsToState = new Map(stateMeta.map((state) => [state.fips, state]));
 const codeToState = new Map(stateMeta.map((state) => [state.code, state]));
+const labelAnchors = {
+  AK: [-150.0, 64.0],
+  AL: [-86.8, 32.8],
+  AR: [-92.4, 34.9],
+  AZ: [-111.8, 34.3],
+  CA: [-119.5, 37.2],
+  CO: [-105.5, 39.0],
+  CT: [-72.7, 41.6],
+  DE: [-75.5, 39.0],
+  FL: [-81.7, 28.4],
+  GA: [-83.4, 32.7],
+  HI: [-157.4, 20.8],
+  IA: [-93.5, 42.1],
+  ID: [-114.5, 44.2],
+  IL: [-89.2, 40.0],
+  IN: [-86.1, 40.0],
+  KS: [-98.3, 38.5],
+  KY: [-84.8, 37.7],
+  LA: [-92.2, 31.0],
+  MA: [-71.8, 42.2],
+  MD: [-76.7, 39.0],
+  ME: [-69.0, 45.2],
+  MI: [-85.5, 44.5],
+  MN: [-94.4, 46.1],
+  MO: [-92.5, 38.5],
+  MS: [-89.7, 32.7],
+  MT: [-110.5, 46.9],
+  NC: [-79.8, 35.5],
+  ND: [-100.5, 47.5],
+  NE: [-99.8, 41.5],
+  NH: [-71.6, 43.7],
+  NJ: [-74.7, 40.1],
+  NM: [-106.1, 34.5],
+  NV: [-116.6, 39.0],
+  NY: [-75.4, 43.0],
+  OH: [-82.8, 40.2],
+  OK: [-97.5, 35.5],
+  OR: [-120.5, 44.2],
+  PA: [-77.8, 40.8],
+  RI: [-71.5, 41.7],
+  SC: [-80.9, 33.8],
+  SD: [-100.2, 44.4],
+  TN: [-86.4, 35.8],
+  TX: [-99.3, 31.3],
+  UT: [-111.7, 39.3],
+  VA: [-78.6, 37.7],
+  VT: [-72.7, 44.1],
+  WA: [-120.7, 47.4],
+  WI: [-89.8, 44.5],
+  WV: [-80.6, 38.6],
+  WY: [-107.5, 43.0],
+};
 
 const map = document.querySelector("#state-map");
 const mapWrap = document.querySelector(".map-wrap");
@@ -171,8 +223,8 @@ function renderMap() {
     .selectAll("text")
     .data(stateFeatures)
     .join("text")
-    .attr("x", (feature) => labelPoint(path, feature)[0])
-    .attr("y", (feature) => labelPoint(path, feature)[1])
+    .attr("x", (feature) => labelPoint(projection, path, feature)[0])
+    .attr("y", (feature) => labelPoint(projection, path, feature)[1])
     .text((feature) => stateForFeature(feature)?.code ?? "")
     .attr("dy", "0.35em");
 
@@ -258,23 +310,10 @@ function tooltipHtml(state, race) {
   `;
 }
 
-function labelPoint(path, feature) {
+function labelPoint(projection, path, feature) {
   const state = stateForFeature(feature);
-  const manual = {
-    CT: [858, 176],
-    DE: [827, 260],
-    FL: [760, 455],
-    HI: [335, 548],
-    LA: [535, 410],
-    MD: [805, 249],
-    MA: [874, 151],
-    NH: [850, 112],
-    NJ: [825, 227],
-    RI: [892, 176],
-    VT: [817, 113],
-  };
-  if (state && manual[state.code]) {
-    return manual[state.code];
+  if (state && labelAnchors[state.code]) {
+    return projection(labelAnchors[state.code]) ?? path.centroid(feature);
   }
   return path.centroid(feature);
 }
