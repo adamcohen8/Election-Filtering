@@ -55,6 +55,8 @@ const fipsToState = new Map(stateMeta.map((state) => [state.fips, state]));
 const codeToState = new Map(stateMeta.map((state) => [state.code, state]));
 
 const map = document.querySelector("#state-map");
+const mapWrap = document.querySelector(".map-wrap");
+const tooltip = document.querySelector("#map-tooltip");
 const tabs = document.querySelectorAll(".tab");
 const modeledCount = document.querySelector("#modeled-count");
 const redCount = document.querySelector("#red-count");
@@ -77,6 +79,7 @@ let selectedOffice = "senate";
 let selectedState = null;
 let forecastPayload = { generated_at: null, races: [] };
 let stateFeatures = [];
+let tooltipPinnedUntil = 0;
 
 function renderMap() {
   const byState = racesByState(selectedOffice);
@@ -124,7 +127,23 @@ function renderMap() {
         ? `${state.name} ${officeLabel(selectedOffice)} ${statusLabel(race.status)}`
         : `${state?.name ?? "State"} unmodeled`;
     })
-    .on("click", (_, feature) => selectFeature(feature))
+    .on("pointerenter", (event, feature) => showTooltip(event, feature))
+    .on("pointermove", (event, feature) => showTooltip(event, feature))
+    .on("pointerleave", hideTooltip)
+    .on("mouseenter", (event, feature) => showTooltip(event, feature))
+    .on("mousemove", (event, feature) => showTooltip(event, feature))
+    .on("mouseleave", hideTooltip)
+    .on("focus", (event, feature) => showTooltip(event, feature))
+    .on("blur", hideTooltip)
+    .on("click", (event, feature) => {
+      const tooltipEvent = {
+        clientX: event.clientX,
+        clientY: event.clientY,
+      };
+      selectFeature(feature);
+      tooltipPinnedUntil = Date.now() + 900;
+      setTimeout(() => showTooltip(tooltipEvent, feature), 120);
+    })
     .on("keydown", (event, feature) => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
@@ -168,6 +187,75 @@ function selectFeature(feature) {
   selectedState = state.code;
   renderMap();
   renderDetail();
+}
+
+function showTooltip(event, feature) {
+  const state = stateForFeature(feature);
+  if (!state) {
+    hideTooltip();
+    return;
+  }
+  const race = racesByState(selectedOffice).get(state.code);
+  tooltip.innerHTML = tooltipHtml(state, race);
+  tooltip.setAttribute("aria-hidden", "false");
+  tooltip.classList.add("is-visible");
+  positionTooltip(event);
+}
+
+function hideTooltip() {
+  if (Date.now() < tooltipPinnedUntil) {
+    return;
+  }
+  tooltip.classList.remove("is-visible");
+  tooltip.setAttribute("aria-hidden", "true");
+}
+
+function positionTooltip(event) {
+  const wrapRect = mapWrap.getBoundingClientRect();
+  const pointerX = "clientX" in event ? event.clientX : wrapRect.left + wrapRect.width / 2;
+  const pointerY = "clientY" in event ? event.clientY : wrapRect.top + wrapRect.height / 2;
+  const tooltipRect = tooltip.getBoundingClientRect();
+  const padding = 12;
+  let left = pointerX - wrapRect.left + 16;
+  let top = pointerY - wrapRect.top - tooltipRect.height - 16;
+
+  if (left + tooltipRect.width > wrapRect.width - padding) {
+    left = pointerX - wrapRect.left - tooltipRect.width - 16;
+  }
+  if (left < padding) {
+    left = padding;
+  }
+  if (top < padding) {
+    top = pointerY - wrapRect.top + 16;
+  }
+  if (top + tooltipRect.height > wrapRect.height - padding) {
+    top = wrapRect.height - tooltipRect.height - padding;
+  }
+
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${top}px`;
+}
+
+function tooltipHtml(state, race) {
+  if (!race) {
+    return `
+      <div class="tooltip-kicker">${officeLabel(selectedOffice)}</div>
+      <strong>${state.name}</strong>
+      <span class="tooltip-muted">No modeled ${officeLabel(selectedOffice).toLowerCase()} race</span>
+    `;
+  }
+
+  return `
+    <div class="tooltip-kicker">${officeLabel(selectedOffice)}</div>
+    <strong>${race.state}</strong>
+    <span>${leaderLabel(race)} · ${statusLabel(race.status)}</span>
+    <dl>
+      <div><dt>Margin</dt><dd>${signedPercent(race.margin_percent)}</dd></div>
+      <div><dt>MOE</dt><dd>±${race.margin_of_error_percent.toFixed(2)} pts</dd></div>
+      <div><dt>Rep</dt><dd>${(race.candidate_a_share * 100).toFixed(1)}%</dd></div>
+      <div><dt>Dem</dt><dd>${(race.candidate_b_share * 100).toFixed(1)}%</dd></div>
+    </dl>
+  `;
 }
 
 function labelPoint(path, feature) {
@@ -298,6 +386,7 @@ tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     selectedOffice = tab.dataset.office;
     selectedState = defaultStateForOffice(selectedOffice);
+    hideTooltip();
     tabs.forEach((item) => {
       const active = item === tab;
       item.classList.toggle("is-active", active);

@@ -146,6 +146,7 @@ h2 {
 }
 
 .map-wrap {
+  position: relative;
   padding: 18px;
 }
 
@@ -222,6 +223,72 @@ h2 {
   paint-order: stroke;
   stroke: rgba(255, 255, 255, 0.72);
   stroke-width: 3px;
+}
+
+.map-tooltip {
+  position: absolute;
+  z-index: 5;
+  display: grid;
+  gap: 5px;
+  min-width: 190px;
+  max-width: min(260px, calc(100% - 24px));
+  padding: 12px;
+  border: 1px solid rgba(21, 26, 31, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 16px 38px rgba(21, 26, 31, 0.18);
+  color: var(--ink);
+  font-size: 0.86rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(4px);
+  transition: opacity 100ms ease, transform 100ms ease;
+}
+
+.map-tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.map-tooltip strong {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.15;
+}
+
+.map-tooltip span {
+  display: block;
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.map-tooltip .tooltip-kicker,
+.map-tooltip .tooltip-muted,
+.map-tooltip dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.map-tooltip .tooltip-muted {
+  text-transform: none;
+}
+
+.map-tooltip dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+  margin: 6px 0 0;
+}
+
+.map-tooltip div,
+.map-tooltip dd {
+  margin: 0;
+}
+
+.map-tooltip dd {
+  font-weight: 850;
 }
 
 .legend {
