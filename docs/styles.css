@@ -1,0 +1,384 @@
+:root {
+  --bg: #f6f7f4;
+  --ink: #151a1f;
+  --muted: #65717b;
+  --line: #d9dfdf;
+  --panel: #ffffff;
+  --republican: #c64235;
+  --democratic: #286bb6;
+  --tossup: #d7b43b;
+  --unmodeled: #dfe4e2;
+  --unmodeled-ink: #6e7877;
+  --focus: #1f7a8c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.shell {
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 28px 0 40px;
+}
+
+.topbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 7vw, 4.4rem);
+  line-height: 0.95;
+}
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.15;
+}
+
+.tabs {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  background: #eef1ef;
+  border-radius: 8px;
+}
+
+.tab {
+  min-width: 116px;
+  min-height: 40px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.tab.is-active {
+  background: var(--ink);
+  color: #fff;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  margin: 18px 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.metric {
+  min-height: 74px;
+  padding: 14px;
+  background: var(--panel);
+}
+
+.metric-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.metric strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.metric-wide strong {
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 22px;
+  align-items: start;
+}
+
+.map-wrap,
+.detail {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 8px;
+}
+
+.map-wrap {
+  padding: 18px;
+}
+
+.state-map {
+  display: grid;
+  grid-template-columns: repeat(11, minmax(42px, 1fr));
+  grid-auto-rows: minmax(38px, 1fr);
+  gap: 6px;
+  aspect-ratio: 11 / 8;
+  width: 100%;
+}
+
+.state {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid rgba(21, 26, 31, 0.13);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: clamp(0.68rem, 1.2vw, 0.9rem);
+  font-weight: 850;
+  letter-spacing: 0;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.state:hover,
+.state:focus-visible,
+.state.is-selected {
+  outline: none;
+  transform: translateY(-1px);
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px rgba(31, 122, 140, 0.18);
+}
+
+.state.republican {
+  background: var(--republican);
+}
+
+.state.democratic {
+  background: var(--democratic);
+}
+
+.state.tossup {
+  background: var(--tossup);
+  color: #241f11;
+}
+
+.state.unmodeled {
+  background: var(--unmodeled);
+  color: var(--unmodeled-ink);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.swatch {
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  border: 1px solid rgba(21, 26, 31, 0.12);
+}
+
+.swatch.republican {
+  background: var(--republican);
+}
+
+.swatch.democratic {
+  background: var(--democratic);
+}
+
+.swatch.tossup {
+  background: var(--tossup);
+}
+
+.swatch.unmodeled {
+  background: var(--unmodeled);
+}
+
+.detail {
+  position: sticky;
+  top: 18px;
+  padding: 18px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin: 18px 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.detail-grid div {
+  min-height: 76px;
+  padding: 12px;
+  background: #fbfcfb;
+}
+
+.detail-grid span,
+.support dt {
+  display: block;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.detail-grid strong,
+.support dd {
+  display: block;
+  margin: 6px 0 0;
+  overflow-wrap: anywhere;
+  font-size: 1.08rem;
+}
+
+.bar {
+  display: flex;
+  height: 14px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--line);
+}
+
+.bar span:first-child {
+  background: var(--republican);
+}
+
+.bar span:last-child {
+  background: var(--democratic);
+}
+
+.bar.is-empty span {
+  background: var(--unmodeled);
+}
+
+.support {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0 0;
+}
+
+.support div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.support div:last-child {
+  border-bottom: 0;
+}
+
+.support dd {
+  font-weight: 800;
+}
+
+@media (max-width: 880px) {
+  .topbar,
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    display: grid;
+    align-items: stretch;
+  }
+
+  .summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .metric-wide {
+    grid-column: span 2;
+  }
+
+  .workspace {
+    display: grid;
+  }
+
+  .detail {
+    position: static;
+  }
+
+  .state-map {
+    grid-template-columns: repeat(11, minmax(24px, 1fr));
+    grid-auto-rows: minmax(28px, 1fr);
+    gap: 4px;
+  }
+}
+
+@media (max-width: 520px) {
+  .shell {
+    width: min(100vw - 20px, 1180px);
+    padding-top: 18px;
+  }
+
+  .tabs {
+    width: 100%;
+  }
+
+  .tab {
+    min-width: 0;
+  }
+
+  .map-wrap {
+    padding: 10px;
+  }
+
+  .state-map {
+    grid-auto-rows: minmax(24px, 1fr);
+    gap: 3px;
+  }
+
+  .state {
+    border-radius: 4px;
+  }
+}

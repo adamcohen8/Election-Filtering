@@ -14,7 +14,9 @@ from election_modeling import (
     RaceModel,
     StaticPollSource,
     create_2026_election_model,
+    export_public_forecasts,
     load_election_model,
+    public_forecast_payload,
     run_2026_poll_io,
     save_election_model,
 )
@@ -295,3 +297,26 @@ def test_run_2026_poll_io_persists_model_and_ledger(tmp_path) -> None:
     assert second.result.duplicate_poll_ids == ("automation-nc-gov",)
     assert snapshot_path.exists()
     assert ledger_path.exists()
+
+
+def test_public_forecast_payload_exports_race_statuses() -> None:
+    election = create_2026_election_model()
+
+    payload = public_forecast_payload(election)
+
+    race = next(race for race in payload["races"] if race["race_id"] == "fl_sen")
+    assert race["office"] == "senate"
+    assert race["state_code"] == "FL"
+    assert race["status"] in {"republican", "democratic", "tossup"}
+
+
+def test_export_public_forecasts_writes_static_json(tmp_path) -> None:
+    output_path = tmp_path / "forecasts.json"
+
+    payload = export_public_forecasts(
+        snapshot_path=tmp_path / "missing-model.json",
+        output_path=output_path,
+    )
+
+    assert output_path.exists()
+    assert len(payload["races"]) == 20

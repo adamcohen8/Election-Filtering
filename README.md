@@ -120,3 +120,16 @@ run = run_2026_poll_io(
 
 print(run.result.applied)
 ```
+
+## GitHub Pages
+
+The public map lives in `docs/` so GitHub Pages can serve it from the repository
+without a build step. It reads `docs/data/forecasts.json`, which is generated
+from the current model snapshot.
+
+```bash
+python scripts/export_public.py
+```
+
+The page includes Senate and Governor tabs, a 50-state interactive map, modeled
+race coloring, and a race detail panel.

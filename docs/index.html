@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Election Filtering</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Election forecast controls">
+        <div>
+          <p class="eyebrow">2026 model</p>
+          <h1>Election Filtering</h1>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Office">
+          <button class="tab is-active" type="button" role="tab" aria-selected="true" data-office="senate">
+            Senate
+          </button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-office="governor">
+            Governor
+          </button>
+        </div>
+      </section>
+
+      <section class="summary" aria-label="Forecast summary">
+        <div class="metric">
+          <span class="metric-label">Modeled</span>
+          <strong id="modeled-count">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Red</span>
+          <strong id="red-count">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Blue</span>
+          <strong id="blue-count">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Tossup</span>
+          <strong id="tossup-count">0</strong>
+        </div>
+        <div class="metric metric-wide">
+          <span class="metric-label">Updated</span>
+          <strong id="updated-at">Loading</strong>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <div class="map-wrap" aria-label="50 state forecast map">
+          <div id="state-map" class="state-map"></div>
+          <div class="legend" aria-label="Map legend">
+            <span><i class="swatch republican"></i>Republican</span>
+            <span><i class="swatch democratic"></i>Democratic</span>
+            <span><i class="swatch tossup"></i>Tossup</span>
+            <span><i class="swatch unmodeled"></i>Unmodeled</span>
+          </div>
+        </div>
+
+        <aside class="detail" aria-live="polite">
+          <p class="eyebrow" id="detail-office">Senate</p>
+          <h2 id="detail-title">Select a modeled state</h2>
+          <div class="detail-grid">
+            <div>
+              <span>Leader</span>
+              <strong id="detail-leader">-</strong>
+            </div>
+            <div>
+              <span>Margin</span>
+              <strong id="detail-margin">-</strong>
+            </div>
+            <div>
+              <span>MOE</span>
+              <strong id="detail-moe">-</strong>
+            </div>
+            <div>
+              <span>Status</span>
+              <strong id="detail-status">-</strong>
+            </div>
+          </div>
+          <div class="bar" aria-hidden="true">
+            <span id="detail-bar-left"></span>
+            <span id="detail-bar-right"></span>
+          </div>
+          <dl class="support">
+            <div>
+              <dt>Republican share</dt>
+              <dd id="detail-republican-share">-</dd>
+            </div>
+            <div>
+              <dt>Democratic share</dt>
+              <dd id="detail-democratic-share">-</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
