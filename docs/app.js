@@ -121,6 +121,8 @@ const detailLeader = document.querySelector("#detail-leader");
 const detailMargin = document.querySelector("#detail-margin");
 const detailMoe = document.querySelector("#detail-moe");
 const detailStatus = document.querySelector("#detail-status");
+const detailRepublicanLabel = document.querySelector("#detail-republican-label");
+const detailDemocraticLabel = document.querySelector("#detail-democratic-label");
 const detailRepublicanShare = document.querySelector("#detail-republican-share");
 const detailDemocraticShare = document.querySelector("#detail-democratic-share");
 const detailBar = document.querySelector(".bar");
@@ -304,8 +306,8 @@ function tooltipHtml(state, race) {
     <dl>
       <div><dt>Margin</dt><dd>${signedPercent(race.margin_percent)}</dd></div>
       <div><dt>MOE</dt><dd>±${race.margin_of_error_percent.toFixed(2)} pts</dd></div>
-      <div><dt>Rep</dt><dd>${(race.candidate_a_share * 100).toFixed(1)}%</dd></div>
-      <div><dt>Dem</dt><dd>${(race.candidate_b_share * 100).toFixed(1)}%</dd></div>
+      <div><dt>${candidateLabel(race, "republican", true)}</dt><dd>${(race.candidate_a_share * 100).toFixed(1)}%</dd></div>
+      <div><dt>${candidateLabel(race, "democratic", true)}</dt><dd>${(race.candidate_b_share * 100).toFixed(1)}%</dd></div>
     </dl>
   `;
 }
@@ -345,6 +347,8 @@ function renderDetail() {
     detailMargin.textContent = "-";
     detailMoe.textContent = "-";
     detailStatus.textContent = state ? "Unmodeled" : "-";
+    detailRepublicanLabel.textContent = "Republican share";
+    detailDemocraticLabel.textContent = "Democratic share";
     detailRepublicanShare.textContent = "-";
     detailDemocraticShare.textContent = "-";
     detailBar.classList.add("is-empty");
@@ -359,6 +363,8 @@ function renderDetail() {
   detailMargin.textContent = signedPercent(race.margin_percent);
   detailMoe.textContent = `±${race.margin_of_error_percent.toFixed(2)} pts`;
   detailStatus.textContent = statusLabel(race.status);
+  detailRepublicanLabel.textContent = `${candidateLabel(race, "republican")} share`;
+  detailDemocraticLabel.textContent = `${candidateLabel(race, "democratic")} share`;
   detailRepublicanShare.textContent = `${(race.candidate_a_share * 100).toFixed(1)}%`;
   detailDemocraticShare.textContent = `${(race.candidate_b_share * 100).toFixed(1)}%`;
 
@@ -389,12 +395,19 @@ function leaderLabel(race) {
     return "No clear leader";
   }
   if (race.leader === "republican") {
-    return "Republican";
+    return candidateLabel(race, "republican");
   }
   if (race.leader === "democratic") {
-    return "Democratic";
+    return candidateLabel(race, "democratic");
   }
   return "Tie";
+}
+
+function candidateLabel(race, party, compact = false) {
+  if (party === "republican") {
+    return race.candidate_a_name ?? (compact ? "Rep" : "Republican");
+  }
+  return race.candidate_b_name ?? (compact ? "Dem" : "Democratic");
 }
 
 function statusLabel(status) {

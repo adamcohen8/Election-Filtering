@@ -9,6 +9,7 @@ from pathlib import Path
 
 from election_modeling.cycles import RACES_2026_BY_ID, create_2026_election_model
 from election_modeling.elections import ElectionModel
+from election_modeling.nominees import NOMINEES_2026_BY_RACE, RaceNominees
 from election_modeling.persistence import load_election_model
 
 
@@ -34,6 +35,7 @@ def public_forecast_payload(
         race = RACES_2026_BY_ID.get(race_id)
         if race is None:
             continue
+        nominees = NOMINEES_2026_BY_RACE.get(race_id)
         forecast = model.forecast(z_score=options.z_score)
         leader = _leader_for_margin(forecast.margin)
         tossup = _is_tossup(
@@ -50,7 +52,19 @@ def public_forecast_payload(
                 "state": race.state,
                 "state_code": race_id[:2].upper(),
                 "candidate_a_party": "Republican",
+                "candidate_a_name": nominees.republican.name
+                if nominees and nominees.republican
+                else None,
+                "candidate_a_nominee_status": nominees.republican.status
+                if nominees and nominees.republican
+                else None,
                 "candidate_b_party": "Democratic",
+                "candidate_b_name": nominees.democratic.name
+                if nominees and nominees.democratic
+                else None,
+                "candidate_b_nominee_status": nominees.democratic.status
+                if nominees and nominees.democratic
+                else None,
                 "candidate_a_share": round(forecast.candidate_a_share, 4),
                 "candidate_b_share": round(forecast.candidate_b_share, 4),
                 "margin": round(forecast.margin, 4),
@@ -62,6 +76,9 @@ def public_forecast_payload(
                 ),
                 "leader": leader,
                 "status": status,
+                "nominee_last_verified": nominees.last_verified if nominees else None,
+                "nominee_note": nominees.notes if nominees else None,
+                "nominee_sources": _nominee_sources(nominees),
             }
         )
 
@@ -88,6 +105,18 @@ def export_public_forecasts(
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, indent=2) + "\n")
     return payload
+
+
+def _nominee_sources(nominees: RaceNominees | None) -> dict[str, str]:
+    if nominees is None:
+        return {}
+
+    sources = {}
+    if nominees.republican:
+        sources["republican"] = nominees.republican.source_url
+    if nominees.democratic:
+        sources["democratic"] = nominees.democratic.source_url
+    return sources
 
 
 def _leader_for_margin(margin: float) -> str:

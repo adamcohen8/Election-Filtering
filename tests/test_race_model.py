@@ -4,6 +4,7 @@ from election_modeling import (
     ElectionModel,
     Electorate,
     IngestionLedger,
+    NOMINEES_2026_BY_RACE,
     NormalizedPoll,
     PartyIDCrosstab,
     PollAdjustment,
@@ -142,6 +143,13 @@ def test_2026_registry_contains_initial_senate_and_governor_races() -> None:
     assert len(RACES_2026) == 20
     assert {"fl_sen", "tx_sen", "ga_sen", "nc_gov", "wi_gov"} <= race_ids
     assert RACES_2026_BY_ID["ga_gov"].state == "Georgia"
+
+
+def test_2026_nominee_registry_tracks_concluded_primaries() -> None:
+    assert NOMINEES_2026_BY_RACE["tx_sen"].republican.name == "Ken Paxton"
+    assert NOMINEES_2026_BY_RACE["nc_sen"].democratic.name == "Roy Cooper"
+    assert NOMINEES_2026_BY_RACE["ga_gov"].democratic.name == "Keisha Lance Bottoms"
+    assert "regular gubernatorial election" in NOMINEES_2026_BY_RACE["nc_gov"].notes
 
 
 def test_create_2026_election_model_preloads_all_races() -> None:
@@ -308,6 +316,11 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     assert race["office"] == "senate"
     assert race["state_code"] == "FL"
     assert race["status"] in {"republican", "democratic", "tossup"}
+
+    texas = next(race for race in payload["races"] if race["race_id"] == "tx_sen")
+    assert texas["candidate_a_name"] == "Ken Paxton"
+    assert texas["candidate_b_name"] == "James Talarico"
+    assert texas["nominee_last_verified"] == "2026-07-01"
 
 
 def test_export_public_forecasts_writes_static_json(tmp_path) -> None:

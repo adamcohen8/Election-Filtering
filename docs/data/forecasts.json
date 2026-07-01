@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:07:47.854193+00:00",
+  "generated_at": "2026-07-01T13:40:15.271776+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -13,7 +13,11 @@
       "state": "Alaska",
       "state_code": "AK",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -21,7 +25,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "az_gov",
@@ -30,7 +37,11 @@
       "state": "Arizona",
       "state_code": "AZ",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -38,7 +49,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "fl_gov",
@@ -47,7 +61,11 @@
       "state": "Florida",
       "state_code": "FL",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -55,7 +73,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "fl_sen",
@@ -64,7 +85,11 @@
       "state": "Florida",
       "state_code": "FL",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -72,7 +97,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "ga_gov",
@@ -81,7 +109,11 @@
       "state": "Georgia",
       "state_code": "GA",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Rick Jackson",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Keisha Lance Bottoms",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -89,7 +121,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.axios.com/local/atlanta/2026/06/17/georgia-governor-republican-primary-runoff-results",
+        "democratic": "https://www.axios.com/local/atlanta/2026/06/17/georgia-governor-republican-primary-runoff-results"
+      }
     },
     {
       "race_id": "ga_sen",
@@ -98,7 +136,11 @@
       "state": "Georgia",
       "state_code": "GA",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Mike Collins",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Jon Ossoff",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -106,7 +148,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.axios.com/local/atlanta/2026/06/17/georgia-primary-runoff-elections-mike-collins-derek-dooley",
+        "democratic": "https://www.axios.com/local/atlanta/2026/06/17/georgia-primary-runoff-elections-mike-collins-derek-dooley"
+      }
     },
     {
       "race_id": "ia_gov",
@@ -115,7 +163,11 @@
       "state": "Iowa",
       "state_code": "IA",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Zach Lahn",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Rob Sand",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -123,7 +175,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results",
+        "democratic": "https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results"
+      }
     },
     {
       "race_id": "ia_sen",
@@ -132,7 +190,11 @@
       "state": "Iowa",
       "state_code": "IA",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Ashley Hinson",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Josh Turek",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -140,7 +202,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results",
+        "democratic": "https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results"
+      }
     },
     {
       "race_id": "mi_gov",
@@ -149,7 +217,11 @@
       "state": "Michigan",
       "state_code": "MI",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -157,7 +229,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "mi_sen",
@@ -166,7 +241,11 @@
       "state": "Michigan",
       "state_code": "MI",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -174,7 +253,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "nc_gov",
@@ -183,7 +265,11 @@
       "state": "North Carolina",
       "state_code": "NC",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -191,7 +277,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": "North Carolina does not have a regular gubernatorial election in 2026; review whether this race should remain modeled.",
+      "nominee_sources": {}
     },
     {
       "race_id": "nc_sen",
@@ -200,7 +289,11 @@
       "state": "North Carolina",
       "state_code": "NC",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Michael Whatley",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Roy Cooper",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.3513,
       "candidate_b_share": 0.4758,
       "margin": -0.1245,
@@ -208,7 +301,13 @@
       "margin_of_error": 0.0467,
       "margin_of_error_percent": 4.67,
       "leader": "democratic",
-      "status": "democratic"
+      "status": "democratic",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
+        "democratic": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina"
+      }
     },
     {
       "race_id": "nh_gov",
@@ -217,7 +316,11 @@
       "state": "New Hampshire",
       "state_code": "NH",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -225,7 +328,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "nh_sen",
@@ -234,7 +340,11 @@
       "state": "New Hampshire",
       "state_code": "NH",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -242,7 +352,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     },
     {
       "race_id": "oh_gov",
@@ -251,7 +364,11 @@
       "state": "Ohio",
       "state_code": "OH",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Vivek Ramaswamy",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Amy Acton",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -259,7 +376,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.theguardian.com/us-news/2026/may/05/jon-husted-sherrod-brown-ohio-senate-primary",
+        "democratic": "https://www.theguardian.com/us-news/2026/may/05/jon-husted-sherrod-brown-ohio-senate-primary"
+      }
     },
     {
       "race_id": "oh_sen",
@@ -268,7 +391,11 @@
       "state": "Ohio",
       "state_code": "OH",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Jon Husted",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Sherrod Brown",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -276,7 +403,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.theguardian.com/us-news/2026/may/05/jon-husted-sherrod-brown-ohio-senate-primary",
+        "democratic": "https://www.theguardian.com/us-news/2026/may/05/jon-husted-sherrod-brown-ohio-senate-primary"
+      }
     },
     {
       "race_id": "pa_gov",
@@ -285,7 +418,11 @@
       "state": "Pennsylvania",
       "state_code": "PA",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Stacy Garrity",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Josh Shapiro",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -293,7 +430,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.axios.com/local/philadelphia/2026/05/20/primary-election-philadelphia-pennsylvania-josh-shapiro-stacy-garrity",
+        "democratic": "https://www.axios.com/local/philadelphia/2026/05/20/primary-election-philadelphia-pennsylvania-josh-shapiro-stacy-garrity"
+      }
     },
     {
       "race_id": "tx_gov",
@@ -302,7 +445,11 @@
       "state": "Texas",
       "state_code": "TX",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Greg Abbott",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "Gina Hinojosa",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -310,7 +457,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.houstonchronicle.com/politics/election/2026/article/governor-primary-results-21329304.php",
+        "democratic": "https://www.houstonchronicle.com/politics/election/2026/article/governor-primary-results-21329304.php"
+      }
     },
     {
       "race_id": "tx_sen",
@@ -319,7 +472,11 @@
       "state": "Texas",
       "state_code": "TX",
       "candidate_a_party": "Republican",
+      "candidate_a_name": "Ken Paxton",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
+      "candidate_b_name": "James Talarico",
+      "candidate_b_nominee_status": "nominee",
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -327,7 +484,13 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-01",
+      "nominee_note": null,
+      "nominee_sources": {
+        "republican": "https://www.thedailybeast.com/bombshell-texas-senate-race-poll-delivers-dire-warning-for-trump-with-paxton-and-talarico-tied/",
+        "democratic": "https://www.houstonchronicle.com/politics/texas-take/article/talarico-black-voters-democrat-convention-22322732.php"
+      }
     },
     {
       "race_id": "wi_gov",
@@ -336,7 +499,11 @@
       "state": "Wisconsin",
       "state_code": "WI",
       "candidate_a_party": "Republican",
+      "candidate_a_name": null,
+      "candidate_a_nominee_status": null,
       "candidate_b_party": "Democratic",
+      "candidate_b_name": null,
+      "candidate_b_nominee_status": null,
       "candidate_a_share": 0.4667,
       "candidate_b_share": 0.48,
       "margin": -0.0133,
@@ -344,7 +511,10 @@
       "margin_of_error": 0.3201,
       "margin_of_error_percent": 32.01,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "tossup",
+      "nominee_last_verified": null,
+      "nominee_note": null,
+      "nominee_sources": {}
     }
   ]
 }

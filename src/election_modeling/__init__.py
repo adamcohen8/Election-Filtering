@@ -27,6 +27,7 @@ from election_modeling.ingestion import (
     StructuredJSONSource,
     run_2026_ingestion,
 )
+from election_modeling.nominees import NOMINEES_2026_BY_RACE, Nominee, RaceNominees
 from election_modeling.persistence import (
     load_election_model,
     load_or_create_2026_election_model,
@@ -53,6 +54,8 @@ __all__ = [
     "IngestionResult",
     "KalmanState",
     "NormalizedPoll",
+    "NOMINEES_2026_BY_RACE",
+    "Nominee",
     "PARTY_IDS",
     "PartyIDCrosstab",
     "PartyID",
@@ -66,6 +69,7 @@ __all__ = [
     "RaceClassifier",
     "RaceKalmanFilter",
     "RaceModel",
+    "RaceNominees",
     "RaceSpec",
     "SENATE_2026_RACES",
     "STATE_INDEX",
