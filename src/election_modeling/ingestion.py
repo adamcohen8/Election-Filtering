@@ -43,13 +43,23 @@ class PartyIDCrosstab:
 
 
 @dataclass(frozen=True)
+class ToplineResult:
+    """Aggregate two-candidate ballot-test result."""
+
+    candidate_a_share: float
+    candidate_b_share: float
+    sample_size: int
+
+
+@dataclass(frozen=True)
 class NormalizedPoll:
     """A poll record after source-specific scraping and normalization."""
 
     poll_id: str
     pollster: str
     field_date: str
-    crosstab: PartyIDCrosstab
+    crosstab: PartyIDCrosstab | None = None
+    topline: ToplineResult | None = None
     race_id: str | None = None
     state: str | None = None
     office: Office | None = None
@@ -103,8 +113,14 @@ class NormalizedPoll:
             values[party_id] = (_parse_share(a_value), _parse_share(b_value))
             sample_sizes[party_id] = _parse_int(n_value)
 
-        if not values:
-            raise ValueError("poll row does not include any party-ID crosstabs")
+        crosstab = (
+            PartyIDCrosstab(values=values, subgroup_sample_sizes=sample_sizes)
+            if values
+            else None
+        )
+        topline = _parse_topline(normalized)
+        if crosstab is None and topline is None:
+            raise ValueError("poll row does not include crosstabs or topline fields")
 
         poll_id = _empty_to_none(_string_value(normalized.get("poll_id")))
         if poll_id is None:
@@ -114,7 +130,7 @@ class NormalizedPoll:
                 race_id=race_id,
                 state=state,
                 office=office,
-                values=values,
+                measurement=_measurement_payload(crosstab=crosstab, topline=topline),
                 source_url=source_url,
             )
 
@@ -122,7 +138,8 @@ class NormalizedPoll:
             poll_id=poll_id,
             pollster=pollster,
             field_date=field_date,
-            crosstab=PartyIDCrosstab(values=values, subgroup_sample_sizes=sample_sizes),
+            crosstab=crosstab,
+            topline=topline,
             race_id=race_id,
             state=state,
             office=office,
@@ -289,13 +306,25 @@ class PollIngestionPipeline:
                     continue
 
                 try:
-                    observation = poll.crosstab.to_observation(
-                        adjustment=self.adjustment_by_poll_id.get(poll.poll_id),
-                        pollster=poll.pollster,
-                        field_date=poll.field_date,
-                        extra_variance=self.extra_variance,
-                    )
-                    election.update(race_id, observation)
+                    if poll.crosstab is not None:
+                        observation = poll.crosstab.to_observation(
+                            adjustment=self.adjustment_by_poll_id.get(poll.poll_id),
+                            pollster=poll.pollster,
+                            field_date=poll.field_date,
+                            extra_variance=self.extra_variance,
+                        )
+                        election.update(race_id, observation)
+                    elif poll.topline is not None:
+                        election.races[race_id].update_topline(
+                            candidate_a_share=poll.topline.candidate_a_share,
+                            candidate_b_share=poll.topline.candidate_b_share,
+                            sample_size=poll.topline.sample_size,
+                            pollster=poll.pollster,
+                            field_date=poll.field_date,
+                            extra_variance=self.extra_variance,
+                        )
+                    else:
+                        raise ValueError("poll has no crosstab or topline measurement")
                 except Exception as exc:
                     errors.append(f"{poll.poll_id}: apply failed: {exc}")
                     continue
@@ -403,6 +432,48 @@ def _parse_int(value: object) -> int:
     return number
 
 
+def _parse_topline(row: Mapping[str, object]) -> ToplineResult | None:
+    a_value = _find_value(row, "topline_candidate_a", "topline_a", "overall_a")
+    b_value = _find_value(row, "topline_candidate_b", "topline_b", "overall_b")
+    n_value = _find_value(
+        row,
+        "topline_sample_size",
+        "topline_n",
+        "overall_sample_size",
+        "overall_n",
+    )
+    if a_value is None and b_value is None and n_value is None:
+        return None
+    if a_value is None or b_value is None or n_value is None:
+        raise ValueError("incomplete topline fields")
+
+    return ToplineResult(
+        candidate_a_share=_parse_share(a_value),
+        candidate_b_share=_parse_share(b_value),
+        sample_size=_parse_int(n_value),
+    )
+
+
+def _measurement_payload(
+    *,
+    crosstab: PartyIDCrosstab | None,
+    topline: ToplineResult | None,
+) -> Mapping[str, object]:
+    payload: dict[str, object] = {}
+    if crosstab is not None:
+        payload["crosstab"] = {
+            key: crosstab.values[key]
+            for key in sorted(crosstab.values)
+        }
+    if topline is not None:
+        payload["topline"] = {
+            "candidate_a": topline.candidate_a_share,
+            "candidate_b": topline.candidate_b_share,
+            "sample_size": topline.sample_size,
+        }
+    return payload
+
+
 def _stable_poll_id(
     *,
     pollster: str,
@@ -410,7 +481,7 @@ def _stable_poll_id(
     race_id: str | None,
     state: str | None,
     office: Office | None,
-    values: Mapping[PartyID, tuple[float, float]],
+    measurement: Mapping[str, object],
     source_url: str | None,
 ) -> str:
     payload = {
@@ -419,7 +490,7 @@ def _stable_poll_id(
         "race_id": race_id,
         "state": state,
         "office": office,
-        "values": {key: values[key] for key in sorted(values)},
+        "measurement": measurement,
         "source_url": source_url,
     }
     digest = hashlib.sha1(json.dumps(payload, sort_keys=True).encode("utf-8")).hexdigest()

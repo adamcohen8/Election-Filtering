@@ -8,7 +8,7 @@ from typing import Sequence
 import numpy as np
 
 from election_modeling.filters import KalmanState, RaceKalmanFilter
-from election_modeling.polls import PollObservation
+from election_modeling.polls import LinearPollObservation, PollObservation
 
 
 @dataclass(frozen=True)
@@ -122,6 +122,72 @@ class RaceModel:
 
     def update(self, observation: PollObservation) -> KalmanState:
         return self.filter.update(observation)
+
+    def update_topline(
+        self,
+        *,
+        candidate_a_share: float,
+        candidate_b_share: float,
+        sample_size: int,
+        pollster: str | None = None,
+        field_date: str | None = None,
+        extra_variance: float = 0.0,
+    ) -> KalmanState:
+        """Update from an aggregate ballot test when crosstabs are unavailable."""
+
+        if sample_size <= 0:
+            raise ValueError("topline sample size must be positive.")
+        if candidate_a_share < 0 or candidate_b_share < 0:
+            raise ValueError("topline shares must be non-negative.")
+        if candidate_a_share + candidate_b_share > 1:
+            raise ValueError("topline shares must sum to at most 1.")
+        if extra_variance < 0:
+            raise ValueError("extra_variance must be non-negative.")
+
+        values = np.asarray([candidate_a_share, candidate_b_share], dtype=float)
+        covariance = np.asarray(
+            [
+                [
+                    candidate_a_share * (1.0 - candidate_a_share) / sample_size,
+                    -candidate_a_share * candidate_b_share / sample_size,
+                ],
+                [
+                    -candidate_a_share * candidate_b_share / sample_size,
+                    candidate_b_share * (1.0 - candidate_b_share) / sample_size,
+                ],
+            ],
+            dtype=float,
+        )
+        covariance = covariance + np.eye(2, dtype=float) * extra_variance
+        design_matrix = np.asarray(
+            [
+                [
+                    self.electorate.republican,
+                    0.0,
+                    self.electorate.democratic,
+                    0.0,
+                    self.electorate.independent,
+                    0.0,
+                ],
+                [
+                    0.0,
+                    self.electorate.republican,
+                    0.0,
+                    self.electorate.democratic,
+                    0.0,
+                    self.electorate.independent,
+                ],
+            ],
+            dtype=float,
+        )
+        observation = LinearPollObservation(
+            values=values,
+            covariance=covariance,
+            design_matrix=design_matrix,
+            pollster=pollster,
+            field_date=field_date,
+        )
+        return self.filter.update_linear(observation)
 
     def forecast(self, *, z_score: float = 1.96) -> Forecast:
         """Forecast the top-line race margin from the current filtered state."""

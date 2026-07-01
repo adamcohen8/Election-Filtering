@@ -7,7 +7,7 @@ from typing import Sequence
 
 import numpy as np
 
-from election_modeling.polls import PollObservation
+from election_modeling.polls import LinearPollObservation, PollObservation
 
 
 def _symmetrize(matrix: np.ndarray) -> np.ndarray:
@@ -89,22 +89,50 @@ class RaceKalmanFilter:
         z = z_full[observed_indexes]
         r = observation.covariance[np.ix_(observed_indexes, observed_indexes)]
 
+        return self._update_linear(
+            values=z,
+            measurement_covariance=r,
+            design_matrix=h,
+        )
+
+    def update_linear(self, observation: LinearPollObservation) -> KalmanState:
+        """Update the state estimate with a custom linear poll observation."""
+
+        return self._update_linear(
+            values=observation.values,
+            measurement_covariance=observation.covariance,
+            design_matrix=observation.design_matrix,
+        )
+
+    def _update_linear(
+        self,
+        *,
+        values: np.ndarray,
+        measurement_covariance: np.ndarray,
+        design_matrix: np.ndarray,
+    ) -> KalmanState:
         predicted_mean = self.state.mean
         predicted_covariance = self.state.covariance
-        innovation = z - h @ predicted_mean
-        innovation_covariance = h @ predicted_covariance @ h.T + r
+        innovation = values - design_matrix @ predicted_mean
+        innovation_covariance = (
+            design_matrix @ predicted_covariance @ design_matrix.T
+            + measurement_covariance
+        )
         kalman_gain = (
             predicted_covariance
-            @ h.T
+            @ design_matrix.T
             @ np.linalg.pinv(innovation_covariance)
         )
 
         mean = predicted_mean + kalman_gain @ innovation
         identity = np.eye(6, dtype=float)
-        joseph = identity - kalman_gain @ h
-        covariance = joseph @ predicted_covariance @ joseph.T + kalman_gain @ r @ kalman_gain.T
+        joseph = identity - kalman_gain @ design_matrix
+        updated_covariance = (
+            joseph @ predicted_covariance @ joseph.T
+            + kalman_gain @ measurement_covariance @ kalman_gain.T
+        )
 
-        self.state = KalmanState(self._bounded(mean), covariance)
+        self.state = KalmanState(self._bounded(mean), updated_covariance)
         return self.state
 
     def _bounded(self, mean: np.ndarray) -> np.ndarray:

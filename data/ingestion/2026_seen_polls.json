@@ -1,5 +1,14 @@
 {
   "seen_poll_ids": [
-    "catawba-yougov_nc_sen_2026-06-01_2026-06-10_yougov-27"
+    "catawba-yougov_nc_sen_2026-06-01_2026-06-10_yougov-27",
+    "cygnal_ia_gov_2026-06-16_2026-06-19_topline",
+    "echelon_netchoice_ga_gov_2026-04-03_2026-04-09_topline",
+    "echelon_netchoice_ga_sen_2026-04-03_2026-04-09_topline",
+    "echelon_netchoice_ia_sen_2026-04-03_2026-04-09_topline",
+    "echelon_netchoice_oh_gov_2026-04-03_2026-04-09_topline",
+    "echelon_netchoice_oh_sen_2026-04-03_2026-04-09_topline",
+    "slingshot_tx_gov_2026-04-17_2026-04-20_topline",
+    "susquehanna_pa_gov_2026-03-18_2026-03-29_topline",
+    "tpor_tx_sen_2026-04-17_2026-04-20_topline"
   ]
 }

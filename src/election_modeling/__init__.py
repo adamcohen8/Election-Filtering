@@ -25,6 +25,7 @@ from election_modeling.ingestion import (
     StaticPollSource,
     StructuredCSVSource,
     StructuredJSONSource,
+    ToplineResult,
     run_2026_ingestion,
 )
 from election_modeling.nominees import NOMINEES_2026_BY_RACE, Nominee, RaceNominees
@@ -77,6 +78,7 @@ __all__ = [
     "StaticPollSource",
     "StructuredCSVSource",
     "StructuredJSONSource",
+    "ToplineResult",
     "create_2026_election_model",
     "export_public_forecasts",
     "load_election_model",

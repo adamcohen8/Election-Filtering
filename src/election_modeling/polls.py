@@ -40,6 +40,39 @@ class PollAdjustment:
 
 
 @dataclass(frozen=True)
+class LinearPollObservation:
+    """A noisy poll observation with a custom linear measurement matrix."""
+
+    values: np.ndarray
+    covariance: np.ndarray
+    design_matrix: np.ndarray
+    pollster: str | None = None
+    field_date: str | None = None
+
+    def __post_init__(self) -> None:
+        values = np.asarray(self.values, dtype=float)
+        covariance = np.asarray(self.covariance, dtype=float)
+        design_matrix = np.asarray(self.design_matrix, dtype=float)
+        if values.ndim != 1:
+            raise ValueError("linear observation values must be a vector.")
+        if covariance.shape != (values.size, values.size):
+            raise ValueError("linear observation covariance shape does not match values.")
+        if design_matrix.shape != (values.size, 6):
+            raise ValueError("linear observation design matrix must have 6 columns.")
+        if not np.all(np.isfinite(values)):
+            raise ValueError("linear observation values must contain finite values.")
+        if not np.all(np.isfinite(covariance)):
+            raise ValueError("linear observation covariance must contain finite values.")
+        if not np.all(np.isfinite(design_matrix)):
+            raise ValueError("linear observation design matrix must contain finite values.")
+        if np.any(np.diag(covariance) <= 0):
+            raise ValueError("linear observation covariance diagonal must be positive.")
+        object.__setattr__(self, "values", values)
+        object.__setattr__(self, "covariance", covariance)
+        object.__setattr__(self, "design_matrix", design_matrix)
+
+
+@dataclass(frozen=True)
 class PollObservation:
     """A noisy poll observation of the six latent support states.
 

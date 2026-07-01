@@ -20,6 +20,7 @@ from election_modeling import (
     public_forecast_payload,
     run_2026_poll_io,
     save_election_model,
+    ToplineResult,
 )
 
 
@@ -107,6 +108,22 @@ def test_missing_party_id_cells_are_ignored() -> None:
     model.update(observation)
 
     np.testing.assert_allclose(model.filter.state.mean[:2], prior_republican)
+
+
+def test_topline_update_moves_weighted_forecast() -> None:
+    model = RaceModel.default(
+        electorate=Electorate(republican=0.36, democratic=0.34, independent=0.30),
+    )
+
+    before = model.forecast().margin
+    model.update_topline(
+        candidate_a_share=0.54,
+        candidate_b_share=0.42,
+        sample_size=1_000,
+    )
+    after = model.forecast().margin
+
+    assert after > before
 
 
 def test_election_model_forecasts_multiple_races() -> None:
@@ -225,6 +242,34 @@ def test_ingestion_pipeline_skips_duplicate_poll_ids() -> None:
     assert second.duplicate_poll_ids == ("duplicate-nc-sen",)
 
 
+def test_ingestion_pipeline_applies_topline_poll() -> None:
+    election = create_2026_election_model()
+    before = election.forecast("oh_sen").margin
+    poll = NormalizedPoll(
+        poll_id="topline-oh-sen",
+        pollster="Example Polling",
+        field_date="2026-04-15",
+        race_id="oh_sen",
+        candidate_a="Jon Husted",
+        candidate_b="Sherrod Brown",
+        topline=ToplineResult(
+            candidate_a_share=0.52,
+            candidate_b_share=0.43,
+            sample_size=800,
+        ),
+    )
+    pipeline = PollIngestionPipeline(
+        sources=(StaticPollSource([poll]),),
+        ledger=IngestionLedger(),
+    )
+
+    result = pipeline.run(election)
+
+    assert result.errors == ()
+    assert result.applied[0].race_id == "oh_sen"
+    assert election.forecast("oh_sen").margin > before
+
+
 def test_normalized_poll_from_mapping_parses_wide_crosstab_row() -> None:
     poll = NormalizedPoll.from_mapping(
         {
@@ -247,6 +292,26 @@ def test_normalized_poll_from_mapping_parses_wide_crosstab_row() -> None:
     assert poll.race_id is None
     assert poll.office == "governor"
     assert poll.crosstab.values["democratic"] == (0.91, 0.06)
+
+
+def test_normalized_poll_from_mapping_parses_topline_row() -> None:
+    poll = NormalizedPoll.from_mapping(
+        {
+            "pollster": "Example Polling",
+            "field_date": "2026-04-09",
+            "race_id": "ga_sen",
+            "candidate_a": "Mike Collins",
+            "candidate_b": "Jon Ossoff",
+            "topline_a": "44%",
+            "topline_b": "51%",
+            "topline_n": "407",
+        }
+    )
+
+    assert poll.crosstab is None
+    assert poll.topline.candidate_a_share == 0.44
+    assert poll.topline.candidate_b_share == 0.51
+    assert poll.topline.sample_size == 407
 
 
 def test_election_model_snapshot_round_trips(tmp_path) -> None:
