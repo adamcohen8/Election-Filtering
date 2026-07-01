@@ -202,11 +202,4 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
             source_url="https://www.axios.com/local/philadelphia/2026/05/20/primary-election-philadelphia-pennsylvania-josh-shapiro-stacy-garrity",
         ),
     ),
-    "nc_gov": RaceNominees(
-        race_id="nc_gov",
-        notes=(
-            "North Carolina does not have a regular gubernatorial election in "
-            "2026; review whether this race should remain modeled."
-        ),
-    ),
 }

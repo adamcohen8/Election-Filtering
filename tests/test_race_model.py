@@ -113,7 +113,7 @@ def test_election_model_forecasts_multiple_races() -> None:
     election = ElectionModel.from_electorates(
         {
             "az_sen": Electorate(republican=0.36, democratic=0.34, independent=0.30),
-            "nc_gov": Electorate(republican=0.37, democratic=0.33, independent=0.30),
+            "pa_gov": Electorate(republican=0.37, democratic=0.33, independent=0.30),
         }
     )
 
@@ -133,15 +133,16 @@ def test_election_model_forecasts_multiple_races() -> None:
     election.update("az_sen", observation)
     forecasts = election.forecast_all()
 
-    assert set(forecasts) == {"az_sen", "nc_gov"}
-    assert forecasts["az_sen"].margin != forecasts["nc_gov"].margin
+    assert set(forecasts) == {"az_sen", "pa_gov"}
+    assert forecasts["az_sen"].margin != forecasts["pa_gov"].margin
 
 
 def test_2026_registry_contains_initial_senate_and_governor_races() -> None:
     race_ids = {race.race_id for race in RACES_2026}
 
-    assert len(RACES_2026) == 20
-    assert {"fl_sen", "tx_sen", "ga_sen", "nc_gov", "wi_gov"} <= race_ids
+    assert len(RACES_2026) == 19
+    assert {"fl_sen", "tx_sen", "ga_sen", "pa_gov", "wi_gov"} <= race_ids
+    assert "nc_gov" not in race_ids
     assert RACES_2026_BY_ID["ga_gov"].state == "Georgia"
 
 
@@ -149,7 +150,7 @@ def test_2026_nominee_registry_tracks_concluded_primaries() -> None:
     assert NOMINEES_2026_BY_RACE["tx_sen"].republican.name == "Ken Paxton"
     assert NOMINEES_2026_BY_RACE["nc_sen"].democratic.name == "Roy Cooper"
     assert NOMINEES_2026_BY_RACE["ga_gov"].democratic.name == "Keisha Lance Bottoms"
-    assert "regular gubernatorial election" in NOMINEES_2026_BY_RACE["nc_gov"].notes
+    assert "nc_gov" not in NOMINEES_2026_BY_RACE
 
 
 def test_create_2026_election_model_preloads_all_races() -> None:
@@ -202,10 +203,10 @@ def test_ingestion_pipeline_classifies_and_updates_race() -> None:
 def test_ingestion_pipeline_skips_duplicate_poll_ids() -> None:
     election = create_2026_election_model()
     poll = NormalizedPoll(
-        poll_id="duplicate-nc-gov",
+        poll_id="duplicate-nc-sen",
         pollster="Example Polling",
         field_date="2026-04-01",
-        race_id="nc_gov",
+        race_id="nc_sen",
         crosstab=PartyIDCrosstab(
             values={"independent": (0.60, 0.35)},
             subgroup_sample_sizes={"independent": 250},
@@ -221,7 +222,7 @@ def test_ingestion_pipeline_skips_duplicate_poll_ids() -> None:
 
     assert len(first.applied) == 1
     assert second.applied == ()
-    assert second.duplicate_poll_ids == ("duplicate-nc-gov",)
+    assert second.duplicate_poll_ids == ("duplicate-nc-sen",)
 
 
 def test_normalized_poll_from_mapping_parses_wide_crosstab_row() -> None:
@@ -277,10 +278,10 @@ def test_election_model_snapshot_round_trips(tmp_path) -> None:
 
 def test_run_2026_poll_io_persists_model_and_ledger(tmp_path) -> None:
     poll = NormalizedPoll(
-        poll_id="automation-nc-gov",
+        poll_id="automation-nc-sen",
         pollster="Example Polling",
         field_date="2026-06-15",
-        race_id="nc_gov",
+        race_id="nc_sen",
         crosstab=PartyIDCrosstab(
             values={"independent": (0.62, 0.31)},
             subgroup_sample_sizes={"independent": 300},
@@ -302,7 +303,7 @@ def test_run_2026_poll_io_persists_model_and_ledger(tmp_path) -> None:
 
     assert len(first.result.applied) == 1
     assert second.result.applied == ()
-    assert second.result.duplicate_poll_ids == ("automation-nc-gov",)
+    assert second.result.duplicate_poll_ids == ("automation-nc-sen",)
     assert snapshot_path.exists()
     assert ledger_path.exists()
 
@@ -332,4 +333,4 @@ def test_export_public_forecasts_writes_static_json(tmp_path) -> None:
     )
 
     assert output_path.exists()
-    assert len(payload["races"]) == 20
+    assert len(payload["races"]) == 19

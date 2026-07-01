@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T13:40:15.271776+00:00",
+  "generated_at": "2026-07-01T13:42:59.646209+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -256,30 +256,6 @@
       "status": "tossup",
       "nominee_last_verified": null,
       "nominee_note": null,
-      "nominee_sources": {}
-    },
-    {
-      "race_id": "nc_gov",
-      "cycle": 2026,
-      "office": "governor",
-      "state": "North Carolina",
-      "state_code": "NC",
-      "candidate_a_party": "Republican",
-      "candidate_a_name": null,
-      "candidate_a_nominee_status": null,
-      "candidate_b_party": "Democratic",
-      "candidate_b_name": null,
-      "candidate_b_nominee_status": null,
-      "candidate_a_share": 0.4667,
-      "candidate_b_share": 0.48,
-      "margin": -0.0133,
-      "margin_percent": -1.33,
-      "margin_of_error": 0.3201,
-      "margin_of_error_percent": 32.01,
-      "leader": "democratic",
-      "status": "tossup",
-      "nominee_last_verified": "2026-07-01",
-      "nominee_note": "North Carolina does not have a regular gubernatorial election in 2026; review whether this race should remain modeled.",
       "nominee_sources": {}
     },
     {

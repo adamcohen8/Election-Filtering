@@ -43,7 +43,6 @@ GOVERNOR_2026_STATES: tuple[str, ...] = (
     "Florida",
     "Georgia",
     "Texas",
-    "North Carolina",
     "New Hampshire",
     "Iowa",
     "Pennsylvania",
@@ -105,7 +104,7 @@ def create_2026_election_model(
     """Create an election model preloaded with the initial 2026 race list.
 
     ``electorates`` is keyed by race ID, for example ``"fl_sen"`` or
-    ``"nc_gov"``. Races without a supplied electorate use
+    ``"pa_gov"``. Races without a supplied electorate use
     ``default_electorate``; the package default is an intentionally neutral
     placeholder so the model can be built before real electorate forecasts land.
     """
