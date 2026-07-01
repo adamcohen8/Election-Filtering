@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:54:55.091067+00:00",
+  "generated_at": "2026-07-01T09:07:47.854193+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -201,14 +201,14 @@
       "state_code": "NC",
       "candidate_a_party": "Republican",
       "candidate_b_party": "Democratic",
-      "candidate_a_share": 0.4667,
-      "candidate_b_share": 0.48,
-      "margin": -0.0133,
-      "margin_percent": -1.33,
-      "margin_of_error": 0.3201,
-      "margin_of_error_percent": 32.01,
+      "candidate_a_share": 0.3513,
+      "candidate_b_share": 0.4758,
+      "margin": -0.1245,
+      "margin_percent": -12.45,
+      "margin_of_error": 0.0467,
+      "margin_of_error_percent": 4.67,
       "leader": "democratic",
-      "status": "tossup"
+      "status": "democratic"
     },
     {
       "race_id": "nh_gov",

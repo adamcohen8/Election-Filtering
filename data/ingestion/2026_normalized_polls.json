@@ -1,0 +1,25 @@
+{
+  "polls": [
+    {
+      "poll_id": "catawba-yougov_nc_sen_2026-06-01_2026-06-10_yougov-27",
+      "pollster": "Catawba College/YouGov",
+      "field_date": "2026-06-10",
+      "race_id": "nc_sen",
+      "state": "North Carolina",
+      "office": "senate",
+      "candidate_a": "Michael Whatley",
+      "candidate_b": "Roy Cooper",
+      "source_url": "https://www.catawba.edu/news/all-news/2026/yougov-27/",
+      "text": "North Carolina U.S. Senate likely voter ballot test, June 1-10 2026, Catawba College/YouGov. Candidate A is the Republican, Michael Whatley; candidate B is the Democrat, Roy Cooper.",
+      "republican_a": 0.7197231833910035,
+      "republican_b": 0.10380622837370242,
+      "republican_n": 289,
+      "democratic_a": 0.09900990099009901,
+      "democratic_b": 0.8250825082508251,
+      "democratic_n": 303,
+      "independent_a": 0.2290909090909091,
+      "independent_b": 0.5018181818181818,
+      "independent_n": 275
+    }
+  ]
+}
