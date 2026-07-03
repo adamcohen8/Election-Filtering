@@ -1,5 +1,78 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-03
+
+### Sources Searched
+
+- Live web searches for polls released since the 2026-07-02 run across the modeled 2026 Senate races: Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.
+- Live web searches for polls released since the 2026-07-02 run across the modeled 2026 governor races: Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- New York Times/Siena battleground Senate crosstab package, published July 1 and modified July 2, with state crosstab pages for Alaska, Iowa, Maine, North Carolina, Ohio, and Texas.
+- Guardian live coverage item linking to the New York Times/Siena battleground Senate polling package.
+- Search-surfaced public aggregation and race pages for 2026 Senate and governor polling, including Race to the WH/RealClearPolling-style public tables and current public race polling summaries.
+- Pollster/source-specific searches for July 2026 releases and crosstabs from Emerson College Polling, SurveyUSA, YouGov, Quinnipiac, Marist, Cygnal, Quantus Insights, and other surfaced public pollster pages.
+
+### Polls Applied
+
+- `nyt-siena_ak_sen_2026-06-15_2026-06-29_crosstab` -> `ak_sen`
+  - Pollster: New York Times/Siena College.
+  - Field dates: June 15-29, 2026; model field date stored as 2026-06-29.
+  - Candidate A: Dan Sullivan (Republican). Candidate B: Mary Peltola (Democrat).
+  - Party-ID crosstabs from the combined Senate ballot including leaners:
+    - Republican self-ID, n=158: Sullivan 0.93, Peltola 0.06.
+    - Democratic self-ID, n=82: Sullivan 0.05, Peltola 0.93.
+    - Independent self-ID, n=288: Sullivan 0.38, Peltola 0.54.
+- `nyt-siena_ia_sen_2026-06-15_2026-06-27_crosstab` -> `ia_sen`
+  - Pollster: New York Times/Siena College.
+  - Field dates: June 15-27, 2026; model field date stored as 2026-06-27.
+  - Candidate A: Ashley Hinson (Republican). Candidate B: Josh Turek (Democrat).
+  - Party-ID crosstabs from the combined Senate ballot including leaners:
+    - Republican self-ID, n=191: Hinson 0.95, Turek 0.03.
+    - Democratic self-ID, n=166: Hinson 0.01, Turek 0.98.
+    - Independent self-ID, n=218: Hinson 0.42, Turek 0.48.
+- `nyt-siena_nc_sen_2026-06-15_2026-06-27_crosstab` -> `nc_sen`
+  - Pollster: New York Times/Siena College.
+  - Field dates: June 15-27, 2026; model field date stored as 2026-06-27.
+  - Candidate A: Michael Whatley (Republican). Candidate B: Roy Cooper (Democrat).
+  - Party-ID crosstabs from the combined Senate ballot including leaners:
+    - Republican self-ID, n=183: Whatley 0.91, Cooper 0.04.
+    - Democratic self-ID, n=186: Whatley 0.02, Cooper 0.96.
+    - Independent self-ID, n=208: Whatley 0.40, Cooper 0.52.
+- `nyt-siena_oh_sen_2026-06-15_2026-06-28_crosstab` -> `oh_sen`
+  - Pollster: New York Times/Siena College.
+  - Field dates: June 15-28, 2026; model field date stored as 2026-06-28.
+  - Candidate A: Jon Husted (Republican). Candidate B: Sherrod Brown (Democrat).
+  - Party-ID crosstabs from the combined Senate ballot including leaners:
+    - Republican self-ID, n=232: Husted 0.95, Brown 0.05.
+    - Democratic self-ID, n=194: Husted 0.02, Brown 0.96.
+    - Independent self-ID, n=158: Husted 0.36, Brown 0.58.
+- `nyt-siena_tx_sen_2026-06-19_2026-06-27_crosstab` -> `tx_sen`
+  - Pollster: New York Times/Siena College.
+  - Field dates: June 19-27, 2026; model field date stored as 2026-06-27.
+  - Candidate A: Ken Paxton (Republican). Candidate B: James Talarico (Democrat).
+  - Party-ID crosstabs from the combined Senate ballot including leaners:
+    - Republican self-ID, n=251: Paxton 0.91, Talarico 0.05.
+    - Democratic self-ID, n=194: Paxton 0.03, Talarico 0.94.
+    - Independent self-ID, n=173: Paxton 0.31, Talarico 0.58.
+
+### Polls Skipped As Duplicates
+
+- None.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- None newly released since the prior run. The new NYT/Siena modeled-state Senate polls had explicit Democratic, Republican, and Independent party-ID rows and subgroup sample sizes.
+- No newly released modeled governor poll with public party-ID crosstabs was found.
+
+### Unclassified Polls
+
+- New York Times/Siena College Maine Senate crosstab release, June 2026: reviewed as part of the battleground package but not ingested because Maine Senate is not in the modeled race list.
+
+### Extraction Uncertainties
+
+- NYT/Siena also publishes party-registration columns for Alaska, Iowa, and North Carolina; these were not used. The extracted rows use the `Party ID` columns labeled Democratic, Republican, and Independent.
+- The extracted candidate shares are rounded percentages as published in the public NYT/Siena crosstab tables.
+- The applied ballot tables are the combined U.S. Senate ballot including leaners; volunteered another-candidate and don't-know/refused shares were left outside the two-candidate Kalman observation.
+
 ## 2026-07-02
 
 ### Sources Searched
