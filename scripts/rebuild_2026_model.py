@@ -11,7 +11,7 @@ from election_modeling.ingestion import (
     StructuredJSONSource,
 )
 from election_modeling.persistence import save_election_model
-from election_modeling.public import export_public_forecasts
+from election_modeling.public import export_public_forecasts, export_public_race_history
 
 
 def main() -> None:
@@ -36,6 +36,7 @@ def main() -> None:
 
     save_election_model(election, snapshot_path)
     export_public_forecasts(snapshot_path=snapshot_path, output_path=public_path)
+    export_public_race_history(feed_path=feed_path)
     print(f"applied={len(result.applied)} duplicates={len(result.duplicate_poll_ids)}")
 
 

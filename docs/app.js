@@ -205,6 +205,8 @@ const governorIncumbentParties = {
 const map = document.querySelector("#state-map");
 const mapWrap = document.querySelector(".map-wrap");
 const tooltip = document.querySelector("#map-tooltip");
+const dashboardPage = document.querySelector("#dashboard-page");
+const racePage = document.querySelector("#race-page");
 const tabs = document.querySelectorAll(".tab");
 const modeledCount = document.querySelector("#modeled-count");
 const redCount = document.querySelector("#red-count");
@@ -236,10 +238,26 @@ const governorRepublicanBar = document.querySelector("#governor-republican-bar")
 const governorDemocraticBar = document.querySelector("#governor-democratic-bar");
 const governorTossupBar = document.querySelector("#governor-tossup-bar");
 const governorMakeupCard = document.querySelector("#governor-makeup-card");
+const raceOffice = document.querySelector("#race-office");
+const raceTitle = document.querySelector("#race-title");
+const raceStatus = document.querySelector("#race-status");
+const raceLeader = document.querySelector("#race-leader");
+const raceMargin = document.querySelector("#race-margin");
+const raceMoe = document.querySelector("#race-moe");
+const raceRating = document.querySelector("#race-rating");
+const raceRepublicanLabel = document.querySelector("#race-republican-label");
+const raceDemocraticLabel = document.querySelector("#race-democratic-label");
+const raceRepublicanShare = document.querySelector("#race-republican-share");
+const raceDemocraticShare = document.querySelector("#race-democratic-share");
+const raceBar = document.querySelector("#race-bar");
+const raceBarLeft = document.querySelector("#race-bar-left");
+const raceBarRight = document.querySelector("#race-bar-right");
+const raceChart = document.querySelector("#race-chart");
 
 let selectedOffice = "senate";
 let selectedState = null;
 let forecastPayload = { generated_at: null, races: [] };
+let raceHistoryPayload = { generated_at: null, races: [] };
 let stateFeatures = [];
 let tooltipPinnedUntil = 0;
 
@@ -299,18 +317,22 @@ function renderMap() {
     .on("focus", (event, feature) => showTooltip(event, feature))
     .on("blur", hideTooltip)
     .on("click", (event, feature) => {
-      const tooltipEvent = {
-        clientX: event.clientX,
-        clientY: event.clientY,
-      };
-      selectFeature(feature);
-      tooltipPinnedUntil = Date.now() + 900;
-      setTimeout(() => showTooltip(tooltipEvent, feature), 120);
+      if (!openRaceForFeature(feature)) {
+        const tooltipEvent = {
+          clientX: event.clientX,
+          clientY: event.clientY,
+        };
+        selectFeature(feature);
+        tooltipPinnedUntil = Date.now() + 900;
+        setTimeout(() => showTooltip(tooltipEvent, feature), 120);
+      }
     })
     .on("keydown", (event, feature) => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
-        selectFeature(feature);
+        if (!openRaceForFeature(feature)) {
+          selectFeature(feature);
+        }
       }
     })
     .append("title")
@@ -353,6 +375,16 @@ function selectFeature(feature) {
   selectedState = state.code;
   renderMap();
   renderDetail();
+}
+
+function openRaceForFeature(feature) {
+  const state = stateForFeature(feature);
+  const race = state ? racesByState(selectedOffice).get(state.code) : null;
+  if (!race) {
+    return false;
+  }
+  window.location.hash = `race/${race.race_id}`;
+  return true;
 }
 
 function showTooltip(event, feature) {
@@ -588,7 +620,13 @@ function stateForFeature(feature) {
 }
 
 function officeLabel(office) {
-  return office === "senate" ? "Senate" : "Governor";
+  if (office === "senate") {
+    return "Senate";
+  }
+  if (office === "governor") {
+    return "Governor";
+  }
+  return "Generic Ballot";
 }
 
 function leaderLabel(race) {
@@ -642,6 +680,198 @@ function hasForecastData(race) {
   return race?.data_available !== false;
 }
 
+function renderRoute() {
+  const raceId = raceIdFromHash();
+  if (raceId) {
+    renderRacePage(raceId);
+    return;
+  }
+
+  dashboardPage.hidden = false;
+  racePage.hidden = true;
+  renderMap();
+  renderDetail();
+}
+
+function raceIdFromHash() {
+  const match = window.location.hash.match(/^#race\/([a-z0-9_-]+)$/i);
+  return match ? match[1] : null;
+}
+
+function renderRacePage(raceId) {
+  const race = forecastPayload.races.find((item) => item.race_id === raceId);
+  if (!race) {
+    window.location.hash = "";
+    return;
+  }
+
+  dashboardPage.hidden = true;
+  racePage.hidden = false;
+  hideTooltip();
+
+  raceOffice.textContent = officeLabel(race.office);
+  raceTitle.textContent = raceTitleLabel(race);
+  raceStatus.textContent = hasForecastData(race) ? statusLabel(race.status) : "No data available";
+  raceStatus.className = `race-status ${hasForecastData(race) ? race.status : "tossup"}`;
+  raceLeader.textContent = leaderLabel(race);
+  raceMargin.textContent = signedPercent(race.margin_percent);
+  raceMoe.textContent =
+    typeof race.margin_of_error_percent === "number"
+      ? `±${race.margin_of_error_percent.toFixed(2)} pts`
+      : "No data available";
+  raceRating.textContent = statusLabel(race.status);
+  raceRepublicanLabel.textContent = `${candidateLabel(race, "republican")} share`;
+  raceDemocraticLabel.textContent = `${candidateLabel(race, "democratic")} share`;
+  raceRepublicanShare.textContent =
+    typeof race.candidate_a_share === "number"
+      ? `${(race.candidate_a_share * 100).toFixed(1)}%`
+      : "No data available";
+  raceDemocraticShare.textContent =
+    typeof race.candidate_b_share === "number"
+      ? `${(race.candidate_b_share * 100).toFixed(1)}%`
+      : "No data available";
+
+  const total =
+    typeof race.candidate_a_share === "number" && typeof race.candidate_b_share === "number"
+      ? race.candidate_a_share + race.candidate_b_share
+      : 0;
+  const republicanWidth = total > 0 ? (race.candidate_a_share / total) * 100 : 50;
+  raceBar.classList.toggle("is-empty", !hasForecastData(race));
+  raceBarLeft.style.width = `${republicanWidth}%`;
+  raceBarRight.style.width = `${100 - republicanWidth}%`;
+
+  renderRaceChart(race);
+}
+
+function renderRaceChart(race) {
+  const history = raceHistoryPayload.races.find((item) => item.race_id === race.race_id);
+  const modelPoints = (history?.model_points ?? [])
+    .filter((point) => typeof point.candidate_a_share === "number" && typeof point.candidate_b_share === "number")
+    .map((point) => ({ ...point, parsedDate: parseDate(point.date) }))
+    .filter((point) => point.parsedDate);
+  const pollPoints = (history?.poll_points ?? [])
+    .filter((point) => typeof point.candidate_a_share === "number" && typeof point.candidate_b_share === "number")
+    .map((point) => ({ ...point, parsedDate: parseDate(point.date) }))
+    .filter((point) => point.parsedDate);
+
+  raceChart.innerHTML = "";
+  if (!hasForecastData(race) || modelPoints.length < 2) {
+    raceChart.classList.add("is-empty");
+    raceChart.textContent = hasForecastData(race) ? "No polls available" : "No data available";
+    return;
+  }
+
+  raceChart.classList.remove("is-empty");
+
+  const width = 820;
+  const height = 390;
+  const margin = { top: 24, right: 28, bottom: 46, left: 54 };
+  const innerWidth = width - margin.left - margin.right;
+  const innerHeight = height - margin.top - margin.bottom;
+  const allDates = [...modelPoints, ...pollPoints].map((point) => point.parsedDate);
+  const allShares = [
+    ...modelPoints.flatMap((point) => [point.candidate_a_share, point.candidate_b_share]),
+    ...pollPoints.flatMap((point) => [point.candidate_a_share, point.candidate_b_share]),
+  ];
+  const dateExtent = d3.extent(allDates);
+  const shareExtent = d3.extent(allShares);
+  const xDomain = paddedDateDomain(dateExtent);
+  const yMin = Math.max(0, (shareExtent[0] ?? 0.35) - 0.04);
+  const yMax = Math.min(1, (shareExtent[1] ?? 0.55) + 0.04);
+  const yDomain = yMin === yMax ? [yMin - 0.02, yMax + 0.02] : [yMin, yMax];
+
+  const x = d3.scaleTime().domain(xDomain).range([0, innerWidth]);
+  const y = d3.scaleLinear().domain(yDomain).nice().range([innerHeight, 0]);
+  const svg = d3
+    .select(raceChart)
+    .append("svg")
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("role", "img")
+    .attr("aria-label", `${raceTitleLabel(race)} model prediction over time`);
+  const plot = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+  plot
+    .append("g")
+    .attr("class", "chart-grid")
+    .call(d3.axisLeft(y).ticks(5).tickSize(-innerWidth).tickFormat(""));
+
+  plot
+    .append("g")
+    .attr("class", "chart-axis")
+    .attr("transform", `translate(0,${innerHeight})`)
+    .call(d3.axisBottom(x).ticks(5).tickSizeOuter(0));
+
+  plot
+    .append("g")
+    .attr("class", "chart-axis")
+    .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(".0%")));
+
+  const republicanLine = d3
+    .line()
+    .x((point) => x(point.parsedDate))
+    .y((point) => y(point.candidate_a_share))
+    .curve(d3.curveMonotoneX);
+  const democraticLine = d3
+    .line()
+    .x((point) => x(point.parsedDate))
+    .y((point) => y(point.candidate_b_share))
+    .curve(d3.curveMonotoneX);
+
+  plot
+    .append("path")
+    .datum(modelPoints)
+    .attr("class", "model-line republican")
+    .attr("d", republicanLine);
+  plot
+    .append("path")
+    .datum(modelPoints)
+    .attr("class", "model-line democratic")
+    .attr("d", democraticLine);
+
+  drawPollMarkers(plot, pollPoints, x, y, "candidate_a_share", "republican", race);
+  drawPollMarkers(plot, pollPoints, x, y, "candidate_b_share", "democratic", race);
+}
+
+function drawPollMarkers(plot, pollPoints, x, y, shareKey, party, race) {
+  const symbol = d3.symbol().type(d3.symbolCross).size(76);
+  plot
+    .append("g")
+    .attr("class", `poll-markers ${party}`)
+    .selectAll("path")
+    .data(pollPoints)
+    .join("path")
+    .attr("class", "poll-marker")
+    .attr("transform", (point) => `translate(${x(point.parsedDate)},${y(point[shareKey])})`)
+    .attr("d", symbol)
+    .append("title")
+    .text((point) => {
+      const label = party === "republican" ? candidateLabel(race, "republican") : candidateLabel(race, "democratic");
+      return `${point.pollster} (${point.date}): ${label} ${(point[shareKey] * 100).toFixed(1)}%`;
+    });
+}
+
+function parseDate(value) {
+  const date = new Date(`${value}T00:00:00`);
+  return Number.isNaN(date.valueOf()) ? null : date;
+}
+
+function paddedDateDomain(extent) {
+  const start = extent[0] ?? new Date();
+  const end = extent[1] ?? start;
+  if (start.valueOf() !== end.valueOf()) {
+    return [start, end];
+  }
+  const oneDay = 24 * 60 * 60 * 1000;
+  return [new Date(start.valueOf() - oneDay), new Date(end.valueOf() + oneDay)];
+}
+
+function raceTitleLabel(race) {
+  if (race.race_id === "us_house_generic") {
+    return "Generic Ballot";
+  }
+  return `${race.state} ${officeLabel(race.office)}`;
+}
+
 function defaultStateForOffice(office) {
   const races = forecastPayload.races.filter((race) => race.office === office);
   const preferred = "FL";
@@ -661,8 +891,7 @@ tabs.forEach((tab) => {
       item.classList.toggle("is-active", active);
       item.setAttribute("aria-selected", String(active));
     });
-    renderMap();
-    renderDetail();
+    renderRoute();
   });
 });
 
@@ -673,6 +902,12 @@ Promise.all([
     }
     return response.json();
   }),
+  fetch("data/race-history.json", { cache: "no-store" }).then((response) => {
+    if (!response.ok) {
+      throw new Error(`Race history unavailable: ${response.status}`);
+    }
+    return response.json();
+  }),
   fetch("data/states-10m.json").then((response) => {
     if (!response.ok) {
       throw new Error(`Map data unavailable: ${response.status}`);
@@ -680,18 +915,19 @@ Promise.all([
     return response.json();
   }),
 ])
-  .then(([payload, topology]) => {
+  .then(([payload, history, topology]) => {
     forecastPayload = payload;
+    raceHistoryPayload = history;
     window.usTopology = topology;
     stateFeatures = topojson
       .feature(topology, topology.objects.states)
       .features.filter((feature) => fipsToState.has(String(feature.id).padStart(2, "0")));
     selectedState = defaultStateForOffice(selectedOffice);
-    renderMap();
-    renderDetail();
+    renderRoute();
   })
   .catch(() => {
-    renderMap();
-    renderDetail();
+    renderRoute();
     updatedAt.textContent = "Data unavailable";
   });
+
+window.addEventListener("hashchange", renderRoute);

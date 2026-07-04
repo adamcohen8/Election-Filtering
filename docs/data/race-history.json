@@ -1,0 +1,1383 @@
+{
+  "generated_at": "2026-07-04T17:57:01.983883+00:00",
+  "cycle": 2026,
+  "races": [
+    {
+      "race_id": "ak_sen",
+      "model_points": [
+        {
+          "date": "2026-06-29",
+          "candidate_a_share": 0.5278,
+          "candidate_b_share": 0.4138,
+          "margin": 0.114,
+          "margin_percent": 11.4
+        },
+        {
+          "date": "2026-06-29",
+          "candidate_a_share": 0.511,
+          "candidate_b_share": 0.4448,
+          "margin": 0.0662,
+          "margin_percent": 6.62
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "nyt-siena_ak_sen_2026-06-15_2026-06-29_crosstab",
+          "pollster": "New York Times/Siena College",
+          "date": "2026-06-29",
+          "candidate_a_share": 0.5098,
+          "candidate_b_share": 0.4461,
+          "margin": 0.0637,
+          "margin_percent": 6.37,
+          "leader": "republican",
+          "sample_size": 528,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-alaska-poll-crosstabs.html"
+        }
+      ]
+    },
+    {
+      "race_id": "az_gov",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "fl_gov",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "fl_sen",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "ga_gov",
+      "model_points": [
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4872,
+          "candidate_b_share": 0.4636,
+          "margin": 0.0236,
+          "margin_percent": 2.36
+        },
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4332,
+          "candidate_b_share": 0.487,
+          "margin": -0.0538,
+          "margin_percent": -5.38
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "echelon_netchoice_ga_gov_2026-04-03_2026-04-09_topline",
+          "pollster": "Echelon Insights/NetChoice",
+          "date": "2026-04-09",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.49,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 407,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://netchoice.org/wp-content/uploads/2026/04/NetChoice-Apr-2026-National-Antitrust-Survey-Topline.pdf"
+        }
+      ]
+    },
+    {
+      "race_id": "ga_sen",
+      "model_points": [
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4872,
+          "candidate_b_share": 0.4636,
+          "margin": 0.0236,
+          "margin_percent": 2.36
+        },
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4436,
+          "candidate_b_share": 0.5064,
+          "margin": -0.0628,
+          "margin_percent": -6.28
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "echelon_netchoice_ga_sen_2026-04-03_2026-04-09_topline",
+          "pollster": "Echelon Insights/NetChoice",
+          "date": "2026-04-09",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.51,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 407,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://netchoice.org/wp-content/uploads/2026/04/NetChoice-Apr-2026-National-Antitrust-Survey-Topline.pdf"
+        }
+      ]
+    },
+    {
+      "race_id": "ia_gov",
+      "model_points": [
+        {
+          "date": "2026-06-19",
+          "candidate_a_share": 0.5048,
+          "candidate_b_share": 0.4398,
+          "margin": 0.065,
+          "margin_percent": 6.5
+        },
+        {
+          "date": "2026-06-19",
+          "candidate_a_share": 0.4331,
+          "candidate_b_share": 0.4771,
+          "margin": -0.044,
+          "margin_percent": -4.4
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "cygnal_ia_gov_2026-06-16_2026-06-19_topline",
+          "pollster": "Cygnal",
+          "date": "2026-06-19",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.48,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 600,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election"
+        }
+      ]
+    },
+    {
+      "race_id": "ia_sen",
+      "model_points": [
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.5048,
+          "candidate_b_share": 0.4398,
+          "margin": 0.065,
+          "margin_percent": 6.5
+        },
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4532,
+          "candidate_b_share": 0.4571,
+          "margin": -0.0039,
+          "margin_percent": -0.39
+        },
+        {
+          "date": "2026-06-27",
+          "candidate_a_share": 0.4906,
+          "candidate_b_share": 0.4499,
+          "margin": 0.0406,
+          "margin_percent": 4.06
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "echelon_netchoice_ia_sen_2026-04-03_2026-04-09_topline",
+          "pollster": "Echelon Insights/NetChoice",
+          "date": "2026-04-09",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.46,
+          "margin": -0.01,
+          "margin_percent": -1.0,
+          "leader": "democratic",
+          "sample_size": 377,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://netchoice.org/wp-content/uploads/2026/04/NetChoice-Apr-2026-National-Antitrust-Survey-Topline.pdf"
+        },
+        {
+          "poll_id": "nyt-siena_ia_sen_2026-06-15_2026-06-27_crosstab",
+          "pollster": "New York Times/Siena College",
+          "date": "2026-06-27",
+          "candidate_a_share": 0.5034,
+          "candidate_b_share": 0.4483,
+          "margin": 0.055,
+          "margin_percent": 5.5,
+          "leader": "republican",
+          "sample_size": 575,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-iowa-poll-crosstabs.html"
+        }
+      ]
+    },
+    {
+      "race_id": "me_sen",
+      "model_points": [
+        {
+          "date": "2025-10-10",
+          "candidate_a_share": 0.4487,
+          "candidate_b_share": 0.4916,
+          "margin": -0.0429,
+          "margin_percent": -4.29
+        },
+        {
+          "date": "2025-10-10",
+          "candidate_a_share": 0.38,
+          "candidate_b_share": 0.3821,
+          "margin": -0.0021,
+          "margin_percent": -0.21
+        },
+        {
+          "date": "2025-10-29",
+          "candidate_a_share": 0.4039,
+          "candidate_b_share": 0.4267,
+          "margin": -0.0229,
+          "margin_percent": -2.29
+        },
+        {
+          "date": "2025-12-07",
+          "candidate_a_share": 0.4102,
+          "candidate_b_share": 0.4283,
+          "margin": -0.0181,
+          "margin_percent": -1.81
+        },
+        {
+          "date": "2025-12-16",
+          "candidate_a_share": 0.492,
+          "candidate_b_share": 0.508,
+          "margin": -0.0159,
+          "margin_percent": -1.59
+        },
+        {
+          "date": "2026-01-24",
+          "candidate_a_share": 0.4948,
+          "candidate_b_share": 0.5052,
+          "margin": -0.0103,
+          "margin_percent": -1.03
+        },
+        {
+          "date": "2026-02-16",
+          "candidate_a_share": 0.4816,
+          "candidate_b_share": 0.5184,
+          "margin": -0.0368,
+          "margin_percent": -3.68
+        },
+        {
+          "date": "2026-03-02",
+          "candidate_a_share": 0.4808,
+          "candidate_b_share": 0.5192,
+          "margin": -0.0384,
+          "margin_percent": -3.84
+        },
+        {
+          "date": "2026-03-05",
+          "candidate_a_share": 0.4785,
+          "candidate_b_share": 0.5215,
+          "margin": -0.0429,
+          "margin_percent": -4.29
+        },
+        {
+          "date": "2026-03-08",
+          "candidate_a_share": 0.4794,
+          "candidate_b_share": 0.5206,
+          "margin": -0.0413,
+          "margin_percent": -4.13
+        },
+        {
+          "date": "2026-03-23",
+          "candidate_a_share": 0.477,
+          "candidate_b_share": 0.523,
+          "margin": -0.0461,
+          "margin_percent": -4.61
+        },
+        {
+          "date": "2026-03-31",
+          "candidate_a_share": 0.4734,
+          "candidate_b_share": 0.5266,
+          "margin": -0.0533,
+          "margin_percent": -5.33
+        },
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4732,
+          "candidate_b_share": 0.5268,
+          "margin": -0.0536,
+          "margin_percent": -5.36
+        },
+        {
+          "date": "2026-06-03",
+          "candidate_a_share": 0.4751,
+          "candidate_b_share": 0.5249,
+          "margin": -0.0497,
+          "margin_percent": -4.97
+        },
+        {
+          "date": "2026-06-26",
+          "candidate_a_share": 0.4758,
+          "candidate_b_share": 0.5242,
+          "margin": -0.0483,
+          "margin_percent": -4.83
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "zenith_me_sen_2025-10-07_2025-10-10_topline",
+          "pollster": "Zenith Research",
+          "date": "2025-10-10",
+          "candidate_a_share": 0.38,
+          "candidate_b_share": 0.38,
+          "margin": 0.0,
+          "margin_percent": 0.0,
+          "leader": "tie",
+          "sample_size": 501,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "maine-peoples-resource-center_me_sen_2025-10-26_2025-10-29_topline",
+          "pollster": "Maine People's Resource Center",
+          "date": "2025-10-29",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.45,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 783,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "pan-atlantic_me_sen_2025-11-29_2025-12-07_topline",
+          "pollster": "Pan Atlantic Research",
+          "date": "2025-12-07",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.43,
+          "margin": -0.01,
+          "margin_percent": -1.0,
+          "leader": "democratic",
+          "sample_size": 820,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "workbench_me_sen_2025-12-11_2025-12-16_topline",
+          "pollster": "Workbench Strategy",
+          "date": "2025-12-16",
+          "candidate_a_share": 0.5,
+          "candidate_b_share": 0.5,
+          "margin": 0.0,
+          "margin_percent": 0.0,
+          "leader": "tie",
+          "sample_size": 900,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "fabrizio_me_sen_2026-01-20_2026-01-24_topline",
+          "pollster": "Fabrizio, Lee & Associates",
+          "date": "2026-01-24",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.44,
+          "margin": 0.01,
+          "margin_percent": 1.0,
+          "leader": "republican",
+          "sample_size": 800,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "unh_me_sen_2026-02-12_2026-02-16_topline",
+          "pollster": "University of New Hampshire",
+          "date": "2026-02-16",
+          "candidate_a_share": 0.38,
+          "candidate_b_share": 0.49,
+          "margin": -0.11,
+          "margin_percent": -11.0,
+          "leader": "democratic",
+          "sample_size": 1105,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "pan-atlantic_me_sen_2026-02-13_2026-03-02_topline",
+          "pollster": "Pan Atlantic Research",
+          "date": "2026-03-02",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.44,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 810,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "quantus_me_sen_2026-03-05_topline",
+          "pollster": "Quantus Insights",
+          "date": "2026-03-05",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.49,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 800,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "onmessage_me_sen_2026-03-03_2026-03-08_topline",
+          "pollster": "OnMessage Public Strategies",
+          "date": "2026-03-08",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.44,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 600,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "emerson_me_sen_2026-03-21_2026-03-23_topline",
+          "pollster": "Emerson College",
+          "date": "2026-03-23",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.48,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1075,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "maine-peoples-resource-center_me_sen_2026-03-20_2026-03-31_topline",
+          "pollster": "Maine People's Resource Center",
+          "date": "2026-03-31",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.48,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 1167,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "echelon_me_sen_2026-04-03_2026-04-09_topline",
+          "pollster": "Echelon Insights",
+          "date": "2026-04-09",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.51,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 378,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "fabrizio-pine-tree_me_sen_2026-06-01_2026-06-03_topline",
+          "pollster": "Fabrizio, Lee & Associates/Pine Tree Results",
+          "date": "2026-06-03",
+          "candidate_a_share": 0.46,
+          "candidate_b_share": 0.46,
+          "margin": 0.0,
+          "margin_percent": 0.0,
+          "leader": "tie",
+          "sample_size": 800,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        },
+        {
+          "poll_id": "nyt-siena-pph_me_sen_2026-06-19_2026-06-26_topline",
+          "pollster": "New York Times/Portland Press Herald/Siena College",
+          "date": "2026-06-26",
+          "candidate_a_share": 0.47,
+          "candidate_b_share": 0.49,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 608,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.realclearpolling.com/polls/senate/general/2026/maine/collins-vs-platner"
+        }
+      ]
+    },
+    {
+      "race_id": "mi_gov",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "mi_sen",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "nc_sen",
+      "model_points": [
+        {
+          "date": "2026-06-10",
+          "candidate_a_share": 0.4864,
+          "candidate_b_share": 0.4612,
+          "margin": 0.0252,
+          "margin_percent": 2.52
+        },
+        {
+          "date": "2026-06-10",
+          "candidate_a_share": 0.371,
+          "candidate_b_share": 0.4569,
+          "margin": -0.0859,
+          "margin_percent": -8.59
+        },
+        {
+          "date": "2026-06-27",
+          "candidate_a_share": 0.4178,
+          "candidate_b_share": 0.4898,
+          "margin": -0.072,
+          "margin_percent": -7.2
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "catawba-yougov_nc_sen_2026-06-01_2026-06-10_yougov-27",
+          "pollster": "Catawba College/YouGov",
+          "date": "2026-06-10",
+          "candidate_a_share": 0.369,
+          "candidate_b_share": 0.458,
+          "margin": -0.089,
+          "margin_percent": -8.9,
+          "leader": "democratic",
+          "sample_size": 867,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://www.catawba.edu/news/all-news/2026/yougov-27/"
+        },
+        {
+          "poll_id": "nyt-siena_nc_sen_2026-06-15_2026-06-27_crosstab",
+          "pollster": "New York Times/Siena College",
+          "date": "2026-06-27",
+          "candidate_a_share": 0.4671,
+          "candidate_b_share": 0.4832,
+          "margin": -0.0161,
+          "margin_percent": -1.61,
+          "leader": "democratic",
+          "sample_size": 577,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-north-carolina-poll-crosstabs.html"
+        }
+      ]
+    },
+    {
+      "race_id": "nh_gov",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "nh_sen",
+      "model_points": [],
+      "poll_points": []
+    },
+    {
+      "race_id": "oh_gov",
+      "model_points": [
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.51,
+          "candidate_b_share": 0.4384,
+          "margin": 0.0716,
+          "margin_percent": 7.16
+        },
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.4909,
+          "candidate_b_share": 0.4392,
+          "margin": 0.0516,
+          "margin_percent": 5.16
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "echelon_netchoice_oh_gov_2026-04-03_2026-04-09_topline",
+          "pollster": "Echelon Insights/NetChoice",
+          "date": "2026-04-09",
+          "candidate_a_share": 0.49,
+          "candidate_b_share": 0.44,
+          "margin": 0.05,
+          "margin_percent": 5.0,
+          "leader": "republican",
+          "sample_size": 413,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://netchoice.org/wp-content/uploads/2026/04/NetChoice-Apr-2026-National-Antitrust-Survey-Topline.pdf"
+        }
+      ]
+    },
+    {
+      "race_id": "oh_sen",
+      "model_points": [
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.51,
+          "candidate_b_share": 0.4384,
+          "margin": 0.0716,
+          "margin_percent": 7.16
+        },
+        {
+          "date": "2026-04-09",
+          "candidate_a_share": 0.5104,
+          "candidate_b_share": 0.4495,
+          "margin": 0.0609,
+          "margin_percent": 6.09
+        },
+        {
+          "date": "2026-06-28",
+          "candidate_a_share": 0.5036,
+          "candidate_b_share": 0.4679,
+          "margin": 0.0357,
+          "margin_percent": 3.57
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "echelon_netchoice_oh_sen_2026-04-03_2026-04-09_topline",
+          "pollster": "Echelon Insights/NetChoice",
+          "date": "2026-04-09",
+          "candidate_a_share": 0.51,
+          "candidate_b_share": 0.45,
+          "margin": 0.06,
+          "margin_percent": 6.0,
+          "leader": "republican",
+          "sample_size": 413,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://netchoice.org/wp-content/uploads/2026/04/NetChoice-Apr-2026-National-Antitrust-Survey-Topline.pdf"
+        },
+        {
+          "poll_id": "nyt-siena_oh_sen_2026-06-15_2026-06-28_crosstab",
+          "pollster": "New York Times/Siena College",
+          "date": "2026-06-28",
+          "candidate_a_share": 0.4999,
+          "candidate_b_share": 0.4767,
+          "margin": 0.0232,
+          "margin_percent": 2.32,
+          "leader": "republican",
+          "sample_size": 584,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-ohio-poll-crosstabs.html"
+        }
+      ]
+    },
+    {
+      "race_id": "pa_gov",
+      "model_points": [
+        {
+          "date": "2026-03-29",
+          "candidate_a_share": 0.4794,
+          "candidate_b_share": 0.4714,
+          "margin": 0.008,
+          "margin_percent": 0.8
+        },
+        {
+          "date": "2026-03-29",
+          "candidate_a_share": 0.3801,
+          "candidate_b_share": 0.575,
+          "margin": -0.1949,
+          "margin_percent": -19.49
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "susquehanna_pa_gov_2026-03-18_2026-03-29_topline",
+          "pollster": "Susquehanna Polling & Research",
+          "date": "2026-03-29",
+          "candidate_a_share": 0.36,
+          "candidate_b_share": 0.58,
+          "margin": -0.22,
+          "margin_percent": -22.0,
+          "leader": "democratic",
+          "sample_size": 700,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_Pennsylvania_gubernatorial_election"
+        }
+      ]
+    },
+    {
+      "race_id": "tx_gov",
+      "model_points": [
+        {
+          "date": "2026-04-20",
+          "candidate_a_share": 0.51,
+          "candidate_b_share": 0.4384,
+          "margin": 0.0716,
+          "margin_percent": 7.16
+        },
+        {
+          "date": "2026-04-20",
+          "candidate_a_share": 0.4804,
+          "candidate_b_share": 0.4297,
+          "margin": 0.0507,
+          "margin_percent": 5.07
+        },
+        {
+          "date": "2026-06-21",
+          "candidate_a_share": 0.5225,
+          "candidate_b_share": 0.4172,
+          "margin": 0.1053,
+          "margin_percent": 10.53
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "slingshot_tx_gov_2026-04-17_2026-04-20_topline",
+          "pollster": "Slingshot Strategies",
+          "date": "2026-04-20",
+          "candidate_a_share": 0.48,
+          "candidate_b_share": 0.43,
+          "margin": 0.05,
+          "margin_percent": 5.0,
+          "leader": "republican",
+          "sample_size": 1018,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "poll_id": "socal-red-eagle_tx_gov_2026-06-21_crosstab",
+          "pollster": "SoCal Strategies/Red Eagle Politics",
+          "date": "2026-06-21",
+          "candidate_a_share": 0.5504,
+          "candidate_b_share": 0.4084,
+          "margin": 0.1421,
+          "margin_percent": 14.21,
+          "leader": "republican",
+          "sample_size": 800,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://socalstrategies.substack.com/p/ken-paxton-leads-narrow-texas-senate"
+        }
+      ]
+    },
+    {
+      "race_id": "tx_sen",
+      "model_points": [
+        {
+          "date": "2026-04-20",
+          "candidate_a_share": 0.51,
+          "candidate_b_share": 0.4384,
+          "margin": 0.0716,
+          "margin_percent": 7.16
+        },
+        {
+          "date": "2026-04-20",
+          "candidate_a_share": 0.4138,
+          "candidate_b_share": 0.4583,
+          "margin": -0.0446,
+          "margin_percent": -4.46
+        },
+        {
+          "date": "2026-06-21",
+          "candidate_a_share": 0.4622,
+          "candidate_b_share": 0.4608,
+          "margin": 0.0014,
+          "margin_percent": 0.14
+        },
+        {
+          "date": "2026-06-27",
+          "candidate_a_share": 0.4652,
+          "candidate_b_share": 0.4649,
+          "margin": 0.0003,
+          "margin_percent": 0.03
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "tpor_tx_sen_2026-04-17_2026-04-20_topline",
+          "pollster": "Texas Public Opinion Research",
+          "date": "2026-04-20",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.46,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1018,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+        },
+        {
+          "poll_id": "socal-red-eagle_tx_sen_2026-06-21_crosstab",
+          "pollster": "SoCal Strategies/Red Eagle Politics",
+          "date": "2026-06-21",
+          "candidate_a_share": 0.4938,
+          "candidate_b_share": 0.458,
+          "margin": 0.0358,
+          "margin_percent": 3.58,
+          "leader": "republican",
+          "sample_size": 800,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://socalstrategies.substack.com/p/ken-paxton-leads-narrow-texas-senate"
+        },
+        {
+          "poll_id": "nyt-siena_tx_sen_2026-06-19_2026-06-27_crosstab",
+          "pollster": "New York Times/Siena College",
+          "date": "2026-06-27",
+          "candidate_a_share": 0.472,
+          "candidate_b_share": 0.4707,
+          "margin": 0.0013,
+          "margin_percent": 0.13,
+          "leader": "republican",
+          "sample_size": 618,
+          "measurement": "party_id_crosstab",
+          "partial_party_id": false,
+          "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-crosstabs.html"
+        }
+      ]
+    },
+    {
+      "race_id": "us_house_generic",
+      "model_points": [
+        {
+          "date": "2026-05-31",
+          "candidate_a_share": 0.467,
+          "candidate_b_share": 0.481,
+          "margin": -0.014,
+          "margin_percent": -1.4
+        },
+        {
+          "date": "2026-05-31",
+          "candidate_a_share": 0.4901,
+          "candidate_b_share": 0.5099,
+          "margin": -0.0199,
+          "margin_percent": -1.99
+        },
+        {
+          "date": "2026-06-01",
+          "candidate_a_share": 0.4839,
+          "candidate_b_share": 0.5161,
+          "margin": -0.0323,
+          "margin_percent": -3.23
+        },
+        {
+          "date": "2026-06-01",
+          "candidate_a_share": 0.4807,
+          "candidate_b_share": 0.5193,
+          "margin": -0.0387,
+          "margin_percent": -3.87
+        },
+        {
+          "date": "2026-06-02",
+          "candidate_a_share": 0.4767,
+          "candidate_b_share": 0.5233,
+          "margin": -0.0465,
+          "margin_percent": -4.65
+        },
+        {
+          "date": "2026-06-02",
+          "candidate_a_share": 0.476,
+          "candidate_b_share": 0.524,
+          "margin": -0.0481,
+          "margin_percent": -4.81
+        },
+        {
+          "date": "2026-06-03",
+          "candidate_a_share": 0.4742,
+          "candidate_b_share": 0.5258,
+          "margin": -0.0515,
+          "margin_percent": -5.15
+        },
+        {
+          "date": "2026-06-03",
+          "candidate_a_share": 0.4741,
+          "candidate_b_share": 0.5259,
+          "margin": -0.0518,
+          "margin_percent": -5.18
+        },
+        {
+          "date": "2026-06-04",
+          "candidate_a_share": 0.4725,
+          "candidate_b_share": 0.5275,
+          "margin": -0.055,
+          "margin_percent": -5.5
+        },
+        {
+          "date": "2026-06-04",
+          "candidate_a_share": 0.4733,
+          "candidate_b_share": 0.5267,
+          "margin": -0.0535,
+          "margin_percent": -5.35
+        },
+        {
+          "date": "2026-06-05",
+          "candidate_a_share": 0.4739,
+          "candidate_b_share": 0.5261,
+          "margin": -0.0522,
+          "margin_percent": -5.22
+        },
+        {
+          "date": "2026-06-07",
+          "candidate_a_share": 0.4757,
+          "candidate_b_share": 0.5243,
+          "margin": -0.0486,
+          "margin_percent": -4.86
+        },
+        {
+          "date": "2026-06-07",
+          "candidate_a_share": 0.4754,
+          "candidate_b_share": 0.5246,
+          "margin": -0.0492,
+          "margin_percent": -4.92
+        },
+        {
+          "date": "2026-06-07",
+          "candidate_a_share": 0.4764,
+          "candidate_b_share": 0.5235,
+          "margin": -0.0471,
+          "margin_percent": -4.71
+        },
+        {
+          "date": "2026-06-08",
+          "candidate_a_share": 0.4764,
+          "candidate_b_share": 0.5235,
+          "margin": -0.0471,
+          "margin_percent": -4.71
+        },
+        {
+          "date": "2026-06-08",
+          "candidate_a_share": 0.4756,
+          "candidate_b_share": 0.5243,
+          "margin": -0.0487,
+          "margin_percent": -4.87
+        },
+        {
+          "date": "2026-06-08",
+          "candidate_a_share": 0.4755,
+          "candidate_b_share": 0.5244,
+          "margin": -0.0489,
+          "margin_percent": -4.89
+        },
+        {
+          "date": "2026-06-14",
+          "candidate_a_share": 0.4754,
+          "candidate_b_share": 0.5246,
+          "margin": -0.0492,
+          "margin_percent": -4.92
+        },
+        {
+          "date": "2026-06-15",
+          "candidate_a_share": 0.4757,
+          "candidate_b_share": 0.5242,
+          "margin": -0.0485,
+          "margin_percent": -4.85
+        },
+        {
+          "date": "2026-06-16",
+          "candidate_a_share": 0.4752,
+          "candidate_b_share": 0.5247,
+          "margin": -0.0495,
+          "margin_percent": -4.95
+        },
+        {
+          "date": "2026-06-22",
+          "candidate_a_share": 0.4751,
+          "candidate_b_share": 0.5249,
+          "margin": -0.0497,
+          "margin_percent": -4.97
+        },
+        {
+          "date": "2026-06-22",
+          "candidate_a_share": 0.4755,
+          "candidate_b_share": 0.5245,
+          "margin": -0.049,
+          "margin_percent": -4.9
+        },
+        {
+          "date": "2026-06-22",
+          "candidate_a_share": 0.4752,
+          "candidate_b_share": 0.5248,
+          "margin": -0.0496,
+          "margin_percent": -4.96
+        },
+        {
+          "date": "2026-06-22",
+          "candidate_a_share": 0.4751,
+          "candidate_b_share": 0.5249,
+          "margin": -0.0499,
+          "margin_percent": -4.99
+        },
+        {
+          "date": "2026-06-22",
+          "candidate_a_share": 0.4747,
+          "candidate_b_share": 0.5253,
+          "margin": -0.0506,
+          "margin_percent": -5.06
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "harvard-harris-harrisx_us_house_generic_2026-05-29_2026-05-31_topline",
+          "pollster": "Harvard/Harris Poll/HarrisX",
+          "date": "2026-05-31",
+          "candidate_a_share": 0.49,
+          "candidate_b_share": 0.51,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1725,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-05-29_2026-06-01_topline",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-06-01",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 1452,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "focaldata-ft_us_house_generic_2026-05-29_2026-06-01_topline",
+          "pollster": "Focaldata/Financial Times",
+          "date": "2026-06-01",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.5,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1483,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "bullfinch_us_house_generic_2026-05-29_2026-06-02_topline",
+          "pollster": "The Bullfinch Group",
+          "date": "2026-06-02",
+          "candidate_a_share": 0.36,
+          "candidate_b_share": 0.42,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "quantus_us_house_generic_2026-06-01_2026-06-02_topline",
+          "pollster": "Quantus Insights",
+          "date": "2026-06-02",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.47,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1050,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "argument-verasight_us_house_generic_2026-05-29_2026-06-03_topline",
+          "pollster": "The Argument/Verasight",
+          "date": "2026-06-03",
+          "candidate_a_share": 0.47,
+          "candidate_b_share": 0.53,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 3008,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "cygnal_us_house_generic_2026-06-02_2026-06-03_topline",
+          "pollster": "Cygnal",
+          "date": "2026-06-03",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.49,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1500,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "noble-center-square_us_house_generic_2026-06-01_2026-06-04_topline",
+          "pollster": "Noble Predictive Insights/The Center Square",
+          "date": "2026-06-04",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.47,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 2585,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "rmg_us_house_generic_2026-06-01_2026-06-04_topline",
+          "pollster": "RMG Research",
+          "date": "2026-06-04",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.49,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 2000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "clarity_us_house_generic_2026-05-28_2026-06-05_topline",
+          "pollster": "Clarity Campaign Labs",
+          "date": "2026-06-05",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.48,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1045,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "harrisx-forbes_us_house_generic_2026-05-20_2026-06-07_topline",
+          "pollster": "HarrisX/Forbes",
+          "date": "2026-06-07",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.46,
+          "margin": -0.01,
+          "margin_percent": -1.0,
+          "leader": "democratic",
+          "sample_size": 1565,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "hart-pos_us_house_generic_2026-05-29_2026-06-07_topline",
+          "pollster": "Hart Research Associates/Public Opinion Strategies",
+          "date": "2026-06-07",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.49,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 2400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "morning-consult_us_house_generic_2026-06-01_2026-06-07_topline",
+          "pollster": "Morning Consult",
+          "date": "2026-06-07",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 24849,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-06-05_2026-06-08_topline",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-06-08",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.45,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 1393,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "emerson_us_house_generic_2026-06-07_2026-06-08_topline",
+          "pollster": "Emerson College",
+          "date": "2026-06-08",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.5,
+          "margin": -0.1,
+          "margin_percent": -10.0,
+          "leader": "democratic",
+          "sample_size": 1200,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-06-03_2026-06-08_topline",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-06-08",
+          "candidate_a_share": 0.37,
+          "candidate_b_share": 0.41,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 3578,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "echelon_us_house_generic_2026-06-11_2026-06-14_topline",
+          "pollster": "Echelon Insights",
+          "date": "2026-06-14",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.5,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1012,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-06-13_2026-06-15_topline",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-06-15",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.46,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1402,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "bullfinch_us_house_generic_2026-06-12_2026-06-16_topline",
+          "pollster": "The Bullfinch Group",
+          "date": "2026-06-16",
+          "candidate_a_share": 0.36,
+          "candidate_b_share": 0.44,
+          "margin": -0.08,
+          "margin_percent": -8.0,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "echelon_us_house_generic_2026-06-18_2026-06-22_topline",
+          "pollster": "Echelon Insights",
+          "date": "2026-06-22",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.51,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1008,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-06-19_2026-06-22_topline",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-06-22",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.45,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1517,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "quinnipiac_us_house_generic_2026-06-18_2026-06-22_topline",
+          "pollster": "Quinnipiac University",
+          "date": "2026-06-22",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.49,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1165,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-06-18_2026-06-22_topline",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-06-22",
+          "candidate_a_share": 0.36,
+          "candidate_b_share": 0.41,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 978,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "strength-verasight_us_house_generic_2026-06-17_2026-06-22_topline",
+          "pollster": "Strength In Numbers/Verasight",
+          "date": "2026-06-22",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.5,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1896,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        }
+      ]
+    },
+    {
+      "race_id": "wi_gov",
+      "model_points": [],
+      "poll_points": []
+    }
+  ]
+}

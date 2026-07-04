@@ -568,6 +568,239 @@ h2 {
   line-height: 1.35;
 }
 
+[hidden] {
+  display: none !important;
+}
+
+.race-shell {
+  display: grid;
+  gap: 18px;
+}
+
+.back-link {
+  justify-self: start;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.race-hero {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.race-status {
+  min-width: 132px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 850;
+  text-align: center;
+}
+
+.race-status.lean-republican {
+  background: var(--republican-lean);
+  color: var(--ink);
+}
+
+.race-status.likely-republican {
+  background: var(--republican-likely);
+  color: #fff;
+}
+
+.race-status.safe-republican {
+  background: var(--republican-safe);
+  color: #fff;
+}
+
+.race-status.lean-democratic {
+  background: var(--democratic-lean);
+  color: var(--ink);
+}
+
+.race-status.likely-democratic {
+  background: var(--democratic-likely);
+  color: #fff;
+}
+
+.race-status.safe-democratic {
+  background: var(--democratic-safe);
+  color: #fff;
+}
+
+.race-status.tossup {
+  background: var(--tossup);
+  color: var(--ink);
+}
+
+.race-prediction,
+.race-chart-card {
+  min-width: 0;
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.race-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.race-support {
+  grid-template-columns: 1fr 1fr;
+}
+
+.chart-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.chart-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.line-key {
+  width: 22px;
+  height: 3px;
+  border-radius: 999px;
+}
+
+.line-key.republican {
+  background: var(--republican-safe);
+}
+
+.line-key.democratic {
+  background: var(--democratic-safe);
+}
+
+.x-key {
+  position: relative;
+  width: 13px;
+  height: 13px;
+}
+
+.x-key::before,
+.x-key::after {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 13px;
+  height: 3px;
+  border-radius: 999px;
+  content: "";
+}
+
+.x-key::before {
+  transform: rotate(45deg);
+}
+
+.x-key::after {
+  transform: rotate(-45deg);
+}
+
+.x-key.republican::before,
+.x-key.republican::after {
+  background: var(--republican-safe);
+}
+
+.x-key.democratic::before,
+.x-key.democratic::after {
+  background: var(--democratic-safe);
+}
+
+.race-chart {
+  min-height: 360px;
+  overflow: hidden;
+}
+
+.race-chart.is-empty {
+  display: grid;
+  place-items: center;
+  min-height: 280px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.race-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chart-axis path,
+.chart-axis line {
+  stroke: rgba(21, 26, 31, 0.24);
+}
+
+.chart-axis text {
+  fill: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.chart-grid path {
+  display: none;
+}
+
+.chart-grid line {
+  stroke: rgba(21, 26, 31, 0.08);
+}
+
+.model-line {
+  fill: none;
+  stroke-width: 3;
+}
+
+.model-line.republican {
+  stroke: var(--republican-safe);
+}
+
+.model-line.democratic {
+  stroke: var(--democratic-safe);
+}
+
+.poll-marker {
+  fill: none;
+  stroke-width: 2.4;
+}
+
+.poll-markers.republican .poll-marker {
+  stroke: var(--republican-safe);
+}
+
+.poll-markers.democratic .poll-marker {
+  stroke: var(--democratic-safe);
+}
+
 @media (max-width: 880px) {
   .topbar,
   .workspace {
@@ -598,6 +831,21 @@ h2 {
   .state-map,
   .state-map.is-loading {
     min-height: 300px;
+  }
+
+  .race-hero,
+  .chart-heading {
+    display: grid;
+    align-items: stretch;
+  }
+
+  .race-status {
+    justify-self: start;
+  }
+
+  .race-grid,
+  .race-support {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -633,5 +881,19 @@ h2 {
 
   .state-labels text {
     font-size: 9px;
+  }
+
+  .race-prediction,
+  .race-chart-card {
+    padding: 12px;
+  }
+
+  .race-grid,
+  .race-support {
+    grid-template-columns: 1fr;
+  }
+
+  .race-chart {
+    min-height: 260px;
   }
 }

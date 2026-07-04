@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Election Filtering</title>
-    <link rel="stylesheet" href="styles.css?v=20260704-tossup-makeup-1">
+    <link rel="stylesheet" href="styles.css?v=20260704-race-pages-1">
   </head>
   <body>
-    <main class="shell">
+    <main class="shell" id="dashboard-page">
       <section class="topbar" aria-label="Election forecast controls">
         <div>
           <p class="eyebrow">2026 model</p>
@@ -154,8 +154,67 @@
       </section>
     </main>
 
+    <main class="shell race-shell" id="race-page" hidden>
+      <a class="back-link" href="#">Map</a>
+      <section class="race-hero" aria-labelledby="race-title">
+        <div>
+          <p class="eyebrow" id="race-office">Race</p>
+          <h1 id="race-title">Race</h1>
+        </div>
+        <div class="race-status" id="race-status">Loading</div>
+      </section>
+
+      <section class="race-prediction" aria-label="Race prediction">
+        <div class="detail-grid race-grid">
+          <div>
+            <span>Leader</span>
+            <strong id="race-leader">-</strong>
+          </div>
+          <div>
+            <span>Margin</span>
+            <strong id="race-margin">-</strong>
+          </div>
+          <div>
+            <span>MOE</span>
+            <strong id="race-moe">-</strong>
+          </div>
+          <div>
+            <span>Status</span>
+            <strong id="race-rating">-</strong>
+          </div>
+        </div>
+        <div class="bar" id="race-bar" aria-hidden="true">
+          <span id="race-bar-left"></span>
+          <span id="race-bar-right"></span>
+        </div>
+        <dl class="support race-support">
+          <div>
+            <dt id="race-republican-label">Republican share</dt>
+            <dd id="race-republican-share">-</dd>
+          </div>
+          <div>
+            <dt id="race-democratic-label">Democratic share</dt>
+            <dd id="race-democratic-share">-</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="race-chart-card" aria-labelledby="race-chart-title">
+        <div class="chart-heading">
+          <h2 id="race-chart-title">Model Over Time</h2>
+          <div class="chart-legend" aria-label="Chart legend">
+            <span><i class="line-key republican"></i>Republican model</span>
+            <span><i class="line-key democratic"></i>Democratic model</span>
+            <span><i class="x-key republican"></i>Republican poll</span>
+            <span><i class="x-key democratic"></i>Democratic poll</span>
+          </div>
+        </div>
+        <div id="race-chart" class="race-chart" role="img" aria-label="Race model history chart"></div>
+      </section>
+    </main>
+
     <script src="vendor/d3.min.js"></script>
     <script src="vendor/topojson-client.min.js"></script>
-    <script src="app.js?v=20260704-primary-no-data-1"></script>
+    <script src="app.js?v=20260704-race-pages-1"></script>
   </body>
 </html>

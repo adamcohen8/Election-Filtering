@@ -295,7 +295,7 @@ class PollIngestionPipeline:
                 errors.append(f"{source.name}: fetch failed: {exc}")
                 continue
 
-            for poll in polls:
+            for poll in sorted(polls, key=_poll_sort_key):
                 if self.ledger.has_seen(poll.poll_id):
                     duplicates.append(poll.poll_id)
                     continue
@@ -432,6 +432,10 @@ def _office_terms(office: Office) -> tuple[str, ...]:
         "congressional ballot",
         "national house",
     )
+
+
+def _poll_sort_key(poll: NormalizedPoll) -> tuple[str, str]:
+    return (poll.field_date, poll.poll_id)
 
 
 def _find_value(row: Mapping[str, object], *keys: str) -> object | None:

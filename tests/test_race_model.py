@@ -22,6 +22,7 @@ from election_modeling import (
     export_public_forecasts,
     load_election_model,
     public_forecast_payload,
+    public_race_history_payload,
     run_2026_poll_io,
     save_election_model,
     ToplineResult,
@@ -304,6 +305,40 @@ def test_ingestion_pipeline_applies_topline_poll() -> None:
     assert election.forecast("oh_sen").margin > before
 
 
+def test_ingestion_pipeline_applies_source_polls_chronologically() -> None:
+    election = create_2026_election_model()
+    older = NormalizedPoll(
+        poll_id="older-oh-sen",
+        pollster="Example Polling",
+        field_date="2026-01-15",
+        race_id="oh_sen",
+        topline=ToplineResult(
+            candidate_a_share=0.52,
+            candidate_b_share=0.43,
+            sample_size=800,
+        ),
+    )
+    newer = NormalizedPoll(
+        poll_id="newer-oh-sen",
+        pollster="Example Polling",
+        field_date="2026-06-15",
+        race_id="oh_sen",
+        topline=ToplineResult(
+            candidate_a_share=0.43,
+            candidate_b_share=0.52,
+            sample_size=800,
+        ),
+    )
+    pipeline = PollIngestionPipeline(
+        sources=(StaticPollSource([newer, older]),),
+        ledger=IngestionLedger(),
+    )
+
+    result = pipeline.run(election)
+
+    assert [poll.poll_id for poll in result.applied] == ["older-oh-sen", "newer-oh-sen"]
+
+
 def test_normalized_poll_from_mapping_parses_wide_crosstab_row() -> None:
     poll = NormalizedPoll.from_mapping(
         {
@@ -503,3 +538,43 @@ def test_export_public_forecasts_writes_static_json(tmp_path) -> None:
 
     assert output_path.exists()
     assert len(payload["races"]) == 21
+
+
+def test_public_race_history_payload_replays_poll_feed(tmp_path) -> None:
+    feed_path = tmp_path / "polls.json"
+    feed_path.write_text(
+        """
+        {
+          "polls": [
+            {
+              "poll_id": "newer-me-sen",
+              "pollster": "Example Polling",
+              "field_date": "2026-06-01",
+              "race_id": "me_sen",
+              "topline_a": 0.46,
+              "topline_b": 0.49,
+              "topline_n": 600
+            },
+            {
+              "poll_id": "older-me-sen",
+              "pollster": "Example Polling",
+              "field_date": "2026-02-01",
+              "race_id": "me_sen",
+              "topline_a": 0.42,
+              "topline_b": 0.50,
+              "topline_n": 700
+            }
+          ]
+        }
+        """
+    )
+
+    payload = public_race_history_payload(feed_path=feed_path)
+    maine = next(race for race in payload["races"] if race["race_id"] == "me_sen")
+
+    assert [point["poll_id"] for point in maine["poll_points"]] == [
+        "older-me-sen",
+        "newer-me-sen",
+    ]
+    assert len(maine["model_points"]) == 3
+    assert maine["poll_points"][0]["leader"] == "democratic"
