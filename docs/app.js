@@ -169,7 +169,8 @@ function renderMap() {
       const state = stateForFeature(feature);
       const race = state ? byState.get(state.code) : null;
       const selected = state?.code === selectedState ? " is-selected" : "";
-      return `state-shape ${race ? race.status : "unmodeled"}${selected}`;
+      const statusClass = race ? `${race.status} ${race.leader}` : "unmodeled";
+      return `state-shape ${statusClass}${selected}`;
     })
     .attr("d", path)
     .attr("tabindex", 0)
