@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:14:56.756906+00:00",
+  "generated_at": "2026-07-04T16:22:49.948415+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -505,14 +505,14 @@
       "candidate_b_party": "Democratic",
       "candidate_b_name": "Generic Democrat",
       "candidate_b_nominee_status": "presumptive_nominee",
-      "candidate_a_share": 0.4667,
-      "candidate_b_share": 0.48,
-      "margin": -0.0133,
-      "margin_percent": -1.33,
-      "margin_of_error": 0.3201,
-      "margin_of_error_percent": 32.01,
+      "candidate_a_share": 0.4747,
+      "candidate_b_share": 0.5253,
+      "margin": -0.0506,
+      "margin_percent": -5.06,
+      "margin_of_error": 0.0074,
+      "margin_of_error_percent": 0.74,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "likely-democratic",
       "nominee_last_verified": "2026-07-04",
       "nominee_note": "National generic congressional ballot model.",
       "nominee_sources": {

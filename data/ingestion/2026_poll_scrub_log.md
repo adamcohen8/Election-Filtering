@@ -2,6 +2,54 @@
 
 ## 2026-07-04
 
+### Generic Ballot Sweep
+
+#### Sources Searched
+
+- Live web searches for 2026 generic congressional ballot polling and crosstabs.
+- Wikipedia 2026 United States elections generic congressional ballot polling table, reviewed July 4, 2026, including individual public poll rows through June 22, 2026.
+- Search-surfaced aggregator references for RealClearPolling, Race to the WH, Silver Bulletin, Decision Desk HQ, VoteHub, and FiftyPlusOne generic-ballot averages. These were used for orientation only; aggregate averages were not ingested as polls.
+
+#### Generic Ballot Polls Applied
+
+Applied 24 national generic congressional ballot topline observations to `us_house_generic`, using voter-screened samples from the public polling table and the requested electorate weighting of 35% Republican, 35% Democratic, and 30% Independent:
+
+- `economist-yougov_us_house_generic_2026-06-19_2026-06-22_topline`: The Economist/YouGov, n=1,517 RV, Republican 0.43, Democratic 0.45.
+- `reuters-ipsos_us_house_generic_2026-06-18_2026-06-22_topline`: Reuters/Ipsos, n=978 RV, Republican 0.36, Democratic 0.41.
+- `echelon_us_house_generic_2026-06-18_2026-06-22_topline`: Echelon Insights, n=1,008 LV, Republican 0.45, Democratic 0.51.
+- `quinnipiac_us_house_generic_2026-06-18_2026-06-22_topline`: Quinnipiac University, n=1,165 RV, Republican 0.42, Democratic 0.49.
+- `strength-verasight_us_house_generic_2026-06-17_2026-06-22_topline`: Strength In Numbers/Verasight, n=1,896 RV, Republican 0.43, Democratic 0.50.
+- `bullfinch_us_house_generic_2026-06-12_2026-06-16_topline`: The Bullfinch Group, n=1,000 RV, Republican 0.36, Democratic 0.44.
+- `economist-yougov_us_house_generic_2026-06-13_2026-06-15_topline`: The Economist/YouGov, n=1,402 RV, Republican 0.44, Democratic 0.46.
+- `echelon_us_house_generic_2026-06-11_2026-06-14_topline`: Echelon Insights, n=1,012 LV, Republican 0.44, Democratic 0.50.
+- `emerson_us_house_generic_2026-06-07_2026-06-08_topline`: Emerson College, n=1,200 LV, Republican 0.40, Democratic 0.50.
+- `economist-yougov_us_house_generic_2026-06-05_2026-06-08_topline`: The Economist/YouGov, n=1,393 RV, Republican 0.41, Democratic 0.45.
+- `reuters-ipsos_us_house_generic_2026-06-03_2026-06-08_topline`: Reuters/Ipsos, n=3,578 RV, Republican 0.37, Democratic 0.41.
+- `morning-consult_us_house_generic_2026-06-01_2026-06-07_topline`: Morning Consult, n=24,849 RV, Republican 0.42, Democratic 0.46.
+- `hart-pos_us_house_generic_2026-05-29_2026-06-07_topline`: Hart Research Associates/Public Opinion Strategies, n=2,400 RV, Republican 0.44, Democratic 0.49.
+- `harrisx-forbes_us_house_generic_2026-05-20_2026-06-07_topline`: HarrisX/Forbes, n=1,565 LV, Republican 0.45, Democratic 0.46.
+- `clarity_us_house_generic_2026-05-28_2026-06-05_topline`: Clarity Campaign Labs, n=1,045 LV, Republican 0.45, Democratic 0.48.
+- `noble-center-square_us_house_generic_2026-06-01_2026-06-04_topline`: Noble Predictive Insights/The Center Square, n=2,585 RV, Republican 0.41, Democratic 0.47.
+- `rmg_us_house_generic_2026-06-01_2026-06-04_topline`: RMG Research, n=2,000 RV, Republican 0.45, Democratic 0.49.
+- `cygnal_us_house_generic_2026-06-02_2026-06-03_topline`: Cygnal, n=1,500 LV, Republican 0.44, Democratic 0.49.
+- `argument-verasight_us_house_generic_2026-05-29_2026-06-03_topline`: The Argument/Verasight, n=3,008 RV, Republican 0.47, Democratic 0.53.
+- `quantus_us_house_generic_2026-06-01_2026-06-02_topline`: Quantus Insights, n=1,050 LV, Republican 0.42, Democratic 0.47.
+- `bullfinch_us_house_generic_2026-05-29_2026-06-02_topline`: The Bullfinch Group, n=1,000 RV, Republican 0.36, Democratic 0.42.
+- `focaldata-ft_us_house_generic_2026-05-29_2026-06-01_topline`: Focaldata/Financial Times, n=1,483 RV, Republican 0.45, Democratic 0.50.
+- `economist-yougov_us_house_generic_2026-05-29_2026-06-01_topline`: The Economist/YouGov, n=1,452 RV, Republican 0.42, Democratic 0.46.
+- `harvard-harris-harrisx_us_house_generic_2026-05-29_2026-05-31_topline`: Harvard/Harris Poll/HarrisX, n=1,725 RV, Republican 0.49, Democratic 0.51.
+
+#### Generic Ballot Polls Skipped Or Not Applied
+
+- All-adult-only rows were skipped where no voter-screened sample was available in the reviewed public table.
+- Generic-ballot aggregate averages from Decision Desk HQ, FiftyPlusOne, RealClearPolling, Silver Bulletin, VoteHub, and Race to the WH were not ingested as poll observations.
+- No clear public Republican/Democratic/Independent party-ID crosstabs with subgroup sample sizes were found in this sweep; all applied generic-ballot rows are aggregate toplines.
+
+#### Generic Ballot Extraction Uncertainties
+
+- The applied generic-ballot observations share a public aggregator table as the immediate source, even when the pollster has a separate release. Source-specific party-ID workbooks/PDFs should replace these toplines if located later.
+- The model currently treats these toplines as independent aggregate observations. Because several polls overlap in field dates and house effects are not yet modeled for generic ballot, the current margin uncertainty is probably too narrow.
+
 ### Sources Searched
 
 - Live web searches for polls released since the 2026-07-03 run across the modeled 2026 Senate races: Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.

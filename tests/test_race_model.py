@@ -197,7 +197,9 @@ def test_create_2026_election_model_preloads_all_races() -> None:
     assert election.races["me_sen"].electorate.republican == 0.233
     assert election.races["me_sen"].electorate.democratic == 0.275
     assert election.races["me_sen"].electorate.independent == 0.492
-    assert election.races["us_house_generic"].electorate.republican == 1.0 / 3.0
+    assert election.races["us_house_generic"].electorate.republican == 0.35
+    assert election.races["us_house_generic"].electorate.democratic == 0.35
+    assert election.races["us_house_generic"].electorate.independent == 0.30
 
 
 def test_ensure_2026_races_adds_generic_ballot_to_existing_snapshot_model() -> None:

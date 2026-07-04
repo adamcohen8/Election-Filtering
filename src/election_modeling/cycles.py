@@ -43,6 +43,7 @@ TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE: dict[str, Electorate] = {
     "Ohio": Electorate(republican=0.41, democratic=0.30, independent=0.29),
     "Pennsylvania": Electorate(republican=0.40, democratic=0.37, independent=0.23),
     "Texas": Electorate(republican=0.41, democratic=0.30, independent=0.29),
+    "United States": Electorate(republican=0.35, democratic=0.35, independent=0.30),
     "Wisconsin": Electorate(republican=0.37, democratic=0.33, independent=0.30),
 }
 
