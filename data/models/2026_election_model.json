@@ -203,9 +203,9 @@
     },
     "me_sen": {
       "electorate": {
-        "republican": 0.3333333333333333,
-        "democratic": 0.3333333333333333,
-        "independent": 0.3333333333333333
+        "republican": 0.233,
+        "democratic": 0.275,
+        "independent": 0.492
       },
       "state": {
         "mean": [

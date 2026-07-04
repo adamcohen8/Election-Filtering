@@ -36,6 +36,7 @@ TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE: dict[str, Electorate] = {
         democratic=26.0 / 101.0,
         independent=39.0 / 101.0,
     ),
+    "Maine": Electorate(republican=0.233, democratic=0.275, independent=0.492),
     "Michigan": Electorate(republican=0.34, democratic=0.35, independent=0.31),
     "New Hampshire": Electorate(republican=0.29, democratic=0.28, independent=0.43),
     "North Carolina": Electorate(republican=0.37, democratic=0.32, independent=0.31),
