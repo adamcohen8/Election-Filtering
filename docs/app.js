@@ -317,6 +317,9 @@ function renderMap() {
     .text((feature) => {
       const state = stateForFeature(feature);
       const race = state ? byState.get(state.code) : null;
+      if (race && !hasForecastData(race)) {
+        return `${state.name}: No data available`;
+      }
       return race
         ? `${state.name}: ${statusLabel(race.status)}, ${signedPercent(race.margin_percent)}`
         : `${state?.name ?? "State"}: unmodeled`;
@@ -405,6 +408,17 @@ function tooltipHtml(state, race) {
       <div class="tooltip-kicker">${officeLabel(selectedOffice)}</div>
       <strong>${state.name}</strong>
       <span class="tooltip-muted">No modeled ${officeLabel(selectedOffice).toLowerCase()} race</span>
+    `;
+  }
+
+  if (!hasForecastData(race)) {
+    return `
+      <div class="tooltip-kicker">${officeLabel(selectedOffice)}</div>
+      <strong>${race.state}</strong>
+      <span class="tooltip-muted">No data available</span>
+      <dl>
+        <div><dt>Status</dt><dd>${statusLabel(race.status)}</dd></div>
+      </dl>
     `;
   }
 
@@ -578,6 +592,9 @@ function officeLabel(office) {
 }
 
 function leaderLabel(race) {
+  if (!hasForecastData(race)) {
+    return "No data available";
+  }
   if (race.status === "tossup") {
     return "No clear leader";
   }
@@ -614,8 +631,15 @@ function statusLabel(status) {
 }
 
 function signedPercent(value) {
+  if (typeof value !== "number") {
+    return "No data available";
+  }
   const sign = value > 0 ? "+" : "";
   return `${sign}${value.toFixed(2)} pts`;
+}
+
+function hasForecastData(race) {
+  return race?.data_available !== false;
 }
 
 function defaultStateForOffice(office) {

@@ -38,8 +38,13 @@ def public_forecast_payload(
             continue
         nominees = NOMINEES_2026_BY_RACE.get(race_id)
         forecast = model.forecast(z_score=options.z_score)
-        leader = _leader_for_margin(forecast.margin)
-        status = _status_for_margin(margin=forecast.margin, leader=leader, options=options)
+        data_available = _has_public_forecast_data(race.office, nominees)
+        leader = _leader_for_margin(forecast.margin) if data_available else "tie"
+        status = (
+            _status_for_margin(margin=forecast.margin, leader=leader, options=options)
+            if data_available
+            else "tossup"
+        )
         races.append(
             {
                 "race_id": race_id,
@@ -61,15 +66,25 @@ def public_forecast_payload(
                 "candidate_b_nominee_status": nominees.democratic.status
                 if nominees and nominees.democratic
                 else None,
-                "candidate_a_share": round(forecast.candidate_a_share, 4),
-                "candidate_b_share": round(forecast.candidate_b_share, 4),
-                "margin": round(forecast.margin, 4),
-                "margin_percent": round(forecast.margin_percent, 2),
-                "margin_of_error": round(forecast.margin_of_error, 4),
+                "data_available": data_available,
+                "data_note": None if data_available else "No data available",
+                "candidate_a_share": round(forecast.candidate_a_share, 4)
+                if data_available
+                else None,
+                "candidate_b_share": round(forecast.candidate_b_share, 4)
+                if data_available
+                else None,
+                "margin": round(forecast.margin, 4) if data_available else None,
+                "margin_percent": round(forecast.margin_percent, 2) if data_available else None,
+                "margin_of_error": round(forecast.margin_of_error, 4)
+                if data_available
+                else None,
                 "margin_of_error_percent": round(
                     forecast.margin_of_error_percent,
                     2,
-                ),
+                )
+                if data_available
+                else None,
                 "leader": leader,
                 "status": status,
                 "nominee_last_verified": nominees.last_verified if nominees else None,
@@ -101,6 +116,12 @@ def export_public_forecasts(
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, indent=2) + "\n")
     return payload
+
+
+def _has_public_forecast_data(office: str, nominees: RaceNominees | None) -> bool:
+    if office == "generic_ballot":
+        return True
+    return bool(nominees and nominees.republican and nominees.democratic)
 
 
 def _nominee_sources(nominees: RaceNominees | None) -> dict[str, str]:

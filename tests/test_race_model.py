@@ -446,22 +446,22 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     race = next(race for race in payload["races"] if race["race_id"] == "fl_sen")
     assert race["office"] == "senate"
     assert race["state_code"] == "FL"
-    assert race["status"] in {
-        "tossup",
-        "lean-republican",
-        "likely-republican",
-        "safe-republican",
-        "lean-democratic",
-        "likely-democratic",
-        "safe-democratic",
-    }
+    assert race["data_available"] is False
+    assert race["data_note"] == "No data available"
+    assert race["status"] == "tossup"
+    assert race["leader"] == "tie"
+    assert race["candidate_a_share"] is None
+    assert race["candidate_b_share"] is None
+    assert race["margin"] is None
 
     texas = next(race for race in payload["races"] if race["race_id"] == "tx_sen")
+    assert texas["data_available"] is True
     assert texas["candidate_a_name"] == "Ken Paxton"
     assert texas["candidate_b_name"] == "James Talarico"
     assert texas["nominee_last_verified"] == "2026-07-01"
 
     generic = next(race for race in payload["races"] if race["race_id"] == "us_house_generic")
+    assert generic["data_available"] is True
     assert generic["office"] == "generic_ballot"
     assert generic["state"] == "United States"
     assert generic["state_code"] == "US"
