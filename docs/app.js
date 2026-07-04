@@ -225,11 +225,13 @@ const senateRepublicanSeats = document.querySelector("#senate-republican-seats")
 const senateDemocraticSeats = document.querySelector("#senate-democratic-seats");
 const senateRepublicanBar = document.querySelector("#senate-republican-bar");
 const senateDemocraticBar = document.querySelector("#senate-democratic-bar");
+const senateMakeupCard = document.querySelector("#senate-makeup-card");
 const governorTotal = document.querySelector("#governor-total");
 const governorRepublicanSeats = document.querySelector("#governor-republican-seats");
 const governorDemocraticSeats = document.querySelector("#governor-democratic-seats");
 const governorRepublicanBar = document.querySelector("#governor-republican-bar");
 const governorDemocraticBar = document.querySelector("#governor-democratic-bar");
+const governorMakeupCard = document.querySelector("#governor-makeup-card");
 
 let selectedOffice = "senate";
 let selectedState = null;
@@ -441,6 +443,7 @@ function renderSummary() {
 
 function renderDetail() {
   renderGenericBallot();
+  renderActiveMakeupCard();
   renderChamberMakeup("senate", senateMakeup(), {
     total: senateTotal,
     republicanSeats: senateRepublicanSeats,
@@ -455,6 +458,11 @@ function renderDetail() {
     republicanBar: governorRepublicanBar,
     democraticBar: governorDemocraticBar,
   });
+}
+
+function renderActiveMakeupCard() {
+  senateMakeupCard.hidden = selectedOffice !== "senate";
+  governorMakeupCard.hidden = selectedOffice !== "governor";
 }
 
 function renderGenericBallot() {

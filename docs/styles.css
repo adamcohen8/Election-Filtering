@@ -489,6 +489,10 @@ h2 {
   background: #fbfcfb;
 }
 
+.makeup-card[hidden] {
+  display: none;
+}
+
 .makeup-heading {
   min-width: 0;
   display: flex;

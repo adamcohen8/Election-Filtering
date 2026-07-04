@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Election Filtering</title>
-    <link rel="stylesheet" href="styles.css?v=20260704-summary-panel-1">
+    <link rel="stylesheet" href="styles.css?v=20260704-summary-panel-2">
   </head>
   <body>
     <main class="shell">
@@ -98,7 +98,7 @@
             </div>
           </dl>
           <div class="makeup-list" aria-label="Projected party makeup">
-            <section class="makeup-card" aria-labelledby="senate-makeup-title">
+            <section class="makeup-card" id="senate-makeup-card" aria-labelledby="senate-makeup-title">
               <div class="makeup-heading">
                 <span id="senate-makeup-title">Senate</span>
                 <strong id="senate-total">-</strong>
@@ -118,7 +118,7 @@
                 </div>
               </dl>
             </section>
-            <section class="makeup-card" aria-labelledby="governor-makeup-title">
+            <section class="makeup-card" id="governor-makeup-card" aria-labelledby="governor-makeup-title">
               <div class="makeup-heading">
                 <span id="governor-makeup-title">Governors</span>
                 <strong id="governor-total">-</strong>
@@ -146,6 +146,6 @@
 
     <script src="vendor/d3.min.js"></script>
     <script src="vendor/topojson-client.min.js"></script>
-    <script src="app.js?v=20260704-summary-panel-1"></script>
+    <script src="app.js?v=20260704-summary-panel-2"></script>
   </body>
 </html>
