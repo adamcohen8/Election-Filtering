@@ -521,11 +521,15 @@ h2 {
   background: var(--line);
 }
 
-.makeup-bar span:first-child {
+.makeup-bar-segment.republican {
   background: var(--republican-safe);
 }
 
-.makeup-bar span:last-child {
+.makeup-bar-segment.tossup {
+  background: var(--tossup);
+}
+
+.makeup-bar-segment.democratic {
   background: var(--democratic-safe);
 }
 

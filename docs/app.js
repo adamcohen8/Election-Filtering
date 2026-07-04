@@ -223,14 +223,18 @@ const genericBarRight = document.querySelector("#generic-bar-right");
 const senateTotal = document.querySelector("#senate-total");
 const senateRepublicanSeats = document.querySelector("#senate-republican-seats");
 const senateDemocraticSeats = document.querySelector("#senate-democratic-seats");
+const senateTossupSeats = document.querySelector("#senate-tossup-seats");
 const senateRepublicanBar = document.querySelector("#senate-republican-bar");
 const senateDemocraticBar = document.querySelector("#senate-democratic-bar");
+const senateTossupBar = document.querySelector("#senate-tossup-bar");
 const senateMakeupCard = document.querySelector("#senate-makeup-card");
 const governorTotal = document.querySelector("#governor-total");
 const governorRepublicanSeats = document.querySelector("#governor-republican-seats");
 const governorDemocraticSeats = document.querySelector("#governor-democratic-seats");
+const governorTossupSeats = document.querySelector("#governor-tossup-seats");
 const governorRepublicanBar = document.querySelector("#governor-republican-bar");
 const governorDemocraticBar = document.querySelector("#governor-democratic-bar");
+const governorTossupBar = document.querySelector("#governor-tossup-bar");
 const governorMakeupCard = document.querySelector("#governor-makeup-card");
 
 let selectedOffice = "senate";
@@ -448,15 +452,19 @@ function renderDetail() {
     total: senateTotal,
     republicanSeats: senateRepublicanSeats,
     democraticSeats: senateDemocraticSeats,
+    tossupSeats: senateTossupSeats,
     republicanBar: senateRepublicanBar,
     democraticBar: senateDemocraticBar,
+    tossupBar: senateTossupBar,
   });
   renderChamberMakeup("governor", governorMakeup(), {
     total: governorTotal,
     republicanSeats: governorRepublicanSeats,
     democraticSeats: governorDemocraticSeats,
+    tossupSeats: governorTossupSeats,
     republicanBar: governorRepublicanBar,
     democraticBar: governorDemocraticBar,
+    tossupBar: governorTossupBar,
   });
 }
 
@@ -496,18 +504,24 @@ function renderGenericBallot() {
 }
 
 function renderChamberMakeup(kind, counts, elements) {
-  const total = counts.republican + counts.democratic;
+  const total = counts.republican + counts.democratic + counts.tossup;
   const republicanWidth = total > 0 ? (counts.republican / total) * 100 : 50;
-  const democraticWidth = 100 - republicanWidth;
-  elements.total.textContent = kind === "senate" ? `${counts.republican}-${counts.democratic}` : `${total} seats`;
+  const tossupWidth = total > 0 ? (counts.tossup / total) * 100 : 0;
+  const democraticWidth = Math.max(0, 100 - republicanWidth - tossupWidth);
+  elements.total.textContent =
+    kind === "senate"
+      ? `${counts.republican}-${counts.democratic}-${counts.tossup}`
+      : `${total} seats`;
   elements.republicanSeats.textContent = counts.republican;
   elements.democraticSeats.textContent = counts.democratic;
+  elements.tossupSeats.textContent = counts.tossup;
   elements.republicanBar.style.width = `${republicanWidth}%`;
+  elements.tossupBar.style.width = `${tossupWidth}%`;
   elements.democraticBar.style.width = `${democraticWidth}%`;
 }
 
 function senateMakeup() {
-  const counts = { ...senateSeatsBefore };
+  const counts = { ...senateSeatsBefore, tossup: 0 };
   const senateRaces = racesByState("senate");
 
   Object.entries(senateIncumbentParties2026).forEach(([stateCode, incumbentParty]) => {
@@ -520,7 +534,7 @@ function senateMakeup() {
 }
 
 function governorMakeup() {
-  const counts = { republican: 0, democratic: 0 };
+  const counts = { republican: 0, democratic: 0, tossup: 0 };
   const governorRaces = racesByState("governor");
 
   Object.entries(governorIncumbentParties).forEach(([stateCode, incumbentParty]) => {
@@ -534,6 +548,9 @@ function governorMakeup() {
 function predictedPartyForRace(race, incumbentParty) {
   if (!race) {
     return incumbentParty;
+  }
+  if (race.status === "tossup") {
+    return "tossup";
   }
   if (race.margin > 0) {
     return "republican";

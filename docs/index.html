@@ -104,8 +104,9 @@
                 <strong id="senate-total">-</strong>
               </div>
               <div class="makeup-bar" aria-hidden="true">
-                <span id="senate-republican-bar"></span>
-                <span id="senate-democratic-bar"></span>
+                <span class="makeup-bar-segment republican" id="senate-republican-bar"></span>
+                <span class="makeup-bar-segment tossup" id="senate-tossup-bar"></span>
+                <span class="makeup-bar-segment democratic" id="senate-democratic-bar"></span>
               </div>
               <dl class="makeup-rows">
                 <div>
@@ -116,6 +117,10 @@
                   <dt>Democratic</dt>
                   <dd id="senate-democratic-seats">-</dd>
                 </div>
+                <div>
+                  <dt>Tossup</dt>
+                  <dd id="senate-tossup-seats">-</dd>
+                </div>
               </dl>
             </section>
             <section class="makeup-card" id="governor-makeup-card" aria-labelledby="governor-makeup-title">
@@ -124,8 +129,9 @@
                 <strong id="governor-total">-</strong>
               </div>
               <div class="makeup-bar" aria-hidden="true">
-                <span id="governor-republican-bar"></span>
-                <span id="governor-democratic-bar"></span>
+                <span class="makeup-bar-segment republican" id="governor-republican-bar"></span>
+                <span class="makeup-bar-segment tossup" id="governor-tossup-bar"></span>
+                <span class="makeup-bar-segment democratic" id="governor-democratic-bar"></span>
               </div>
               <dl class="makeup-rows">
                 <div>
@@ -136,16 +142,20 @@
                   <dt>Democratic</dt>
                   <dd id="governor-democratic-seats">-</dd>
                 </div>
+                <div>
+                  <dt>Tossup</dt>
+                  <dd id="governor-tossup-seats">-</dd>
+                </div>
               </dl>
             </section>
           </div>
-          <p class="panel-note">Unmodeled races hold with the incumbent party.</p>
+          <p class="panel-note">Unmodeled races hold with the incumbent party; modeled tossups are unassigned.</p>
         </aside>
       </section>
     </main>
 
     <script src="vendor/d3.min.js"></script>
     <script src="vendor/topojson-client.min.js"></script>
-    <script src="app.js?v=20260704-summary-panel-2"></script>
+    <script src="app.js?v=20260704-tossup-makeup-1"></script>
   </body>
 </html>
