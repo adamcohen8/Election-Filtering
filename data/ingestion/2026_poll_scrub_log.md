@@ -1,5 +1,56 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-04
+
+### Sources Searched
+
+- Live web searches for polls released since the 2026-07-03 run across the modeled 2026 Senate races: Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.
+- Live web searches for polls released since the 2026-07-03 run across the modeled 2026 governor races: Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- Search-surfaced public aggregation pages for 2026 Senate and governor polling, including Race to the WH-style public pages and current public race polling summaries.
+- Pollster/source-specific searches for July 2026 releases and crosstabs from Emerson College Polling, SurveyUSA, YouGov, Quinnipiac, Marist, Cygnal, Quantus Insights, Catawba College/YouGov, High Point University/YouGov, New York Times/Siena College, A2 Insights, Texas Politics Project, and SoCal Strategies.
+- SoCal Strategies/Red Eagle Politics Texas poll release page and linked public Google Sheets crosstab workbook, fielded June 21, 2026.
+- A2 Insights Texas statewide survey PDF, fielded June 23-28, 2026.
+- University of Texas/Texas Politics Project June 2026 Texas topline PDF.
+
+### Polls Applied
+
+- `socal-red-eagle_tx_gov_2026-06-21_crosstab` -> `tx_gov`
+  - Pollster: SoCal Strategies/Red Eagle Politics.
+  - Field date: June 21, 2026.
+  - Candidate A: Greg Abbott (Republican). Candidate B: Gina Hinojosa (Democrat).
+  - Party-ID crosstabs from the linked workbook's Q5/Q6 Governor table with undecided leaners allocated:
+    - Republican self-ID, weighted n=336: Abbott 0.930309688788526, Hinojosa 0.0515427141102821.
+    - Democratic self-ID, weighted n=269: Abbott 0.0716499583213411, Hinojosa 0.893328632982937.
+    - Independent self-ID, weighted n=195: Abbott 0.50869381988781, Hinojosa 0.411161461658662.
+- `socal-red-eagle_tx_sen_2026-06-21_crosstab` -> `tx_sen`
+  - Pollster: SoCal Strategies/Red Eagle Politics.
+  - Field date: June 21, 2026.
+  - Candidate A: Ken Paxton (Republican). Candidate B: James Talarico (Democrat).
+  - Party-ID crosstabs from the linked workbook's Q7/Q8 U.S. Senate table with undecided leaners allocated:
+    - Republican self-ID, weighted n=336: Paxton 0.90241878641925, Talarico 0.0618821250628544.
+    - Democratic self-ID, weighted n=269: Paxton 0.0242967965131829, Talarico 0.963450406375171.
+    - Independent self-ID, weighted n=195: Paxton 0.401813149321734, Talarico 0.495251201544853.
+
+### Polls Skipped As Duplicates
+
+- No duplicate poll IDs were skipped by the full rebuild. Already-ingested NYT/Siena and Catawba/YouGov records remained in the normalized feed and ledger.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- A2 Insights Texas statewide survey, June 23-28, 2026, `tx_sen`: the PDF includes Republican, Democratic, and Independent party rows for Paxton vs. Talarico, but does not publish party-ID subgroup sample sizes or weighted subgroup shares. It was logged but not applied.
+- University of Texas/Texas Politics Project June 2026 Texas survey, `tx_sen` and `tx_gov`: the reviewed public topline PDF did not include usable party-ID crosstabs.
+- No newly released July 3-4 modeled-race poll with public party-ID crosstabs was found beyond the previously unlogged SoCal/Red Eagle Texas crosstab workbook.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- The SoCal/Red Eagle workbook reports `% of Sample (weighted)` rather than integer party-ID counts. The applied subgroup sample sizes use the 800 likely-voter sample multiplied by the weighted party shares in the workbook and rounded to whole respondents: Republican 336, Democratic 269, Independent 195.
+- SoCal/Red Eagle candidate shares are the workbook's weighted crosstab proportions with undecided leaners allocated; any residual undecided/other response mass is left outside the two-candidate Kalman observation.
+- The A2 Insights Texas PDF has party rows but no published subgroup sizes, so it was treated as insufficient for the current `PartyIDCrosstab` schema.
+
 ## 2026-07-03
 
 ### Sources Searched
