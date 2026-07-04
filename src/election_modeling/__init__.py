@@ -2,6 +2,7 @@
 
 from election_modeling.cycles import (
     DEFAULT_PLACEHOLDER_ELECTORATE,
+    GENERIC_BALLOT_2026_RACES,
     GOVERNOR_2026_RACES,
     RACES_2026,
     RACES_2026_BY_ID,
@@ -10,6 +11,7 @@ from election_modeling.cycles import (
     TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID,
     TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE,
     create_2026_election_model,
+    ensure_2026_races,
     race_id_for,
 )
 from election_modeling.elections import ElectionModel
@@ -50,6 +52,7 @@ __all__ = [
     "ElectionModel",
     "Forecast",
     "DEFAULT_PLACEHOLDER_ELECTORATE",
+    "GENERIC_BALLOT_2026_RACES",
     "GOVERNOR_2026_RACES",
     "AppliedPoll",
     "AutomationRun",
@@ -84,6 +87,7 @@ __all__ = [
     "TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID",
     "TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE",
     "create_2026_election_model",
+    "ensure_2026_races",
     "export_public_forecasts",
     "load_election_model",
     "load_or_create_2026_election_model",

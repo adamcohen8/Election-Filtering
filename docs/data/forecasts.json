@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-04T15:37:57.752794+00:00",
+  "generated_at": "2026-07-04T16:14:56.756906+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
-    "governor"
+    "governor",
+    "generic_ballot"
   ],
   "races": [
     {
@@ -490,6 +491,33 @@
       "nominee_sources": {
         "republican": "https://www.thedailybeast.com/bombshell-texas-senate-race-poll-delivers-dire-warning-for-trump-with-paxton-and-talarico-tied/",
         "democratic": "https://www.houstonchronicle.com/politics/texas-take/article/talarico-black-voters-democrat-convention-22322732.php"
+      }
+    },
+    {
+      "race_id": "us_house_generic",
+      "cycle": 2026,
+      "office": "generic_ballot",
+      "state": "United States",
+      "state_code": "US",
+      "candidate_a_party": "Republican",
+      "candidate_a_name": "Generic Republican",
+      "candidate_a_nominee_status": "presumptive_nominee",
+      "candidate_b_party": "Democratic",
+      "candidate_b_name": "Generic Democrat",
+      "candidate_b_nominee_status": "presumptive_nominee",
+      "candidate_a_share": 0.4667,
+      "candidate_b_share": 0.48,
+      "margin": -0.0133,
+      "margin_percent": -1.33,
+      "margin_of_error": 0.3201,
+      "margin_of_error_percent": 32.01,
+      "leader": "democratic",
+      "status": "tossup",
+      "nominee_last_verified": "2026-07-04",
+      "nominee_note": "National generic congressional ballot model.",
+      "nominee_sources": {
+        "republican": "https://adamcohen8.github.io/Election-Filtering/",
+        "democratic": "https://adamcohen8.github.io/Election-Filtering/"
       }
     },
     {

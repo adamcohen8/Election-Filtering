@@ -46,7 +46,7 @@ def public_forecast_payload(
                 "cycle": race.cycle,
                 "office": race.office,
                 "state": race.state,
-                "state_code": race_id[:2].upper(),
+                "state_code": _state_code_for_race(race_id),
                 "candidate_a_party": "Republican",
                 "candidate_a_name": nominees.republican.name
                 if nominees and nominees.republican
@@ -81,7 +81,7 @@ def public_forecast_payload(
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "cycle": 2026,
-        "offices": ("senate", "governor"),
+        "offices": ("senate", "governor", "generic_ballot"),
         "races": races,
     }
 
@@ -113,6 +113,12 @@ def _nominee_sources(nominees: RaceNominees | None) -> dict[str, str]:
     if nominees.democratic:
         sources["democratic"] = nominees.democratic.source_url
     return sources
+
+
+def _state_code_for_race(race_id: str) -> str | None:
+    if race_id == "us_house_generic":
+        return "US"
+    return race_id[:2].upper()
 
 
 def _leader_for_margin(margin: float) -> str:

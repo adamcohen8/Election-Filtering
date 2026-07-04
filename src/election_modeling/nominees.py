@@ -32,6 +32,25 @@ class RaceNominees:
 
 
 NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
+    "us_house_generic": RaceNominees(
+        race_id="us_house_generic",
+        republican=Nominee(
+            name="Generic Republican",
+            party="republican",
+            status="presumptive_nominee",
+            source_name="Modeled generic congressional ballot",
+            source_url="https://adamcohen8.github.io/Election-Filtering/",
+        ),
+        democratic=Nominee(
+            name="Generic Democrat",
+            party="democratic",
+            status="presumptive_nominee",
+            source_name="Modeled generic congressional ballot",
+            source_url="https://adamcohen8.github.io/Election-Filtering/",
+        ),
+        last_verified="2026-07-04",
+        notes="National generic congressional ballot model.",
+    ),
     "tx_sen": RaceNominees(
         race_id="tx_sen",
         republican=Nominee(

@@ -18,6 +18,7 @@ from election_modeling import (
     RaceModel,
     StaticPollSource,
     create_2026_election_model,
+    ensure_2026_races,
     export_public_forecasts,
     load_election_model,
     public_forecast_payload,
@@ -160,11 +161,13 @@ def test_election_model_forecasts_multiple_races() -> None:
 def test_2026_registry_contains_initial_senate_and_governor_races() -> None:
     race_ids = {race.race_id for race in RACES_2026}
 
-    assert len(RACES_2026) == 20
-    assert {"fl_sen", "tx_sen", "ga_sen", "me_sen", "pa_gov", "wi_gov"} <= race_ids
+    assert len(RACES_2026) == 21
+    assert {"fl_sen", "tx_sen", "ga_sen", "me_sen", "pa_gov", "wi_gov", "us_house_generic"} <= race_ids
     assert "nc_gov" not in race_ids
     assert RACES_2026_BY_ID["ga_gov"].state == "Georgia"
     assert RACES_2026_BY_ID["me_sen"].state == "Maine"
+    assert RACES_2026_BY_ID["us_house_generic"].office == "generic_ballot"
+    assert RACES_2026_BY_ID["us_house_generic"].state == "United States"
 
 
 def test_2026_nominee_registry_tracks_concluded_primaries() -> None:
@@ -182,6 +185,7 @@ def test_create_2026_election_model_preloads_all_races() -> None:
     )
 
     assert set(election.races) == set(RACES_2026_BY_ID)
+    assert "us_house_generic" in election.races
     assert election.races["fl_sen"].electorate.republican == 0.38
     assert election.races["tx_sen"].electorate.republican == 0.41
     assert election.races["tx_sen"].electorate.democratic == 0.30
@@ -193,6 +197,19 @@ def test_create_2026_election_model_preloads_all_races() -> None:
     assert election.races["me_sen"].electorate.republican == 0.233
     assert election.races["me_sen"].electorate.democratic == 0.275
     assert election.races["me_sen"].electorate.independent == 0.492
+    assert election.races["us_house_generic"].electorate.republican == 1.0 / 3.0
+
+
+def test_ensure_2026_races_adds_generic_ballot_to_existing_snapshot_model() -> None:
+    election = ElectionModel.from_electorates(
+        {"fl_sen": Electorate(republican=0.38, democratic=0.32, independent=0.30)}
+    )
+
+    ensure_2026_races(election)
+
+    assert set(election.races) == set(RACES_2026_BY_ID)
+    assert election.races["fl_sen"].electorate.republican == 0.38
+    assert "us_house_generic" in election.races
 
 
 def test_ingestion_pipeline_classifies_and_updates_race() -> None:
@@ -327,6 +344,37 @@ def test_normalized_poll_from_mapping_parses_topline_row() -> None:
     assert poll.topline.sample_size == 407
 
 
+def test_generic_ballot_poll_classifies_by_race_id_and_office_terms() -> None:
+    election = create_2026_election_model()
+    poll = NormalizedPoll.from_mapping(
+        {
+            "pollster": "Example Polling",
+            "field_date": "2026-06-15",
+            "office": "generic congressional ballot",
+            "text": "National generic congressional ballot",
+            "republican_a": "91",
+            "republican_b": "5",
+            "republican_n": "330",
+            "democratic_a": "4",
+            "democratic_b": "92",
+            "democratic_n": "340",
+            "independent_a": "47",
+            "independent_b": "41",
+            "independent_n": "330",
+        }
+    )
+    pipeline = PollIngestionPipeline(
+        sources=(StaticPollSource([poll]),),
+        ledger=IngestionLedger(),
+    )
+
+    result = pipeline.run(election)
+
+    assert result.errors == ()
+    assert result.applied[0].race_id == "us_house_generic"
+    assert election.forecast("us_house_generic").margin > 0
+
+
 def test_election_model_snapshot_round_trips(tmp_path) -> None:
     election = create_2026_election_model()
     poll = NormalizedPoll(
@@ -409,6 +457,13 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     assert texas["candidate_b_name"] == "James Talarico"
     assert texas["nominee_last_verified"] == "2026-07-01"
 
+    generic = next(race for race in payload["races"] if race["race_id"] == "us_house_generic")
+    assert generic["office"] == "generic_ballot"
+    assert generic["state"] == "United States"
+    assert generic["state_code"] == "US"
+    assert generic["candidate_a_name"] == "Generic Republican"
+    assert generic["candidate_b_name"] == "Generic Democrat"
+
 
 def test_public_status_uses_margin_buckets() -> None:
     options = PublicExportOptions()
@@ -437,4 +492,4 @@ def test_export_public_forecasts_writes_static_json(tmp_path) -> None:
     )
 
     assert output_path.exists()
-    assert len(payload["races"]) == 20
+    assert len(payload["races"]) == 21

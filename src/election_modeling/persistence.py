@@ -8,7 +8,7 @@ from typing import Mapping
 
 import numpy as np
 
-from election_modeling.cycles import create_2026_election_model
+from election_modeling.cycles import create_2026_election_model, ensure_2026_races
 from election_modeling.elections import ElectionModel
 from election_modeling.filters import KalmanState, RaceKalmanFilter
 from election_modeling.races import Electorate, RaceModel
@@ -49,7 +49,8 @@ def load_or_create_2026_election_model(
 ) -> ElectionModel:
     snapshot_path = Path(path)
     if snapshot_path.exists():
-        return load_election_model(snapshot_path)
+        election = load_election_model(snapshot_path)
+        return ensure_2026_races(election, electorates=electorates)
     return create_2026_election_model(electorates=electorates)
 
 

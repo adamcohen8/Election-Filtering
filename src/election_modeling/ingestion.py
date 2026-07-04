@@ -217,8 +217,10 @@ class RaceClassifier:
         for race_id, race in self.known_races.items():
             state = getattr(race, "state").lower()
             office = getattr(race, "office")
-            office_terms = ("senate", "senator") if office == "senate" else ("governor", "gubernatorial")
+            office_terms = _office_terms(office)
             if state in text and any(term in text for term in office_terms):
+                return race_id
+            if office == "generic_ballot" and any(term in text for term in office_terms):
                 return race_id
         return None
 
@@ -404,7 +406,32 @@ def _parse_office(value: str | None) -> Office | None:
         return "senate"
     if normalized in {"gov", "governor", "gubernatorial"}:
         return "governor"
+    if normalized in {
+        "generic",
+        "generic_ballot",
+        "generic congressional ballot",
+        "generic house ballot",
+        "house_generic",
+        "congressional ballot",
+        "national house",
+        "house",
+    }:
+        return "generic_ballot"
     raise ValueError(f"unknown office: {value}")
+
+
+def _office_terms(office: Office) -> tuple[str, ...]:
+    if office == "senate":
+        return ("senate", "senator")
+    if office == "governor":
+        return ("governor", "gubernatorial")
+    return (
+        "generic ballot",
+        "generic congressional ballot",
+        "generic house ballot",
+        "congressional ballot",
+        "national house",
+    )
 
 
 def _find_value(row: Mapping[str, object], *keys: str) -> object | None:

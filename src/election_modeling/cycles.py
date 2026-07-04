@@ -8,7 +8,7 @@ from typing import Literal, Mapping
 from election_modeling.elections import ElectionModel
 from election_modeling.races import Electorate
 
-Office = Literal["senate", "governor"]
+Office = Literal["senate", "governor", "generic_ballot"]
 
 
 @dataclass(frozen=True)
@@ -72,6 +72,15 @@ GOVERNOR_2026_STATES: tuple[str, ...] = (
     "Wisconsin",
 )
 
+GENERIC_BALLOT_2026_RACES: tuple[RaceSpec, ...] = (
+    RaceSpec(
+        race_id="us_house_generic",
+        cycle=2026,
+        office="generic_ballot",
+        state="United States",
+    ),
+)
+
 STATE_ABBREVIATIONS: dict[str, str] = {
     "Alaska": "ak",
     "Arizona": "az",
@@ -85,7 +94,14 @@ STATE_ABBREVIATIONS: dict[str, str] = {
     "Ohio": "oh",
     "Pennsylvania": "pa",
     "Texas": "tx",
+    "United States": "us",
     "Wisconsin": "wi",
+}
+
+OFFICE_CODES: dict[Office, str] = {
+    "senate": "sen",
+    "governor": "gov",
+    "generic_ballot": "house_generic",
 }
 
 
@@ -94,7 +110,7 @@ def race_id_for(state: str, office: Office) -> str:
         state_code = STATE_ABBREVIATIONS[state]
     except KeyError as exc:
         raise KeyError(f"unknown state: {state}") from exc
-    office_code = "sen" if office == "senate" else "gov"
+    office_code = OFFICE_CODES[office]
     return f"{state_code}_{office_code}"
 
 
@@ -112,7 +128,7 @@ def _race_specs(states: tuple[str, ...], office: Office) -> tuple[RaceSpec, ...]
 
 SENATE_2026_RACES = _race_specs(SENATE_2026_STATES, "senate")
 GOVERNOR_2026_RACES = _race_specs(GOVERNOR_2026_STATES, "governor")
-RACES_2026 = SENATE_2026_RACES + GOVERNOR_2026_RACES
+RACES_2026 = SENATE_2026_RACES + GOVERNOR_2026_RACES + GENERIC_BALLOT_2026_RACES
 RACES_2026_BY_ID = {race.race_id: race for race in RACES_2026}
 TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID: dict[str, Electorate] = {
     race.race_id: electorate
@@ -143,7 +159,31 @@ def create_2026_election_model(
         **(electorates or {}),
     }
     election = ElectionModel()
+    ensure_2026_races(
+        election,
+        electorates=electorates,
+        default_electorate=default_electorate,
+        **race_model_kwargs,
+    )
+    return election
+
+
+def ensure_2026_races(
+    election: ElectionModel,
+    electorates: Mapping[str, Electorate] | None = None,
+    *,
+    default_electorate: Electorate = DEFAULT_PLACEHOLDER_ELECTORATE,
+    **race_model_kwargs: object,
+) -> ElectionModel:
+    """Add any currently registered 2026 races missing from an election model."""
+
+    electorates = {
+        **TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID,
+        **(electorates or {}),
+    }
     for race in RACES_2026:
+        if race.race_id in election.races:
+            continue
         election.add_race(
             race.race_id,
             electorate=electorates.get(race.race_id, default_electorate),
