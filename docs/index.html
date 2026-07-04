@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Election Filtering</title>
-    <link rel="stylesheet" href="styles.css?v=20260704-map-ratings-3">
+    <link rel="stylesheet" href="styles.css?v=20260704-summary-panel-1">
   </head>
   <body>
     <main class="shell">
@@ -62,47 +62,90 @@
           </div>
         </div>
 
-        <aside class="detail" aria-live="polite">
-          <p class="eyebrow" id="detail-office">Senate</p>
-          <h2 id="detail-title">Select a modeled state</h2>
-          <div class="detail-grid">
+        <aside class="detail national-panel" aria-live="polite">
+          <p class="eyebrow">National forecast</p>
+          <h2>Generic Ballot</h2>
+          <div class="detail-grid generic-grid">
             <div>
               <span>Leader</span>
-              <strong id="detail-leader">-</strong>
+              <strong id="generic-leader">-</strong>
             </div>
             <div>
               <span>Margin</span>
-              <strong id="detail-margin">-</strong>
+              <strong id="generic-margin">-</strong>
             </div>
             <div>
               <span>MOE</span>
-              <strong id="detail-moe">-</strong>
+              <strong id="generic-moe">-</strong>
             </div>
             <div>
               <span>Status</span>
-              <strong id="detail-status">-</strong>
+              <strong id="generic-status">-</strong>
             </div>
           </div>
-          <div class="bar" aria-hidden="true">
-            <span id="detail-bar-left"></span>
-            <span id="detail-bar-right"></span>
+          <div class="bar" id="generic-bar" aria-hidden="true">
+            <span id="generic-bar-left"></span>
+            <span id="generic-bar-right"></span>
           </div>
           <dl class="support">
             <div>
-              <dt id="detail-republican-label">Republican share</dt>
-              <dd id="detail-republican-share">-</dd>
+              <dt>Republican share</dt>
+              <dd id="generic-republican-share">-</dd>
             </div>
             <div>
-              <dt id="detail-democratic-label">Democratic share</dt>
-              <dd id="detail-democratic-share">-</dd>
+              <dt>Democratic share</dt>
+              <dd id="generic-democratic-share">-</dd>
             </div>
           </dl>
+          <div class="makeup-list" aria-label="Projected party makeup">
+            <section class="makeup-card" aria-labelledby="senate-makeup-title">
+              <div class="makeup-heading">
+                <span id="senate-makeup-title">Senate</span>
+                <strong id="senate-total">-</strong>
+              </div>
+              <div class="makeup-bar" aria-hidden="true">
+                <span id="senate-republican-bar"></span>
+                <span id="senate-democratic-bar"></span>
+              </div>
+              <dl class="makeup-rows">
+                <div>
+                  <dt>Republican</dt>
+                  <dd id="senate-republican-seats">-</dd>
+                </div>
+                <div>
+                  <dt>Democratic</dt>
+                  <dd id="senate-democratic-seats">-</dd>
+                </div>
+              </dl>
+            </section>
+            <section class="makeup-card" aria-labelledby="governor-makeup-title">
+              <div class="makeup-heading">
+                <span id="governor-makeup-title">Governors</span>
+                <strong id="governor-total">-</strong>
+              </div>
+              <div class="makeup-bar" aria-hidden="true">
+                <span id="governor-republican-bar"></span>
+                <span id="governor-democratic-bar"></span>
+              </div>
+              <dl class="makeup-rows">
+                <div>
+                  <dt>Republican</dt>
+                  <dd id="governor-republican-seats">-</dd>
+                </div>
+                <div>
+                  <dt>Democratic</dt>
+                  <dd id="governor-democratic-seats">-</dd>
+                </div>
+              </dl>
+            </section>
+          </div>
+          <p class="panel-note">Unmodeled races hold with the incumbent party.</p>
         </aside>
       </section>
     </main>
 
     <script src="vendor/d3.min.js"></script>
     <script src="vendor/topojson-client.min.js"></script>
-    <script src="app.js?v=20260704-map-ratings-3"></script>
+    <script src="app.js?v=20260704-summary-panel-1"></script>
   </body>
 </html>

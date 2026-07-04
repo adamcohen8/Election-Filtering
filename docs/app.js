@@ -106,6 +106,102 @@ const labelAnchors = {
   WY: [-107.5, 43.0],
 };
 
+const senateSeatsBefore = {
+  republican: 53,
+  democratic: 47,
+};
+
+const senateIncumbentParties2026 = {
+  AL: "republican",
+  AK: "republican",
+  AR: "republican",
+  CO: "democratic",
+  DE: "democratic",
+  FL: "republican",
+  GA: "democratic",
+  ID: "republican",
+  IL: "democratic",
+  IA: "republican",
+  KS: "republican",
+  KY: "republican",
+  LA: "republican",
+  ME: "republican",
+  MA: "democratic",
+  MI: "democratic",
+  MN: "democratic",
+  MS: "republican",
+  MT: "republican",
+  NE: "republican",
+  NH: "democratic",
+  NJ: "democratic",
+  NM: "democratic",
+  NC: "republican",
+  OH: "republican",
+  OK: "republican",
+  OR: "democratic",
+  RI: "democratic",
+  SC: "republican",
+  SD: "republican",
+  TN: "republican",
+  TX: "republican",
+  VA: "democratic",
+  WV: "republican",
+  WY: "republican",
+};
+
+const governorIncumbentParties = {
+  AL: "republican",
+  AK: "republican",
+  AZ: "democratic",
+  AR: "republican",
+  CA: "democratic",
+  CO: "democratic",
+  CT: "democratic",
+  DE: "democratic",
+  FL: "republican",
+  GA: "republican",
+  HI: "democratic",
+  ID: "republican",
+  IL: "democratic",
+  IN: "republican",
+  IA: "republican",
+  KS: "democratic",
+  KY: "democratic",
+  LA: "republican",
+  ME: "democratic",
+  MD: "democratic",
+  MA: "democratic",
+  MI: "democratic",
+  MN: "democratic",
+  MS: "republican",
+  MO: "republican",
+  MT: "republican",
+  NE: "republican",
+  NV: "republican",
+  NH: "republican",
+  NJ: "democratic",
+  NM: "democratic",
+  NY: "democratic",
+  NC: "democratic",
+  ND: "republican",
+  OH: "republican",
+  OK: "republican",
+  OR: "democratic",
+  PA: "democratic",
+  RI: "democratic",
+  SC: "republican",
+  SD: "republican",
+  TN: "republican",
+  TX: "republican",
+  UT: "republican",
+  VT: "republican",
+  VA: "democratic",
+  WA: "democratic",
+  WV: "republican",
+  WI: "democratic",
+  WY: "republican",
+};
+
 const map = document.querySelector("#state-map");
 const mapWrap = document.querySelector(".map-wrap");
 const tooltip = document.querySelector("#map-tooltip");
@@ -115,19 +211,25 @@ const redCount = document.querySelector("#red-count");
 const blueCount = document.querySelector("#blue-count");
 const tossupCount = document.querySelector("#tossup-count");
 const updatedAt = document.querySelector("#updated-at");
-const detailOffice = document.querySelector("#detail-office");
-const detailTitle = document.querySelector("#detail-title");
-const detailLeader = document.querySelector("#detail-leader");
-const detailMargin = document.querySelector("#detail-margin");
-const detailMoe = document.querySelector("#detail-moe");
-const detailStatus = document.querySelector("#detail-status");
-const detailRepublicanLabel = document.querySelector("#detail-republican-label");
-const detailDemocraticLabel = document.querySelector("#detail-democratic-label");
-const detailRepublicanShare = document.querySelector("#detail-republican-share");
-const detailDemocraticShare = document.querySelector("#detail-democratic-share");
-const detailBar = document.querySelector(".bar");
-const detailBarLeft = document.querySelector("#detail-bar-left");
-const detailBarRight = document.querySelector("#detail-bar-right");
+const genericLeader = document.querySelector("#generic-leader");
+const genericMargin = document.querySelector("#generic-margin");
+const genericMoe = document.querySelector("#generic-moe");
+const genericStatus = document.querySelector("#generic-status");
+const genericRepublicanShare = document.querySelector("#generic-republican-share");
+const genericDemocraticShare = document.querySelector("#generic-democratic-share");
+const genericBar = document.querySelector("#generic-bar");
+const genericBarLeft = document.querySelector("#generic-bar-left");
+const genericBarRight = document.querySelector("#generic-bar-right");
+const senateTotal = document.querySelector("#senate-total");
+const senateRepublicanSeats = document.querySelector("#senate-republican-seats");
+const senateDemocraticSeats = document.querySelector("#senate-democratic-seats");
+const senateRepublicanBar = document.querySelector("#senate-republican-bar");
+const senateDemocraticBar = document.querySelector("#senate-democratic-bar");
+const governorTotal = document.querySelector("#governor-total");
+const governorRepublicanSeats = document.querySelector("#governor-republican-seats");
+const governorDemocraticSeats = document.querySelector("#governor-democratic-seats");
+const governorRepublicanBar = document.querySelector("#governor-republican-bar");
+const governorDemocraticBar = document.querySelector("#governor-democratic-bar");
 
 let selectedOffice = "senate";
 let selectedState = null;
@@ -338,41 +440,100 @@ function renderSummary() {
 }
 
 function renderDetail() {
-  const race = selectedState ? racesByState(selectedOffice).get(selectedState) : null;
-  const state = selectedState ? codeToState.get(selectedState) : null;
-  detailOffice.textContent = officeLabel(selectedOffice);
+  renderGenericBallot();
+  renderChamberMakeup("senate", senateMakeup(), {
+    total: senateTotal,
+    republicanSeats: senateRepublicanSeats,
+    democraticSeats: senateDemocraticSeats,
+    republicanBar: senateRepublicanBar,
+    democraticBar: senateDemocraticBar,
+  });
+  renderChamberMakeup("governor", governorMakeup(), {
+    total: governorTotal,
+    republicanSeats: governorRepublicanSeats,
+    democraticSeats: governorDemocraticSeats,
+    republicanBar: governorRepublicanBar,
+    democraticBar: governorDemocraticBar,
+  });
+}
+
+function renderGenericBallot() {
+  const race = forecastPayload.races.find((item) => item.race_id === "us_house_generic");
 
   if (!race) {
-    detailTitle.textContent = state ? `${state.name}` : "Select a modeled state";
-    detailLeader.textContent = "-";
-    detailMargin.textContent = "-";
-    detailMoe.textContent = "-";
-    detailStatus.textContent = state ? "Unmodeled" : "-";
-    detailRepublicanLabel.textContent = "Republican share";
-    detailDemocraticLabel.textContent = "Democratic share";
-    detailRepublicanShare.textContent = "-";
-    detailDemocraticShare.textContent = "-";
-    detailBar.classList.add("is-empty");
-    detailBarLeft.style.width = "50%";
-    detailBarRight.style.width = "50%";
+    genericLeader.textContent = "-";
+    genericMargin.textContent = "-";
+    genericMoe.textContent = "-";
+    genericStatus.textContent = "-";
+    genericRepublicanShare.textContent = "-";
+    genericDemocraticShare.textContent = "-";
+    genericBar.classList.add("is-empty");
+    genericBarLeft.style.width = "50%";
+    genericBarRight.style.width = "50%";
     return;
   }
 
-  detailBar.classList.remove("is-empty");
-  detailTitle.textContent = `${race.state} ${officeLabel(selectedOffice)}`;
-  detailLeader.textContent = leaderLabel(race);
-  detailMargin.textContent = signedPercent(race.margin_percent);
-  detailMoe.textContent = `±${race.margin_of_error_percent.toFixed(2)} pts`;
-  detailStatus.textContent = statusLabel(race.status);
-  detailRepublicanLabel.textContent = `${candidateLabel(race, "republican")} share`;
-  detailDemocraticLabel.textContent = `${candidateLabel(race, "democratic")} share`;
-  detailRepublicanShare.textContent = `${(race.candidate_a_share * 100).toFixed(1)}%`;
-  detailDemocraticShare.textContent = `${(race.candidate_b_share * 100).toFixed(1)}%`;
+  genericBar.classList.remove("is-empty");
+  genericLeader.textContent = leaderLabel(race);
+  genericMargin.textContent = signedPercent(race.margin_percent);
+  genericMoe.textContent = `±${race.margin_of_error_percent.toFixed(2)} pts`;
+  genericStatus.textContent = statusLabel(race.status);
+  genericRepublicanShare.textContent = `${(race.candidate_a_share * 100).toFixed(1)}%`;
+  genericDemocraticShare.textContent = `${(race.candidate_b_share * 100).toFixed(1)}%`;
 
   const total = race.candidate_a_share + race.candidate_b_share;
   const republicanWidth = total > 0 ? (race.candidate_a_share / total) * 100 : 50;
-  detailBarLeft.style.width = `${republicanWidth}%`;
-  detailBarRight.style.width = `${100 - republicanWidth}%`;
+  genericBarLeft.style.width = `${republicanWidth}%`;
+  genericBarRight.style.width = `${100 - republicanWidth}%`;
+}
+
+function renderChamberMakeup(kind, counts, elements) {
+  const total = counts.republican + counts.democratic;
+  const republicanWidth = total > 0 ? (counts.republican / total) * 100 : 50;
+  const democraticWidth = 100 - republicanWidth;
+  elements.total.textContent = kind === "senate" ? `${counts.republican}-${counts.democratic}` : `${total} seats`;
+  elements.republicanSeats.textContent = counts.republican;
+  elements.democraticSeats.textContent = counts.democratic;
+  elements.republicanBar.style.width = `${republicanWidth}%`;
+  elements.democraticBar.style.width = `${democraticWidth}%`;
+}
+
+function senateMakeup() {
+  const counts = { ...senateSeatsBefore };
+  const senateRaces = racesByState("senate");
+
+  Object.entries(senateIncumbentParties2026).forEach(([stateCode, incumbentParty]) => {
+    const predictedParty = predictedPartyForRace(senateRaces.get(stateCode), incumbentParty);
+    counts[incumbentParty] -= 1;
+    counts[predictedParty] += 1;
+  });
+
+  return counts;
+}
+
+function governorMakeup() {
+  const counts = { republican: 0, democratic: 0 };
+  const governorRaces = racesByState("governor");
+
+  Object.entries(governorIncumbentParties).forEach(([stateCode, incumbentParty]) => {
+    const predictedParty = predictedPartyForRace(governorRaces.get(stateCode), incumbentParty);
+    counts[predictedParty] += 1;
+  });
+
+  return counts;
+}
+
+function predictedPartyForRace(race, incumbentParty) {
+  if (!race) {
+    return incumbentParty;
+  }
+  if (race.margin > 0) {
+    return "republican";
+  }
+  if (race.margin < 0) {
+    return "democratic";
+  }
+  return incumbentParty;
 }
 
 function racesByState(office) {
