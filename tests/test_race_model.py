@@ -460,6 +460,12 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     assert texas["candidate_b_name"] == "James Talarico"
     assert texas["nominee_last_verified"] == "2026-07-01"
 
+    maine = next(race for race in payload["races"] if race["race_id"] == "me_sen")
+    assert maine["data_available"] is True
+    assert maine["candidate_a_name"] == "Susan Collins"
+    assert maine["candidate_b_name"] == "Graham Platner"
+    assert maine["nominee_last_verified"] == "2026-07-04"
+
     generic = next(race for race in payload["races"] if race["race_id"] == "us_house_generic")
     assert generic["data_available"] is True
     assert generic["office"] == "generic_ballot"

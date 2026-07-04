@@ -170,6 +170,25 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
             source_url="https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results",
         ),
     ),
+    "me_sen": RaceNominees(
+        race_id="me_sen",
+        republican=Nominee(
+            name="Susan Collins",
+            party="republican",
+            status="nominee",
+            source_name="2026 United States Senate election in Maine",
+            source_url="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+        ),
+        democratic=Nominee(
+            name="Graham Platner",
+            party="democratic",
+            status="nominee",
+            source_name="Axios",
+            source_url="https://www.axios.com/2026/06/10/democrats-graham-platner-maine-senate-primary",
+        ),
+        last_verified="2026-07-04",
+        notes="Maine Senate primary has occurred; Collins-Platner general-election matchup.",
+    ),
     "oh_sen": RaceNominees(
         race_id="oh_sen",
         republican=Nominee(
