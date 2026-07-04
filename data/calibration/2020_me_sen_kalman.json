@@ -1,0 +1,377 @@
+{
+  "metadata": {
+    "race_id": "me_sen_2020",
+    "office": "senate",
+    "state": "Maine",
+    "candidate_a": "Susan Collins",
+    "candidate_b": "Sara Gideon",
+    "candidate_a_party": "Republican",
+    "candidate_b_party": "Democratic",
+    "created_for": "2026 Maine Senate turnout calibration",
+    "notes": [
+      "Candidate A is Collins and candidate B is Gideon to match the model's Republican/Democratic candidate convention.",
+      "Party-ID groups use the source's party-ID or party-registration label. Maine sources vary between self-ID and registration.",
+      "Subgroup sample sizes are marked by source. Estimated bases are included only when they can be inferred from published totals and crosstabs."
+    ]
+  },
+  "actual_result": {
+    "candidate_a_share": 0.5098,
+    "candidate_b_share": 0.4239,
+    "source_url": "https://en.wikipedia.org/wiki/2020_United_States_Senate_election_in_Maine"
+  },
+  "filter_settings": {
+    "initial_mean": [
+      0.86,
+      0.1,
+      0.08,
+      0.88,
+      0.46,
+      0.46
+    ],
+    "initial_variance": 0.04,
+    "process_variance": 5e-05,
+    "electorate": {
+      "republican": 0.3333333333333333,
+      "democratic": 0.3333333333333333,
+      "independent": 0.3333333333333333
+    },
+    "note": "Electorate is neutral because this run estimates party-ID support states, not a final topline."
+  },
+  "polls_applied": [
+    {
+      "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+      "pollster": "Data for Progress",
+      "field_start": "2020-07-24",
+      "field_end": "2020-08-02",
+      "measurement": "merged original ask plus leaners",
+      "source_url": "https://filesforprogress.org/datasets/2020/8/progressive-senate-project/DFP_Maine_8_20_xtabs.pdf"
+    },
+    {
+      "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+      "pollster": "New York Times/Siena College",
+      "field_start": "2020-09-11",
+      "field_end": "2020-09-16",
+      "measurement": "first choice with rank choice ballot",
+      "source_url": "https://int.nyt.com/data/documenttools/az-me-nc-0920-crosstabs/72d074246b272695/full.pdf"
+    },
+    {
+      "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+      "pollster": "Data for Progress",
+      "field_start": "2020-09-23",
+      "field_end": "2020-09-28",
+      "measurement": "merged original ask plus leaners",
+      "source_url": "https://filesforprogress.org/memos/2020-senate-project/week-2/dfp_psp_ME_Senate_Week2.pdf"
+    },
+    {
+      "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+      "pollster": "Critical Insights / Digital Research / Bangor Daily News",
+      "field_start": "2020-09-25",
+      "field_end": "2020-10-04",
+      "measurement": "first choice among highly likely voters",
+      "source_url": "https://drive.google.com/file/d/1rgOpdiCIcbEBjnt2pVvQO7ztkbfsNB90/view"
+    },
+    {
+      "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+      "pollster": "Colby College/SocialSphere",
+      "field_start": "2020-10-21",
+      "field_end": "2020-10-25",
+      "measurement": "first choice with ranked-choice process",
+      "source_url": "https://docs.google.com/spreadsheets/d/1JcpvID4F9MyFxovFcWd_Mm8oP4W4OKi-w2kGyCxZaVU/edit"
+    },
+    {
+      "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+      "pollster": "SurveyUSA/FairVote",
+      "field_start": "2020-10-23",
+      "field_end": "2020-10-27",
+      "measurement": "first choice with ranked-choice ballot",
+      "source_url": "https://www.surveyusa.com/client/PollReport.aspx?g=b3c59e14-b400-40ad-919c-1f42ca3ae8b6"
+    },
+    {
+      "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+      "pollster": "Emerson College",
+      "field_start": "2020-10-29",
+      "field_end": "2020-10-31",
+      "measurement": "first choice",
+      "source_url": "https://emersonpolling.reportablenews.com/pr/super-poll-sunday-biden-with-slight-lead-over-trump-in-pennsylvania-maine-s-second-district-competitive"
+    }
+  ],
+  "final_state": {
+    "republican_candidate_a": {
+      "mean": 0.8738870026838964,
+      "standard_error": 0.008247941654862808
+    },
+    "republican_candidate_b": {
+      "mean": 0.08045536477020433,
+      "standard_error": 0.0067580864378179294
+    },
+    "democratic_candidate_a": {
+      "mean": 0.08749525280570129,
+      "standard_error": 0.006535447783716166
+    },
+    "democratic_candidate_b": {
+      "mean": 0.8805139919079953,
+      "standard_error": 0.00750178748229052
+    },
+    "independent_candidate_a": {
+      "mean": 0.4089908084722216,
+      "standard_error": 0.011417289401095305
+    },
+    "independent_candidate_b": {
+      "mean": 0.4569399678349332,
+      "standard_error": 0.011568836889993363
+    }
+  },
+  "history": [
+    {
+      "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+      "pollster": "Data for Progress",
+      "field_end": "2020-08-02",
+      "measurement": "merged original ask plus leaners",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8797067452900617,
+          "standard_error": 0.01876758525226984
+        },
+        "republican_candidate_b": {
+          "mean": 0.08024000762728481,
+          "standard_error": 0.01567571659906523
+        },
+        "democratic_candidate_a": {
+          "mean": 0.09991909761359988,
+          "standard_error": 0.01788224034343155
+        },
+        "democratic_candidate_b": {
+          "mean": 0.8900710151001181,
+          "standard_error": 0.018649895096955346
+        },
+        "independent_candidate_a": {
+          "mean": 0.3524941137620498,
+          "standard_error": 0.02745166666715566
+        },
+        "independent_candidate_b": {
+          "mean": 0.4878333770967336,
+          "standard_error": 0.028758271560574714
+        }
+      }
+    },
+    {
+      "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+      "pollster": "New York Times/Siena College",
+      "field_end": "2020-09-16",
+      "measurement": "first choice with rank choice ballot",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8798189599408269,
+          "standard_error": 0.014743410864379457
+        },
+        "republican_candidate_b": {
+          "mean": 0.08014815097862073,
+          "standard_error": 0.012312189196534701
+        },
+        "democratic_candidate_a": {
+          "mean": 0.07291035861167754,
+          "standard_error": 0.012040712460652764
+        },
+        "democratic_candidate_b": {
+          "mean": 0.9133430017007153,
+          "standard_error": 0.013029005979340242
+        },
+        "independent_candidate_a": {
+          "mean": 0.3884484444474868,
+          "standard_error": 0.020045428520637315
+        },
+        "independent_candidate_b": {
+          "mean": 0.5021496376476005,
+          "standard_error": 0.02057184124521505
+        }
+      }
+    },
+    {
+      "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+      "pollster": "Data for Progress",
+      "field_end": "2020-09-28",
+      "measurement": "merged original ask plus leaners",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8752147490480359,
+          "standard_error": 0.012530891196731692
+        },
+        "republican_candidate_b": {
+          "mean": 0.08022418526639902,
+          "standard_error": 0.010301094119759038
+        },
+        "democratic_candidate_a": {
+          "mean": 0.05735478968771855,
+          "standard_error": 0.008712052537357372
+        },
+        "democratic_candidate_b": {
+          "mean": 0.9256380306449503,
+          "standard_error": 0.009830510117080195
+        },
+        "independent_candidate_a": {
+          "mean": 0.3993070821129892,
+          "standard_error": 0.016658477405005593
+        },
+        "independent_candidate_b": {
+          "mean": 0.48268580103941316,
+          "standard_error": 0.017000330014629906
+        }
+      }
+    },
+    {
+      "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+      "pollster": "Critical Insights / Digital Research / Bangor Daily News",
+      "field_end": "2020-10-04",
+      "measurement": "first choice among highly likely voters",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8728650600670966,
+          "standard_error": 0.011544909345121082
+        },
+        "republican_candidate_b": {
+          "mean": 0.07694787200206546,
+          "standard_error": 0.009237269024437176
+        },
+        "democratic_candidate_a": {
+          "mean": 0.06880627434980753,
+          "standard_error": 0.008338769724030965
+        },
+        "democratic_candidate_b": {
+          "mean": 0.9100638570451565,
+          "standard_error": 0.009424624818492273
+        },
+        "independent_candidate_a": {
+          "mean": 0.402218785367942,
+          "standard_error": 0.01533335056680148
+        },
+        "independent_candidate_b": {
+          "mean": 0.47354167356117227,
+          "standard_error": 0.015615832995333737
+        }
+      }
+    },
+    {
+      "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+      "pollster": "Colby College/SocialSphere",
+      "field_end": "2020-10-25",
+      "measurement": "first choice with ranked-choice process",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8750040228192744,
+          "standard_error": 0.009884765139891984
+        },
+        "republican_candidate_b": {
+          "mean": 0.08200644060376272,
+          "standard_error": 0.008201356929918163
+        },
+        "democratic_candidate_a": {
+          "mean": 0.07326664667458926,
+          "standard_error": 0.007471151419134791
+        },
+        "democratic_candidate_b": {
+          "mean": 0.9020937997194739,
+          "standard_error": 0.008520661857423872
+        },
+        "independent_candidate_a": {
+          "mean": 0.40347426863549757,
+          "standard_error": 0.01342489396076416
+        },
+        "independent_candidate_b": {
+          "mean": 0.4620382450802235,
+          "standard_error": 0.013644234544993356
+        }
+      }
+    },
+    {
+      "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+      "pollster": "SurveyUSA/FairVote",
+      "field_end": "2020-10-27",
+      "measurement": "first choice with ranked-choice ballot",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8761774630618944,
+          "standard_error": 0.008657527724784937
+        },
+        "republican_candidate_b": {
+          "mean": 0.0815480811163184,
+          "standard_error": 0.007193720294290425
+        },
+        "democratic_candidate_a": {
+          "mean": 0.08301463242274329,
+          "standard_error": 0.006831458318835584
+        },
+        "democratic_candidate_b": {
+          "mean": 0.8878337526237894,
+          "standard_error": 0.00781318059222287
+        },
+        "independent_candidate_a": {
+          "mean": 0.40421410564125543,
+          "standard_error": 0.012178218752736624
+        },
+        "independent_candidate_b": {
+          "mean": 0.4535290929576843,
+          "standard_error": 0.012355272255712625
+        }
+      }
+    },
+    {
+      "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+      "pollster": "Emerson College",
+      "field_end": "2020-10-31",
+      "measurement": "first choice",
+      "state": {
+        "republican_candidate_a": {
+          "mean": 0.8738870026838964,
+          "standard_error": 0.008247941654862808
+        },
+        "republican_candidate_b": {
+          "mean": 0.08045536477020433,
+          "standard_error": 0.0067580864378179294
+        },
+        "democratic_candidate_a": {
+          "mean": 0.08749525280570129,
+          "standard_error": 0.006535447783716166
+        },
+        "democratic_candidate_b": {
+          "mean": 0.8805139919079953,
+          "standard_error": 0.00750178748229052
+        },
+        "independent_candidate_a": {
+          "mean": 0.4089908084722216,
+          "standard_error": 0.011417289401095305
+        },
+        "independent_candidate_b": {
+          "mean": 0.4569399678349332,
+          "standard_error": 0.011568836889993363
+        }
+      }
+    }
+  ],
+  "searched_not_applied": [
+    {
+      "source": "RealClearPolling Maine 2020 Collins vs. Gideon page",
+      "source_url": "https://www.realclearpolling.com/polls/senate/general/2020/maine/collins-vs-gideon",
+      "reason": "Aggregator page used to orient poll universe; it does not publish underlying party-ID crosstab tables."
+    },
+    {
+      "source": "Quinnipiac University August 2020 Maine crosstabs",
+      "source_url": "https://poll.qu.edu/images/polling/me/me08062020_crosstabs_bgxe21.pdf",
+      "reason": "Party-ID candidate shares are present, but no reliable party-ID subgroup bases were found in the PDF or current release page."
+    },
+    {
+      "source": "Fabrizio Ward/Hart Research Associates/AARP September 2020 Maine survey",
+      "source_url": "https://www.aarp.org/content/dam/aarp/research/surveys_statistics/politics/2020/2020-election-battleground-states-senate-maine-annotated-questionnaire.doi.10.26419-2Fres.00401.020.pdf",
+      "reason": "Topline and 50+ splits are published, but party-ID Senate crosstabs were not found."
+    },
+    {
+      "source": "Pan Atlantic Research 56th Omnibus",
+      "source_url": "https://drive.google.com/file/d/1sI71fH_b6IKecmMtqlACiYc8ODAZ6R1P/view",
+      "reason": "The searched report includes favorability and topline material, but no clear Collins/Gideon party-ID vote crosstab was found."
+    },
+    {
+      "source": "BDN/DRI full data tables",
+      "source_url": "https://drive.google.com/file/d/1QvLIr-Xi1OsOA_Ulz6jtWJnCZSN-1JyH/view",
+      "reason": "Searched as a companion to the high-likely-voter profile; the high-likely-voter file was the clearer model input."
+    }
+  ]
+}

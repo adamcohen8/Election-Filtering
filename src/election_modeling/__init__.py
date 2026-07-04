@@ -7,6 +7,8 @@ from election_modeling.cycles import (
     RACES_2026_BY_ID,
     SENATE_2026_RACES,
     RaceSpec,
+    TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID,
+    TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE,
     create_2026_election_model,
     race_id_for,
 )
@@ -79,6 +81,8 @@ __all__ = [
     "StructuredCSVSource",
     "StructuredJSONSource",
     "ToplineResult",
+    "TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID",
+    "TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE",
     "create_2026_election_model",
     "export_public_forecasts",
     "load_election_model",

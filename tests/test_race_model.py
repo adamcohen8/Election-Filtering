@@ -157,10 +157,11 @@ def test_election_model_forecasts_multiple_races() -> None:
 def test_2026_registry_contains_initial_senate_and_governor_races() -> None:
     race_ids = {race.race_id for race in RACES_2026}
 
-    assert len(RACES_2026) == 19
-    assert {"fl_sen", "tx_sen", "ga_sen", "pa_gov", "wi_gov"} <= race_ids
+    assert len(RACES_2026) == 20
+    assert {"fl_sen", "tx_sen", "ga_sen", "me_sen", "pa_gov", "wi_gov"} <= race_ids
     assert "nc_gov" not in race_ids
     assert RACES_2026_BY_ID["ga_gov"].state == "Georgia"
+    assert RACES_2026_BY_ID["me_sen"].state == "Maine"
 
 
 def test_2026_nominee_registry_tracks_concluded_primaries() -> None:
@@ -179,7 +180,14 @@ def test_create_2026_election_model_preloads_all_races() -> None:
 
     assert set(election.races) == set(RACES_2026_BY_ID)
     assert election.races["fl_sen"].electorate.republican == 0.38
-    assert election.races["tx_sen"].electorate.republican == 1.0 / 3.0
+    assert election.races["tx_sen"].electorate.republican == 0.41
+    assert election.races["tx_sen"].electorate.democratic == 0.30
+    assert election.races["tx_sen"].electorate.independent == 0.29
+    assert election.races["ia_sen"].electorate.republican == 36.0 / 101.0
+    assert election.races["ia_sen"].electorate.democratic == 26.0 / 101.0
+    assert election.races["ia_sen"].electorate.independent == 39.0 / 101.0
+    assert election.races["ak_sen"].electorate.republican == 1.0 / 3.0
+    assert election.races["me_sen"].electorate.republican == 1.0 / 3.0
 
 
 def test_ingestion_pipeline_classifies_and_updates_race() -> None:
@@ -398,4 +406,4 @@ def test_export_public_forecasts_writes_static_json(tmp_path) -> None:
     )
 
     assert output_path.exists()
-    assert len(payload["races"]) == 19
+    assert len(payload["races"]) == 20

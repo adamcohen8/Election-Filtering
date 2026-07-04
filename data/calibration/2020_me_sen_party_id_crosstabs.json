@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "race_id": "me_sen_2020",
+    "office": "senate",
+    "state": "Maine",
+    "candidate_a": "Susan Collins",
+    "candidate_b": "Sara Gideon",
+    "candidate_a_party": "Republican",
+    "candidate_b_party": "Democratic",
+    "created_for": "2026 Maine Senate turnout calibration",
+    "notes": [
+      "Candidate A is Collins and candidate B is Gideon to match the model's Republican/Democratic candidate convention.",
+      "Party-ID groups use the source's party-ID or party-registration label. Maine sources vary between self-ID and registration.",
+      "Subgroup sample sizes are marked by source. Estimated bases are included only when they can be inferred from published totals and crosstabs."
+    ]
+  },
+  "actual_result": {
+    "candidate_a_share": 0.5098,
+    "candidate_b_share": 0.4239,
+    "source_url": "https://en.wikipedia.org/wiki/2020_United_States_Senate_election_in_Maine"
+  },
+  "observations": [
+    {
+      "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+      "pollster": "Data for Progress",
+      "field_start": "2020-07-24",
+      "field_end": "2020-08-02",
+      "sample_size": 866,
+      "measurement": "merged original ask plus leaners",
+      "source_url": "https://filesforprogress.org/datasets/2020/8/progressive-senate-project/DFP_Maine_8_20_xtabs.pdf",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.88,
+          "candidate_b": 0.08,
+          "sample_size": 296,
+          "sample_size_source": "published weighted N"
+        },
+        "democratic": {
+          "candidate_a": 0.10,
+          "candidate_b": 0.89,
+          "sample_size": 277,
+          "sample_size_source": "published weighted N"
+        },
+        "independent": {
+          "candidate_a": 0.35,
+          "candidate_b": 0.49,
+          "sample_size": 293,
+          "sample_size_source": "published weighted N; source labels this column Independent / Third Party"
+        }
+      }
+    },
+    {
+      "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+      "pollster": "Data for Progress",
+      "field_start": "2020-09-23",
+      "field_end": "2020-09-28",
+      "sample_size": 718,
+      "measurement": "merged original ask plus leaners",
+      "source_url": "https://filesforprogress.org/memos/2020-senate-project/week-2/dfp_psp_ME_Senate_Week2.pdf",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.86,
+          "candidate_b": 0.08,
+          "sample_size": 208,
+          "sample_size_source": "estimated from published total, topline, and rounded D/I/R crosstabs"
+        },
+        "democratic": {
+          "candidate_a": 0.04,
+          "candidate_b": 0.93,
+          "sample_size": 241,
+          "sample_size_source": "estimated from published total, topline, and rounded D/I/R crosstabs"
+        },
+        "independent": {
+          "candidate_a": 0.42,
+          "candidate_b": 0.44,
+          "sample_size": 270,
+          "sample_size_source": "estimated from published total, topline, and rounded D/I/R crosstabs"
+        }
+      }
+    },
+    {
+      "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+      "pollster": "New York Times/Siena College",
+      "field_start": "2020-09-11",
+      "field_end": "2020-09-16",
+      "sample_size": 663,
+      "measurement": "first choice with rank choice ballot",
+      "source_url": "https://int.nyt.com/data/documenttools/az-me-nc-0920-crosstabs/72d074246b272695/full.pdf",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.88,
+          "candidate_b": 0.08,
+          "sample_size": 186,
+          "sample_size_source": "derived from published party-ID composition and total N"
+        },
+        "democratic": {
+          "candidate_a": 0.05,
+          "candidate_b": 0.92,
+          "sample_size": 179,
+          "sample_size_source": "derived from published party-ID composition and total N"
+        },
+        "independent": {
+          "candidate_a": 0.42,
+          "candidate_b": 0.50,
+          "sample_size": 278,
+          "sample_size_source": "derived from published party-ID composition and total N"
+        }
+      }
+    },
+    {
+      "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+      "pollster": "Critical Insights / Digital Research / Bangor Daily News",
+      "field_start": "2020-09-25",
+      "field_end": "2020-10-04",
+      "sample_size": 466,
+      "measurement": "first choice among highly likely voters",
+      "source_url": "https://drive.google.com/file/d/1rgOpdiCIcbEBjnt2pVvQO7ztkbfsNB90/view",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.81,
+          "candidate_b": 0.06,
+          "sample_size": 129,
+          "sample_size_source": "published party-registration count"
+        },
+        "democratic": {
+          "candidate_a": 0.18,
+          "candidate_b": 0.72,
+          "sample_size": 175,
+          "sample_size_source": "published party-registration count"
+        },
+        "independent": {
+          "candidate_a": 0.41,
+          "candidate_b": 0.42,
+          "sample_size": 155,
+          "sample_size_source": "published party-registration count; source labels this group Other"
+        }
+      }
+    },
+    {
+      "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+      "pollster": "Colby College/SocialSphere",
+      "field_start": "2020-10-21",
+      "field_end": "2020-10-25",
+      "sample_size": 879,
+      "measurement": "first choice with ranked-choice process",
+      "source_url": "https://docs.google.com/spreadsheets/d/1JcpvID4F9MyFxovFcWd_Mm8oP4W4OKi-w2kGyCxZaVU/edit",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.87,
+          "candidate_b": 0.10,
+          "sample_size": 283,
+          "sample_size_source": "published unweighted N"
+        },
+        "democratic": {
+          "candidate_a": 0.09,
+          "candidate_b": 0.86,
+          "sample_size": 289,
+          "sample_size_source": "published unweighted N"
+        },
+        "independent": {
+          "candidate_a": 0.40,
+          "candidate_b": 0.42,
+          "sample_size": 307,
+          "sample_size_source": "published unweighted N"
+        }
+      }
+    },
+    {
+      "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+      "pollster": "SurveyUSA/FairVote",
+      "field_start": "2020-10-23",
+      "field_end": "2020-10-27",
+      "sample_size": 1007,
+      "measurement": "first choice with ranked-choice ballot",
+      "source_url": "https://www.surveyusa.com/client/PollReport.aspx?g=b3c59e14-b400-40ad-919c-1f42ca3ae8b6",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.88,
+          "candidate_b": 0.08,
+          "sample_size": 328,
+          "sample_size_source": "estimated from published total, topline, and rounded party-affiliation crosstabs"
+        },
+        "democratic": {
+          "candidate_a": 0.13,
+          "candidate_b": 0.81,
+          "sample_size": 396,
+          "sample_size_source": "estimated from published total, topline, and rounded party-affiliation crosstabs"
+        },
+        "independent": {
+          "candidate_a": 0.40,
+          "candidate_b": 0.41,
+          "sample_size": 283,
+          "sample_size_source": "estimated from published total, topline, and rounded party-affiliation crosstabs"
+        }
+      }
+    },
+    {
+      "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+      "pollster": "Emerson College",
+      "field_start": "2020-10-29",
+      "field_end": "2020-10-31",
+      "sample_size": 611,
+      "measurement": "first choice",
+      "source_url": "https://emersonpolling.reportablenews.com/pr/super-poll-sunday-biden-with-slight-lead-over-trump-in-pennsylvania-maine-s-second-district-competitive",
+      "party_id_crosstab": {
+        "republican": {
+          "candidate_a": 0.8025,
+          "candidate_b": 0.0679,
+          "sample_size": 162,
+          "sample_size_source": "published crosstab count"
+        },
+        "democratic": {
+          "candidate_a": 0.1300,
+          "candidate_b": 0.7803,
+          "sample_size": 223,
+          "sample_size_source": "published crosstab count"
+        },
+        "independent": {
+          "candidate_a": 0.4356,
+          "candidate_b": 0.4711,
+          "sample_size": 225,
+          "sample_size_source": "published crosstab count; source labels this group Independent or other"
+        }
+      }
+    }
+  ],
+  "searched_not_applied": [
+    {
+      "source": "RealClearPolling Maine 2020 Collins vs. Gideon page",
+      "source_url": "https://www.realclearpolling.com/polls/senate/general/2020/maine/collins-vs-gideon",
+      "reason": "Aggregator page used to orient poll universe; it does not publish underlying party-ID crosstab tables."
+    },
+    {
+      "source": "Quinnipiac University August 2020 Maine crosstabs",
+      "source_url": "https://poll.qu.edu/images/polling/me/me08062020_crosstabs_bgxe21.pdf",
+      "reason": "Party-ID candidate shares are present, but no reliable party-ID subgroup bases were found in the PDF or current release page."
+    },
+    {
+      "source": "Fabrizio Ward/Hart Research Associates/AARP September 2020 Maine survey",
+      "source_url": "https://www.aarp.org/content/dam/aarp/research/surveys_statistics/politics/2020/2020-election-battleground-states-senate-maine-annotated-questionnaire.doi.10.26419-2Fres.00401.020.pdf",
+      "reason": "Topline and 50+ splits are published, but party-ID Senate crosstabs were not found."
+    },
+    {
+      "source": "Pan Atlantic Research 56th Omnibus",
+      "source_url": "https://drive.google.com/file/d/1sI71fH_b6IKecmMtqlACiYc8ODAZ6R1P/view",
+      "reason": "The searched report includes favorability and topline material, but no clear Collins/Gideon party-ID vote crosstab was found."
+    },
+    {
+      "source": "BDN/DRI full data tables",
+      "source_url": "https://drive.google.com/file/d/1QvLIr-Xi1OsOA_Ulz6jtWJnCZSN-1JyH/view",
+      "reason": "Searched as a companion to the high-likely-voter profile; the high-likely-voter file was the clearer model input."
+    }
+  ]
+}
