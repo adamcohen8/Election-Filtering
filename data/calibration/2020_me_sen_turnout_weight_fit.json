@@ -1,0 +1,926 @@
+{
+  "metadata": {
+    "race_id": "me_sen_2020",
+    "candidate_a": "Susan Collins",
+    "candidate_b": "Sara Gideon",
+    "method": "simplex grid search over R/D/I weights",
+    "step": 0.001,
+    "objective": "final_weight * squared final margin error + poll_weight * mean squared poll margin error",
+    "note": "Margins are candidate_a minus candidate_b, so positive margins favor Collins."
+  },
+  "actual_margin": 0.08590000000000003,
+  "final_party_margins": {
+    "republican": 0.7934316379136921,
+    "democratic": -0.793018739102294,
+    "independent": -0.0479491593627116
+  },
+  "target_poll_margin_distribution": {
+    "mean": -0.03788999801428571,
+    "standard_deviation": 0.023323402635697918,
+    "minimum": -0.08000000000000002,
+    "maximum": -0.010000000000000009
+  },
+  "average_poll_sample_composition": {
+    "republican": 0.3020939099949853,
+    "democratic": 0.3431855911551534,
+    "independent": 0.3547204988498613
+  },
+  "equal_weight_fit": {
+    "objective": 0.009545811279308172,
+    "final_weight": 1.0,
+    "poll_weight": 1.0,
+    "weights": {
+      "republican": 0.211,
+      "democratic": 0.143,
+      "independent": 0.646
+    },
+    "final_margin": 0.023037238959849285,
+    "actual_margin": 0.08590000000000003,
+    "final_margin_error": -0.06286276104015075,
+    "poll_margin_rmse": 0.07479361305430483,
+    "poll_margin_mean": 0.028667814285714292,
+    "target_poll_margin_mean": -0.03788999801428571,
+    "poll_margin_mean_error": 0.0665578123,
+    "poll_margin_std": 0.035805035457218214,
+    "target_poll_margin_std": 0.023323402635697918,
+    "poll_margin_std_error": 0.012481632821520296,
+    "polls": [
+      {
+        "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+        "modeled_margin": -0.03461,
+        "target_margin": -0.02999999999999997,
+        "error": -0.004610000000000031
+      },
+      {
+        "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+        "modeled_margin": -0.007289999999999992,
+        "target_margin": -0.04999999999999999,
+        "error": 0.04271
+      },
+      {
+        "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+        "modeled_margin": 0.02439,
+        "target_margin": -0.08000000000000002,
+        "error": 0.10439000000000001
+      },
+      {
+        "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+        "modeled_margin": 0.07457,
+        "target_margin": -0.010000000000000009,
+        "error": 0.08457
+      },
+      {
+        "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+        "modeled_margin": 0.03944000000000004,
+        "target_margin": -0.03200000000000003,
+        "error": 0.07144000000000006
+      },
+      {
+        "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+        "modeled_margin": 0.06510000000000005,
+        "target_margin": -0.010000000000000009,
+        "error": 0.07510000000000006
+      },
+      {
+        "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+        "modeled_margin": 0.039074699999999976,
+        "target_margin": -0.05322998609999996,
+        "error": 0.09230468609999994
+      }
+    ]
+  },
+  "poll_only_fit": {
+    "objective": 0.0011038852107420477,
+    "final_weight": 0.0,
+    "poll_weight": 1.0,
+    "weights": {
+      "republican": 0.287,
+      "democratic": 0.325,
+      "independent": 0.388
+    },
+    "final_margin": -0.04862048395974807,
+    "actual_margin": 0.08590000000000003,
+    "final_margin_error": -0.1345204839597481,
+    "poll_margin_rmse": 0.03322476803142571,
+    "poll_margin_mean": -0.035647328571428584,
+    "target_poll_margin_mean": -0.03788999801428571,
+    "poll_margin_mean_error": 0.0022426694428571287,
+    "poll_margin_std": 0.0432018058745139,
+    "target_poll_margin_std": 0.023323402635697918,
+    "poll_margin_std_error": 0.019878403238815984,
+    "polls": [
+      {
+        "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+        "modeled_margin": -0.08147000000000003,
+        "target_margin": -0.02999999999999997,
+        "error": -0.05147000000000006
+      },
+      {
+        "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+        "modeled_margin": -0.08419000000000001,
+        "target_margin": -0.04999999999999999,
+        "error": -0.034190000000000026
+      },
+      {
+        "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+        "modeled_margin": -0.07315000000000002,
+        "target_margin": -0.08000000000000002,
+        "error": 0.006849999999999995
+      },
+      {
+        "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+        "modeled_margin": 0.03586999999999998,
+        "target_margin": -0.010000000000000009,
+        "error": 0.04586999999999999
+      },
+      {
+        "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+        "modeled_margin": -0.037020000000000004,
+        "target_margin": -0.03200000000000003,
+        "error": -0.005019999999999976
+      },
+      {
+        "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+        "modeled_margin": 0.004719999999999993,
+        "target_margin": -0.010000000000000009,
+        "error": 0.014720000000000002
+      },
+      {
+        "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+        "modeled_margin": -0.01429130000000002,
+        "target_margin": -0.05322998609999996,
+        "error": 0.03893868609999994
+      }
+    ]
+  },
+  "strong_final_fit": {
+    "objective": 0.015660741737504313,
+    "final_weight": 10.0,
+    "poll_weight": 1.0,
+    "weights": {
+      "republican": 0.155,
+      "democratic": 0.01,
+      "independent": 0.835
+    },
+    "final_margin": 0.07501416841773514,
+    "actual_margin": 0.08590000000000003,
+    "final_margin_error": -0.010885831582264888,
+    "poll_margin_rmse": 0.12031512143172177,
+    "poll_margin_mean": 0.07528821428571429,
+    "target_poll_margin_mean": -0.03788999801428571,
+    "poll_margin_mean_error": 0.1131782123,
+    "poll_margin_std": 0.03618772154420923,
+    "target_poll_margin_std": 0.023323402635697918,
+    "poll_margin_std_error": 0.012864318908511314,
+    "polls": [
+      {
+        "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+        "modeled_margin": -0.0008000000000000113,
+        "target_margin": -0.02999999999999997,
+        "error": 0.02919999999999996
+      },
+      {
+        "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+        "modeled_margin": 0.04849999999999999,
+        "target_margin": -0.04999999999999999,
+        "error": 0.09849999999999998
+      },
+      {
+        "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+        "modeled_margin": 0.09529999999999998,
+        "target_margin": -0.08000000000000002,
+        "error": 0.1753
+      },
+      {
+        "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+        "modeled_margin": 0.10249999999999998,
+        "target_margin": -0.010000000000000009,
+        "error": 0.11249999999999999
+      },
+      {
+        "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+        "modeled_margin": 0.09495000000000003,
+        "target_margin": -0.03200000000000003,
+        "error": 0.12695000000000006
+      },
+      {
+        "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+        "modeled_margin": 0.10885000000000004,
+        "target_margin": -0.010000000000000009,
+        "error": 0.11885000000000005
+      },
+      {
+        "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+        "modeled_margin": 0.07771749999999998,
+        "target_margin": -0.05322998609999996,
+        "error": 0.13094748609999995
+      }
+    ]
+  },
+  "frontier": [
+    {
+      "objective": 0.0011038852107420477,
+      "final_weight": 0.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.287,
+        "democratic": 0.325,
+        "independent": 0.388
+      },
+      "final_margin": -0.04862048395974807,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.1345204839597481,
+      "poll_margin_rmse": 0.03322476803142571,
+      "poll_margin_mean": -0.035647328571428584,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.0022426694428571287,
+      "poll_margin_std": 0.0432018058745139,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.019878403238815984,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.08147000000000003,
+          "target_margin": -0.02999999999999997,
+          "error": -0.05147000000000006
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": -0.08419000000000001,
+          "target_margin": -0.04999999999999999,
+          "error": -0.034190000000000026
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": -0.07315000000000002,
+          "target_margin": -0.08000000000000002,
+          "error": 0.006849999999999995
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.03586999999999998,
+          "target_margin": -0.010000000000000009,
+          "error": 0.04586999999999999
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": -0.037020000000000004,
+          "target_margin": -0.03200000000000003,
+          "error": -0.005019999999999976
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.004719999999999993,
+          "target_margin": -0.010000000000000009,
+          "error": 0.014720000000000002
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": -0.01429130000000002,
+          "target_margin": -0.05322998609999996,
+          "error": 0.03893868609999994
+        }
+      ]
+    },
+    {
+      "objective": 0.002727172119297127,
+      "final_weight": 0.1,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.274,
+        "democratic": 0.292,
+        "independent": 0.434
+      },
+      "final_margin": -0.03497113819293504,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.12087113819293507,
+      "poll_margin_rmse": 0.03558354836847452,
+      "poll_margin_mean": -0.023344885714285675,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.014545112300000038,
+      "poll_margin_std": 0.04128319751346193,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.017959794877764015,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.07223999999999997,
+          "target_margin": -0.02999999999999997,
+          "error": -0.04224
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": -0.06955999999999996,
+          "target_margin": -0.04999999999999999,
+          "error": -0.019559999999999966
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": -0.05483999999999997,
+          "target_margin": -0.08000000000000002,
+          "error": 0.025160000000000043
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.04348000000000001,
+          "target_margin": -0.010000000000000009,
+          "error": 0.05348000000000002
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": -0.022539999999999945,
+          "target_margin": -0.03200000000000003,
+          "error": 0.009460000000000083
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.016300000000000054,
+          "target_margin": -0.010000000000000009,
+          "error": 0.026300000000000063
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": -0.004014199999999972,
+          "target_margin": -0.05322998609999996,
+          "error": 0.049215786099999985
+        }
+      ]
+    },
+    {
+      "objective": 0.004621019091284264,
+      "final_weight": 0.25,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.256,
+        "democratic": 0.25,
+        "independent": 0.494
+      },
+      "final_margin": -0.01882307019484787,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.1047230701948479,
+      "poll_margin_rmse": 0.04335076393243264,
+      "poll_margin_mean": -0.008882057142857135,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.029007940871428578,
+      "poll_margin_std": 0.03921243386211854,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.015889031226420623,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.061860000000000005,
+          "target_margin": -0.02999999999999997,
+          "error": -0.031860000000000034
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": -0.052219999999999996,
+          "target_margin": -0.04999999999999999,
+          "error": -0.0022200000000000067
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": -0.032699999999999986,
+          "target_margin": -0.08000000000000002,
+          "error": 0.04730000000000003
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.05205999999999999,
+          "target_margin": -0.010000000000000009,
+          "error": 0.06206
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": -0.005259999999999969,
+          "target_margin": -0.03200000000000003,
+          "error": 0.02674000000000006
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.029860000000000022,
+          "target_margin": -0.010000000000000009,
+          "error": 0.039860000000000034
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.007945600000000006,
+          "target_margin": -0.05322998609999996,
+          "error": 0.061175586099999964
+        }
+      ]
+    },
+    {
+      "objective": 0.006859487217003376,
+      "final_weight": 0.5,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.236,
+        "democratic": 0.202,
+        "independent": 0.562
+      },
+      "final_margin": 0.00011265368712399387,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.08578734631287604,
+      "poll_margin_rmse": 0.05638929706336755,
+      "poll_margin_mean": 0.008116285714285692,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.04600628372857141,
+      "poll_margin_std": 0.03730433038713674,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.013980927751438825,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.04946000000000004,
+          "target_margin": -0.02999999999999997,
+          "error": -0.019460000000000068
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": -0.031900000000000026,
+          "target_margin": -0.04999999999999999,
+          "error": 0.018099999999999963
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": -0.006940000000000032,
+          "target_margin": -0.08000000000000002,
+          "error": 0.07305999999999999
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.06229999999999997,
+          "target_margin": -0.010000000000000009,
+          "error": 0.07229999999999998
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.014939999999999998,
+          "target_margin": -0.03200000000000003,
+          "error": 0.04694000000000002
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.04582000000000001,
+          "target_margin": -0.010000000000000009,
+          "error": 0.055820000000000015
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.02205399999999998,
+          "target_margin": -0.05322998609999996,
+          "error": 0.07528398609999994
+        }
+      ]
+    },
+    {
+      "objective": 0.009545811279308172,
+      "final_weight": 1.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.211,
+        "democratic": 0.143,
+        "independent": 0.646
+      },
+      "final_margin": 0.023037238959849285,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.06286276104015075,
+      "poll_margin_rmse": 0.07479361305430483,
+      "poll_margin_mean": 0.028667814285714292,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.0665578123,
+      "poll_margin_std": 0.035805035457218214,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012481632821520296,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.03461,
+          "target_margin": -0.02999999999999997,
+          "error": -0.004610000000000031
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": -0.007289999999999992,
+          "target_margin": -0.04999999999999999,
+          "error": 0.04271
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.02439,
+          "target_margin": -0.08000000000000002,
+          "error": 0.10439000000000001
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.07457,
+          "target_margin": -0.010000000000000009,
+          "error": 0.08457
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.03944000000000004,
+          "target_margin": -0.03200000000000003,
+          "error": 0.07144000000000006
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.06510000000000005,
+          "target_margin": -0.010000000000000009,
+          "error": 0.07510000000000006
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.039074699999999976,
+          "target_margin": -0.05322998609999996,
+          "error": 0.09230468609999994
+        }
+      ]
+    },
+    {
+      "objective": 0.012115752172977844,
+      "final_weight": 2.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.185,
+        "democratic": 0.084,
+        "independent": 0.731
+      },
+      "final_margin": 0.04512044343529816,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.04077955656470187,
+      "poll_margin_rmse": 0.09375397434642653,
+      "poll_margin_mean": 0.048397899999999994,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.08628789801428571,
+      "poll_margin_std": 0.035377546448923144,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012054143813225227,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.020700000000000017,
+          "target_margin": -0.02999999999999997,
+          "error": 0.009299999999999954
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": 0.016439999999999975,
+          "target_margin": -0.04999999999999999,
+          "error": 0.06643999999999997
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.05491999999999999,
+          "target_margin": -0.08000000000000002,
+          "error": 0.13492
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.08607999999999996,
+          "target_margin": -0.010000000000000009,
+          "error": 0.09607999999999997
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.06315000000000003,
+          "target_margin": -0.03200000000000003,
+          "error": 0.09515000000000005
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.08357000000000002,
+          "target_margin": -0.010000000000000009,
+          "error": 0.09357000000000003
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.05532529999999997,
+          "target_margin": -0.05322998609999996,
+          "error": 0.10855528609999993
+        }
+      ]
+    },
+    {
+      "objective": 0.014576572886053844,
+      "final_weight": 5.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.161,
+        "democratic": 0.029,
+        "independent": 0.81
+      },
+      "final_margin": 0.0659061311863415,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.019993868813658527,
+      "poll_margin_rmse": 0.1121507866016325,
+      "poll_margin_mean": 0.06698527142857143,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.10487526944285713,
+      "poll_margin_std": 0.03591792906672156,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012594526431023642,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.00751000000000002,
+          "target_margin": -0.02999999999999997,
+          "error": 0.02248999999999995
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": 0.03876999999999998,
+          "target_margin": -0.04999999999999999,
+          "error": 0.08876999999999996
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.08356999999999998,
+          "target_margin": -0.08000000000000002,
+          "error": 0.16357
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.09698999999999998,
+          "target_margin": -0.010000000000000009,
+          "error": 0.10698999999999999
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.08544000000000004,
+          "target_margin": -0.03200000000000003,
+          "error": 0.11744000000000007
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.10098000000000003,
+          "target_margin": -0.010000000000000009,
+          "error": 0.11098000000000004
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.07065689999999997,
+          "target_margin": -0.05322998609999996,
+          "error": 0.12388688609999993
+        }
+      ]
+    },
+    {
+      "objective": 0.015660741737504313,
+      "final_weight": 10.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.155,
+        "democratic": 0.01,
+        "independent": 0.835
+      },
+      "final_margin": 0.07501416841773514,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.010885831582264888,
+      "poll_margin_rmse": 0.12031512143172177,
+      "poll_margin_mean": 0.07528821428571429,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.1131782123,
+      "poll_margin_std": 0.03618772154420923,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012864318908511314,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": -0.0008000000000000113,
+          "target_margin": -0.02999999999999997,
+          "error": 0.02919999999999996
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": 0.04849999999999999,
+          "target_margin": -0.04999999999999999,
+          "error": 0.09849999999999998
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.09529999999999998,
+          "target_margin": -0.08000000000000002,
+          "error": 0.1753
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.10249999999999998,
+          "target_margin": -0.010000000000000009,
+          "error": 0.11249999999999999
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.09495000000000003,
+          "target_margin": -0.03200000000000003,
+          "error": 0.12695000000000006
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.10885000000000004,
+          "target_margin": -0.010000000000000009,
+          "error": 0.11885000000000005
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.07771749999999998,
+          "target_margin": -0.05322998609999996,
+          "error": 0.13094748609999995
+        }
+      ]
+    },
+    {
+      "objective": 0.01640117810022484,
+      "final_weight": 25.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.158,
+        "democratic": 0.005,
+        "independent": 0.837
+      },
+      "final_margin": 0.08126365870826226,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.004636341291737775,
+      "poll_margin_rmse": 0.1259515247461817,
+      "poll_margin_mean": 0.08123454285714286,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.11912454087142857,
+      "poll_margin_std": 0.03602741553471496,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012704012899017042,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": 0.005270000000000011,
+          "target_margin": -0.02999999999999997,
+          "error": 0.03526999999999998
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": 0.05508999999999999,
+          "target_margin": -0.04999999999999999,
+          "error": 0.10508999999999999
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.10204999999999999,
+          "target_margin": -0.08000000000000002,
+          "error": 0.18205
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.10743,
+          "target_margin": -0.010000000000000009,
+          "error": 0.11743
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.10107000000000003,
+          "target_margin": -0.03200000000000003,
+          "error": 0.13307000000000008
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.11463000000000005,
+          "target_margin": -0.010000000000000009,
+          "error": 0.12463000000000006
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.08310179999999998,
+          "target_margin": -0.05322998609999996,
+          "error": 0.13633178609999994
+        }
+      ]
+    },
+    {
+      "objective": 0.016665401363187164,
+      "final_weight": 50.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.158,
+        "democratic": 0.002,
+        "independent": 0.84
+      },
+      "final_margin": 0.083498867447481,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.002401132552519031,
+      "poll_margin_rmse": 0.12797315924227562,
+      "poll_margin_mean": 0.08332374285714286,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.12121374087142858,
+      "poll_margin_std": 0.0360331237065825,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012709721070884583,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": 0.007220000000000008,
+          "target_margin": -0.02999999999999997,
+          "error": 0.037219999999999975
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": 0.05746,
+          "target_margin": -0.04999999999999999,
+          "error": 0.10745999999999999
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.10465999999999999,
+          "target_margin": -0.08000000000000002,
+          "error": 0.18466
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.10901999999999999,
+          "target_margin": -0.010000000000000009,
+          "error": 0.11902
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.10332000000000004,
+          "target_margin": -0.03200000000000003,
+          "error": 0.13532000000000005
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.11664000000000005,
+          "target_margin": -0.010000000000000009,
+          "error": 0.12664000000000006
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.08494619999999999,
+          "target_margin": -0.05322998609999996,
+          "error": 0.13817618609999993
+        }
+      ]
+    },
+    {
+      "objective": 0.016803236781781306,
+      "final_weight": 100.0,
+      "poll_weight": 1.0,
+      "weights": {
+        "republican": 0.163,
+        "democratic": 0.006,
+        "independent": 0.831
+      },
+      "final_margin": 0.0847254931149047,
+      "actual_margin": 0.08590000000000003,
+      "final_margin_error": -0.001174506885095336,
+      "poll_margin_rmse": 0.12909411349657918,
+      "poll_margin_mean": 0.08464535714285715,
+      "target_poll_margin_mean": -0.03788999801428571,
+      "poll_margin_mean_error": 0.12253535515714287,
+      "poll_margin_std": 0.035754672632412964,
+      "target_poll_margin_std": 0.023323402635697918,
+      "poll_margin_std_error": 0.012431269996715046,
+      "polls": [
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-07-24_2020-08-02",
+          "modeled_margin": 0.009320000000000016,
+          "target_margin": -0.02999999999999997,
+          "error": 0.03931999999999999
+        },
+        {
+          "poll_id": "nyt-siena_me_sen_2020_2020-09-11_2020-09-16",
+          "modeled_margin": 0.0587,
+          "target_margin": -0.04999999999999999,
+          "error": 0.10869999999999999
+        },
+        {
+          "poll_id": "data-for-progress_me_sen_2020_2020-09-23_2020-09-28",
+          "modeled_margin": 0.10518,
+          "target_margin": -0.08000000000000002,
+          "error": 0.18518
+        },
+        {
+          "poll_id": "critical-insights-bdn-dri_me_sen_2020_2020-09-25_2020-10-04",
+          "modeled_margin": 0.11069999999999998,
+          "target_margin": -0.010000000000000009,
+          "error": 0.12069999999999999
+        },
+        {
+          "poll_id": "colby-socialsphere_me_sen_2020_2020-10-21_2020-10-25",
+          "modeled_margin": 0.10427000000000004,
+          "target_margin": -0.03200000000000003,
+          "error": 0.13627000000000006
+        },
+        {
+          "poll_id": "surveyusa-fairvote_me_sen_2020_2020-10-23_2020-10-27",
+          "modeled_margin": 0.11801000000000006,
+          "target_margin": -0.010000000000000009,
+          "error": 0.12801000000000007
+        },
+        {
+          "poll_id": "emerson-college_me_sen_2020_2020-10-29_2020-10-31",
+          "modeled_margin": 0.08633749999999998,
+          "target_margin": -0.05322998609999996,
+          "error": 0.13956748609999994
+        }
+      ]
+    }
+  ]
+}
