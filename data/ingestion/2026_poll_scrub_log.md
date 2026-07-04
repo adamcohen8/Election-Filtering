@@ -2,6 +2,44 @@
 
 ## 2026-07-04
 
+### Maine Senate RCP Backfill
+
+#### Sources Searched
+
+- RealClearPolling 2026 Maine Senate page for Susan Collins vs. Graham Platner, reviewed July 4, 2026.
+- Search-surfaced public polling table snippets for the same Collins-vs-Platner matchup, used to recover rows not visible in the static RCP text extraction.
+- Public news reports for the June New York Times/Portland Press Herald/Siena College and June Fabrizio/Pine Tree Results toplines surfaced around the current RCP average.
+
+#### Polls Applied
+
+Applied 14 Maine U.S. Senate topline observations to `me_sen`, with Susan Collins as candidate A/Republican and Graham Platner as candidate B/Democrat:
+
+- `nyt-siena-pph_me_sen_2026-06-19_2026-06-26_topline`: New York Times/Portland Press Herald/Siena College, n=608 LV, Collins 0.47, Platner 0.49.
+- `fabrizio-pine-tree_me_sen_2026-06-01_2026-06-03_topline`: Fabrizio, Lee & Associates/Pine Tree Results, n=800 LV, Collins 0.46, Platner 0.46.
+- `echelon_me_sen_2026-04-03_2026-04-09_topline`: Echelon Insights, n=378 LV, Collins 0.45, Platner 0.51.
+- `maine-peoples-resource-center_me_sen_2026-03-20_2026-03-31_topline`: Maine People's Resource Center, n=1,167 LV, Collins 0.39, Platner 0.48.
+- `emerson_me_sen_2026-03-21_2026-03-23_topline`: Emerson College, n=1,075 LV, Collins 0.41, Platner 0.48.
+- `onmessage_me_sen_2026-03-03_2026-03-08_topline`: OnMessage Public Strategies, n=600 LV, Collins 0.42, Platner 0.44.
+- `quantus_me_sen_2026-03-05_topline`: Quantus Insights, n=800 LV, Collins 0.42, Platner 0.49.
+- `pan-atlantic_me_sen_2026-02-13_2026-03-02_topline`: Pan Atlantic Research, n=810 LV, Collins 0.40, Platner 0.44.
+- `unh_me_sen_2026-02-12_2026-02-16_topline`: University of New Hampshire, n=1,105 LV, Collins 0.38, Platner 0.49.
+- `fabrizio_me_sen_2026-01-20_2026-01-24_topline`: Fabrizio, Lee & Associates, n=800 LV, Collins 0.45, Platner 0.44.
+- `workbench_me_sen_2025-12-11_2025-12-16_topline`: Workbench Strategy, n=900 LV, Collins 0.50, Platner 0.50.
+- `pan-atlantic_me_sen_2025-11-29_2025-12-07_topline`: Pan Atlantic Research, n=820 LV, Collins 0.42, Platner 0.43.
+- `maine-peoples-resource-center_me_sen_2025-10-26_2025-10-29_topline`: Maine People's Resource Center, n=783 LV, Collins 0.41, Platner 0.45.
+- `zenith_me_sen_2025-10-07_2025-10-10_topline`: Zenith Research, n=501 LV, Collins 0.38, Platner 0.38.
+
+#### Polls Skipped Or Not Applied
+
+- RealClearPolling and other aggregate averages were not ingested as observations.
+- Collins-vs-Janet Mills, Collins-vs-Dan Kleban, and Collins-vs-generic-Democrat rows were not applied to the Collins-vs-Platner model.
+- No clear public Republican/Democratic/Independent party-ID crosstabs with subgroup sample sizes were found for these rows in this pass, so all applied Maine rows are toplines.
+
+#### Extraction Uncertainties
+
+- RCP's rendered page showed the current Collins-vs-Platner average, but its static extraction did not expose every individual table row. The row set was cross-checked against indexed public polling-table snippets and public reports.
+- The June news reports were used for the current post-primary NYT/Siena and Fabrizio/Pine Tree toplines because they appear to explain the tightened RCP average on the linked page.
+
 ### Generic Ballot Sweep
 
 #### Sources Searched
