@@ -323,8 +323,8 @@ function labelPoint(projection, path, feature) {
 function renderSummary() {
   const races = forecastPayload.races.filter((race) => race.office === selectedOffice);
   modeledCount.textContent = races.length;
-  redCount.textContent = races.filter((race) => race.status === "republican").length;
-  blueCount.textContent = races.filter((race) => race.status === "democratic").length;
+  redCount.textContent = races.filter((race) => race.leader === "republican").length;
+  blueCount.textContent = races.filter((race) => race.leader === "democratic").length;
   tossupCount.textContent = races.filter((race) => race.status === "tossup").length;
   updatedAt.textContent = forecastPayload.generated_at
     ? new Intl.DateTimeFormat(undefined, {
@@ -411,13 +411,19 @@ function candidateLabel(race, party, compact = false) {
 }
 
 function statusLabel(status) {
-  if (status === "republican") {
-    return "Red";
+  const labels = {
+    tossup: "Tossup",
+    "lean-republican": "Lean Republican",
+    "likely-republican": "Likely Republican",
+    "safe-republican": "Safe Republican",
+    "lean-democratic": "Lean Democratic",
+    "likely-democratic": "Likely Democratic",
+    "safe-democratic": "Safe Democratic",
+  };
+  if (status in labels) {
+    return labels[status];
   }
-  if (status === "democratic") {
-    return "Blue";
-  }
-  return "Tossup";
+  return "Unmodeled";
 }
 
 function signedPercent(value) {

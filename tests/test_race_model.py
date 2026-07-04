@@ -1,4 +1,5 @@
 import numpy as np
+from election_modeling.public import PublicExportOptions, _status_for_margin
 
 from election_modeling import (
     ElectionModel,
@@ -391,12 +392,31 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     race = next(race for race in payload["races"] if race["race_id"] == "fl_sen")
     assert race["office"] == "senate"
     assert race["state_code"] == "FL"
-    assert race["status"] in {"republican", "democratic", "tossup"}
+    assert race["status"] in {
+        "tossup",
+        "lean-republican",
+        "likely-republican",
+        "safe-republican",
+        "lean-democratic",
+        "likely-democratic",
+        "safe-democratic",
+    }
 
     texas = next(race for race in payload["races"] if race["race_id"] == "tx_sen")
     assert texas["candidate_a_name"] == "Ken Paxton"
     assert texas["candidate_b_name"] == "James Talarico"
     assert texas["nominee_last_verified"] == "2026-07-01"
+
+
+def test_public_status_uses_margin_buckets() -> None:
+    options = PublicExportOptions()
+
+    assert _status_for_margin(margin=0.0199, leader="republican", options=options) == "tossup"
+    assert _status_for_margin(margin=0.02, leader="republican", options=options) == "lean-republican"
+    assert _status_for_margin(margin=-0.0499, leader="democratic", options=options) == "lean-democratic"
+    assert _status_for_margin(margin=0.05, leader="republican", options=options) == "likely-republican"
+    assert _status_for_margin(margin=-0.0799, leader="democratic", options=options) == "likely-democratic"
+    assert _status_for_margin(margin=0.08, leader="republican", options=options) == "safe-republican"
 
 
 def test_export_public_forecasts_writes_static_json(tmp_path) -> None:

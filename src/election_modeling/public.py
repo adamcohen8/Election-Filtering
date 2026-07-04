@@ -17,8 +17,9 @@ from election_modeling.persistence import load_election_model
 class PublicExportOptions:
     """Controls how model forecasts are converted into public map states."""
 
-    tossup_uses_moe: bool = True
-    tossup_margin_threshold: float = 0.03
+    tossup_margin_threshold: float = 0.02
+    lean_margin_threshold: float = 0.05
+    likely_margin_threshold: float = 0.08
     z_score: float = 1.96
 
 
@@ -38,12 +39,7 @@ def public_forecast_payload(
         nominees = NOMINEES_2026_BY_RACE.get(race_id)
         forecast = model.forecast(z_score=options.z_score)
         leader = _leader_for_margin(forecast.margin)
-        tossup = _is_tossup(
-            margin=forecast.margin,
-            margin_of_error=forecast.margin_of_error,
-            options=options,
-        )
-        status = "tossup" if tossup else leader
+        status = _status_for_margin(margin=forecast.margin, leader=leader, options=options)
         races.append(
             {
                 "race_id": race_id,
@@ -127,12 +123,17 @@ def _leader_for_margin(margin: float) -> str:
     return "tie"
 
 
-def _is_tossup(
+def _status_for_margin(
     *,
     margin: float,
-    margin_of_error: float,
+    leader: str,
     options: PublicExportOptions,
-) -> bool:
-    if options.tossup_uses_moe:
-        return abs(margin) <= margin_of_error
-    return abs(margin) <= options.tossup_margin_threshold
+) -> str:
+    lead = abs(margin)
+    if leader == "tie" or lead < options.tossup_margin_threshold:
+        return "tossup"
+    if lead < options.lean_margin_threshold:
+        return f"lean-{leader}"
+    if lead < options.likely_margin_threshold:
+        return f"likely-{leader}"
+    return f"safe-{leader}"

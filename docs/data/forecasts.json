@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T15:31:06.104514+00:00",
+  "generated_at": "2026-07-04T15:37:57.752794+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -25,7 +25,7 @@
       "margin_of_error": 0.0541,
       "margin_of_error_percent": 5.41,
       "leader": "democratic",
-      "status": "democratic",
+      "status": "likely-democratic",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -49,7 +49,7 @@
       "margin_of_error": 0.3235,
       "margin_of_error_percent": 32.35,
       "leader": "republican",
-      "status": "tossup",
+      "status": "lean-republican",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -73,7 +73,7 @@
       "margin_of_error": 0.3255,
       "margin_of_error_percent": 32.55,
       "leader": "republican",
-      "status": "tossup",
+      "status": "safe-republican",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -97,7 +97,7 @@
       "margin_of_error": 0.3255,
       "margin_of_error_percent": 32.55,
       "leader": "republican",
-      "status": "tossup",
+      "status": "safe-republican",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -121,7 +121,7 @@
       "margin_of_error": 0.0895,
       "margin_of_error_percent": 8.95,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "likely-democratic",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -148,7 +148,7 @@
       "margin_of_error": 0.0908,
       "margin_of_error_percent": 9.08,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "likely-democratic",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -175,7 +175,7 @@
       "margin_of_error": 0.0742,
       "margin_of_error_percent": 7.42,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "lean-democratic",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -202,7 +202,7 @@
       "margin_of_error": 0.0454,
       "margin_of_error_percent": 4.54,
       "leader": "republican",
-      "status": "tossup",
+      "status": "lean-republican",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -229,7 +229,7 @@
       "margin_of_error": 0.3381,
       "margin_of_error_percent": 33.81,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "lean-democratic",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -253,7 +253,7 @@
       "margin_of_error": 0.3205,
       "margin_of_error_percent": 32.05,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "lean-democratic",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -277,7 +277,7 @@
       "margin_of_error": 0.3205,
       "margin_of_error_percent": 32.05,
       "leader": "democratic",
-      "status": "tossup",
+      "status": "lean-democratic",
       "nominee_last_verified": null,
       "nominee_note": null,
       "nominee_sources": {}
@@ -301,7 +301,7 @@
       "margin_of_error": 0.032,
       "margin_of_error_percent": 3.2,
       "leader": "democratic",
-      "status": "democratic",
+      "status": "likely-democratic",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -376,7 +376,7 @@
       "margin_of_error": 0.0893,
       "margin_of_error_percent": 8.93,
       "leader": "republican",
-      "status": "tossup",
+      "status": "likely-republican",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -403,7 +403,7 @@
       "margin_of_error": 0.0434,
       "margin_of_error_percent": 4.34,
       "leader": "republican",
-      "status": "tossup",
+      "status": "lean-republican",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -430,7 +430,7 @@
       "margin_of_error": 0.0684,
       "margin_of_error_percent": 6.84,
       "leader": "democratic",
-      "status": "democratic",
+      "status": "safe-democratic",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {
@@ -457,7 +457,7 @@
       "margin_of_error": 0.0366,
       "margin_of_error_percent": 3.66,
       "leader": "republican",
-      "status": "republican",
+      "status": "safe-republican",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {

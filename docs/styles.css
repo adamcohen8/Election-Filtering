@@ -4,8 +4,14 @@
   --muted: #65717b;
   --line: #d9dfdf;
   --panel: #ffffff;
-  --republican: #c64235;
-  --democratic: #286bb6;
+  --republican-safe: #b4232d;
+  --republican-likely: #d94d47;
+  --republican-lean: #f2a39c;
+  --democratic-safe: #1f5fa8;
+  --democratic-likely: #3f82c4;
+  --democratic-lean: #9fc9ee;
+  --republican: var(--republican-safe);
+  --democratic: var(--democratic-safe);
   --tossup: #d7b43b;
   --unmodeled: #dfe4e2;
   --unmodeled-ink: #6e7877;
@@ -187,12 +193,30 @@ h2 {
   stroke-width: 2.4;
 }
 
-.state-shape.republican {
-  fill: var(--republican);
+.state-shape.lean-republican {
+  fill: var(--republican-lean);
 }
 
+.state-shape.likely-republican {
+  fill: var(--republican-likely);
+}
+
+.state-shape.safe-republican,
+.state-shape.republican {
+  fill: var(--republican-safe);
+}
+
+.state-shape.lean-democratic {
+  fill: var(--democratic-lean);
+}
+
+.state-shape.likely-democratic {
+  fill: var(--democratic-likely);
+}
+
+.state-shape.safe-democratic,
 .state-shape.democratic {
-  fill: var(--democratic);
+  fill: var(--democratic-safe);
 }
 
 .state-shape.tossup {
@@ -314,12 +338,30 @@ h2 {
   border: 1px solid rgba(21, 26, 31, 0.12);
 }
 
-.swatch.republican {
-  background: var(--republican);
+.swatch.lean-republican {
+  background: var(--republican-lean);
 }
 
+.swatch.likely-republican {
+  background: var(--republican-likely);
+}
+
+.swatch.safe-republican,
+.swatch.republican {
+  background: var(--republican-safe);
+}
+
+.swatch.lean-democratic {
+  background: var(--democratic-lean);
+}
+
+.swatch.likely-democratic {
+  background: var(--democratic-likely);
+}
+
+.swatch.safe-democratic,
 .swatch.democratic {
-  background: var(--democratic);
+  background: var(--democratic-safe);
 }
 
 .swatch.tossup {
