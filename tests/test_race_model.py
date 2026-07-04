@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import numpy as np
 from election_modeling.public import PublicExportOptions, _status_for_margin
 
@@ -417,6 +419,13 @@ def test_public_status_uses_margin_buckets() -> None:
     assert _status_for_margin(margin=0.05, leader="republican", options=options) == "likely-republican"
     assert _status_for_margin(margin=-0.0799, leader="democratic", options=options) == "likely-democratic"
     assert _status_for_margin(margin=0.08, leader="republican", options=options) == "safe-republican"
+
+
+def test_public_map_party_fallback_does_not_override_rating_buckets() -> None:
+    css = (Path(__file__).resolve().parents[1] / "docs" / "styles.css").read_text()
+
+    assert ".state-shape.republican:not(.tossup):not(.lean-republican):not(.likely-republican):not(.safe-republican)" in css
+    assert ".state-shape.democratic:not(.tossup):not(.lean-democratic):not(.likely-democratic):not(.safe-democratic)" in css
 
 
 def test_export_public_forecasts_writes_static_json(tmp_path) -> None:

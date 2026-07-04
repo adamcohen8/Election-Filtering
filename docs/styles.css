@@ -201,8 +201,11 @@ h2 {
   fill: var(--republican-likely);
 }
 
-.state-shape.safe-republican,
-.state-shape.republican {
+.state-shape.republican:not(.tossup):not(.lean-republican):not(.likely-republican):not(.safe-republican) {
+  fill: var(--republican-safe);
+}
+
+.state-shape.safe-republican {
   fill: var(--republican-safe);
 }
 
@@ -214,8 +217,11 @@ h2 {
   fill: var(--democratic-likely);
 }
 
-.state-shape.safe-democratic,
-.state-shape.democratic {
+.state-shape.democratic:not(.tossup):not(.lean-democratic):not(.likely-democratic):not(.safe-democratic) {
+  fill: var(--democratic-safe);
+}
+
+.state-shape.safe-democratic {
   fill: var(--democratic-safe);
 }
 
