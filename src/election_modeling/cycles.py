@@ -28,6 +28,7 @@ DEFAULT_PLACEHOLDER_ELECTORATE = Electorate(
 )
 
 TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE: dict[str, Electorate] = {
+    "Alaska": Electorate(republican=0.35, democratic=0.19, independent=0.46),
     "Arizona": Electorate(republican=0.34, democratic=0.27, independent=0.39),
     "Florida": Electorate(republican=0.42, democratic=0.28, independent=0.30),
     "Georgia": Electorate(republican=0.41, democratic=0.36, independent=0.23),

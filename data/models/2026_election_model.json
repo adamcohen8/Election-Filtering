@@ -404,9 +404,9 @@
     },
     "ak_sen": {
       "electorate": {
-        "republican": 0.3333333333333333,
-        "democratic": 0.3333333333333333,
-        "independent": 0.3333333333333333
+        "republican": 0.35,
+        "democratic": 0.19,
+        "independent": 0.46
       },
       "state": {
         "mean": [

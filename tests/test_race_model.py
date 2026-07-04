@@ -193,7 +193,9 @@ def test_create_2026_election_model_preloads_all_races() -> None:
     assert election.races["ia_sen"].electorate.republican == 36.0 / 101.0
     assert election.races["ia_sen"].electorate.democratic == 26.0 / 101.0
     assert election.races["ia_sen"].electorate.independent == 39.0 / 101.0
-    assert election.races["ak_sen"].electorate.republican == 1.0 / 3.0
+    assert election.races["ak_sen"].electorate.republican == 0.35
+    assert election.races["ak_sen"].electorate.democratic == 0.19
+    assert election.races["ak_sen"].electorate.independent == 0.46
     assert election.races["me_sen"].electorate.republican == 0.233
     assert election.races["me_sen"].electorate.democratic == 0.275
     assert election.races["me_sen"].electorate.independent == 0.492
