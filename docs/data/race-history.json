@@ -1,17 +1,10 @@
 {
-  "generated_at": "2026-07-05T14:19:20.455269+00:00",
+  "generated_at": "2026-07-05T14:34:41.172805+00:00",
   "cycle": 2026,
   "races": [
     {
       "race_id": "ak_sen",
       "model_points": [
-        {
-          "date": "2026-06-29",
-          "candidate_a_share": 0.5278,
-          "candidate_b_share": 0.4138,
-          "margin": 0.114,
-          "margin_percent": 11.4
-        },
         {
           "date": "2026-06-29",
           "candidate_a_share": 0.511,
@@ -55,13 +48,6 @@
     {
       "race_id": "ga_gov",
       "model_points": [
-        {
-          "date": "2026-04-09",
-          "candidate_a_share": 0.4872,
-          "candidate_b_share": 0.4636,
-          "margin": 0.0236,
-          "margin_percent": 2.36
-        },
         {
           "date": "2026-04-09",
           "candidate_a_share": 0.4332,
@@ -113,13 +99,6 @@
       "model_points": [
         {
           "date": "2026-04-09",
-          "candidate_a_share": 0.4872,
-          "candidate_b_share": 0.4636,
-          "margin": 0.0236,
-          "margin_percent": 2.36
-        },
-        {
-          "date": "2026-04-09",
           "candidate_a_share": 0.4436,
           "candidate_b_share": 0.5064,
           "margin": -0.0628,
@@ -169,24 +148,10 @@
       "model_points": [
         {
           "date": "2026-06-19",
-          "candidate_a_share": 0.5048,
-          "candidate_b_share": 0.4398,
-          "margin": 0.065,
-          "margin_percent": 6.5
-        },
-        {
-          "date": "2026-06-19",
           "candidate_a_share": 0.4331,
           "candidate_b_share": 0.4771,
           "margin": -0.044,
           "margin_percent": -4.4
-        },
-        {
-          "date": "2026-06-27",
-          "candidate_a_share": 0.4437,
-          "candidate_b_share": 0.5157,
-          "margin": -0.072,
-          "margin_percent": -7.2
         },
         {
           "date": "2026-06-27",
@@ -246,13 +211,6 @@
       "model_points": [
         {
           "date": "2026-04-09",
-          "candidate_a_share": 0.5048,
-          "candidate_b_share": 0.4398,
-          "margin": 0.065,
-          "margin_percent": 6.5
-        },
-        {
-          "date": "2026-04-09",
           "candidate_a_share": 0.4532,
           "candidate_b_share": 0.4571,
           "margin": -0.0039,
@@ -264,13 +222,6 @@
           "candidate_b_share": 0.4481,
           "margin": 0.0092,
           "margin_percent": 0.92
-        },
-        {
-          "date": "2026-06-27",
-          "candidate_a_share": 0.4646,
-          "candidate_b_share": 0.4787,
-          "margin": -0.0141,
-          "margin_percent": -1.41
         },
         {
           "date": "2026-06-27",
@@ -342,13 +293,6 @@
     {
       "race_id": "me_sen",
       "model_points": [
-        {
-          "date": "2025-10-10",
-          "candidate_a_share": 0.4487,
-          "candidate_b_share": 0.4916,
-          "margin": -0.0429,
-          "margin_percent": -4.29
-        },
         {
           "date": "2025-10-10",
           "candidate_a_share": 0.38,
@@ -683,13 +627,6 @@
       "model_points": [
         {
           "date": "2026-06-10",
-          "candidate_a_share": 0.4864,
-          "candidate_b_share": 0.4612,
-          "margin": 0.0252,
-          "margin_percent": 2.52
-        },
-        {
-          "date": "2026-06-10",
           "candidate_a_share": 0.371,
           "candidate_b_share": 0.4569,
           "margin": -0.0859,
@@ -747,13 +684,6 @@
     {
       "race_id": "oh_gov",
       "model_points": [
-        {
-          "date": "2026-04-09",
-          "candidate_a_share": 0.51,
-          "candidate_b_share": 0.4384,
-          "margin": 0.0716,
-          "margin_percent": 7.16
-        },
         {
           "date": "2026-04-09",
           "candidate_a_share": 0.4909,
@@ -826,13 +756,6 @@
       "model_points": [
         {
           "date": "2026-04-09",
-          "candidate_a_share": 0.51,
-          "candidate_b_share": 0.4384,
-          "margin": 0.0716,
-          "margin_percent": 7.16
-        },
-        {
-          "date": "2026-04-09",
           "candidate_a_share": 0.5104,
           "candidate_b_share": 0.4495,
           "margin": 0.0609,
@@ -903,13 +826,6 @@
       "model_points": [
         {
           "date": "2026-03-29",
-          "candidate_a_share": 0.4794,
-          "candidate_b_share": 0.4714,
-          "margin": 0.008,
-          "margin_percent": 0.8
-        },
-        {
-          "date": "2026-03-29",
           "candidate_a_share": 0.3801,
           "candidate_b_share": 0.575,
           "margin": -0.1949,
@@ -957,13 +873,6 @@
     {
       "race_id": "tx_gov",
       "model_points": [
-        {
-          "date": "2026-04-20",
-          "candidate_a_share": 0.51,
-          "candidate_b_share": 0.4384,
-          "margin": 0.0716,
-          "margin_percent": 7.16
-        },
         {
           "date": "2026-04-20",
           "candidate_a_share": 0.4804,
@@ -1036,13 +945,6 @@
       "model_points": [
         {
           "date": "2026-04-20",
-          "candidate_a_share": 0.51,
-          "candidate_b_share": 0.4384,
-          "margin": 0.0716,
-          "margin_percent": 7.16
-        },
-        {
-          "date": "2026-04-20",
           "candidate_a_share": 0.4138,
           "candidate_b_share": 0.4583,
           "margin": -0.0446,
@@ -1113,24 +1015,10 @@
       "model_points": [
         {
           "date": "2026-05-31",
-          "candidate_a_share": 0.467,
-          "candidate_b_share": 0.481,
-          "margin": -0.014,
-          "margin_percent": -1.4
-        },
-        {
-          "date": "2026-05-31",
           "candidate_a_share": 0.4901,
           "candidate_b_share": 0.5099,
           "margin": -0.0199,
           "margin_percent": -1.99
-        },
-        {
-          "date": "2026-06-01",
-          "candidate_a_share": 0.4839,
-          "candidate_b_share": 0.5161,
-          "margin": -0.0323,
-          "margin_percent": -3.23
         },
         {
           "date": "2026-06-01",
@@ -1141,13 +1029,6 @@
         },
         {
           "date": "2026-06-02",
-          "candidate_a_share": 0.4767,
-          "candidate_b_share": 0.5233,
-          "margin": -0.0465,
-          "margin_percent": -4.65
-        },
-        {
-          "date": "2026-06-02",
           "candidate_a_share": 0.476,
           "candidate_b_share": 0.524,
           "margin": -0.0481,
@@ -1155,24 +1036,10 @@
         },
         {
           "date": "2026-06-03",
-          "candidate_a_share": 0.4742,
-          "candidate_b_share": 0.5258,
-          "margin": -0.0515,
-          "margin_percent": -5.15
-        },
-        {
-          "date": "2026-06-03",
           "candidate_a_share": 0.4741,
           "candidate_b_share": 0.5259,
           "margin": -0.0518,
           "margin_percent": -5.18
-        },
-        {
-          "date": "2026-06-04",
-          "candidate_a_share": 0.4725,
-          "candidate_b_share": 0.5275,
-          "margin": -0.055,
-          "margin_percent": -5.5
         },
         {
           "date": "2026-06-04",
@@ -1190,38 +1057,10 @@
         },
         {
           "date": "2026-06-07",
-          "candidate_a_share": 0.4757,
-          "candidate_b_share": 0.5243,
-          "margin": -0.0486,
-          "margin_percent": -4.86
-        },
-        {
-          "date": "2026-06-07",
-          "candidate_a_share": 0.4754,
-          "candidate_b_share": 0.5246,
-          "margin": -0.0492,
-          "margin_percent": -4.92
-        },
-        {
-          "date": "2026-06-07",
           "candidate_a_share": 0.4764,
           "candidate_b_share": 0.5235,
           "margin": -0.0471,
           "margin_percent": -4.71
-        },
-        {
-          "date": "2026-06-08",
-          "candidate_a_share": 0.4764,
-          "candidate_b_share": 0.5235,
-          "margin": -0.0471,
-          "margin_percent": -4.71
-        },
-        {
-          "date": "2026-06-08",
-          "candidate_a_share": 0.4756,
-          "candidate_b_share": 0.5243,
-          "margin": -0.0487,
-          "margin_percent": -4.87
         },
         {
           "date": "2026-06-08",
@@ -1250,34 +1089,6 @@
           "candidate_b_share": 0.5247,
           "margin": -0.0495,
           "margin_percent": -4.95
-        },
-        {
-          "date": "2026-06-22",
-          "candidate_a_share": 0.4751,
-          "candidate_b_share": 0.5249,
-          "margin": -0.0497,
-          "margin_percent": -4.97
-        },
-        {
-          "date": "2026-06-22",
-          "candidate_a_share": 0.4755,
-          "candidate_b_share": 0.5245,
-          "margin": -0.049,
-          "margin_percent": -4.9
-        },
-        {
-          "date": "2026-06-22",
-          "candidate_a_share": 0.4752,
-          "candidate_b_share": 0.5248,
-          "margin": -0.0496,
-          "margin_percent": -4.96
-        },
-        {
-          "date": "2026-06-22",
-          "candidate_a_share": 0.4751,
-          "candidate_b_share": 0.5249,
-          "margin": -0.0499,
-          "margin_percent": -4.99
         },
         {
           "date": "2026-06-22",

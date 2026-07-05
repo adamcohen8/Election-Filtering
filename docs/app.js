@@ -755,9 +755,9 @@ function renderRaceChart(race) {
     .filter((point) => point.parsedDate);
 
   raceChart.innerHTML = "";
-  if (!hasForecastData(race) || modelPoints.length < 2) {
+  if (!hasForecastData(race) || (modelPoints.length < 1 && pollPoints.length < 1)) {
     raceChart.classList.add("is-empty");
-    raceChart.textContent = hasForecastData(race) ? "No polls available" : "No data available";
+    raceChart.textContent = hasForecastData(race) ? "No chart data available" : "No data available";
     return;
   }
 
@@ -817,16 +817,18 @@ function renderRaceChart(race) {
     .y((point) => y(point.candidate_b_share))
     .curve(d3.curveMonotoneX);
 
-  plot
-    .append("path")
-    .datum(modelPoints)
-    .attr("class", "model-line republican")
-    .attr("d", republicanLine);
-  plot
-    .append("path")
-    .datum(modelPoints)
-    .attr("class", "model-line democratic")
-    .attr("d", democraticLine);
+  if (modelPoints.length >= 2) {
+    plot
+      .append("path")
+      .datum(modelPoints)
+      .attr("class", "model-line republican")
+      .attr("d", republicanLine);
+    plot
+      .append("path")
+      .datum(modelPoints)
+      .attr("class", "model-line democratic")
+      .attr("d", democraticLine);
+  }
 
   drawPollMarkers(plot, pollPoints, x, y, "candidate_a_share", "republican", race);
   drawPollMarkers(plot, pollPoints, x, y, "candidate_b_share", "democratic", race);

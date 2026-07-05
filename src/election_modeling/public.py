@@ -160,11 +160,12 @@ def public_race_history_payload(
         model = election.races[race_id]
         history = histories[race_id]
         if race_id not in initialized_races:
-            history["model_points"].append(
+            _append_daily_model_point(
+                history,
                 _public_history_point(
                     date=poll.field_date,
                     forecast=model.forecast(z_score=options.z_score),
-                )
+                ),
             )
             initialized_races.add(race_id)
 
@@ -173,11 +174,12 @@ def public_race_history_payload(
             history["poll_points"].append(poll_point)
 
         _apply_poll_to_model(poll, model)
-        history["model_points"].append(
+        _append_daily_model_point(
+            history,
             _public_history_point(
                 date=poll.field_date,
                 forecast=model.forecast(z_score=options.z_score),
-            )
+            ),
         )
 
     return {
@@ -235,6 +237,18 @@ def _public_history_point(*, date: str, forecast: Forecast) -> dict[str, object]
         "margin": round(forecast.margin, 4),
         "margin_percent": round(forecast.margin_percent, 2),
     }
+
+
+def _append_daily_model_point(history: dict[str, object], point: dict[str, object]) -> None:
+    """Keep the public model line to one end-of-day point per date."""
+
+    model_points = history["model_points"]
+    if not isinstance(model_points, list):
+        raise TypeError("history model_points must be a list")
+    if model_points and model_points[-1].get("date") == point["date"]:
+        model_points[-1] = point
+        return
+    model_points.append(point)
 
 
 def _public_poll_point(poll: NormalizedPoll, *, model: RaceModel) -> dict[str, object] | None:

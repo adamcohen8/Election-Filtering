@@ -576,5 +576,49 @@ def test_public_race_history_payload_replays_poll_feed(tmp_path) -> None:
         "older-me-sen",
         "newer-me-sen",
     ]
-    assert len(maine["model_points"]) == 3
+    assert len(maine["model_points"]) == 2
+    assert [point["date"] for point in maine["model_points"]] == [
+        "2026-02-01",
+        "2026-06-01",
+    ]
     assert maine["poll_points"][0]["leader"] == "democratic"
+
+
+def test_public_race_history_payload_summarizes_same_day_model_points(tmp_path) -> None:
+    feed_path = tmp_path / "polls.json"
+    feed_path.write_text(
+        """
+        {
+          "polls": [
+            {
+              "poll_id": "same-day-first",
+              "pollster": "Example Polling",
+              "field_date": "2026-06-01",
+              "race_id": "me_sen",
+              "topline_a": 0.46,
+              "topline_b": 0.49,
+              "topline_n": 600
+            },
+            {
+              "poll_id": "same-day-second",
+              "pollster": "Example Polling",
+              "field_date": "2026-06-01",
+              "race_id": "me_sen",
+              "topline_a": 0.48,
+              "topline_b": 0.47,
+              "topline_n": 700
+            }
+          ]
+        }
+        """
+    )
+
+    payload = public_race_history_payload(feed_path=feed_path)
+    maine = next(race for race in payload["races"] if race["race_id"] == "me_sen")
+
+    assert [point["poll_id"] for point in maine["poll_points"]] == [
+        "same-day-first",
+        "same-day-second",
+    ]
+    assert len(maine["model_points"]) == 1
+    assert maine["model_points"][0]["date"] == "2026-06-01"
