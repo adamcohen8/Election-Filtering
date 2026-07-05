@@ -1,5 +1,40 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-05
+
+### Daily Modeled-Race Sweep
+
+#### Sources Searched
+
+- Live web searches for newly released public polls since the 2026-07-04 run across modeled 2026 Senate races: Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, North Carolina, and already-modeled Maine context that surfaced in aggregator results.
+- Live web searches for newly released public polls since the 2026-07-04 run across modeled 2026 governor races: Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- Search-surfaced July 1 Guardian coverage of the New York Times/Siena battleground Senate package, checked against the existing ledger.
+- Pollster/source-specific searches for July 2026 releases and party-ID crosstabs from New York Times/Siena College, Siena College Research Institute, Emerson College Polling, Quinnipiac University, Marist, SurveyUSA, Echelon Insights, Cygnal, Quantus Insights, RealClearPolling, Race to the WH, 270toWin, Decision Desk HQ, and FiveThirtyEight-style public poll data surfaces.
+- Direct public feed checks attempted for FiveThirtyEight poll CSVs and RealClearPolling 2026 Senate/governor pages; the sandboxed `curl` calls returned empty bodies, so these were used only as attempted checks, not as extraction sources.
+
+#### Polls Applied
+
+- None. No newly released post-2026-07-04 modeled-race poll with clear public Republican/Democratic/Independent party-ID crosstabs and subgroup sample sizes was located.
+
+#### Polls Skipped As Duplicates
+
+- Search results re-surfaced the New York Times/Siena battleground Senate package published July 1, 2026. Its modeled-race crosstabs for `ak_sen`, `ia_sen`, `nc_sen`, `oh_sen`, and `tx_sen` were already present in `data/ingestion/2026_normalized_polls.json` and `data/ingestion/2026_seen_polls.json`.
+- The previously applied SoCal Strategies/Red Eagle Politics Texas Senate and governor crosstab workbook remained in the normalized feed and ledger.
+
+#### Polls Found Without Clear Party-ID Crosstabs
+
+- None newly released after the 2026-07-04 run. The search sweep continued to surface older/topline-only or already-reviewed items, including Texas and generic-ballot materials logged on July 4.
+
+#### Unclassified Polls
+
+- None.
+
+#### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no qualifying new release was located.
+- `python3 scripts/rebuild_2026_model.py` reapplied 55 existing normalized observations into a fresh snapshot and rewrote `data/ingestion/2026_seen_polls.json` without changing the seen-poll count.
+- `python3 scripts/export_public.py` refreshed `docs/data/forecasts.json` and `docs/data/race-history.json`; the observed public-data diffs were generated timestamp updates only.
+
 ## 2026-07-04
 
 ### Maine Senate RCP Backfill
