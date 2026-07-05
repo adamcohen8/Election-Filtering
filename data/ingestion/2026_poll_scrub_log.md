@@ -2,6 +2,63 @@
 
 ## 2026-07-05
 
+### RealClearPolling Latest-Polls Scrape
+
+#### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 5, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling race pages linked from the latest-polls feed for Iowa Senate, Iowa governor, Georgia Senate, Georgia governor, New Hampshire Senate, New Hampshire governor, Michigan Senate, Texas governor, Maine Senate, Pennsylvania governor, Ohio Senate, and Ohio governor.
+- Fox News Iowa release and linked crosstab/topline PDFs for the June 23-27, 2026 Iowa poll.
+- Fox News Georgia release for the June 23-27, 2026 Georgia poll.
+- Fox News Maine release for the June 23-27, 2026 Maine poll.
+- Iowans for Tax Relief Foundation/Cygnal June 16-19, 2026 Iowa statewide topline PDF.
+- Morning Scrapple/PennLive/Bravo Group Pennsylvania polling dashboard page for the June 18-25, 2026 Pennsylvania poll.
+- AARP Ohio June 14-16, 2026 survey release.
+- Existing NYT/Siena state crosstab pages already used for the July 1 Senate crosstab batch, cross-checked against RCP's latest-polls governor toplines.
+
+#### Polls Applied
+
+Applied 12 RCP-surfaced topline observations that were not already in `data/ingestion/2026_normalized_polls.json`:
+
+- `fox_ia_sen_2026-06-23_2026-06-27_topline` -> `ia_sen`: Fox News, n=1,003 RV, Hinson 0.46, Turek 0.50.
+- `fox_ia_gov_2026-06-23_2026-06-27_topline` -> `ia_gov`: Fox News, n=1,003 RV, Lahn 0.44, Sand 0.53.
+- `fox_ga_sen_2026-06-23_2026-06-27_topline` -> `ga_sen`: Fox News, n=1,002 RV, Collins 0.43, Ossoff 0.56.
+- `fox_ga_gov_2026-06-23_2026-06-27_topline` -> `ga_gov`: Fox News, n=1,002 RV, Jackson 0.47, Lance Bottoms 0.52.
+- `fox_me_sen_2026-06-23_2026-06-27_topline` -> `me_sen`: Fox News, n=1,003 RV, Collins 0.50, Platner 0.47.
+- `cygnal_ia_sen_2026-06-16_2026-06-19_topline` -> `ia_sen`: Cygnal/Iowans for Tax Relief Foundation, n=600 LV, Hinson 0.460, Turek 0.442.
+- `morning-scrapple_pa_gov_2026-06-18_2026-06-25_topline` -> `pa_gov`: Morning Scrapple/PennLive/Bravo Group, n=644 LV, Garrity 0.29, Shapiro 0.54.
+- `aarp_fabrizio-impact_oh_sen_2026-06-14_2026-06-16_topline` -> `oh_sen`: AARP/Fabrizio Ward/Impact Research, n=800 LV, Husted 0.45, Brown 0.48.
+- `aarp_fabrizio-impact_oh_gov_2026-06-14_2026-06-16_topline` -> `oh_gov`: AARP/Fabrizio Ward/Impact Research, n=800 LV, Ramaswamy 0.44, Acton 0.47.
+- `nyt-siena_ia_gov_2026-06-15_2026-06-27_topline` -> `ia_gov`: New York Times/Siena College, n=575 from the already-ingested Iowa NYT/Siena party-ID total, Lahn 0.47, Sand 0.48.
+- `nyt-siena_oh_gov_2026-06-15_2026-06-28_topline` -> `oh_gov`: New York Times/Siena College, n=584 from the already-ingested Ohio NYT/Siena party-ID total, Ramaswamy 0.47, Acton 0.47.
+- `nyt-siena_tx_gov_2026-06-19_2026-06-27_topline` -> `tx_gov`: New York Times/Siena College, n=618 from the already-ingested Texas NYT/Siena party-ID total, Abbott 0.51, Hinojosa 0.44.
+
+#### Polls Skipped As Duplicates
+
+- RCP re-surfaced already-ingested NYT/Siena Senate crosstabs for `ia_sen`, `oh_sen`, `ak_sen`, `nc_sen`, and `tx_sen`.
+- RCP re-surfaced the already-ingested Cygnal/Iowans for Tax Relief Foundation Iowa governor topline.
+- RCP re-surfaced existing Maine Senate toplines, including the June NYT/Siena/Portland Press Herald row already in the feed.
+
+#### Polls Found Without Clear Party-ID Crosstabs
+
+- All 12 rows applied in this RCP scrape were applied as toplines only. Fox's Iowa crosstab PDF includes Democratic, Republican, and Independent columns, but the reviewed static PDF text did not expose clear subgroup sample sizes for those party-ID groups.
+- Fox Georgia, Fox Maine, AARP Ohio, Morning Scrapple Pennsylvania, Cygnal Iowa Senate, and the RCP-visible NYT/Siena governor rows did not provide clear public R/D/I party-ID crosstabs with subgroup sample sizes in the reviewed material.
+
+#### Unclassified Or Not Applied
+
+- New Hampshire Senate and governor rows from UNH and Saint Anselm were not applied because the modeled races do not yet have settled nominees and the RCP feed includes multiple Republican Senate matchups (`Sununu` vs. `Pappas` and `Brown` vs. `Pappas`) for the same `nh_sen` race.
+- Michigan Senate Quantus rows were not applied because the Democratic primary is unresolved and the RCP feed includes multiple hypothetical Democratic general-election opponents (`El-Sayed`, `Stevens`, and `McMorrow`) against `Rogers` for the same `mi_sen` race.
+- Maine governor, Massachusetts, New York, Louisiana, and other state rows on the latest-polls page were outside the current modeled race registry.
+- RCP generic-ballot/latest national issue rows were not part of this modeled Senate/governor scrape.
+
+#### Extraction Uncertainties
+
+- For NYT/Siena governor toplines, RCP exposed the ballot result but not a separate static sample size. The normalized rows use the already-ingested NYT/Siena party-ID total for the same state poll as the topline sample size.
+- The Morning Scrapple source page provides the June poll's field dates and sample size, while the Shapiro-vs-Garrity topline came from RCP's latest-polls row.
+- The AARP Ohio source page provides field dates and sample size, while the all-voter Senate/governor toplines came from RCP's latest-polls row; the article text itself emphasized voters age 50+.
+- `python3 scripts/rebuild_2026_model.py` applied 67 observations, duplicates 0, and updated `data/models/2026_election_model.json` plus `data/ingestion/2026_seen_polls.json`.
+- `python3 scripts/export_public.py` refreshed `docs/data/forecasts.json` and `docs/data/race-history.json`.
+
 ### Daily Modeled-Race Sweep
 
 #### Sources Searched
