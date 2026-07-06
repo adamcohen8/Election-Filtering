@@ -1,5 +1,57 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-06
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 6, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Fox News Iowa release, crosstab PDF, and topline PDF for the June 23-27, 2026 registered-voter survey covering `ia_sen` and `ia_gov`.
+- Fox News Georgia release, crosstab PDF, and topline PDF for the June 23-27, 2026 registered-voter survey covering `ga_sen` and `ga_gov`.
+- Live web searches for newly released public modeled-race Senate polls and crosstabs since the 2026-07-05 run across Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.
+- Live web searches for newly released public modeled-race governor polls and crosstabs since the 2026-07-05 run across Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- Pollster/source-specific searches for July 2026 modeled-race releases and crosstabs from Emerson College Polling, SurveyUSA, Fox News, RealClearPolling, and search-surfaced public polling tables.
+
+### Polls Applied
+
+Upgraded four existing Fox News rows from topline-only observations to party-ID crosstab observations. The existing poll IDs were retained for ledger continuity; `election_modeling.ingestion` prefers crosstabs when both crosstab and topline fields are present.
+
+- `fox_ia_sen_2026-06-23_2026-06-27_topline` -> `ia_sen`: Fox News, June 23-27, 2026, n=1,003 RV, Hinson vs. Turek.
+  - Republican self-ID, estimated n=384: Hinson 0.88, Turek 0.08.
+  - Democratic self-ID, estimated n=474: Hinson 0.02, Turek 0.96.
+  - Independent self-ID, estimated n=133: Hinson 0.28, Turek 0.59.
+- `fox_ia_gov_2026-06-23_2026-06-27_topline` -> `ia_gov`: Fox News, June 23-27, 2026, n=1,003 RV, Lahn vs. Sand.
+  - Republican self-ID, estimated n=384: Lahn 0.84, Sand 0.13.
+  - Democratic self-ID, estimated n=474: Lahn 0.02, Sand 0.97.
+  - Independent self-ID, estimated n=133: Lahn 0.27, Sand 0.60.
+- `fox_ga_sen_2026-06-23_2026-06-27_topline` -> `ga_sen`: Fox News, June 23-27, 2026, n=1,002 RV, Collins vs. Ossoff.
+  - Republican self-ID, estimated n=384: Collins 0.89, Ossoff 0.10.
+  - Democratic self-ID, estimated n=474: Collins 0.03, Ossoff 0.96.
+  - Independent self-ID, estimated n=133: Collins 0.28, Ossoff 0.68.
+- `fox_ga_gov_2026-06-23_2026-06-27_topline` -> `ga_gov`: Fox News, June 23-27, 2026, n=1,002 RV, Jackson vs. Lance Bottoms.
+  - Republican self-ID, estimated n=384: Jackson 0.93, Lance Bottoms 0.07.
+  - Democratic self-ID, estimated n=474: Jackson 0.05, Lance Bottoms 0.95.
+  - Independent self-ID, estimated n=133: Jackson 0.43, Lance Bottoms 0.52.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling continued to surface the same July 1-3 poll set reviewed on July 5, including already-ingested Fox, NYT/Siena, Cygnal, AARP Ohio, and Morning Scrapple/PennLive/Bravo Group rows.
+- Search results re-surfaced already-ingested NYT/Siena Senate crosstabs for `ak_sen`, `ia_sen`, `nc_sen`, `oh_sen`, and `tx_sen`.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- No newly released post-2026-07-05 modeled-race poll lacking party-ID crosstabs was found.
+- The Fox Iowa and Georgia PDFs still do not print exact R/D/I subgroup sample sizes. They do print party-ID subgroup MOEs, so this run treated the R/D/I crosstab shares as usable with estimated sample sizes and logged that uncertainty explicitly.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- Fox's exact party-ID subgroup Ns are not printed in the crosstab PDFs. The normalized rows use estimated subgroup Ns from the standard 95% margin-of-error relationship `n ~= (0.98 / subgroup_moe)^2`, using Fox's published party-ID subgroup MOEs: Democratic 4.5 points -> n=474, Republican 5.0 points -> n=384, Independent 8.5 points -> n=133.
+- The Fox crosstab rows are registered-voter observations, not likely-voter observations.
+- Existing Fox poll IDs still end in `_topline` because the rows were upgraded in place to preserve duplicate-tracking continuity.
+
 ## 2026-07-05
 
 ### RealClearPolling Latest-Polls Scrape
