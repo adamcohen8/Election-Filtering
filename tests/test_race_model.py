@@ -513,7 +513,10 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
 def test_public_status_uses_margin_buckets() -> None:
     options = PublicExportOptions()
 
-    assert _status_for_margin(margin=0.0199, leader="republican", options=options) == "tossup"
+    assert _status_for_margin(margin=0.0049, leader="republican", options=options) == "tossup"
+    assert _status_for_margin(margin=-0.0049, leader="democratic", options=options) == "tossup"
+    assert _status_for_margin(margin=0.005, leader="republican", options=options) == "tilt-republican"
+    assert _status_for_margin(margin=-0.0199, leader="democratic", options=options) == "tilt-democratic"
     assert _status_for_margin(margin=0.02, leader="republican", options=options) == "lean-republican"
     assert _status_for_margin(margin=-0.0499, leader="democratic", options=options) == "lean-democratic"
     assert _status_for_margin(margin=0.05, leader="republican", options=options) == "likely-republican"
@@ -524,8 +527,8 @@ def test_public_status_uses_margin_buckets() -> None:
 def test_public_map_party_fallback_does_not_override_rating_buckets() -> None:
     css = (Path(__file__).resolve().parents[1] / "docs" / "styles.css").read_text()
 
-    assert ".state-shape.republican:not(.tossup):not(.lean-republican):not(.likely-republican):not(.safe-republican)" in css
-    assert ".state-shape.democratic:not(.tossup):not(.lean-democratic):not(.likely-democratic):not(.safe-democratic)" in css
+    assert ".state-shape.republican:not(.tossup):not(.tilt-republican):not(.lean-republican):not(.likely-republican):not(.safe-republican)" in css
+    assert ".state-shape.democratic:not(.tossup):not(.tilt-democratic):not(.lean-democratic):not(.likely-democratic):not(.safe-democratic)" in css
 
 
 def test_export_public_forecasts_writes_static_json(tmp_path) -> None:

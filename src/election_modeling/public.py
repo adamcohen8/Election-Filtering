@@ -20,7 +20,8 @@ from election_modeling.states import PARTY_IDS
 class PublicExportOptions:
     """Controls how model forecasts are converted into public map states."""
 
-    tossup_margin_threshold: float = 0.02
+    tossup_margin_threshold: float = 0.005
+    tilt_margin_threshold: float = 0.02
     lean_margin_threshold: float = 0.05
     likely_margin_threshold: float = 0.08
     z_score: float = 1.96
@@ -352,6 +353,8 @@ def _status_for_margin(
     lead = abs(margin)
     if leader == "tie" or lead < options.tossup_margin_threshold:
         return "tossup"
+    if lead < options.tilt_margin_threshold:
+        return f"tilt-{leader}"
     if lead < options.lean_margin_threshold:
         return f"lean-{leader}"
     if lead < options.likely_margin_threshold:

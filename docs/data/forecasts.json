@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T09:05:15.915567+00:00",
+  "generated_at": "2026-07-06T14:51:56.169588+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -439,7 +439,7 @@
       "margin_of_error": 0.0364,
       "margin_of_error_percent": 3.64,
       "leader": "republican",
-      "status": "tossup",
+      "status": "tilt-republican",
       "nominee_last_verified": "2026-07-01",
       "nominee_note": null,
       "nominee_sources": {

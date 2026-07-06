@@ -7,9 +7,11 @@
   --republican-safe: #b4232d;
   --republican-likely: #d94d47;
   --republican-lean: #f2a39c;
+  --republican-tilt: #f7c9c3;
   --democratic-safe: #1f5fa8;
   --democratic-likely: #3f82c4;
   --democratic-lean: #9fc9ee;
+  --democratic-tilt: #c6def4;
   --republican: var(--republican-safe);
   --democratic: var(--democratic-safe);
   --tossup: #d7b43b;
@@ -198,11 +200,15 @@ h2 {
   fill: var(--republican-lean);
 }
 
+.state-shape.tilt-republican {
+  fill: var(--republican-tilt);
+}
+
 .state-shape.likely-republican {
   fill: var(--republican-likely);
 }
 
-.state-shape.republican:not(.tossup):not(.lean-republican):not(.likely-republican):not(.safe-republican) {
+.state-shape.republican:not(.tossup):not(.tilt-republican):not(.lean-republican):not(.likely-republican):not(.safe-republican) {
   fill: var(--republican-safe);
 }
 
@@ -214,11 +220,15 @@ h2 {
   fill: var(--democratic-lean);
 }
 
+.state-shape.tilt-democratic {
+  fill: var(--democratic-tilt);
+}
+
 .state-shape.likely-democratic {
   fill: var(--democratic-likely);
 }
 
-.state-shape.democratic:not(.tossup):not(.lean-democratic):not(.likely-democratic):not(.safe-democratic) {
+.state-shape.democratic:not(.tossup):not(.tilt-democratic):not(.lean-democratic):not(.likely-democratic):not(.safe-democratic) {
   fill: var(--democratic-safe);
 }
 
@@ -349,6 +359,10 @@ h2 {
   background: var(--republican-lean);
 }
 
+.swatch.tilt-republican {
+  background: var(--republican-tilt);
+}
+
 .swatch.likely-republican {
   background: var(--republican-likely);
 }
@@ -360,6 +374,10 @@ h2 {
 
 .swatch.lean-democratic {
   background: var(--democratic-lean);
+}
+
+.swatch.tilt-democratic {
+  background: var(--democratic-tilt);
 }
 
 .swatch.likely-democratic {
@@ -617,6 +635,11 @@ h2 {
   color: var(--ink);
 }
 
+.race-status.tilt-republican {
+  background: var(--republican-tilt);
+  color: var(--ink);
+}
+
 .race-status.likely-republican {
   background: var(--republican-likely);
   color: #fff;
@@ -629,6 +652,11 @@ h2 {
 
 .race-status.lean-democratic {
   background: var(--democratic-lean);
+  color: var(--ink);
+}
+
+.race-status.tilt-democratic {
+  background: var(--democratic-tilt);
   color: var(--ink);
 }
 

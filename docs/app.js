@@ -655,9 +655,11 @@ function candidateLabel(race, party, compact = false) {
 function statusLabel(status) {
   const labels = {
     tossup: "Tossup",
+    "tilt-republican": "Tilt Republican",
     "lean-republican": "Lean Republican",
     "likely-republican": "Likely Republican",
     "safe-republican": "Safe Republican",
+    "tilt-democratic": "Tilt Democratic",
     "lean-democratic": "Lean Democratic",
     "likely-democratic": "Likely Democratic",
     "safe-democratic": "Safe Democratic",
