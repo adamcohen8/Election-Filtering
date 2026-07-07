@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T09:05:15.922484+00:00",
+  "generated_at": "2026-07-07T09:03:55.930510+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1038,13 +1038,13 @@
           "date": "2026-06-03",
           "candidate_a_share": 0.4741,
           "candidate_b_share": 0.5259,
-          "margin": -0.0518,
-          "margin_percent": -5.18
+          "margin": -0.0519,
+          "margin_percent": -5.19
         },
         {
           "date": "2026-06-04",
           "candidate_a_share": 0.4733,
-          "candidate_b_share": 0.5267,
+          "candidate_b_share": 0.5268,
           "margin": -0.0535,
           "margin_percent": -5.35
         },
@@ -1058,14 +1058,14 @@
         {
           "date": "2026-06-07",
           "candidate_a_share": 0.4764,
-          "candidate_b_share": 0.5235,
+          "candidate_b_share": 0.5236,
           "margin": -0.0471,
           "margin_percent": -4.71
         },
         {
           "date": "2026-06-08",
           "candidate_a_share": 0.4755,
-          "candidate_b_share": 0.5244,
+          "candidate_b_share": 0.5245,
           "margin": -0.0489,
           "margin_percent": -4.89
         },
@@ -1078,7 +1078,7 @@
         },
         {
           "date": "2026-06-15",
-          "candidate_a_share": 0.4757,
+          "candidate_a_share": 0.4758,
           "candidate_b_share": 0.5242,
           "margin": -0.0485,
           "margin_percent": -4.85
@@ -1086,7 +1086,7 @@
         {
           "date": "2026-06-16",
           "candidate_a_share": 0.4752,
-          "candidate_b_share": 0.5247,
+          "candidate_b_share": 0.5248,
           "margin": -0.0495,
           "margin_percent": -4.95
         },

@@ -1,5 +1,38 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-07
+
+### Sources Searched
+
+- RealClearPolling latest polls page and Senate/governor latest-polls surfaces, reviewed July 7, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Live web searches for newly released public modeled-race Senate polls and crosstabs since the 2026-07-06 run across Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.
+- Live web searches for newly released public modeled-race governor polls and crosstabs since the 2026-07-06 run across Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- Pollster/source-specific searches for July 2026 modeled-race releases and party-ID crosstabs from Emerson College Polling, Quinnipiac University, Marist, SurveyUSA, Fox News, New York Times/Siena College, AARP, Cygnal, RealClearPolling, Race to the WH, 270toWin, and public polling table surfaces.
+- Direct terminal checks of RealClearPolling latest-polls URLs returned a JavaScript/captcha interstitial, so no extraction relied on terminal HTML from those pages.
+
+### Polls Applied
+
+- None. No newly released post-2026-07-06 modeled-race public poll with clear Republican, Democratic, and Independent party-ID crosstabs plus subgroup sample sizes was located.
+
+### Polls Skipped As Duplicates
+
+- Search results continued to surface already-reviewed or already-ingested modeled-race rows, including Fox Iowa/Georgia, NYT/Siena Senate crosstabs, Cygnal Iowa, AARP Ohio, Morning Scrapple Pennsylvania, SoCal/Red Eagle Texas, and older modeled-state public polling table rows.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- None newly released after the 2026-07-06 run for the modeled Senate/governor race list.
+- Search also surfaced national/generic-ballot polling references and older primary or hypothetical matchup rows; these were outside today's modeled Senate/governor crosstab update.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no qualifying new release was located.
+- `python3 scripts/rebuild_2026_model.py` applied 67 existing normalized observations, duplicates 0, and rewrote `data/models/2026_election_model.json`.
+- `python3 scripts/export_public.py` refreshed `docs/data/forecasts.json` and `docs/data/race-history.json`; observed public forecast changes were generated timestamp/rounding churn only.
+
 ## 2026-07-06
 
 ### Sources Searched
