@@ -1,5 +1,49 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-09 Generic Ballot Backfill
+
+### Sources Searched
+
+- 2026 United States elections public polling table, reviewed July 9, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- RealClearPolling latest polls and generic congressional vote surfaces, reviewed July 9, 2026, as cross-checks for recently posted generic-ballot rows.
+- Targeted web searches for July 2026 generic congressional ballot releases and crosstabs from Quantus Insights, Morning Consult, Talker Research, Cygnal, Focaldata/Financial Times, The Economist/YouGov, Big Data Poll, ActiVote, Morning Consult/Cato Institute, and McLaughlin & Associates.
+
+### Polls Applied
+
+Applied 13 topline-only `us_house_generic` observations that were missing from `data/ingestion/2026_normalized_polls.json`. Candidate A is the generic Republican and candidate B is the generic Democrat in each row.
+
+- `quantus_us_house_generic_2026-07-03_2026-07-07_topline`: Quantus Insights, July 3-7, 2026, n=1,140 LV, Republican 0.42, Democrat 0.47.
+- `morning-consult_us_house_generic_2026-06-29_2026-07-05_topline`: Morning Consult, June 29-July 5, 2026, n=24,000 RV, Republican 0.42, Democrat 0.46.
+- `talker_us_house_generic_2026-06-25_2026-07-02_topline`: Talker Research, June 25-July 2, 2026, n=2,000 RV, Republican 0.39, Democrat 0.48.
+- `cygnal_us_house_generic_2026-06-30_2026-07-01_topline`: Cygnal, June 30-July 1, 2026, n=1,500 LV, Republican 0.44, Democrat 0.50.
+- `focaldata-ft_us_house_generic_2026-06-26_2026-06-30_topline`: Focaldata/Financial Times, June 26-30, 2026, n=1,723 RV, Republican 0.44, Democrat 0.51.
+- `economist-yougov_us_house_generic_2026-06-26_2026-06-29_topline`: The Economist/YouGov, June 26-29, 2026, n=1,426 RV, Republican 0.42, Democrat 0.45.
+- `morning-consult_us_house_generic_2026-06-26_2026-06-28_topline`: Morning Consult, June 26-28, 2026, n=2,202 RV, Republican 0.42, Democrat 0.46.
+- `big-data_us_house_generic_2026-06-26_2026-06-28_topline`: Big Data Poll, June 26-28, 2026, n=2,604 LV, Republican 0.41, Democrat 0.50.
+- `morning-consult_us_house_generic_2026-06-22_2026-06-28_topline`: Morning Consult, June 22-28, 2026, n=24,000 RV, Republican 0.42, Democrat 0.46.
+- `activote_us_house_generic_2026-06-06_2026-06-28_topline`: ActiVote, June 6-28, 2026, n=1,000 LV, Republican 0.47, Democrat 0.53.
+- `morning-consult-cato_us_house_generic_2026-06-25_2026-06-26_topline`: Morning Consult/Cato Institute, June 25-26, 2026, n=1,797 RV, Republican 0.39, Democrat 0.45.
+- `mclaughlin_us_house_generic_2026-06-17_2026-06-23_topline`: McLaughlin & Associates, June 17-23, 2026, n=1,000 LV, Republican 0.43, Democrat 0.46.
+- `morning-consult_us_house_generic_2026-06-19_2026-06-22_topline`: Morning Consult, June 19-22, 2026, n=24,000 RV, Republican 0.42, Democrat 0.46.
+
+### Polls Skipped As Duplicates
+
+- Existing generic-ballot rows through June 22, 2026 remained in the normalized feed and were not duplicated.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- All 13 applied generic-ballot rows were topline-only in the reviewed public table. No clear Republican, Democratic, and Independent party-ID crosstabs with subgroup sample sizes were found in the public sources reviewed during this sweep.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- The public polling table lists Democratic share before Republican share; normalized rows store Republican as candidate A and Democrat as candidate B to match the `us_house_generic` convention.
+- When a pollster reported multiple universes for the same field period, this backfill used the voter-screened row preferred by the existing generic-ballot feed convention: likely voters when available, otherwise registered voters, and skipped adult-only alternatives.
+- Several Morning Consult rows have overlapping field windows and large tracking samples. They were ingested because they are distinct public table rows, but the current model treats overlapping toplines as independent observations, so generic-ballot uncertainty may remain too narrow.
+
 ## 2026-07-09
 
 ### Sources Searched

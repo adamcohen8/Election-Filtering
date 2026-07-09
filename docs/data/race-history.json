@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T14:49:17.135581+00:00",
+  "generated_at": "2026-07-09T14:59:21.654215+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1092,10 +1092,73 @@
         },
         {
           "date": "2026-06-22",
-          "candidate_a_share": 0.4747,
-          "candidate_b_share": 0.5253,
-          "margin": -0.0506,
-          "margin_percent": -5.06
+          "candidate_a_share": 0.4754,
+          "candidate_b_share": 0.5246,
+          "margin": -0.0492,
+          "margin_percent": -4.92
+        },
+        {
+          "date": "2026-06-23",
+          "candidate_a_share": 0.4755,
+          "candidate_b_share": 0.5245,
+          "margin": -0.049,
+          "margin_percent": -4.9
+        },
+        {
+          "date": "2026-06-26",
+          "candidate_a_share": 0.4753,
+          "candidate_b_share": 0.5247,
+          "margin": -0.0495,
+          "margin_percent": -4.95
+        },
+        {
+          "date": "2026-06-28",
+          "candidate_a_share": 0.4751,
+          "candidate_b_share": 0.5249,
+          "margin": -0.0497,
+          "margin_percent": -4.97
+        },
+        {
+          "date": "2026-06-29",
+          "candidate_a_share": 0.4752,
+          "candidate_b_share": 0.5248,
+          "margin": -0.0495,
+          "margin_percent": -4.95
+        },
+        {
+          "date": "2026-06-30",
+          "candidate_a_share": 0.4751,
+          "candidate_b_share": 0.5249,
+          "margin": -0.0499,
+          "margin_percent": -4.99
+        },
+        {
+          "date": "2026-07-01",
+          "candidate_a_share": 0.475,
+          "candidate_b_share": 0.525,
+          "margin": -0.05,
+          "margin_percent": -5.0
+        },
+        {
+          "date": "2026-07-02",
+          "candidate_a_share": 0.4746,
+          "candidate_b_share": 0.5254,
+          "margin": -0.0509,
+          "margin_percent": -5.09
+        },
+        {
+          "date": "2026-07-05",
+          "candidate_a_share": 0.475,
+          "candidate_b_share": 0.525,
+          "margin": -0.05,
+          "margin_percent": -5.0
+        },
+        {
+          "date": "2026-07-07",
+          "candidate_a_share": 0.475,
+          "candidate_b_share": 0.525,
+          "margin": -0.0501,
+          "margin_percent": -5.01
         }
       ],
       "poll_points": [
@@ -1394,6 +1457,20 @@
           "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
         },
         {
+          "poll_id": "morning-consult_us_house_generic_2026-06-19_2026-06-22_topline",
+          "pollster": "Morning Consult",
+          "date": "2026-06-22",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 24000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
           "poll_id": "quinnipiac_us_house_generic_2026-06-18_2026-06-22_topline",
           "pollster": "Quinnipiac University",
           "date": "2026-06-22",
@@ -1431,6 +1508,174 @@
           "margin_percent": -7.0,
           "leader": "democratic",
           "sample_size": 1896,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "mclaughlin_us_house_generic_2026-06-17_2026-06-23_topline",
+          "pollster": "McLaughlin & Associates",
+          "date": "2026-06-23",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.46,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "morning-consult-cato_us_house_generic_2026-06-25_2026-06-26_topline",
+          "pollster": "Morning Consult/Cato Institute",
+          "date": "2026-06-26",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.45,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1797,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "activote_us_house_generic_2026-06-06_2026-06-28_topline",
+          "pollster": "ActiVote",
+          "date": "2026-06-28",
+          "candidate_a_share": 0.47,
+          "candidate_b_share": 0.53,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "big-data_us_house_generic_2026-06-26_2026-06-28_topline",
+          "pollster": "Big Data Poll",
+          "date": "2026-06-28",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.5,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 2604,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "morning-consult_us_house_generic_2026-06-22_2026-06-28_topline",
+          "pollster": "Morning Consult",
+          "date": "2026-06-28",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 24000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "morning-consult_us_house_generic_2026-06-26_2026-06-28_topline",
+          "pollster": "Morning Consult",
+          "date": "2026-06-28",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 2202,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-06-26_2026-06-29_topline",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-06-29",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.45,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1426,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "focaldata-ft_us_house_generic_2026-06-26_2026-06-30_topline",
+          "pollster": "Focaldata/Financial Times",
+          "date": "2026-06-30",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.51,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1723,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "cygnal_us_house_generic_2026-06-30_2026-07-01_topline",
+          "pollster": "Cygnal",
+          "date": "2026-07-01",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.5,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1500,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "talker_us_house_generic_2026-06-25_2026-07-02_topline",
+          "pollster": "Talker Research",
+          "date": "2026-07-02",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.48,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 2000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "morning-consult_us_house_generic_2026-06-29_2026-07-05_topline",
+          "pollster": "Morning Consult",
+          "date": "2026-07-05",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 24000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+        },
+        {
+          "poll_id": "quantus_us_house_generic_2026-07-03_2026-07-07_topline",
+          "pollster": "Quantus Insights",
+          "date": "2026-07-07",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.47,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1140,
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
