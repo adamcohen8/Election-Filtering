@@ -1,5 +1,39 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-09
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 9, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 9, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 9, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- Noble Predictive Insights July 7, 2026 Arizona governor Republican primary release and linked poll report, rechecked July 9, 2026: `https://www.noblepredictiveinsights.com/post/azgov-gop-primary-biggs-goes-big-before-primary-day`.
+- Live web searches for newly released public modeled-race Senate polls and crosstabs since the 2026-07-08 run across Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.
+- Live web searches for newly released public modeled-race governor polls and crosstabs since the 2026-07-08 run across Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- Pollster/source-specific searches for July 2026 modeled-race releases and party-ID crosstabs from Emerson College Polling, Quinnipiac University, Marist, SurveyUSA, Fox News, New York Times/Siena College, AARP, Cygnal, Quantus Insights, Noble Predictive Insights, RealClearPolling, Race to the WH, 270toWin, Decision Desk HQ, and public polling table surfaces.
+
+### Polls Applied
+
+- None. No newly released post-2026-07-08 modeled Senate or governor general-election public poll with clear Republican, Democratic, and Independent party-ID crosstabs plus subgroup sample sizes was located.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling and web searches continued to surface already-reviewed or already-ingested modeled-race rows, including Fox Iowa/Georgia, NYT/Siena Senate and governor rows, Cygnal Iowa, AARP Ohio, Morning Scrapple Pennsylvania, SoCal/Red Eagle Texas, older Michigan/UNH/St. Anselm public polling table rows, and the Noble Arizona governor Republican primary release already logged on July 8.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- None newly released after the 2026-07-08 run for the modeled Senate/governor general-election race list.
+- RealClearPolling surfaced newly posted national/generic-ballot rows from Quantus Insights and Cygnal on July 8, plus national approval polling on July 9. These were reviewed but are outside today's modeled Senate/governor crosstab update, and no state-level modeled-race party-ID crosstabs were available from those rows.
+- Noble Predictive Insights' Arizona governor Republican primary poll remained visible in public sources, but it was not applied because it is a Republican primary poll rather than an `az_gov` general-election observation.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no qualifying new modeled-race general-election release was located.
+
 ## 2026-07-08
 
 ### Sources Searched
