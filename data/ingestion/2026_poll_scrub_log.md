@@ -1,5 +1,50 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-10
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 10, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 10, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 10, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 10, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- 2026 United States elections public polling table, reviewed July 10, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- The Economist/YouGov July 3-6, 2026 crosstab PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_Qxo6bev.pdf`.
+- Morning Consult July 6, 2026 midterm ballot tracker page: `https://pro-assets.morningconsult.com/wp-uploads/2026/07/MCPI-Midterm-Ballot_260706.html`.
+- Rasmussen Reports July 7, 2026 generic congressional ballot release: `https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07`.
+- Live web searches for newly released public modeled-race Senate polls and crosstabs since the 2026-07-09 run across Florida, Texas, Georgia, New Hampshire, Iowa, Alaska, Michigan, Ohio, and North Carolina.
+- Live web searches for newly released public modeled-race governor polls and crosstabs since the 2026-07-09 run across Florida, Georgia, Texas, North Carolina, New Hampshire, Iowa, Pennsylvania, Arizona, Ohio, Michigan, and Wisconsin.
+- Pollster/source-specific searches for July 2026 modeled-race releases and party-ID crosstabs from Emerson College Polling, Quinnipiac University, Marist, SurveyUSA, Fox News, New York Times/Siena College, AARP, Cygnal, Quantus Insights, Noble Predictive Insights, RealClearPolling, Race to the WH, 270toWin, Decision Desk HQ, and generic-ballot public polling table surfaces.
+
+### Polls Applied
+
+- `economist-yougov_us_house_generic_2026-07-03_2026-07-06_crosstab` -> `us_house_generic`: The Economist/YouGov, July 3-6, 2026, n=1,442 voters, generic Republican 0.43, generic Democrat 0.46.
+  - Republican party ID, unweighted n=436: Republican 0.89, Democrat 0.02.
+  - Democratic party ID, unweighted n=547: Republican 0.01, Democrat 0.93.
+  - Independent party ID, unweighted n=619: Republican 0.16, Democrat 0.29.
+- `rasmussen_us_house_generic_2026-06-24_2026-07-01_topline` -> `us_house_generic`: Rasmussen Reports, June 24-25 and June 28-July 1, 2026, n=2,224 LV, generic Republican 0.42, generic Democrat 0.46.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling July 8 generic-ballot rows from Quantus Insights and Cygnal were already ingested in the July 9 generic ballot backfill.
+- Existing modeled Senate/governor rows from Fox Iowa/Georgia, NYT/Siena, AARP Ohio, Cygnal Iowa, Morning Scrapple Pennsylvania, SoCal/Red Eagle Texas, UNH, St. Anselm, and older public table rows remained duplicates or already-reviewed entries.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- Rasmussen Reports published party-group percentages but not Republican, Democratic, and Independent subgroup sample sizes in the public release, so it was applied as topline-only.
+- Morning Consult's July 6 midterm ballot tracker was already represented as `morning-consult_us_house_generic_2026-06-29_2026-07-05_topline`; this run corrected its Democratic topline from 0.46 to the primary-source 0.45. The public tracker did not expose party-ID subgroup sample sizes, so it remains topline-only.
+- No newly released post-2026-07-09 modeled Senate or governor general-election public poll with usable party-ID crosstabs was located.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov crosstab row uses the PDF's `Voters` topline column for the aggregate result and the PDF's `Party ID` columns for subgroup shares. The subgroup Ns are the unweighted Democratic, Independent, and Republican party-ID counts printed in the same table.
+- Rasmussen's public text contains an apparent arithmetic/typographical inconsistency in the undecided sentence, but the major-party generic ballot figures and total sample size are clear.
+- No source-specific parser was added; rows were normalized manually after inspecting the public source pages/PDF.
+
 ## 2026-07-09 Generic Ballot Backfill
 
 ### Sources Searched

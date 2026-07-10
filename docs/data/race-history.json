@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T14:59:21.654215+00:00",
+  "generated_at": "2026-07-10T09:05:16.168940+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1136,29 +1136,36 @@
           "date": "2026-07-01",
           "candidate_a_share": 0.475,
           "candidate_b_share": 0.525,
-          "margin": -0.05,
-          "margin_percent": -5.0
+          "margin": -0.0499,
+          "margin_percent": -4.99
         },
         {
           "date": "2026-07-02",
           "candidate_a_share": 0.4746,
           "candidate_b_share": 0.5254,
-          "margin": -0.0509,
-          "margin_percent": -5.09
+          "margin": -0.0508,
+          "margin_percent": -5.08
         },
         {
           "date": "2026-07-05",
-          "candidate_a_share": 0.475,
-          "candidate_b_share": 0.525,
-          "margin": -0.05,
-          "margin_percent": -5.0
+          "candidate_a_share": 0.4759,
+          "candidate_b_share": 0.5241,
+          "margin": -0.0482,
+          "margin_percent": -4.82
+        },
+        {
+          "date": "2026-07-06",
+          "candidate_a_share": 0.4436,
+          "candidate_b_share": 0.5123,
+          "margin": -0.0687,
+          "margin_percent": -6.87
         },
         {
           "date": "2026-07-07",
-          "candidate_a_share": 0.475,
-          "candidate_b_share": 0.525,
-          "margin": -0.0501,
-          "margin_percent": -5.01
+          "candidate_a_share": 0.4436,
+          "candidate_b_share": 0.5122,
+          "margin": -0.0686,
+          "margin_percent": -6.86
         }
       ],
       "poll_points": [
@@ -1639,6 +1646,20 @@
           "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
         },
         {
+          "poll_id": "rasmussen_us_house_generic_2026-06-24_2026-07-01_topline",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-07-01",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 2224,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07"
+        },
+        {
           "poll_id": "talker_us_house_generic_2026-06-25_2026-07-02_topline",
           "pollster": "Talker Research",
           "date": "2026-07-02",
@@ -1657,14 +1678,28 @@
           "pollster": "Morning Consult",
           "date": "2026-07-05",
           "candidate_a_share": 0.42,
-          "candidate_b_share": 0.46,
-          "margin": -0.04,
-          "margin_percent": -4.0,
+          "candidate_b_share": 0.45,
+          "margin": -0.03,
+          "margin_percent": -3.0,
           "leader": "democratic",
           "sample_size": 24000,
           "measurement": "topline",
           "partial_party_id": false,
-          "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections#Polling"
+          "source_url": "https://pro-assets.morningconsult.com/wp-uploads/2026/07/MCPI-Midterm-Ballot_260706.html"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-07-03_2026-07-06_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-07-06",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.46,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1442,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_Qxo6bev.pdf"
         },
         {
           "poll_id": "quantus_us_house_generic_2026-07-03_2026-07-07_topline",
