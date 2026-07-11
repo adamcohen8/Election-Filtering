@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-11
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 11, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 11, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 11, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 11, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- RealClearPolling Georgia Senate race page, reviewed July 11, 2026: `https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins`.
+- RealClearPolling Georgia Governor race page, reviewed July 11, 2026: `https://www.realclearpolling.com/polls/governor/general/2026/georgia/lance-bottoms-vs-jackson`.
+- Wick public site, reviewed July 11, 2026: `https://wick.io/`.
+- 2026 United States elections public polling table, reviewed July 11, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- Financial Times public article linked from RealClearPolling's July 6 generic-ballot row, reviewed July 11, 2026. The page was paywalled/static-limited and did not expose a public polling table, sample size, or party-ID crosstabs.
+- Targeted web searches for July 2026 Wick Georgia Senate/Governor releases, Financial Times generic-ballot releases, Daily Mail generic-ballot releases, modeled-race public polling releases, and party-ID crosstabs.
+
+### Polls Applied
+
+- None. No newly released public poll located in this run had both a modeled race classification and enough public sample/methodology detail to normalize a new observation safely.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling July 8 generic-ballot rows from Quantus Insights and Cygnal were already ingested in the July 9 generic ballot backfill.
+- RealClearPolling July 7 generic-ballot rows from The Economist/YouGov, Morning Consult, and Rasmussen Reports were already represented after the July 10 run.
+- Previously reviewed modeled Senate/governor rows from Fox News, NYT/Siena, AARP, Cygnal, UNH, St. Anselm, Noble Predictive Insights, SoCal/Red Eagle, and Morning Scrapple remained duplicates or already-reviewed entries.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- Wick / Georgia Senate, published by RealClearPolling July 8, 2026: Ossoff 47, Collins 43. The accessible Wick site and search results did not provide field dates, sample size, margin of error, methodology, or party-ID crosstabs, so this row was not normalized or applied.
+- Wick / Georgia Governor, published by RealClearPolling July 8, 2026: Lance Bottoms 43, Jackson 43. The accessible Wick site and search results did not provide field dates, sample size, margin of error, methodology, or party-ID crosstabs, so this row was not normalized or applied.
+- Financial Times / generic congressional ballot, published by RealClearPolling July 6, 2026: Democrat 49, Republican 42. The accessible FT page did not expose the underlying poll table, sample size, methodology, or party-ID crosstabs, so this row was not normalized or applied.
+- Daily Mail / generic congressional ballot, published by RealClearPolling July 6, 2026: Democrat 50, Republican 42. No accessible primary source or public data table with sample size, methodology, or party-ID crosstabs was located, so this row was not normalized or applied.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- RealClearPolling latest-poll rows provide useful discovery signals but did not expose enough structured metadata in static access for the July 8 Wick rows or July 6 Financial Times/Daily Mail generic-ballot rows. The ingestion schema requires clear sample sizes for topline-only observations, so these rows were logged but not applied.
+- No party-ID crosstab extraction was attempted for the four new RCP-visible rows because the underlying public releases or tables were not accessible.
+
 ## 2026-07-10
 
 ### Sources Searched

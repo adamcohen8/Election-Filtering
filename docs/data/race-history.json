@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:05:16.168940+00:00",
+  "generated_at": "2026-07-11T09:05:07.161723+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1038,13 +1038,13 @@
           "date": "2026-06-03",
           "candidate_a_share": 0.4741,
           "candidate_b_share": 0.5259,
-          "margin": -0.0519,
-          "margin_percent": -5.19
+          "margin": -0.0518,
+          "margin_percent": -5.18
         },
         {
           "date": "2026-06-04",
           "candidate_a_share": 0.4733,
-          "candidate_b_share": 0.5268,
+          "candidate_b_share": 0.5267,
           "margin": -0.0535,
           "margin_percent": -5.35
         },
@@ -1058,14 +1058,14 @@
         {
           "date": "2026-06-07",
           "candidate_a_share": 0.4764,
-          "candidate_b_share": 0.5236,
+          "candidate_b_share": 0.5235,
           "margin": -0.0471,
           "margin_percent": -4.71
         },
         {
           "date": "2026-06-08",
           "candidate_a_share": 0.4755,
-          "candidate_b_share": 0.5245,
+          "candidate_b_share": 0.5244,
           "margin": -0.0489,
           "margin_percent": -4.89
         },
@@ -1078,7 +1078,7 @@
         },
         {
           "date": "2026-06-15",
-          "candidate_a_share": 0.4758,
+          "candidate_a_share": 0.4757,
           "candidate_b_share": 0.5242,
           "margin": -0.0485,
           "margin_percent": -4.85
@@ -1086,16 +1086,16 @@
         {
           "date": "2026-06-16",
           "candidate_a_share": 0.4752,
-          "candidate_b_share": 0.5248,
+          "candidate_b_share": 0.5247,
           "margin": -0.0495,
           "margin_percent": -4.95
         },
         {
           "date": "2026-06-22",
           "candidate_a_share": 0.4754,
-          "candidate_b_share": 0.5246,
-          "margin": -0.0492,
-          "margin_percent": -4.92
+          "candidate_b_share": 0.5245,
+          "margin": -0.0491,
+          "margin_percent": -4.91
         },
         {
           "date": "2026-06-23",
@@ -1106,10 +1106,10 @@
         },
         {
           "date": "2026-06-26",
-          "candidate_a_share": 0.4753,
+          "candidate_a_share": 0.4752,
           "candidate_b_share": 0.5247,
-          "margin": -0.0495,
-          "margin_percent": -4.95
+          "margin": -0.0494,
+          "margin_percent": -4.94
         },
         {
           "date": "2026-06-28",
