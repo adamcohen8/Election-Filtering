@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-12
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 12, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 12, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 12, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 12, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- 2Way/HarrisX July 2026 NATO Summit survey crosstab page and embedded HTML crosstab, reviewed July 12, 2026: `https://www.harrisx.com/content/july-2026-nato-summit-survey-findings-crosstabs` and `https://html-crosstabs.s3.us-east-1.amazonaws.com/HarrisX_NATO_HOP.html`.
+- 2026 United States elections public polling table, reviewed July 12, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- Targeted web searches for newly released July 2026 modeled Senate, governor, and generic congressional ballot releases and party-ID crosstabs.
+
+### Polls Applied
+
+- `2way-harrisx_us_house_generic_2026-07-09_2026-07-10_crosstab` -> `us_house_generic`: 2Way/HarrisX, July 9-10, 2026, n=1,019 RV, forced-choice generic Republican 0.48, generic Democrat 0.52 among all registered voters. RealClearPolling reported the likely-voter forced-choice column as Republican 0.49, Democrat 0.51, n=787.
+  - Republican party ID, n=379: Republican 0.95, Democrat 0.05.
+  - Democratic party ID, n=358: Republican 0.02, Democrat 0.98.
+  - Independent party ID, n=270: Republican 0.42, Democrat 0.58.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling July 8 generic-ballot rows from Quantus Insights and Cygnal remained duplicates from the July 9 generic ballot backfill.
+- RealClearPolling July 7 generic-ballot rows from The Economist/YouGov, Morning Consult, and Rasmussen Reports remained represented after the July 10 run.
+- RealClearPolling July 8 Wick Georgia Senate and Governor rows remained reviewed but not applied because no public sample/methodology details or crosstabs were located.
+- Previously reviewed modeled Senate/governor rows from Fox News, NYT/Siena, AARP, Cygnal, UNH, St. Anselm, Noble Predictive Insights, SoCal/Red Eagle, and Morning Scrapple remained duplicates or already-reviewed entries.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- No additional newly released modeled Senate, governor, or generic congressional ballot poll without party-ID crosstabs was located beyond the Wick, Financial Times, and Daily Mail rows logged on July 11.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- The 2Way/HarrisX crosstab page's forced-choice table gives total RV results of Democrat 52 and Republican 48, while RealClearPolling's July 11 generic-ballot row reports the likely-voter forced-choice column as Democrat 51 and Republican 49. The normalized row stores the Party ID crosstabs from the forced-choice table and the RCP/HarrisX likely-voter column as the topline for public poll display.
+- The 2026 United States elections public polling table did not yet list the July 9-10 2Way/HarrisX row during this run, so the HarrisX crosstab and RealClearPolling pages were treated as the primary sources.
+
 ## 2026-07-11
 
 ### Sources Searched
