@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-13
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 13, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 13, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 13, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 13, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- 2026 United States elections public polling table, reviewed July 13, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- Targeted web searches for newly released July 2026 modeled Senate, governor, and generic congressional ballot releases and party-ID crosstabs from major public pollsters and aggregators.
+
+### Polls Applied
+
+- None. No newly released public modeled Senate, governor, or generic congressional ballot poll with usable party-ID crosstabs or a new clear topline was located after the July 12 run.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling's latest modeled generic-ballot row remained the July 11 2Way/HarrisX row already ingested on July 12.
+- RealClearPolling July 8 generic-ballot rows from Quantus Insights and Cygnal remained duplicates from the July 9 generic ballot backfill.
+- RealClearPolling July 7 generic-ballot rows from The Economist/YouGov, Morning Consult, and Rasmussen Reports remained represented after the July 10 run.
+- RealClearPolling July 8 Wick Georgia Senate and Governor rows remained reviewed but not applied because no public sample/methodology details or crosstabs were located.
+- Previously reviewed modeled Senate/governor rows from Fox News, NYT/Siena, AARP, Cygnal, UNH, St. Anselm, Noble Predictive Insights, SoCal/Red Eagle, and Morning Scrapple remained duplicates or already-reviewed entries.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- No additional newly released modeled Senate, governor, or generic congressional ballot poll without party-ID crosstabs was located beyond the Wick, Financial Times, and Daily Mail rows logged on July 11.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- The public 2026 United States elections polling table still did not list the July 9-10 2Way/HarrisX generic-ballot row during this run; the project already uses the HarrisX crosstab/RCP source pair from the July 12 ingestion.
+- No new crosstab extraction was attempted because no new qualifying source table or release was located.
+
 ## 2026-07-12
 
 ### Sources Searched
