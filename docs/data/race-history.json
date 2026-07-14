@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T09:49:44.467515+00:00",
+  "generated_at": "2026-07-14T09:07:33.296536+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -638,6 +638,13 @@
           "candidate_b_share": 0.4898,
           "margin": -0.072,
           "margin_percent": -7.2
+        },
+        {
+          "date": "2026-07-11",
+          "candidate_a_share": 0.4232,
+          "candidate_b_share": 0.4889,
+          "margin": -0.0657,
+          "margin_percent": -6.57
         }
       ],
       "poll_points": [
@@ -668,6 +675,20 @@
           "measurement": "party_id_crosstab",
           "partial_party_id": false,
           "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-north-carolina-poll-crosstabs.html"
+        },
+        {
+          "poll_id": "ppp_nc_sen_2026-07-10_2026-07-11_topline",
+          "pollster": "Public Policy Polling",
+          "date": "2026-07-11",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.48,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 759,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://e1.nmcdn.io/assets/ppp/wp-content/uploads/2026/07/NorthCarolinaPollJuly2026.pdf"
         }
       ]
     },

@@ -262,6 +262,21 @@
       "independent_n": 208
     },
     {
+      "poll_id": "ppp_nc_sen_2026-07-10_2026-07-11_topline",
+      "pollster": "Public Policy Polling",
+      "field_date": "2026-07-11",
+      "race_id": "nc_sen",
+      "state": "North Carolina",
+      "office": "senate",
+      "candidate_a": "Michael Whatley",
+      "candidate_b": "Roy Cooper",
+      "source_url": "https://e1.nmcdn.io/assets/ppp/wp-content/uploads/2026/07/NorthCarolinaPollJuly2026.pdf",
+      "text": "North Carolina U.S. Senate ballot test, July 10-11 2026, Public Policy Polling, n=759 voters. Candidate A is the Republican, Michael Whatley; candidate B is the Democrat, Roy Cooper. Topline-only row because the public PDF gives party-ID crosstab percentages but not explicit party-ID subgroup sample sizes.",
+      "topline_a": 0.44,
+      "topline_b": 0.48,
+      "topline_n": 759
+    },
+    {
       "poll_id": "nyt-siena_oh_sen_2026-06-15_2026-06-28_crosstab",
       "pollster": "New York Times/Siena College",
       "field_date": "2026-06-28",

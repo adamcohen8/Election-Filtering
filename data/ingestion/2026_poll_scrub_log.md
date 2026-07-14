@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-14
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 14, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 14, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 14, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 14, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Public Policy Polling July 13, 2026 North Carolina Senate release and full results PDF: `https://www.publicpolicypolling.com/polls/cooper-leads-but-whatley-has-a-path/` and `https://e1.nmcdn.io/assets/ppp/wp-content/uploads/2026/07/NorthCarolinaPollJuly2026.pdf`.
+- 2026 United States elections public polling table, reviewed July 14, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- Targeted web searches for newly released July 2026 modeled Senate, governor, and generic congressional ballot releases and party-ID crosstabs from major public pollsters and aggregators.
+
+### Polls Applied
+
+- `ppp_nc_sen_2026-07-10_2026-07-11_topline` -> `nc_sen`: Public Policy Polling, July 10-11, 2026, n=759 North Carolina voters, Michael Whatley 0.44, Roy Cooper 0.48.
+
+### Polls Skipped As Duplicates
+
+- RealClearPolling's latest modeled generic-ballot row remained the July 11 2Way/HarrisX row already ingested on July 12.
+- RealClearPolling July 8 generic-ballot rows from Quantus Insights and Cygnal remained duplicates from the July 9 generic ballot backfill.
+- RealClearPolling July 7 generic-ballot rows from The Economist/YouGov, Morning Consult, and Rasmussen Reports remained represented after the July 10 run.
+- RealClearPolling July 8 Wick Georgia Senate and Governor rows remained reviewed but not applied because no public sample/methodology details or crosstabs were located.
+- Previously reviewed modeled Senate/governor rows from Fox News, NYT/Siena, AARP, Cygnal, UNH, St. Anselm, Noble Predictive Insights, SoCal/Red Eagle, and Morning Scrapple remained duplicates or already-reviewed entries.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- Public Policy Polling / North Carolina Senate, July 10-11, 2026: the PDF includes party-ID ballot shares for Cooper vs. Whatley but does not publish explicit party-ID subgroup sample sizes. Crosstab values were reviewed as Democrat ID Cooper 0.89 / Whatley 0.09, Republican ID Cooper 0.09 / Whatley 0.79, and Independent Cooper 0.48 / Whatley 0.44, but the poll was applied as topline-only because the subgroup Ns would have to be inferred from rounded party-composition percentages.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- PPP reports party ID composition as Democrat 30%, Republican 31%, Independent 39% of n=759, but does not print exact subgroup sample sizes. The crosstab was therefore not used for the Kalman party-ID update.
+- No newly released modeled governor or generic congressional ballot poll was located beyond rows already ingested or logged in prior runs.
+
 ## 2026-07-13
 
 ### Sources Searched
