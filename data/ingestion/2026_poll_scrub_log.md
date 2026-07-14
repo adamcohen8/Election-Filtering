@@ -1,5 +1,36 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-14 Crosstab-Only Policy Correction
+
+### Sources Searched
+
+- No new web sources searched for this correction. This was a data-policy cleanup based on the user's instruction that polls without usable party-ID crosstabs must not be included in the model.
+
+### Polls Applied
+
+- None added. The normalized feed was filtered from 84 records to 10 records, retaining only polls with explicit Republican, Democratic, and Independent party-ID candidate shares plus usable subgroup sample sizes.
+
+### Polls Removed From Model Inputs
+
+- Removed 74 observations from `data/ingestion/2026_normalized_polls.json` and the rebuilt seen-poll ledger: 70 topline-only observations plus four Fox News rows whose party-ID subgroup sample sizes had been estimated from subgroup MOEs rather than printed. Removed rows include the July 14 Public Policy Polling North Carolina Senate topline and all previously ingested generic-ballot, Maine Senate, RCP topline, and other aggregate-only rows that lacked usable party-ID crosstabs.
+
+### Polls Skipped As Duplicates
+
+- None for this correction pass.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- All removed topline-only records remain source-discovery evidence only. They should be logged as missing party-ID crosstabs in future scrubs, not normalized into model inputs unless Republican, Democratic, and Independent party-ID crosstab shares and usable subgroup bases or sample sizes are available.
+
+### Unclassified Polls
+
+- None.
+
+### Extraction Uncertainties
+
+- Existing crosstab-backed records that also include topline fields were retained because they have usable party-ID crosstabs; the topline fields are supplemental display metadata only.
+- Added a regression test requiring every record in `data/ingestion/2026_normalized_polls.json` to include the complete R/D/I party-ID crosstab field set.
+
 ## 2026-07-14
 
 ### Sources Searched
