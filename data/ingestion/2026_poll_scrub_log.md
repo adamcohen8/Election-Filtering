@@ -1,5 +1,45 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-15
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 15, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 15, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 15, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 15, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- The Economist/YouGov July 10-13, 2026 crosstab PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ie0SzVb.pdf`.
+- Harvard CAPS/Harris July 2026 polling page and downloaded all-files bundle, reviewed July 15, 2026: `https://harvardharrispoll.com/all-polls/`.
+- Morning Consult tracker page linked by RealClearPolling's July 14 generic-ballot row: `https://intel.morningconsult.com/mc-content/trackers/donald-trump-congress-policy-republicans-polling`.
+- 2026 United States elections public polling table, reviewed July 15, 2026: `https://en.wikipedia.org/wiki/2026_United_States_elections#Polling`.
+- Targeted web searches for newly released July 2026 modeled Senate, governor, and generic congressional ballot releases and party-ID crosstabs from major public pollsters and aggregators.
+
+### Polls Applied
+
+- `economist-yougov_us_house_generic_2026-07-10_2026-07-13_crosstab` -> `us_house_generic`: The Economist/YouGov, July 10-13, 2026, n=1,447 voters, generic Republican 0.42, generic Democrat 0.46.
+  - Republican party ID, unweighted n=463: Republican 0.90, Democrat 0.02.
+  - Democratic party ID, unweighted n=567: Republican 0.01, Democrat 0.92.
+  - Independent party ID, unweighted n=582: Republican 0.15, Democrat 0.25.
+
+### Polls Skipped As Duplicates
+
+- The July 11 2Way/HarrisX generic-ballot crosstab and July 3-6 Economist/YouGov generic-ballot crosstab remained already ingested.
+- Previously reviewed Wick Georgia Senate/Governor, Public Policy Polling North Carolina Senate, Quantus/Cygnal generic-ballot, and other topline-only rows remained logged but excluded from model inputs under the crosstab-only policy.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 14, 2026: Democrat 46, Republican 43. The public tracker surface did not expose Republican, Democratic, and Independent party-ID crosstabs with subgroup sample sizes, so it was not normalized or applied.
+- Harvard-Harris / generic congressional ballot, published by RealClearPolling July 14, 2026: Democrat 51, Republican 49. The July 2026 Harvard CAPS/Harris all-files bundle available from the public polling page contained only a key-results PDF, not a crosstab file, so it was not normalized or applied.
+
+### Unclassified Polls
+
+- Detroit News/Glengariff July 14 Michigan Senate Democratic primary row was reviewed from RealClearPolling but not classified into `mi_sen` because it is a Democratic primary, not a modeled general-election ballot test.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov crosstab row uses the PDF's `Voters` column for the aggregate result and the PDF's `Party ID` columns for subgroup shares. The subgroup Ns are the unweighted Democratic, Independent, and Republican party-ID counts printed in the same table.
+- No topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-14 Crosstab-Only Policy Correction
 
 ### Sources Searched
