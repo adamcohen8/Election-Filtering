@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T09:06:59.892860+00:00",
+  "generated_at": "2026-07-17T09:07:24.075742+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -296,10 +296,10 @@
         },
         {
           "date": "2026-07-13",
-          "candidate_a_share": 0.4562,
-          "candidate_b_share": 0.5438,
-          "margin": -0.0876,
-          "margin_percent": -8.76
+          "candidate_a_share": 0.4552,
+          "candidate_b_share": 0.5448,
+          "margin": -0.0896,
+          "margin_percent": -8.96
         }
       ],
       "poll_points": [
@@ -330,6 +330,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.harrisx.com/content/july-2026-nato-summit-survey-findings-crosstabs"
+        },
+        {
+          "poll_id": "echelon_us_house_generic_2026-07-09_2026-07-13_crosstab",
+          "pollster": "Echelon Insights",
+          "date": "2026-07-13",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.5,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1004,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://docs.google.com/spreadsheets/d/16gGhnRTle2nutw2RjHL3mnDVou3PVRzd/edit?gid=892273807"
         },
         {
           "poll_id": "economist-yougov_us_house_generic_2026-07-10_2026-07-13_crosstab",

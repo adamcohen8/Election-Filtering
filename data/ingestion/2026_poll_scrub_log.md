@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-17
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 17, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 17, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 17, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 17, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Echelon Insights July 2026 Verified Voter Omnibus release and public crosstab workbook: `https://echeloninsights.com/insights/july-2026-verified-voter-omnibus-1` and `https://docs.google.com/spreadsheets/d/16gGhnRTle2nutw2RjHL3mnDVou3PVRzd/edit?gid=892273807`.
+- Quinnipiac Pennsylvania July 15, 2026 release, release PDF, and sample/methodology PDF: `https://poll.qu.edu/poll-release?releaseid=3962`.
+- Napolitan News/RMG Research July 15, 2026 generic-ballot public post and mini-toplines: `https://napolitannews.org/posts/generic-ballot-dem-47-percent-gop-45-dems-still-have-healthy-enthusiasm-edge`.
+- Targeted web searches for newly released July 2026 modeled Senate, governor, and generic congressional ballot releases and party-ID crosstabs from public pollsters and aggregators.
+
+### Polls Applied
+
+- `echelon_us_house_generic_2026-07-09_2026-07-13_crosstab` -> `us_house_generic`: Echelon Insights, July 9-13, 2026, n=1,004 likely electorate, generic Republican 0.44, generic Democrat 0.50.
+  - Republican party ID, unweighted n=350: Republican 0.94, Democrat 0.04.
+  - Democratic party ID, unweighted n=393: Republican 0.01, Democrat 0.97.
+  - Independent party ID, unweighted n=261: Republican 0.30, Democrat 0.52.
+
+### Polls Skipped As Duplicates
+
+- The July 10-13 Economist/YouGov generic-ballot crosstab, July 9-10 2Way/HarrisX generic-ballot crosstab, and older NYT/Siena Senate crosstabs remain already ingested.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- Quinnipiac / Pennsylvania governor, July 9-13, 2026: Shapiro 53, Garrity 40. The release published Republican, Democratic, and Independent party-ID candidate shares, but the methodology PDF published only rounded party-composition percentages and said subgroup margins of sampling error are available upon request. Because usable subgroup sample sizes were not public, this poll was not normalized or applied.
+- Quinnipiac / Pennsylvania generic House preference, July 9-13, 2026: Democratic Party 49, Republican Party 43. Same issue as above: party-ID shares were public, but public subgroup sample sizes were not.
+- Napolitan News/RMG Research / generic congressional ballot, July 13-14, 2026: Democrat 47, Republican 45 including leaners. The public post states that full crosstabs are restricted/confidential and not for public release, so it was not normalized or applied.
+
+### Unclassified Polls
+
+- Emerson South Carolina Senate Republican special primary, July 16 RCP row: not a modeled race.
+- PPIC California governor, July 16 RCP row: not a modeled governor state.
+- Emerson South Dakota governor GOP runoff, July 15 RCP row: not a modeled race.
+
+### Extraction Uncertainties
+
+- Echelon's crosstab workbook reports weighted subgroup bases on the question row and an explicit `Unweighted Total` row. The normalized record uses the weighted candidate shares from the `Party` columns and the unweighted Republican, Independent, and Democratic subgroup counts as the sample-size inputs.
+- No topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-15
 
 ### Sources Searched

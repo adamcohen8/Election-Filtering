@@ -239,6 +239,30 @@
       "topline_a": 0.42,
       "topline_b": 0.46,
       "topline_n": 1447
+    },
+    {
+      "poll_id": "echelon_us_house_generic_2026-07-09_2026-07-13_crosstab",
+      "pollster": "Echelon Insights",
+      "field_date": "2026-07-13",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://docs.google.com/spreadsheets/d/16gGhnRTle2nutw2RjHL3mnDVou3PVRzd/edit?gid=892273807",
+      "text": "National generic congressional ballot, likely electorate, July 9-13 2026, Echelon Insights Verified Voter Omnibus. Candidate A is the Republican generic congressional candidate; candidate B is the Democratic generic congressional candidate. Party-ID crosstabs use the workbook's Party columns and explicit Unweighted Total party subgroup Ns.",
+      "republican_a": 0.94,
+      "republican_b": 0.04,
+      "republican_n": 350,
+      "democratic_a": 0.01,
+      "democratic_b": 0.97,
+      "democratic_n": 393,
+      "independent_a": 0.3,
+      "independent_b": 0.52,
+      "independent_n": 261,
+      "topline_a": 0.44,
+      "topline_b": 0.5,
+      "topline_n": 1004
     }
   ]
 }
