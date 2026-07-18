@@ -1,5 +1,37 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-18
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 18, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 18, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 18, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 18, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- RealClearPolling-linked CNBC July 17, 2026 generic congressional ballot source PDF path: `https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2026/07/17/CNBC_Q2_2026_Topline.pdf`.
+- Targeted web searches for July 17-18, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Polls Applied
+
+- None. No newly released modeled-race poll with usable Republican, Democratic, and Independent party-ID crosstabs and subgroup sample sizes was found.
+
+### Polls Skipped As Duplicates
+
+- The July 9-13 Echelon Insights generic-ballot crosstab, July 10-13 Economist/YouGov generic-ballot crosstab, July 9-10 2Way/HarrisX generic-ballot crosstab, and older NYT/Siena Senate crosstabs remain already ingested.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- CNBC / generic congressional ballot, published by RealClearPolling July 17, 2026: Democrat 49, Republican 45. The RCP-linked public source is a topline PDF path, direct retrieval returned access denied, and targeted searches did not find a public crosstab file or Republican, Democratic, and Independent party-ID subgroup sample sizes. It was not normalized or applied.
+
+### Unclassified Polls
+
+- South Carolina Senate Republican special primary, PPIC California governor, and South Dakota governor GOP runoff remained visible in the latest RCP pages but are not modeled general-election races.
+
+### Extraction Uncertainties
+
+- No crosstab extraction was attempted because the only new modeled poll located was public topline-only.
+- No topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-17
 
 ### Sources Searched
