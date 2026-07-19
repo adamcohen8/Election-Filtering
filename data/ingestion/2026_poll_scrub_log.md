@@ -1,5 +1,38 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-19
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 19, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 19, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 19, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 19, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Washington Post/Ipsos July 8-13, 2026 article and public crosstab workbook: `https://www.washingtonpost.com/politics/2026/07/18/democrats-have-slim-lead-race-house-washington-post-ipsos-poll-finds/` and `https://docs.google.com/spreadsheets/d/1U1aahGHx-oKANEspTjAX7RmTIAgYV5wjzr_hKLHfFNk/edit?gid=0`.
+- Ipsos public methodology page for the Washington Post/Ipsos July 2026 poll: `https://www.ipsos.com/en-us/Washington-Post-Ipsos-Poll-July-2026`.
+- Targeted web searches for July 18-19, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Polls Applied
+
+- None. No newly released modeled-race poll with usable Republican, Democratic, and Independent party-ID crosstabs and subgroup sample sizes was found.
+
+### Polls Skipped As Duplicates
+
+- The July 9-13 Echelon Insights generic-ballot crosstab, July 10-13 Economist/YouGov generic-ballot crosstab, July 9-10 2Way/HarrisX generic-ballot crosstab, and older NYT/Siena Senate crosstabs remain already ingested.
+
+### Polls Found Without Clear Party-ID Crosstabs
+
+- Washington Post/Ipsos / generic congressional ballot, published by RealClearPolling July 18, 2026: Democrat 48, Republican 45 among registered voters. The public workbook includes Party ID shares for Democrats, Republicans, and Indep/Other voters, but it does not publish explicit subgroup sample sizes; it publishes subgroup margins of error instead. Because subgroup Ns would have to be inferred from MOEs or weighting benchmarks, this poll was not normalized or applied.
+
+### Unclassified Polls
+
+- South Carolina Senate Republican special primary, PPIC California governor, and South Dakota governor GOP runoff remained visible in the latest RCP pages but are not modeled general-election races.
+
+### Extraction Uncertainties
+
+- The Washington Post/Ipsos workbook's registered-voter House ballot row shows Democratic candidate shares of 0.97 among Democrats, 0.05 among Republicans, and 0.47 among Indep/Other voters; Republican candidate shares are 0.02, 0.93, and 0.35 respectively. These shares were not ingested because the corresponding subgroup sample sizes were not public.
+- No topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-18
 
 ### Sources Searched
