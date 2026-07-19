@@ -5,12 +5,20 @@
     "echelon_us_house_generic_2026-07-09_2026-07-13_crosstab",
     "economist-yougov_us_house_generic_2026-07-03_2026-07-06_crosstab",
     "economist-yougov_us_house_generic_2026-07-10_2026-07-13_crosstab",
+    "fox_ga_gov_2026-06-23_2026-06-27_assumed_n",
+    "fox_ga_sen_2026-06-23_2026-06-27_assumed_n",
+    "fox_ia_gov_2026-06-23_2026-06-27_assumed_n",
+    "fox_ia_sen_2026-06-23_2026-06-27_assumed_n",
     "nyt-siena_ak_sen_2026-06-15_2026-06-29_crosstab",
     "nyt-siena_ia_sen_2026-06-15_2026-06-27_crosstab",
     "nyt-siena_nc_sen_2026-06-15_2026-06-27_crosstab",
     "nyt-siena_oh_sen_2026-06-15_2026-06-28_crosstab",
     "nyt-siena_tx_sen_2026-06-19_2026-06-27_crosstab",
+    "ppp_nc_sen_2026-07-10_2026-07-11_assumed_n",
+    "quinnipiac_pa_gov_2026-07-09_2026-07-13_assumed_n",
+    "quinnipiac_us_house_generic_2026-07-09_2026-07-13_assumed_n",
     "socal-red-eagle_tx_gov_2026-06-21_crosstab",
-    "socal-red-eagle_tx_sen_2026-06-21_crosstab"
+    "socal-red-eagle_tx_sen_2026-06-21_crosstab",
+    "washington-post-ipsos_us_house_generic_2026-07-08_2026-07-13_assumed_n"
   ]
 }

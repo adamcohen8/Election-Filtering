@@ -1,5 +1,45 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-19 Assumed-N Policy Backfill
+
+### Sources Searched
+
+- Existing scrub log entries and git history for polls previously skipped or removed because party-ID shares were available but exact subgroup sample sizes were not public.
+- Fox News Iowa and Georgia June 23-27, 2026 public releases and prior normalized rows.
+- Public Policy Polling North Carolina July 10-11, 2026 full results PDF: `https://e1.nmcdn.io/assets/ppp/wp-content/uploads/2026/07/NorthCarolinaPollJuly2026.pdf`.
+- Quinnipiac Pennsylvania July 9-13, 2026 release and question tables: `https://poll.qu.edu/poll-release?releaseid=3962`.
+- Washington Post/Ipsos July 8-13, 2026 public registered-voter crosstab workbook: `https://docs.google.com/spreadsheets/d/1U1aahGHx-oKANEspTjAX7RmTIAgYV5wjzr_hKLHfFNk/edit?gid=0`.
+- Rasmussen Reports July 7, 2026 generic-ballot release, reviewed again for whether all R/D/I two-candidate shares were public: `https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_july07`.
+
+### Polls Applied
+
+- `fox_ia_sen_2026-06-23_2026-06-27_assumed_n` -> `ia_sen`: Fox News, June 23-27, 2026, n=1,003 registered voters, Hinson 0.46, Turek 0.50. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 251 each using total N / 4.
+- `fox_ia_gov_2026-06-23_2026-06-27_assumed_n` -> `ia_gov`: Fox News, June 23-27, 2026, n=1,003 registered voters, Lahn 0.44, Sand 0.53. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 251 each using total N / 4.
+- `fox_ga_sen_2026-06-23_2026-06-27_assumed_n` -> `ga_sen`: Fox News, June 23-27, 2026, n=1,002 registered voters, Collins 0.43, Ossoff 0.56. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 251 each using total N / 4.
+- `fox_ga_gov_2026-06-23_2026-06-27_assumed_n` -> `ga_gov`: Fox News, June 23-27, 2026, n=1,002 registered voters, Jackson 0.47, Lance Bottoms 0.52. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 251 each using total N / 4.
+- `ppp_nc_sen_2026-07-10_2026-07-11_assumed_n` -> `nc_sen`: Public Policy Polling, July 10-11, 2026, n=759 voters, Whatley 0.44, Cooper 0.48. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 190 each using total N / 4.
+- `quinnipiac_pa_gov_2026-07-09_2026-07-13_assumed_n` -> `pa_gov`: Quinnipiac University, July 9-13, 2026, n=895 registered voters, Garrity 0.40, Shapiro 0.53. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 224 each using total N / 4.
+- `quinnipiac_us_house_generic_2026-07-09_2026-07-13_assumed_n` -> `us_house_generic`: Quinnipiac University Pennsylvania generic House preference, July 9-13, 2026, n=895 registered voters, Republican Party 0.43, Democratic Party 0.49. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 224 each using total N / 4.
+- `washington-post-ipsos_us_house_generic_2026-07-08_2026-07-13_assumed_n` -> `us_house_generic`: Washington Post/Ipsos, July 8-13, 2026, n=2,092 registered voters, Republican candidate 0.45, Democratic candidate 0.48. Exact party-ID subgroup Ns were not public; R/D/I subgroup Ns were set to 523 each using total N / 4.
+
+### Polls Skipped As Duplicates
+
+- Previously ingested crosstab-backed rows with explicit or already accepted subgroup bases remained unchanged.
+
+### Polls Still Found Without Clear Party-ID Crosstabs
+
+- Rasmussen Reports July 7, 2026 generic-ballot release remained excluded after review. It publishes total N and some party-group preference percentages, but not all Republican, Democratic, and Independent two-candidate shares needed by `PartyIDCrosstab`.
+- Morning Consult, CNBC, and A2 Insights rows remained excluded because the reviewed public material did not expose full R/D/I two-candidate party-ID shares for all three groups.
+
+### Unclassified Polls
+
+- Fox Maine Senate remained excluded because Maine Senate is not in the modeled race list.
+
+### Extraction Uncertainties
+
+- This backfill implements the user's July 19 instruction to assume `total N / 4` when R/D/I party-ID candidate shares are public but subgroup sizes are missing.
+- Assumed subgroup sample sizes are deliberately not inferred from party-composition percentages or subgroup MOEs; every applied fallback row uses the same integer sample size for Republican, Democratic, and Independent party-ID groups.
+
 ## 2026-07-19
 
 ### Sources Searched
