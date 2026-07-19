@@ -175,6 +175,8 @@ def test_2026_nominee_registry_tracks_concluded_primaries() -> None:
     assert NOMINEES_2026_BY_RACE["tx_sen"].republican.name == "Ken Paxton"
     assert NOMINEES_2026_BY_RACE["nc_sen"].democratic.name == "Roy Cooper"
     assert NOMINEES_2026_BY_RACE["ga_gov"].democratic.name == "Keisha Lance Bottoms"
+    assert NOMINEES_2026_BY_RACE["me_sen"].democratic.name == "Troy Jackson"
+    assert NOMINEES_2026_BY_RACE["me_sen"].democratic.status == "presumptive_nominee"
     assert "nc_gov" not in NOMINEES_2026_BY_RACE
 
 
@@ -498,8 +500,9 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     maine = next(race for race in payload["races"] if race["race_id"] == "me_sen")
     assert maine["data_available"] is True
     assert maine["candidate_a_name"] == "Susan Collins"
-    assert maine["candidate_b_name"] == "Graham Platner"
-    assert maine["nominee_last_verified"] == "2026-07-04"
+    assert maine["candidate_b_name"] == "Troy Jackson"
+    assert maine["candidate_b_nominee_status"] == "presumptive_nominee"
+    assert maine["nominee_last_verified"] == "2026-07-19"
 
     generic = next(race for race in payload["races"] if race["race_id"] == "us_house_generic")
     assert generic["data_available"] is True

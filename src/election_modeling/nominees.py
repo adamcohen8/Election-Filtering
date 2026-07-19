@@ -180,14 +180,18 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
             source_url="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
         ),
         democratic=Nominee(
-            name="Graham Platner",
+            name="Troy Jackson",
             party="democratic",
-            status="nominee",
-            source_name="Axios",
-            source_url="https://www.axios.com/2026/06/10/democrats-graham-platner-maine-senate-primary",
+            status="presumptive_nominee",
+            source_name="Portland Press Herald",
+            source_url="https://www.pressherald.com/2026/07/18/how-mainers-began-picking-delegates-who-will-choose-graham-platners-replacement/",
         ),
-        last_verified="2026-07-04",
-        notes="Maine Senate primary has occurred; Collins-Platner general-election matchup.",
+        last_verified="2026-07-19",
+        notes=(
+            "Platner withdrew after the primary. Troy Jackson is tracked as the "
+            "Democratic replacement candidate pending the formal Maine Democratic "
+            "Party convention."
+        ),
     ),
     "oh_sen": RaceNominees(
         race_id="oh_sen",

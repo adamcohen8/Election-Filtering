@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T09:53:14.971035+00:00",
+  "generated_at": "2026-07-19T19:29:02.973950+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -237,8 +237,8 @@
       "candidate_a_name": "Susan Collins",
       "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
-      "candidate_b_name": "Graham Platner",
-      "candidate_b_nominee_status": "nominee",
+      "candidate_b_name": "Troy Jackson",
+      "candidate_b_nominee_status": "presumptive_nominee",
       "data_available": true,
       "data_note": null,
       "candidate_a_share": 0.4487,
@@ -249,11 +249,11 @@
       "margin_of_error_percent": 33.81,
       "leader": "democratic",
       "status": "lean-democratic",
-      "nominee_last_verified": "2026-07-04",
-      "nominee_note": "Maine Senate primary has occurred; Collins-Platner general-election matchup.",
+      "nominee_last_verified": "2026-07-19",
+      "nominee_note": "Platner withdrew after the primary. Troy Jackson is tracked as the Democratic replacement candidate pending the formal Maine Democratic Party convention.",
       "nominee_sources": {
         "republican": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
-        "democratic": "https://www.axios.com/2026/06/10/democrats-graham-platner-maine-senate-primary"
+        "democratic": "https://www.pressherald.com/2026/07/18/how-mainers-began-picking-delegates-who-will-choose-graham-platners-replacement/"
       }
     },
     {
