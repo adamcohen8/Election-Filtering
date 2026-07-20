@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-20
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 20, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate polls page, reviewed July 20, 2026: `https://www.realclearpolling.com/latest-polls/senate`.
+- RealClearPolling latest Governor polls page, reviewed July 20, 2026: `https://www.realclearpolling.com/latest-polls/governor`.
+- RealClearPolling latest House polls and generic congressional vote pages, reviewed July 20, 2026: `https://www.realclearpolling.com/latest-polls/house` and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Targeted web searches for July 19-20, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Polls Applied
+
+- None. No newly released modeled-race poll with clear Republican, Democratic, and Independent party-ID candidate shares was found after the July 19 run.
+
+### Polls Skipped As Duplicates
+
+- Washington Post/Ipsos July 8-13, 2026 generic House ballot remained already applied through `washington-post-ipsos_us_house_generic_2026-07-08_2026-07-13_assumed_n`.
+- CNBC July 17, 2026 generic ballot, RMG Research July 15, 2026 generic ballot, Echelon July 9-13, 2026 generic ballot, Quinnipiac July 9-13 Pennsylvania governor/generic House, PPP July 10-11 North Carolina Senate, Fox Iowa/Georgia, and older explicit-crosstab rows remained already reviewed, ingested where usable, or logged as insufficient.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- CNBC / generic congressional ballot, published by RealClearPolling July 17, 2026: Democrat 49, Republican 45. No public R/D/I party-ID candidate shares were found in the reviewed public source path or targeted searches, so it remained excluded.
+- RMG Research / generic congressional ballot, published by RealClearPolling July 15, 2026: Democrat 47, Republican 45. Public crosstabs remain restricted/confidential, so it remained excluded.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today. The existing assumed-N records from the July 19 policy backfill remained in the normalized feed.
+
+### Unclassified Polls
+
+- South Carolina Senate Republican special primary, Michigan Senate Democratic primary, PPIC California governor, and South Dakota governor GOP runoff remained visible in latest polling pages but are not modeled general-election races.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no new qualifying modeled-race release was located.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-19 Assumed-N Policy Backfill
 
 ### Sources Searched
