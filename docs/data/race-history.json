@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T09:49:42.319651+00:00",
+  "generated_at": "2026-07-22T10:34:47.011752+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -37,8 +37,31 @@
     },
     {
       "race_id": "fl_gov",
-      "model_points": [],
-      "poll_points": []
+      "model_points": [
+        {
+          "date": "2026-07-17",
+          "candidate_a_share": 0.463,
+          "candidate_b_share": 0.4007,
+          "margin": 0.0623,
+          "margin_percent": 6.23
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "unf_fl_gov_2026-07-08_2026-07-17_crosstab",
+          "pollster": "University of North Florida",
+          "date": "2026-07-17",
+          "candidate_a_share": 0.461,
+          "candidate_b_share": 0.414,
+          "margin": 0.047,
+          "margin_percent": 4.7,
+          "leader": "republican",
+          "sample_size": 848,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.unfporl.org/presser-page"
+        }
+      ]
     },
     {
       "race_id": "fl_sen",
@@ -173,8 +196,31 @@
     },
     {
       "race_id": "me_sen",
-      "model_points": [],
-      "poll_points": []
+      "model_points": [
+        {
+          "date": "2026-07-20",
+          "candidate_a_share": 0.4545,
+          "candidate_b_share": 0.4701,
+          "margin": -0.0155,
+          "margin_percent": -1.55
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "unh_me_sen_2026-07-15_2026-07-20_crosstab",
+          "pollster": "University of New Hampshire",
+          "date": "2026-07-20",
+          "candidate_a_share": 0.46,
+          "candidate_b_share": 0.49,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1168,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1980&context=survey_center_polls"
+        }
+      ]
     },
     {
       "race_id": "mi_gov",
@@ -427,6 +473,13 @@
           "candidate_b_share": 0.5432,
           "margin": -0.0865,
           "margin_percent": -8.65
+        },
+        {
+          "date": "2026-07-20",
+          "candidate_a_share": 0.4524,
+          "candidate_b_share": 0.5476,
+          "margin": -0.0951,
+          "margin_percent": -9.51
         }
       ],
       "poll_points": [
@@ -513,6 +566,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1U1aahGHx-oKANEspTjAX7RmTIAgYV5wjzr_hKLHfFNk/edit?gid=0"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-07-17_2026-07-20_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-07-20",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.46,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1432,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ESdiNMa.pdf"
         }
       ]
     },

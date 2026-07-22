@@ -5,6 +5,7 @@
     "echelon_us_house_generic_2026-07-09_2026-07-13_crosstab",
     "economist-yougov_us_house_generic_2026-07-03_2026-07-06_crosstab",
     "economist-yougov_us_house_generic_2026-07-10_2026-07-13_crosstab",
+    "economist-yougov_us_house_generic_2026-07-17_2026-07-20_crosstab",
     "fox_ga_gov_2026-06-23_2026-06-27_assumed_n",
     "fox_ga_sen_2026-06-23_2026-06-27_assumed_n",
     "fox_ia_gov_2026-06-23_2026-06-27_assumed_n",
@@ -19,6 +20,8 @@
     "quinnipiac_us_house_generic_2026-07-09_2026-07-13_assumed_n",
     "socal-red-eagle_tx_gov_2026-06-21_crosstab",
     "socal-red-eagle_tx_sen_2026-06-21_crosstab",
+    "unf_fl_gov_2026-07-08_2026-07-17_crosstab",
+    "unh_me_sen_2026-07-15_2026-07-20_crosstab",
     "washington-post-ipsos_us_house_generic_2026-07-08_2026-07-13_assumed_n"
   ]
 }

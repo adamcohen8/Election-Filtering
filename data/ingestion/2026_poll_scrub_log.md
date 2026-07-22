@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-22
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 22, 2026: `https://www.realclearpolling.com/latest-polls`.
+- University of New Hampshire Survey Center July 21, 2026 Maine release PDF: `https://scholars.unh.edu/cgi/viewcontent.cgi?article=1980&context=survey_center_polls`.
+- University of North Florida PORL July 20, 2026 Florida statewide release and accessible crosstab workbook: `https://www.unfporl.org/presser-page` and `https://www.unfporl.org/s/PORL-2026-Summer-Statewide-Xtabs-ADA.xlsx`.
+- The Economist/YouGov July 17-20, 2026 crosstab PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ESdiNMa.pdf`.
+- Morning Consult Political Intelligence / midterm ballot public tracker path surfaced by RealClearPolling: `https://pro-assets.morningconsult.com/wp-uploads/2026/06/MCPI-PI-Weekly_260622.html`.
+- Targeted web searches for July 20-22, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Polls Applied
+
+- `unh_me_sen_2026-07-15_2026-07-20_crosstab` -> `me_sen`: University of New Hampshire, July 15-20, 2026, n=1,168 likely general-election voters for the Collins-vs-Jackson table, Collins 0.46, Jackson 0.49. Party-ID subgroup Ns are explicit in the UNH table: Republican n=433, Democratic n=575, Independent n=149.
+- `unf_fl_gov_2026-07-08_2026-07-17_crosstab` -> `fl_gov`: University of North Florida PORL, July 8-17, 2026, n=848 likely midterm voters, Donalds 0.461, Jolly 0.414. Party-registration subgroup Ns are explicit in the accessible workbook: Republican n=425, Democratic n=250, NPA/Oth n=173; NPA/Oth is normalized as Independent.
+- `economist-yougov_us_house_generic_2026-07-17_2026-07-20_crosstab` -> `us_house_generic`: The Economist/YouGov, July 17-20, 2026, n=1,432 voters for the RCP-visible generic-ballot topline, Republican 0.41, Democratic 0.46. Party-ID subgroup Ns are explicit in the PDF: Republican n=451, Democratic n=545, Independent n=606.
+
+### Polls Skipped As Duplicates
+
+- No newly surfaced July 20-22 crosstab-backed modeled-race poll duplicated an existing `poll_id`.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 20, 2026: Democrat 46, Republican 43. The RCP-linked public tracker path showed the aggregate D+3 ballot reference but did not expose complete Republican, Democratic, and Independent party-ID candidate shares in the reviewed public text, so it was not normalized or applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. All three applied July 22 records had explicit subgroup Ns in the reviewed source tables.
+
+### Unclassified Or Not Applied
+
+- University of New Hampshire / Maine governor, published by RealClearPolling July 21, 2026: Pingree 49, Charles 35, Bennett 6. The repo does not currently model `me_gov`, so it was not normalized or applied.
+- KSTP/SurveyUSA Minnesota Senate and governor primary polls, Rasmussen job approval rows, and Cygnal Florida governor Republican primary were visible in the latest-polls feed but are outside the modeled general-election race set.
+- University of North Florida / Florida Senate special election: Moody 50 vs. Vindman 40 and Moody 50 vs. Nixon 42. The workbook has party-registration crosstabs, but it contains two alternate Democratic matchups for the same `fl_sen` race. To avoid double-counting one poll with two competing Democratic ballot tests, neither Senate variant was applied in this run.
+
+### Extraction Uncertainties
+
+- The UNH PDF required manual extraction from embedded PDF text streams because ordinary local PDF text tools were unavailable. The extracted Collins-vs-Jackson party-ID table was cross-checked against the narrative statement that 88% of Democrats support Jackson, 99% of Republicans support Collins, and a plurality of Independents support Jackson.
+- UNF uses party registration columns (`Dem`, `Rep`, `NPA/Oth`) rather than self-reported party ID. The row was applied because the automation accepts clear R/D/I-like party group candidate shares, and NPA/Oth was mapped to Independent.
+- Maine Senate is now included in the automation prompt and the repo's modeled race registry; older log notes saying Maine Senate was outside the model are superseded by the Troy Jackson nominee update.
+
 ## 2026-07-20
 
 ### Sources Searched
