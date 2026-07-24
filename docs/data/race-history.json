@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T10:34:47.011752+00:00",
+  "generated_at": "2026-07-24T07:10:56.665160+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -77,6 +77,13 @@
           "candidate_b_share": 0.4899,
           "margin": 0.0086,
           "margin_percent": 0.86
+        },
+        {
+          "date": "2026-07-16",
+          "candidate_a_share": 0.4966,
+          "candidate_b_share": 0.4868,
+          "margin": 0.0098,
+          "margin_percent": 0.98
         }
       ],
       "poll_points": [
@@ -93,6 +100,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.foxnews.com/politics/fox-news-poll-early-look-georgia-senate-race"
+        },
+        {
+          "poll_id": "aarp-fabrizio-impact_ga_gov_2026-07-13_2026-07-16_assumed_n",
+          "pollster": "AARP/Fabrizio Ward/Impact Research",
+          "date": "2026-07-16",
+          "candidate_a_share": 0.46,
+          "candidate_b_share": 0.48,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1060,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf"
         }
       ]
     },
@@ -105,6 +126,13 @@
           "candidate_b_share": 0.5411,
           "margin": -0.0993,
           "margin_percent": -9.93
+        },
+        {
+          "date": "2026-07-16",
+          "candidate_a_share": 0.4535,
+          "candidate_b_share": 0.5213,
+          "margin": -0.0678,
+          "margin_percent": -6.78
         }
       ],
       "poll_points": [
@@ -121,6 +149,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.foxnews.com/politics/fox-news-poll-early-look-georgia-senate-race"
+        },
+        {
+          "poll_id": "aarp-fabrizio-impact_ga_sen_2026-07-13_2026-07-16_assumed_n",
+          "pollster": "AARP/Fabrizio Ward/Impact Research",
+          "date": "2026-07-16",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.52,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 1060,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf"
         }
       ]
     },
@@ -468,18 +510,25 @@
           "margin_percent": -9.16
         },
         {
+          "date": "2026-07-12",
+          "candidate_a_share": 0.4585,
+          "candidate_b_share": 0.5415,
+          "margin": -0.083,
+          "margin_percent": -8.3
+        },
+        {
           "date": "2026-07-13",
-          "candidate_a_share": 0.4568,
-          "candidate_b_share": 0.5432,
-          "margin": -0.0865,
-          "margin_percent": -8.65
+          "candidate_a_share": 0.4587,
+          "candidate_b_share": 0.5413,
+          "margin": -0.0827,
+          "margin_percent": -8.27
         },
         {
           "date": "2026-07-20",
-          "candidate_a_share": 0.4524,
-          "candidate_b_share": 0.5476,
-          "margin": -0.0951,
-          "margin_percent": -9.51
+          "candidate_a_share": 0.4546,
+          "candidate_b_share": 0.5454,
+          "margin": -0.0908,
+          "margin_percent": -9.08
         }
       ],
       "poll_points": [
@@ -510,6 +559,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.harrisx.com/content/july-2026-nato-summit-survey-findings-crosstabs"
+        },
+        {
+          "poll_id": "pew_us_house_generic_2026-07-06_2026-07-12_assumed_n",
+          "pollster": "Pew Research Center",
+          "date": "2026-07-12",
+          "candidate_a_share": 0.37,
+          "candidate_b_share": 0.43,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 2779,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/"
         },
         {
           "poll_id": "echelon_us_house_generic_2026-07-09_2026-07-13_crosstab",
@@ -580,6 +643,34 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ESdiNMa.pdf"
+        },
+        {
+          "poll_id": "emerson_us_house_generic_2026-07-19_2026-07-20_crosstab",
+          "pollster": "Emerson College",
+          "date": "2026-07-20",
+          "candidate_a_share": 0.4149,
+          "candidate_b_share": 0.5287,
+          "margin": -0.1138,
+          "margin_percent": -11.38,
+          "leader": "democratic",
+          "sample_size": 1100,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/july-2026-national-poll-democrats-with-11-point-generic-ballot-advantage/"
+        },
+        {
+          "poll_id": "fox_us_house_generic_2026-07-17_2026-07-20_assumed_n",
+          "pollster": "Fox News",
+          "date": "2026-07-20",
+          "candidate_a_share": 0.46,
+          "candidate_b_share": 0.53,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1003,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-17-20-2026_national_cross-tabs_july-22-release.pdf"
         }
       ]
     },

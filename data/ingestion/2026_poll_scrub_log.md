@@ -1,5 +1,51 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-24
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 24, 2026: `https://www.realclearpolling.com/latest-polls`.
+- AARP / Fabrizio Ward / Impact Research Georgia July 13-16, 2026 detailed findings PDF: `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf`.
+- Emerson College July 19-20, 2026 national poll release and public full-results workbook: `https://emersoncollegepolling.com/july-2026-national-poll-democrats-with-11-point-generic-ballot-advantage/`.
+- Fox News July 17-20, 2026 national poll article and crosstab PDF: `https://www.foxnews.com/politics/fox-news-poll-voters-want-major-change-amid-economic-political-discontent` and `https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-17-20-2026_national_cross-tabs_july-22-release.pdf`.
+- Pew Research Center July 6-12, 2026 midterm voting preference report and detailed table workbook: `https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/`.
+- Marquette Law School July 9-16, 2026 Wisconsin poll release and crosstab tables: `https://law.marquette.edu/poll/2026/07/22/marquette-law-school-poll-finds-almost-half-of-democratic-primary-voters-undecided-amid-rapid-shifts-in-the-race-for-the-gubernatorial-nomination/`.
+- Targeted web searches for July 22-24, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including Daily Mail / J.L. Partners generic-ballot crosstab searches.
+
+### Crosstab-Backed Polls Applied
+
+- `aarp-fabrizio-impact_ga_sen_2026-07-13_2026-07-16_assumed_n` -> `ga_sen`: AARP/Fabrizio Ward/Impact Research, July 13-16, 2026, n=1,060 likely voters, Collins 0.43, Ossoff 0.52. The detailed findings give GOP, Independent, and Democratic candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 265.
+- `aarp-fabrizio-impact_ga_gov_2026-07-13_2026-07-16_assumed_n` -> `ga_gov`: AARP/Fabrizio Ward/Impact Research, July 13-16, 2026, n=1,060 likely voters, Jackson 0.46, Lance Bottoms 0.48. The detailed findings give GOP, Independent, and Democratic candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 265.
+- `emerson_us_house_generic_2026-07-19_2026-07-20_crosstab` -> `us_house_generic`: Emerson College, July 19-20, 2026, n=1,100 likely 2026 voters, Republican candidate 0.4149, Democratic candidate 0.5287. The public workbook gives explicit weighted party-registration bases, rounded here as Republican n=371, Democratic n=353, Independent/other n=376.
+- `fox_us_house_generic_2026-07-17_2026-07-20_assumed_n` -> `us_house_generic`: Fox News, July 17-20, 2026, n=1,003 registered voters, Republican candidate 0.46, Democratic candidate 0.53. The crosstab PDF gives R/D/I party-ID candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 251.
+- `pew_us_house_generic_2026-07-06_2026-07-12_assumed_n` -> `us_house_generic`: Pew Research Center, July 6-12, 2026, n=2,779 registered voters, Republican candidate 0.37, Democratic candidate 0.43. The detailed tables give Republican, Democrat, and NET Independent/Other rows, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 695.
+
+### Polls Skipped As Duplicates
+
+- Existing July 17-20 Economist/YouGov generic-ballot and July 15-20 UNH Maine Senate rows remained already applied from the July 22 scrub.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Daily Mail / generic congressional ballot, published by RealClearPolling July 23, 2026: Democrat 52, Republican 43. Targeted public searches did not surface complete Republican, Democratic, and Independent party-ID candidate shares, so it was not normalized or applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `aarp-fabrizio-impact_ga_sen_2026-07-13_2026-07-16_assumed_n`: total N / 4 = 265 for each R/D/I subgroup.
+- `aarp-fabrizio-impact_ga_gov_2026-07-13_2026-07-16_assumed_n`: total N / 4 = 265 for each R/D/I subgroup.
+- `fox_us_house_generic_2026-07-17_2026-07-20_assumed_n`: total N / 4 = 251 for each R/D/I subgroup.
+- `pew_us_house_generic_2026-07-06_2026-07-12_assumed_n`: total N / 4 = 695 for each R/D/I subgroup.
+
+### Unclassified Or Not Applied
+
+- AARP Georgia generic congressional ballot was treated as a state-level generic ballot rather than the modeled national `us_house_generic` race, so it was not normalized or applied.
+- Marquette Law School Wisconsin governor ballot tests were not applied because the same poll includes alternate Democratic matchups against Tom Tiffany (including Mandela Barnes and Francesca Hong) and the repo has no settled `wi_gov` nominee metadata. Applying multiple variants would double-count one survey; choosing one variant would be arbitrary.
+- Rasmussen, primary-only rows, and non-modeled state races visible in latest-polls surfaces were outside the modeled general-election race list.
+
+### Extraction Uncertainties
+
+- AARP, Fox, and Pew subgroup sample sizes use the user's total N / 4 fallback because the reviewed public tables provide party candidate shares without exact R/D/I subgroup Ns.
+- Pew's Independent row is labeled `NET Ind/Other (includes leaners)` in the detailed tables; it was mapped to Independent because it is the only public non-Republican/non-Democratic party grouping for the generic House ballot.
+
 ## 2026-07-22
 
 ### Sources Searched
