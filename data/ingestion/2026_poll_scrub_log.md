@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-26
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 26, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed July 26, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Silver Bulletin generic congressional ballot tracker, reviewed July 26, 2026: `https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls`.
+- Vote-Scope generic ballot polling table, reviewed July 26, 2026: `https://vote-scope.com/en/us/house/polls/`.
+- Targeted web searches for July 24-26, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or national generic congressional ballot poll with usable Republican, Democratic, and Independent party-ID candidate shares was found after the July 24 scrub.
+
+### Polls Skipped As Duplicates
+
+- July 23 AARP/Fabrizio/Impact Georgia Senate and Governor, Emerson national generic ballot, Pew national generic ballot, and July 22 Fox national generic ballot remained already applied from the July 24 scrub.
+- July 22 Marquette Wisconsin governor alternate-matchup rows remained already reviewed and not applied for the same reason logged on July 24.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- No newly released aggregate-topline-only modeled-race poll was found after the July 24 scrub. The previously logged Daily Mail generic congressional ballot row remained without public complete R/D/I crosstabs and was not normalized or applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today.
+
+### Unclassified Or Not Applied
+
+- RealClearPolling's July 24 additions were president/job-approval or issue-approval rows, not modeled election ballot tests.
+- Primary-only and non-modeled races visible on RealClearPolling's latest surfaces remained outside the modeled general-election race list.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no new qualifying modeled-race release was located.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-24
 
 ### Sources Searched
