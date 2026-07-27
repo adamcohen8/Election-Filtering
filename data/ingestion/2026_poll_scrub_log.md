@@ -1,5 +1,45 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-27
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 27, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed July 27, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Vote-Scope generic ballot polling table, reviewed July 27, 2026: `https://vote-scope.com/en/us/house/polls/`.
+- Silver Bulletin generic congressional ballot tracker, reviewed July 27, 2026: `https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls`.
+- PollingSource 2026 Senate polls and 2026 House polling overview, reviewed July 27, 2026: `https://pollingsource.com/senate/polls` and `https://pollingsource.com/house/`.
+- Targeted web searches for July 26-27, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or national generic congressional ballot poll with usable Republican, Democratic, and Independent party-ID candidate shares was found after the July 26 scrub.
+
+### Polls Skipped As Duplicates
+
+- Existing July 23 AARP/Fabrizio/Impact Georgia Senate and Governor, Emerson national generic ballot, Pew national generic ballot, and July 22 Fox national generic ballot rows remained already applied.
+- Existing July 22 Marquette Wisconsin governor alternate-matchup rows remained already reviewed and not applied because the repo still has no settled `wi_gov` nominee metadata.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- No newly released aggregate-topline-only modeled-race poll was found after the July 26 scrub. The previously logged Daily Mail generic congressional ballot row remained RCP-visible as an aggregate Democratic lead without public complete R/D/I crosstabs, so it was not normalized or applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today.
+
+### Unclassified Or Not Applied
+
+- RealClearPolling's July 27 additions were Rasmussen presidential job approval and direction-of-country rows, not modeled election ballot tests.
+- RealClearPolling's July 26 South Carolina Senate Republican special primary row is not a modeled general-election race.
+- PollingSource's latest House-district rows are district-specific, not the modeled national `us_house_generic` race.
+- Vote-Scope's generic-ballot table still lists July 20, 2026 as the most recent fieldwork in the current visible table; no newer national generic ballot was applied.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no new qualifying modeled-race release was located.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-26
 
 ### Sources Searched
