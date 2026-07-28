@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:48:15.321950+00:00",
+  "generated_at": "2026-07-28T09:04:15.593593+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -529,6 +529,13 @@
           "candidate_b_share": 0.5454,
           "margin": -0.0908,
           "margin_percent": -9.08
+        },
+        {
+          "date": "2026-07-26",
+          "candidate_a_share": 0.4541,
+          "candidate_b_share": 0.5459,
+          "margin": -0.0919,
+          "margin_percent": -9.19
         }
       ],
       "poll_points": [
@@ -671,6 +678,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-17-20-2026_national_cross-tabs_july-22-release.pdf"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-07-24_2026-07-26_crosstab",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-07-26",
+          "candidate_a_share": 0.38,
+          "candidate_b_share": 0.4,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1003,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Reuters%20Ipsos%20July%20Core%20Political%20Topline%207.27.26.pdf"
         }
       ]
     },

@@ -647,6 +647,30 @@
       "topline_a": 0.37,
       "topline_b": 0.43,
       "topline_n": 2779
+    },
+    {
+      "poll_id": "reuters-ipsos_us_house_generic_2026-07-24_2026-07-26_crosstab",
+      "pollster": "Reuters/Ipsos",
+      "field_date": "2026-07-26",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Reuters%20Ipsos%20July%20Core%20Political%20Topline%207.27.26.pdf",
+      "text": "National generic U.S. House ballot, July 24-26 2026, Reuters/Ipsos July Core Political, n=1,003 registered voters for the RCP-visible topline. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the topline PDF table columns for Republican, Democrat, and Independent/Something else/Other respondents, with explicit unweighted subgroup Ns.",
+      "republican_a": 0.83,
+      "republican_b": 0.04,
+      "republican_n": 385,
+      "democratic_a": 0.01,
+      "democratic_b": 0.86,
+      "democratic_n": 384,
+      "independent_a": 0.15,
+      "independent_b": 0.26,
+      "independent_n": 479,
+      "topline_a": 0.38,
+      "topline_b": 0.4,
+      "topline_n": 1003
     }
   ]
 }

@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-28
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 28, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed July 28, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Reuters/Ipsos July Core Political release and topline PDF, reviewed July 28, 2026: `https://www.ipsos.com/en-us/americans-unimpressed-ideas-both-major-parties` and `https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Reuters%20Ipsos%20July%20Core%20Political%20Topline%207.27.26.pdf`.
+- PollingSource 2026 Senate and House polling pages, reviewed July 28, 2026: `https://pollingsource.com/senate.php` and `https://pollingsource.com/house/`.
+- Dave Leip's Atlas 2026 governor polling page, reviewed July 28, 2026: `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Targeted web searches for July 27-28, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `reuters-ipsos_us_house_generic_2026-07-24_2026-07-26_crosstab` -> `us_house_generic`: Reuters/Ipsos July Core Political, July 24-26, 2026, n=1,003 registered voters for the RCP-visible generic-ballot topline, Republican candidate 0.38, Democratic candidate 0.40. Party-ID subgroup Ns are explicit in the topline PDF: Republican n=385, Democratic n=384, Independent/Something else/Other n=479.
+
+### Polls Skipped As Duplicates
+
+- Previously applied July 17-20 through July 23 generic-ballot rows from Economist/YouGov, Fox News, Emerson, Pew, AARP/Fabrizio/Impact Georgia, and other existing modeled-race rows remained in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- No newly released aggregate-topline-only modeled-race poll was found after the July 27 scrub. The previously logged Daily Mail generic congressional ballot row remained RCP-visible without public complete R/D/I crosstabs and was not normalized or applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today. The Reuters/Ipsos row used explicit subgroup Ns printed in the topline PDF.
+
+### Unclassified Or Not Applied
+
+- RealClearPolling's July 27 Daily Mail and Rasmussen rows for 2028 presidential nomination are outside the modeled 2026 race set.
+- RealClearPolling's July 26 South Carolina Senate Republican special primary remains outside the modeled general-election race list.
+- PollingSource's latest district-specific House rows are not the modeled national `us_house_generic` race.
+- Dave Leip's Atlas governor polling page did not surface a newer modeled governor poll than the already reviewed July 17 University of North Florida row.
+
+### Extraction Uncertainties
+
+- Reuters/Ipsos provides the RCP-visible generic-ballot topline among registered voters, while the party-ID crosstab columns in the topline PDF are labeled by Republican, Democrat, and Independent/Something else/Other respondents with explicit unweighted subgroup Ns. The record uses the registered-voter topline as display metadata and the printed party-ID crosstab columns for the model update.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-27
 
 ### Sources Searched
