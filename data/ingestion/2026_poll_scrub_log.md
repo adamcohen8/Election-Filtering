@@ -1,5 +1,45 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-29
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 29, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed July 29, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- The Economist/YouGov July 25-27, 2026 crosstab PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_0t0YpHo.pdf`.
+- YouGov survey-results page for current source-document discovery, reviewed July 29, 2026: `https://yougov.com/en-us/survey-results`.
+- Fox News poll archive, reviewed July 29, 2026: `https://www.foxnews.com/official-polls/fox-news-poll-archive`.
+- PollingSource 2026 Senate polling page and Dave Leip's Atlas 2026 governor polling page, reviewed July 29, 2026: `https://pollingsource.com/senate/polls` and `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Targeted web searches for July 28-29, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `economist-yougov_us_house_generic_2026-07-25_2026-07-27_crosstab` -> `us_house_generic`: The Economist/YouGov, July 25-27, 2026, n=1,405 voters for the RCP-visible generic-ballot topline, Republican candidate 0.42, Democratic candidate 0.46. Party-ID subgroup Ns are explicit in the PDF: Republican n=439, Democratic n=513, Independent n=605.
+
+### Polls Skipped As Duplicates
+
+- Previously applied Economist/YouGov generic-ballot rows through July 20, Reuters/Ipsos July 24-26, and the other existing crosstab-backed modeled-race rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 27, 2026: Democrat 46, Republican 43. The reviewed public tracker path remained aggregate-topline-only and did not expose complete Republican, Democratic, and Independent party-ID candidate shares, so it was not normalized or applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today. The Economist/YouGov row used explicit subgroup Ns printed in the crosstab PDF.
+
+### Unclassified Or Not Applied
+
+- RealClearPolling's July 28 presidential nomination and job-approval rows are outside the modeled 2026 race set.
+- PollingSource's newest July 27 Senate row was a Montana Senate poll, outside the modeled state list.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+- Dave Leip's Atlas governor polling page did not surface a newer modeled governor poll than the already reviewed July 17 University of North Florida row.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov PDF reports the full generic-ballot table among adult citizens, plus a `Voters` column that matches the RCP-visible 46-42 Democratic lead. The record uses the `Voters` column as supplemental topline metadata and the printed Dem/Ind/Rep Party ID columns for the model update.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-28
 
 ### Sources Searched

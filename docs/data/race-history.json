@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T09:04:15.593593+00:00",
+  "generated_at": "2026-07-29T09:03:04.350531+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -536,6 +536,13 @@
           "candidate_b_share": 0.5459,
           "margin": -0.0919,
           "margin_percent": -9.19
+        },
+        {
+          "date": "2026-07-27",
+          "candidate_a_share": 0.4544,
+          "candidate_b_share": 0.5456,
+          "margin": -0.0912,
+          "margin_percent": -9.12
         }
       ],
       "poll_points": [
@@ -692,6 +699,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Reuters%20Ipsos%20July%20Core%20Political%20Topline%207.27.26.pdf"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-07-25_2026-07-27_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-07-27",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.46,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 1405,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_0t0YpHo.pdf"
         }
       ]
     },

@@ -671,6 +671,30 @@
       "topline_a": 0.38,
       "topline_b": 0.4,
       "topline_n": 1003
+    },
+    {
+      "poll_id": "economist-yougov_us_house_generic_2026-07-25_2026-07-27_crosstab",
+      "pollster": "The Economist/YouGov",
+      "field_date": "2026-07-27",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_0t0YpHo.pdf",
+      "text": "National generic congressional ballot, July 25-27 2026, The Economist/YouGov. Candidate A is the generic Republican candidate; candidate B is the generic Democratic candidate. Party-ID crosstabs use the PDF table columns for Dem, Ind, and Rep Party ID, with explicit unweighted subgroup Ns. The supplemental topline uses the RCP-visible voters result from the same table.",
+      "republican_a": 0.9,
+      "republican_b": 0.01,
+      "republican_n": 439,
+      "democratic_a": 0.01,
+      "democratic_b": 0.95,
+      "democratic_n": 513,
+      "independent_a": 0.15,
+      "independent_b": 0.29,
+      "independent_n": 605,
+      "topline_a": 0.42,
+      "topline_b": 0.46,
+      "topline_n": 1405
     }
   ]
 }
