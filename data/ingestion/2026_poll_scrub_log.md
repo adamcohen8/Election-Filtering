@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-30
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 30, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed July 30, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- The Economist/YouGov July 25-27, 2026 crosstab PDF, rechecked as the latest RCP-visible crosstab-backed generic-ballot row already applied on July 29: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_0t0YpHo.pdf`.
+- YouGov survey-results page and Fox News poll archive, reviewed July 30, 2026: `https://yougov.com/en-us/survey-results` and `https://www.foxnews.com/official-polls/fox-news-poll-archive`.
+- PollingSource 2026 Senate polling page and Dave Leip's Atlas 2026 governor polling page, reviewed July 30, 2026: `https://pollingsource.com/senate/polls` and `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Rasmussen Reports Mood of America and generic-ballot archive pages, reviewed July 30, 2026: `https://www.rasmussenreports.com/public_content/politics/mood_of_america` and `https://www.rasmussenreports.com/public_content/archive/mood_of_america_archive/generic_congressional_ballot/`.
+- Targeted web searches for July 29-30, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or national generic congressional ballot poll with usable Republican, Democratic, and Independent party-ID candidate shares was found after the July 29 scrub.
+
+### Polls Skipped As Duplicates
+
+- `economist-yougov_us_house_generic_2026-07-25_2026-07-27_crosstab` remained already applied from the July 29 scrub.
+- Reuters/Ipsos July 24-26 and the existing July crosstab-backed generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- No newly released aggregate-topline-only modeled-race poll was found after the July 29 scrub.
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 27, 2026, remained excluded because the reviewed public tracker path did not expose complete Republican, Democratic, and Independent party-ID candidate shares.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today.
+
+### Unclassified Or Not Applied
+
+- RealClearPolling's visible July 29-30 additions were presidential approval, direction-of-country, and presidential nomination rows, not modeled 2026 election ballot tests.
+- PollingSource's newest visible Senate row remained Montana Senate, outside the modeled state list.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+- Dave Leip's Atlas governor polling page did not surface a newer modeled governor poll than the already reviewed July 17 University of North Florida row.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no new qualifying modeled-race release was located.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-29
 
 ### Sources Searched
