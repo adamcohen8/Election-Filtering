@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:03:25.345309+00:00",
+  "generated_at": "2026-07-31T09:06:12.822800+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -297,6 +297,13 @@
           "candidate_b_share": 0.4886,
           "margin": -0.0623,
           "margin_percent": -6.23
+        },
+        {
+          "date": "2026-07-27",
+          "candidate_a_share": 0.4345,
+          "candidate_b_share": 0.5053,
+          "margin": -0.0708,
+          "margin_percent": -7.08
         }
       ],
       "poll_points": [
@@ -341,6 +348,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://e1.nmcdn.io/assets/ppp/wp-content/uploads/2026/07/NorthCarolinaPollJuly2026.pdf"
+        },
+        {
+          "poll_id": "fox_nc_sen_2026-07-23_2026-07-27_assumed_n",
+          "pollster": "Fox News",
+          "date": "2026-07-27",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.53,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 1005,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-23-27-2026_north-carolina_cross-tabs_july-29-release.pdf"
         }
       ]
     },
@@ -459,6 +480,13 @@
           "candidate_b_share": 0.4651,
           "margin": 0.0183,
           "margin_percent": 1.83
+        },
+        {
+          "date": "2026-07-27",
+          "candidate_a_share": 0.4964,
+          "candidate_b_share": 0.5036,
+          "margin": -0.0072,
+          "margin_percent": -0.72
         }
       ],
       "poll_points": [
@@ -489,6 +517,20 @@
           "measurement": "party_id_crosstab",
           "partial_party_id": false,
           "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-crosstabs.html"
+        },
+        {
+          "poll_id": "fox_tx_sen_2026-07-23_2026-07-27_assumed_n",
+          "pollster": "Fox News",
+          "date": "2026-07-27",
+          "candidate_a_share": 0.48,
+          "candidate_b_share": 0.51,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1006,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.foxnews.com/politics/fox-news-poll-gop-divisions-shape-texas-senate-race"
         }
       ]
     },
@@ -539,10 +581,10 @@
         },
         {
           "date": "2026-07-27",
-          "candidate_a_share": 0.4544,
-          "candidate_b_share": 0.5456,
-          "margin": -0.0912,
-          "margin_percent": -9.12
+          "candidate_a_share": 0.4543,
+          "candidate_b_share": 0.5457,
+          "margin": -0.0914,
+          "margin_percent": -9.14
         }
       ],
       "poll_points": [
@@ -713,6 +755,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_0t0YpHo.pdf"
+        },
+        {
+          "poll_id": "quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n",
+          "pollster": "Quinnipiac University",
+          "date": "2026-07-27",
+          "candidate_a_share": 0.41,
+          "candidate_b_share": 0.48,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 963,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://poll.qu.edu/images/polling/us/us07292026_uhgq69.pdf"
         }
       ]
     },

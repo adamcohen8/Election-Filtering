@@ -1,5 +1,55 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-07-31
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed July 31, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed July 31, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Fox News July 23-27, 2026 Texas poll article: `https://www.foxnews.com/politics/fox-news-poll-gop-divisions-shape-texas-senate-race`.
+- Fox News July 23-27, 2026 North Carolina topline and crosstab PDFs: `https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-23-27-2026_north-carolina_topline_july-29-release.pdf` and `https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-23-27-2026_north-carolina_cross-tabs_july-29-release.pdf`.
+- Quinnipiac University July 23-27, 2026 national release PDF: `https://poll.qu.edu/images/polling/us/us07292026_uhgq69.pdf`.
+- CNN/SSRS July 2026 generic congressional ballot public article and linked DocumentCloud path, reviewed July 31, 2026.
+- PennLive July 2026 Pennsylvania governor poll path surfaced by RealClearPolling, reviewed July 31, 2026.
+- PollingSource 2026 Senate polling page and Dave Leip's Atlas 2026 governor polling page, reviewed July 31, 2026: `https://pollingsource.com/senate/polls` and `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Targeted web searches for July 30-31, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `fox_tx_sen_2026-07-23_2026-07-27_assumed_n` -> `tx_sen`: Fox News, July 23-27, 2026, n=1,006 registered voters, Paxton 0.48, Talarico 0.51. The public article gives Republican, Democratic, and Independent candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 252.
+- `fox_nc_sen_2026-07-23_2026-07-27_assumed_n` -> `nc_sen`: Fox News, July 23-27, 2026, n=1,005 registered voters, Whatley 0.44, Cooper 0.53. The crosstab PDF gives Republican, Democratic, and Independent candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 251.
+- `quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n` -> `us_house_generic`: Quinnipiac University, July 23-27, 2026, n=963 registered voters, Republican Party 0.41, Democratic Party 0.48. The release gives Republican, Democratic, and Independent party-ID crosstab shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 241.
+
+### Polls Skipped As Duplicates
+
+- `economist-yougov_us_house_generic_2026-07-25_2026-07-27_crosstab`, Reuters/Ipsos July 24-26, and the existing July generic-ballot crosstab rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- CNN/SSRS / generic congressional ballot, published by RealClearPolling July 30, 2026: Democrat 47, Republican 39. The reviewed public article and linked DocumentCloud path did not expose complete Republican, Democratic, and Independent party-ID candidate shares in an accessible public table, so it was not normalized or applied.
+- PennLive / Pennsylvania governor, published by RealClearPolling July 29, 2026: Shapiro 53, Garrity 28. The reviewed public source/search path did not expose complete Republican, Democratic, and Independent party-ID candidate shares, so it was not normalized or applied.
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 27, 2026, remained excluded because the reviewed public tracker path did not expose complete Republican, Democratic, and Independent party-ID candidate shares.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `fox_tx_sen_2026-07-23_2026-07-27_assumed_n`: total N / 4 = 252 for each R/D/I subgroup.
+- `fox_nc_sen_2026-07-23_2026-07-27_assumed_n`: total N / 4 = 251 for each R/D/I subgroup.
+- `quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n`: total N / 4 = 241 for each R/D/I subgroup.
+
+### Unclassified Or Not Applied
+
+- Fox News / Texas governor, July 23-27, 2026: Abbott 0.50, Hinojosa 0.49. The reviewed public Texas article gave the topline and some crossover/support detail but did not expose complete R/D/I candidate shares for the governor ballot test, so it was not normalized or applied.
+- RealClearPolling's July 30 Iowa and New Hampshire items were 2028 presidential primary rows, outside the modeled 2026 race set.
+- RealClearPolling's July 29 Montana Senate row remains outside the modeled state list.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+
+### Extraction Uncertainties
+
+- Fox Texas Senate party shares were extracted from the public article text. Because the article prints party support shares but not subgroup Ns, the record uses the total N / 4 fallback, not any inferred party composition.
+- Fox North Carolina Senate party shares were extracted from the public crosstab PDF. The PDF provides party candidate shares but not subgroup Ns, so the total N / 4 fallback is used.
+- Quinnipiac's release prints the party-ID candidate shares for the generic House ballot but not exact subgroup Ns; the record uses the total N / 4 fallback.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-30
 
 ### Sources Searched
