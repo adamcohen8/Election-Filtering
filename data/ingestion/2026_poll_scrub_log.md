@@ -1,5 +1,49 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-01
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 1, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed August 1, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Texas Tribune July 28, 2026 TPOR Texas Senate article: `https://www.texastribune.org/2026/07/28/texas-senate-poll-james-talarico-ken-paxton-july-2026/`.
+- Texas Public Opinion Research Substack advisory path surfaced by RealClearPolling and targeted searches: `https://texaspublicopinionresearch.substack.com/`.
+- Big Data Poll generic ballot page, reviewed August 1, 2026: `https://www.bigdatapoll.com/project/generic-ballot/`.
+- MIRS/Mitchell Michigan Senate and governor rows surfaced by RealClearPolling's July 31 latest-polls feed and targeted searches for public crosstabs.
+- PollingSource 2026 Senate polling page and Dave Leip's Atlas 2026 governor polling page, reviewed August 1, 2026: `https://pollingsource.com/senate/polls` and `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Targeted web searches for July 31-August 1, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `tpor_tx_sen_2026-07-15_2026-07-17_assumed_n` -> `tx_sen`: Texas Public Opinion Research, July 15-17, 2026, n=1,048 likely voters, Paxton 0.40, Talarico 0.45. The Texas Tribune public report gives Republican, Democratic, and Independent candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 262.
+
+### Polls Skipped As Duplicates
+
+- `fox_tx_sen_2026-07-23_2026-07-27_assumed_n`, `fox_nc_sen_2026-07-23_2026-07-27_assumed_n`, and `quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n` remained already present in the seen ledger from the July 31 scrub.
+- `economist-yougov_us_house_generic_2026-07-25_2026-07-27_crosstab`, Reuters/Ipsos July 24-26, and the existing July crosstab-backed generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Big Data Poll / generic congressional ballot, published by RealClearPolling July 30, 2026: Democrats 50, Republicans 39. The reviewed public project page states that interactive crosstabs are available on MarketSight with each press release, but no current public complete R/D/I party-ID candidate table was accessible in this scrub, so it was not normalized or applied.
+- CNN/SSRS / generic congressional ballot, published by RealClearPolling July 30, 2026, remained excluded because the reviewed public article and linked DocumentCloud path did not expose complete Republican, Democratic, and Independent party-ID candidate shares in an accessible public table.
+- PennLive / Pennsylvania governor, published by RealClearPolling July 29, 2026, remained excluded because the reviewed public source/search path did not expose complete Republican, Democratic, and Independent party-ID candidate shares.
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 27, 2026, remained excluded because the reviewed public tracker path did not expose complete Republican, Democratic, and Independent party-ID candidate shares.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `tpor_tx_sen_2026-07-15_2026-07-17_assumed_n`: total N / 4 = 262 for each R/D/I subgroup.
+
+### Unclassified Or Not Applied
+
+- MIRS/Mitchell July 31, 2026 Michigan Senate and Michigan governor general-election rows were not applied because the RCP feed includes alternate matchups for the same `mi_sen` and `mi_gov` contests, and the repo has no settled nominee metadata for those race IDs. Applying multiple variants would double-count the poll; selecting one would be arbitrary.
+- South Carolina Senate special Republican primary, Florida governor Republican primary, Michigan Senate Democratic primary, Michigan governor Republican primary, and 2028 presidential nomination rows are outside the modeled general-election race set.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+
+### Extraction Uncertainties
+
+- TPOR party shares were extracted from the Texas Tribune public article text. Exact subgroup Ns were not public, so the record uses the total N / 4 fallback, not any inferred party composition or subgroup margin of error.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-07-31
 
 ### Sources Searched

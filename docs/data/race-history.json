@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:06:12.822800+00:00",
+  "generated_at": "2026-08-01T09:07:59.911014+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -482,11 +482,18 @@
           "margin_percent": 1.83
         },
         {
+          "date": "2026-07-17",
+          "candidate_a_share": 0.4615,
+          "candidate_b_share": 0.4651,
+          "margin": -0.0037,
+          "margin_percent": -0.37
+        },
+        {
           "date": "2026-07-27",
-          "candidate_a_share": 0.4964,
-          "candidate_b_share": 0.5036,
-          "margin": -0.0072,
-          "margin_percent": -0.72
+          "candidate_a_share": 0.4912,
+          "candidate_b_share": 0.5088,
+          "margin": -0.0176,
+          "margin_percent": -1.76
         }
       ],
       "poll_points": [
@@ -517,6 +524,20 @@
           "measurement": "party_id_crosstab",
           "partial_party_id": false,
           "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-crosstabs.html"
+        },
+        {
+          "poll_id": "tpor_tx_sen_2026-07-15_2026-07-17_assumed_n",
+          "pollster": "Texas Public Opinion Research",
+          "date": "2026-07-17",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.45,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1048,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.texastribune.org/2026/07/28/texas-senate-poll-james-talarico-ken-paxton-july-2026/"
         },
         {
           "poll_id": "fox_tx_sen_2026-07-23_2026-07-27_assumed_n",
