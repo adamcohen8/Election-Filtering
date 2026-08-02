@@ -1,5 +1,50 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-02
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 2, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed August 2, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Wick Research Georgia Statewide Poll resources page and complete crosstab workbook, reviewed August 2, 2026: `https://wick.io/research-georgia-election-survey-june-2026-questionnaire`.
+- Big Data Poll generic ballot page, reviewed August 2, 2026: `https://www.bigdatapoll.com/project/generic-ballot/`.
+- Manhattan Institute July welfare poll topline PDF, surfaced on the RealClearPolling House feed and reviewed August 2, 2026: `https://media4.manhattan-institute.org/wp-content/uploads/sites/5/Manhattan_Institute_July_Welfare_Toplines.pdf`.
+- PollingSource 2026 Senate polling page and Dave Leip's Atlas 2026 governor polling page, reviewed August 2, 2026: `https://pollingsource.com/senate/polls` and `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Targeted web searches for August 1-2, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `wick_ga_gov_2026-06-27_2026-06-30_crosstab` -> `ga_gov`: Wick Research, June 27-30, 2026, n=1,175 likely voters, Jackson 0.432, Lance Bottoms 0.427. The public complete crosstab workbook gives Party ID candidate shares and weighted subgroup bases on sheet `Q9 Governor Ballot`: Republican n=459, Democratic n=405, Independent n=253.
+- `wick_ga_sen_2026-06-27_2026-06-30_crosstab` -> `ga_sen`: Wick Research, June 27-30, 2026, n=1,175 likely voters, Collins 0.429, Ossoff 0.467. The public complete crosstab workbook gives Party ID candidate shares and weighted subgroup bases on sheet `Q11 Senate Ballot`: Republican n=459, Democratic n=405, Independent n=253.
+
+### Polls Skipped As Duplicates
+
+- `tpor_tx_sen_2026-07-15_2026-07-17_assumed_n`, `fox_tx_sen_2026-07-23_2026-07-27_assumed_n`, `fox_nc_sen_2026-07-23_2026-07-27_assumed_n`, and `quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n` remained already present in the seen ledger.
+- Reuters/Ipsos July 24-26, Economist/YouGov July 25-27, and the existing July crosstab-backed generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Big Data Poll / generic congressional ballot, published by RealClearPolling July 30, 2026: Democrats 50, Republicans 39. The reviewed public project page states that interactive crosstabs are available on MarketSight with each press release, but no current public complete R/D/I party-ID candidate table was accessible in this scrub, so it was not normalized or applied.
+- CNN/SSRS / generic congressional ballot, published by RealClearPolling July 30, 2026, remained excluded because the reviewed public article and linked DocumentCloud path did not expose complete Republican, Democratic, and Independent party-ID candidate shares in an accessible public table.
+- Manhattan Institute / generic congressional ballot, fielded July 1-6 and published by RealClearPolling July 27, 2026: Democrats 47, Republicans 43. The public topline PDF includes aggregate generic-ballot results and party-ID composition, but not R/D/I party-ID candidate shares for the ballot question, so it was not normalized or applied.
+- PennLive / Pennsylvania governor, published by RealClearPolling July 29, 2026, remained excluded because the reviewed public source/search path did not expose complete Republican, Democratic, and Independent party-ID candidate shares.
+- Morning Consult / generic congressional ballot, published by RealClearPolling July 27, 2026, remained excluded because the reviewed public tracker path did not expose complete Republican, Democratic, and Independent party-ID candidate shares.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today. The Wick Georgia records use explicit weighted subgroup bases from the public workbook.
+
+### Unclassified Or Not Applied
+
+- MIRS/Mitchell July 31, 2026 Michigan Senate and Michigan governor general-election rows remained not applied because the RCP feed includes alternate matchups for the same `mi_sen` and `mi_gov` contests, and the repo has no settled nominee metadata for those race IDs.
+- South Carolina Senate special Republican primary, Florida governor Republican primary, Michigan Senate Democratic primary, Michigan governor Republican primary, Wisconsin governor Democratic primary, and 2028 presidential nomination rows are outside the modeled general-election race set.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+
+### Extraction Uncertainties
+
+- Wick workbook bases are weighted column bases, as printed in the workbook. The applied R/D/I subgroup Ns are those weighted bases, not unweighted respondent counts.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-01
 
 ### Sources Searched

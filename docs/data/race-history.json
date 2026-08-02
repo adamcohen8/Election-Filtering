@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T09:07:59.911014+00:00",
+  "generated_at": "2026-08-02T09:03:44.444273+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -79,11 +79,18 @@
           "margin_percent": 0.86
         },
         {
+          "date": "2026-06-30",
+          "candidate_a_share": 0.5001,
+          "candidate_b_share": 0.4798,
+          "margin": 0.0203,
+          "margin_percent": 2.03
+        },
+        {
           "date": "2026-07-16",
           "candidate_a_share": 0.4966,
-          "candidate_b_share": 0.4868,
-          "margin": 0.0098,
-          "margin_percent": 0.98
+          "candidate_b_share": 0.4814,
+          "margin": 0.0152,
+          "margin_percent": 1.52
         }
       ],
       "poll_points": [
@@ -100,6 +107,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.foxnews.com/politics/fox-news-poll-early-look-georgia-senate-race"
+        },
+        {
+          "poll_id": "wick_ga_gov_2026-06-27_2026-06-30_crosstab",
+          "pollster": "Wick Research",
+          "date": "2026-06-30",
+          "candidate_a_share": 0.432,
+          "candidate_b_share": 0.427,
+          "margin": 0.005,
+          "margin_percent": 0.5,
+          "leader": "republican",
+          "sample_size": 1175,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://wick.io/research-georgia-election-survey-june-2026-questionnaire"
         },
         {
           "poll_id": "aarp-fabrizio-impact_ga_gov_2026-07-13_2026-07-16_assumed_n",
@@ -128,11 +149,18 @@
           "margin_percent": -9.93
         },
         {
+          "date": "2026-06-30",
+          "candidate_a_share": 0.4494,
+          "candidate_b_share": 0.5179,
+          "margin": -0.0685,
+          "margin_percent": -6.85
+        },
+        {
           "date": "2026-07-16",
-          "candidate_a_share": 0.4535,
-          "candidate_b_share": 0.5213,
-          "margin": -0.0678,
-          "margin_percent": -6.78
+          "candidate_a_share": 0.4519,
+          "candidate_b_share": 0.5127,
+          "margin": -0.0608,
+          "margin_percent": -6.08
         }
       ],
       "poll_points": [
@@ -149,6 +177,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.foxnews.com/politics/fox-news-poll-early-look-georgia-senate-race"
+        },
+        {
+          "poll_id": "wick_ga_sen_2026-06-27_2026-06-30_crosstab",
+          "pollster": "Wick Research",
+          "date": "2026-06-30",
+          "candidate_a_share": 0.429,
+          "candidate_b_share": 0.467,
+          "margin": -0.038,
+          "margin_percent": -3.8,
+          "leader": "democratic",
+          "sample_size": 1175,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://wick.io/research-georgia-election-survey-june-2026-questionnaire"
         },
         {
           "poll_id": "aarp-fabrizio-impact_ga_sen_2026-07-13_2026-07-16_assumed_n",
