@@ -1,5 +1,48 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-04
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 4, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed August 4, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource 2026 Senate polling page, reviewed August 4, 2026: `https://pollingsource.com/senate/polls`.
+- Dave Leip's Atlas 2026 governor polling page was checked again, but the site returned a 403 response during this scrub: `https://uselectionatlas.org/POLLS/GOVERNOR/2026/polls.php`.
+- Targeted web searches for August 3-4, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including EPIC-MRA Michigan, Wedgewood Polls Texas Senate, Economist/YouGov, Quinnipiac, and Napolitan/RMG generic-ballot searches.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled-race poll with complete public Republican, Democratic, and Independent party-ID candidate shares was found.
+
+### Polls Skipped As Duplicates
+
+- `wick_ga_gov_2026-06-27_2026-06-30_crosstab`, `wick_ga_sen_2026-06-27_2026-06-30_crosstab`, `tpor_tx_sen_2026-07-15_2026-07-17_assumed_n`, `fox_tx_sen_2026-07-23_2026-07-27_assumed_n`, `fox_nc_sen_2026-07-23_2026-07-27_assumed_n`, and `quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n` remained already present in the seen ledger.
+- Reuters/Ipsos July 24-26, Economist/YouGov July 25-27, and the existing July crosstab-backed generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Wedgewood Polls / Texas Senate, surfaced by PollingSource with a July 31, 2026 field date, n=800 likely voters: Talarico 48, Paxton 46. Targeted searches again did not locate a public release, PDF, methodology file, or R/D/I party-ID crosstab table, so it was not normalized or applied.
+- Big Data Poll / generic congressional ballot, published by RealClearPolling July 30, 2026, remained excluded because no current public complete R/D/I party-ID candidate table was accessible.
+- CNN/SSRS / generic congressional ballot, published by RealClearPolling July 30, 2026, remained excluded because the reviewed public article and linked DocumentCloud path did not expose complete Republican, Democratic, and Independent party-ID candidate shares in an accessible public table.
+- Manhattan Institute / generic congressional ballot, fielded July 1-6 and published by RealClearPolling July 27, 2026, remained excluded because the public topline PDF does not include R/D/I party-ID candidate shares for the ballot question.
+- PennLive / Pennsylvania governor and Morning Consult / generic congressional ballot remained excluded for the same missing-complete-party-ID-crosstab reasons logged in prior scrubs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied today.
+
+### Unclassified Or Not Applied
+
+- WFSB-TV/CT Insider / Connecticut governor Democratic primary, published by RealClearPolling August 3, 2026, is outside the modeled race set.
+- EPIC-MRA / Michigan Senate and Michigan governor August 2, 2026 alternate matchup rows remained not applied because `mi_sen` and `mi_gov` lack settled nominee metadata and no public complete R/D/I party-ID crosstab table was found.
+- South Carolina Senate special Republican primary, Florida governor Republican primary, Michigan Senate Democratic primary, Michigan governor Republican primary, Wisconsin governor Democratic primary, and 2028 presidential nomination rows are outside the modeled general-election race set.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no qualifying new crosstab-backed release was located.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-03
 
 ### Sources Searched
