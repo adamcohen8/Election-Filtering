@@ -1,5 +1,60 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-06
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 6, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, Governor, House, and generic congressional vote pages, reviewed August 6, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Texas Southern University/YouGov August 2026 Texas statewide report: `https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a713767d4ed824b91ea090d/1785804647961/Texas%2BStatewide%2BAugust2026.pdf`.
+- The Economist/YouGov July 31-August 3, 2026 crosstab PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_mjKhx0z.pdf`.
+- Reuters/Ipsos August 2026 generic-ballot public source path surfaced by RealClearPolling and Ipsos download paths, reviewed August 6, 2026.
+- Marquette Law School July 22-29, 2026 national poll PDF: `https://law.marquette.edu/assets/community/poll/MLSPSC34/MLSPSC34PressRlease_NationalTopics.pdf`.
+- Quantus Insights August 3-4, 2026 poll article and linked technical report/crosstabs PDF: `https://quantusinsights.org/polling/f/latest-survey-democrats-hold-the-midterm-edge` and `https://drive.google.com/file/d/1q08S1PDsI_-805Uj_sRI3Nt1Cvr7CgsY/view?usp=sharing`.
+- Associated Press Michigan primary results article used to update nominee metadata: `https://apnews.com/article/c957db07eb78ea93c70208ba0a6bceed`.
+- PollingSource 2026 Senate polling page, reviewed August 6, 2026: `https://pollingsource.com/senate/polls`.
+- Targeted web searches for August 5-6, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including Michigan post-primary general-election polling.
+
+### Crosstab-Backed Polls Applied
+
+- `tsu-yougov_tx_sen_2026-07-27_2026-07-30_assumed_n` -> `tx_sen`: Texas Southern University/YouGov, July 27-30, 2026, n=1,200 likely voters, Paxton 0.45, Talarico 0.47. Table 1 gives Republican, Democratic, and Independent candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 300.
+- `tsu-yougov_tx_gov_2026-07-27_2026-07-30_assumed_n` -> `tx_gov`: Texas Southern University/YouGov, July 27-30, 2026, n=1,200 likely voters, Abbott 0.49, Hinojosa 0.43. Table 2 gives Republican, Democratic, and Independent candidate shares, but not subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 300.
+- `economist-yougov_us_house_generic_2026-07-31_2026-08-03_crosstab` -> `us_house_generic`: The Economist/YouGov, July 31-August 3, 2026, n=1,472 voters for the RCP-visible generic-ballot topline, Republican candidate 0.42, Democratic candidate 0.46. Party-ID subgroup Ns are explicit in the PDF: Republican n=464, Democratic n=537, Independent n=606.
+
+### Polls Skipped As Duplicates
+
+- `wick_ga_gov_2026-06-27_2026-06-30_crosstab`, `wick_ga_sen_2026-06-27_2026-06-30_crosstab`, `tpor_tx_sen_2026-07-15_2026-07-17_assumed_n`, `fox_tx_sen_2026-07-23_2026-07-27_assumed_n`, `fox_nc_sen_2026-07-23_2026-07-27_assumed_n`, and `quinnipiac_us_house_generic_2026-07-23_2026-07-27_assumed_n` remained already present in the seen ledger.
+- Reuters/Ipsos July 24-26, Economist/YouGov July 25-27, and the existing July crosstab-backed generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Marquette Law School / generic congressional ballot, July 22-29, 2026, published by RealClearPolling August 5: Democrats 51, Republicans 45 among likely voters. The public PDF includes aggregate generic-ballot results and party-ID turnout certainty, but not R/D/I party-ID candidate shares for the ballot question, so it was not normalized or applied.
+- Quantus Insights / generic congressional ballot, August 3-4, 2026, n=1,048 likely voters: Democrats 49.0, Republicans 42.6. The public article and linked PDF include the aggregate ballot result, response counts, and party-ID composition, but not ballot choice crossed by R/D/I party ID, so it was not normalized or applied.
+- Reuters/Ipsos / generic congressional ballot, published by RealClearPolling August 4, 2026: Democrats 42, Republicans 37. The reviewed Reuters path and Ipsos wrapper/download paths did not expose a directly inspectable public PDF/table with complete R/D/I party-ID candidate shares during this scrub, so it was not normalized or applied.
+- Wedgewood Polls / Texas Senate, surfaced by PollingSource with a July 31, 2026 field date, remained excluded because targeted searches did not locate a public release, PDF, methodology file, or R/D/I party-ID crosstab table.
+- Big Data Poll, CNN/SSRS, and Manhattan Institute generic-ballot rows remained excluded for the same missing-complete-party-ID-crosstab reasons logged in prior scrubs.
+- PennLive / Pennsylvania governor and Morning Consult / generic congressional ballot remained excluded for the same missing-complete-party-ID-crosstab reasons logged in prior scrubs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `tsu-yougov_tx_sen_2026-07-27_2026-07-30_assumed_n`: total N / 4 = 300 for each R/D/I subgroup.
+- `tsu-yougov_tx_gov_2026-07-27_2026-07-30_assumed_n`: total N / 4 = 300 for each R/D/I subgroup.
+
+### Unclassified Or Not Applied
+
+- Michigan nominee metadata was updated after the August 4, 2026 primary: `mi_sen` now tracks Mike Rogers (R) vs. Abdul El-Sayed (D), and `mi_gov` now tracks John James (R) vs. Jocelyn Benson (D).
+- EPIC-MRA / Michigan Senate Rogers vs. El-Sayed and Michigan governor James vs. Benson rows remain not applied because no public complete R/D/I party-ID crosstab table was found.
+- MIRS/Mitchell Research / Michigan Senate Rogers vs. El-Sayed and Michigan governor James vs. Benson rows remain not applied because no public complete R/D/I party-ID crosstab table was found.
+- WFSB-TV/CT Insider / Connecticut governor Democratic primary, South Carolina Senate special Republican primary, Florida governor Republican primary, Michigan primary-only rows, Wisconsin governor Democratic primary, and 2028 presidential nomination rows are outside the modeled general-election race set.
+- PollingSource's latest House-district rows are district-specific and not the modeled national `us_house_generic` race.
+
+### Extraction Uncertainties
+
+- TSU/YouGov party shares were extracted from Tables 1 and 2 of the public PDF. Exact subgroup Ns were not public, so the records use the total N / 4 fallback, not any inferred party composition from the report's partisan profile.
+- Economist/YouGov party-ID shares and subgroup Ns were extracted from the PDF's `Generic Congressional Vote` table. The supplemental topline uses the RCP-visible voters result, corresponding to the PDF's `Voters` column.
+- Quantus's linked PDF was rendered for visual inspection because PDF text extraction was blank; the rendered pages showed no ballot-choice-by-party-ID table for the generic ballot.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-04
 
 ### Sources Searched

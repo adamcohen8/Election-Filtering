@@ -193,6 +193,44 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
             "Party convention."
         ),
     ),
+    "mi_sen": RaceNominees(
+        race_id="mi_sen",
+        republican=Nominee(
+            name="Mike Rogers",
+            party="republican",
+            status="nominee",
+            source_name="Associated Press",
+            source_url="https://apnews.com/article/c957db07eb78ea93c70208ba0a6bceed",
+        ),
+        democratic=Nominee(
+            name="Abdul El-Sayed",
+            party="democratic",
+            status="nominee",
+            source_name="Associated Press",
+            source_url="https://apnews.com/article/c957db07eb78ea93c70208ba0a6bceed",
+        ),
+        last_verified="2026-08-06",
+        notes="Michigan U.S. Senate nominees updated after the August 4, 2026 primary.",
+    ),
+    "mi_gov": RaceNominees(
+        race_id="mi_gov",
+        republican=Nominee(
+            name="John James",
+            party="republican",
+            status="nominee",
+            source_name="Associated Press",
+            source_url="https://apnews.com/article/c957db07eb78ea93c70208ba0a6bceed",
+        ),
+        democratic=Nominee(
+            name="Jocelyn Benson",
+            party="democratic",
+            status="nominee",
+            source_name="Associated Press",
+            source_url="https://apnews.com/article/c957db07eb78ea93c70208ba0a6bceed",
+        ),
+        last_verified="2026-08-06",
+        notes="Michigan governor nominees updated after the August 4, 2026 primary.",
+    ),
     "oh_sen": RaceNominees(
         race_id="oh_sen",
         republican=Nominee(

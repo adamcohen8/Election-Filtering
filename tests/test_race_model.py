@@ -254,6 +254,37 @@ def test_ingestion_pipeline_classifies_and_updates_race() -> None:
     assert election.forecast("fl_sen").margin > before
 
 
+def test_ingestion_pipeline_accepts_rounded_zero_percent_crosstab_cell() -> None:
+    election = create_2026_election_model()
+    poll = NormalizedPoll(
+        poll_id="zero-cell-generic",
+        pollster="Example Polling",
+        field_date="2026-08-03",
+        race_id="us_house_generic",
+        crosstab=PartyIDCrosstab(
+            values={
+                "republican": (0.84, 0.03),
+                "democratic": (0.00, 0.94),
+                "independent": (0.16, 0.28),
+            },
+            subgroup_sample_sizes={
+                "republican": 464,
+                "democratic": 537,
+                "independent": 606,
+            },
+        ),
+    )
+    pipeline = PollIngestionPipeline(
+        sources=(StaticPollSource([poll]),),
+        ledger=IngestionLedger(),
+    )
+
+    result = pipeline.run(election)
+
+    assert result.errors == ()
+    assert result.applied[0].poll_id == "zero-cell-generic"
+
+
 def test_ingestion_pipeline_skips_duplicate_poll_ids() -> None:
     election = create_2026_election_model()
     poll = NormalizedPoll(

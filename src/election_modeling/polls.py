@@ -10,6 +10,12 @@ import numpy as np
 from election_modeling.states import PARTY_IDS, PARTY_STATE_SLICES, PartyID
 
 
+def _share_variance(share: float, sample_size: int) -> float:
+    """Binomial share variance with a continuity floor for rounded 0/100 cells."""
+
+    return max(share * (1.0 - share) / sample_size, 0.25 / (sample_size * sample_size))
+
+
 def _as_vector(values: Sequence[float], *, name: str) -> np.ndarray:
     vector = np.asarray(values, dtype=float)
     if vector.shape != (6,):
@@ -146,8 +152,8 @@ class PollObservation:
 
             vector[first] = candidate_a
             vector[second] = candidate_b
-            covariance[first, first] = candidate_a * (1.0 - candidate_a) / n
-            covariance[second, second] = candidate_b * (1.0 - candidate_b) / n
+            covariance[first, first] = _share_variance(candidate_a, n)
+            covariance[second, second] = _share_variance(candidate_b, n)
             covariance[first, second] = -candidate_a * candidate_b / n
             covariance[second, first] = covariance[first, second]
 
