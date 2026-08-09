@@ -85,6 +85,24 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
             source_url="https://www.houstonchronicle.com/politics/election/2026/article/governor-primary-results-21329304.php",
         ),
     ),
+    "az_gov": RaceNominees(
+        race_id="az_gov",
+        republican=Nominee(
+            name="Andy Biggs",
+            party="republican",
+            status="nominee",
+            source_name="Associated Press",
+            source_url="https://abcnews.com/US/wireStory/andy-biggs-wins-republican-nomination-challenge-democrat-katie-134938616",
+        ),
+        democratic=Nominee(
+            name="Katie Hobbs",
+            party="democratic",
+            status="nominee",
+            source_name="Associated Press",
+            source_url="https://abcnews.com/US/wireStory/andy-biggs-wins-republican-nomination-challenge-democrat-katie-134938616",
+        ),
+        last_verified="2026-08-08",
+    ),
     "nc_sen": RaceNominees(
         race_id="nc_sen",
         republican=Nominee(

@@ -1,5 +1,48 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-08
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 8, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Emerson College Iowa poll release and full-results workbook, fielded August 2-4, 2026: `https://emersoncollegepolling.com/iowa-2026-poll/`.
+- AARP Arizona governor poll PDF, fielded July 26-28, 2026: `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-arizona.doi.10.26419-2fres.01065.007.pdf`.
+- Texas Pulse / Texas A&M Bush School poll PDF, released August 7, 2026: `https://reconmr.com/wp-content/uploads/2026/08/Texas-Pulse-August-Release-August-7-2026-Final.pdf`.
+- Gary Pearce / Change Research North Carolina Senate poll post, published August 6, 2026: `https://garypearcenc.substack.com/p/cooper-up-by-9-trump-still-slumps`.
+- Targeted web searches for August 7-8, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `emerson_ia_sen_2026-08-02_2026-08-04_crosstab` -> `ia_sen`: Emerson College, August 2-4, 2026, n=712 likely voters, Hinson 0.4752, Turek 0.4498. The full-results workbook gives party-registration rows and explicit weighted subgroup bases: Republican n=283, Democratic n=222, Independent/other n=206.
+- `emerson_ia_gov_2026-08-02_2026-08-04_crosstab` -> `ia_gov`: Emerson College, August 2-4, 2026, n=712 likely voters, Lahn 0.4269, Sand 0.4837. The full-results workbook gives party-registration rows and explicit weighted subgroup bases: Republican n=283, Democratic n=222, Independent/other n=206.
+- `aarp-fabrizio-impact_az_gov_2026-07-26_2026-07-28_assumed_n` -> `az_gov`: AARP/Fabrizio Ward/Impact Research, July 26-28, 2026, n=913 likely voters, Biggs 0.44, Hobbs 0.52. The detailed findings give GOP, Independent, and Democratic party-column candidate shares, but not exact subgroup Ns; each R/D/I subgroup n uses the total N / 4 fallback = 228.
+
+### Polls Skipped As Duplicates
+
+- The TSU/YouGov Texas Senate and governor rows and the Economist/YouGov July 31-August 3 generic-ballot row applied on August 6 remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Texas Pulse / Texas A&M Bush School Texas Senate, July 27-30, 2026, n=619 likely voters: Talarico 47, Paxton 43. The PDF gives toplines and an independent split, but not complete Republican, Democratic, and Independent candidate shares. The disclosed crosstab host printed in the PDF, `Crosstabs.TexasPulse.org`, did not resolve during this scrub, so this row was not normalized or applied.
+- Texas Pulse / Texas A&M Bush School Texas governor, July 27-30, 2026, n=619 likely voters: Abbott 46, Hinojosa 45. The PDF does not expose complete R/D/I candidate-share crosstabs and the referenced crosstab host did not resolve, so this row was not normalized or applied.
+- Change Research / North Carolina Senate, July 29-August 1, 2026, n=967 North Carolina voters: Cooper 50, Whatley 41. The public post says detailed results will be shared later and does not expose complete R/D/I candidate-share crosstabs, so this row was not normalized or applied.
+- Marquette and Quantus generic-ballot rows from August 5 remained excluded because reviewed public sources did not expose complete R/D/I candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `aarp-fabrizio-impact_az_gov_2026-07-26_2026-07-28_assumed_n`: total N / 4 = 228 for each R/D/I subgroup.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate special Republican primary and Minnesota Senate/governor primary rows on RealClearPolling are outside the modeled general-election race set.
+- No new national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found after the August 6 scrub.
+
+### Extraction Uncertainties
+
+- Emerson's public workbook labels the crosstab variable as party registration; this matches the prior Emerson generic-ballot ingestion convention, and the record text documents the label explicitly.
+- AARP Arizona reports GOP, Independent, and Democratic party columns but not party subgroup Ns; the row uses the automation's direct total N / 4 fallback and does not infer subgroup Ns from the party-composition chart.
+- Texas Pulse may become ingestible if `Crosstabs.TexasPulse.org` resolves later or ReconMR posts a direct crosstab file with complete R/D/I candidate shares.
+
 ## 2026-08-06
 
 ### Sources Searched

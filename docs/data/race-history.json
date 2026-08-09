@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T09:12:58.155308+00:00",
+  "generated_at": "2026-08-09T02:39:50.301981+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -32,8 +32,31 @@
     },
     {
       "race_id": "az_gov",
-      "model_points": [],
-      "poll_points": []
+      "model_points": [
+        {
+          "date": "2026-07-28",
+          "candidate_a_share": 0.4322,
+          "candidate_b_share": 0.5236,
+          "margin": -0.0914,
+          "margin_percent": -9.14
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "aarp-fabrizio-impact_az_gov_2026-07-26_2026-07-28_assumed_n",
+          "pollster": "AARP/Fabrizio Ward/Impact Research",
+          "date": "2026-07-28",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.52,
+          "margin": -0.08,
+          "margin_percent": -8.0,
+          "leader": "democratic",
+          "sample_size": 913,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-arizona.doi.10.26419-2fres.01065.007.pdf"
+        }
+      ]
     },
     {
       "race_id": "fl_gov",
@@ -217,6 +240,13 @@
           "candidate_b_share": 0.525,
           "margin": -0.1137,
           "margin_percent": -11.37
+        },
+        {
+          "date": "2026-08-04",
+          "candidate_a_share": 0.4214,
+          "candidate_b_share": 0.5104,
+          "margin": -0.089,
+          "margin_percent": -8.9
         }
       ],
       "poll_points": [
@@ -233,6 +263,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.foxnews.com/politics/fox-news-poll-close-senate-contest-brewing-iowa"
+        },
+        {
+          "poll_id": "emerson_ia_gov_2026-08-02_2026-08-04_crosstab",
+          "pollster": "Emerson College",
+          "date": "2026-08-04",
+          "candidate_a_share": 0.4269,
+          "candidate_b_share": 0.4837,
+          "margin": -0.0568,
+          "margin_percent": -5.68,
+          "leader": "democratic",
+          "sample_size": 712,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/iowa-2026-poll/"
         }
       ]
     },
@@ -245,6 +289,13 @@
           "candidate_b_share": 0.4765,
           "margin": -0.0118,
           "margin_percent": -1.18
+        },
+        {
+          "date": "2026-08-04",
+          "candidate_a_share": 0.4659,
+          "candidate_b_share": 0.4697,
+          "margin": -0.0038,
+          "margin_percent": -0.38
         }
       ],
       "poll_points": [
@@ -275,6 +326,20 @@
           "measurement": "party_id_crosstab",
           "partial_party_id": false,
           "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-iowa-poll-crosstabs.html"
+        },
+        {
+          "poll_id": "emerson_ia_sen_2026-08-02_2026-08-04_crosstab",
+          "pollster": "Emerson College",
+          "date": "2026-08-04",
+          "candidate_a_share": 0.4752,
+          "candidate_b_share": 0.4498,
+          "margin": 0.0254,
+          "margin_percent": 2.54,
+          "leader": "republican",
+          "sample_size": 712,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/iowa-2026-poll/"
         }
       ]
     },
