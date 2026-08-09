@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-09
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 9, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Targeted web searches for August 8-9, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+- Previously reviewed August 7 Texas Pulse / Texas A&M Texas Senate and governor source path and Change Research North Carolina Senate source path were checked against the latest RealClearPolling surface for any newly exposed crosstab link.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled-race poll with complete public Republican, Democratic, and Independent candidate-share crosstabs was found after the August 8 catch-up.
+
+### Polls Skipped As Duplicates
+
+- `emerson_ia_sen_2026-08-02_2026-08-04_crosstab`, `emerson_ia_gov_2026-08-02_2026-08-04_crosstab`, and `aarp-fabrizio-impact_az_gov_2026-07-26_2026-07-28_assumed_n` remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Texas Pulse / Texas A&M Bush School Texas Senate and Texas governor remained excluded because the public PDF exposes toplines and limited independent splits but not complete R/D/I candidate-share crosstabs; the referenced `Crosstabs.TexasPulse.org` disclosure host was not available during the prior scrub.
+- Change Research / North Carolina Senate remained excluded because the public post did not expose complete R/D/I candidate-share crosstabs.
+- Marquette and Quantus generic-ballot rows remained excluded because reviewed public sources did not expose complete R/D/I candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate special Republican primary and Minnesota Senate/governor primary rows on RealClearPolling remain outside the modeled general-election race set.
+- No new national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no new qualifying public source was located.
+- Model and public forecast exports were refreshed from the existing 42 crosstab-backed records.
+
 ## 2026-08-08
 
 ### Sources Searched
