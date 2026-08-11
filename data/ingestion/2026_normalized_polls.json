@@ -983,6 +983,30 @@
       "topline_a": 0.44,
       "topline_b": 0.52,
       "topline_n": 913
+    },
+    {
+      "poll_id": "carolina-forward-change-research_nc_sen_2026-08-03_2026-08-06_crosstab",
+      "pollster": "Carolina Forward/Change Research",
+      "field_date": "2026-08-06",
+      "race_id": "nc_sen",
+      "state": "North Carolina",
+      "office": "senate",
+      "candidate_a": "Michael Whatley",
+      "candidate_b": "Roy Cooper",
+      "source_url": "https://carolinaforward.org/news/the-august-2026-carolina-forward-poll/",
+      "text": "North Carolina U.S. Senate likely-voter ballot test, August 3-6 2026, Carolina Forward/Change Research, n=915. Candidate A is the Republican, Michael Whatley; candidate B is the Democrat, Roy Cooper. Party-ID crosstabs use the public statewide crosstab workbook's Party Identification columns; 'Pure ind' is treated as Independent, and subgroup Ns are rounded from the explicit weighted row counts.",
+      "republican_a": 0.9064971321,
+      "republican_b": 0.0506506122,
+      "republican_n": 400,
+      "democratic_a": 0.0107083723,
+      "democratic_b": 0.9709112786,
+      "democratic_n": 389,
+      "independent_a": 0.2040525631,
+      "independent_b": 0.4793172724,
+      "independent_n": 122,
+      "topline_a": 0.4293341238,
+      "topline_b": 0.5005080728,
+      "topline_n": 915
     }
   ]
 }

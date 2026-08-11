@@ -1,5 +1,43 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-11
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 11, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Carolina Forward / Change Research August 2026 North Carolina poll article, public toplines, and public crosstab workbook: `https://carolinaforward.org/news/the-august-2026-carolina-forward-poll/` and `https://docs.google.com/spreadsheets/d/12jBv6OEkJoo97MzXh8HOxR8ihcOmm-iGQun2ND467uI/edit?usp=sharing`.
+- Quantus Insights Georgia governor source surfaced by RealClearPolling, reviewed August 11, 2026: `https://quantusinsights.org/polling/f/georgia-voters-put-affordability-first-as-2026-races-tighten`.
+- Targeted web searches for August 10-11, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `carolina-forward-change-research_nc_sen_2026-08-03_2026-08-06_crosstab` -> `nc_sen`: Carolina Forward/Change Research, August 3-6, 2026, n=915 likely voters, Whatley 0.4293, Cooper 0.5005. The public statewide crosstab workbook gives Party Identification columns and explicit weighted subgroup bases: Republican n=400, Democratic n=389, Pure independent n=122. The record treats `Pure ind` as Independent.
+
+### Polls Skipped As Duplicates
+
+- The August 6-8 crosstab-backed rows already in the ledger remained unchanged: TSU/YouGov Texas Senate and governor, Economist/YouGov generic ballot, Emerson Iowa Senate and governor, and AARP Arizona governor.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Quantus Insights / Georgia governor, surfaced by RealClearPolling August 10, 2026: Lance Bottoms 46, Jackson 45. The RealClearPolling source link resolved only to the Quantus page title in the public text view, and targeted searches did not locate a public PDF, methodology file, workbook, or complete R/D/I candidate-share crosstab table, so this row was not normalized or applied.
+- Texas Pulse / Texas A&M Bush School Texas Senate and Texas governor remained excluded. The public PDF and search-surfaced articles provide aggregate toplines and limited independent splits, but not complete R/D/I candidate-share crosstabs.
+- Marquette, Quantus, Reuters/Ipsos, and other recent generic-ballot rows remained excluded unless already ingested from a crosstab-backed public source because reviewed public sources did not expose complete R/D/I candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The Carolina Forward/Change Research North Carolina Senate poll used explicit weighted subgroup Ns from the public workbook.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate special Republican primary, Oklahoma governor Republican runoff, Trump approval, direction-of-country, and 2028 nomination rows on RealClearPolling are outside the modeled general-election race set.
+- No new national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Extraction Uncertainties
+
+- The Carolina Forward workbook labels the independent party-ID column as `Pure ind`; it was mapped to the model's Independent party-ID bucket.
+- The North Carolina Senate extraction uses the workbook's `U.S. Senate Ballot (with leans)` rows to match the RealClearPolling-visible 50-43 topline.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-10
 
 ### Sources Searched

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:02:04.776428+00:00",
+  "generated_at": "2026-08-11T09:05:20.214270+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -411,6 +411,13 @@
           "candidate_b_share": 0.5053,
           "margin": -0.0708,
           "margin_percent": -7.08
+        },
+        {
+          "date": "2026-08-06",
+          "candidate_a_share": 0.4323,
+          "candidate_b_share": 0.5072,
+          "margin": -0.0749,
+          "margin_percent": -7.49
         }
       ],
       "poll_points": [
@@ -469,6 +476,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-23-27-2026_north-carolina_cross-tabs_july-29-release.pdf"
+        },
+        {
+          "poll_id": "carolina-forward-change-research_nc_sen_2026-08-03_2026-08-06_crosstab",
+          "pollster": "Carolina Forward/Change Research",
+          "date": "2026-08-06",
+          "candidate_a_share": 0.4293,
+          "candidate_b_share": 0.5005,
+          "margin": -0.0712,
+          "margin_percent": -7.12,
+          "leader": "democratic",
+          "sample_size": 915,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://carolinaforward.org/news/the-august-2026-carolina-forward-poll/"
         }
       ]
     },
