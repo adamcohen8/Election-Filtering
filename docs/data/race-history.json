@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:05:20.214270+00:00",
+  "generated_at": "2026-08-12T09:03:12.785884+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -783,6 +783,13 @@
           "candidate_b_share": 0.5489,
           "margin": -0.0978,
           "margin_percent": -9.78
+        },
+        {
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4481,
+          "candidate_b_share": 0.5519,
+          "margin": -0.1037,
+          "margin_percent": -10.37
         }
       ],
       "poll_points": [
@@ -981,6 +988,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_mjKhx0z.pdf"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-08-07_2026-08-10_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.46,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1419,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_pKJG0WT.pdf"
         }
       ]
     },

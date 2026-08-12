@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-12
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 12, 2026: `https://www.realclearpolling.com/latest-polls`.
+- The Economist/YouGov August 7-10, 2026 crosstab PDF surfaced by RealClearPolling for the generic congressional ballot: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_pKJG0WT.pdf`.
+- Cygnal Texas statewide polling memo surfaced by RealClearPolling for Texas governor: `https://www.cygn.al/wp-content/uploads/2026/08/Abbott-Data-Center-Plan-Memo.pdf`.
+- Targeted web searches for August 11-12, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including searches for Cygnal Texas governor crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `economist-yougov_us_house_generic_2026-08-07_2026-08-10_crosstab` -> `us_house_generic`: The Economist/YouGov, August 7-10, 2026, n=1,419 voters for the RCP-visible generic-ballot topline, Republican candidate 0.40, Democratic candidate 0.46. Party-ID subgroup Ns are explicit in the PDF: Republican n=452, Democratic n=523, Independent n=613.
+
+### Polls Skipped As Duplicates
+
+- Prior crosstab-backed Economist/YouGov generic-ballot rows, including July 31-August 3, remained already present in the seen ledger.
+- The August 6-11 crosstab-backed rows already in the ledger remained unchanged: TSU/YouGov Texas Senate and governor, Emerson Iowa Senate and governor, AARP Arizona governor, and Carolina Forward/Change Research North Carolina Senate.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Cygnal / Texas governor, July 29-31, 2026, n=800 likely voters: Abbott 49, Hinojosa 46. The public one-page memo gives the aggregate ballot and party splits for data-center issue questions, but not complete Republican, Democratic, and Independent candidate-share crosstabs for the governor ballot, so it was not normalized or applied.
+- Quantus Insights / Georgia governor remained excluded because no public complete R/D/I candidate-share crosstab table, methodology file, workbook, or PDF was found.
+- Texas Pulse / Texas A&M Bush School Texas Senate and Texas governor remained excluded because reviewed public sources provide aggregate toplines and limited independent splits, but not complete R/D/I candidate-share crosstabs.
+- Marquette, Quantus, Reuters/Ipsos, and other recent generic-ballot rows remained excluded unless already ingested from a crosstab-backed public source because reviewed public sources did not expose complete R/D/I candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The Economist/YouGov generic-ballot poll used explicit unweighted party-ID subgroup Ns from the public PDF.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate special Republican primary, Oklahoma governor Republican runoff, Trump approval, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+- No new modeled Senate or governor poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov extraction uses the table's `Voters` column for the supplemental topline because it matches the RealClearPolling-visible 46-40 generic-ballot result; R/D/I party-ID shares and subgroup Ns come from the same table's Party ID columns.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-11
 
 ### Sources Searched
