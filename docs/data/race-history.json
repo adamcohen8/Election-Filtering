@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T09:03:12.785884+00:00",
+  "generated_at": "2026-08-13T09:07:42.471545+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -413,11 +413,18 @@
           "margin_percent": -7.08
         },
         {
+          "date": "2026-07-31",
+          "candidate_a_share": 0.4257,
+          "candidate_b_share": 0.5075,
+          "margin": -0.0818,
+          "margin_percent": -8.18
+        },
+        {
           "date": "2026-08-06",
-          "candidate_a_share": 0.4323,
-          "candidate_b_share": 0.5072,
-          "margin": -0.0749,
-          "margin_percent": -7.49
+          "candidate_a_share": 0.4254,
+          "candidate_b_share": 0.5078,
+          "margin": -0.0824,
+          "margin_percent": -8.24
         }
       ],
       "poll_points": [
@@ -476,6 +483,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-23-27-2026_north-carolina_cross-tabs_july-29-release.pdf"
+        },
+        {
+          "poll_id": "elon-yougov_nc_sen_2026-07-23_2026-07-31_crosstab",
+          "pollster": "Elon University/YouGov",
+          "date": "2026-07-31",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.53,
+          "margin": -0.11,
+          "margin_percent": -11.0,
+          "leader": "democratic",
+          "sample_size": 466,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/08/Elon-University-Poll-Topline-8-12-26.pdf"
         },
         {
           "poll_id": "carolina-forward-change-research_nc_sen_2026-08-03_2026-08-06_crosstab",

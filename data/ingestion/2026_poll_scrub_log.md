@@ -1,5 +1,43 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-13
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 13, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Elon University Poll August 12, 2026 North Carolina poll page, release, and public topline/methodology PDF: `https://www.elon.edu/u/elon-poll/` and `https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/08/Elon-University-Poll-Topline-8-12-26.pdf`.
+- Fox News / RealClearPolling-surfaced Maine Senate source path for the August 12, 2026 Collins vs. Jackson row, plus the Fox News official polls page and targeted searches for a public Maine Senate crosstab PDF or methodology file.
+- Targeted web searches for August 12-13, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including searches for Fox Maine Senate, Elon North Carolina Senate, Cygnal Texas governor, and newly released generic-ballot crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `elon-yougov_nc_sen_2026-07-23_2026-07-31_crosstab` -> `nc_sen`: Elon University/YouGov, July 23-31, 2026. The supplemental likely-voter topline is Whatley 0.42, Cooper 0.53, n=466. Party-ID crosstabs are public registered-voter rows with explicit subgroup Ns: Republican n=228, Democratic n=229, Independent n=260. Candidate A is Republican Michael Whatley; candidate B is Democrat Roy Cooper.
+
+### Polls Skipped As Duplicates
+
+- The August 12 Economist/YouGov generic-ballot row remained already present in the seen ledger.
+- The recent crosstab-backed Carolina Forward North Carolina Senate, TSU/YouGov Texas Senate and governor, Emerson Iowa Senate and governor, AARP Arizona governor, and prior Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Fox News / Maine Senate, surfaced by RealClearPolling August 12, 2026: Troy Jackson 48, Susan Collins 46. Targeted searches, Fox News poll-page review, and direct static Fox filename probes did not locate an inspectable public source with complete Republican, Democratic, and Independent candidate-share crosstabs, so this row was not normalized or applied.
+- Cygnal / Texas governor, July 29-31, 2026, n=800 likely voters: Abbott 49, Hinojosa 46. The public memo remains excluded because it does not provide complete R/D/I candidate-share crosstabs for the governor ballot.
+- Quantus Insights / Georgia governor, Texas Pulse / Texas A&M Bush School Texas Senate and governor, and recent generic-ballot rows remained excluded unless already ingested from a crosstab-backed public source because reviewed public sources did not expose complete R/D/I candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The Elon University/YouGov North Carolina Senate poll used explicit public registered-voter party-ID subgroup Ns.
+
+### Unclassified Or Not Applied
+
+- Fox News / Maine governor was not applied because Maine governor is not in the modeled governor race set.
+- New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, Trump approval, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The Elon University/YouGov extraction uses registered-voter party-ID crosstab rows for the model inputs and the likely-voter topline as supplemental display metadata. The public PDF labels crosstabs as registered-voter row percentages and prints explicit 3-point Party ID subgroup Ns.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-12
 
 ### Sources Searched

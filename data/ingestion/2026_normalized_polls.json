@@ -1031,6 +1031,30 @@
       "topline_a": 0.4,
       "topline_b": 0.46,
       "topline_n": 1419
+    },
+    {
+      "poll_id": "elon-yougov_nc_sen_2026-07-23_2026-07-31_crosstab",
+      "pollster": "Elon University/YouGov",
+      "field_date": "2026-07-31",
+      "race_id": "nc_sen",
+      "state": "North Carolina",
+      "office": "senate",
+      "candidate_a": "Michael Whatley",
+      "candidate_b": "Roy Cooper",
+      "source_url": "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/08/Elon-University-Poll-Topline-8-12-26.pdf",
+      "text": "North Carolina U.S. Senate ballot test, July 23-31 2026, Elon University/YouGov. Candidate A is the Republican, Michael Whatley; candidate B is the Democrat, Roy Cooper. Party-ID crosstabs use the public topline PDF's registered-voter 3-point Party ID rows with explicit RV subgroup Ns. The supplemental topline uses the likely-voter result visible in RealClearPolling and in the PDF.",
+      "republican_a": 0.84,
+      "republican_b": 0.1,
+      "republican_n": 228,
+      "democratic_a": 0.03,
+      "democratic_b": 0.93,
+      "democratic_n": 229,
+      "independent_a": 0.22,
+      "independent_b": 0.49,
+      "independent_n": 260,
+      "topline_a": 0.42,
+      "topline_b": 0.53,
+      "topline_n": 466
     }
   ]
 }
