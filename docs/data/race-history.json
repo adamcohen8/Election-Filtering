@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T09:07:42.471545+00:00",
+  "generated_at": "2026-08-14T09:04:13.801646+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -425,6 +425,13 @@
           "candidate_b_share": 0.5078,
           "margin": -0.0824,
           "margin_percent": -8.24
+        },
+        {
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4251,
+          "candidate_b_share": 0.5074,
+          "margin": -0.0823,
+          "margin_percent": -8.23
         }
       ],
       "poll_points": [
@@ -511,6 +518,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://carolinaforward.org/news/the-august-2026-carolina-forward-poll/"
+        },
+        {
+          "poll_id": "carolina-journal-harper_nc_sen_2026-08-09_2026-08-10_assumed_n",
+          "pollster": "Carolina Journal/Harper Polling",
+          "date": "2026-08-10",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.515,
+          "margin": -0.125,
+          "margin_percent": -12.5,
+          "leader": "democratic",
+          "sample_size": 600,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.carolinajournal.com/polls/august-2026-coopers-lead-over-whatley-grows-to-12-5-points/"
         }
       ]
     },
@@ -601,6 +622,13 @@
           "candidate_b_share": 0.4352,
           "margin": 0.069,
           "margin_percent": 6.9
+        },
+        {
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4858,
+          "candidate_b_share": 0.451,
+          "margin": 0.0348,
+          "margin_percent": 3.48
         }
       ],
       "poll_points": [
@@ -631,6 +659,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a713767d4ed824b91ea090d/1785804647961/Texas%2BStatewide%2BAugust2026.pdf"
+        },
+        {
+          "poll_id": "emerson_tx_gov_2026-08-09_2026-08-10_crosstab",
+          "pollster": "Emerson College/Nexstar Media",
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4849,
+          "candidate_b_share": 0.4502,
+          "margin": 0.0346,
+          "margin_percent": 3.46,
+          "leader": "republican",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://docs.google.com/spreadsheets/d/12OBa7ZqJ928OnE7mIwR5q0v1O2847SNS/edit?ouid=107857247170786005927&rtpof=true&sd=true&usp=sharing"
         }
       ]
     },
@@ -671,6 +713,13 @@
           "candidate_b_share": 0.5155,
           "margin": -0.0309,
           "margin_percent": -3.09
+        },
+        {
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4818,
+          "candidate_b_share": 0.5182,
+          "margin": -0.0364,
+          "margin_percent": -3.64
         }
       ],
       "poll_points": [
@@ -743,6 +792,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a713767d4ed824b91ea090d/1785804647961/Texas%2BStatewide%2BAugust2026.pdf"
+        },
+        {
+          "poll_id": "emerson_tx_sen_2026-08-09_2026-08-10_crosstab",
+          "pollster": "Emerson College/Nexstar Media",
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4725,
+          "candidate_b_share": 0.4625,
+          "margin": 0.01,
+          "margin_percent": 1.0,
+          "leader": "republican",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://docs.google.com/spreadsheets/d/12OBa7ZqJ928OnE7mIwR5q0v1O2847SNS/edit?ouid=107857247170786005927&rtpof=true&sd=true&usp=sharing"
         }
       ]
     },

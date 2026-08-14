@@ -1,5 +1,48 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-14
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 14, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Emerson College/Nexstar Media Texas 2026 poll release and linked full-results workbook, fielded August 9-10, 2026: `https://emersoncollegepolling.com/texas-2026-poll-paxton-and-talarico/` and `https://docs.google.com/spreadsheets/d/12OBa7ZqJ928OnE7mIwR5q0v1O2847SNS/edit?ouid=107857247170786005927&rtpof=true&sd=true&usp=sharing`.
+- Carolina Journal/Harper Polling North Carolina Senate poll article, published August 13, 2026: `https://www.carolinajournal.com/polls/august-2026-coopers-lead-over-whatley-grows-to-12-5-points/`.
+- Fox News Michigan and Ohio poll articles, plus the Fox News official poll archive, checked for public August 6-10, 2026 topline and crosstab PDFs.
+- Targeted web searches for August 13-14, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including searches for Fox Michigan, Fox Ohio, Emerson Texas, Carolina Journal/Harper North Carolina, and newly released generic-ballot crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `emerson_tx_sen_2026-08-09_2026-08-10_crosstab` -> `tx_sen`: Emerson College/Nexstar Media, August 9-10, 2026, n=1,000 likely voters, Paxton 0.4725, Talarico 0.4625. Party-ID crosstabs use the public full-results workbook's party-affiliation rows with explicit weighted subgroup bases rounded to Republican n=476, Democratic n=324, Independent/other n=200.
+- `emerson_tx_gov_2026-08-09_2026-08-10_crosstab` -> `tx_gov`: Emerson College/Nexstar Media, August 9-10, 2026, n=1,000 likely voters, Abbott 0.4849, Hinojosa 0.4502. Party-ID crosstabs use the same public workbook and explicit rounded weighted subgroup bases: Republican n=476, Democratic n=324, Independent/other n=200.
+- `carolina-journal-harper_nc_sen_2026-08-09_2026-08-10_assumed_n` -> `nc_sen`: Carolina Journal/Harper Polling, August 9-10, 2026, n=600 likely voters, Whatley 0.39, Cooper 0.515. The article prints clear Republican, Democratic, and independent voter candidate shares but not subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 150.
+
+### Polls Skipped As Duplicates
+
+- The August 13 Elon University/YouGov North Carolina Senate row remained already present in the seen ledger.
+- The recent crosstab-backed Carolina Forward North Carolina Senate, TSU/YouGov Texas Senate and governor, prior Emerson Iowa Senate and governor, AARP Arizona governor, and Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Fox News / Michigan Senate, August 6-10, 2026, n=1,006 registered voters: Rogers 51, El-Sayed 47. The article gives partial party-unity detail, but not complete exact Republican, Democratic, and Independent candidate shares with a public crosstab table; no August 6-10 Michigan crosstab PDF was available on the Fox News poll archive during this scrub, so it was not normalized or applied.
+- Fox News / Michigan governor, August 6-10, 2026, n=1,006 registered voters: Benson 52, James 47. The article does not provide complete R/D/I candidate-share crosstabs or a public crosstab PDF, so it was not normalized or applied.
+- Fox News / Ohio Senate special election, August 6-10, 2026, n=1,008 registered voters: Brown 53, Husted 45. The article provides partial party and independent detail, but not a complete exact R/D/I candidate-share table; no August 6-10 Ohio crosstab PDF was available on the Fox News poll archive during this scrub, so it was not normalized or applied.
+- Fox News / Ohio governor, August 6-10, 2026, n=1,008 registered voters: Ramaswamy 50, Acton 48. The article does not provide complete R/D/I candidate-share crosstabs or a public crosstab PDF, so it was not normalized or applied.
+- No newly released national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `carolina-journal-harper_nc_sen_2026-08-09_2026-08-10_assumed_n`: subgroup Ns are not printed in the article, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 150.
+
+### Unclassified Or Not Applied
+
+- California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, Trump approval, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Emerson weighted party-affiliation subgroup bases are fractional in the workbook and were rounded to integer Ns for the normalized poll records.
+- Carolina Journal/Harper top-line Cooper support is printed as 51.5%; RealClearPolling rounds the row to Cooper 52. The normalized record preserves the source article's 51.5% topline.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-13
 
 ### Sources Searched
