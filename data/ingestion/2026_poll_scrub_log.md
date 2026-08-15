@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-15
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 15, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest House/generic ballot surface, checked after the August 14 Cygnal generic-ballot row appeared.
+- Cygnal August 2026 National Voter Trends poll page, press release, and public PDF deck: `https://www.cygn.al/polls/august-2026-national-voter-trends-nvt-poll/`, `https://www.cygn.al/news/poll-what-is-a-populist-whos-going-to-turnout-and-how-can-trump-get-his-lost-voters-back/`, and `https://www.cygn.al/wp-content/uploads/2026/08/24265-Cygnal-National-Aug26-NVT-Deck-Public-1.pdf`.
+- Targeted web searches for August 14-15, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including searches for the Cygnal August generic-ballot crosstabs and newly released modeled-race polls.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled poll with complete public Republican, Democratic, and Independent candidate-share crosstabs was found after the August 14 scrub.
+
+### Polls Skipped As Duplicates
+
+- The August 14 crosstab-backed rows remained already present in the seen ledger: Emerson College/Nexstar Texas Senate, Emerson College/Nexstar Texas governor, and Carolina Journal/Harper North Carolina Senate.
+- The recent crosstab-backed Elon University/YouGov and Carolina Forward North Carolina Senate rows, TSU/YouGov Texas Senate and governor rows, Emerson Iowa Senate and governor rows, AARP Arizona governor row, and Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Cygnal / national generic congressional ballot, August 6, 2026, n=1,500 likely general-election voters: Democratic candidate 48.8%, Republican candidate 41.9%, unsure 9.3%. The public deck provides the overall topline and selected key voter-group splits, including Independent voters at Democratic 45.7%, Republican 29.7%, unsure 24.7%, but it does not provide complete Republican and Democratic party-ID candidate-share crosstabs. Because the R/D/I party-ID candidate-share set is incomplete, this row was not normalized or applied.
+- The Fox News Michigan Senate/governor, Ohio Senate/governor, and Maine Senate rows remained excluded unless a public complete R/D/I candidate-share crosstab source becomes inspectable.
+- No other new modeled Senate, governor, or national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The N / 4 fallback was not used because no new poll had complete R/D/I candidate shares with missing subgroup Ns.
+
+### Unclassified Or Not Applied
+
+- Rasmussen Trump approval, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Cygnal's press release says the August NVT poll was conducted `Aug. 6-6`; the scrub log preserves that source phrasing as August 6, 2026. The deck page for the generic ballot shows the overall result and Independent split visually, but not a complete R/D/I party-ID table.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-14
 
 ### Sources Searched
