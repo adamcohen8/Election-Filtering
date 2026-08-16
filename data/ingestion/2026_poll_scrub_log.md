@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-16
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 16, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest Senate, governor, and House/generic ballot surfaces, checked for any rows newer than the August 14 Cygnal generic-ballot row.
+- Targeted web searches for August 15-16, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+- Previously reviewed source paths for the August 14 Cygnal generic-ballot deck and August 13 Fox News Michigan/Ohio modeled rows were checked against the latest RCP surface for any newly exposed crosstab links.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or generic congressional ballot poll with complete public Republican, Democratic, and Independent candidate-share crosstabs was found after the August 15 scrub.
+
+### Polls Skipped As Duplicates
+
+- The August 14 crosstab-backed rows remained already present in the seen ledger: Emerson College/Nexstar Texas Senate, Emerson College/Nexstar Texas governor, and Carolina Journal/Harper North Carolina Senate.
+- The recent crosstab-backed Elon University/YouGov and Carolina Forward North Carolina Senate rows, TSU/YouGov Texas Senate and governor rows, Emerson Iowa Senate and governor rows, AARP Arizona governor row, and Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Cygnal / national generic congressional ballot, August 6, 2026, remained excluded because the public deck provides the overall topline and an Independent voter split, but not complete Republican and Democratic party-ID candidate-share crosstabs.
+- Fox News Michigan Senate/governor, Ohio Senate/governor, and Maine Senate rows remained excluded because no newly inspectable public complete R/D/I candidate-share crosstab sources were found.
+- No other new modeled Senate, governor, or national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The N / 4 fallback was not used because no new poll had complete R/D/I candidate shares with missing subgroup Ns.
+
+### Unclassified Or Not Applied
+
+- Rasmussen Trump approval, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- No new crosstab extraction was attempted because no new qualifying public source was located.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-15
 
 ### Sources Searched
