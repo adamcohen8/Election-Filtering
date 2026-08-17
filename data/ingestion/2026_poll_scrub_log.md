@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-17
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 17, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling latest House/generic ballot surface, checked after the August 16 Financial Times generic-ballot row appeared.
+- Financial Times article surfaced by RealClearPolling for the August 16 generic-ballot row: `https://www.ft.com/content/fd40a98d-2a7f-4246-a296-73e956bf03c0`.
+- Targeted web searches for August 16-17, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including searches for Financial Times / Focaldata / FT-Michigan Ross generic-ballot crosstabs and newly released modeled-race polls.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or generic congressional ballot poll with complete public Republican, Democratic, and Independent candidate-share crosstabs was found after the August 16 scrub.
+
+### Polls Skipped As Duplicates
+
+- The August 14 crosstab-backed rows remained already present in the seen ledger: Emerson College/Nexstar Texas Senate, Emerson College/Nexstar Texas governor, and Carolina Journal/Harper North Carolina Senate.
+- The recent crosstab-backed Elon University/YouGov and Carolina Forward North Carolina Senate rows, TSU/YouGov Texas Senate and governor rows, Emerson Iowa Senate and governor rows, AARP Arizona governor row, and Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Financial Times / national generic congressional ballot, surfaced by RealClearPolling August 16, 2026: Democrats 51, Republicans 45. The FT source available during this scrub was paywalled, and targeted searches did not locate a public methodology file, PDF, topline workbook, or complete Republican, Democratic, and Independent party-ID candidate-share crosstab table, so this row was not normalized or applied.
+- Cygnal / national generic congressional ballot, August 6, 2026, remained excluded because the public deck provides the overall topline and an Independent voter split, but not complete Republican and Democratic party-ID candidate-share crosstabs.
+- Fox News Michigan Senate/governor, Ohio Senate/governor, and Maine Senate rows remained excluded because no newly inspectable public complete R/D/I candidate-share crosstab sources were found.
+- No other new modeled Senate, governor, or national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The N / 4 fallback was not used because no new poll had complete R/D/I candidate shares with missing subgroup Ns.
+
+### Unclassified Or Not Applied
+
+- Financial Times 2028 presidential nomination, Financial Times Trump approval, Rasmussen Trump approval, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The Financial Times generic-ballot row was visible on RealClearPolling, but no public crosstab-bearing source was found. No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-16
 
 ### Sources Searched
