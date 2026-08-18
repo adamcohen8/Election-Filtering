@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-18
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 18, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Data for Progress Alaska poll article and public crosstab/topline PDF, released August 17, 2026: `https://www.dataforprogress.org/blog/2026/8/17/as-alaskas-affordability-crisis-deepens-peltola-leads-in-senate-race` and `https://www.filesforprogress.org/datasets/2026/8/dfp_alaska_aug_2026.pdf`.
+- WPR article and Platform Communications Badger Battleground Poll memo for Wisconsin governor, published August 16 and updated August 17, 2026: `https://www.wpr.org/news/crowley-leading-tiffany-four-points-new-poll` and `https://www.wpr.org/wp-content/uploads/2026/08/Badger-Battleground-Poll-Memo-August-2026-Final.pdf`.
+- Financial Times article surfaced by RealClearPolling for the August 16 generic-ballot row: `https://www.ft.com/content/fd40a98d-2a7f-4246-a296-73e956bf03c0`.
+- Targeted web searches for August 17-18, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including searches for Data for Progress Alaska, Platform Communications Wisconsin, Financial Times / Focaldata / FT-Michigan Ross generic-ballot crosstabs, and newly released modeled-race polls.
+
+### Crosstab-Backed Polls Applied
+
+- `data-for-progress_ak_sen_2026-07-28_2026-08-04_crosstab` -> `ak_sen`: Data for Progress, July 28-August 4, 2026, n=567 in the ranked-choice final-round simulation after eliminating Daniel J. Sullivan Jr. Sullivan 0.47, Peltola 0.53. Party-ID crosstabs use explicit self-identified party subgroup Ns from the public PDF: Republican n=193, Democratic n=120, Independent/third party n=254.
+- `platform-communications_wi_gov_2026-08-12_2026-08-13_assumed_n` -> `wi_gov`: Platform Communications, August 12-13, 2026, n=500 likely voters, Tiffany 0.44, Crowley 0.48. The public memo prints Republican, Democratic, and Independent voter candidate shares but not subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 125.
+
+### Polls Skipped As Duplicates
+
+- The August 14 crosstab-backed rows remained already present in the seen ledger: Emerson College/Nexstar Texas Senate, Emerson College/Nexstar Texas governor, and Carolina Journal/Harper North Carolina Senate.
+- The recent crosstab-backed Elon University/YouGov and Carolina Forward North Carolina Senate rows, TSU/YouGov Texas Senate and governor rows, Emerson Iowa Senate and governor rows, AARP Arizona governor row, and Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Financial Times / national generic congressional ballot, surfaced by RealClearPolling August 16, 2026: Democrats 51, Republicans 45. The FT source available during this scrub was paywalled, and targeted searches did not locate a public methodology file, PDF, topline workbook, or complete Republican, Democratic, and Independent party-ID candidate-share crosstab table, so this row was not normalized or applied.
+- Cygnal / national generic congressional ballot, August 6, 2026, remained excluded because the public deck provides the overall topline and an Independent voter split, but not complete Republican and Democratic party-ID candidate-share crosstabs.
+- Fox News Michigan Senate/governor, Ohio Senate/governor, and Maine Senate rows remained excluded because no newly inspectable public complete R/D/I candidate-share crosstab sources were found.
+- No other new modeled Senate, governor, or national generic congressional ballot poll with usable public R/D/I candidate-share crosstabs was found.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `platform-communications_wi_gov_2026-08-12_2026-08-13_assumed_n`: subgroup Ns are not printed in the public memo, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 125.
+
+### Unclassified Or Not Applied
+
+- Data for Progress Alaska U.S. House, Data for Progress Alaska governor favorability/issue rows, Platform Communications Wisconsin generic Assembly ballot, Massachusetts Senate, Financial Times 2028 presidential nomination, Financial Times Trump approval, Rasmussen Trump approval, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, direction-of-country, 2028 nomination, and non-modeled primary rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The Data for Progress Alaska Senate record uses the published ranked-choice final-round simulation after eliminating Daniel J. Sullivan Jr., matching the RealClearPolling-visible 53-47 Peltola/Sullivan result. The source also prints hypothetical exhaustion-transfer scenarios that were not used.
+- Platform Communications Wisconsin subgroup Ns use the N / 4 fallback because the memo prints subgroup shares but not subgroup bases.
+- Public nominee metadata was added for `ak_sen` and `wi_gov` so the crosstab-backed model states can be exported to the GitHub Pages forecast feed. Alaska is tracked as the public Sullivan/Peltola matchup pending final top-four qualification after the August 18 primary; Wisconsin governor uses the post-primary Tiffany/Crowley matchup.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-17
 
 ### Sources Searched

@@ -51,6 +51,29 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
         last_verified="2026-07-04",
         notes="National generic congressional ballot model.",
     ),
+    "ak_sen": RaceNominees(
+        race_id="ak_sen",
+        republican=Nominee(
+            name="Dan Sullivan",
+            party="republican",
+            status="presumptive_nominee",
+            source_name="Associated Press",
+            source_url="https://apnews.com/article/alaska-primary-senate-sullivan-peltola-congress-401f3d62876f44ee5e78c11c51be136a",
+        ),
+        democratic=Nominee(
+            name="Mary Peltola",
+            party="democratic",
+            status="presumptive_nominee",
+            source_name="Associated Press",
+            source_url="https://apnews.com/article/alaska-primary-senate-sullivan-peltola-congress-401f3d62876f44ee5e78c11c51be136a",
+        ),
+        last_verified="2026-08-18",
+        notes=(
+            "Alaska uses a top-four primary. Tracked as the public Sullivan/Peltola "
+            "matchup pending final general-election qualification after the "
+            "August 18, 2026 primary."
+        ),
+    ),
     "tx_sen": RaceNominees(
         race_id="tx_sen",
         republican=Nominee(
@@ -299,5 +322,24 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
             source_name="Axios Philadelphia",
             source_url="https://www.axios.com/local/philadelphia/2026/05/20/primary-election-philadelphia-pennsylvania-josh-shapiro-stacy-garrity",
         ),
+    ),
+    "wi_gov": RaceNominees(
+        race_id="wi_gov",
+        republican=Nominee(
+            name="Tom Tiffany",
+            party="republican",
+            status="nominee",
+            source_name="Wisconsin Public Radio",
+            source_url="https://www.wpr.org/news/crowley-leading-tiffany-four-points-new-poll",
+        ),
+        democratic=Nominee(
+            name="David Crowley",
+            party="democratic",
+            status="nominee",
+            source_name="Wisconsin Public Radio",
+            source_url="https://www.wpr.org/news/crowley-leading-tiffany-four-points-new-poll",
+        ),
+        last_verified="2026-08-18",
+        notes="Wisconsin governor nominees updated after the August 11, 2026 primary.",
     ),
 }
