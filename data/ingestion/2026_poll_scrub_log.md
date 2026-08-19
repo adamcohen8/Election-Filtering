@@ -1,5 +1,50 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-19
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 19, 2026: `https://www.realclearpolling.com/latest-polls`.
+- James Magazine Online / InsiderAdvantage Georgia release and public crosstab image, published August 18, 2026: `https://jamesmagazinega.com/2026/08/18/exclusive-jmo-insideradvantage-georgia-survey-ossoff-leads-jackson-lance-bottoms-tied/` and `https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.jpg`.
+- TIPP / League of American Workers Michigan release and public crosstab workbook, published August 18, 2026: `https://tippinsights.com/league-of-american-workers-survey-michigan-2/` and `https://tippinsights.com/content/files/2026/08/Tables-Michigan-August-2026.xlsx`.
+- The Economist/YouGov August 14-17, 2026 crosstab PDF surfaced by RealClearPolling for the generic congressional ballot: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ZMy1Zxu.pdf`.
+- RealClearPolling-surfaced Reuters/Ipsos, Morning Consult, and Echelon Insights generic-ballot source paths, plus targeted searches for August 18-19, 2026 modeled Senate, governor, and generic congressional ballot public crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `insideradvantage_ga_sen_2026-08-16_2026-08-17_crosstab` -> `ga_sen`: InsiderAdvantage / James Magazine Online, August 16-17, 2026, n=800 likely voters, Collins 0.426, Ossoff 0.501. Party-ID crosstabs use explicit subgroup Ns from the public image: Republican n=280, Democratic n=272, Independent n=248.
+- `insideradvantage_ga_gov_2026-08-16_2026-08-17_crosstab` -> `ga_gov`: InsiderAdvantage / James Magazine Online, August 16-17, 2026, n=800 likely voters, Jackson 0.463, Lance Bottoms 0.462. Party-ID crosstabs use the same explicit subgroup Ns: Republican n=280, Democratic n=272, Independent n=248.
+- `tipp-law_mi_sen_2026-08-06_2026-08-10_crosstab` -> `mi_sen`: TIPP / League of American Workers, August 6-10, 2026, n=1,215 likely voters, Rogers 0.422706, El-Sayed 0.454418. Party-ID crosstabs use the public workbook's E5-LV table and explicit unweighted subgroup Ns: Republican n=354, Democratic n=563, Independent n=274.
+- `tipp-law_mi_gov_2026-08-06_2026-08-10_crosstab` -> `mi_gov`: TIPP / League of American Workers, August 6-10, 2026, n=1,215 likely voters, James 0.365521, Benson 0.530177. Party-ID crosstabs use the public workbook's E4-LV table and explicit unweighted subgroup Ns: Republican n=354, Democratic n=563, Independent n=274.
+- `economist-yougov_us_house_generic_2026-08-14_2026-08-17_crosstab` -> `us_house_generic`: The Economist/YouGov, August 14-17, 2026, n=1,449 voters for the RCP-visible generic-ballot topline, Republican 0.39, Democratic 0.46. Party-ID crosstabs use the public PDF's `Generic Congressional Vote` Party ID columns with explicit subgroup Ns: Republican n=475, Democratic n=559, Independent n=576.
+
+### Polls Skipped As Duplicates
+
+- The August 18 crosstab-backed Alaska Senate and Wisconsin governor rows remained already present in the seen ledger.
+- Recent crosstab-backed Texas, North Carolina, Iowa, Arizona, and prior Economist/YouGov generic-ballot rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Reuters/Ipsos / national generic congressional ballot, surfaced by RealClearPolling August 18, 2026: Democrats 41, Republicans 36. The reviewed RCP-linked/public Reuters-Ipsos paths and targeted searches did not locate a directly inspectable current public table/PDF with complete Republican, Democratic, and Independent party-ID candidate shares, so this row was not normalized or applied.
+- Morning Consult / national generic congressional ballot, surfaced by RealClearPolling August 18, 2026: Democrats 46, Republicans 42. The reviewed public tracker surface showed only aggregate ballot-reference text and did not expose complete R/D/I party-ID candidate-share crosstabs, so this row was not normalized or applied.
+- Echelon Insights / national generic congressional ballot, surfaced by RealClearPolling August 18, 2026: Democrats 50, Republicans 45. The reviewed public August page/search path did not expose an inspectable crosstab workbook or complete R/D/I candidate-share table during this scrub, so this row was not normalized or applied.
+- Previously logged Financial Times, Cygnal, Fox News Michigan/Ohio/Maine, and other aggregate-topline-only modeled rows remain excluded unless a complete public R/D/I party-ID candidate-share source becomes inspectable.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. All five newly applied records used explicit subgroup Ns from a public crosstab image, workbook, or PDF.
+
+### Unclassified Or Not Applied
+
+- Minnesota Senate, Minnesota governor, Massachusetts Senate, Financial Times 2028 nomination/approval rows, Rasmussen approval/direction rows, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, and other non-modeled or non-general-election rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The InsiderAdvantage Georgia governor article text labels the Republican option as Mike Collins in one sentence, but the public crosstab image and RealClearPolling row identify Rick Jackson; the normalized `ga_gov` record uses Rick Jackson.
+- The TIPP Michigan records use the likely-voter E4-LV and E5-LV tables for the toplines and Party columns. Candidate-share inputs use weighted vertical percentages; subgroup sample-size inputs use the printed unweighted Party Ns.
+- The Economist/YouGov generic-ballot record uses the PDF's `Voters` column for the supplemental topline because it matches the RealClearPolling-visible 46-39 result; R/D/I party-ID shares and subgroup Ns come from the same table's Party ID columns.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-18
 
 ### Sources Searched

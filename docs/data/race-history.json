@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:14:08.029538+00:00",
+  "generated_at": "2026-08-19T09:07:01.957920+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -135,6 +135,13 @@
           "candidate_b_share": 0.4814,
           "margin": 0.0152,
           "margin_percent": 1.52
+        },
+        {
+          "date": "2026-08-17",
+          "candidate_a_share": 0.498,
+          "candidate_b_share": 0.4775,
+          "margin": 0.0205,
+          "margin_percent": 2.05
         }
       ],
       "poll_points": [
@@ -179,6 +186,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf"
+        },
+        {
+          "poll_id": "insideradvantage_ga_gov_2026-08-16_2026-08-17_crosstab",
+          "pollster": "InsiderAdvantage",
+          "date": "2026-08-17",
+          "candidate_a_share": 0.463,
+          "candidate_b_share": 0.462,
+          "margin": 0.001,
+          "margin_percent": 0.1,
+          "leader": "republican",
+          "sample_size": 800,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.jpg"
         }
       ]
     },
@@ -205,6 +226,13 @@
           "candidate_b_share": 0.5127,
           "margin": -0.0608,
           "margin_percent": -6.08
+        },
+        {
+          "date": "2026-08-17",
+          "candidate_a_share": 0.4529,
+          "candidate_b_share": 0.5092,
+          "margin": -0.0563,
+          "margin_percent": -5.63
         }
       ],
       "poll_points": [
@@ -249,6 +277,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf"
+        },
+        {
+          "poll_id": "insideradvantage_ga_sen_2026-08-16_2026-08-17_crosstab",
+          "pollster": "InsiderAdvantage",
+          "date": "2026-08-17",
+          "candidate_a_share": 0.426,
+          "candidate_b_share": 0.501,
+          "margin": -0.075,
+          "margin_percent": -7.5,
+          "leader": "democratic",
+          "sample_size": 800,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.jpg"
         }
       ]
     },
@@ -394,13 +436,59 @@
     },
     {
       "race_id": "mi_gov",
-      "model_points": [],
-      "poll_points": []
+      "model_points": [
+        {
+          "date": "2026-08-10",
+          "candidate_a_share": 0.3756,
+          "candidate_b_share": 0.5174,
+          "margin": -0.1418,
+          "margin_percent": -14.18
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "tipp-law_mi_gov_2026-08-06_2026-08-10_crosstab",
+          "pollster": "TIPP/League of American Workers",
+          "date": "2026-08-10",
+          "candidate_a_share": 0.3655,
+          "candidate_b_share": 0.5302,
+          "margin": -0.1647,
+          "margin_percent": -16.47,
+          "leader": "democratic",
+          "sample_size": 1215,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://tippinsights.com/content/files/2026/08/Tables-Michigan-August-2026.xlsx"
+        }
+      ]
     },
     {
       "race_id": "mi_sen",
-      "model_points": [],
-      "poll_points": []
+      "model_points": [
+        {
+          "date": "2026-08-10",
+          "candidate_a_share": 0.434,
+          "candidate_b_share": 0.44,
+          "margin": -0.006,
+          "margin_percent": -0.6
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "tipp-law_mi_sen_2026-08-06_2026-08-10_crosstab",
+          "pollster": "TIPP/League of American Workers",
+          "date": "2026-08-10",
+          "candidate_a_share": 0.4227,
+          "candidate_b_share": 0.4544,
+          "margin": -0.0317,
+          "margin_percent": -3.17,
+          "leader": "democratic",
+          "sample_size": 1215,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://tippinsights.com/content/files/2026/08/Tables-Michigan-August-2026.xlsx"
+        }
+      ]
     },
     {
       "race_id": "nc_sen",
@@ -895,6 +983,13 @@
           "candidate_b_share": 0.5519,
           "margin": -0.1037,
           "margin_percent": -10.37
+        },
+        {
+          "date": "2026-08-17",
+          "candidate_a_share": 0.4465,
+          "candidate_b_share": 0.5535,
+          "margin": -0.1071,
+          "margin_percent": -10.71
         }
       ],
       "poll_points": [
@@ -1107,6 +1202,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_pKJG0WT.pdf"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-08-14_2026-08-17_crosstab",
+          "pollster": "Economist/YouGov",
+          "date": "2026-08-17",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.46,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1449,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ZMy1Zxu.pdf"
         }
       ]
     },
