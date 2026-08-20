@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:07:01.951557+00:00",
+  "generated_at": "2026-08-20T09:05:03.276755+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -15,10 +15,10 @@
       "state_code": "AK",
       "candidate_a_party": "Republican",
       "candidate_a_name": "Dan Sullivan",
-      "candidate_a_nominee_status": "presumptive_nominee",
+      "candidate_a_nominee_status": "nominee",
       "candidate_b_party": "Democratic",
       "candidate_b_name": "Mary Peltola",
-      "candidate_b_nominee_status": "presumptive_nominee",
+      "candidate_b_nominee_status": "nominee",
       "data_available": true,
       "data_note": null,
       "candidate_a_share": 0.5075,
@@ -29,11 +29,11 @@
       "margin_of_error_percent": 4.18,
       "leader": "republican",
       "status": "tilt-republican",
-      "nominee_last_verified": "2026-08-18",
-      "nominee_note": "Alaska uses a top-four primary. Tracked as the public Sullivan/Peltola matchup pending final general-election qualification after the August 18, 2026 primary.",
+      "nominee_last_verified": "2026-08-20",
+      "nominee_note": "Alaska uses a top-four primary. Sullivan and Peltola advanced from the August 18, 2026 primary to the general election.",
       "nominee_sources": {
-        "republican": "https://apnews.com/article/alaska-primary-senate-sullivan-peltola-congress-401f3d62876f44ee5e78c11c51be136a",
-        "democratic": "https://apnews.com/article/alaska-primary-senate-sullivan-peltola-congress-401f3d62876f44ee5e78c11c51be136a"
+        "republican": "https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results",
+        "democratic": "https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results"
       }
     },
     {
@@ -305,14 +305,14 @@
       "candidate_b_nominee_status": "nominee",
       "data_available": true,
       "data_note": null,
-      "candidate_a_share": 0.434,
-      "candidate_b_share": 0.44,
-      "margin": -0.006,
-      "margin_percent": -0.6,
-      "margin_of_error": 0.0384,
-      "margin_of_error_percent": 3.84,
+      "candidate_a_share": 0.404,
+      "candidate_b_share": 0.4597,
+      "margin": -0.0557,
+      "margin_percent": -5.57,
+      "margin_of_error": 0.0264,
+      "margin_of_error_percent": 2.64,
       "leader": "democratic",
-      "status": "tilt-democratic",
+      "status": "likely-democratic",
       "nominee_last_verified": "2026-08-06",
       "nominee_note": "Michigan U.S. Senate nominees updated after the August 4, 2026 primary.",
       "nominee_sources": {

@@ -1295,6 +1295,30 @@
       "topline_a": 0.39,
       "topline_b": 0.46,
       "topline_n": 1449
+    },
+    {
+      "poll_id": "susquehanna_mi_sen_2026-08-11_2026-08-17_crosstab",
+      "pollster": "Susquehanna Polling and Research",
+      "field_date": "2026-08-17",
+      "race_id": "mi_sen",
+      "state": "Michigan",
+      "office": "senate",
+      "candidate_a": "Mike Rogers",
+      "candidate_b": "Abdul El-Sayed",
+      "source_url": "https://www.realclearpolitics.com/docs/2026/Toplines-Michigan-Statewide-August2026.pdf",
+      "text": "Michigan U.S. Senate likely-voter ballot test, August 11-17 2026, Susquehanna Polling and Research, n=800 likely voters. Candidate A is the Republican, Mike Rogers; candidate B is the Democrat, Abdul El-Sayed. Party-ID crosstabs use the public memo's self-identified Republican, Democrat, and Independent/unaffiliated voter splits with explicit subgroup Ns.",
+      "republican_a": 0.90,
+      "republican_b": 0.02,
+      "republican_n": 288,
+      "democratic_a": 0.00,
+      "democratic_b": 0.91,
+      "democratic_n": 288,
+      "independent_a": 0.24,
+      "independent_b": 0.46,
+      "independent_n": 216,
+      "topline_a": 0.39,
+      "topline_b": 0.46,
+      "topline_n": 800
     }
   ]
 }

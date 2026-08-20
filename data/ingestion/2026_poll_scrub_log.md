@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-20
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 20, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Susquehanna Polling and Research Michigan U.S. Senate public topline/methodology PDF, surfaced by RealClearPolling August 19, 2026: `https://www.realclearpolitics.com/docs/2026/Toplines-Michigan-Statewide-August2026.pdf`.
+- Targeted web searches for August 19-20, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+- Alaska Senate primary result reporting for nominee metadata, published August 19, 2026: `https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results`.
+
+### Crosstab-Backed Polls Applied
+
+- `susquehanna_mi_sen_2026-08-11_2026-08-17_crosstab` -> `mi_sen`: Susquehanna Polling and Research, August 11-17, 2026, n=800 likely voters, Rogers 0.39, El-Sayed 0.46. The public PDF reports party-ID candidate shares and explicit subgroup bases: Republican n=288, Democratic n=288, Independent/unaffiliated n=216.
+
+### Polls Skipped As Duplicates
+
+- The August 19 crosstab-backed rows remained already present in the seen ledger: InsiderAdvantage Georgia Senate, InsiderAdvantage Georgia governor, TIPP Michigan Senate, TIPP Michigan governor, and Economist/YouGov generic ballot.
+- The August 18 crosstab-backed Alaska Senate and Wisconsin governor rows, plus earlier crosstab-backed modeled-race rows, remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Reuters/Ipsos, Morning Consult, and Echelon Insights national generic-ballot rows from August 18 remained excluded because no newly inspectable public complete R/D/I party-ID candidate-share source was located during this scrub.
+- Previously logged Financial Times, Cygnal, Fox News Michigan/Ohio/Maine, and other aggregate-topline-only modeled rows remain excluded unless a complete public R/D/I party-ID candidate-share source becomes inspectable.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The Susquehanna Michigan Senate record used explicit subgroup Ns from the public PDF.
+
+### Unclassified Or Not Applied
+
+- Massachusetts governor, Minnesota Senate, Minnesota governor, 2028 nomination/approval rows, Rasmussen approval/direction rows, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, and other non-modeled or non-general-election rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Susquehanna's key findings give the party-ID candidate shares used for the normalized record. The PDF's Q7 party-ID bases print Republican n=288, Democrat n=288, Independent/other n=64, and unaffiliated/no party n=152; because the text reports the Independent/unaffiliated candidate split as one group, the normalized Independent subgroup n combines those two printed bases to n=216.
+- Alaska Senate nominee metadata was updated from presumptive to nominated/advanced status after Sullivan and Peltola advanced from the August 18 top-four primary.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-19
 
 ### Sources Searched

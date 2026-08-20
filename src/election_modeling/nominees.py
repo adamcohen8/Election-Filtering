@@ -56,22 +56,21 @@ NOMINEES_2026_BY_RACE: dict[str, RaceNominees] = {
         republican=Nominee(
             name="Dan Sullivan",
             party="republican",
-            status="presumptive_nominee",
-            source_name="Associated Press",
-            source_url="https://apnews.com/article/alaska-primary-senate-sullivan-peltola-congress-401f3d62876f44ee5e78c11c51be136a",
+            status="nominee",
+            source_name="The Guardian",
+            source_url="https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results",
         ),
         democratic=Nominee(
             name="Mary Peltola",
             party="democratic",
-            status="presumptive_nominee",
-            source_name="Associated Press",
-            source_url="https://apnews.com/article/alaska-primary-senate-sullivan-peltola-congress-401f3d62876f44ee5e78c11c51be136a",
+            status="nominee",
+            source_name="The Guardian",
+            source_url="https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results",
         ),
-        last_verified="2026-08-18",
+        last_verified="2026-08-20",
         notes=(
-            "Alaska uses a top-four primary. Tracked as the public Sullivan/Peltola "
-            "matchup pending final general-election qualification after the "
-            "August 18, 2026 primary."
+            "Alaska uses a top-four primary. Sullivan and Peltola advanced "
+            "from the August 18, 2026 primary to the general election."
         ),
     ),
     "tx_sen": RaceNominees(
