@@ -1,5 +1,54 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-21
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 21, 2026: `https://www.realclearpolling.com/latest-polls`.
+- AARP/Fabrizio Ward/Impact Research Michigan midterm poll PDF, surfaced by RealClearPolling August 20, 2026: `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-michigan.doi.10.26419-2fres.01065.010.pdf`.
+- Noble Predictive Insights Arizona governor release and public AZPOP workbook, published August 20, 2026: `https://www.noblepredictiveinsights.com/post/katie-hobbs-leads-andy-biggs-in-the-grand-canyon-state` and `https://7453540.fs1.hubspotusercontent-na1.net/hubfs/7453540/AZPOP/2026/Aug%202026%20AZPOP/260810_AZPOP_Gov%20PR%20poll%20report.xlsx`.
+- Emerson College Polling August 2026 national release and public Google Sheets workbook for the generic congressional ballot: `https://emersoncollegepolling.com/august-2026-national-poll/` and `https://docs.google.com/spreadsheets/d/1J-I00agiGtqUBW5oG2sd-qUZd77luT0-/edit?gid=1885928462#gid=1885928462`.
+- Saint Anselm College New Hampshire release and full PDF for August 17-18, 2026 polling: `https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-republicans-facing-midterm-headwinds-democratic-lead-widens` and `https://www.anselm.edu/sites/default/files/2026-08/August%2017-18%202026%20Poll.pdf`.
+- Targeted web searches for August 20-21, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs, including Stealth Analytics Arizona governor, Wedgewood Ohio Senate/governor, and reputable aggregator surfaces.
+
+### Crosstab-Backed Polls Applied
+
+- `aarp-fabrizio-impact_mi_sen_2026-08-09_2026-08-11_assumed_n` -> `mi_sen`: AARP/Fabrizio Ward/Impact Research, August 9-11, 2026, n=877 likely voters, Rogers 0.47, El-Sayed 0.48. Party-ID crosstabs use the public PDF's GOP, Independent, and Democratic voter columns. The report does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 219.
+- `aarp-fabrizio-impact_mi_gov_2026-08-09_2026-08-11_assumed_n` -> `mi_gov`: AARP/Fabrizio Ward/Impact Research, August 9-11, 2026, n=877 likely voters, James 0.44, Benson 0.49. Party-ID crosstabs use the public PDF's GOP, Independent, and Democratic voter columns. The report does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 219.
+- `noble-predictive-insights_az_gov_2026-08-10_2026-08-13_assumed_n` -> `az_gov`: Noble Predictive Insights, August 10-13, 2026, n=923 likely voters, Biggs 0.354177, Hobbs 0.484015. Party-ID crosstabs use the public workbook's LV sheet PARTY columns for Republican, Democratic, and Independent/Nonpartisan voters. The workbook does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 231.
+- `emerson_us_house_generic_2026-08-16_2026-08-17_crosstab` -> `us_house_generic`: Emerson College Polling, August 16-17, 2026, n=1,000 likely voters, Generic Republican 0.430430, Generic Democrat 0.506507. Party-ID crosstabs use the public full-results workbook's party registration or affiliation rows with explicit weighted subgroup Ns: Republican n=331, Democratic n=327, Independent/other n=342.
+
+### Polls Skipped As Duplicates
+
+- The August 20 Susquehanna Michigan Senate row remained already present in the seen ledger.
+- The August 19 crosstab-backed rows remained already present in the seen ledger: InsiderAdvantage Georgia Senate, InsiderAdvantage Georgia governor, TIPP Michigan Senate, TIPP Michigan governor, and Economist/YouGov generic ballot.
+- The August 18 crosstab-backed Alaska Senate and Wisconsin governor rows, plus earlier crosstab-backed modeled-race rows, remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Saint Anselm College New Hampshire Senate, August 17-18, 2026, n=1,411 likely voters: Pappas 48, Sununu 41 and Pappas 49, Brown 37. The public PDF uses Democrat, Republican, and `Swing` registration columns rather than a modeled Independent party-ID bucket, so these rows were not normalized or applied.
+- Saint Anselm College New Hampshire governor, August 17-18, 2026, n=1,411 likely voters: Ayotte 49, Warmington 38. The public PDF uses Democrat, Republican, and `Swing` registration columns rather than a modeled Independent party-ID bucket, so this row was not normalized or applied.
+- Stealth Analytics Arizona governor, August 11-13, 2026, n=530 likely voters: Hobbs 43, Biggs 38. Public aggregator surfaces were found, but no inspectable release, PDF, workbook, or table with complete R/D/I party-ID candidate shares was located, so this row was not normalized or applied.
+- Wedgewood Ohio Senate and governor, August 11-13, 2026, n=800 likely voters: Brown 48, Husted 44 and Acton 47, Ramaswamy 46. Public snippets surfaced 2024 Trump/Harris voter splits, but no complete R/D/I party-ID candidate-share crosstab source was located, so these rows were not normalized or applied.
+- AARP Michigan state generic-ballot results were not applied because the modeled generic ballot is the national `us_house_generic` race.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `aarp-fabrizio-impact_mi_sen_2026-08-09_2026-08-11_assumed_n`: subgroup Ns are not printed in the public PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 219.
+- `aarp-fabrizio-impact_mi_gov_2026-08-09_2026-08-11_assumed_n`: subgroup Ns are not printed in the public PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 219.
+- `noble-predictive-insights_az_gov_2026-08-10_2026-08-13_assumed_n`: subgroup Ns are not printed in the public workbook, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 231.
+
+### Unclassified Or Not Applied
+
+- Massachusetts governor, Massachusetts Senate, California governor, New York governor, South Carolina Senate Republican primary, Oklahoma governor Republican runoff, non-modeled House/statewide rows, 2028 nomination rows, approval rows, and direction-of-country rows on RealClearPolling are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- AARP Michigan crosstabs label the relevant columns as GOP, Independent, and Democratic voters and provide candidate shares but not subgroup Ns; the required total N / 4 fallback was applied rather than using rounded party-composition percentages.
+- Noble Predictive Insights labels the independent column as `Independent/Nonpartisan`; it was mapped to the normalized Independent bucket. The required total N / 4 fallback was applied for subgroup Ns.
+- Emerson's national generic-ballot crosstabs use party registration or affiliation rows. They were accepted because the public workbook provides Democrat, Republican, and Independent/other candidate shares with explicit weighted subgroup Ns.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-20
 
 ### Sources Searched
