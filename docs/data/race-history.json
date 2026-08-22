@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:09:37.576968+00:00",
+  "generated_at": "2026-08-22T09:05:48.283001+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -67,6 +67,13 @@
           "candidate_b_share": 0.5424,
           "margin": -0.1624,
           "margin_percent": -16.24
+        },
+        {
+          "date": "2026-08-17",
+          "candidate_a_share": 0.4019,
+          "candidate_b_share": 0.5187,
+          "margin": -0.1168,
+          "margin_percent": -11.68
         }
       ],
       "poll_points": [
@@ -97,6 +104,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://7453540.fs1.hubspotusercontent-na1.net/hubfs/7453540/AZPOP/2026/Aug%202026%20AZPOP/260810_AZPOP_Gov%20PR%20poll%20report.xlsx"
+        },
+        {
+          "poll_id": "quantus-insights_az_gov_2026-08-14_2026-08-17_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-08-17",
+          "candidate_a_share": 0.432,
+          "candidate_b_share": 0.491,
+          "margin": -0.059,
+          "margin_percent": -5.9,
+          "leader": "democratic",
+          "sample_size": 780,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1BykPOxoJ1OPnMi2maevjUosmYs8faa8Q/view?usp=sharing"
         }
       ]
     },
@@ -1326,6 +1347,13 @@
           "candidate_b_share": 0.453,
           "margin": 0.0006,
           "margin_percent": 0.06
+        },
+        {
+          "date": "2026-08-18",
+          "candidate_a_share": 0.4528,
+          "candidate_b_share": 0.4564,
+          "margin": -0.0036,
+          "margin_percent": -0.36
         }
       ],
       "poll_points": [
@@ -1342,6 +1370,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.wpr.org/wp-content/uploads/2026/08/Badger-Battleground-Poll-Memo-August-2026-Final.pdf"
+        },
+        {
+          "poll_id": "tipp-law_wi_gov_2026-08-14_2026-08-18_crosstab",
+          "pollster": "TIPP/League of American Workers",
+          "date": "2026-08-18",
+          "candidate_a_share": 0.4339,
+          "candidate_b_share": 0.4674,
+          "margin": -0.0336,
+          "margin_percent": -3.36,
+          "leader": "democratic",
+          "sample_size": 1199,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://tippinsights.com/content/files/2026/08/Tables-Wisconsin-Aug-2026.xlsx"
         }
       ]
     }

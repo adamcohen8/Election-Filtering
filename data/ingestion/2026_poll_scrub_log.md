@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-22
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 22, 2026: `https://www.realclearpolling.com/latest-polls`.
+- High Point University Poll 126 public memo PDF for North Carolina, August 3-12, 2026: `https://www.highpoint.edu/src/files/2023/08/HPU-Poll-126-Memo-08192026.pdf`.
+- TIPP / League of American Workers Wisconsin release and public crosstab workbook, published August 21, 2026: `https://tippinsights.com/league-of-american-workers-survey-wisconsin-4/` and `https://tippinsights.com/content/files/2026/08/Tables-Wisconsin-Aug-2026.xlsx`.
+- Quantus Insights Arizona governor release and linked public Google Drive PDF deck, published August 21, 2026: `https://quantusinsights.org/polling/f/arizona-2026-hobbs-holds-the-edge` and `https://drive.google.com/file/d/1BykPOxoJ1OPnMi2maevjUosmYs8faa8Q/view?usp=sharing`.
+- Targeted web searches for August 21-22, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `tipp-law_wi_gov_2026-08-14_2026-08-18_crosstab` -> `wi_gov`: TIPP / League of American Workers, August 14-18, 2026, n=1,199 likely voters, Tiffany 0.433858, Crowley 0.467437. Party-ID crosstabs use the public workbook's likely-voter governor table and Party columns with explicit unweighted subgroup Ns: Republican n=404, Democratic n=460, Independent n=313.
+- `quantus-insights_az_gov_2026-08-14_2026-08-17_crosstab` -> `az_gov`: Quantus Insights, August 14-17, 2026, n=780 likely voters, Biggs 0.432, Hobbs 0.491. Party-ID crosstabs use the public PDF's Q1 registered-party table with explicit weighted subgroup bases: Republican n=273, Democratic n=257, and normalized Independent n=250 from combining Unaffiliated/DTS and Independent/other rows.
+
+### Polls Skipped As Duplicates
+
+- The August 21 AARP Michigan Senate/governor, Noble Predictive Insights Arizona governor, and Emerson generic-ballot records remained already present in the seen ledger.
+- The August 20 Susquehanna Michigan Senate row and earlier crosstab-backed modeled-race rows remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- High Point University / North Carolina Senate, August 3-12, 2026, n=660 likely voters: Cooper 50, Whatley 45. The public PDF reports the topline and methodology but no complete Republican, Democratic, and Independent party-ID candidate-share crosstab table, so this row was not normalized or applied.
+- No new national generic congressional ballot poll with usable public R/D/I party-ID candidate-share crosstabs was found beyond the already-applied Emerson August 16-17 record.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. Both newly applied records used explicit subgroup bases from public crosstab sources.
+
+### Unclassified Or Not Applied
+
+- Rasmussen and RMG presidential approval rows, non-modeled/non-general-election rows, 2028 nomination/general-election rows, favorability rows, and direction-of-country rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- TIPP Wisconsin's workbook could not be opened through the local openpyxl reader because of a stylesheet attribute, so the workbook XML was read directly. Candidate-share inputs use weighted vertical percentages; subgroup sample-size inputs use the printed unweighted Party Ns.
+- Quantus Arizona splits nonmajor-party voters into Unaffiliated/DTS and Independent/other rows. The normalized Independent bucket combines those two rows using their printed weighted subgroup bases because both are non-D/R registration categories.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-21
 
 ### Sources Searched
