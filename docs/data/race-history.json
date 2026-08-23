@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:05:48.283001+00:00",
+  "generated_at": "2026-08-23T09:09:29.078018+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -74,6 +74,13 @@
           "candidate_b_share": 0.5187,
           "margin": -0.1168,
           "margin_percent": -11.68
+        },
+        {
+          "date": "2026-08-19",
+          "candidate_a_share": 0.3876,
+          "candidate_b_share": 0.5027,
+          "margin": -0.115,
+          "margin_percent": -11.5
         }
       ],
       "poll_points": [
@@ -118,6 +125,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1BykPOxoJ1OPnMi2maevjUosmYs8faa8Q/view?usp=sharing"
+        },
+        {
+          "poll_id": "nextgen-polling_az_gov_2026-08-17_2026-08-19_crosstab",
+          "pollster": "NextGen Polling",
+          "date": "2026-08-19",
+          "candidate_a_share": 0.375,
+          "candidate_b_share": 0.39,
+          "margin": -0.015,
+          "margin_percent": -1.5,
+          "leader": "democratic",
+          "sample_size": 1380,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1Fd2YDzfyqPek-g4TsayJfGMZh8tKfWdM/view?usp=sharing"
         }
       ]
     },

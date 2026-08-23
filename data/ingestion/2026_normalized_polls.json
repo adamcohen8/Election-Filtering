@@ -1463,6 +1463,30 @@
       "topline_a": 0.432,
       "topline_b": 0.491,
       "topline_n": 780
+    },
+    {
+      "poll_id": "nextgen-polling_az_gov_2026-08-17_2026-08-19_crosstab",
+      "pollster": "NextGen Polling",
+      "field_date": "2026-08-19",
+      "race_id": "az_gov",
+      "state": "Arizona",
+      "office": "governor",
+      "candidate_a": "Andy Biggs",
+      "candidate_b": "Katie Hobbs",
+      "source_url": "https://drive.google.com/file/d/1Fd2YDzfyqPek-g4TsayJfGMZh8tKfWdM/view?usp=sharing",
+      "text": "Arizona governor ballot test, August 17-19 2026, NextGen Polling, statewide survey n=1,627 and governor ballot weighted base n=1,380. Candidate A is the Republican, Andy Biggs; candidate B is the Democrat, Katie Hobbs. Party-ID crosstabs use the public crosstab workbook's Q9 Governor Ballot Party table, with explicit weighted subgroup Ns. The normalized Independent bucket maps the public IND-OTH column to Independent.",
+      "republican_a": 0.680,
+      "republican_b": 0.105,
+      "republican_n": 612,
+      "democratic_a": 0.036,
+      "democratic_b": 0.805,
+      "democratic_n": 388,
+      "independent_a": 0.233,
+      "independent_b": 0.424,
+      "independent_n": 380,
+      "topline_a": 0.375,
+      "topline_b": 0.390,
+      "topline_n": 1380
     }
   ]
 }

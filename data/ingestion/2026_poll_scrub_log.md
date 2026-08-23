@@ -1,5 +1,43 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-23
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 23, 2026: `https://www.realclearpolling.com/latest-polls`.
+- PollingSource August 22 surface for newly listed modeled-race and generic ballot rows: `https://pollingsource.com/today`.
+- High Point University Poll 126 public memo PDF for North Carolina, August 3-12, 2026: `https://www.highpoint.edu/src/files/2023/08/HPU-Poll-126-Memo-08192026.pdf`.
+- NextGen Polling Arizona Flock / ALPR survey news post, press release, toplines, project analysis, and public crosstab workbook, published August 22, 2026: `https://nxtgenp.com/post/new-blog-post-6092`.
+- 270toWin Arizona governor polling table and targeted web searches for August 22-23, 2026 modeled Senate, governor, and generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `nextgen-polling_az_gov_2026-08-17_2026-08-19_crosstab` -> `az_gov`: NextGen Polling, August 17-19, 2026, statewide survey n=1,627 and governor ballot weighted base n=1,380, Biggs 37.5, Hobbs 39.0. Party-ID crosstabs use the public workbook's Q9 Governor Ballot Party table with explicit weighted subgroup bases: Republican n=612, Democratic n=388, Independent/other n=380.
+
+### Polls Skipped As Duplicates
+
+- The August 22 PollingSource/RCP rows for TIPP / League of American Workers Wisconsin governor and Quantus Insights Arizona governor remained already present in the seen ledger from the August 22 scrub.
+- Earlier crosstab-backed modeled-race and national generic ballot records remained already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- High Point University / North Carolina Senate, August 3-12, 2026, n=660 likely voters: Cooper 50, Whatley 45. The public PDF reports the topline, U.S. House-in-district generic rows, and party composition, but no complete Republican, Democratic, and Independent party-ID candidate-share crosstab table, so the North Carolina Senate row was not normalized or applied.
+- High Point University U.S. House-in-district generic ballot rows were not normalized or applied because they are North Carolina-sample district-level generic rows rather than the modeled national `us_house_generic` race, and they do not include complete R/D/I party-ID candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied. The NextGen Arizona governor record used explicit weighted subgroup bases from the public crosstab workbook.
+
+### Unclassified Or Not Applied
+
+- RealClearPolling did not list new August 22 or August 23 modeled Senate, governor, or national generic congressional ballot rows beyond the sources reviewed above.
+- Rasmussen/RMG approval rows, direction-of-country rows, 2028 rows, non-modeled statewide rows, and other non-general-election items are outside the modeled race set.
+
+### Extraction Uncertainties
+
+- NextGen's crosstab workbook labels the nonmajor-party column as `IND-OTH`; it was mapped to the normalized Independent bucket. The workbook prints both surveywide n=1,627 and a Q9 governor-ballot weighted base of n=1,380; the normalized topline and subgroup Ns use the Q9 governor-ballot base because that is the ballot table's explicit base.
+- No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-22
 
 ### Sources Searched
