@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-24
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 24, 2026: `https://www.realclearpolling.com/latest-polls`.
+- PollingSource home, today page, latest Senate polls, governor ratings/polling, and generic congressional ballot pages, reviewed August 24, 2026: `https://pollingsource.com/`, `https://pollingsource.com/today`, `https://pollingsource.com/senate/polls`, and `https://pollingsource.com/polls/generic-ballot`.
+- Targeted web searches for August 23-24, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- Recent public aggregator and prediction-market references were reviewed only as discovery surfaces, not as source data.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or national generic congressional ballot poll with usable public Republican, Democratic, and Independent party-ID candidate shares was found after the August 23 scrub.
+
+### Polls Skipped As Duplicates
+
+- The RealClearPolling latest page still topped out at the August 21 North Carolina Senate, Wisconsin governor, and Arizona governor rows already reviewed during the August 22-23 scrubs.
+- PollingSource continued to surface the already reviewed/applied August 22 Arizona governor rows from NextGen and Quantus, plus the already applied TIPP Wisconsin governor row.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- High Point University North Carolina Senate and North Carolina-sample U.S. House-in-district generic rows remained excluded for the same reasons logged on August 23: no complete R/D/I party-ID candidate-share crosstabs, and the House row is not the modeled national `us_house_generic` race.
+- PollingSource's August 24 sourcing highlighted New Mexico governor and Arkansas governor/Senate polling, which are outside this automation's modeled race set.
+- No new national generic congressional ballot row with complete public R/D/I party-ID candidate-share crosstabs was found. PollingSource's generic-ballot page still listed Emerson August 17 as the most recent public generic ballot row.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None newly applied.
+
+### Unclassified Or Not Applied
+
+- Idaho Senate, Arkansas Senate/governor, Minnesota Senate, New Mexico governor, non-modeled House rows, approval rows, direction-of-country rows, 2028 rows, and runoff/primary items are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The local checkout at `/Users/adamcohen/Documents/Election Modeling` remained an APFS dataless placeholder and small file reads timed out, so this run used a clean temporary clone of the remote repository for read/write/push operations. No aggregate-topline-only poll IDs were added to `data/ingestion/2026_seen_polls.json`.
+
 ## 2026-08-23
 
 ### Sources Searched
