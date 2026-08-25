@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:02:53.637634+00:00",
+  "generated_at": "2026-08-25T09:05:45.524640+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -76,11 +76,18 @@
           "margin_percent": -11.68
         },
         {
+          "date": "2026-08-18",
+          "candidate_a_share": 0.3936,
+          "candidate_b_share": 0.5209,
+          "margin": -0.1272,
+          "margin_percent": -12.72
+        },
+        {
           "date": "2026-08-19",
-          "candidate_a_share": 0.3876,
-          "candidate_b_share": 0.5027,
-          "margin": -0.115,
-          "margin_percent": -11.5
+          "candidate_a_share": 0.3821,
+          "candidate_b_share": 0.5047,
+          "margin": -0.1225,
+          "margin_percent": -12.25
         }
       ],
       "poll_points": [
@@ -125,6 +132,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1BykPOxoJ1OPnMi2maevjUosmYs8faa8Q/view?usp=sharing"
+        },
+        {
+          "poll_id": "highground_az_gov_2026-08-15_2026-08-18_assumed_n",
+          "pollster": "HighGround Public Affairs",
+          "date": "2026-08-18",
+          "candidate_a_share": 0.343,
+          "candidate_b_share": 0.495,
+          "margin": -0.152,
+          "margin_percent": -15.2,
+          "leader": "democratic",
+          "sample_size": 400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://azhighground.com/hobbs-builds-double-digit-lead-in-arizona/"
         },
         {
           "poll_id": "nextgen-polling_az_gov_2026-08-17_2026-08-19_crosstab",
@@ -1116,6 +1137,13 @@
           "candidate_b_share": 0.5535,
           "margin": -0.107,
           "margin_percent": -10.7
+        },
+        {
+          "date": "2026-08-24",
+          "candidate_a_share": 0.4474,
+          "candidate_b_share": 0.5526,
+          "margin": -0.1053,
+          "margin_percent": -10.53
         }
       ],
       "poll_points": [
@@ -1356,6 +1384,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1J-I00agiGtqUBW5oG2sd-qUZd77luT0-/edit?gid=1885928462#gid=1885928462"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-08-21_2026-08-24_crosstab",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-08-24",
+          "candidate_a_share": 0.35,
+          "candidate_b_share": 0.41,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 951,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Reuters%20Ipsos%20August%20Core%20Political%20Topline.pdf"
         }
       ]
     },

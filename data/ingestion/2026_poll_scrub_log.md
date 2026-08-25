@@ -1,5 +1,43 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-25
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 25, 2026: `https://www.realclearpolling.com/latest-polls`.
+- HighGround Public Affairs Arizona governor release, published August 24, 2026: `https://azhighground.com/hobbs-builds-double-digit-lead-in-arizona/`.
+- Reuters/Ipsos August Core Political topline and methodology PDF, fielded August 21-24, 2026: `https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Reuters%20Ipsos%20August%20Core%20Political%20Topline.pdf`.
+- PollingSource generic congressional ballot page, reviewed August 25, 2026: `https://pollingsource.com/polls/generic-ballot`.
+- Targeted web searches for August 24-25, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `highground_az_gov_2026-08-15_2026-08-18_assumed_n` -> `az_gov`: HighGround Public Affairs, August 15-18, 2026, n=400 likely voters, Biggs 34.3, Hobbs 49.5. Party-ID crosstabs use the public release image table's GOP, Dem, and PND rows. The release does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 100.
+- `reuters-ipsos_us_house_generic_2026-08-21_2026-08-24_crosstab` -> `us_house_generic`: Reuters/Ipsos August Core Political, August 21-24, 2026, n=951 registered voters for the RCP-visible topline, Republican 35, Democrat 41. Party-ID crosstabs use the public topline PDF's Republican, Democratic, and Independent/other columns with explicit unweighted subgroup bases: Republican n=324, Democratic n=357, Independent/other n=534.
+
+### Polls Skipped As Duplicates
+
+- The August 24 Reuters/Ipsos approval row was not a race poll. Earlier August generic ballot rows from Emerson, Economist/YouGov, and Reuters/Ipsos remained already handled by prior scrubs.
+- The August 21-23 modeled-race rows from TIPP, Quantus, NextGen, High Point, and earlier crosstab-backed sources remained already reviewed or already present in the seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- No new modeled Senate or governor row with complete public R/D/I party-ID candidate-share crosstabs was found beyond the already applied/handled Arizona and Wisconsin rows from August 21-23.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `highground_az_gov_2026-08-15_2026-08-18_assumed_n`: subgroup Ns are not printed in the public release, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 100.
+- The Reuters/Ipsos generic ballot record used explicit unweighted subgroup Ns from the public PDF.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate Republican runoff, Idaho Senate, Arkansas Senate/governor, Minnesota Senate/governor, New Mexico governor, Massachusetts races, 2028 rows, approval rows, direction-of-country rows, and other primary/non-modeled items are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Reuters/Ipsos reports the generic ballot as a national U.S. House district vote question. The normalized topline uses the RCP-visible registered-voter column, while party-ID crosstabs use the PDF's Republican, Democratic, and Independent/other respondent columns with their printed unweighted subgroup Ns.
+- HighGround's public table splits party into GOP, Dem, PND, and Other. PND was mapped to the normalized Independent bucket; the Other party-registration row was not included because the model has no separate minor-party ID bucket and the required fallback is direct total N / 4, not a weighted combination from rounded party-composition percentages.
+
 ## 2026-08-24
 
 ### Sources Searched
