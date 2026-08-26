@@ -1,5 +1,50 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-26
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 26, 2026: `https://www.realclearpolling.com/latest-polls`.
+- University of Texas/Texas Politics Project August 2026 release, toplines, and crosstab PDF for Texas Senate and Texas governor, fielded August 5-13, 2026: `https://texaspolitics.utexas.edu/blog/new-ut-texas-politics-project-poll-finds-talarico-leading-paxton-abbott-leading-hinojosa-continued-resistance-to-data-centers-2`, `https://texaspolitics.utexas.edu/files/202608_POLL_TOPLINE-c5d4ba53.pdf`, and `https://texaspolitics.utexas.edu/files/202608_POLL_CROSSTABS-274ba11f.pdf`.
+- Philadelphia Inquirer/New York Times/Siena public Pennsylvania governor crosstab chart, fielded August 17-21, 2026: `https://media.inquirer.com/storage/inquirer/ai2html/nyt-shapiro2/index.html`.
+- The Economist/YouGov August 21-24, 2026 crosstab PDF linked from RealClearPolling for the national generic congressional ballot: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_v7iliA1.pdf`.
+- PollingSource and Vote-Scope generic ballot/governor discovery surfaces, reviewed August 26, 2026: `https://pollingsource.com/polls/generic-ballot`, `https://pollingsource.com/today`, and `https://vote-scope.com/en/us/house/polls/`.
+- Targeted web searches for August 25-26, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `ut-texas-politics_tx_sen_2026-08-05_2026-08-13_assumed_n` -> `tx_sen`: University of Texas/Texas Politics Project, August 5-13, 2026, n=1,200 registered voters, Paxton 39, Talarico 42. Party-ID crosstabs use Q19 Party rows: Republicans Paxton 79 / Talarico 5; Democrats Paxton 0 / Talarico 91; Independents Paxton 11 / Talarico 37. The PDF does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 300.
+- `ut-texas-politics_tx_gov_2026-08-05_2026-08-13_assumed_n` -> `tx_gov`: University of Texas/Texas Politics Project, August 5-13, 2026, n=1,200 registered voters, Abbott 45, Hinojosa 40. Party-ID crosstabs use Q20 Party rows: Republicans Abbott 86 / Hinojosa 2; Democrats Abbott 2 / Hinojosa 89; Independents Abbott 17 / Hinojosa 37. The PDF does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 300.
+- `nyt-siena_pa_gov_2026-08-17_2026-08-21_assumed_n` -> `pa_gov`: New York Times/Siena College via the Philadelphia Inquirer public crosstab chart, August 17-21, 2026, n=760 likely voters, Garrity 39, Shapiro 55. Party-ID crosstabs show Democrats Shapiro 95 / Garrity 2; Independents Shapiro 50 / Garrity 36; Republicans Shapiro 12 / Garrity 84. The chart does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 190.
+- `economist-yougov_us_house_generic_2026-08-21_2026-08-24_crosstab` -> `us_house_generic`: The Economist/YouGov, August 21-24, 2026, n=1,377 voters for the RCP-visible generic ballot, Republican 40, Democrat 46. Party-ID crosstabs use the PDF's Generic Congressional Vote Party ID columns with explicit unweighted subgroup bases: Republican n=451, Democratic n=474, Independent n=609.
+
+### Polls Skipped As Duplicates
+
+- Reuters/Ipsos August 21-24 generic ballot, HighGround Arizona governor, Emerson August 16-17 generic ballot, Saint Anselm New Hampshire rows, InsiderAdvantage Georgia rows, TIPP Wisconsin/Michigan rows, Quantus/NextGen Arizona governor rows, and other already reviewed August rows remained duplicates or already-handled entries in the scrub log and seen ledger.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- No newly surfaced modeled race was excluded solely as aggregate topline-only after the four crosstab-backed records above were applied.
+- Morning Consult generic congressional ballot tracker rows remained excluded because the reviewed public tracker surface still did not expose complete Republican, Democratic, and Independent party-ID candidate-share crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `ut-texas-politics_tx_sen_2026-08-05_2026-08-13_assumed_n`: subgroup Ns are not printed in the public crosstab PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 300.
+- `ut-texas-politics_tx_gov_2026-08-05_2026-08-13_assumed_n`: subgroup Ns are not printed in the public crosstab PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 300.
+- `nyt-siena_pa_gov_2026-08-17_2026-08-21_assumed_n`: subgroup Ns are not printed in the public Inquirer/NYT/Siena chart, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 190.
+- The Economist/YouGov generic ballot record used explicit unweighted subgroup Ns from the public PDF.
+
+### Unclassified Or Not Applied
+
+- Rhode Island governor Democratic primary, South Carolina Senate Republican runoff, state-specific Texas generic U.S. Congress ballot, approval rows, direction-of-country rows, 2028 rows, non-modeled statewide races, and primary-only items are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- University of Texas/Texas Politics Project prints clear R/D/I party-ID candidate shares for the Texas Senate and governor ballot questions but not party subgroup Ns; the records use the direct total N / 4 fallback and do not infer Ns from party-composition percentages.
+- The public Inquirer/NYT/Siena Pennsylvania governor chart prints R/D/I candidate shares and subgroup MOEs but not party subgroup Ns; the record uses the direct total N / 4 fallback and does not infer Ns from subgroup MOEs.
+- The Economist/YouGov generic-ballot normalization uses Republican as candidate A and Democratic as candidate B. The topline uses the RCP-visible `Voters` column, while party-ID shares and explicit subgroup Ns come from the PDF's Party ID columns.
+- The local checkout at `/Users/adamcohen/Documents/Election Modeling` continued to behave like a dataless APFS placeholder during prior runs, so this run used a clean temporary clone of the remote repository for read/write/push operations.
+
 ## 2026-08-25
 
 ### Sources Searched

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T09:05:45.524640+00:00",
+  "generated_at": "2026-08-26T09:07:20.051836+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -843,6 +843,13 @@
           "candidate_b_share": 0.5271,
           "margin": -0.1073,
           "margin_percent": -10.73
+        },
+        {
+          "date": "2026-08-21",
+          "candidate_a_share": 0.4222,
+          "candidate_b_share": 0.5219,
+          "margin": -0.0996,
+          "margin_percent": -9.96
         }
       ],
       "poll_points": [
@@ -859,6 +866,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://poll.qu.edu/poll-release?releaseid=3962"
+        },
+        {
+          "poll_id": "nyt-siena_pa_gov_2026-08-17_2026-08-21_assumed_n",
+          "pollster": "New York Times/Siena College",
+          "date": "2026-08-21",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.55,
+          "margin": -0.16,
+          "margin_percent": -16.0,
+          "leader": "democratic",
+          "sample_size": 760,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://media.inquirer.com/storage/inquirer/ai2html/nyt-shapiro2/index.html"
         }
       ]
     },
@@ -885,6 +906,13 @@
           "candidate_b_share": 0.451,
           "margin": 0.0348,
           "margin_percent": 3.48
+        },
+        {
+          "date": "2026-08-13",
+          "candidate_a_share": 0.4712,
+          "candidate_b_share": 0.4456,
+          "margin": 0.0256,
+          "margin_percent": 2.56
         }
       ],
       "poll_points": [
@@ -929,6 +957,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/12OBa7ZqJ928OnE7mIwR5q0v1O2847SNS/edit?ouid=107857247170786005927&rtpof=true&sd=true&usp=sharing"
+        },
+        {
+          "poll_id": "ut-texas-politics_tx_gov_2026-08-05_2026-08-13_assumed_n",
+          "pollster": "University of Texas/Texas Politics Project",
+          "date": "2026-08-13",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.4,
+          "margin": 0.05,
+          "margin_percent": 5.0,
+          "leader": "republican",
+          "sample_size": 1200,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://texaspolitics.utexas.edu/files/202608_POLL_CROSSTABS-274ba11f.pdf"
         }
       ]
     },
@@ -976,6 +1018,13 @@
           "candidate_b_share": 0.5182,
           "margin": -0.0364,
           "margin_percent": -3.64
+        },
+        {
+          "date": "2026-08-13",
+          "candidate_a_share": 0.4694,
+          "candidate_b_share": 0.5306,
+          "margin": -0.0612,
+          "margin_percent": -6.12
         }
       ],
       "poll_points": [
@@ -1062,6 +1111,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/12OBa7ZqJ928OnE7mIwR5q0v1O2847SNS/edit?ouid=107857247170786005927&rtpof=true&sd=true&usp=sharing"
+        },
+        {
+          "poll_id": "ut-texas-politics_tx_sen_2026-08-05_2026-08-13_assumed_n",
+          "pollster": "University of Texas/Texas Politics Project",
+          "date": "2026-08-13",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.42,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 1200,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://texaspolitics.utexas.edu/files/202608_POLL_CROSSTABS-274ba11f.pdf"
         }
       ]
     },
@@ -1140,10 +1203,10 @@
         },
         {
           "date": "2026-08-24",
-          "candidate_a_share": 0.4474,
-          "candidate_b_share": 0.5526,
-          "margin": -0.1053,
-          "margin_percent": -10.53
+          "candidate_a_share": 0.4476,
+          "candidate_b_share": 0.5524,
+          "margin": -0.1049,
+          "margin_percent": -10.49
         }
       ],
       "poll_points": [
@@ -1384,6 +1447,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1J-I00agiGtqUBW5oG2sd-qUZd77luT0-/edit?gid=1885928462#gid=1885928462"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-08-21_2026-08-24_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-08-24",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.46,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1377,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_v7iliA1.pdf"
         },
         {
           "poll_id": "reuters-ipsos_us_house_generic_2026-08-21_2026-08-24_crosstab",
