@@ -1,5 +1,55 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-27
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 27, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Suffolk University Political Research Center Iowa release page, statewide marginals, and statewide tables PDF for Iowa Senate and Iowa governor, fielded August 20-23, 2026: `https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states` and `https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/8_26_2026_iowa_statewide_tables.pdf?hash=E1724F5013910C570C1F247169E3D92480480DE9&la=en`.
+- Marquette Law School Poll Wisconsin governor release and public result tables, fielded August 12-20, 2026: `https://law.marquette.edu/poll/2026/08/26/marquette-law-poll-finds-crowley-leading-tiffany-among-likely-voters-tied-among-all-registered-voters/`.
+- McLaughlin & Associates August national poll article and full national presentation PDF, fielded August 18-24, 2026: `https://mclaughlinonline.com/2026/08/26/ma-via-newsmax-9-weeks-left-reframe-election-to-capitalism-vs-socialism-for-a-win/` and `https://mclaughlinonline.com/pols/wp-content/uploads/2026/08/National-August-Presentation-RELEASE.pdf`.
+- UNH Survey Center New Hampshire Senate release page and PDF download path for the August 26, 2026 release: `https://scholars.unh.edu/survey_center_polls/988/`.
+- Angus Reid U.S. generic congressional ballot release and public data tables, published August 27, 2026: `https://angusreid.us/congressional-generic-ballot-democrats-lead-53-43/` and `https://angusreid.us/wp-content/uploads/2026/08/2026.08.26_MidTerms_Final_PR_Tables.pdf`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed August 27, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- Targeted web searches for August 26-27, 2026 modeled Senate, governor, Arizona governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `suffolk_ia_sen_2026-08-20_2026-08-23_crosstab` -> `ia_sen`: Suffolk University, August 20-23, 2026, n=500 Iowa registered voters likely or somewhat likely to vote in the 2026 midterm, Hinson 45, Turek 41. Party-ID crosstabs use Q7 PARTY columns with explicit subgroup Ns: Republicans Hinson 88 / Turek 5, n=189; Democrats Hinson 1 / Turek 94, n=139; No Party/Ind Hinson 35 / Turek 39, n=164.
+- `suffolk_ia_gov_2026-08-20_2026-08-23_crosstab` -> `ia_gov`: Suffolk University, August 20-23, 2026, n=500 Iowa registered voters likely or somewhat likely to vote in the 2026 midterm, Lahn 44, Sand 48. Party-ID crosstabs use Q9 PARTY columns with explicit subgroup Ns: Republicans Lahn 84 / Sand 9, n=189; Democrats Lahn 0 / Sand 97, n=139; No Party/Ind Lahn 34 / Sand 53, n=164.
+- `marquette_wi_gov_2026-08-12_2026-08-20_assumed_n` -> `wi_gov`: Marquette Law School Poll, August 12-20, 2026, n=738 likely voters, Tiffany 44, Crowley 49. Party-ID crosstabs use Table 1 likely-voter party ID rows: Republicans Tiffany 91 / Crowley 3; Democrats Tiffany 0 / Crowley 98; Independents Tiffany 16 / Crowley 55. The release does not print likely-voter party subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 185.
+- `mclaughlin_us_house_generic_2026-08-18_2026-08-24_assumed_n` -> `us_house_generic`: McLaughlin & Associates, August 18-24, 2026, n=1,000 likely general-election voters, Republican 43, Democrat 48. Party-ID crosstabs use the full national presentation PDF's standard generic ballot rows: Republicans Republican 94 / Democrat 4; Democrats Republican 6 / Democrat 92; Independents Republican 27 / Democrat 48. The PDF does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 250.
+
+### Polls Skipped As Duplicates
+
+- August 25 University of Texas/Texas Politics Project Texas Senate and governor rows, New York Times/Siena Pennsylvania governor row, and The Economist/YouGov August 21-24 generic ballot row were already applied in the August 26 scrub and remained in the seen ledger.
+- Earlier August Reuters/Ipsos, HighGround, Emerson, Saint Anselm, InsiderAdvantage, TIPP, Quantus/NextGen, High Point, and other previously reviewed modeled-race rows remained duplicates or already-handled entries.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- UNH Survey Center New Hampshire Senate general-election rows for Pappas vs. Sununu and Pappas vs. Brown were surfaced by RealClearPolling and the UNH release page, but the direct PDF download was not accessible to text extraction during this run and no usable public R/D/I party-ID candidate-share crosstabs were extracted. No model update.
+- Angus Reid U.S. generic congressional ballot, fielded August 8-11, 2026, n=1,525 U.S. adults, published August 27, 2026, showed Democrat 45 / Republican 36 overall and Democrat 53 / Republican 43 among decided voters. The public data tables did not expose Republican, Democratic, and Independent party-ID candidate-share crosstabs. No model update.
+- GrayHouse Arizona governor and Arizona generic ballot rows surfaced through PollingSource/social-media snippets as internal polling, but no public release, methodology, or party-ID crosstab source was located. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `marquette_wi_gov_2026-08-12_2026-08-20_assumed_n`: likely-voter party subgroup Ns are not printed in the public release, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 185.
+- `mclaughlin_us_house_generic_2026-08-18_2026-08-24_assumed_n`: party subgroup Ns are not printed in the public PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 250.
+- The two Suffolk University Iowa records used explicit subgroup Ns from the public statewide tables PDF.
+
+### Unclassified Or Not Applied
+
+- New Hampshire Senate Republican and Democratic primary rows, Massachusetts governor/Senate rows, Rhode Island governor rows, approval rows, 2028 rows, direction-of-country rows, issue rows, non-modeled statewide races, and primary-only items are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Suffolk University labels the third party-ID column `No Party/Ind`; it was normalized to Independent with explicit subgroup n=164 for both Iowa records.
+- Marquette prints clear likely-voter party-ID candidate shares but does not print likely-voter party subgroup Ns; the record uses the direct total N / 4 fallback and does not infer Ns from partisan composition.
+- McLaughlin prints both a standard generic ballot and a capitalism-vs-socialism framing. The normalized record uses the standard generic ballot and treats Republican as candidate A and Democratic as candidate B.
+- Angus Reid's public data tables provide generic ballot breakdowns by demographics and state-color buckets but not by Republican, Democratic, and Independent party ID.
+- The UNH New Hampshire Senate release page was accessible, but the linked PDF could not be extracted through the available live-source paths during this run; the poll was logged as missing usable public crosstabs rather than applied.
+- PollingSource showed no new polls on its August 27 today page, so newly applied records came from August 26 releases discovered through RealClearPolling and targeted source checks.
+
 ## 2026-08-26
 
 ### Sources Searched
