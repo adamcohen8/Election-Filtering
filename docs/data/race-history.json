@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T09:08:36.937797+00:00",
+  "generated_at": "2026-08-28T09:55:02.992146+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1238,10 +1238,10 @@
         },
         {
           "date": "2026-08-17",
-          "candidate_a_share": 0.4465,
-          "candidate_b_share": 0.5535,
-          "margin": -0.107,
-          "margin_percent": -10.7
+          "candidate_a_share": 0.4463,
+          "candidate_b_share": 0.5537,
+          "margin": -0.1074,
+          "margin_percent": -10.74
         },
         {
           "date": "2026-08-24",
@@ -1463,6 +1463,20 @@
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_pKJG0WT.pdf"
         },
         {
+          "poll_id": "echelon_us_house_generic_2026-08-13_2026-08-17_crosstab",
+          "pollster": "Echelon Insights",
+          "date": "2026-08-17",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.5,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1002,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://docs.google.com/spreadsheets/d/1PS4OA5cGoKtNwTpgcnTSdcr0i5o326Zv/edit?ouid=100971133314342666600&rtpof=true&sd=true&usp=sharing"
+        },
+        {
           "poll_id": "economist-yougov_us_house_generic_2026-08-14_2026-08-17_crosstab",
           "pollster": "Economist/YouGov",
           "date": "2026-08-17",
@@ -1489,6 +1503,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1J-I00agiGtqUBW5oG2sd-qUZd77luT0-/edit?gid=1885928462#gid=1885928462"
+        },
+        {
+          "poll_id": "activote_us_house_generic_2026-08-10_2026-08-24_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-08-24",
+          "candidate_a_share": 0.483,
+          "candidate_b_share": 0.517,
+          "margin": -0.034,
+          "margin_percent": -3.4,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/democratic-lead-narrows-in-generic-congressional-ballot/"
         },
         {
           "poll_id": "economist-yougov_us_house_generic_2026-08-21_2026-08-24_crosstab",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T09:08:36.930586+00:00",
+  "generated_at": "2026-08-28T09:55:02.985149+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -564,8 +564,8 @@
       "candidate_b_share": 0.5525,
       "margin": -0.1049,
       "margin_percent": -10.49,
-      "margin_of_error": 0.0048,
-      "margin_of_error_percent": 0.48,
+      "margin_of_error": 0.0047,
+      "margin_of_error_percent": 0.47,
       "leader": "democratic",
       "status": "safe-democratic",
       "nominee_last_verified": "2026-07-04",

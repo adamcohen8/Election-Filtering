@@ -1,5 +1,55 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-28
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 28, 2026: `https://www.realclearpolling.com/latest-polls`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed August 28, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- TPOR/Texas Public Opinion Research August Texas general-election release and topline PDF, fielded August 21-24, 2026: `https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election` and `https://drive.google.com/uc?export=download&id=18u5_icI6BkQBfK6kOlhnYQ9oWb3RZkSJ`.
+- Franklin & Marshall College Poll August 2026 Pennsylvania release, summary PDF, and topline PDF, fielded August 17-23, 2026: `https://www.fandmpoll.org/franklin-marshall-college-poll-release-august-2026/`, `https://www.fandmpoll.org/content/files/2026/08/KEYAUG26_Summary-1.pdf`, and `https://www.fandmpoll.org/content/files/2026/08/KEYAUG26_Topline.pdf`.
+- Echelon Insights August 2026 Verified Voter Omnibus release, topline PDF, and public crosstab workbook, fielded August 13-17, 2026: `https://echeloninsights.com/insights/august-2026-verified-voter-omnibus`, `https://echeloninsights.com/hubfs/_Media%20for%20Insights%20Blog/August%202026%20Voter%20Omnibus%20Topline%20-%20External.pdf`, and `https://docs.google.com/spreadsheets/d/1PS4OA5cGoKtNwTpgcnTSdcr0i5o326Zv/edit?ouid=100971133314342666600&rtpof=true&sd=true&usp=sharing`.
+- ActiVote August national generic congressional ballot release and release image, fielded August 10-24, 2026: `https://www.activote.net/democratic-lead-narrows-in-generic-congressional-ballot/` and `https://www.activote.net/wp-content/uploads/2026/08/image-9.png`.
+- Strength In Numbers/Verasight August poll release and topline PDF, fielded August 14-19, 2026: `https://www.gelliottmorris.com/p/2026-08-25-august-strength-in-numbers-verasight-poll-release` and `https://www.gelliottmorris.com/api/v1/file/9a1cc659-c554-42b2-a0e5-0426b9cf3f2e.pdf`.
+- Bullfinch Group Q3 nationwide survey release page, fielded August 14-17, 2026: `https://www.thebullfinchgroup.com/post/public-release-of-bullfinch-q3-nationwide-survey-4`.
+- Targeted web searches for August 27-28, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `echelon_us_house_generic_2026-08-13_2026-08-17_crosstab` -> `us_house_generic`: Echelon Insights, August 13-17, 2026, n=1,002 registered voters in the likely electorate, Republican 45, Democrat 50. Party-ID crosstabs use the public workbook's QGenericCongressional Party columns with explicit unweighted subgroup Ns: Republicans Republican 94 / Democrat 4, n=387; Democrats Republican 1 / Democrat 98, n=384; Independents Republican 27 / Democrat 54, n=231.
+- `activote_us_house_generic_2026-08-10_2026-08-24_assumed_n` -> `us_house_generic`: ActiVote, August 10-24, 2026, n=1,000 likely midterm voters, Republican 48.3, Democrat 51.7. Party-ID crosstabs use the public release image affiliation rows: Republicans Republican 93 / Democrat 7; Democrats Republican 9 / Democrat 91; Independents Republican 45 / Democrat 55. The release image does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 250.
+
+### Polls Skipped As Duplicates
+
+- August 20-23 Suffolk University Iowa Senate and Iowa governor rows, August 12-20 Marquette Wisconsin governor row, August 18-24 McLaughlin generic ballot row, August 21-24 Economist/YouGov generic ballot row, August 5-13 University of Texas/Texas Politics Project Texas rows, and August 17-21 New York Times/Siena Pennsylvania governor row were already applied in prior scrubs and remained in the seen ledger.
+- Earlier August Reuters/Ipsos, HighGround, Emerson, Saint Anselm, InsiderAdvantage, TIPP, Quantus/NextGen, High Point, and other previously reviewed modeled-race rows remained duplicates or already-handled entries.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- TPOR/Texas Public Opinion Research Texas Senate, fielded August 21-24, 2026, n=1,000 likely Texas voters, showed Talarico 48 / Paxton 42 with leans. The public article mentions Talarico 55 / Paxton 29 among independents, but the public topline PDF does not provide complete Republican, Democratic, and Independent party-ID candidate-share rows; the article says crosstabs are available on request. No model update.
+- TPOR/Texas Public Opinion Research Texas governor, fielded August 21-24, 2026, n=1,000 likely Texas voters, showed Abbott 49 / Hinojosa 42 with leans. The public topline PDF does not provide complete Republican, Democratic, and Independent party-ID candidate-share rows. No model update.
+- Franklin & Marshall Pennsylvania governor, fielded August 17-23, 2026, n=501 registered Pennsylvania voters, showed Shapiro 50 / Garrity 25. The topline PDF provides the governor ballot only as an aggregate result, and the summary appendix crosstabs cover issue/job-approval questions rather than the governor ballot. No model update.
+- Franklin & Marshall Pennsylvania U.S. House generic ballot, fielded August 17-23, 2026, n=501 registered Pennsylvania voters, showed Democratic 48 / Republican 36. This was a Pennsylvania-specific House ballot rather than the modeled national generic ballot, and no party-ID ballot crosstabs were public. No model update.
+- Strength In Numbers/Verasight national generic congressional ballot, fielded August 14-19, 2026, n=1,514 adults, showed Democrat 48 / Republican 41. The public topline PDF provides registered-voter crosstabs but not Republican, Democratic, and Independent party-ID ballot crosstabs. No model update.
+- Bullfinch Group Q3 nationwide generic ballot, fielded August 14-17, 2026, surfaced on polling aggregators, but the reviewed public release path did not expose complete Republican, Democratic, and Independent party-ID candidate-share crosstabs. No model update.
+- GBAO Texas governor polling surfaced through aggregator snippets without a public source document or party-ID crosstabs. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `activote_us_house_generic_2026-08-10_2026-08-24_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the release image, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 250.
+- `echelon_us_house_generic_2026-08-13_2026-08-17_crosstab` used explicit unweighted subgroup Ns from the public workbook and did not need the fallback.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate, Idaho Senate, Rhode Island governor, Massachusetts governor/Senate, primaries, 2028 presidential rows, approval rows, direction-of-country rows, and issue-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Echelon's workbook reports both weighted bases on the question row and an explicit `Unweighted Total` row. The normalized record uses weighted candidate shares from the Party columns and the unweighted Republican, Independent, and Democratic subgroup counts as sample-size inputs, matching the prior Echelon ingestion convention.
+- ActiVote's release image provides rounded affiliation shares but not subgroup Ns. The normalized record uses the direct total N / 4 fallback and does not infer Ns from the affiliation composition rows.
+- TPOR says crosstabs are available on request, but no public complete party-ID crosstab table was found in the article or topline PDF during this scrub.
+- Bullfinch's Wix-hosted release page named the public topline PDF, but the reviewed page source and live search path did not expose a stable public PDF/crosstab URL during this run.
+
 ## 2026-08-27
 
 ### Sources Searched
