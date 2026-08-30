@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-30
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 30, 2026: `https://www.realclearpolling.com/latest-polls`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed August 30, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- EPIC-MRA/DDHQ Michigan statewide frequency report for Michigan Senate and Michigan governor, fielded August 22-28, 2026: `https://data.ddhq.io/polls/2026/08/29/EPIC-MRA-Michigan`.
+- UNH Survey Center New Hampshire governor release page and attempted official PDF download path for the August 27, 2026 release: `https://scholars.unh.edu/survey_center_polls/991/` and `https://scholars.unh.edu/cgi/viewcontent.cgi?article=1990&context=survey_center_polls`.
+- Bravo Group/PennLive Morning Scrapple Pennsylvania dashboard page and public Looker Studio embed path, fielded August 18-22, 2026: `https://bravogroup.us/morning-scrapple/`.
+- Quantus Insights August generic-ballot release page and embedded Datawrapper path, reviewed August 30, 2026: `https://quantusinsights.org/f/new-survey-democrats-hold-the-midterm-advantage` and `https://datawrapper.dwcdn.net/wYLe6/6/`.
+- Targeted web searches for August 28-30, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- None. Newly surfaced modeled-race rows did not expose complete public Republican, Democratic, and Independent party-ID candidate-share crosstabs with either explicit subgroup Ns or a valid total-N fallback path.
+
+### Polls Skipped As Duplicates
+
+- The TPOR Texas Senate/governor rows, Franklin & Marshall Pennsylvania governor row, Echelon August generic ballot row, ActiVote August generic ballot row, Reuters/Ipsos August 21-24 generic ballot row, Economist/YouGov August 21-24 generic ballot row, McLaughlin August generic ballot row, Suffolk Iowa rows, and Marquette Wisconsin governor row remained already reviewed or already applied in prior scrubs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- EPIC-MRA Michigan Senate, fielded August 22-28, 2026, n=600 likely November 2026 voters, showed Rogers 43 / El-Sayed 47 with leaners. The public DDHQ frequency report provides toplines and party composition but not ballot choice by Republican, Democratic, and Independent party ID. No model update.
+- EPIC-MRA Michigan governor, fielded August 22-28, 2026, n=600 likely November 2026 voters, showed James 41 / Benson 45 with leaners. The public DDHQ frequency report provides toplines and party composition but not ballot choice by Republican, Democratic, and Independent party ID. No model update.
+- UNH Survey Center New Hampshire governor, fielded August 20-24, 2026, n=1,878 likely voters, showed Ayotte 49 / Warmington 39. The public abstract says nearly all Republicans, a plurality of Independents, and four in five Democrats support the corresponding candidate, but exact R/D/I candidate shares were not available from the accessible page text and the official PDF download returned Cloudflare HTML during this run. No model update.
+- Bravo Group/PennLive Pennsylvania governor, fielded August 18-22, 2026, n=711 registered voters, showed Shapiro 56 / Garrity 25. The public page describes the methodology and dashboard but does not expose complete Republican, Democratic, and Independent party-ID ballot crosstabs in text or a stable public data file during this run. No model update.
+- Quantus Insights national generic ballot, published August 28, 2026, n=1,200 likely voters, showed Democrats 50 / Republicans 43. The reviewed public page and embedded Datawrapper path did not expose complete R/D/I party-ID generic-ballot crosstabs. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Or Not Applied
+
+- Massachusetts governor and Senate rows, Connecticut governor, Kansas governor, Minnesota governor/Senate, Mississippi Senate, South Dakota Senate, South Carolina Senate runoff, New Hampshire primaries, Rhode Island primaries, 2028 presidential rows, approval rows, direction-of-country rows, and issue-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- UNH's release summary confirms directional party-ID behavior for the New Hampshire governor ballot but not exact party-ID candidate-share values, so the poll was logged rather than normalized.
+- Bravo's public Morning Scrapple page references additional subgroup and crosstab material for subscribers; no public complete R/D/I ballot crosstab table was located.
+- Quantus's current public release page surfaced an embedded Datawrapper object, but the accessible dataset was not the August 2026 generic-ballot crosstab data.
+
 ## 2026-08-28
 
 ### Sources Searched
