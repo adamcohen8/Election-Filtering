@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T09:05:32.163541+00:00",
+  "generated_at": "2026-08-31T09:05:19.523646+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1237,18 +1237,25 @@
           "margin_percent": -10.37
         },
         {
+          "date": "2026-08-11",
+          "candidate_a_share": 0.4484,
+          "candidate_b_share": 0.5516,
+          "margin": -0.1032,
+          "margin_percent": -10.32
+        },
+        {
           "date": "2026-08-17",
-          "candidate_a_share": 0.4463,
-          "candidate_b_share": 0.5537,
-          "margin": -0.1074,
-          "margin_percent": -10.74
+          "candidate_a_share": 0.4466,
+          "candidate_b_share": 0.5534,
+          "margin": -0.1069,
+          "margin_percent": -10.69
         },
         {
           "date": "2026-08-24",
-          "candidate_a_share": 0.4475,
-          "candidate_b_share": 0.5525,
-          "margin": -0.1049,
-          "margin_percent": -10.49
+          "candidate_a_share": 0.4477,
+          "candidate_b_share": 0.5523,
+          "margin": -0.1046,
+          "margin_percent": -10.46
         }
       ],
       "poll_points": [
@@ -1461,6 +1468,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_pKJG0WT.pdf"
+        },
+        {
+          "poll_id": "wave-verasight_us_house_generic_2026-08-07_2026-08-11_crosstab",
+          "pollster": "Wave Polling and Research/Verasight",
+          "date": "2026-08-11",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.5,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1591,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://wavepolling.com/results/2026-08-17-economic-costs-deportations/crosstabs.pdf"
         },
         {
           "poll_id": "echelon_us_house_generic_2026-08-13_2026-08-17_crosstab",

@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-08-31
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed August 31, 2026: `https://www.realclearpolling.com/latest-polls`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed August 31, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- Wave Polling and Research/Verasight August 17, 2026 national release, topline PDF, and crosstabs PDF for the August 7-11, 2026 survey: `https://wavepolling.com/results/2026-08-17-economic-costs-deportations/`, `https://wavepolling.com/results/2026-08-17-economic-costs-deportations/topline.pdf`, and `https://wavepolling.com/results/2026-08-17-economic-costs-deportations/crosstabs.pdf`.
+- Abacus Data/David Coletto public social and aggregator search paths for late-August modeled Senate rows in Iowa, Maine, Michigan, and Ohio.
+- Wedgewood Polls public social and aggregator search paths for late-August Iowa Senate and Iowa governor rows.
+- EPIC-MRA/DDHQ Michigan Senate and Michigan governor frequency report, UNH Survey Center New Hampshire governor release/PDF path, Bravo Group/PennLive Pennsylvania governor release/dashboard paths, Quantus Insights generic-ballot page/Datawrapper path, and targeted web searches for August 30-31, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `wave-verasight_us_house_generic_2026-08-07_2026-08-11_crosstab` -> `us_house_generic`: Wave Polling and Research/Verasight, August 7-11, 2026, n=1,591 registered voters, Republican 43, Democrat 50 with leaners included. Party-ID crosstabs use the public crosstabs PDF's Party ID columns and explicit unweighted subgroup Ns: Republicans Republican 91 / Democrat 3, n=638; Democrats Republican 3 / Democrat 94, n=774; Independents Republican 21 / Democrat 32, n=179.
+
+### Polls Skipped As Duplicates
+
+- EPIC-MRA Michigan Senate/governor, UNH New Hampshire governor, Bravo/PennLive Pennsylvania governor, Quantus Insights generic ballot, and TPOR Texas governor rows remained reviewed in the August 30 scrub and were not applied without public complete R/D/I party-ID ballot crosstabs.
+- The previously ingested Echelon, ActiVote, Reuters/Ipsos, Economist/YouGov, McLaughlin, Suffolk, Marquette, Texas Politics Project, New York Times/Siena, HighGround, Emerson, Saint Anselm, InsiderAdvantage, TIPP, Quantus/NextGen, and High Point rows remained duplicate or already-handled entries.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Abacus Data multi-state Senate poll surfaced through public social/aggregator snippets for Iowa Senate (Turek 54 / Hinson 45), Maine Senate (Jackson 52 / Collins 43), Michigan Senate (El-Sayed 49 / Rogers 45), and Ohio Senate (Brown 52 / Husted 46). No official public release with complete Republican, Democratic, and Independent party-ID candidate-share crosstabs was located during this run. No model update.
+- Wedgewood Polls Iowa Senate, fielded August 27-29, 2026, n=600 likely voters, surfaced through public social/aggregator snippets as Hinson 50 / Turek 48. The public source link was truncated in accessible mirrors and no complete R/D/I party-ID ballot crosstabs were located. No model update.
+- Wedgewood Polls Iowa governor, fielded August 27-29, 2026, n=600 likely voters, surfaced through public social/aggregator snippets as Sand 51 / Lahn 46. The public source link was truncated in accessible mirrors and no complete R/D/I party-ID ballot crosstabs were located. No model update.
+- EPIC-MRA Michigan Senate and Michigan governor, UNH New Hampshire governor, Bravo/PennLive Pennsylvania governor, and Quantus Insights national generic ballot remained without complete public Republican, Democratic, and Independent party-ID ballot crosstabs in the reviewed public surfaces. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The Wave/Verasight generic-ballot poll used explicit unweighted subgroup Ns from the public crosstabs PDF.
+
+### Unclassified Or Not Applied
+
+- Massachusetts Senate Democratic primary, New Mexico governor, South Carolina Senate, Massachusetts governor, Connecticut governor, Rhode Island primary, 2028 presidential rows, approval rows, direction-of-country rows, and issue-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Wave/Verasight's Party ID columns include independents or others who lean toward a party within the Democratic and Republican party-ID columns, with pure Independents reported separately. The normalized record uses the public PDF's weighted candidate shares and explicit unweighted subgroup Ns from those same Party ID columns.
+- Wave/Verasight reports both an initial generic ballot and a leaners-included generic ballot. The normalized record uses the leaners-included ballot because it is the public topline used by the generic-ballot polling surface and has matching Party ID crosstabs.
+- Abacus Data sample-size and source metadata conflicted across public snippets, and no official release with crosstabs was located before this run finished.
+- Wedgewood's apparent Google Drive source URL was truncated in public mirrors, so the Iowa rows were logged rather than normalized.
+
 ## 2026-08-30
 
 ### Sources Searched
