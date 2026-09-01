@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-01
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 1, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling generic congressional vote page, reviewed September 1, 2026: `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed September 1, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- Reuters/Ipsos August 31, 2026 release page and topline PDF for the August 28-31, 2026 survey: `https://www.ipsos.com/en-us/cost-living-remains-top-mind-voters-heading-2026-midterms` and `https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Reuters%20Ipsos%20August%202026%20Poll%20Topline%208.31%20release.pdf`.
+- Morning Consult Political Intelligence weekly tracker and midterm ballot tracker public pages, plus targeted searches for the August 30, 2026 generic ballot release.
+- Targeted web searches for September 1 and August 31, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `reuters-ipsos_us_house_generic_2026-08-28_2026-08-31_crosstab` -> `us_house_generic`: Reuters/Ipsos, August 28-31, 2026, n=924 registered voters for the RCP-visible generic ballot topline, Republican 38, Democrat 43. Party-ID crosstabs use the public topline PDF's Republican, Democrat, and Independent/other columns with explicit unweighted subgroup Ns: Republicans Republican 88 / Democrat 2, n=318; Democrats Republican 2 / Democrat 90, n=313; Independents/other Republican 15 / Democrat 27, n=536.
+
+### Polls Skipped As Duplicates
+
+- Previously reviewed August modeled-race and generic-ballot rows, including the August 31 Wave/Verasight generic-ballot ingestion and August 30 logged state-race rows, remained already handled.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Morning Consult national generic ballot, dated August 30, 2026, surfaced through RCP and PollingSource as Democrats 47 / Republicans 42 among 24,000 registered voters. The RCP source link led to a public weekly tracker page that did not expose the August 30 party-ID crosstab shares or subgroup sample sizes; direct current tracker paths returned Cloudflare 403 from the command-line fetch. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The Reuters/Ipsos generic-ballot poll used explicit unweighted subgroup Ns from the public topline PDF.
+
+### Unclassified Or Not Applied
+
+- President Trump job approval, direction-of-country, 2028 presidential nomination, and issue-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Reuters/Ipsos reports the aggregate generic-ballot topline among registered voters, while the party-ID columns are the poll's Republican, Democrat, and Independent/other respondent columns with explicit unweighted subgroup Ns. This matches the existing Reuters/Ipsos generic-ballot ingestion convention used in prior scrubs.
+- Morning Consult's accessible public midterm ballot tracker did include party rows for an older August 16 release, but the current August 30 generic ballot crosstabs were not public from the reviewed surfaces during this run.
+
 ## 2026-08-31
 
 ### Sources Searched

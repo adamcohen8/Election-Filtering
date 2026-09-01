@@ -1799,6 +1799,30 @@
       "topline_a": 0.43,
       "topline_b": 0.50,
       "topline_n": 1591
+    },
+    {
+      "poll_id": "reuters-ipsos_us_house_generic_2026-08-28_2026-08-31_crosstab",
+      "pollster": "Reuters/Ipsos",
+      "field_date": "2026-08-31",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Reuters%20Ipsos%20August%202026%20Poll%20Topline%208.31%20release.pdf",
+      "text": "National generic U.S. House ballot, August 28-31 2026, Reuters/Ipsos August 2026 poll, n=924 registered voters for the RCP-visible topline. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the topline PDF table columns for Republican, Democrat, and Independent/other respondents, with explicit unweighted subgroup Ns.",
+      "republican_a": 0.88,
+      "republican_b": 0.02,
+      "republican_n": 318,
+      "democratic_a": 0.02,
+      "democratic_b": 0.90,
+      "democratic_n": 313,
+      "independent_a": 0.15,
+      "independent_b": 0.27,
+      "independent_n": 536,
+      "topline_a": 0.38,
+      "topline_b": 0.43,
+      "topline_n": 924
     }
   ]
 }
