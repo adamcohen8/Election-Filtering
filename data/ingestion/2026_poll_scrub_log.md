@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-02
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 2, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling generic congressional vote page, reviewed September 2, 2026: `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed September 2, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- Michigan State University/IPPSR September 1, 2026 release for Michigan Senate and Michigan governor, fielded August 10-20, 2026: `https://ippsr.msu.edu/news/msu-poll-shows-democrats-lead-republicans-coalesce-behind-rogers`.
+- The Economist/YouGov August 28-31, 2026 article, toplines, and crosstabs PDF: `https://yougov.com/en-us/articles/55476-democrats-midterms-2026-election-canada-tariffs-data-centers-august-28-31-2026-economist-yougov-poll`, `https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_ZLmkpUi.pdf`, and `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_yVe1kKt.pdf`.
+- Targeted web searches for September 2 and September 1, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `economist-yougov_us_house_generic_2026-08-28_2026-08-31_crosstab` -> `us_house_generic`: The Economist/YouGov, August 28-31, 2026, n=1,437 registered voters for the RCP-visible generic-ballot topline, Republican 40, Democrat 46. Party-ID crosstabs use the public crosstabs PDF's Party ID columns with explicit unweighted subgroup Ns: Republicans Republican 79 / Democrat 4, n=442; Democrats Republican 0 / Democrat 79, n=548; Independents Republican 14 / Democrat 27, n=599.
+
+### Polls Skipped As Duplicates
+
+- Reuters/Ipsos August 28-31 generic ballot and Wave/Verasight August 7-11 generic ballot were already applied in prior scrubs.
+- The standalone Ipsos generic ballot row on PollingSource duplicated the Reuters/Ipsos August 28-31 generic ballot result and was not entered as a separate poll.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Michigan State University/IPPSR Michigan Senate, fielded August 10-20, 2026, n=779 likely voters, showed El-Sayed 50 / Rogers 45 among likely voters and El-Sayed 48 / Rogers 44 among registered voters. The public release provides toplines and methodology but no complete Republican, Democratic, and Independent party-ID ballot crosstabs; the release says the full State of the State Survey round will be public at the end of February 2027. No model update.
+- Michigan State University/IPPSR Michigan governor, fielded August 10-20, 2026, n=779 likely voters, showed Benson 52 / James 43 among likely voters and Benson 49 / James 39 among registered voters. The public release provides toplines and methodology but no complete Republican, Democratic, and Independent party-ID ballot crosstabs. No model update.
+- Morning Consult national generic ballot, dated August 30, 2026, remained visible on RCP and PollingSource as Democrats 47 / Republicans 42 among 24,000 registered voters, but no current complete public R/D/I crosstabs were located during this run. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The Economist/YouGov generic-ballot poll used explicit unweighted subgroup Ns from the public crosstabs PDF.
+
+### Unclassified Or Not Applied
+
+- South Carolina governor, Kentucky House, Michigan House, North Carolina House, Pennsylvania House, Massachusetts primary/live-results items, President Trump job approval, direction-of-country, 2028 presidential nomination, and issue-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov table reports the RCP-visible topline in the `Voters` column and party-ID crosstabs in the adult-sample Party ID columns. This follows the existing project convention for Economist/YouGov generic-ballot records.
+- Michigan State/IPPSR did not publish the detailed crosstab tables with the September 1 release, so the two modeled Michigan rows were logged rather than normalized.
+
 ## 2026-09-01
 
 ### Sources Searched

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:03:51.700847+00:00",
+  "generated_at": "2026-09-02T09:06:08.857886+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1259,10 +1259,10 @@
         },
         {
           "date": "2026-08-31",
-          "candidate_a_share": 0.4479,
-          "candidate_b_share": 0.5521,
-          "margin": -0.1043,
-          "margin_percent": -10.43
+          "candidate_a_share": 0.4472,
+          "candidate_b_share": 0.5528,
+          "margin": -0.1056,
+          "margin_percent": -10.56
         }
       ],
       "poll_points": [
@@ -1587,6 +1587,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Reuters%20Ipsos%20August%20Core%20Political%20Topline.pdf"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-08-28_2026-08-31_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-08-31",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.46,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1437,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_yVe1kKt.pdf"
         },
         {
           "poll_id": "reuters-ipsos_us_house_generic_2026-08-28_2026-08-31_crosstab",
