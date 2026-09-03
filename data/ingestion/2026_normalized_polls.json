@@ -1847,6 +1847,30 @@
       "topline_a": 0.40,
       "topline_b": 0.46,
       "topline_n": 1437
+    },
+    {
+      "poll_id": "harvard-harris_us_house_generic_2026-08-28_2026-08-30_assumed_n",
+      "pollster": "Harvard CAPS/Harris",
+      "field_date": "2026-08-30",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://harvardharrispoll.com/assets/uploads/2026/08/HHP_Aug2026_KeyResults.pdf",
+      "text": "National generic U.S. House ballot, August 28-30 2026, Harvard CAPS/Harris, n=2,100 registered voters, Republican 51, Democrat 49 among likely midterm voters. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the public Key Results PDF's DEM, GOP, and IND/OTH columns for the generic congressional ballot. The PDF does not print subgroup Ns for this table, so each R/D/I subgroup n uses the automation fallback total N / 4 = 525.",
+      "republican_a": 0.95,
+      "republican_b": 0.05,
+      "republican_n": 525,
+      "democratic_a": 0.03,
+      "democratic_b": 0.97,
+      "democratic_n": 525,
+      "independent_a": 0.46,
+      "independent_b": 0.54,
+      "independent_n": 525,
+      "topline_a": 0.51,
+      "topline_b": 0.49,
+      "topline_n": 2100
     }
   ]
 }

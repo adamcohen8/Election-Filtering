@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:06:08.850291+00:00",
+  "generated_at": "2026-09-03T09:04:02.251892+00:00",
   "cycle": 2026,
   "offices": [
     "senate",
@@ -560,10 +560,10 @@
       "candidate_b_nominee_status": "presumptive_nominee",
       "data_available": true,
       "data_note": null,
-      "candidate_a_share": 0.4472,
-      "candidate_b_share": 0.5528,
-      "margin": -0.1056,
-      "margin_percent": -10.56,
+      "candidate_a_share": 0.4477,
+      "candidate_b_share": 0.5523,
+      "margin": -0.1045,
+      "margin_percent": -10.45,
       "margin_of_error": 0.0044,
       "margin_of_error_percent": 0.44,
       "leader": "democratic",

@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-03
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 3, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling generic congressional vote page, reviewed September 3, 2026: `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed September 3, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- Overton Insights/Texas Public Policy Foundation September 2026 Texas poll page, toplines PDF, and demographic crosstabs PDF, fielded August 24-26, 2026: `https://overtoninsights.com/poll/september-2026/`, `https://overtoninsights.com/wp-content/uploads/2026/09/Overton_Insights_Texas_Public_Policy_Foundation_Toplines_and_Demographics-3.pdf`, and `https://overtoninsights.com/wp-content/uploads/2026/09/Updated-Main-Crosstabs.pdf`.
+- Harvard CAPS/Harris August 2026 poll page and Key Results PDF, fielded August 28-30, 2026: `https://harvardharrispoll.com/` and `https://harvardharrispoll.com/assets/uploads/2026/08/HHP_Aug2026_KeyResults.pdf`.
+- Rasmussen Reports public politics/generic-ballot search paths and targeted web searches for September 3 and September 2, 2026 modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `harvard-harris_us_house_generic_2026-08-28_2026-08-30_assumed_n` -> `us_house_generic`: Harvard CAPS/Harris, August 28-30, 2026, n=2,100 registered voters, Republican 51 / Democrat 49 among likely midterm voters. Party-ID crosstabs use the public Key Results PDF's DEM, GOP, and IND/OTH columns: Republicans Republican 95 / Democrat 5; Democrats Republican 3 / Democrat 97; Independents/other Republican 46 / Democrat 54. The PDF does not print subgroup Ns for this table, so each R/D/I subgroup n uses the automation fallback total N / 4 = 525.
+
+### Polls Skipped As Duplicates
+
+- Reuters/Ipsos August 28-31 generic ballot, Economist/YouGov August 28-31 generic ballot, and Wave/Verasight August 7-11 generic ballot were already applied in prior scrubs.
+- The standalone Ipsos generic ballot row on PollingSource duplicated the Reuters/Ipsos August 28-31 generic ballot result and remained skipped.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Overton Insights/Texas Public Policy Foundation Texas Senate, fielded August 24-26, 2026, n=1,167 likely voters, showed Paxton 50.0 / Talarico 50.0 with leaners. The public crosstabs break the ballot by 2028 primary participation and other demographics, but not by Republican, Democratic, and Independent party ID. No model update.
+- Overton Insights/Texas Public Policy Foundation Texas governor, fielded August 24-26, 2026, n=1,167 likely voters, showed Abbott 51.2 / Hinojosa 48.8 with leaners. The public crosstabs break the ballot by 2028 primary participation and other demographics, but not by Republican, Democratic, and Independent party ID. No model update.
+- Rasmussen Reports national generic ballot, fielded around August 27, 2026, n=2,231 likely voters, showed Democrats 41 / Republicans 36 on PollingSource and RCP. No complete public Republican, Democratic, and Independent party-ID generic-ballot crosstabs were located during this run. No model update.
+- Morning Consult national generic ballot, dated August 30, 2026, remained visible on RCP and PollingSource as Democrats 47 / Republicans 42 among 24,000 registered voters, but no current complete public R/D/I crosstabs were located during this run. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `harvard-harris_us_house_generic_2026-08-28_2026-08-30_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the Key Results PDF, so Republican, Democratic, and Independent/other subgroup Ns each use total N / 4 = 525.
+
+### Unclassified Or Not Applied
+
+- New Mexico Senate, South Carolina governor, Kentucky House, Michigan House, North Carolina House, Pennsylvania House, Massachusetts primary/live-results items, President Trump job approval, direction-of-country, 2028 presidential nomination, and issue-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- Harvard CAPS/Harris reports the generic-ballot headline among likely midterm voters, while the survey methodology gives a total n=2,100 registered voters and the Key Results PDF does not print party subgroup Ns. The normalized record follows the automation's total-N/4 fallback for subgroup Ns and logs `_assumed_n` in the poll ID.
+- Overton/TPPF crosstab groups are based on planned 2028 primary participation rather than party ID, so those modeled Texas rows were not normalized despite having public demographic crosstabs.
+- Rasmussen's current generic-ballot topline was public through RCP and PollingSource, but the reviewed public Rasmussen paths did not expose complete R/D/I candidate-share crosstabs.
+
 ## 2026-09-02
 
 ### Sources Searched
