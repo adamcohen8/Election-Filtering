@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:04:02.259429+00:00",
+  "generated_at": "2026-09-04T09:08:25.206404+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -401,6 +401,13 @@
           "candidate_b_share": 0.5086,
           "margin": -0.0884,
           "margin_percent": -8.84
+        },
+        {
+          "date": "2026-09-01",
+          "candidate_a_share": 0.428,
+          "candidate_b_share": 0.5027,
+          "margin": -0.0747,
+          "margin_percent": -7.47
         }
       ],
       "poll_points": [
@@ -445,6 +452,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/8_26_2026_iowa_statewide_tables.pdf?hash=E1724F5013910C570C1F247169E3D92480480DE9&la=en"
+        },
+        {
+          "poll_id": "emerson_ia_gov_2026-08-31_2026-09-01_crosstab",
+          "pollster": "Emerson College",
+          "date": "2026-09-01",
+          "candidate_a_share": 0.455,
+          "candidate_b_share": 0.486,
+          "margin": -0.031,
+          "margin_percent": -3.1,
+          "leader": "democratic",
+          "sample_size": 750,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/iowa-2026-poll-hinson-leads-turek/"
         }
       ]
     },
@@ -471,6 +492,13 @@
           "candidate_b_share": 0.4607,
           "margin": 0.0057,
           "margin_percent": 0.57
+        },
+        {
+          "date": "2026-09-01",
+          "candidate_a_share": 0.4713,
+          "candidate_b_share": 0.4585,
+          "margin": 0.0128,
+          "margin_percent": 1.28
         }
       ],
       "poll_points": [
@@ -529,6 +557,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/8_26_2026_iowa_statewide_tables.pdf?hash=E1724F5013910C570C1F247169E3D92480480DE9&la=en"
+        },
+        {
+          "poll_id": "emerson_ia_sen_2026-08-31_2026-09-01_crosstab",
+          "pollster": "Emerson College",
+          "date": "2026-09-01",
+          "candidate_a_share": 0.495,
+          "candidate_b_share": 0.451,
+          "margin": 0.044,
+          "margin_percent": 4.4,
+          "leader": "republican",
+          "sample_size": 750,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/iowa-2026-poll-hinson-leads-turek/"
         }
       ]
     },

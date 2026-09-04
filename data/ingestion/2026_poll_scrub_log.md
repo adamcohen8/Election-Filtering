@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-04
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 4, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling generic congressional vote page, reviewed September 4, 2026: `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest and generic ballot discovery surfaces, reviewed September 4, 2026: `https://pollingsource.com/today` and `https://pollingsource.com/polls/generic-ballot`.
+- Emerson College/Nexstar Iowa 2026 release and public full-results workbook, fielded August 31-September 1, 2026: `https://emersoncollegepolling.com/iowa-2026-poll-hinson-leads-turek/` and `https://docs.google.com/spreadsheets/d/1Fd1q_VLhkeI7H9mcpOnHdn9VARgFJlXA/edit?ouid=107857247170786005927&rtpof=true&sd=true&usp=sharing`.
+- NRSC/Fabrizio, Lee & Associates New Hampshire Senate release and public search paths for the Union Leader-reported poll, fielded August 27-30, 2026: `https://www.nrsc.org/press-releases/new-nrsc-poll-has-john-sununu-leading-in-new-hampshire-2026-09-03/`.
+- Alaska Survey Research, Quantus Insights Arizona governor, Rasmussen Reports generic ballot, and targeted September 3-4, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `emerson_ia_sen_2026-08-31_2026-09-01_crosstab` -> `ia_sen`: Emerson College/Nexstar, August 31-September 1, 2026, n=750 likely voters, Hinson 49.5 / Turek 45.1. Candidate A is Republican Ashley Hinson; candidate B is Democrat Josh Turek. Party-ID crosstabs use the public full-results workbook's party registration columns: Republicans Hinson 87.9 / Turek 7.7, n=298; Democrats Hinson 5.6 / Turek 91.9, n=234; Independents/other Hinson 43.9 / Turek 45.9, n=218.
+- `emerson_ia_gov_2026-08-31_2026-09-01_crosstab` -> `ia_gov`: Emerson College/Nexstar, August 31-September 1, 2026, n=750 likely voters, Lahn 45.5 / Sand 48.6. Candidate A is Republican Zach Lahn; candidate B is Democrat Rob Sand. Party-ID crosstabs use the public full-results workbook's party registration columns: Republicans Lahn 84.1 / Sand 9.8, n=298; Democrats Lahn 2.4 / Sand 95.8, n=234; Independents/other Lahn 39.0 / Sand 51.2, n=218.
+
+### Polls Skipped As Duplicates
+
+- Harvard CAPS/Harris August 28-30 generic ballot, The Economist/YouGov August 28-31 generic ballot, Reuters/Ipsos August 28-31 generic ballot, Wave/Verasight August 7-11 generic ballot, and prior modeled-race rows remained already applied or already logged in prior scrubs.
+- Overton Insights/Texas Public Policy Foundation Texas Senate and Texas governor rows remained already reviewed in the September 3 scrub and were not re-entered without complete public R/D/I party-ID candidate-share crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Alaska Survey Research Alaska Senate, fielded around August 20-23, 2026, n=1,495 likely voters, surfaced through PollingSource and public search/social snippets as Peltola 51 / Sullivan 49. No official public release with complete Republican, Democratic, and Independent party-ID candidate-share crosstabs was located during this run. No model update.
+- Fabrizio, Lee & Associates New Hampshire Senate for the NRSC, fielded August 27-30, 2026, n=600 likely voters, reported Sununu 37 / Pappas 36 / other 3 / not sure 23. The public release gives sample party composition but no candidate shares by Republican, Democratic, and Independent party ID. No model update.
+- Quantus Insights Arizona governor, fielded August 14-17, 2026, n=780 likely voters, surfaced as Hobbs 49.1 / Biggs 43.2. No complete public Republican, Democratic, and Independent party-ID candidate-share crosstabs were located during this run. No model update.
+- Rasmussen Reports national generic ballot, dated around August 30, 2026, n=2,231 likely voters, showed Democrats 41 / Republicans 36 on RCP and PollingSource. No complete public Republican, Democratic, and Independent party-ID generic-ballot crosstabs were located during this run. No model update.
+- Morning Consult national generic ballot, dated August 30, 2026, remained visible on RCP and PollingSource as Democrats 47 / Republicans 42 among 24,000 registered voters, but no current complete public R/D/I crosstabs were located during this run. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The two Emerson Iowa records use party-registration subgroup Ns rounded from explicit weighted counts in the public workbook.
+
+### Unclassified Or Not Applied
+
+- Tennessee Senate, Tennessee governor, New York governor, Florida House, New Mexico House, New Mexico Senate, South Carolina governor, Kentucky House, Michigan House, North Carolina House, Pennsylvania House, approval rows, 2028 nomination rows, and issue-only rows are outside the modeled general-election race set or lacked public complete R/D/I party-ID candidate-share crosstabs.
+
+### Extraction Uncertainties
+
+- Emerson's workbook crosstab percentage rows describe candidate-supporter composition by party registration, so the normalized R/D/I candidate shares were computed from the workbook's weighted party-by-candidate counts divided by explicit party-registration totals. Subgroup Ns are rounded from the same party-registration totals.
+- Alaska Survey Research, Fabrizio/NRSC, Quantus Insights, Rasmussen, and Morning Consult public surfaces did not expose complete R/D/I party-ID candidate shares during this run, so they were logged rather than normalized.
+
 ## 2026-09-03
 
 ### Sources Searched
