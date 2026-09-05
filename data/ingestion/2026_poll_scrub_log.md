@@ -1,5 +1,40 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-05
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 5, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling Senate, governor, and House/generic ballot latest-polls pages, reviewed September 5, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, and `https://www.realclearpolling.com/latest-polls/house`.
+- RealClearPolling generic congressional vote page, reviewed September 5, 2026: `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest, Senate polls, and generic ballot discovery surfaces, reviewed September 5, 2026: `https://pollingsource.com/today`, `https://pollingsource.com/senate/polls`, and `https://pollingsource.com/polls/generic-ballot`.
+- Targeted September 4-5, 2026 web searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs, including Texas Senate, Ohio Senate, Alaska Senate, New Hampshire Senate, Arizona governor, Iowa governor, and national generic ballot query paths.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or national generic congressional ballot poll with complete public Republican, Democratic, and Independent party-ID candidate-share crosstabs was found during this run.
+
+### Polls Skipped As Duplicates
+
+- Emerson Iowa Senate and Iowa governor, Harvard CAPS/Harris generic ballot, The Economist/YouGov generic ballot, Reuters/Ipsos generic ballot, Rasmussen generic ballot, Alaska Survey Research Alaska Senate, Fabrizio/NRSC New Hampshire Senate, Quantus Arizona governor, Michigan State/YouGov Michigan Senate and governor, and Overton/TPPF Texas Senate and governor remained already applied or already logged in prior scrubs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- None newly found beyond the already logged September 3-4 modeled-race and generic-ballot rows. PollingSource's September 5 new-polls section listed only California CD-22, California CD-48, and New Mexico CD-02 district polls, which are outside the modeled race set.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Or Not Applied
+
+- SurveyUSA California CD-22, SurveyUSA California CD-48, and SurveyUSA New Mexico CD-02 district polls surfaced on PollingSource on September 5 but are outside the modeled statewide Senate, governor, and national generic ballot scope.
+- President Trump job approval and other issue or approval rows on RealClearPolling were outside the modeled race set.
+
+### Extraction Uncertainties
+
+- No new modeled-race crosstab extraction was performed because the reviewed public surfaces did not expose any new eligible statewide or national generic-ballot poll with complete R/D/I party-ID candidate shares.
+
 ## 2026-09-04
 
 ### Sources Searched
