@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-06
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 6, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling Senate, governor, House/latest, and generic congressional vote pages, reviewed September 6, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest, Senate polls, governor pages, and generic ballot discovery surfaces, reviewed September 6, 2026: `https://pollingsource.com/today`, `https://pollingsource.com/senate/polls`, `https://pollingsource.com/governors.php`, and `https://pollingsource.com/polls/generic-ballot`.
+- University of Massachusetts Amherst September 3, 2026 national poll page, toplines PDF, and crosstabs PDF, fielded August 21-26, 2026: `https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll-0`, `https://www.umass.edu/poll/sites/default/files/2026-09/August2026NationalPollMidtermCongressToplines.pdf?1788460285`, and `https://www.umass.edu/poll/sites/default/files/2026-09/August2026NationalPollMidtermCongressCrosstabs.pdf?1788460285`.
+- Financial Times/Focaldata September 6, 2026 public search paths for the August 28-September 1, 2026 national poll, plus Focaldata report pages and targeted September 5-6, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled Senate, governor, or national generic congressional ballot poll with complete public Republican, Democratic, and Independent party-ID candidate-share crosstabs was found during this run.
+
+### Polls Skipped As Duplicates
+
+- Emerson Iowa Senate and Iowa governor, Harvard CAPS/Harris generic ballot, The Economist/YouGov generic ballot, Reuters/Ipsos generic ballot, Rasmussen generic ballot, Alaska Survey Research Alaska Senate, Fabrizio/NRSC New Hampshire Senate, Quantus Arizona governor, Michigan State/YouGov Michigan Senate and governor, Overton/TPPF Texas Senate and governor, and previously ingested or logged August modeled rows remained already handled.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- University of Massachusetts Amherst national generic U.S. House ballot, fielded August 21-26, 2026, n=1,000 adults, showed Democratic Party's candidate 42 / Republican Party's candidate 34 with leaners. The public crosstabs PDF includes party-ID tables for congressional approval, delegate/trustee views, bipartisanship, midterm enthusiasm, and Trump midterm motivation, but not R/D/I candidate shares for the generic U.S. House ballot. No model update.
+- Financial Times/Focaldata national midterm poll, fielded August 28-September 1, 2026, n=1,914 registered voters, was reported September 6 as showing Democrats ahead by 7.5 points among registered voters. No public data table or complete Republican, Democratic, and Independent party-ID generic-ballot candidate-share crosstabs were located during this run. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Or Not Applied
+
+- PollingSource reported 0 new polls with fresh fieldwork on September 6. RealClearPolling's September 4 rows were presidential approval only, and PollingSource's September 5 new-polls rows were district-level House polls outside the modeled statewide Senate, governor, and national generic ballot scope.
+- New Hampshire Senate primary news/market items, President Trump job approval rows, FEC spending updates, issue-only rows, and approval-only rows are outside the modeled general-election race set.
+
+### Extraction Uncertainties
+
+- The UMass toplines and crosstabs were public and reviewed directly. The generic U.S. House ballot topline is clear, but the reviewed crosstabs do not contain the required party-ID candidate-share rows, so the poll was logged rather than normalized.
+- The FT/Focaldata September release was visible through Financial Times and public search/news surfaces, but a current public Focaldata data-table page for the August 28-September 1 wave was not located during this run.
+
 ## 2026-09-05
 
 ### Sources Searched
