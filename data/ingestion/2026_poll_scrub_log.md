@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-08
+
+### Sources Searched
+
+- RealClearPolling latest polls page, reviewed September 8, 2026: `https://www.realclearpolling.com/latest-polls`.
+- RealClearPolling Senate, governor, House/latest, and generic congressional vote pages, reviewed September 8, 2026: `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest and prior-day briefing surfaces, reviewed September 8, 2026: `https://pollingsource.com/today`.
+- The Honest Poll September 2026 national tracking release and public crosstab workbook, fielded August 29-September 1, 2026: `https://www.thehonestpoll.com/polls/national-tracking-september-2026-generic`.
+- Vote-Scope generic ballot polling table and targeted September 7-8, 2026 web searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+
+### Crosstab-Backed Polls Applied
+
+- `honest-poll_us_house_generic_2026-08-29_2026-09-01_crosstab` -> `us_house_generic`: The Honest Poll, August 29-September 1, 2026, n=812 likely voters for the RCP-visible forced-choice likely-voter topline, Republican 43 / Democrat 53. Candidate A is the generic Republican candidate; candidate B is the generic Democratic candidate. Party-ID crosstabs use the public crosstab workbook's `GCBForced` `Party ID, leaned` columns: Republicans Republican 91 / Democratic 6, n=415; Democrats Republican 3 / Democratic 95, n=489; Independents Republican 13 / Democratic 23, n=144.
+
+### Polls Skipped As Duplicates
+
+- Emerson Iowa Senate and Iowa governor, Harvard CAPS/Harris generic ballot, The Economist/YouGov generic ballot, Reuters/Ipsos generic ballot, Rasmussen generic ballot, Alaska Survey Research Alaska Senate, Fabrizio/NRSC New Hampshire Senate, Quantus Arizona governor, Michigan State/YouGov Michigan Senate and governor, Overton/TPPF Texas Senate and governor, and previously ingested or logged August/early September modeled rows remained already handled.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Financial Times/Focaldata national generic congressional ballot, fielded August 28-September 2, 2026, n=1,837 likely voters on Vote-Scope and reported by RealClearPolling as Democrats 52 / Republicans 45. No public Focaldata data table or complete Republican, Democratic, and Independent party-ID generic-ballot candidate-share crosstabs were located during this run. No model update.
+- Morning Consult national generic congressional ballot rows surfaced in polling tables for late-August/early-September fieldwork, but the reviewed public tracker surfaces did not expose complete Republican, Democratic, and Independent party-ID candidate-share crosstabs. No model update.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The Honest Poll workbook prints subgroup sample sizes for the R/D/I party-ID columns, so no total-N/4 fallback was used.
+
+### Unclassified Or Not Applied
+
+- PollingSource September 8 listed one new Nevada CD-02 House poll and one older Tennessee CD-05 archive addition; both are district-level races outside the modeled statewide Senate, governor, and national generic ballot scope.
+- RealClearPolling's September 7 rows were President Trump job approval and direction-of-country items, outside the modeled race set.
+
+### Extraction Uncertainties
+
+- The Honest Poll workbook labels the relevant columns as `Party ID, leaned`. The applied candidate shares are from the forced-choice generic congressional ballot table. The workbook prints both registered-voter and likely-voter aggregate columns; the supplemental topline uses the RCP-visible likely-voter forced-choice result while the party-ID crosstab columns are the workbook's public party-ID columns.
+
 ## 2026-09-06
 
 ### Sources Searched

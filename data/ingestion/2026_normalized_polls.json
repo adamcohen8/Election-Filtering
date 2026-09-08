@@ -1919,6 +1919,30 @@
       "topline_a": 0.455,
       "topline_b": 0.486,
       "topline_n": 750
+    },
+    {
+      "poll_id": "honest-poll_us_house_generic_2026-08-29_2026-09-01_crosstab",
+      "pollster": "The Honest Poll",
+      "field_date": "2026-09-01",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://www.thehonestpoll.com/polls/national-tracking-september-2026-generic",
+      "text": "National generic U.S. House ballot, August 29-September 1 2026, The Honest Poll, n=812 likely voters for the RCP-visible forced-choice likely-voter topline. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the public crosstab workbook's GCBForced Party ID, leaned columns, with explicit unweighted subgroup Ns.",
+      "republican_a": 0.91,
+      "republican_b": 0.06,
+      "republican_n": 415,
+      "democratic_a": 0.03,
+      "democratic_b": 0.95,
+      "democratic_n": 489,
+      "independent_a": 0.13,
+      "independent_b": 0.23,
+      "independent_n": 144,
+      "topline_a": 0.43,
+      "topline_b": 0.53,
+      "topline_n": 812
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:06:56.656903+00:00",
+  "generated_at": "2026-09-08T09:08:32.054860+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1312,6 +1312,13 @@
           "candidate_b_share": 0.5523,
           "margin": -0.1045,
           "margin_percent": -10.45
+        },
+        {
+          "date": "2026-09-01",
+          "candidate_a_share": 0.4476,
+          "candidate_b_share": 0.5524,
+          "margin": -0.1048,
+          "margin_percent": -10.48
         }
       ],
       "poll_points": [
@@ -1678,6 +1685,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Reuters%20Ipsos%20August%202026%20Poll%20Topline%208.31%20release.pdf"
+        },
+        {
+          "poll_id": "honest-poll_us_house_generic_2026-08-29_2026-09-01_crosstab",
+          "pollster": "The Honest Poll",
+          "date": "2026-09-01",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.53,
+          "margin": -0.1,
+          "margin_percent": -10.0,
+          "leader": "democratic",
+          "sample_size": 812,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.thehonestpoll.com/polls/national-tracking-september-2026-generic"
         }
       ]
     },
