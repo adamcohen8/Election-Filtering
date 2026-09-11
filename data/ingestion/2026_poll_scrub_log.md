@@ -1,5 +1,51 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-11
+
+### Sources Searched
+
+- RealClearPolling latest polls page, Senate/latest, governor/latest, House/latest, and generic congressional vote pages, reviewed September 11, 2026: `https://www.realclearpolling.com/latest-polls`, `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest surfaces and targeted September 9-11, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- CNN/SSRS Maine and Michigan likely-voter poll PDFs, fielded August 31-September 6, 2026: `https://s3.documentcloud.org/documents/28608783/cnn-poll-conducted-by-ssrs-maine.pdf` and `https://s3.documentcloud.org/documents/28608784/cnn-poll-conducted-by-ssrs-michigan.pdf`.
+- Univision/YouGov Texas poll article and base crosstab PDF, fielded August 27-September 4, 2026: `https://www.univision.com/noticias/politica/poll-univision-texas-2026` and `https://st1.uvnimg.com/3f/4b/1bfa5e5a4df9b60581e66d97973b/univision-texas-poll-crosstabs-base.pdf`.
+- The Economist/YouGov September 4-8, 2026 national crosstab PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_HGAKAIQ.pdf`.
+- Detroit News/Glengariff Michigan Senate/governor search paths and current public search/news surfaces for new modeled state polling and generic-ballot rows.
+
+### Crosstab-Backed Polls Applied
+
+- `cnn-ssrs_me_sen_2026-08-31_2026-09-06_assumed_n` -> `me_sen`: CNN/SSRS, August 31-September 6, 2026, n=880 likely voters, Collins 45 / Jackson 48. Candidate A is Republican Susan Collins; candidate B is Democrat Troy Jackson. Party-ID crosstabs use the public PDF's `SENVOTEME` Democratic, Independent/Other, and Republican columns: Republicans Collins 92 / Jackson 4; Democrats Collins 4 / Jackson 94; Independents/Other Collins 42 / Jackson 46. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 220.
+- `cnn-ssrs_mi_sen_2026-08-31_2026-09-06_assumed_n` -> `mi_sen`: CNN/SSRS, August 31-September 6, 2026, n=843 likely voters, Rogers 44 / El-Sayed 47. Candidate A is Republican Mike Rogers; candidate B is Democrat Abdul El-Sayed. Party-ID crosstabs use the public PDF's `SENVOTEMI` Democratic, Independent/Other, and Republican columns: Republicans Rogers 97 / El-Sayed 3; Democrats Rogers 3 / El-Sayed 90; Independents/Other Rogers 32 / El-Sayed 48. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 211.
+- `cnn-ssrs_mi_gov_2026-08-31_2026-09-06_assumed_n` -> `mi_gov`: CNN/SSRS, August 31-September 6, 2026, n=843 likely voters, James 41 / Benson 50. Candidate A is Republican John James; candidate B is Democrat Jocelyn Benson. Party-ID crosstabs use the public PDF's `GOVVOTEMI` Democratic, Independent/Other, and Republican columns: Republicans James 89 / Benson 7; Democrats James 1 / Benson 97; Independents/Other James 33 / Benson 47. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 211.
+- `univision-yougov_tx_sen_2026-08-27_2026-09-04_crosstab` -> `tx_sen`: Univision/YouGov, August 27-September 4, 2026, n=1,000 likely voters, Paxton 42 / Talarico 45. Candidate A is Republican Ken Paxton; candidate B is Democrat James Talarico. Party-ID crosstabs use the public base-crosstabs PDF with explicit weighted Ns: Republicans Paxton 80 / Talarico 5, n=455; Democrats Paxton 4 / Talarico 85, n=429; Independents Paxton 12 / Talarico 61, n=116.
+- `univision-yougov_tx_gov_2026-08-27_2026-09-04_crosstab` -> `tx_gov`: Univision/YouGov, August 27-September 4, 2026, n=1,000 likely voters, Abbott 44 / Hinojosa 44. Candidate A is Republican Greg Abbott; candidate B is Democrat Gina Hinojosa. Party-ID crosstabs use the public base-crosstabs PDF with explicit weighted Ns: Republicans Abbott 84 / Hinojosa 5, n=455; Democrats Abbott 7 / Hinojosa 85, n=429; Independents Abbott 13 / Hinojosa 56, n=116.
+- `economist-yougov_us_house_generic_2026-09-04_2026-09-08_crosstab` -> `us_house_generic`: The Economist/YouGov, September 4-8, 2026, n=1,015 voters for the RCP-visible generic-ballot topline, Republican 38 / Democrat 49. Candidate A is the generic Republican; candidate B is the generic Democrat. Party-ID crosstabs use the public PDF's `Generic Congressional Vote` Party ID columns with explicit unweighted Ns: Republicans Republican 81 / Democrat 3, n=419; Democrats Republican 1 / Democrat 86, n=526; Independents Republican 22 / Democrat 37, n=519.
+
+### Polls Skipped As Duplicates
+
+- Previously ingested or logged early-September modeled rows remained already handled, including The Honest Poll generic ballot, Emerson Iowa Senate and governor, Harvard CAPS/Harris generic ballot, The Economist/YouGov August 28-31 generic ballot, Reuters/Ipsos generic ballot, and previously logged FT/Focaldata and Morning Consult generic-ballot rows without public complete party-ID crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Detroit News/Glengariff Michigan Senate and governor, September 2026, surfaced in current public search/news paths with toplines for El-Sayed/Rogers and Benson/James. No complete public Republican, Democratic, and Independent party-ID candidate-share crosstabs were located during this run. No model update from those rows.
+- Morning Consult and Financial Times/Focaldata generic-ballot rows remained visible in polling tables/search paths without a public complete R/D/I party-ID candidate-share source located during this run. No model update from those aggregate rows.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `cnn-ssrs_me_sen_2026-08-31_2026-09-06_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the PDF, so Republican, Democratic, and Independent/Other subgroup Ns each use total N / 4 = 220.
+- `cnn-ssrs_mi_sen_2026-08-31_2026-09-06_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the PDF, so Republican, Democratic, and Independent/Other subgroup Ns each use total N / 4 = 211.
+- `cnn-ssrs_mi_gov_2026-08-31_2026-09-06_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the PDF, so Republican, Democratic, and Independent/Other subgroup Ns each use total N / 4 = 211.
+
+### Unclassified Or Not Applied
+
+- CNN/SSRS Maine governor had public crosstabs, but Maine governor is not currently in the modeled governor list, so it was not normalized or applied.
+- Univision/YouGov also published a Texas-only generic congressional ballot with party-ID crosstabs. It was not normalized as `us_house_generic` because the modeled generic-ballot race is national, not state-specific.
+- District-level House polls, presidential approval, direction-of-country, issue-only, and primary-only rows surfaced on polling pages/search paths were outside the modeled statewide general-election race set.
+
+### Extraction Uncertainties
+
+- CNN/SSRS labels the middle party column as `Independent/Other`; this was normalized to the model's Independent party-ID bucket. Its public PDF provides party-ID candidate shares and the total likely-voter N, but not subgroup Ns, so the automation's direct total-N/4 fallback was used.
+- Univision/YouGov crosstab Ns are weighted Ns from the public base-crosstabs PDF. The PDF includes a Texas generic-ballot crosstab, but that row is state-specific and was deliberately excluded from the national generic-ballot model.
+
 ## 2026-09-08
 
 ### Sources Searched
