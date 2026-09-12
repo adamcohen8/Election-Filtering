@@ -1,5 +1,49 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-12
+
+### Sources Searched
+
+- RealClearPolling latest polls page, Senate/latest, governor/latest, House/latest, and generic congressional vote pages, reviewed September 12, 2026: `https://www.realclearpolling.com/latest-polls`, `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest, Senate, governor, and generic-ballot surfaces, plus targeted September 10-12, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- AARP/Fabrizio Ward/Impact Research Texas survey release, survey PDF, annotated questionnaire, and methodology, fielded August 30-September 1, 2026: `https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-texas/`, `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-survey-texas.doi.10.26419-2fres.01065.028.pdf`, `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-survey-texas-annotated-questionnaire.doi.10.26419-2fres.01065.029.pdf`, and `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-survey-texas-methodology.doi.10.26419-2fres.01065.030.pdf`.
+- Quinnipiac University September 4-8, 2026 national registered-voter release and PDF: `https://poll.qu.edu/images/polling/us/us09102026_usvi28.pdf`.
+- The Patriot Poll/YouGov Iowa general-election PDF, fielded September 3-8, 2026: `https://d3nkl3psvxxpe9.cloudfront.net/documents/iowa_election_20260903.pdf`.
+- Targeted searches for current public crosstabs or PDFs from Rasmussen Reports, Cygnal, Quantus Insights, Change Research, FT/Focaldata, Morning Consult, and other September 2026 rows visible in polling tables.
+
+### Crosstab-Backed Polls Applied
+
+- `aarp-fabrizio-impact_tx_sen_2026-08-30_2026-09-01_assumed_n` -> `tx_sen`: AARP/Fabrizio Ward/Impact Research, August 30-September 1, 2026, n=895 likely voters, Paxton 44 / Talarico 48. Candidate A is Republican Ken Paxton; candidate B is Democrat James Talarico. Party-ID crosstabs use the public survey PDF's GOP, Ind, and Dem columns: Republicans Paxton 83 / Talarico 9; Democrats Paxton 2 / Talarico 94; Independents Paxton 33 / Talarico 55. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 224.
+- `aarp-fabrizio-impact_tx_gov_2026-08-30_2026-09-01_assumed_n` -> `tx_gov`: AARP/Fabrizio Ward/Impact Research, August 30-September 1, 2026, n=895 likely voters, Abbott 49 / Hinojosa 46. Candidate A is Republican Greg Abbott; candidate B is Democrat Gina Hinojosa. Party-ID crosstabs use the public survey PDF's GOP, Ind, and Dem columns: Republicans Abbott 90 / Hinojosa 7; Democrats Abbott 3 / Hinojosa 94; Independents Abbott 40 / Hinojosa 51. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 224.
+- `quinnipiac_us_house_generic_2026-09-04_2026-09-08_assumed_n` -> `us_house_generic`: Quinnipiac University, September 4-8, 2026, n=970 registered voters, Republican Party 38 / Democratic Party 49. Candidate A is the generic Republican Party; candidate B is the generic Democratic Party. Party-ID crosstabs use question 4's Rep, Dem, and Ind columns in the public PDF: Republicans Republican Party 88 / Democratic Party 5; Democrats Republican Party 2 / Democratic Party 95; Independents Republican Party 28 / Democratic Party 51. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 243.
+
+### Polls Skipped As Duplicates
+
+- Previously ingested or logged early-September modeled rows remained already handled, including CNN/SSRS Maine and Michigan, Univision/YouGov Texas, The Economist/YouGov September 4-8 generic ballot, The Honest Poll generic ballot, Emerson Iowa Senate and governor, Harvard CAPS/Harris generic ballot, Reuters/Ipsos generic ballot, and previously logged FT/Focaldata and Morning Consult generic-ballot rows without public complete party-ID crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Rasmussen Reports Iowa Senate, Maine Senate, and New Hampshire Senate rows surfaced in current polling tables/search paths, but no public complete Republican, Democratic, and Independent party-ID candidate-share crosstabs were located. No model update from those rows.
+- Quantus Insights Florida Senate and Change Research Florida governor rows surfaced in current polling tables/search paths, but no public complete Republican, Democratic, and Independent party-ID candidate-share crosstabs were located. No model update from those rows.
+- Cygnal and FT/Focaldata national generic-ballot rows remained visible in polling tables/search paths without a public complete R/D/I party-ID candidate-share source located during this run. No model update from those aggregate rows.
+- The Patriot Poll/YouGov Iowa Senate and governor PDF includes modeled-race toplines and other crosstabs, but the public PDF does not provide the Senate or governor candidate-share tables by Republican, Democratic, and Independent party ID. No model update from those Iowa rows.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `aarp-fabrizio-impact_tx_sen_2026-08-30_2026-09-01_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the survey PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 224.
+- `aarp-fabrizio-impact_tx_gov_2026-08-30_2026-09-01_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the survey PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 224.
+- `quinnipiac_us_house_generic_2026-09-04_2026-09-08_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 243.
+
+### Unclassified Or Not Applied
+
+- AARP/Fabrizio Ward/Impact Research published a Texas-only congressional generic ballot with party-ID crosstabs. It was not normalized as `us_house_generic` because the modeled generic-ballot race is national, not state-specific.
+- District-level House polls, presidential approval, direction-of-country, issue-only, and primary-only rows surfaced on polling pages/search paths were outside the modeled statewide general-election race set.
+
+### Extraction Uncertainties
+
+- The AARP survey PDF prints subgroup candidate shares and the total likely-voter N, but not party-ID subgroup Ns, so the automation's direct total-N/4 fallback was used. Party labels are printed as GOP, Ind, and Dem; these were normalized to Republican, Independent, and Democratic party-ID buckets.
+- Quinnipiac's release prints party-ID candidate shares and the total registered-voter N, but not party-ID subgroup Ns, so the automation's direct total-N/4 fallback was used.
+
 ## 2026-09-11
 
 ### Sources Searched

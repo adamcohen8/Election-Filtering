@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:07:57.861322+00:00",
+  "generated_at": "2026-09-12T13:45:27.002558+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1062,11 +1062,18 @@
           "margin_percent": 2.56
         },
         {
+          "date": "2026-09-01",
+          "candidate_a_share": 0.4767,
+          "candidate_b_share": 0.4489,
+          "margin": 0.0278,
+          "margin_percent": 2.78
+        },
+        {
           "date": "2026-09-04",
-          "candidate_a_share": 0.4614,
-          "candidate_b_share": 0.4471,
-          "margin": 0.0143,
-          "margin_percent": 1.43
+          "candidate_a_share": 0.4675,
+          "candidate_b_share": 0.4507,
+          "margin": 0.0168,
+          "margin_percent": 1.68
         }
       ],
       "poll_points": [
@@ -1125,6 +1132,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://texaspolitics.utexas.edu/files/202608_POLL_CROSSTABS-274ba11f.pdf"
+        },
+        {
+          "poll_id": "aarp-fabrizio-impact_tx_gov_2026-08-30_2026-09-01_assumed_n",
+          "pollster": "AARP/Fabrizio Ward/Impact Research",
+          "date": "2026-09-01",
+          "candidate_a_share": 0.49,
+          "candidate_b_share": 0.46,
+          "margin": 0.03,
+          "margin_percent": 3.0,
+          "leader": "republican",
+          "sample_size": 895,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-survey-texas.doi.10.26419-2fres.01065.028.pdf"
         },
         {
           "poll_id": "univision-yougov_tx_gov_2026-08-27_2026-09-04_crosstab",
@@ -1195,11 +1216,18 @@
           "margin_percent": -6.12
         },
         {
+          "date": "2026-09-01",
+          "candidate_a_share": 0.4707,
+          "candidate_b_share": 0.5293,
+          "margin": -0.0586,
+          "margin_percent": -5.86
+        },
+        {
           "date": "2026-09-04",
-          "candidate_a_share": 0.4669,
-          "candidate_b_share": 0.5331,
-          "margin": -0.0662,
-          "margin_percent": -6.62
+          "candidate_a_share": 0.4684,
+          "candidate_b_share": 0.5316,
+          "margin": -0.0632,
+          "margin_percent": -6.32
         }
       ],
       "poll_points": [
@@ -1300,6 +1328,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://texaspolitics.utexas.edu/files/202608_POLL_CROSSTABS-274ba11f.pdf"
+        },
+        {
+          "poll_id": "aarp-fabrizio-impact_tx_sen_2026-08-30_2026-09-01_assumed_n",
+          "pollster": "AARP/Fabrizio Ward/Impact Research",
+          "date": "2026-09-01",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.48,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 895,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-survey-texas.doi.10.26419-2fres.01065.028.pdf"
         },
         {
           "poll_id": "univision-yougov_tx_sen_2026-08-27_2026-09-04_crosstab",
@@ -1427,10 +1469,10 @@
         },
         {
           "date": "2026-09-08",
-          "candidate_a_share": 0.4477,
-          "candidate_b_share": 0.5523,
-          "margin": -0.1046,
-          "margin_percent": -10.46
+          "candidate_a_share": 0.4476,
+          "candidate_b_share": 0.5524,
+          "margin": -0.1048,
+          "margin_percent": -10.48
         }
       ],
       "poll_points": [
@@ -1825,6 +1867,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_HGAKAIQ.pdf"
+        },
+        {
+          "poll_id": "quinnipiac_us_house_generic_2026-09-04_2026-09-08_assumed_n",
+          "pollster": "Quinnipiac University",
+          "date": "2026-09-08",
+          "candidate_a_share": 0.38,
+          "candidate_b_share": 0.49,
+          "margin": -0.11,
+          "margin_percent": -11.0,
+          "leader": "democratic",
+          "sample_size": 970,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://poll.qu.edu/images/polling/us/us09102026_usvi28.pdf"
         }
       ]
     },
