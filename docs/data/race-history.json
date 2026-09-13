@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:45:27.002558+00:00",
+  "generated_at": "2026-09-13T07:07:07.691214+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -835,6 +835,20 @@
           "candidate_b_share": 0.5074,
           "margin": -0.0823,
           "margin_percent": -8.23
+        },
+        {
+          "date": "2026-08-31",
+          "candidate_a_share": 0.4249,
+          "candidate_b_share": 0.5027,
+          "margin": -0.0778,
+          "margin_percent": -7.78
+        },
+        {
+          "date": "2026-09-03",
+          "candidate_a_share": 0.4237,
+          "candidate_b_share": 0.5011,
+          "margin": -0.0774,
+          "margin_percent": -7.74
         }
       ],
       "poll_points": [
@@ -935,6 +949,34 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.carolinajournal.com/polls/august-2026-coopers-lead-over-whatley-grows-to-12-5-points/"
+        },
+        {
+          "poll_id": "elon-yougov_nc_sen_2026-08-21_2026-08-31_crosstab",
+          "pollster": "Elon University/YouGov",
+          "date": "2026-08-31",
+          "candidate_a_share": 0.36,
+          "candidate_b_share": 0.49,
+          "margin": -0.13,
+          "margin_percent": -13.0,
+          "leader": "democratic",
+          "sample_size": 677,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/09/Elon-University-Poll-Topline-Methodology-9-10-26.pdf"
+        },
+        {
+          "poll_id": "ecu_nc_sen_2026-08-31_2026-09-03_assumed_n",
+          "pollster": "East Carolina University",
+          "date": "2026-09-03",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.46,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 675,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://cdn.filestackcontent.com/obyggT8TXCZjJrGUQNgk"
         }
       ]
     },

@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-13
+
+### Sources Searched
+
+- RealClearPolling latest polls page, Senate/latest, governor/latest, House/latest, and generic congressional vote pages, reviewed September 13, 2026: `https://www.realclearpolling.com/latest-polls`, `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- PollingSource today/latest, Senate, governor, and generic-ballot surfaces, plus targeted September 10-13, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- Elon University/YouGov North Carolina U.S. Senate release, topline/methodology PDF, and data/charts PDF, fielded August 21-31, 2026: `https://www.elon.edu/u/news/2026/09/10/elon-university-poll-cooper-maintains-double-digit-lead-in-north-carolina-u-s-senate-race/`, `https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/09/Elon-University-Poll-Topline-Methodology-9-10-26.pdf`, and `https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/09/Elon-University-Poll-charts-9-10-26.pdf`.
+- East Carolina University North Carolina U.S. Senate release, crosstab PDF, and toplines PDF, fielded August 31-September 3, 2026: `https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-leads-whatley-by-7-points`, `https://cdn.filestackcontent.com/obyggT8TXCZjJrGUQNgk`, and `https://cdn.filestackcontent.com/midNvToaTnOmgDOk9qFC`.
+- The Patriot Poll/YouGov Maine general-election PDF, fielded September 2-8, 2026: `https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_me_20260902.pdf`.
+- The Patriot Poll/YouGov Iowa general-election PDF, fielded September 3-8, 2026, and carried over from the September 12 search as a current modeled-race topline without usable party-ID candidate-share crosstabs: `https://d3nkl3psvxxpe9.cloudfront.net/documents/iowa_election_20260903.pdf`.
+- Targeted searches for current public crosstabs or PDFs from InsiderAdvantage, Trafalgar, Rasmussen Reports, Quantus Insights, Change Research, Cygnal, FT/Focaldata, Morning Consult, and other September 2026 rows visible in polling tables.
+
+### Crosstab-Backed Polls Applied
+
+- `elon-yougov_nc_sen_2026-08-21_2026-08-31_crosstab` -> `nc_sen`: Elon University/YouGov, August 21-31, 2026, n=677 registered voters for the registered-voter ballot table, Whatley 36 / Cooper 49. Candidate A is Republican Michael Whatley; candidate B is Democrat Roy Cooper. Party-ID crosstabs use the public PDF's three-point party ID rows among registered voters: Republicans Whatley 86 / Cooper 8, n=189; Democrats Whatley 2 / Cooper 91, n=221; Independents Whatley 28 / Cooper 43, n=267.
+- `ecu_nc_sen_2026-08-31_2026-09-03_assumed_n` -> `nc_sen`: East Carolina University, August 31-September 3, 2026, n=675 likely voters, Whatley 39 / Cooper 46. Candidate A is Republican Michael Whatley; candidate B is Democrat Roy Cooper. Party-ID crosstabs use the public crosstab PDF's Republican, Democrat, and Independent columns: Republicans Whatley 79 / Cooper 11; Democrats Whatley 1 / Cooper 85; Independents Whatley 34 / Cooper 45. The PDF does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 169.
+
+### Polls Skipped As Duplicates
+
+- Previously ingested or logged early-September modeled rows remained already handled, including AARP/Fabrizio Ward/Impact Research Texas Senate and governor, Quinnipiac generic ballot, CNN/SSRS Maine and Michigan, Univision/YouGov Texas, The Economist/YouGov September 4-8 generic ballot, The Honest Poll generic ballot, Emerson Iowa Senate and governor, Harvard CAPS/Harris generic ballot, Reuters/Ipsos generic ballot, and previously logged FT/Focaldata and Morning Consult generic-ballot rows without public complete party-ID crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- The Patriot Poll/YouGov Maine Senate, fielded September 2-8, 2026, n=1,378 registered voters, Jackson 46 / Collins 44, includes modeled-race toplines and crosstabs by gender, age, education, and 2024 vote, but no Republican, Democratic, and Independent party-ID candidate-share table. No model update from that row.
+- The Patriot Poll/YouGov Iowa Senate and governor PDF includes modeled-race toplines and crosstabs by 2024 vote, but the public PDF does not provide Senate or governor candidate-share tables by Republican, Democratic, and Independent party ID. No model update from those Iowa rows.
+- Rasmussen Reports Iowa Senate, Maine Senate, and New Hampshire Senate rows surfaced in current polling tables/search paths, but no public complete Republican, Democratic, and Independent party-ID candidate-share crosstabs were located. No model update from those rows.
+- InsiderAdvantage Texas Senate, InsiderAdvantage Ohio Senate, Trafalgar Michigan Senate, Quantus Insights Florida Senate, Change Research Florida governor, Cygnal national generic ballot, and FT/Focaldata national generic-ballot rows surfaced in current polling tables/search paths, but no public complete R/D/I party-ID candidate-share source was located during this run. No model update from those aggregate rows.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `ecu_nc_sen_2026-08-31_2026-09-03_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the crosstab PDF, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 169.
+
+### Unclassified Or Not Applied
+
+- The Patriot Poll/YouGov Maine governor had public toplines and demographic crosstabs, but Maine governor is not currently in the modeled governor list and no R/D/I party-ID candidate-share table was located.
+- District-level House polls, presidential approval, direction-of-country, issue-only, and primary-only rows surfaced on polling pages/search paths were outside the modeled statewide general-election race set.
+
+### Extraction Uncertainties
+
+- Elon University/YouGov prints the North Carolina Senate party-ID crosstabs for registered voters rather than likely voters. The normalized record uses the matching registered-voter topline and the explicit registered-voter party-ID subgroup Ns from the sample characteristics table rather than mixing in the likely-voter topline.
+- ECU's crosstab PDF prints party-ID candidate shares and total likely-voter N, but not party-ID subgroup Ns, so the automation's direct total-N/4 fallback was used.
+
 ## 2026-09-12
 
 ### Sources Searched
