@@ -1,5 +1,50 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-14
+
+### Sources Searched
+
+- RealClearPolling latest polls page, Senate/latest, governor/latest, House/latest, and generic congressional vote pages, reviewed September 14, 2026: `https://www.realclearpolling.com/latest-polls`, `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Call the Map polling archive, Vote-Scope governor and House/generic polling pages, PollingSource/search paths, and targeted September 11-14, 2026 web searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- ActiVote national generic congressional ballot release and full crosstab table, published September 11, 2026: `https://www.activote.net/polls/generic-ballot/`.
+- CBS News/YouGov national House battleground release and public PDF, fielded September 8-11, 2026: `https://www.cbsnews.com/news/poll-trump-battleground-tracker-house-control-2026-midterm-elections/` and `https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/09/13/6a86957c-2fab-480d-9e48-94f9e48ab498/cbsnews_20260913_sun.pdf`.
+- The Public Sentiment Institute September national benchmark release and public Google Sheets crosstab workbook, fielded September 8-9, 2026: `https://tpsiofficial.substack.com/p/tpsi-septembers-snap-national-benchmark`.
+- Trafalgar Group North Carolina and Georgia U.S. Senate PDFs, released September 13, 2026: `https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/NC-Gen-Sen-Poll-Full-Report-0911.pdf` and `https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/GA-General-Full-Report-0912.pdf`.
+- Overton Insights/Texas Public Policy Foundation Texas release and crosstab PDF, plus current public-search surfaces for Co/efficient, Change Research, InsiderAdvantage, Rasmussen Reports, Morning Consult, FT/Focaldata, and other September 2026 modeled-race rows.
+
+### Crosstab-Backed Polls Applied
+
+- `activote_us_house_generic_2026-08-31_2026-09-10_assumed_n` -> `us_house_generic`: ActiVote, August 31-September 10, 2026, n=1,000 likely midterm voters, Generic Republican 47.7 / Generic Democrat 52.3. Candidate A is the generic Republican; candidate B is the generic Democrat. Party-ID crosstabs use the public full crosstab table's Party D, R, and I rows: Republicans Republican 93 / Democrat 7; Democrats Republican 9 / Democrat 91; Independents Republican 43 / Democrat 57. The table does not print party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 250.
+- `cbs-yougov_us_house_generic_2026-09-08_2026-09-11_crosstab` -> `us_house_generic`: CBS News/YouGov, September 8-11, 2026, n=1,750 likely voters, Republican candidate 46 / Democratic candidate 54. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use question 10's Party ID columns in the public PDF with explicit weighted Ns: Republicans Republican 98 / Democrat 2, n=586; Democrats Republican 1 / Democrat 99, n=615; Independents Republican 41 / Democrat 58, n=513.
+- `tpsi_us_house_generic_2026-09-08_2026-09-09_crosstab` -> `us_house_generic`: The Public Sentiment Institute, September 8-9, 2026, n=500 likely voters for Q10, Republican candidate 40.6 / Democratic candidate 50.6. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the public Google Sheets crosstab workbook's likely-voter Q10 Party ID columns with explicit unweighted bases: Republicans Republican 92.9 / Democrat 4.7, n=176; Democrats Republican 6.1 / Democrat 91.7, n=200; Independents Republican 11.9 / Democrat 47.7, n=124.
+
+### Polls Skipped As Duplicates
+
+- Previously ingested or logged early-September modeled rows remained already handled, including Elon University/YouGov and ECU North Carolina Senate, Patriot Poll/YouGov Maine and Iowa, AARP/Fabrizio Ward/Impact Research Texas Senate and governor, Quinnipiac generic ballot, CNN/SSRS Maine and Michigan, Univision/YouGov Texas, The Economist/YouGov September 4-8 generic ballot, The Honest Poll generic ballot, Emerson Iowa Senate and governor, Harvard CAPS/Harris generic ballot, Reuters/Ipsos generic ballot, and prior FT/Focaldata and Morning Consult generic-ballot rows without public complete party-ID crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Trafalgar Group North Carolina Senate, fielded September 8-10, 2026, n=1,084 likely general-election voters, Cooper 48.2 / Whatley 42.3, publishes an aggregate ballot chart and a separate party-participation chart, but not Republican, Democratic, and Independent party-ID candidate-share crosstabs. No model update from that row.
+- Trafalgar Group Georgia Senate, fielded September 10-12, 2026, n=1,091 likely general-election voters, Ossoff 49.4 / Collins 42.8, publishes an aggregate ballot chart and a separate party-participation chart, but not Republican, Democratic, and Independent party-ID candidate-share crosstabs. No model update from that row.
+- Overton Insights/Texas Public Policy Foundation Texas Senate and governor, fielded August 24-26, 2026, includes modeled-race toplines and crosstabs by Republican primary, Democratic primary, and neither primary participation, but not Republican, Democratic, and Independent party-ID candidate-share crosstabs. No model update from those rows.
+- Current Co/efficient Kansas, GreatBlue Connecticut, district-level House, state-specific generic-ballot, presidential approval, issue-only, and primary-only rows surfaced on polling pages/search paths were outside the modeled statewide general-election race set or lacked public complete R/D/I party-ID candidate-share crosstabs for a modeled race.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `activote_us_house_generic_2026-08-31_2026-09-10_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the table, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 250.
+
+### Unclassified Or Not Applied
+
+- Trafalgar's North Carolina and Georgia Senate PDFs were not normalized because party participation is not a candidate-share crosstab.
+- Overton Insights/Texas Public Policy Foundation was not normalized because primary-participation crosstabs are not the required Republican, Democratic, and Independent party-ID crosstabs.
+- District-level House polls, presidential approval, direction-of-country, issue-only, state-specific generic-ballot, and primary-only rows surfaced on polling pages/search paths were outside the modeled statewide Senate, governor, and national generic-ballot scope.
+
+### Extraction Uncertainties
+
+- ActiVote prints the party-ID candidate shares and total likely-voter N, but not party-ID subgroup Ns, so the automation's direct total-N/4 fallback was used rather than deriving subgroup Ns from the printed party-composition percentages.
+- CBS News/YouGov party-ID subgroup Ns are weighted Ns from the public PDF. TPSI subgroup Ns are unweighted bases from the public workbook. Those source-specific N definitions are preserved in the normalized record text.
+- Trafalgar's "Party Participation" pages were reviewed visually from embedded chart images; they show party composition only and no candidate-by-party ballot table.
+
 ## 2026-09-13
 
 ### Sources Searched

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:07:07.691214+00:00",
+  "generated_at": "2026-09-14T07:10:12.880463+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1515,6 +1515,27 @@
           "candidate_b_share": 0.5524,
           "margin": -0.1048,
           "margin_percent": -10.48
+        },
+        {
+          "date": "2026-09-09",
+          "candidate_a_share": 0.447,
+          "candidate_b_share": 0.553,
+          "margin": -0.106,
+          "margin_percent": -10.6
+        },
+        {
+          "date": "2026-09-10",
+          "candidate_a_share": 0.4471,
+          "candidate_b_share": 0.5529,
+          "margin": -0.1058,
+          "margin_percent": -10.58
+        },
+        {
+          "date": "2026-09-11",
+          "candidate_a_share": 0.4477,
+          "candidate_b_share": 0.5523,
+          "margin": -0.1046,
+          "margin_percent": -10.46
         }
       ],
       "poll_points": [
@@ -1923,6 +1944,48 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://poll.qu.edu/images/polling/us/us09102026_usvi28.pdf"
+        },
+        {
+          "poll_id": "tpsi_us_house_generic_2026-09-08_2026-09-09_crosstab",
+          "pollster": "The Public Sentiment Institute",
+          "date": "2026-09-09",
+          "candidate_a_share": 0.406,
+          "candidate_b_share": 0.506,
+          "margin": -0.1,
+          "margin_percent": -10.0,
+          "leader": "democratic",
+          "sample_size": 500,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://tpsiofficial.substack.com/p/tpsi-septembers-snap-national-benchmark"
+        },
+        {
+          "poll_id": "activote_us_house_generic_2026-08-31_2026-09-10_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-09-10",
+          "candidate_a_share": 0.477,
+          "candidate_b_share": 0.523,
+          "margin": -0.046,
+          "margin_percent": -4.6,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/generic-ballot/"
+        },
+        {
+          "poll_id": "cbs-yougov_us_house_generic_2026-09-08_2026-09-11_crosstab",
+          "pollster": "CBS News/YouGov",
+          "date": "2026-09-11",
+          "candidate_a_share": 0.46,
+          "candidate_b_share": 0.54,
+          "margin": -0.08,
+          "margin_percent": -8.0,
+          "leader": "democratic",
+          "sample_size": 1750,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/09/13/6a86957c-2fab-480d-9e48-94f9e48ab498/cbsnews_20260913_sun.pdf"
         }
       ]
     },
