@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:10:12.880463+00:00",
+  "generated_at": "2026-09-15T07:05:41.828874+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1116,6 +1116,13 @@
           "candidate_b_share": 0.4507,
           "margin": 0.0168,
           "margin_percent": 1.68
+        },
+        {
+          "date": "2026-09-13",
+          "candidate_a_share": 0.4735,
+          "candidate_b_share": 0.4546,
+          "margin": 0.0189,
+          "margin_percent": 1.89
         }
       ],
       "poll_points": [
@@ -1202,6 +1209,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://st1.uvnimg.com/3f/4b/1bfa5e5a4df9b60581e66d97973b/univision-texas-poll-crosstabs-base.pdf"
+        },
+        {
+          "poll_id": "socal_tx_gov_2026-09-12_2026-09-13_assumed_n",
+          "pollster": "SoCal Strategies",
+          "date": "2026-09-13",
+          "candidate_a_share": 0.52,
+          "candidate_b_share": 0.44,
+          "margin": 0.08,
+          "margin_percent": 8.0,
+          "leader": "republican",
+          "sample_size": 649,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://socalstrategies.substack.com/p/new-socal-strategies-poll-james-talarico"
         }
       ]
     },
@@ -1270,6 +1291,13 @@
           "candidate_b_share": 0.5316,
           "margin": -0.0632,
           "margin_percent": -6.32
+        },
+        {
+          "date": "2026-09-13",
+          "candidate_a_share": 0.467,
+          "candidate_b_share": 0.533,
+          "margin": -0.0659,
+          "margin_percent": -6.59
         }
       ],
       "poll_points": [
@@ -1398,6 +1426,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://st1.uvnimg.com/3f/4b/1bfa5e5a4df9b60581e66d97973b/univision-texas-poll-crosstabs-base.pdf"
+        },
+        {
+          "poll_id": "socal_tx_sen_2026-09-12_2026-09-13_assumed_n",
+          "pollster": "SoCal Strategies",
+          "date": "2026-09-13",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.5,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 649,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://socalstrategies.substack.com/p/new-socal-strategies-poll-james-talarico"
         }
       ]
     },
@@ -1536,6 +1578,13 @@
           "candidate_b_share": 0.5523,
           "margin": -0.1046,
           "margin_percent": -10.46
+        },
+        {
+          "date": "2026-09-14",
+          "candidate_a_share": 0.448,
+          "candidate_b_share": 0.552,
+          "margin": -0.104,
+          "margin_percent": -10.4
         }
       ],
       "poll_points": [
@@ -1986,6 +2035,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/09/13/6a86957c-2fab-480d-9e48-94f9e48ab498/cbsnews_20260913_sun.pdf"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-09-11_2026-09-14_crosstab",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-09-14",
+          "candidate_a_share": 0.37,
+          "candidate_b_share": 0.44,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 896,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Reuters%20Ipsos%20Survey%20September%202026%209.14%20Release.pdf"
         }
       ]
     },

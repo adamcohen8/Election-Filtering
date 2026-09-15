@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-15
+
+### Sources Searched
+
+- RealClearPolling latest polls page, Senate/latest, governor/latest, House/latest, and generic congressional vote pages, reviewed September 15, 2026: `https://www.realclearpolling.com/latest-polls`, `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Call the Map polling archive and national-environment pages, PollingSource, The Hill/DDHQ generic ballot, Political Betting latest-polls pages, and targeted September 14-15, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- Reuters/Ipsos September 11-14, 2026 release and public topline PDF: `https://www.ipsos.com/en-us/reutersipsos-september-2026-survey` and `https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Reuters%20Ipsos%20Survey%20September%202026%209.14%20Release.pdf`.
+- SoCal Strategies Texas release and public Google Sheets crosstab workbook, fielded September 12-13, 2026: `https://socalstrategies.substack.com/p/new-socal-strategies-poll-james-talarico` and `https://docs.google.com/spreadsheets/d/1H9gktb-kPhi7K_Id8GEt6NERqPqvarSSsx5gsZfse8c/edit?usp=sharing`.
+- Rasmussen Reports generic congressional ballot article, fielded September 3 and 6-9, 2026: `https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_sep14`.
+- Morning Consult generic-ballot tracker article and dashboard, reviewed for the current September 13 Call the Map/VoteHub row: `https://intel.morningconsult.com/mc-content/trackers/2026-midterm-election-generic-ballot-polls` and `https://pro-assets.morningconsult.com/wp-uploads/2026/08/MCPI-Midterm-Ballot.html`.
+
+### Crosstab-Backed Polls Applied
+
+- `socal_tx_gov_2026-09-12_2026-09-13_assumed_n` -> `tx_gov`: SoCal Strategies, September 12-13, 2026, n=649 likely voters, Abbott 52 / Hinojosa 44. Candidate A is Republican Greg Abbott; candidate B is Democrat Gina Hinojosa. Party-ID crosstabs use the public Google Sheets crosstab's Republican, Democrat, and Independent columns: Republicans Abbott 92 / Hinojosa 7; Democrats Abbott 8 / Hinojosa 91; Independents Abbott 35 / Hinojosa 56. The crosstab prints weighted party shares but not party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 162.
+- `socal_tx_sen_2026-09-12_2026-09-13_assumed_n` -> `tx_sen`: SoCal Strategies, September 12-13, 2026, n=649 likely voters, Paxton 45 / Talarico 50. Candidate A is Republican Ken Paxton; candidate B is Democrat James Talarico. Party-ID crosstabs use the public Google Sheets crosstab's Republican, Democrat, and Independent columns: Republicans Paxton 82 / Talarico 12; Democrats Paxton 8 / Talarico 92; Independents Paxton 23 / Talarico 68. The crosstab prints weighted party shares but not party-ID subgroup Ns, so each R/D/I subgroup n uses total N / 4 = 162.
+- `reuters-ipsos_us_house_generic_2026-09-11_2026-09-14_crosstab` -> `us_house_generic`: Reuters/Ipsos, September 11-14, 2026, n=896 registered voters for the generic-ballot topline, Republican candidate 37 / Democratic candidate 44. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the public topline PDF columns with explicit unweighted Ns: Republicans Republican 84 / Democrat 4, n=309; Democrats Republican 1 / Democrat 91, n=381; Independents/Other Republican 18 / Democrat 28, n=453.
+
+### Polls Skipped As Duplicates
+
+- Previously ingested or logged modeled rows remained already handled, including ActiVote generic ballot, CBS News/YouGov generic ballot, TPSI generic ballot, Trafalgar North Carolina and Georgia Senate, Elon University/YouGov and ECU North Carolina Senate, Patriot Poll/YouGov Maine and Iowa, AARP/Fabrizio Ward/Impact Research Texas Senate and governor, Quinnipiac generic ballot, CNN/SSRS Maine and Michigan, Univision/YouGov Texas, The Economist/YouGov September 4-8 generic ballot, The Honest Poll generic ballot, Emerson Iowa Senate and governor, Harvard CAPS/Harris generic ballot, Reuters/Ipsos earlier generic-ballot rows, and prior FT/Focaldata and Morning Consult generic-ballot rows without public complete party-ID crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Rasmussen Reports national generic congressional ballot, fielded September 3 and 6-9, 2026, n=1,905 likely voters, includes aggregate toplines and some party/independent candidate-share text. The Democratic-party row is internally inconsistent in the public article (`77% (88%)`), and the full demographic breakdown is subscriber-only, so no model update from that row.
+- Morning Consult national generic congressional ballot, week ending September 13, 2026, surfaced through Call the Map/VoteHub as a current aggregate row. The public tracker article and linked dashboard reviewed during this run still displayed an older August 16 release and did not expose current September 13 Republican, Democratic, and Independent party-ID candidate shares or subgroup Ns. No model update from that row.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- `socal_tx_gov_2026-09-12_2026-09-13_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the crosstab, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 162.
+- `socal_tx_sen_2026-09-12_2026-09-13_assumed_n`: party-ID candidate shares are public, but subgroup Ns are not printed in the crosstab, so Republican, Democratic, and Independent subgroup Ns each use total N / 4 = 162.
+
+### Unclassified Or Not Applied
+
+- Nebraska Senate/governor, Connecticut governor, Kansas Senate/governor, Minnesota Senate, Montana Senate, and district-level House rows surfaced on polling pages/search paths were outside the modeled race set.
+- Presidential approval, issue-only, direction-of-country, fundraising, market, and polling-average rows were outside the ingestion scope.
+
+### Extraction Uncertainties
+
+- SoCal Strategies prints weighted party shares in the crosstab but not party-ID subgroup Ns; the automation's direct total-N/4 fallback was used rather than deriving Ns from the weighted party-composition row.
+- Reuters/Ipsos party columns are labeled `Rep`, `Dem`, and `Ind/Other`; the last was normalized to the model's Independent party-ID bucket. Its party-ID Ns are unweighted values from the public topline PDF.
+
 ## 2026-09-14
 
 ### Sources Searched
