@@ -1,5 +1,48 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-16
+
+### Sources Searched
+
+- RealClearPolling latest polls page, Senate/latest, governor/latest, House/latest, and generic congressional vote pages, reviewed September 16, 2026: `https://www.realclearpolling.com/latest-polls`, `https://www.realclearpolling.com/latest-polls/senate`, `https://www.realclearpolling.com/latest-polls/governor`, `https://www.realclearpolling.com/latest-polls/house`, and `https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote`.
+- Call the Map polling archive, Vote-Scope polling tables, PollingSource/current polling surfaces, Political Betting latest-polls pages, and targeted September 15-16, 2026 searches for modeled Senate, governor, and national generic congressional ballot releases with public party-ID crosstabs.
+- The Economist/YouGov September 11-14, 2026 national survey PDF: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ZmVljW6.pdf`.
+- Telemundo/Mason-Dixon Texas Senate and governor rows surfaced on RealClearPolling, including the linked DocumentCloud/S3 source path `https://s3.documentcloud.org/documents/28623723/tx926allvoterresults.pdf`, plus secondary public searches because the source PDF fetch returned a Cloudflare block page in command-line review.
+- ITR Foundation/Cygnal Iowa release and linked PDF: `https://itrfoundation.org/new-poll-iowa-voters-support-supermajority-requirement-to-raise-income-taxes/`.
+- Co/efficient New Hampshire battleground page for U.S. Senate and governor: `https://battlegrounds.coefficient.org/nh/`.
+- New York Times/Siena national midterm article and targeted searches for public generic-ballot crosstabs: `https://monorepo-sample1.nyt.net/2026/09/15/us/politics/trump-midterm-election-poll.html`.
+- Current searches for public complete crosstabs from Rasmussen Reports, including Georgia Senate and Alaska Senate rows visible on polling pages/search surfaces.
+
+### Crosstab-Backed Polls Applied
+
+- `economist-yougov_us_house_generic_2026-09-11_2026-09-14_crosstab` -> `us_house_generic`: The Economist/YouGov, September 11-14, 2026, n=1,051 voters for the RCP-visible generic-ballot topline, Republican candidate 39 / Democratic candidate 51. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the public PDF's 2026 Congressional Vote Party ID columns with explicit unweighted subgroup Ns: Republicans Republican 86 / Democrat 4, n=437; Democrats Republican 1 / Democrat 86, n=512; Independents Republican 26 / Democrat 44, n=506.
+
+### Polls Skipped As Duplicates
+
+- `reuters-ipsos_us_house_generic_2026-09-11_2026-09-14_crosstab` was already applied in the September 15 run.
+- Previously ingested or logged September rows remained already handled, including ActiVote, CBS News/YouGov, TPSI, SoCal Strategies, AARP/Fabrizio Ward/Impact Research, Quinnipiac, CNN/SSRS, Univision/YouGov, The Economist/YouGov September 4-8, The Honest Poll, Emerson, Harvard CAPS/Harris, Reuters/Ipsos earlier rows, and prior FT/Focaldata and Morning Consult generic-ballot rows without public complete party-ID crosstabs.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Telemundo/Mason-Dixon Texas Senate and Texas governor rows surfaced on RealClearPolling. The linked DocumentCloud/S3 PDF was not accessible during command-line review, and public secondary sources did not expose complete Republican, Democratic, and Independent party-ID candidate-share crosstabs for both races. No model update from those rows.
+- Cygnal/ITR Iowa Senate and Iowa governor rows, fielded for the ITR Foundation, were reviewed from the public article and PDF. The PDF includes aggregate ballot results and party registration composition but no candidate-by-party crosstab table. No model update from those rows.
+- Co/efficient New Hampshire Senate and New Hampshire governor rows were reviewed from the public battleground page. The page includes aggregate toplines and party registration composition but no candidate-by-party crosstab table. No model update from those rows.
+- New York Times/Siena national generic congressional ballot row was reviewed from the public article and search paths. No public complete Republican, Democratic, and Independent party-ID candidate-share crosstab table was located during this run. No model update from that row.
+- Rasmussen Reports Georgia Senate and Alaska Senate rows surfaced on current polling tables/search paths, but no public complete Republican, Democratic, and Independent party-ID candidate-share crosstabs were located. No model update from those rows.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The Economist/YouGov party-ID crosstab used explicit unweighted subgroup Ns from the public PDF.
+
+### Unclassified Or Not Applied
+
+- South Carolina Senate, Minnesota, Kansas, Connecticut, district-level House rows, approvals, direction-of-country, issue-only, primary-only, and fundraising rows surfaced on polling pages/search paths were outside the modeled statewide Senate, governor, and national generic-ballot scope.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov party-ID subgroup Ns are explicit unweighted Ns from the public PDF's Party ID columns. The normalized topline N uses the RCP-visible voters column, while the crosstab evidence comes from the public registered-voter PDF table.
+- The Telemundo/Mason-Dixon source PDF was blocked or inaccessible to command-line fetch during this run, so the Texas Senate and governor rows were logged as unresolved aggregate rows rather than ingested from partial secondary-source text.
+
 ## 2026-09-15
 
 ### Sources Searched

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:05:41.828874+00:00",
+  "generated_at": "2026-09-16T07:06:35.423531+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -2035,6 +2035,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/09/13/6a86957c-2fab-480d-9e48-94f9e48ab498/cbsnews_20260913_sun.pdf"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-09-11_2026-09-14_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-09-14",
+          "candidate_a_share": 0.39,
+          "candidate_b_share": 0.51,
+          "margin": -0.12,
+          "margin_percent": -12.0,
+          "leader": "democratic",
+          "sample_size": 1051,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_ZmVljW6.pdf"
         },
         {
           "poll_id": "reuters-ipsos_us_house_generic_2026-09-11_2026-09-14_crosstab",
