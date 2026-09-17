@@ -1,5 +1,49 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-17
+
+### Sources Searched
+
+- RealClearPolling latest polls index, reviewed September 17, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Fox News September 11-14 national poll release and poll archive: `https://www.foxnews.com/politics/fox-news-poll-squeezed-costs-frustrated-voters-turn-democrats` and `https://www.foxnews.com/official-polls/fox-news-poll-archive`.
+- Quantus Insights Maine Senate release: `https://quantusinsights.org/polling/f/quantus-survey-collins-and-jackson-even-in-maine-senate-race`.
+- Bowling Green State University/YouGov September Ohio and national poll collection: `https://scholarworks.bgsu.edu/depo/`.
+- Co/efficient Iowa Senate and governor release: `https://battlegrounds.coefficient.org/ia/`.
+- Marquette Law School September 2-9 national poll release and results page: `https://law.marquette.edu/poll/2026/09/15/mlspsc35-1/` and `https://law.marquette.edu/poll/category/results-and-data/`.
+- Big Data Poll national release: `https://www.bigdatapoll.com/blog/democrats-maintain-significant-midterm-advantage-in-post-labor-day-poll/`.
+
+### Crosstab-Backed Polls Applied
+
+- None in this source-audit run. No ingestion, model replay, or public forecast export was performed.
+
+### Polls Skipped As Duplicates
+
+- Previously handled September 15-16 rows were not revisited for ingestion.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- Iowa Senate and Iowa governor, co/efficient: the public release shows ballot toplines and registered-party composition, but not candidate choice broken down by Republican, Democratic, and Independent party ID.
+- Big Data Poll generic ballot: the public release and linked RCP row were found, but complete party-ID candidate-choice crosstabs were not verified.
+- Quantus Insights Maine Senate: RCP links to a release, but the source page did not expose a reviewable party-ID crosstab in this run.
+
+### Crosstab Sources Requiring Follow-Up
+
+- Marquette national generic ballot: the September release prints a party-ID candidate-choice table. Its detailed crosstab HTML was linked from the results page but exceeded the browser fetch limit. No normalized record was added.
+- Bowling Green State University/YouGov Ohio Senate and governor: the repository lists September 2026 Ohio likely-voter tabs, but the tab PDF returned HTTP 403 during review. The national tabs may also cover the generic ballot; their contents were not verified.
+- Fox News national generic ballot: the September 11-14 release describes party-ID voting, but the current poll archive did not list this wave's crosstab PDF during review. The article alone did not establish every opposing-candidate share in each R/D/I group.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Or Not Applied
+
+- Minnesota Senate and governor, Connecticut governor, California governor, approval, issue, and 2028 nomination rows on RCP were outside the modeled race set.
+
+### Extraction Uncertainties
+
+- This run recorded source availability only. The normalized feed, duplicate ledger, model snapshot, and GitHub Pages forecast data were not changed; no election forecast was generated.
+
 ## 2026-09-16
 
 ### Sources Searched
