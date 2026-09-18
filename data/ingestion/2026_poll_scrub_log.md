@@ -1,5 +1,56 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-18
+
+### Sources Searched
+
+- RealClearPolling latest polls index, reviewed September 18, 2026: `https://www.realclearpolling.com/latest-polls`.
+- ReconMR/Siena Texas poll release and full September crosstab PDF: `https://reconmr.com/tx-poll/` and `https://reconmr.com/wp-content/uploads/2026/09/ReconMR-Texas-Poll-September-Crosstabs.pdf`.
+- Emerson/Nexstar Texas and Michigan releases and linked full-results workbooks: `https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/` and `https://emersoncollegepolling.com/michigan-2026-poll-el-sayed-and-rogers-locked-in-close-election/`.
+- AARP Alaska Senate release and research page: `https://www.aarp.org/government-elections/alaska-election-poll-2026/` and `https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-alaska/`.
+- Co/efficient Alaska Senate release: `https://battlegrounds.coefficient.org/ak/`.
+- Carolina Journal/Harper North Carolina Senate article and topline PDF: `https://www.carolinajournal.com/cj-poll-cooper-leads-whatley-by-15-as-republican-voters-drift-to-undecided/`.
+- Trafalgar Ohio Senate report: `https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/OH-Midterms-Full-Report-0917.pdf`.
+- Napolitan News/RMG national generic ballot release and mini-topline PDF: `https://napolitannews.org/posts/generic-ballot-first-likely-voter-numbers-have-dems-ahead-6`.
+- Washington Post Michigan Senate and governor reporting, methodology article, and poll archive: `https://www.washingtonpost.com/politics/2026/09/17/pollwatcher-inside-washington-post-schar-school-poll-michigan/` and `https://www.washingtonpost.com/polling/2019/05/24/washington-post-poll-archive/`.
+- Rasmussen Reports Georgia governor page: `https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_georgia_governor`.
+
+### Crosstab-Backed Polls Applied
+
+- None. This run recorded source availability only and did not update the normalized feed, model, or published forecast.
+
+### Polls Skipped As Duplicates
+
+- Previously logged Fox News and Marquette national generic ballot rows, Quantus Maine Senate, Bowling Green/YouGov Ohio, and co/efficient Iowa rows were not entered again.
+
+### Crosstab Sources Found But Not Applied
+
+- ReconMR/Siena Texas Senate and Texas governor: the September 8-11 crosstab PDF includes candidate-choice rows under DEM, REP, and IND/OTHER party-ID columns for both races. It prints an overall sample size; subgroup counts were not verified as explicit counts. The IND/OTHER grouping is broader than a pure independent group. No normalized records were added.
+- Emerson/Nexstar Texas Senate and governor and Michigan Senate and governor: both releases link full-results workbooks described as containing cross-tabulations. The browser view exposed aggregate sheets but did not establish complete R/D/I candidate-choice rows in this review. No normalized records were added.
+- Washington Post/Schar School Michigan Senate and governor: reporting says the poll has crosstabs, but the poll archive reviewed here had not yet listed the September Michigan release. The R/D/I candidate-choice rows were not verified.
+- AARP/Fabrizio Ward/Impact Research Alaska Senate: the article and research page point to detailed results, but complete R/D/I candidate-choice rows were not verified during this review.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- Co/efficient Alaska Senate: the public page shows candidate toplines and party registration composition, without candidate choice by party ID.
+- Carolina Journal/Harper North Carolina Senate: the linked topline PDF shows aggregate ballot results and party registration totals, without candidate choice by party ID.
+- Trafalgar Ohio Senate: the public report reviewed here did not expose complete candidate-choice-by-party crosstabs.
+- Napolitan News/RMG national generic ballot: the public mini-topline PDF gives overall vote intention but no R/D/I candidate-choice table.
+- Rasmussen Reports Georgia governor: the public page reviewed here did not expose complete R/D/I candidate-choice crosstabs.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Or Not Applied
+
+- Kansas Senate and governor, Montana Senate, Alaska governor, Alaska at-large House, issue-only, approval, and 2028 nomination rows on RCP were outside the modeled-race set.
+
+### Extraction Uncertainties
+
+- The ReconMR September Texas poll includes a state-level congressional ballot question, which is not the national `us_house_generic` race.
+- No election-outcome model run or GitHub Pages forecast refresh was performed in this source-audit run.
+
 ## 2026-09-17
 
 ### Sources Searched
