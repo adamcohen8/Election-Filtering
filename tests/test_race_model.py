@@ -514,13 +514,13 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     race = next(race for race in payload["races"] if race["race_id"] == "fl_sen")
     assert race["office"] == "senate"
     assert race["state_code"] == "FL"
-    assert race["data_available"] is False
-    assert race["data_note"] == "No data available"
-    assert race["status"] == "tossup"
-    assert race["leader"] == "tie"
-    assert race["candidate_a_share"] is None
-    assert race["candidate_b_share"] is None
-    assert race["margin"] is None
+    assert race["data_available"] is True
+    assert race["data_note"] is None
+    assert race["status"] == "safe-republican"
+    assert race["leader"] == "republican"
+    assert race["candidate_a_share"] is not None
+    assert race["candidate_b_share"] is not None
+    assert race["margin"] is not None
 
     texas = next(race for race in payload["races"] if race["race_id"] == "tx_sen")
     assert texas["data_available"] is True
