@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-19
+
+### Sources Searched
+
+- RealClearPolling latest election polls, reviewed September 19, 2026: `https://www.realclearpolling.com/latest-polls/election`.
+- ReconMR/Siena Research Institute September 8-11 Texas release and official crosstab PDF: `https://reconmr.com/tx-poll/` and `https://reconmr.com/wp-content/uploads/2026/09/ReconMR-Texas-Poll-September-Crosstabs.pdf`.
+- Marquette Law School Poll September 2-9 national release and its published party-ID table: `https://law.marquette.edu/poll/2026/09/16/mlspsc35-1/`.
+- Bowling Green State University/YouGov September Ohio repository entry: `https://scholarworks.bgsu.edu/depo/27/`.
+- Targeted searches for September 18 modeled-race releases from InsiderAdvantage, Trafalgar Group, and Quantus Insights.
+
+### Crosstab-Backed Polls Applied
+
+- `reconmr-siena_tx_sen_2026-09-08_2026-09-11_assumed_n` -> `tx_sen`: ReconMR/Siena, n=614 likely voters, Paxton 43 / Talarico 49. Party-ID candidate shares are Republican 87 / 6, Democratic 0 / 98, and IND/OTHER 24 / 64. IND/OTHER is normalized as independent.
+- `reconmr-siena_tx_gov_2026-09-08_2026-09-11_assumed_n` -> `tx_gov`: ReconMR/Siena, n=614 likely voters, Abbott 45 / Hinojosa 49. Party-ID candidate shares are Republican 90 / 4, Democratic 1 / 98, and IND/OTHER 27 / 65. IND/OTHER is normalized as independent.
+- `marquette_us_house_generic_2026-09-02_2026-09-09_assumed_n` -> `us_house_generic`: Marquette Law School Poll, n=864 registered voters, Republican 42 / Democratic 50. Party-ID candidate shares use the published Republican, Democrat, and non-leaning Independent rows: Republican 93 / Democrat 4 among Republicans; Republican 2 / Democrat 98 among Democrats; Republican 10 / Democrat 41 among non-leaning independents.
+
+### Polls Skipped As Duplicates
+
+- Previously reviewed September 15-17 rows, including Fox News and RMG national generic ballot, were not entered again.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- InsiderAdvantage September 18 Michigan, New Hampshire, and North Carolina Senate releases: current public and search surfaces exposed aggregate results but not complete Republican, Democratic, and Independent candidate-choice rows.
+- Trafalgar Group September 18 Texas Senate: the public polling surface exposed the aggregate result but not a complete R/D/I candidate-choice table.
+- Quantus Insights September 18 Georgia Senate: the current public surface exposed the aggregate result but no reviewable complete R/D/I candidate-choice crosstab.
+- Bowling Green State University/YouGov September Ohio Senate and governor: the official repository identifies the 1,000-likely-voter crosstab file, but its PDF download still returned HTTP 403 during this run, so no values were inferred from secondary reporting.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Both ReconMR/Siena Texas records use rounded total N / 4 = 154 for each R/D/I subgroup because the public PDF prints candidate shares but not subgroup counts.
+- The Marquette national generic-ballot record uses registered-voter N / 4 = 216 for each R/D/I subgroup because the published party-ID table does not print subgroup counts.
+
+### Unclassified Or Not Applied
+
+- Kansas Senate and governor rows were outside the modeled-race set. State-level Texas congressional preference in the ReconMR poll was not classified as the national `us_house_generic` race.
+
+### Extraction Uncertainties
+
+- ReconMR labels its third party-ID column `IND/OTHER`; that broader category is normalized as independent and documented in both records.
+- Marquette's crosstab is among registered voters and separates leaners from pure partisans. The normalized rows use Republican, Democrat, and non-leaning Independent exactly as published, with the registered-voter topline rather than the separate likely-voter result.
+
 ## 2026-09-18
 
 ### Florida Missing-Poll Recovery
