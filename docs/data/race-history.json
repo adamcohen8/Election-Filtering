@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:03:04.295846+00:00",
+  "generated_at": "2026-09-20T07:06:12.251631+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -203,10 +203,10 @@
         },
         {
           "date": "2026-09-17",
-          "candidate_a_share": 0.455,
-          "candidate_b_share": 0.3683,
-          "margin": 0.0867,
-          "margin_percent": 8.67
+          "candidate_a_share": 0.4528,
+          "candidate_b_share": 0.3682,
+          "margin": 0.0846,
+          "margin_percent": 8.46
         }
       ],
       "poll_points": [
@@ -281,7 +281,7 @@
           "source_url": "https://www.unfporl.org/presser-page"
         },
         {
-          "poll_id": "st-pete-polls_fl_gov_2026-09-15_2026-09-17_assumed_n",
+          "poll_id": "st-pete-polls_fl_gov_2026-09-15_2026-09-17_crosstab",
           "pollster": "St. Pete Polls",
           "date": "2026-09-17",
           "candidate_a_share": 0.435,
@@ -292,7 +292,7 @@
           "sample_size": 913,
           "measurement": "topline",
           "partial_party_id": false,
-          "source_url": "https://floridapolitics.com/archives/820638-poll-byron-donalds-44-david-jolly-43-in-dead-heat-race-for-florida-governor/"
+          "source_url": "https://stpetepolls.org/files/StPetePolls_2026_State_Gov_September17_G7V29XU6.pdf"
         }
       ]
     },
@@ -326,6 +326,13 @@
           "candidate_b_share": 0.3227,
           "margin": 0.1967,
           "margin_percent": 19.67
+        },
+        {
+          "date": "2026-09-17",
+          "candidate_a_share": 0.5183,
+          "candidate_b_share": 0.3379,
+          "margin": 0.1803,
+          "margin_percent": 18.03
         }
       ],
       "poll_points": [
@@ -384,6 +391,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.unfporl.org/s/PORL-2026-Summer-Statewide-Xtabs-ADA.xlsx"
+        },
+        {
+          "poll_id": "st-pete-polls_fl_sen_2026-09-15_2026-09-17_crosstab",
+          "pollster": "St. Pete Polls",
+          "date": "2026-09-17",
+          "candidate_a_share": 0.452,
+          "candidate_b_share": 0.448,
+          "margin": 0.004,
+          "margin_percent": 0.4,
+          "leader": "republican",
+          "sample_size": 913,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://stpetepolls.org/files/StPetePolls_2026_State_Gov_September17_G7V29XU6.pdf"
         }
       ]
     },

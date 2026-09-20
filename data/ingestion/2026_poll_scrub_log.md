@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-20
+
+### Sources Searched
+
+- RealClearPolling latest election polls, reviewed September 20, 2026: `https://www.realclearpolling.com/latest-polls/election`.
+- St. Pete Polls September 15-17 official Florida survey report: `https://stpetepolls.org/files/StPetePolls_2026_State_Gov_September17_G7V29XU6.pdf`.
+- Trafalgar Group September 16-18 official Iowa midterm report: `https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/IA-Midterms-Full-Report-0918.pdf`.
+- Targeted searches for September 19 modeled-race releases and official crosstab documents.
+
+### Crosstab-Backed Polls Applied
+
+- `st-pete-polls_fl_sen_2026-09-15_2026-09-17_crosstab` -> `fl_sen`: St. Pete Polls, n=913 likely voters, Moody 45.2 / Nixon 44.8. The official report prints complete candidate shares and explicit subgroup respondent counts: Republican Moody 76.7 / Nixon 12.4, n=412; Democratic Moody 8.1 / Nixon 85.2, n=298; Independent Moody 37.4 / Nixon 49.8, n=203.
+- `st-pete-polls_fl_gov_2026-09-15_2026-09-17_crosstab` -> `fl_gov`: St. Pete Polls, n=913 likely voters, Donalds 43.5 / Jolly 43.4. The official report prints complete candidate shares and explicit subgroup respondent counts: Republican Donalds 73.8 / Jolly 13.3, n=412; Democratic Donalds 8.1 / Jolly 81.2, n=298; Independent Donalds 35.5 / Jolly 47.8, n=203.
+- The prior governor record ending in `_assumed_n` was replaced during the full replay rather than retained as a duplicate. Its rounded article values and N / 4 subgroup counts were superseded by the exact official-report values and explicit subgroup counts.
+
+### Polls Skipped As Duplicates
+
+- The RealClearPolling Florida governor and Senate rows refer to the same St. Pete Polls field period and official survey report normalized above; no second copies were added.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- Trafalgar Group September 16-18 Iowa Senate: the official report prints the Hinson/Turek aggregate ballot test plus age, gender, and ethnicity crosstabs and party composition, but it does not print candidate choice by Republican, Democratic, and Independent party groups. It remains excluded.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. Both St. Pete Polls records use the explicit subgroup respondent counts printed in the official report.
+
+### Unclassified Or Not Applied
+
+- None among the newly reviewed modeled-race polls.
+
+### Extraction Uncertainties
+
+- The St. Pete report labels its categories `Republican Party`, `Democratic Party`, and `Independent Voter`; those published categories are normalized directly as Republican, Democratic, and Independent. The subgroup counts are the report's non-weighted respondent counts.
+- The September 18 article-only review missed the linked full St. Pete report. This run corrects the governor record and adds the Senate record from that primary document.
+
 ## 2026-09-19
 
 ### Sources Searched
