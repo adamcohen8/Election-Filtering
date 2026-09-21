@@ -1,5 +1,39 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-21
+
+### Sources Searched
+
+- RealClearPolling latest election polls, Senate, governor, and generic-ballot surfaces, reviewed September 21, 2026: `https://www.realclearpolling.com/latest-polls`.
+- NBC News/Hart Research Associates/Public Opinion Strategies September 11-15 national topline report: `https://assets.documentcloud.org/documents/28658055/260436-nbc-september-2026-poll.pdf`.
+- John Zogby Strategies September 15-17 national release and official crosstab PDF: `https://johnzogbystrategies.com/democratic-party-leads-republican-party-48-to-42-in-congressional-generic-ballot-as-race-heats-up/` and `https://johnzogbystrategies.com/wp-content/uploads/2026/09/Media-Congressional-091526.pdf`.
+- Targeted searches for newly released modeled Senate, governor, and national generic-ballot polls since the previous run.
+
+### Crosstab-Backed Polls Applied
+
+- `john-zogby-strategies_us_house_generic_2026-09-15_2026-09-17_crosstab` -> `us_house_generic`: John Zogby Strategies, n=1,007 likely midterm voters, Republican 42.0 / Democratic 48.0 after leaners. The official Q10a table prints explicit subgroup Ns and complete candidate shares: Republican 91.2 / Democratic 4.9 among Republicans, n=357; Republican 2.3 / Democratic 96.0 among Democrats, n=357; Republican 30.3 / Democratic 41.9 among Independents, n=292.
+
+### Polls Skipped As Duplicates
+
+- No newly reviewed qualifying poll duplicated an existing ledger entry.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- NBC News/Hart Research Associates/Public Opinion Strategies September 11-15 national generic congressional preference: the official 1,000-registered-voter report prints the 45 Republican / 50 Democratic aggregate result and overall party identification, but it does not print congressional preference by Republican, Democratic, and Independent groups. It remains excluded, and subgroup results were not inferred from party composition.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The John Zogby Strategies report prints explicit subgroup Ns.
+
+### Unclassified Or Not Applied
+
+- No newly located Senate or governor poll outside the modeled-race set required classification.
+
+### Extraction Uncertainties
+
+- The John Zogby record uses the report's Q10a result after undecided voters were asked for their lean, matching the pollster's published 48 / 42 headline. The unleaned Q9 table is preserved in the source but is not entered as a separate poll.
+- The NBC report is a topline questionnaire rather than a candidate-by-party crosstab report; its party-composition percentages are not used to construct subgroup observations.
+
 ## 2026-09-20
 
 ### Sources Searched

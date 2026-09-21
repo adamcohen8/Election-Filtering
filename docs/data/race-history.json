@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:06:12.251631+00:00",
+  "generated_at": "2026-09-21T07:07:31.001233+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1839,6 +1839,13 @@
           "candidate_b_share": 0.5531,
           "margin": -0.1062,
           "margin_percent": -10.62
+        },
+        {
+          "date": "2026-09-17",
+          "candidate_a_share": 0.4471,
+          "candidate_b_share": 0.5529,
+          "margin": -0.1059,
+          "margin_percent": -10.59
         }
       ],
       "poll_points": [
@@ -2331,6 +2338,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Reuters%20Ipsos%20Survey%20September%202026%209.14%20Release.pdf"
+        },
+        {
+          "poll_id": "john-zogby-strategies_us_house_generic_2026-09-15_2026-09-17_crosstab",
+          "pollster": "John Zogby Strategies",
+          "date": "2026-09-17",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.48,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1007,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://johnzogbystrategies.com/wp-content/uploads/2026/09/Media-Congressional-091526.pdf"
         }
       ]
     },

@@ -2687,6 +2687,30 @@
       "topline_a": 0.42,
       "topline_b": 0.50,
       "topline_n": 864
+    },
+    {
+      "poll_id": "john-zogby-strategies_us_house_generic_2026-09-15_2026-09-17_crosstab",
+      "pollster": "John Zogby Strategies",
+      "field_date": "2026-09-17",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://johnzogbystrategies.com/wp-content/uploads/2026/09/Media-Congressional-091526.pdf",
+      "text": "National generic congressional ballot, September 15-17 2026, John Zogby Strategies, n=1,007 likely midterm voters. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the official report's Q10a all Congress votes and leaners table, which prints complete Democratic, Republican, and Independent candidate shares and explicit subgroup Ns.",
+      "republican_a": 0.912,
+      "republican_b": 0.049,
+      "republican_n": 357,
+      "democratic_a": 0.023,
+      "democratic_b": 0.960,
+      "democratic_n": 357,
+      "independent_a": 0.303,
+      "independent_b": 0.419,
+      "independent_n": 292,
+      "topline_a": 0.420,
+      "topline_b": 0.480,
+      "topline_n": 1007
     }
   ]
 }
