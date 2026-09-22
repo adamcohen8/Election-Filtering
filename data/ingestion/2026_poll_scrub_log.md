@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-22
+
+### Sources Searched
+
+- RealClearPolling latest election polls, Senate, governor, and generic-ballot surfaces, reviewed September 22, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Reuters/Ipsos September 11-14 national release and official full topline PDF: `https://www.ipsos.com/en-us/reutersipsos-september-2026-survey` and `https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Reuters%20Ipsos%20Survey%20September%202026%20FULL.pdf`.
+- Morning Consult weekly Political Intelligence tracker and methodology surface: `https://pro-assets.morningconsult.com/wp-uploads/2026/09/MCPI-PI-Weekly.html`.
+- Quantus Insights September national generic-ballot release: `https://quantusinsights.org/f/quantus-survey-democrats-hold-big-midterm-lead-over-republicans`.
+- Rasmussen Reports September generic congressional ballot release and the InsiderAdvantage Florida Senate release surfaced by RealClearPolling.
+- Targeted searches for public release documents, methodology files, and complete Republican, Democratic, and Independent candidate-choice tables for each newly surfaced poll.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled-race poll with a new, complete public Republican, Democratic, and Independent candidate-choice table was found.
+
+### Polls Skipped As Duplicates
+
+- Reuters/Ipsos September 11-14 national generic ballot was already normalized as `reuters-ipsos_us_house_generic_2026-09-11_2026-09-14_crosstab`. The newly linked `FULL.pdf` is another official copy of the same survey and confirms the existing explicit subgroup bases: Republican n=309, Democratic n=381, and Independent/Other n=453. It was not entered again.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- InsiderAdvantage Florida Senate: the public RCP row and secondary reporting expose the Moody/Nixon aggregate result, but no complete Republican, Democratic, and Independent candidate-choice table was located.
+- Morning Consult national generic ballot: the public weekly tracker exposes the aggregate result and methodology, but not a complete public R/D/I candidate-choice table.
+- Quantus Insights national generic ballot: the current public article surface exposes the aggregate result, but no accessible linked technical report or complete R/D/I candidate-choice table was located.
+- Rasmussen Reports national generic ballot: the public release exposes the aggregate result and selected partisan figures, but not both candidate shares for every Republican, Democratic, and Independent group; the full demographic breakdown is restricted to subscribers.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Or Not Applied
+
+- No newly located poll outside the modeled-race set required classification.
+
+### Extraction Uncertainties
+
+- The Reuters/Ipsos PDF labels the third subgroup `Ind/Other`; the existing normalized record already documents that normalization and was retained unchanged.
+- The normalized feed, duplicate ledger, model snapshot, and GitHub Pages forecast data were unchanged because every newly surfaced row was either a duplicate or lacked a complete public R/D/I candidate-choice table.
+
 ## 2026-09-21
 
 ### Sources Searched
