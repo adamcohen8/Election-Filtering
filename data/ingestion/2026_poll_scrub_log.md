@@ -1,5 +1,54 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-23
+
+### Sources Searched
+
+- RealClearPolling latest election polls, Senate, governor, and generic-ballot surfaces, reviewed September 23, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Texas Southern University/YouGov September 15-19 Texas statewide report: `https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6ab15cb39e4cc420b9ef07f5/1790008500236/TSUSept2026_TXStatewideRaces.pdf`.
+- Marist Poll September 17-20 Iowa release and official weighted table packet: `https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-september-2026/` and `https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll-IA-NOS-and-Tables_202609211631.pdf`.
+- Suffolk University Political Research Center September 16-20 Michigan statewide marginals and crosstab tables: `https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states`, `https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/9_22_2026_michigan_statewide_marginals.pdf`, and `https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/9_22_2026_michigan_statewide_tables.pdf`.
+- The Economist/YouGov September 18-21 national crosstab report: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_5WiMaRX.pdf`.
+- ActiVote September 11-21 national generic-ballot release and full public table: `https://www.activote.net/polls/generic-ballot/2026-09-22/`.
+- Alaska Survey Research September 10-12 Alaska Senate public release/search surfaces, including the RCP-linked social post and pollster site.
+- Targeted searches for newly released modeled Senate, governor, and national generic-ballot polls and their official release documents.
+
+### Crosstab-Backed Polls Verified
+
+- `tx_sen`, Texas Southern University/YouGov, n=1,800 likely voters, Paxton 46 / Talarico 47. The official Table 1 prints complete candidate shares: Republican 84 / 7, Democratic 0 / 99, and Independent 35 / 51.
+- `tx_gov`, Texas Southern University/YouGov, n=1,800 likely voters, Abbott 49 / Hinojosa 45. The official Table 2 prints complete candidate shares: Republican 88 / 6, Democratic 0 / 98, and Independent 42 / 44.
+- `ia_sen`, Marist Poll, n=1,050 registered voters, Hinson 42 / Turek 50. The official weighted table prints complete candidate shares: Republican 84 / 13, Democratic 1 / 98, and Independent 36 / 49.
+- `ia_gov`, Marist Poll, n=1,050 registered voters, Lahn 42 / Sand 54. The official weighted table prints complete candidate shares: Republican 85 / 15, Democratic 1 / 98, and Independent 33 / 57.
+- `mi_sen`, Suffolk University, n=500 likely voters, Rogers 39.6 / El-Sayed 46.8. The official crosstab prints explicit subgroup bases and candidate shares: Republican 90 / 4, n=148; Democratic 6 / 81, n=181; Independent 35 / 51, n=138.
+- `mi_gov`, Suffolk University, n=500 likely voters, James 34.4 / Benson 50.6. The official crosstab prints explicit subgroup bases and candidate shares: Republican 84 / 3, n=148; Democratic 3 / 87, n=181; Independent 29 / 56, n=138.
+- `us_house_generic`, The Economist/YouGov, n=975 likely voters for the RCP-visible 38 Republican / 52 Democratic topline. The official registered-voter party-ID table prints Republican 82 / Democratic 4 among Republicans, n=428; Republican 0 / Democratic 91 among Democrats, n=483; Republican 25 / Democratic 39 among Independents, n=483.
+- `us_house_generic`, ActiVote, n=1,000 likely midterm voters, Republican 47.2 / Democratic 52.8. The public table prints complete candidate shares: Republican 91 / Democratic 9 among Republicans, Republican 9 / Democratic 91 among Democrats, and Republican 44 / Democratic 56 among Independents.
+
+### Polls Skipped As Duplicates
+
+- None among the September 22 releases.
+
+### Aggregate Topline-Only Polls Found Without Verified Party-ID Crosstabs
+
+- Alaska Survey Research September 10-12 Alaska Senate: the public release surfaces the ranked-choice toplines for Sullivan, Peltola, and the other candidates, but no complete Republican, Democratic, and Independent candidate-choice table was located.
+- Suffolk University Michigan Senate and governor marginals alone are aggregate-only; the separate official statewide tables supply the complete crosstabs recorded above.
+
+### Polls With Assumed Subgroup Ns
+
+- Texas Southern University/YouGov Texas Senate and governor: each R/D/I subgroup would use rounded total N / 4 = 450 because the report prints shares but not subgroup counts.
+- Marist Iowa Senate and governor: each R/D/I subgroup would use rounded total N / 4 = 263 because the report prints shares but not subgroup counts.
+- ActiVote national generic ballot: each R/D/I subgroup would use total N / 4 = 250. The published weighted party-composition percentages were not used to derive subgroup counts.
+
+### Unclassified Or Not Applied
+
+- The Iowa state-level congressional preference in the Marist report is not the national `us_house_generic` race and was not classified as such.
+- The eight verified records above were source-audited and logged, but no election-outcome model replay or public forecast regeneration was performed in this run. The normalized feed, duplicate ledger, model snapshot, and GitHub Pages forecast data remain unchanged.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov RCP topline is the report's likely-voter column, while its explicit Republican, Democratic, and Independent subgroup bases and candidate shares are printed in the registered-voter party-ID table; this matches the handling of prior Economist/YouGov records but should remain documented if normalized.
+- Suffolk percentages are rounded from the explicit party-group counts printed beside each candidate row. The explicit group bases are the report's Democrat n=181, Republican n=148, and Independent n=138 totals.
+
 ## 2026-09-22
 
 ### Sources Searched
