@@ -1,5 +1,73 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-24
+
+### Sources Searched
+
+- RealClearPolling latest election polls plus the Senate, governor, and generic-ballot polling surfaces, reviewed September 24, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Texas Southern University/YouGov September 15-19 Texas statewide report: `https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6ab15cb39e4cc420b9ef07f5/1790008500236/TSUSept2026_TXStatewideRaces.pdf`.
+- Marist Poll September 17-20 Iowa and Texas official weighted table packets: `https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll-IA-NOS-and-Tables_202609211631.pdf` and `https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_TX-NOS-and-Tables_202609221131.pdf`.
+- Suffolk University September 16-20 Michigan statewide crosstab tables: `https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/9_22_2026_michigan_statewide_tables.pdf`.
+- The Economist/YouGov September 18-21 national report and ActiVote September 11-21 public generic-ballot table: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_5WiMaRX.pdf` and `https://www.activote.net/polls/generic-ballot/2026-09-22/`.
+- Echelon Insights September 17-21 release and public crosstab workbook: `https://echeloninsights.com/insights/september-2026-verified-voter-omnibus` and `https://docs.google.com/spreadsheets/d/1HEvqn75HND5bm4yp8EGD-SrsEeXr9yp8/edit?ouid=100971133314342666600&rtpof=true&sd=true&usp=sharing`.
+- Reuters/Ipsos September 17-20 official topline report: `https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Reuters%20Ipsos%20September%20Core%20Political%20Topline.pdf`.
+- Quantus Insights North Carolina Senate, national generic ballot, Florida Senate, Maine Senate, and Georgia Senate releases and linked official PDF decks: `https://quantusinsights.org/f/roy-cooper-leads-michael-whatley-by-five-in-north-carolina`, `https://quantusinsights.org/f/quantus-survey-democrats-hold-big-midterm-lead-over-republicans`, `https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota`, `https://quantusinsights.org/polling/f/quantus-survey-collins-and-jackson-even-in-maine-senate-race`, and the Georgia report linked from RealClearPolling.
+- YouGov September 15-18 North Carolina and Georgia official PDF reports; NPR/PBS/Marist September 14-15, CNN/SSRS September 16-17, and Strength In Numbers/Verasight September 16-21 national generic-ballot releases and public reports.
+- Targeted searches for missing Florida, Georgia, Maine, North Carolina, and national generic-ballot crosstabs, including direct inspection of official linked PDF and spreadsheet files that were not exposed in prior text-only release views.
+
+### Crosstab-Backed Polls Applied
+
+- `tsu-yougov_tx_sen_2026-09-15_2026-09-19_assumed_n` -> `tx_sen`: Paxton 46 / Talarico 47, n=1,800 likely voters; Republican 84 / 7, Democratic 0 / 99, Independent 35 / 51.
+- `tsu-yougov_tx_gov_2026-09-15_2026-09-19_assumed_n` -> `tx_gov`: Abbott 49 / Hinojosa 45, n=1,800 likely voters; Republican 88 / 6, Democratic 0 / 98, Independent 42 / 44.
+- `marist_ia_sen_2026-09-17_2026-09-20_assumed_n` -> `ia_sen`: Hinson 42 / Turek 50, n=1,050 registered voters; Republican 84 / 13, Democratic 1 / 98, Independent 36 / 49.
+- `marist_ia_gov_2026-09-17_2026-09-20_assumed_n` -> `ia_gov`: Lahn 42 / Sand 54, n=1,050 registered voters; Republican 85 / 15, Democratic 1 / 98, Independent 33 / 57.
+- `suffolk_mi_sen_2026-09-16_2026-09-20_crosstab` -> `mi_sen`: Rogers 39.6 / El-Sayed 46.8, n=500 likely voters; Republican 90 / 4, n=148; Democratic 6 / 81, n=181; Independent 35 / 51, n=138.
+- `suffolk_mi_gov_2026-09-16_2026-09-20_crosstab` -> `mi_gov`: James 34.4 / Benson 50.6, n=500 likely voters; Republican 84 / 3, n=148; Democratic 3 / 87, n=181; Independent 29 / 56, n=138.
+- `economist-yougov_us_house_generic_2026-09-18_2026-09-21_crosstab` -> `us_house_generic`: Republican 38 / Democratic 52, n=975 likely voters for the topline; Republican 82 / 4, n=428; Democratic 0 / 91, n=483; Independent 25 / 39, n=483.
+- `activote_us_house_generic_2026-09-11_2026-09-21_assumed_n` -> `us_house_generic`: Republican 47.2 / Democratic 52.8, n=1,000 likely midterm voters; Republican 91 / 9, Democratic 9 / 91, Independent 44 / 56.
+- `marist_tx_sen_2026-09-17_2026-09-20_assumed_n` -> `tx_sen`: Paxton 44 / Talarico 50, n=1,139 registered voters; Republican 87 / 9, Democratic 0 / 98, Independent 35 / 55.
+- `marist_tx_gov_2026-09-17_2026-09-20_assumed_n` -> `tx_gov`: Abbott 46 / Hinojosa 49, n=1,139 registered voters; Republican 89 / 9, Democratic 2 / 97, Independent 39 / 52.
+- `quantus_nc_sen_2026-09-21_2026-09-22_crosstab` -> `nc_sen`: Whatley 43.3 / Cooper 48.4, n=686 likely voters; Republican 89 / 5, n=248; Democratic 2 / 92, n=234; Unaffiliated 35 / 51, n=204.
+- `echelon_us_house_generic_2026-09-17_2026-09-21_crosstab` -> `us_house_generic`: Republican 43 / Democratic 51, n=1,002 registered voters in the likely electorate; Republican 89 / 9, n=371; Democratic 3 / 95, n=385; Independent 27 / 55, n=246.
+- `quantus_us_house_generic_2026-09-15_2026-09-18_crosstab` -> `us_house_generic`: Republican 41.7 / Democratic 50.3, n=1,389 likely voters; Republican 91.6 / 3.1, n=381; Democratic 1.9 / 92.3, n=430; Independent/Other 36.9 / 48.2, n=195.
+- `reuters-ipsos_us_house_generic_2026-09-17_2026-09-20_crosstab` -> `us_house_generic`: Republican 35 / Democratic 43, n=979 registered voters for the topline; Republican 80 / 3, n=360; Democratic 1 / 87, n=393; Independent/Other 16 / 27, n=524.
+- `quantus_fl_sen_2026-09-08_2026-09-10_crosstab` -> `fl_sen`: Moody 50.1 / Nixon 42.7, n=733 likely voters. The official Party ID table's Strong GOP and Lean GOP columns combine to Republican Moody 85.55 / Nixon 8.47, n=369; Strong Democrat and Lean Democrat combine to Democratic Moody 9.67 / Nixon 84.17, n=268; Swing voters are Moody 28 / Nixon 59, n=96.
+- `quantus_me_sen_2026-09-14_2026-09-15_crosstab` -> `me_sen`: Collins 47.1 / Jackson 46.4, n=621 likely voters after excluding would-not-vote responses; Republican 91 / 5, n=228; Democratic 8 / 88, n=233; Unaffiliated 42 / 45, n=160.
+- `quantus_ga_sen_2026-09-14_2026-09-16_crosstab` -> `ga_sen`: Collins 44.4 / Ossoff 48.2, n=645 likely voters; Republican 93 / 5, n=261; Democratic 4 / 93, n=268; Independent 29 / 42, n=116.
+
+### Polls Skipped As Duplicates
+
+- None. The eight records source-verified on September 23 were not in the normalized feed or seen ledger and were applied in this full replay along with nine additional source-verified records.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- YouGov September 15-18 North Carolina Senate, n=3,895 registered voters, Cooper 52 / Whatley 41: the official PDF provides age, gender, race, likely-voter, and recalled-vote cuts but no candidate choice crossed by Republican, Democratic, and Independent party ID.
+- YouGov September 15-18 Georgia Senate and governor, n=3,447 registered voters: the official PDF provides extensive demographic and recalled-vote cuts but no candidate choice crossed by Republican, Democratic, and Independent party ID. The Senate topline is Ossoff 51 / Collins 41 among registered voters; the governor polling surface reports Jackson 46 / Lance Bottoms 44 among likely voters.
+- NPR/PBS/Marist September 14-15 national generic ballot, n=1,280 registered voters, Democratic 53 / Republican 41: the release gives the Independent split but not both candidate shares for all three party groups.
+- CNN/SSRS September 16-17 national generic ballot, n=867 registered voters, Democratic 49 / Republican 41: the official 107-page report contains the aggregate result but no complete R/D/I generic-ballot table.
+- Strength In Numbers/Verasight September 16-21 national generic ballot, n=1,374 registered voters, Democratic 50 / Republican 42: the public report contains aggregate registered- and likely-voter results, while the complete party crosstabs are not publicly accessible.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Texas Southern University/YouGov Texas Senate and governor: each subgroup uses rounded total N / 4 = 450.
+- Marist Iowa Senate and governor: each subgroup uses rounded total N / 4 = 263.
+- Marist Texas Senate and governor: each subgroup uses rounded total N / 4 = 285.
+- ActiVote national generic ballot: each subgroup uses total N / 4 = 250.
+- No party-composition percentages or subgroup margins of error were used to estimate these Ns.
+
+### Unclassified Polls
+
+- None. Every source-reviewed race was either mapped to a modeled race ID or retained as a documented aggregate-only exclusion.
+
+### Extraction Uncertainties
+
+- The Quantus Florida report labels five Party ID columns rather than three. Republican and Democratic observations are exact weighted combinations of the printed strong and lean subgroup shares and bases; the printed Swing column is the independent observation. This derivation is documented in the normalized record rather than treating the aggregate topline as crosstab evidence.
+- The Marist Texas Senate table prints Paxton at less than one percent among Democrats. The normalized value is 0.00 because the source does not provide a more precise public percentage.
+- The Economist/YouGov topline is the likely-voter result while its explicit R/D/I subgroup bases and shares are from the registered-voter party-ID table, matching prior project handling.
+- Reuters/Ipsos prints the R/D/Independent-Other crosstabs on the all-adults base while the supplemental topline is registered voters, matching prior project handling.
+- Quantus North Carolina uses voter-file party registration and calls the third group Unaffiliated; Quantus Maine calls the third group Unaffiliated; both are normalized as independent. The Quantus national report labels its third group Independent/Other.
+- The Quantus Florida and Maine PDF decks were image-based and were rendered for direct visual review. The Georgia deck was text-extractable and was also visually checked against its Q1 party table.
+
 ## 2026-09-23
 
 ### Sources Searched
