@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:16:23.273262+00:00",
+  "generated_at": "2026-09-25T07:13:24.628443+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -459,6 +459,13 @@
           "candidate_b_share": 0.4775,
           "margin": 0.0205,
           "margin_percent": 2.05
+        },
+        {
+          "date": "2026-09-23",
+          "candidate_a_share": 0.4989,
+          "candidate_b_share": 0.4748,
+          "margin": 0.0242,
+          "margin_percent": 2.42
         }
       ],
       "poll_points": [
@@ -517,6 +524,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.jpg"
+        },
+        {
+          "poll_id": "big-data-poll_ga_gov_2026-09-21_2026-09-23_crosstab",
+          "pollster": "Big Data Poll",
+          "date": "2026-09-23",
+          "candidate_a_share": 0.476,
+          "candidate_b_share": 0.457,
+          "margin": 0.019,
+          "margin_percent": 1.9,
+          "leader": "republican",
+          "sample_size": 712,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedFor=public%40bigdatapoll.com&SharedBy=34090&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6"
         }
       ]
     },
@@ -557,6 +578,13 @@
           "candidate_b_share": 0.5019,
           "margin": -0.0438,
           "margin_percent": -4.38
+        },
+        {
+          "date": "2026-09-23",
+          "candidate_a_share": 0.4536,
+          "candidate_b_share": 0.5033,
+          "margin": -0.0498,
+          "margin_percent": -4.98
         }
       ],
       "poll_points": [
@@ -629,6 +657,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1zqVNjagPrRDYJ4sIg6aKe3G0ggfv7yek/view?usp=sharing"
+        },
+        {
+          "poll_id": "big-data-poll_ga_sen_2026-09-21_2026-09-23_crosstab",
+          "pollster": "Big Data Poll",
+          "date": "2026-09-23",
+          "candidate_a_share": 0.401,
+          "candidate_b_share": 0.51,
+          "margin": -0.109,
+          "margin_percent": -10.9,
+          "leader": "democratic",
+          "sample_size": 712,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedFor=public%40bigdatapoll.com&SharedBy=34090&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6"
         }
       ]
     },
@@ -1384,6 +1426,13 @@
           "candidate_b_share": 0.4747,
           "margin": 0.0271,
           "margin_percent": 2.71
+        },
+        {
+          "date": "2026-09-23",
+          "candidate_a_share": 0.4975,
+          "candidate_b_share": 0.4658,
+          "margin": 0.0317,
+          "margin_percent": 3.17
         }
       ],
       "poll_points": [
@@ -1400,6 +1449,20 @@
           "measurement": "party_id_crosstab",
           "partial_party_id": false,
           "source_url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-ohio-poll-crosstabs.html"
+        },
+        {
+          "poll_id": "quantus_oh_sen_2026-09-21_2026-09-23_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-09-23",
+          "candidate_a_share": 0.453,
+          "candidate_b_share": 0.456,
+          "margin": -0.003,
+          "margin_percent": -0.3,
+          "leader": "democratic",
+          "sample_size": 695,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1PywjI4ce0LNSkqow63XEZopRuDzho0z6/view?usp=sharing"
         }
       ]
     },
@@ -2119,6 +2182,13 @@
           "candidate_b_share": 0.5527,
           "margin": -0.1054,
           "margin_percent": -10.54
+        },
+        {
+          "date": "2026-09-22",
+          "candidate_a_share": 0.4471,
+          "candidate_b_share": 0.5529,
+          "margin": -0.1058,
+          "margin_percent": -10.58
         }
       ],
       "poll_points": [
@@ -2695,6 +2765,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_5WiMaRX.pdf"
+        },
+        {
+          "poll_id": "emerson_us_house_generic_2026-09-21_2026-09-22_crosstab",
+          "pollster": "Emerson College Polling",
+          "date": "2026-09-22",
+          "candidate_a_share": 0.419,
+          "candidate_b_share": 0.532,
+          "margin": -0.113,
+          "margin_percent": -11.3,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/september-2026-national-poll-democrats/"
         }
       ]
     },

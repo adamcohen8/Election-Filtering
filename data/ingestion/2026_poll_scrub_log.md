@@ -1,5 +1,52 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-25
+
+### Sources Searched
+
+- RealClearPolling latest election polls plus the Senate, governor, and generic-ballot polling surfaces, reviewed September 25, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Quantus Insights September 21-23 Ohio Senate release and linked official report: `https://quantusinsights.org/f/brown-and-husted-deadlocked-in-ohio-senate-race` and `https://drive.google.com/file/d/1PywjI4ce0LNSkqow63XEZopRuDzho0z6/view?usp=sharing`.
+- Emerson College Polling September 21-22 national release and linked full-results workbook: `https://emersoncollegepolling.com/september-2026-national-poll-democrats/`.
+- Big Data Poll September 21-23 Georgia release, public Datawrapper toplines, and public MarketSight crosstab: `https://www.bigdatapoll.com/blog/peach-state-poll-jon-ossoff-opens-up-lead-over-mike-collins-in-georgia/` and `https://application.marketsight.com/app/ItemView.aspx?SharedFor=public%40bigdatapoll.com&SharedBy=34090&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6`.
+- High Point University September 9-16 North Carolina official memo: `https://www.highpoint.edu/src/files/2023/08/HPUPoll127MemoA-1.pdf`.
+- Siena Research Institute releases for the NYT/Siena Maine, Michigan, and New Hampshire Senate surveys and the NYT/Philadelphia Inquirer/Siena Pennsylvania survey: `https://sri.siena.edu/2026/09/24/nytimes-siena-poll-of-likely-voters/` and `https://sri.siena.edu/2026/09/24/nytimes-philadelphia-inquirer-siena-poll-of-likely-pennsylvania-voters/`.
+- University of New Hampshire Survey Center releases for the September Maine and New Hampshire polls: `https://scholars.unh.edu/survey_center_polls/1007/` and `https://scholars.unh.edu/survey_center_polls/1005/`.
+- Rasmussen Reports September Michigan and North Carolina Senate releases and targeted searches for public methodology and crosstab files.
+
+### Crosstab-Backed Polls Applied
+
+- `quantus_oh_sen_2026-09-21_2026-09-23_crosstab` -> `oh_sen`: Husted 45.3 / Brown 45.6, n=695 likely voters; Republican 87 / 7, n=280; Democratic 4 / 88, n=232; Unaffiliated 34 / 51, n=183.
+- `emerson_us_house_generic_2026-09-21_2026-09-22_crosstab` -> `us_house_generic`: Republican 41.9 / Democratic 53.2, n=1,000 likely voters; Republican 89.65 / 6.73, n=331; Democratic 5.06 / 93.27, n=327; Independent/Other 30.91 / 59.86, n=342.
+- `big-data-poll_ga_sen_2026-09-21_2026-09-23_crosstab` -> `ga_sen`: Collins 40.1 / Ossoff 51.0, n=712 registered voters; Republican 86.9 / 10.3, n=274; Democratic 2.5 / 94.1, n=269; Independent/Other 24.1 / 48.4, n=169.
+- `big-data-poll_ga_gov_2026-09-21_2026-09-23_crosstab` -> `ga_gov`: Jackson 47.6 / Lance Bottoms 45.7, n=712 registered voters; Republican 93.5 / 5.7, n=274; Democratic 4.9 / 90.3, n=269; Independent/Other 41.2 / 39.9, n=169.
+
+### Polls Skipped As Duplicates
+
+- None. All four qualifying records have new pollster/race/field-date combinations and were absent from the seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- NYT/Siena September 18-23 Maine Senate, Collins 49 / Jackson 46; Michigan Senate, El-Sayed 49 / Rogers 44; and New Hampshire Senate, Pappas 50 / Sununu 45. The Siena releases expose the toplines, but the linked NYT crosstab pages could not be reviewed from this environment and no alternate complete public R/D/I tables were located.
+- NYT/Philadelphia Inquirer/Siena September 18-23 Pennsylvania governor, Shapiro 58 / Garrity 38. The official Siena release exposes the topline, but the linked NYT crosstab page could not be reviewed from this environment.
+- University of New Hampshire September Maine Senate, Jackson 51 / Collins 47; New Hampshire Senate, Pappas 50 / Sununu 42; and New Hampshire governor, Ayotte 47 / Warmington 39. The repository pages expose the aggregate results, but their PDF downloads returned access-control pages and no complete reviewable R/D/I candidate tables were located.
+- Rasmussen Reports September Michigan Senate, El-Sayed 47 / Rogers 44, and North Carolina Senate, Cooper 48 / Whatley 41. Public release surfaces expose the aggregate results, while the complete demographic breakdowns are subscriber-restricted.
+- High Point University September 9-16 North Carolina Senate, Cooper 50 / Whatley 42, n=706 likely voters. The official memo prints the aggregate ballot test and overall party composition but no candidate choice crossed by Republican, Democratic, and Independent groups.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. Quantus prints explicit subgroup bases, Emerson prints explicit weighted party-registration bases, and the Big Data Poll MarketSight table prints weighted counts for every candidate and party column.
+
+### Unclassified Polls
+
+- High Point University's North Carolina-only congressional preference, Democratic 48 / Republican 44, is a state-level congressional ballot rather than the national `us_house_generic` race and was not applied.
+
+### Extraction Uncertainties
+
+- Big Data Poll separately publishes likely-voter headline results, including Ossoff 52.2 / Collins 41.0 before leaners and a tied governor result after leaners. The public MarketSight party crosstab is explicitly based on all 712 registered voters, so both normalized records use the internally consistent registered-voter totals and subgroup counts rather than mixing those crosstabs with the 678-likely-voter headlines.
+- The Emerson workbook labels its cut as party registration and combines independent and other registrants. That published Independent/Other column is normalized as independent, consistent with earlier Emerson records in this project.
+- The Quantus report labels its third party-registration group Unaffiliated; it is normalized as independent.
+- NYT-hosted Siena crosstab links were blocked by automated-access controls, and UNH repository PDF links returned access-control HTML. Those polls remain excluded rather than inferring values from aggregate results or party composition.
+
 ## 2026-09-24
 
 ### Sources Searched
