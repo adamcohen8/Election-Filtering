@@ -3215,6 +3215,30 @@
       "topline_a": 0.476,
       "topline_b": 0.457,
       "topline_n": 712
+    },
+    {
+      "poll_id": "mclaughlin_us_house_generic_2026-09-16_2026-09-22_assumed_n",
+      "pollster": "McLaughlin & Associates",
+      "field_date": "2026-09-22",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://mclaughlinonline.com/pols/wp-content/uploads/2026/09/National-September-Presentation-RELEASE-.pdf",
+      "text": "National generic U.S. House ballot, September 16-22 2026, McLaughlin & Associates, n=1,000 likely general-election voters, Republican 43, Democrat 48. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use the public National September Presentation PDF's standard generic-ballot rows. The release does not print subgroup Ns, so each R/D/I subgroup n uses the automation fallback total N / 4 = 250.",
+      "republican_a": 0.96,
+      "republican_b": 0.03,
+      "republican_n": 250,
+      "democratic_a": 0.04,
+      "democratic_b": 0.94,
+      "democratic_n": 250,
+      "independent_a": 0.28,
+      "independent_b": 0.47,
+      "independent_n": 250,
+      "topline_a": 0.43,
+      "topline_b": 0.48,
+      "topline_n": 1000
     }
   ]
 }

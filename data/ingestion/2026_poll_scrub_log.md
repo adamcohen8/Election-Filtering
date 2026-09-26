@@ -1,5 +1,47 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-26
+
+### Sources Searched
+
+- RealClearPolling latest election polls plus the Senate, governor, and generic-ballot polling surfaces, reviewed September 26, 2026: `https://www.realclearpolling.com/latest-polls`.
+- McLaughlin & Associates September 16-22 national article and official presentation PDF: `https://mclaughlinonline.com/2026/09/25/ma-via-newsmax-mclaughlin-poll-danger-as-voters-embrace-socialism/` and `https://mclaughlinonline.com/pols/wp-content/uploads/2026/09/National-September-Presentation-RELEASE-.pdf`.
+- Texas Public Opinion Research September 19-22 Texas statewide release and linked topline folder: `https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election-662`.
+- InsiderAdvantage September 22-23 Georgia Senate and governor release plus the pollster's current WordPress post and media indexes: `https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/`.
+- Big Data Poll September 22-24 Michigan release, linked Datawrapper toplines, and linked MarketSight page: `https://www.bigdatapoll.com/blog/wolverine-state-poll-el-sayed-leads-rogers-for-us-senate-in-michigan/`.
+- Trafalgar Group September 22-24 Alaska statewide report: `https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/AK-Midterms-Survey-Report-0925.pdf`.
+- Targeted searches for newly released modeled Senate, governor, and national generic-ballot polls and complete public Republican, Democratic, and Independent candidate-choice tables.
+
+### Crosstab-Backed Polls Applied
+
+- `mclaughlin_us_house_generic_2026-09-16_2026-09-22_assumed_n` -> `us_house_generic`: Republican 43 / Democratic 48, n=1,000 likely general-election voters; Republican 96 / Democratic 3 among Republicans, Republican 4 / Democratic 94 among Democrats, and Republican 28 / Democratic 47 among Independents.
+
+### Polls Skipped As Duplicates
+
+- None. The qualifying McLaughlin record has a new field period and was absent from the seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Texas Public Opinion Research September 19-22 Texas Senate, Talarico 49 / Paxton 44, and Texas governor, Abbott 50 / Hinojosa 46, n=1,007 likely voters. The public release gives both candidates' Independent shares but states that full crosstabs are available only upon request, so complete public Republican and Democratic candidate shares were not available.
+- InsiderAdvantage September 22-23 Georgia Senate, Ossoff 50 / Collins 42, and Georgia governor, Jackson 48 / Lance Bottoms 46, n=1,200 likely voters. The release gives aggregate results and qualitative Independent findings but no complete public R/D/I candidate table; its note that topline tabs would be posted separately did not correspond to a separate public Georgia tab post at review time.
+- Big Data Poll September 22-24 Michigan Senate, El-Sayed 46.7 / Rogers 42.1 after likely-voter leaners, n=678 likely voters. The release's public MarketSight link resolves to a different national survey fielded September 13-15 rather than the Michigan dataset, so the apparent crosstab source cannot support this poll.
+- Trafalgar Group September 22-24 Alaska Senate first-choice ballot, Dan Sullivan 46.8 / Mary Peltola 45.5 / Daniel Sullivan Jr. 2.8 / Gerald Heikes 0.7, n=1,079 likely voters. The official deck prints party composition plus age, gender, and ethnicity candidate tables, but not candidate choice by Democratic, Republican, and No Party/Other groups.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- McLaughlin & Associates national generic ballot: each Republican, Democratic, and Independent subgroup uses total N / 4 = 250 because the official presentation prints complete candidate shares but not subgroup Ns.
+- No party-composition percentages or subgroup margins of error were used to estimate these Ns.
+
+### Unclassified Polls
+
+- Big Data Poll's Michigan-only congressional ballot is a state-level congressional preference rather than the national `us_house_generic` race and was not applied.
+
+### Extraction Uncertainties
+
+- The McLaughlin article's public-PDF link contains a broken `wp-content-uploads` path. The pollster's WordPress media API identifies the official attachment at the working `wp-content/uploads` URL used above; the PDF was text-extracted and its generic-ballot party rows were visually verified.
+- The Big Data Poll Michigan release currently links to `BIG DATA POLL - National Poll September 13-15, 2026`, a 2,947-registered-voter national dataset. No Michigan candidate observation was taken from that mismatched source.
+- Trafalgar's party page is a party-composition chart, not a candidate-by-party table; those percentages were not repurposed as subgroup sample sizes or candidate shares.
+
 ## 2026-09-25
 
 ### Sources Searched
