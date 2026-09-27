@@ -1,5 +1,43 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-27
+
+### Sources Searched
+
+- RealClearPolling latest election polls plus the Senate, governor, and generic-ballot polling surfaces, reviewed September 27, 2026: `https://www.realclearpolling.com/latest-polls`.
+- InsiderAdvantage September 22-23 Maine and Iowa Senate release and official image tables: `https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/`, `https://insideradvantage.com/me-top-line-tabs/`, and `https://insideradvantage.com/ia-topline-tabs/`.
+- Trafalgar Group's public WordPress media index and the New Hampshire Senate report link surfaced by RealClearPolling.
+- Rasmussen Reports September 22-23 Ohio Senate release: `https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_senate`.
+- Targeted live searches for newly released modeled Senate, governor, and national generic-ballot polls and complete public Republican, Democratic, and Independent candidate-choice tables.
+
+### Crosstab-Backed Polls Applied
+
+- `insideradvantage_me_sen_2026-09-22_2026-09-23_crosstab` -> `me_sen`: Collins 45.6 / Jackson 46.4, n=1,200 likely voters; Republican 90.7 / 5.0, n=384; Democratic 6.6 / 86.0, n=420; Independent 43.2 / 44.7, n=396.
+- `insideradvantage_ia_sen_2026-09-22_2026-09-23_crosstab` -> `ia_sen`: Hinson 45.7 / Turek 47.4, n=1,200 likely voters; Republican 80.8 / 11.8, n=515; Democratic 2.8 / 93.5, n=373; Independent 38.6 / 51.2, n=312.
+
+### Polls Skipped As Duplicates
+
+- None. Both qualifying InsiderAdvantage records have new pollster/race/field-date combinations and were absent from the seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Trafalgar Group September New Hampshire Senate, Pappas 46 / Sununu 42. RealClearPolling's linked `NH-Midterms-Survey-Report-0926.pdf` returns 404, and Trafalgar's current public WordPress media index contains the contemporaneous South Carolina report but no New Hampshire report or candidate-by-party table.
+- Rasmussen Reports September 22-23 Ohio Senate, Brown 46 / Husted 43, n=1,115 likely voters. The public release gives Brown's Democratic support, Husted's Republican support, and both candidates' unaffiliated shares, but it does not expose both candidate shares for the Republican and Democratic groups; the full demographic breakdown is subscriber-restricted.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. Both InsiderAdvantage images print explicit subgroup sample sizes.
+
+### Unclassified Polls
+
+- Trafalgar Group September South Carolina Senate, Graham Nordone 43 / Andrews 42, is outside the modeled race registry.
+
+### Extraction Uncertainties
+
+- The InsiderAdvantage crosstabs are published as JPEG images rather than machine-readable tables. Candidate shares and explicit subgroup Ns were transcribed from the official images and visually verified.
+- RealClearPolling's New Hampshire Trafalgar source URL may have been published before the underlying report was uploaded or may contain an incorrect filename. No observation was inferred from its aggregate row.
+- No new modeled governor or national generic-ballot release dated after the September 26 run was located on the reviewed public surfaces.
+
 ## 2026-09-26
 
 ### Sources Searched

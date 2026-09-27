@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:08:36.060399+00:00",
+  "generated_at": "2026-09-27T07:23:03.793713+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -823,6 +823,13 @@
           "candidate_b_share": 0.4624,
           "margin": 0.0055,
           "margin_percent": 0.55
+        },
+        {
+          "date": "2026-09-23",
+          "candidate_a_share": 0.4642,
+          "candidate_b_share": 0.466,
+          "margin": -0.0019,
+          "margin_percent": -0.19
         }
       ],
       "poll_points": [
@@ -909,6 +916,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll-IA-NOS-and-Tables_202609211631.pdf"
+        },
+        {
+          "poll_id": "insideradvantage_ia_sen_2026-09-22_2026-09-23_crosstab",
+          "pollster": "InsiderAdvantage",
+          "date": "2026-09-23",
+          "candidate_a_share": 0.457,
+          "candidate_b_share": 0.474,
+          "margin": -0.017,
+          "margin_percent": -1.7,
+          "leader": "democratic",
+          "sample_size": 1200,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://insideradvantage.com/wp-content/uploads/2026/09/IA_IOWAPOLL_SEP23.jpg"
         }
       ]
     },
@@ -935,6 +956,13 @@
           "candidate_b_share": 0.477,
           "margin": -0.0251,
           "margin_percent": -2.51
+        },
+        {
+          "date": "2026-09-23",
+          "candidate_a_share": 0.4538,
+          "candidate_b_share": 0.4736,
+          "margin": -0.0198,
+          "margin_percent": -1.98
         }
       ],
       "poll_points": [
@@ -979,6 +1007,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1ciXwAX3B7wxcZuHECj5voGtTYN-dYauL/view?usp=sharing"
+        },
+        {
+          "poll_id": "insideradvantage_me_sen_2026-09-22_2026-09-23_crosstab",
+          "pollster": "InsiderAdvantage",
+          "date": "2026-09-23",
+          "candidate_a_share": 0.456,
+          "candidate_b_share": 0.464,
+          "margin": -0.008,
+          "margin_percent": -0.8,
+          "leader": "democratic",
+          "sample_size": 1200,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://insideradvantage.com/wp-content/uploads/2026/09/7869-scaled.jpg"
         }
       ]
     },
