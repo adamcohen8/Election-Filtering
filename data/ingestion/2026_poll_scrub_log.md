@@ -1,5 +1,40 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-28
+
+### Sources Searched
+
+- RealClearPolling latest election polls plus the Senate, governor, and generic-ballot polling surfaces, reviewed September 28, 2026: `https://www.realclearpolling.com/latest-polls`.
+- Big Data Poll September 24-26 Texas statewide release and public MarketSight crosstab: `https://www.bigdatapoll.com/blog/lone-star-state-poll-talarico-paxton-in-close-race-us-senate-in-texas/` and `https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=public%40bigdatapoll.com&id=67452e2c-4ea3-49cd-8e38-b4d2001e3383`.
+- Trafalgar Group September 26-27 New Hampshire Senate report: `https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/NH-Midterms-Survey-Report-0927.pdf`.
+- RealClearPolling's national generic congressional ballot surface, PB Polls' latest U.S. polling feed, Vote-Scope, Pollcast, and targeted live searches for newly released modeled Senate, governor, and national generic-ballot polls and complete public Republican, Democratic, and Independent candidate-choice tables.
+
+### Crosstab-Backed Polls Applied
+
+- `big-data-poll_tx_sen_2026-09-24_2026-09-26_crosstab` -> `tx_sen`: Paxton 43.8 / Talarico 46.4, n=793 registered voters; Republican 84.0 / 10.8, n=320; Democratic 6.6 / 88.6, n=270; Independent/Other 30.1 / 46.3, n=204.
+- `big-data-poll_tx_gov_2026-09-24_2026-09-26_crosstab` -> `tx_gov`: Abbott 48.2 / Hinojosa 44.2, n=793 registered voters; Republican 87.7 / 7.1, n=320; Democratic 6.2 / 91.2, n=270; Independent/Other 41.7 / 40.2, n=204.
+
+### Polls Skipped As Duplicates
+
+- None. Both qualifying Big Data Poll records have new pollster/race/field-date combinations and were absent from the seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Trafalgar Group September 26-27 New Hampshire Senate, Pappas 47.4 / Sununu 40.5, n=1,082 likely voters. The official nine-page report prints party composition and candidate choice crossed by age, gender, and ethnicity, but it does not print candidate choice by Republican, Democratic, and Independent party ID.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The Big Data Poll MarketSight table prints explicit weighted Republican, Democratic, and Independent/Other subgroup bases.
+
+### Unclassified Polls
+
+- Big Data Poll's Texas-only generic congressional ballot is a state-level congressional preference rather than the national `us_house_generic` race and was not applied.
+
+### Extraction Uncertainties
+
+- Big Data Poll separately publishes 698-likely-voter headlines: Senate Talarico 46.8 / Paxton 44.9 and governor Abbott 48.9 / Hinojosa 44.4 after leaners. The public MarketSight party crosstab is based on all 793 registered voters, so both normalized records use the internally consistent registered-voter totals and subgroup counts rather than mixing those crosstabs with likely-voter toplines.
+- No new national generic-ballot poll dated after the September 27 run was located on the reviewed public surfaces.
+
 ## 2026-09-27
 
 ### Sources Searched

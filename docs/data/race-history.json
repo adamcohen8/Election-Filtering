@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T07:23:03.793713+00:00",
+  "generated_at": "2026-09-28T07:05:58.107284+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1629,6 +1629,13 @@
           "candidate_b_share": 0.4665,
           "margin": 0.0039,
           "margin_percent": 0.39
+        },
+        {
+          "date": "2026-09-26",
+          "candidate_a_share": 0.4715,
+          "candidate_b_share": 0.4641,
+          "margin": 0.0074,
+          "margin_percent": 0.74
         }
       ],
       "poll_points": [
@@ -1771,6 +1778,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_TX-NOS-and-Tables_202609221131.pdf"
+        },
+        {
+          "poll_id": "big-data-poll_tx_gov_2026-09-24_2026-09-26_crosstab",
+          "pollster": "Big Data Poll",
+          "date": "2026-09-26",
+          "candidate_a_share": 0.482,
+          "candidate_b_share": 0.442,
+          "margin": 0.04,
+          "margin_percent": 4.0,
+          "leader": "republican",
+          "sample_size": 793,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=public%40bigdatapoll.com&id=67452e2c-4ea3-49cd-8e38-b4d2001e3383"
         }
       ]
     },
@@ -1867,6 +1888,13 @@
           "candidate_b_share": 0.5291,
           "margin": -0.0582,
           "margin_percent": -5.82
+        },
+        {
+          "date": "2026-09-26",
+          "candidate_a_share": 0.4715,
+          "candidate_b_share": 0.5285,
+          "margin": -0.057,
+          "margin_percent": -5.7
         }
       ],
       "poll_points": [
@@ -2051,6 +2079,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_TX-NOS-and-Tables_202609221131.pdf"
+        },
+        {
+          "poll_id": "big-data-poll_tx_sen_2026-09-24_2026-09-26_crosstab",
+          "pollster": "Big Data Poll",
+          "date": "2026-09-26",
+          "candidate_a_share": 0.438,
+          "candidate_b_share": 0.464,
+          "margin": -0.026,
+          "margin_percent": -2.6,
+          "leader": "democratic",
+          "sample_size": 793,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=public%40bigdatapoll.com&id=67452e2c-4ea3-49cd-8e38-b4d2001e3383"
         }
       ]
     },
