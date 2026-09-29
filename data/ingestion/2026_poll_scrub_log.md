@@ -1,5 +1,51 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-29
+
+### Sources Searched
+
+- RealClearPolling's latest election and generic-congressional-ballot surfaces and PB Polls' latest U.S. feed, reviewed September 29, 2026.
+- Marist Poll's September 24-27 Ohio release and official table packet: `https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-september-2026/` and `https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_OH-NOS-and-Tables_202609281347aC909p6465.pdf`.
+- Change Research's September 25-27 Florida AAPOR methodology and reported-question release: `https://changeresearch.com/research/2026/2026-09-28-florida-aapor-methodology-statement`.
+- Stratus Intelligence's September 22-24 Texas statewide memo linked by Politico; GBAO's September 19-22 Michigan memo linked by Senate Majority PAC; and AARP/Fabrizio Ward/Impact Research's September 17-20 North Carolina topline packet.
+- Big Data Poll's public blog and MarketSight surfaces for the Iowa Senate result listed by PB Polls, Morning Consult's public midterm tracker for the September 27 national wave, and Rasmussen Reports' September 17 and 20-23 generic-ballot release.
+- University of North Florida's September 28 statewide property-insurance release was checked because it appeared on the pollster's statewide index; it contains no Senate or governor ballot test.
+
+### Crosstab-Backed Polls Applied
+
+- `marist_oh_sen_2026-09-24_2026-09-27_assumed_n` -> `oh_sen`: Husted 43 / Brown 51, n=1,298 registered voters; Republican 87 / 7, Democratic 2 / 96, Independent 33 / 58.
+- `marist_oh_gov_2026-09-24_2026-09-27_assumed_n` -> `oh_gov`: Ramaswamy 44 / Acton 50, n=1,298 registered voters; Republican 88 / 8, Democratic 2 / 93, Independent 32 / 57.
+
+### Polls Skipped As Duplicates
+
+- None. Both Marist Ohio records have new race/field-date combinations and were absent from the seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Change Research September 25-27 Florida governor, Jolly 48 / Donalds 46, and Florida Senate, Moody 48 / Nixon 47, n=1,063 likely voters. The official public release prints only aggregate reported questions and party-registration composition, not candidate choice crossed by Republican, Democratic, and Independent groups.
+- Stratus Intelligence September 22-24 Texas governor, Abbott 50 / Hinojosa 45, n=865 likely voters, and Texas Senate, Paxton 48 / Talarico 48. The official two-page memo describes age, education, and partisan consolidation but does not print a complete R/D/I candidate table.
+- Big Data Poll September 23-26 Iowa Senate, Turek 46.5 / Hinson 42.0. The result appears on PB Polls, but no matching pollster release or public MarketSight table was located, and the public listing does not supply a total sample size or party-ID candidate table.
+- GBAO September 19-22 Michigan Senate, El-Sayed 48 / Rogers 44, n=800 likely voters. The official one-page memo contains aggregate results and turnout-intensity cuts but no candidate choice by R/D/I party identification.
+- AARP/Fabrizio Ward/Impact Research September 17-20 North Carolina Senate, Cooper 53 / Whatley 42. The official topline packet reports the statewide ballot and a 50-plus oversample but no candidate choice crossed by Republican, Democratic, and Independent groups.
+- Morning Consult September 27 national generic congressional ballot, Democratic 50.3 / Republican 42.8, n=18,786 likely voters. The current aggregate appears on public polling trackers, but the public Morning Consult page located during this run did not expose a matching current-wave R/D/I candidate table.
+- Rasmussen Reports September 17 and 20-23 national generic congressional ballot, Democratic 48 / Republican 43, n=1,819 likely voters. The public release gives one-sided Democratic and Republican consolidation figures and a complete Independent split, but the opposite candidate share for each partisan group remains subscriber-restricted.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Marist Ohio Senate and governor: each Republican, Democratic, and Independent subgroup uses rounded total N / 4 = 325.
+- The packet's printed party-composition percentages were not used to infer subgroup Ns.
+
+### Unclassified Polls
+
+- Stratus Intelligence's Texas generic U.S. House ballot is a state-level congressional preference rather than the national `us_house_generic` race and was not applied.
+
+### Extraction Uncertainties
+
+- Marist prints complete party-ID candidate percentages but only party-composition percentages, not subgroup counts. The required direct total-N-over-four fallback was used instead of reverse-engineering counts from the rounded composition.
+- Change Research's methodology text is internally inconsistent about whether 1,063 or 1,107 respondents meet its likely-voter definition; the published ballot results use the 1,063 likely-voter figure reported on public polling surfaces. This aggregate-only poll was not modeled.
+- PB Polls labels the Change Research field period September 26-28, while the pollster's official release says September 25-27; the official dates were used here.
+- No source-specific parser code was needed; the two qualifying Marist records were normalized manually from the official table packet.
+
 ## 2026-09-28
 
 ### Sources Searched

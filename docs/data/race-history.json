@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T07:05:58.107284+00:00",
+  "generated_at": "2026-09-29T07:08:38.813402+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -1456,8 +1456,31 @@
     },
     {
       "race_id": "oh_gov",
-      "model_points": [],
-      "poll_points": []
+      "model_points": [
+        {
+          "date": "2026-09-27",
+          "candidate_a_share": 0.4606,
+          "candidate_b_share": 0.476,
+          "margin": -0.0153,
+          "margin_percent": -1.53
+        }
+      ],
+      "poll_points": [
+        {
+          "poll_id": "marist_oh_gov_2026-09-24_2026-09-27_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-09-27",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.5,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1298,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_OH-NOS-and-Tables_202609281347aC909p6465.pdf"
+        }
+      ]
     },
     {
       "race_id": "oh_sen",
@@ -1475,6 +1498,13 @@
           "candidate_b_share": 0.4658,
           "margin": 0.0317,
           "margin_percent": 3.17
+        },
+        {
+          "date": "2026-09-27",
+          "candidate_a_share": 0.4903,
+          "candidate_b_share": 0.4756,
+          "margin": 0.0147,
+          "margin_percent": 1.47
         }
       ],
       "poll_points": [
@@ -1505,6 +1535,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1PywjI4ce0LNSkqow63XEZopRuDzho0z6/view?usp=sharing"
+        },
+        {
+          "poll_id": "marist_oh_sen_2026-09-24_2026-09-27_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-09-27",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.51,
+          "margin": -0.08,
+          "margin_percent": -8.0,
+          "leader": "democratic",
+          "sample_size": 1298,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_OH-NOS-and-Tables_202609281347aC909p6465.pdf"
         }
       ]
     },
