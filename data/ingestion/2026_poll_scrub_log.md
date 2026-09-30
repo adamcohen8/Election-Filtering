@@ -1,5 +1,52 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-09-30
+
+### Sources Searched
+
+- RealClearPolling's latest election, Senate, governor, and generic-congressional-ballot surfaces and PB Polls' latest U.S. feed, reviewed September 30, 2026.
+- USA Today/Suffolk University's September 23-27 Ohio release, statewide marginals, and statewide crosstab tables: `https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states`.
+- The Economist/YouGov September 25-28 national crosstab report: `https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_CCphJ5Q.pdf`.
+- Quinnipiac University's September 24-27 national release and tables: `https://poll.qu.edu/images/polling/us/us09292026_uppi50.pdf`.
+- Harvard CAPS/Harris September 26-28 Key Results report: `https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Sep2026_KeyResults.pdf`.
+- Big Data Poll's September 26-27 Ohio release and linked MarketSight page, Michigan Enjoyer/Cygnal/Beacon Research's September 18-21 Michigan release, and targeted searches for Pulse Decision Science's September 24-27 Texas Senate internal poll.
+
+### Crosstab-Backed Polls Applied
+
+- `suffolk_oh_gov_2026-09-23_2026-09-27_crosstab` -> `oh_gov`: Ramaswamy 41.4 / Acton 50.4, n=500 likely voters; Republican 85 / 7, n=192; Democratic 1 / 96, n=158; Independent 27 / 64, n=121.
+- `quinnipiac_us_house_generic_2026-09-24_2026-09-27_assumed_n` -> `us_house_generic`: Republican 39 / Democratic 51, n=1,032 registered voters; Republican 96 / 4, Democratic 2 / 95, Independent 30 / 54.
+- `economist-yougov_us_house_generic_2026-09-25_2026-09-28_crosstab` -> `us_house_generic`: Republican 38 / Democratic 53, n=1,003 likely voters; Republican 82 / 4, n=434; Democratic 1 / 89, n=478; Independent 24 / 44, n=511.
+- `harvard-harris_us_house_generic_2026-09-26_2026-09-28_assumed_n` -> `us_house_generic`: Republican 49 / Democratic 51 among likely midterm voters, n=2,200 registered voters for the survey; Republican 96 / 4, Democratic 4 / 96, Independent/Other 47 / 53.
+
+### Polls Skipped As Duplicates
+
+- Marist September 24-27 Ohio Senate and governor were already applied on September 29.
+- Change Research September 25-27 Florida Senate and governor and AARP/Fabrizio Ward/Impact Research September 17-20 North Carolina Senate were already reviewed and logged as aggregate-only on September 29.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Big Data Poll September 26-27 Ohio Senate, Brown 46.3 / Husted 42.6 among likely voters after leaners, n=680, and Ohio governor, Ramaswamy 48 / Acton 47. The pollster's Ohio article links to the earlier 793-registered-voter Texas MarketSight dataset rather than an Ohio table, so no Ohio candidate-by-party observation was taken from it.
+- USA Today/Suffolk University September 23-27 Ohio Senate, n=500 likely voters. The official first-release marginals and tables mark the Senate ballot and related candidate measures as embargoed; only the governor table is public and usable in this run.
+- Michigan Enjoyer/Cygnal/Beacon Research September 18-21 Michigan Senate, El-Sayed 45 / Rogers 40, and governor, Benson 45 / James 38, n=600 likely voters. The public release prints toplines and party-ID composition, but no candidate choice crossed by Republican, Democratic, and Independent groups.
+- Pulse Decision Science September 24-27 Texas Senate internal poll, Paxton 48 / Talarico 45, n=800 likely voters. Public references reproduce only the aggregate result; no release, methodology packet, or complete public R/D/I candidate table was located.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Quinnipiac national generic ballot: each Republican, Democratic, and Independent subgroup uses rounded total N / 4 = 258.
+- Harvard CAPS/Harris national generic ballot: each Republican, Democratic, and Independent/Other subgroup uses total N / 4 = 550.
+- No party-composition percentages were used to infer subgroup Ns.
+
+### Unclassified Polls
+
+- Michigan Enjoyer's Michigan House generic ballot is a state-legislative preference rather than the national `us_house_generic` race and was not applied.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov party-ID shares and explicit subgroup Ns come from its registered-voter crosstab table, while the supplemental topline is the report's likely-voter column used by RealClearPolling.
+- Harvard CAPS/Harris prints a 50/50 registered-voter generic ballot and a 49/51 Republican/Democratic likely-midterm-voter result. The normalized supplemental topline follows the likely-voter result, while the complete party-ID shares come from the report's DEM, GOP, and IND/OTH columns.
+- Suffolk labels its files `part_1`; the public first-release packet fully exposes the governor ballot but explicitly withholds the Senate ballot for a later release.
+- No source-specific parser code was needed; the four qualifying records were normalized manually from official public tables.
+
 ## 2026-09-29
 
 ### Sources Searched
