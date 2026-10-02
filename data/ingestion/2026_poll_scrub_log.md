@@ -1,5 +1,61 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-02
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, modeled Senate, governor, and generic-congressional-ballot surfaces and PB Polls' latest U.S. feed, reviewed October 2, 2026. This run also recovered releases from September 30 and October 1 that were not persisted during an October 1 local iCloud-file availability failure.
+- Marist Poll's September 24-27 Michigan table packet: `https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_MI-NOS-and-Tables_202609281401@9159_7e99y.pdf`.
+- Quantus Insights' September 28-29 Iowa Senate release and linked presentation: `https://quantusinsights.org/f/quantus-insights-hinson-holds-narrow-edge-in-iowa-senate-race`.
+- Marquette Law School's September 16-23 Wisconsin likely-voter crosstabs: `https://law.marquette.edu/assets/community/poll/MLSP91/MLSP91CrosstabsLV.html`.
+- USA Today/Suffolk University's September 23-27 Ohio Senate second-release tables: `https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states`.
+- AARP/Fabrizio Ward/Impact Research's September 20-22 Maine report: `https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-maine.doi.10.26419-2fres.01065.013.pdf`.
+- Fox News' September 24-28 Texas, Iowa, and Michigan releases; Trafalgar Group's September 28-30 Michigan report; InsiderAdvantage's September 28-29 Ohio release; Wedgewood Partners' September 27-October 1 Maine report; Big Data Poll's September 27-29 North Carolina release; co/efficient's September 28-30 Maine release; and The Argument/Verasight and Wall Street Journal national generic-ballot releases.
+
+### Crosstab-Backed Polls Applied
+
+- `marist_mi_sen_2026-09-24_2026-09-27_assumed_n` -> `mi_sen`: Rogers 44 / El-Sayed 51, n=1,235 registered voters; Republican 93 / 3, Democratic 2 / 95, Independent 45 / 48.
+- `marist_mi_gov_2026-09-24_2026-09-27_assumed_n` -> `mi_gov`: James 41 / Benson 53, n=1,235 registered voters; Republican 89 / 7, Democratic 1 / 99, Independent 42 / 48.
+- `quantus_ia_sen_2026-09-28_2026-09-29_assumed_n` -> `ia_sen`: Hinson 47.1 / Turek 45.8, n=738 interviews; Republican 85 / 8, Democratic 5 / 91, Independent 36 / 53.
+- `marquette_wi_gov_2026-09-16_2026-09-23_crosstab` -> `wi_gov`: Tiffany 46 / Crowley 49, n=692 likely voters; Republican 98 / 2, n=244; Democratic 3 / 96, n=231; Independent 30 / 53, n=191.
+- `suffolk_oh_sen_2026-09-23_2026-09-27_crosstab` -> `oh_sen`: Husted 44 / Brown 47, n=500 likely voters; Republican 91 / 4, n=192; Democratic 1 / 94, n=158; Independent 28 / 55, n=121.
+- `aarp-fabrizio-impact_me_sen_2026-09-20_2026-09-22_assumed_n` -> `me_sen`: Collins 47 / Jackson 50, n=982 likely voters; Republican 89 / 9, Democratic 11 / 88, Independent 46 / 47.
+
+### Polls Skipped As Duplicates
+
+- None. The six qualifying poll/race/field-date records were absent from the normalized feed and seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Fox News September 24-28 Texas Senate, Talarico 51 / Paxton 49, n=881 likely voters, and Texas governor, Abbott 52 / Hinojosa 47, n=1,005 likely voters. The public topline packet reports party composition but no complete candidate-by-party-ID table.
+- Fox News September 24-28 Iowa Senate, Turek 49 / Hinson 47, and Iowa governor, Sand 53 / Lahn 44, n=1,008 likely voters. The article gives selected partisan support and an Independent margin, but not all six exact R/D/I candidate shares.
+- Fox News September 24-28 Michigan Senate, El-Sayed 50 / Rogers 49, n=1,028 likely voters, and Michigan governor, Benson 54 / James 45, n=1,203 registered voters. Public reporting gives incomplete partisan detail and no exact Independent candidate pair.
+- Trafalgar Group September 28-30 Michigan Senate, El-Sayed 46.9 / Rogers 45.1, n=1,085 likely voters. The official report crosses the ballot by age, gender, and ethnicity but not party identification.
+- InsiderAdvantage September 28-29 Ohio Senate, Brown 44 / Husted 43, n=1,200 likely voters. The public article gives only aggregate results and a qualitative Independent-voter note.
+- Wedgewood Partners September 27-October 1 Maine Senate, Jackson 52 / Collins 48, n=400 likely voters. The public report crosses the ballot by gender, age, race, education, and recalled vote but not party identification.
+- Big Data Poll September 27-29 North Carolina Senate, Cooper 50.8 / Whatley 38.5 among likely voters after leaners, n=642 likely voters. The public article has no candidate-by-party table, and its linked MarketSight page was unavailable during extraction.
+- co/efficient September 28-30 Maine Senate, Collins 48 / Jackson 46, n=1,240 likely voters. The public release reports party composition but no candidate choice by party identification.
+- The Argument/Verasight September 16-22 national generic ballot, Democratic 54.7 / Republican 45.3, n=1,603 likely voters, and Wall Street Journal's current national generic ballot, Democratic 50 / Republican 42. No complete public R/D/I candidate table was located for either poll.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Marist Michigan Senate and governor: each Republican, Democratic, and Independent subgroup uses rounded total N / 4 = 309.
+- Quantus Insights Iowa Senate: each subgroup uses rounded total survey N / 4 = 185. The release reports 738 completed interviews and a 714-respondent ballot analysis after excluding 24 nonvoters; the required fallback uses the direct total poll N rather than reverse-engineering subgroup sizes.
+- AARP/Fabrizio Ward/Impact Research Maine Senate: each subgroup uses rounded total N / 4 = 246.
+- No party-composition percentages or subgroup margins of error were used to infer subgroup Ns.
+
+### Unclassified Polls
+
+- Wedgewood Partners' Maine generic U.S. House ballot is a state-level congressional preference rather than the national `us_house_generic` race and was not applied.
+- AARP's Maine governor ballot is outside the modeled governor-race registry and was not applied.
+
+### Extraction Uncertainties
+
+- Marquette's table defines its Independent party-ID column with party leaners retained as independents; its explicit subgroup bases were used as printed.
+- Quantus reports 738 completed interviews but excludes 24 respondents from the ballot analysis. The supplemental topline N remains the total survey N of 738 so the subgroup fallback follows the automation's direct total-N-over-four rule.
+- Big Data Poll's North Carolina article contains a methodology sentence referring to Texas, and its linked public table did not load. No observation was inferred from that source.
+- No source-specific parser code was needed; all six qualifying records were normalized manually from official public releases and tables.
+
 ## 2026-09-30
 
 ### Sources Searched
