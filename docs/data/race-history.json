@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:22:57.032903+00:00",
+  "generated_at": "2026-10-03T07:08:10.107474+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -18,6 +18,13 @@
           "candidate_b_share": 0.4925,
           "margin": 0.015,
           "margin_percent": 1.5
+        },
+        {
+          "date": "2026-09-30",
+          "candidate_a_share": 0.5013,
+          "candidate_b_share": 0.4987,
+          "margin": 0.0025,
+          "margin_percent": 0.25
         }
       ],
       "poll_points": [
@@ -48,6 +55,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.filesforprogress.org/datasets/2026/8/dfp_alaska_aug_2026.pdf"
+        },
+        {
+          "poll_id": "quantus_ak_sen_2026-09-28_2026-09-30_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-09-30",
+          "candidate_a_share": 0.465,
+          "candidate_b_share": 0.462,
+          "margin": 0.003,
+          "margin_percent": 0.3,
+          "leader": "republican",
+          "sample_size": 737,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1nCtCrSwufcL_hlLEVQiN-xsM4f_6c-6C/view?usp=sharing"
         }
       ]
     },
@@ -991,6 +1012,13 @@
           "candidate_b_share": 0.4802,
           "margin": -0.0212,
           "margin_percent": -2.12
+        },
+        {
+          "date": "2026-10-01",
+          "candidate_a_share": 0.4752,
+          "candidate_b_share": 0.5092,
+          "margin": -0.034,
+          "margin_percent": -3.4
         }
       ],
       "poll_points": [
@@ -1063,6 +1091,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://insideradvantage.com/wp-content/uploads/2026/09/7869-scaled.jpg"
+        },
+        {
+          "poll_id": "cbs-yougov_me_sen_2026-09-23_2026-10-01_crosstab",
+          "pollster": "CBS News/YouGov",
+          "date": "2026-10-01",
+          "candidate_a_share": 0.5,
+          "candidate_b_share": 0.5,
+          "margin": 0.0,
+          "margin_percent": 0.0,
+          "leader": "tie",
+          "sample_size": 1136,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/02/3eea12d2-f488-4cf2-bc3b-ac5adff5db7e/cbsnews_20261002_maine.pdf"
         }
       ]
     },

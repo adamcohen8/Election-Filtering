@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-03
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, plus PollingSource's October 2 public polling digest, reviewed October 3, 2026.
+- CBS News/YouGov's September 23-October 1 Maine article, ballot graphic, and official topline/crosstab packet: `https://www.cbsnews.com/news/maine-senate-poll-2026-10-02/` and `https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/02/3eea12d2-f488-4cf2-bc3b-ac5adff5db7e/cbsnews_20261002_maine.pdf`.
+- Quantus Insights' September 28-30 Alaska release and official presentation/crosstabs: `https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska` and `https://drive.google.com/file/d/1nCtCrSwufcL_hlLEVQiN-xsM4f_6c-6C/view?usp=sharing`.
+- Trafalgar Group's September 29-October 1 Maine statewide report: `https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1001.pdf`.
+- Rasmussen Reports' September 28-29 Texas Senate release and public article: `https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_texas_senate`.
+- Targeted searches for other modeled Senate and governor releases and complete national generic-ballot R/D/I crosstabs published since the October 2 run.
+
+### Crosstab-Backed Polls Applied
+
+- `cbs-yougov_me_sen_2026-09-23_2026-10-01_crosstab` -> `me_sen`: Collins 50 / Jackson 50, n=1,136 likely voters; Republican 95 / 5, n=339; Democratic 9 / 91, n=363; Independent 46 / 53, n=424.
+- `quantus_ak_sen_2026-09-28_2026-09-30_crosstab` -> `ak_sen`: Sullivan 46.5 / Peltola 46.2, n=737 likely voters in the two-candidate ballot; Republican 84 / 9, n=256; Democratic 4 / 93, n=138; Independent/Unaffiliated 33 / 58, n=343.
+
+### Polls Skipped As Duplicates
+
+- None. Both qualifying poll/race/field-date records were absent from the normalized feed and seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Trafalgar Group September 29-October 1 Maine Senate, Jackson 46.2 / Collins 45.9, n=1,091 likely voters. The official report crosses candidate choice by age, gender, and ethnicity but not Republican, Democratic, and Independent party identification.
+- Rasmussen Reports September 28-29 Texas Senate, Talarico 46 / Paxton 45, n=1,128 likely voters. The public article gives Talarico's Democratic support, Paxton's Republican support, and both candidates' unaffiliated shares, but it does not expose the opposite candidate share for each partisan group; the full demographic table is subscriber-restricted.
+- No new national generic congressional ballot release with a complete public R/D/I candidate table was located after the October 2 run.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. CBS News/YouGov and Quantus Insights print explicit party-ID subgroup bases for the ballot tables used.
+
+### Unclassified Polls
+
+- CBS News/YouGov's Maine governor ballot, Pingree 56 / Charles 44, n=1,133 likely voters, is outside the modeled governor-race registry and was not applied.
+
+### Extraction Uncertainties
+
+- CBS News describes the full survey as 1,144 registered voters, while its Senate ballot and party-ID table use 1,136 likely voters. The normalized record uses the internally consistent likely-voter ballot base and the table's explicit party-ID subgroup bases.
+- Quantus interviewed 758 likely voters and excluded 21 respondents who said they would not vote from ballot questions. The normalized record uses the two-candidate ballot's 737-voter base and its corresponding explicit party-ID subgroup bases; it does not mix those cells with the separate ranked-choice first-preference table.
+- Rasmussen's public release describes the sample as Ohio likely voters even though the article and ballot are Texas-specific. The poll was retained only in the aggregate-only log and was not modeled.
+- No source-specific parser code was needed; both qualifying records were normalized manually from official public tables.
+
 ## 2026-10-02
 
 ### Sources Searched
