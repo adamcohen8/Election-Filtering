@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:08:10.107474+00:00",
+  "generated_at": "2026-10-04T07:05:11.154153+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -858,6 +858,13 @@
           "candidate_b_share": 0.4668,
           "margin": -0.0036,
           "margin_percent": -0.36
+        },
+        {
+          "date": "2026-09-30",
+          "candidate_a_share": 0.4552,
+          "candidate_b_share": 0.4709,
+          "margin": -0.0157,
+          "margin_percent": -1.57
         }
       ],
       "poll_points": [
@@ -972,6 +979,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://quantusinsights.org/f/quantus-insights-hinson-holds-narrow-edge-in-iowa-senate-race"
+        },
+        {
+          "poll_id": "rasmussen_ia_sen_2026-09-28_2026-09-30_assumed_n",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-09-30",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.47,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 1048,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate2"
         }
       ]
     },
@@ -2485,6 +2506,13 @@
           "candidate_b_share": 0.5525,
           "margin": -0.1049,
           "margin_percent": -10.49
+        },
+        {
+          "date": "2026-10-02",
+          "candidate_a_share": 0.4476,
+          "candidate_b_share": 0.5524,
+          "margin": -0.1048,
+          "margin_percent": -10.48
         }
       ],
       "poll_points": [
@@ -3131,6 +3159,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Sep2026_KeyResults.pdf"
+        },
+        {
+          "poll_id": "activote_us_house_generic_2026-09-22_2026-10-02_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-02",
+          "candidate_a_share": 0.478,
+          "candidate_b_share": 0.522,
+          "margin": -0.044,
+          "margin_percent": -4.4,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/generic-ballot/2026-10-03/"
         }
       ]
     },

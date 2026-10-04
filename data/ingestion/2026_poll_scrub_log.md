@@ -1,5 +1,49 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-04
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, plus PollingSource and PB Polls, reviewed October 4, 2026.
+- Siena Research Institute's October 3 NYTimes/Siena battleground release and its linked state topline/crosstab surfaces for Alaska, Iowa, Ohio, and Texas: `https://sri.siena.edu/2026/10/03/nytimes-siena-poll-of-likely-voters-senate-races/`.
+- Rasmussen Reports' September 28-30 Iowa Senate public release: `https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate2`.
+- ActiVote's September 22-October 2 national generic-congressional-ballot release and full public crosstab table: `https://www.activote.net/polls/generic-ballot/2026-10-03/`.
+- Targeted searches for other newly released modeled Senate and governor polls and complete national generic-ballot R/D/I candidate tables.
+
+### Crosstab-Backed Polls Applied
+
+- `rasmussen_ia_sen_2026-09-28_2026-09-30_assumed_n` -> `ia_sen`: Hinson 43 / Turek 47, n=1,048 likely voters; Republican 82 / 14, Democratic 8 / 88, Independent/Unaffiliated 24 / 52.
+- `activote_us_house_generic_2026-09-22_2026-10-02_assumed_n` -> `us_house_generic`: Generic Republican 47.8 / Generic Democrat 52.2, n=1,000 likely midterm voters; Republican 93 / 7, Democratic 10 / 90, Independent 42 / 58.
+
+### Polls Skipped As Duplicates
+
+- None. Both qualifying poll/race/field-date records were absent from the normalized feed and seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- NYTimes/Siena September 24-October 1 Alaska Senate, Peltola 50 / Sullivan 43, n=504 likely voters.
+- NYTimes/Siena September 22-October 1 Iowa Senate, Hinson 48 / Turek 47, n=606 likely voters, and Iowa governor, Sand 52 / Lahn 41, n=606 likely voters.
+- NYTimes/Siena September 22-October 1 Ohio Senate, Brown 49 / Husted 46, n=616 likely voters, and Ohio governor, Acton 49 / Ramaswamy 45, n=616 likely voters.
+- NYTimes/Siena September 21-30 Texas Senate, Talarico 51 / Paxton 45, n=615 likely voters, and Texas governor, Hinojosa 49 / Abbott 46, n=615 likely voters.
+- Siena links public crosstab pages for the Senate polls, but those NYTimes pages were unavailable to this run's permitted automated extraction path. No party-ID cells were inferred from toplines or third-party summaries, and none of these seven records was added to the normalized feed or seen-poll ledger.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Rasmussen Iowa Senate: each Republican, Democratic, and Independent/Unaffiliated subgroup uses total N / 4 = 262.
+- ActiVote national generic ballot: each Republican, Democratic, and Independent subgroup uses total N / 4 = 250.
+- No party-composition percentages or subgroup margins of error were used to infer subgroup Ns.
+
+### Unclassified Polls
+
+- NYTimes/Siena's Kansas Senate and governor ballots and Alaska governor ballot are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- Rasmussen prints all six modeled candidate-by-party shares in its public article, but reserves subgroup sample sizes for the full demographic table; the required direct total-N-over-four fallback was used.
+- ActiVote labels its rows `Party D`, `Party R`, and `Party I`; these public rows were mapped directly to Democratic, Republican, and Independent party ID. Its table prints weighted party composition, but those percentages were not used to reverse-engineer subgroup Ns.
+- NYTimes/Siena's linked crosstab pages could not be inspected through the permitted browser path. Because the exact R/D/I candidate cells and subgroup bases could not be verified, the modeled-state results were logged as aggregate-only rather than applied.
+- No source-specific parser code was needed; the two qualifying records were normalized manually from the public releases.
+
 ## 2026-10-03
 
 ### Sources Searched
