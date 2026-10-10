@@ -1,5 +1,61 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-10
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 10, 2026, with targeted follow-up searches for modeled races released since the October 4 run.
+- Official releases and crosstab packets from CBS News/YouGov, The Economist/YouGov, Quinnipiac University, Saint Anselm College/AARP, Quantus Insights, Suffolk University, NBC 6/Mason-Dixon, CNN/SSRS, UMass Lowell/YouGov, Pew Research Center, St. Pete Polls, Washington Post/Schar School, and Emerson College.
+- Additional public releases from ECU, co/efficient, Cygnal, Alaska Survey Research, Susquehanna Polling & Research, Marist, and YouGov's state-election series were reviewed for complete Republican, Democratic, and Independent candidate shares.
+
+### Crosstab-Backed Polls Applied
+
+- National generic ballot: CBS News/YouGov September 30-October 2, The Economist/YouGov October 2-5, and Pew Research Center September 28-October 4.
+- Florida: NBC 6/Mason-Dixon September 28-October 1 and St. Pete Polls October 5-7, each split into `fl_sen` and `fl_gov` records.
+- Iowa: Suffolk University October 1-4, CNN/SSRS September 29-October 5, and Emerson College October 5-6, each split into `ia_sen` and `ia_gov` records.
+- New Hampshire: Saint Anselm College/AARP September 28-29, split into `nh_sen` and `nh_gov` records.
+- Ohio: CNN/SSRS September 29-October 5, split into `oh_sen` and `oh_gov` records.
+- Texas: UMass Lowell/YouGov September 18-28, split into `tx_sen` and `tx_gov` records.
+- Maine Senate: Washington Post/Schar School September 30-October 5.
+- Michigan Senate: Quantus Insights October 5-6.
+- Pennsylvania governor: Quinnipiac University October 1-5.
+- In total, 22 normalized poll/race records were added. Candidate A is the Republican and candidate B is the Democrat in every modeled race record.
+
+### Polls Skipped As Duplicates
+
+- None. All 22 qualifying poll IDs were absent from the normalized feed and seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- co/efficient Ohio Senate and governor: the public release provides aggregate ballots and party composition but no complete candidate-by-R/D/I table.
+- Cygnal national generic ballot: the public release provides aggregate results and Independent candidate shares but omits the corresponding Republican and Democratic rows.
+- Alaska Survey Research Senate, Susquehanna Pennsylvania governor, and Marist's newly reviewed Maine races: public materials located in this run did not expose a complete R/D/I candidate table usable by the model.
+- YouGov's public New Hampshire, Texas, Ohio, Florida, and Michigan state-election packets report other demographic breaks but no complete candidate-by-R/D/I table.
+- ECU September 30-October 3 North Carolina Senate, Cooper 49 / Whatley 42, n=810 likely voters, reports Whatley's Democratic support only as `<1%`. Because that is not an exact candidate share, the poll was not normalized or added to the ledger.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Quinnipiac Pennsylvania governor: each subgroup uses total N / 4 = 290.
+- CNN/SSRS Iowa Senate and governor: each subgroup uses total N / 4 = 200.
+- CNN/SSRS Ohio Senate and governor: each subgroup uses total N / 4 = 190.
+- UMass Lowell/YouGov Texas Senate and governor: each subgroup uses total N / 4 = 213.
+- Pew national generic ballot: each subgroup uses total N / 4 = 979.
+- Washington Post/Schar Maine Senate: each subgroup uses total N / 4 = 200.
+- No party-composition percentages or subgroup margins of error were used to infer these subgroup Ns.
+
+### Unclassified Polls
+
+- Washington Post/Schar School's Maine governor ballot and newly surfaced Minnesota races are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- NBC 6/Mason-Dixon and St. Pete Polls classify crosstabs by voter registration rather than self-reported party identification. This matches the project's existing treatment of official registered-party rows and is documented in each normalized record.
+- Emerson's official workbook reports weighted subgroup totals as decimals; subgroup bases were rounded to the nearest voter, while candidate shares retain the workbook's precision.
+- The Economist/YouGov generic-ballot record uses the ballot table's n=1,369 rather than the full survey's n=1,381. Quantus Michigan uses the two-candidate ballot base of 744 rather than all 762 interviews.
+- Pew's public table combines Independents with other non-major-party registrants; the `NET Ind/Other` row was mapped to the model's Independent group and this mapping is stated in the normalized record.
+- ECU's `<1%` cell was not converted to zero or a midpoint. The ambiguity was logged instead of updating `nc_sen`.
+- No source-specific parser code was required; all qualifying records were normalized from official public tables and workbooks.
+
 ## 2026-10-04
 
 ### Sources Searched
