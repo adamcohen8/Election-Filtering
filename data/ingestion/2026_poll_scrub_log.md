@@ -1,5 +1,44 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-11
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 11, 2026.
+- PB Polls, PollingSource, The Hill/DDHQ generic-ballot table, and targeted web searches for releases added since the October 10 run.
+- Rasmussen Reports' October 5-8 Maine Senate article; Trafalgar Group's October 6-8 Texas Senate report and newly listed Georgia Senate result; James Madison Institute/Targoz Market Research's September 28-October 4 Florida marginals; and The Honest Poll's October 4-6 national release and public download surface.
+
+### Crosstab-Backed Polls Applied
+
+- `rasmussen_me_sen_2026-10-05_2026-10-08_assumed_n` -> `me_sen`: Collins 47 / Jackson 49, n=804 likely voters; Republican 89 / 8, Democratic 10 / 87, Independent/Unaffiliated 46 / 48.
+
+### Polls Skipped As Duplicates
+
+- None. The qualifying Rasmussen poll ID was absent from the normalized feed and seen-poll ledger before this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Trafalgar Group October 6-8 Texas Senate, Talarico 47.1 / Paxton 43.6, n=1,086 likely voters. The official report publishes party-composition percentages but candidate crosstabs only by age, gender, and ethnicity.
+- Trafalgar Group Georgia Senate, Ossoff 51 / Collins 43, n=1,101 likely voters. Public listings and reporting provide the aggregate ballot, but no complete candidate-by-R/D/I table was located.
+- James Madison Institute/Targoz Market Research September 28-October 4 Florida Senate, Moody 52 / Nixon 42 among 847 likely voters, and Florida governor, Donalds 52 / Jolly 42 among 849 likely voters. The 53-page public marginals packet prints aggregate ballot results and overall party composition, not candidate choice crossed by party.
+- The Honest Poll October 4-6 national generic congressional ballot, Generic Republican 41 / Generic Democrat 52 among 939 registered voters and 42 / 54 among 780 likely voters. Crosstab downloads are subscriber-restricted, so no complete public R/D/I candidate table was available.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Rasmussen Maine Senate: each Republican, Democratic, and Independent/Unaffiliated subgroup uses total N / 4 = 201.
+- No party-composition percentages or subgroup margins of error were used to infer subgroup Ns.
+
+### Unclassified Polls
+
+- New Minnesota Senate and governor releases from Rasmussen Reports and Morning Consult are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- Rasmussen publishes all six modeled party-group candidate shares but reserves exact subgroup bases for its full demographic table; the required direct total-N-over-four fallback was used.
+- RealClearPolling's source link for the new Georgia Trafalgar listing resolved to the Texas report during this run. Because a Georgia crosstab packet could not be verified, the Georgia result was logged as aggregate-only.
+- The James Madison Institute packet labels itself as marginals and reports separate likely-voter bases for the Senate and governor questions; neither ballot is crossed by party identification in the public file.
+- No source-specific parser code was needed.
+
 ## 2026-10-10
 
 ### Sources Searched

@@ -4247,6 +4247,30 @@
       "topline_a": 0.4530776992703438,
       "topline_b": 0.4904137235057437,
       "topline_n": 650
+    },
+    {
+      "poll_id": "rasmussen_me_sen_2026-10-05_2026-10-08_assumed_n",
+      "pollster": "Rasmussen Reports",
+      "field_date": "2026-10-08",
+      "race_id": "me_sen",
+      "state": "Maine",
+      "office": "senate",
+      "candidate_a": "Susan Collins",
+      "candidate_b": "Troy Jackson",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_maine_senate",
+      "text": "Maine U.S. Senate likely-voter ballot test, October 5-8 2026, Rasmussen Reports, n=804 likely voters. Candidate A is the Republican, Susan Collins; candidate B is the Democrat, Troy Jackson. The public release prints complete candidate shares among Republican, Democratic, and unaffiliated voters but not subgroup sample sizes, so each modeled subgroup uses total N / 4 = 201.",
+      "republican_a": 0.89,
+      "republican_b": 0.08,
+      "republican_n": 201,
+      "democratic_a": 0.10,
+      "democratic_b": 0.87,
+      "democratic_n": 201,
+      "independent_a": 0.46,
+      "independent_b": 0.48,
+      "independent_n": 201,
+      "topline_a": 0.47,
+      "topline_b": 0.49,
+      "topline_n": 804
     }
   ]
 }
