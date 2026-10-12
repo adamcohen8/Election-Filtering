@@ -1,5 +1,42 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-12
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 12, 2026.
+- PB Polls, PollingSource, and targeted web searches for releases added since the October 11 run.
+- InsiderAdvantage's October 9-10 Alaska and Michigan Senate release and Wedgewood Polls' October 8-9 Michigan Senate and governor topline-and-crosstab PDF.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled poll exposed complete candidate-choice shares for Republican, Democratic, and Independent party-ID voters.
+
+### Polls Skipped As Duplicates
+
+- Rasmussen Reports' October 5-8 Maine Senate poll was already present as `rasmussen_me_sen_2026-10-05_2026-10-08_assumed_n` and was not reapplied.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- InsiderAdvantage October 9-10 Michigan Senate, El-Sayed 48 / Rogers 46, n=1,200 likely voters. The public release says crosstabs are forthcoming but currently provides no candidate-by-R/D/I table.
+- InsiderAdvantage October 9-10 Alaska Senate, Peltola 48 / Dan S. Sullivan 43 in the first-choice ballot among 1,200 likely voters; RealClearPolling also lists a 50 / 48 ranked-choice result. The public release currently provides no candidate-by-R/D/I table.
+- Wedgewood Polls October 8-9 Michigan Senate, El-Sayed 53 / Rogers 47, and Michigan governor, Benson 55 / James 45, n=607 likely voters. The official five-page PDF publishes crosstabs by gender, age, race, education, and recalled 2024 vote, but not by party identification.
+- No newly released national generic-congressional-ballot poll with a complete public R/D/I candidate table was located.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Polls
+
+- Newly listed South Carolina and Kansas Senate polls and a New Mexico governor poll are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- InsiderAdvantage labels its public article `Tabs Coming Tonight`; this run found no subsequently posted public table or image with all six required R/D/I candidate shares. The two modeled records remain aggregate-only pending publication.
+- Wedgewood's title describes its PDF as toplines and crosstabs, but inspection of all five pages confirmed that party identification is not one of the published cross-breaks.
+- No source-specific parser code was needed. The model state, seen-poll ledger, and public forecast export were not changed.
+
 ## 2026-10-11
 
 ### Sources Searched
