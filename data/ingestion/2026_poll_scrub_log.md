@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-13
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 13, 2026.
+- PB Polls, PollingSource, and targeted web searches for releases added since the October 12 run.
+- ReconMR/Siena Research Institute's October 5-8 Texas press release and official five-page crosstab PDF; Change Research's October 8-10 Florida methodology statement; Trafalgar Group's October 8-10 North Carolina report; and the current Morning Consult and Rasmussen national generic-ballot releases.
+
+### Crosstab-Backed Polls Applied
+
+- `reconmr-siena_tx_sen_2026-10-05_2026-10-08_assumed_n` -> `tx_sen`: Paxton 44 / Talarico 48, n=617 likely voters; Republican 87 / 7, Democratic 2 / 92, Independent/Other 30 / 60.
+- `reconmr-siena_tx_gov_2026-10-05_2026-10-08_assumed_n` -> `tx_gov`: Abbott 48 / Hinojosa 47, n=617 likely voters; Republican 92 / 5, Democratic 2 / 94, Independent/Other 34 / 57.
+
+### Polls Skipped As Duplicates
+
+- Previously reviewed Ohio governor releases from co/efficient, Big Data Poll, Suffolk University, and Bowling Green State University/YouGov remained already applied or logged under their original field dates and were not duplicated from RealClearPolling's October 12 listing.
+- The September 9-11 co/efficient New Hampshire governor result remained previously logged as aggregate-only and was not treated as a new poll.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Change Research October 8-10 Florida governor, Donalds 47 / Jolly 47, n=920 likely voters. The public methodology statement provides the aggregate ballot and overall party composition, but no candidate-choice table by party identification.
+- Trafalgar Group October 8-10 North Carolina Senate, Whatley 40.9 / Cooper 48.8, n=1,091 likely voters. The official report publishes candidate crosstabs by age and gender and participation summaries by party, age, ethnicity, and gender, but no candidate-by-R/D/I table.
+- Morning Consult October 9-11 national generic congressional ballot, Generic Republican 43 / Generic Democrat 50. The public tracker reports the aggregate ballot and methodology, but no matching current-wave R/D/I candidate table was publicly inspectable.
+- Rasmussen Reports October 1 and 4-7 national generic congressional ballot, Generic Republican 44 / Generic Democrat 49, n=1,781 likely voters. The public article reports Independent/Unaffiliated voters at 45 / 40 but does not publish the corresponding Republican and Democratic party-ID rows, so the poll is incomplete for model ingestion.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- ReconMR/Siena Texas Senate and governor: each Republican, Democratic, and Independent/Other subgroup uses total N / 4 = 154.
+- The printed party-composition percentages were not used to reverse-engineer subgroup Ns.
+
+### Unclassified Polls
+
+- Newly listed Minnesota Senate and Arizona governor polls are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- ReconMR labels the third party-ID column `IND/OTHER`; it was normalized to the model's Independent group, matching the treatment of the pollster's September release.
+- ReconMR prints weighted party-composition percentages but not subgroup bases. The required direct total-N-over-four fallback was used for both modeled Texas records.
+- InsiderAdvantage's October 9-10 Alaska and Michigan Senate public source still did not expose complete candidate-by-R/D/I tables during this run.
+- No source-specific parser code was needed.
+
 ## 2026-10-12
 
 ### Sources Searched

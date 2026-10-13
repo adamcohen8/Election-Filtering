@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:06:53.411140+00:00",
+  "generated_at": "2026-10-13T12:03:11.636560+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -2244,6 +2244,13 @@
           "candidate_b_share": 0.4622,
           "margin": 0.0085,
           "margin_percent": 0.85
+        },
+        {
+          "date": "2026-10-08",
+          "candidate_a_share": 0.4712,
+          "candidate_b_share": 0.463,
+          "margin": 0.0082,
+          "margin_percent": 0.82
         }
       ],
       "poll_points": [
@@ -2414,6 +2421,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.uml.edu/docs/Oct-2026-Texas-Topline_tcm18-423338.pdf"
+        },
+        {
+          "poll_id": "reconmr-siena_tx_gov_2026-10-05_2026-10-08_assumed_n",
+          "pollster": "ReconMR/Siena Research Institute",
+          "date": "2026-10-08",
+          "candidate_a_share": 0.48,
+          "candidate_b_share": 0.47,
+          "margin": 0.01,
+          "margin_percent": 1.0,
+          "leader": "republican",
+          "sample_size": 617,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://reconmr.com/wp-content/uploads/2026/10/TXP004-Crosstabs-1.pdf"
         }
       ]
     },
@@ -2524,6 +2545,13 @@
           "candidate_b_share": 0.5285,
           "margin": -0.057,
           "margin_percent": -5.7
+        },
+        {
+          "date": "2026-10-08",
+          "candidate_a_share": 0.4717,
+          "candidate_b_share": 0.5283,
+          "margin": -0.0566,
+          "margin_percent": -5.66
         }
       ],
       "poll_points": [
@@ -2736,6 +2764,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.uml.edu/docs/Oct-2026-Texas-Topline_tcm18-423338.pdf"
+        },
+        {
+          "poll_id": "reconmr-siena_tx_sen_2026-10-05_2026-10-08_assumed_n",
+          "pollster": "ReconMR/Siena Research Institute",
+          "date": "2026-10-08",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.48,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 617,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://reconmr.com/wp-content/uploads/2026/10/TXP004-Crosstabs-1.pdf"
         }
       ]
     },
