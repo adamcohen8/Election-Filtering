@@ -1,5 +1,52 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-14
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 14, 2026.
+- PB Polls and targeted web searches for releases added since the October 13 run.
+- Official crosstab releases from Stetson University CPOR, Cygnal, Quantus Insights, SurveyUSA, and Marist Poll; official topline or incomplete-crosstab releases from Carolina Forward/Change Research, HighGround, and NewsNation/Decision Desk HQ/TrueDot.
+
+### Crosstab-Backed Polls Applied
+
+- `stetson_fl_gov_2026-10-01_2026-10-09_crosstab` -> `fl_gov`: Donalds 52 / Jolly 41, n=716; Republican 89 / 8 (n=308), Democratic 7 / 85 (n=209), NPA/Other 27 / 52 (n=199).
+- `stetson_fl_sen_2026-10-01_2026-10-09_crosstab` -> `fl_sen`: Moody 52 / Nixon 41, n=716; Republican 91 / 5 (n=308), Democratic 3 / 90 (n=209), NPA/Other 32 / 51 (n=199).
+- `cygnal_us_house_generic_2026-10-07_2026-10-10_assumed_n` -> `us_house_generic`: Generic Republican 42 / Generic Democrat 51, n=1,500; Republican 91 / 4, Democratic 1 / 98, Independent 26 / 57.
+- `quantus_tx_sen_2026-10-09_2026-10-11_crosstab` -> `tx_sen`: Paxton 47.2 / Talarico 46.7, ballot n=839; Republican 87 / 7 (n=376), Democratic 2 / 95 (n=293), unaffiliated 37 / 52 (n=170).
+- `surveyusa_nc_sen_2026-10-07_2026-10-11_assumed_n` -> `nc_sen`: Whatley 40 / Cooper 54, n=643; Republican 87 / 7, Democratic 4 / 95, Independent 28 / 59.
+- `marist_tx_sen_2026-10-08_2026-10-11_assumed_n` -> `tx_sen`: Paxton 45 / Talarico 47; Republican 87 / 8, Democratic less than 1 / 99, Independent 30 / 52.
+- `marist_tx_gov_2026-10-08_2026-10-11_assumed_n` -> `tx_gov`: Abbott 49 / Hinojosa 45; Republican 91 / 5, Democratic 1 / 98, Independent 36 / 53.
+
+### Polls Skipped As Duplicates
+
+- ReconMR/Siena's October 5-8 Texas Senate and governor records were already applied on October 13 and were not duplicated from current aggregator listings.
+- Previously reviewed Florida, North Carolina, and national generic-ballot polls retained their existing normalized records or aggregate-only log entries.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Carolina Forward/Change Research October 1-7 North Carolina Senate, Cooper 50 / Whatley 40, n=829 likely voters. The public Google document exposed the topline through aggregator reporting but not an inspectable complete candidate-by-R/D/I table.
+- HighGround October 6-8 Arizona governor, Hobbs 50.5 / Biggs 33.7, n=400 likely voters. The public release reports the Independent row and Republican support for Biggs but does not expose a complete Democratic party-ID candidate row.
+- NewsNation/Decision Desk HQ/TrueDot October 5-9 national generic congressional ballot, Generic Democrat 49 / Generic Republican 42, n=974 likely voters. Public reporting identifies the Independent margin but does not publish complete Republican and Democratic candidate rows.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Cygnal national generic ballot: each Republican, Democratic, and Independent subgroup uses total N / 4 = 375.
+- SurveyUSA North Carolina Senate: each subgroup uses rounded total N / 4 = 161.
+- Marist Texas Senate and governor: each subgroup uses the public survey total N / 4 = 299 because the likely-voter tables publish neither a likely-voter base nor exact subgroup bases.
+- Party-composition percentages were not used to reverse-engineer subgroup Ns.
+
+### Unclassified Polls
+
+- None among the newly released statewide races. Stetson's Florida-only generic U.S. House ballot is outside the modeled national generic-ballot race and was not applied.
+
+### Extraction Uncertainties
+
+- Marist reports Paxton's Democratic support as `<1%`; consistent with the project's prior Marist Texas normalization, this cell is stored as 0.00 and documented in the record text.
+- Stetson's NPA/Other party-identification row and Quantus's modeled unaffiliated voter-file row are normalized as the model's Independent subgroup.
+- The Marist toplines are likely-voter-weighted results from a survey of 1,196 registered voters. With no separate likely-voter base printed, the public total is retained as `topline_n` and as the basis for the required N/4 fallback.
+- No source-specific parser code was needed.
+
 ## 2026-10-13
 
 ### Sources Searched

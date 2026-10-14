@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:03:11.636560+00:00",
+  "generated_at": "2026-10-14T07:06:47.089942+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -242,6 +242,13 @@
           "candidate_b_share": 0.3781,
           "margin": 0.0822,
           "margin_percent": 8.22
+        },
+        {
+          "date": "2026-10-09",
+          "candidate_a_share": 0.4671,
+          "candidate_b_share": 0.3835,
+          "margin": 0.0836,
+          "margin_percent": 8.36
         }
       ],
       "poll_points": [
@@ -356,6 +363,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October7_K7ZU3GA.pdf"
+        },
+        {
+          "poll_id": "stetson_fl_gov_2026-10-01_2026-10-09_crosstab",
+          "pollster": "Stetson University CPOR",
+          "date": "2026-10-09",
+          "candidate_a_share": 0.52,
+          "candidate_b_share": 0.41,
+          "margin": 0.11,
+          "margin_percent": 11.0,
+          "leader": "republican",
+          "sample_size": 716,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.stetson.edu/artsci/cpor/media/cpor-fall-2026-report-wave-2-october.pdf"
         }
       ]
     },
@@ -417,6 +438,13 @@
           "candidate_b_share": 0.3523,
           "margin": 0.1668,
           "margin_percent": 16.68
+        },
+        {
+          "date": "2026-10-09",
+          "candidate_a_share": 0.517,
+          "candidate_b_share": 0.3587,
+          "margin": 0.1582,
+          "margin_percent": 15.82
         }
       ],
       "poll_points": [
@@ -531,6 +559,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October7_K7ZU3GA.pdf"
+        },
+        {
+          "poll_id": "stetson_fl_sen_2026-10-01_2026-10-09_crosstab",
+          "pollster": "Stetson University CPOR",
+          "date": "2026-10-09",
+          "candidate_a_share": 0.52,
+          "candidate_b_share": 0.41,
+          "margin": 0.11,
+          "margin_percent": 11.0,
+          "leader": "republican",
+          "sample_size": 716,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.stetson.edu/artsci/cpor/media/cpor-fall-2026-report-wave-2-october.pdf"
         }
       ]
     },
@@ -1719,6 +1761,13 @@
           "candidate_b_share": 0.4983,
           "margin": -0.0722,
           "margin_percent": -7.22
+        },
+        {
+          "date": "2026-10-11",
+          "candidate_a_share": 0.4255,
+          "candidate_b_share": 0.4999,
+          "margin": -0.0744,
+          "margin_percent": -7.44
         }
       ],
       "poll_points": [
@@ -1861,6 +1910,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1iMthaLeKPk-pX8CWMXDxLBIUIrezqHX1/view?usp=sharing"
+        },
+        {
+          "poll_id": "surveyusa_nc_sen_2026-10-07_2026-10-11_assumed_n",
+          "pollster": "SurveyUSA",
+          "date": "2026-10-11",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.54,
+          "margin": -0.14,
+          "margin_percent": -14.0,
+          "leader": "democratic",
+          "sample_size": 643,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://results.surveyusa.com/client/PollReport.aspx?g=0a876c84-9a95-4995-9218-82b1015f5d77"
         }
       ]
     },
@@ -2251,6 +2314,13 @@
           "candidate_b_share": 0.463,
           "margin": 0.0082,
           "margin_percent": 0.82
+        },
+        {
+          "date": "2026-10-11",
+          "candidate_a_share": 0.4719,
+          "candidate_b_share": 0.464,
+          "margin": 0.008,
+          "margin_percent": 0.8
         }
       ],
       "poll_points": [
@@ -2435,6 +2505,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://reconmr.com/wp-content/uploads/2026/10/TXP004-Crosstabs-1.pdf"
+        },
+        {
+          "poll_id": "marist_tx_gov_2026-10-08_2026-10-11_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-10-11",
+          "candidate_a_share": 0.49,
+          "candidate_b_share": 0.45,
+          "margin": 0.04,
+          "margin_percent": 4.0,
+          "leader": "republican",
+          "sample_size": 1196,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_TX-NOS-and-Tables_202610131056%5Eal3j7.pdf"
         }
       ]
     },
@@ -2552,6 +2636,13 @@
           "candidate_b_share": 0.5283,
           "margin": -0.0566,
           "margin_percent": -5.66
+        },
+        {
+          "date": "2026-10-11",
+          "candidate_a_share": 0.4733,
+          "candidate_b_share": 0.5267,
+          "margin": -0.0534,
+          "margin_percent": -5.34
         }
       ],
       "poll_points": [
@@ -2778,6 +2869,34 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://reconmr.com/wp-content/uploads/2026/10/TXP004-Crosstabs-1.pdf"
+        },
+        {
+          "poll_id": "marist_tx_sen_2026-10-08_2026-10-11_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-10-11",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.47,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1196,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_TX-NOS-and-Tables_202610131056%5Eal3j7.pdf"
+        },
+        {
+          "poll_id": "quantus_tx_sen_2026-10-09_2026-10-11_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-10-11",
+          "candidate_a_share": 0.472,
+          "candidate_b_share": 0.467,
+          "margin": 0.005,
+          "margin_percent": 0.5,
+          "leader": "republican",
+          "sample_size": 839,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view?usp=sharing"
         }
       ]
     },
@@ -2993,6 +3112,13 @@
           "candidate_b_share": 0.5521,
           "margin": -0.1043,
           "margin_percent": -10.43
+        },
+        {
+          "date": "2026-10-10",
+          "candidate_a_share": 0.4476,
+          "candidate_b_share": 0.5524,
+          "margin": -0.1047,
+          "margin_percent": -10.47
         }
       ],
       "poll_points": [
@@ -3695,6 +3821,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_703uvs1.pdf"
+        },
+        {
+          "poll_id": "cygnal_us_house_generic_2026-10-07_2026-10-10_assumed_n",
+          "pollster": "Cygnal",
+          "date": "2026-10-10",
+          "candidate_a_share": 0.42,
+          "candidate_b_share": 0.51,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 1500,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.cygn.al/wp-content/uploads/2026/10/Cygnal-National-Poll-on-Foreign-Conflicts-Oct-2026.pdf"
         }
       ]
     },
