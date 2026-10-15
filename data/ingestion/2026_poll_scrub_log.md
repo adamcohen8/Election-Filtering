@@ -1,5 +1,53 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-15
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 15, 2026.
+- PB Polls and targeted web searches for releases added since the October 14 run.
+- Official crosstab releases from Fox News, The Economist/YouGov, the University of Texas/Texas Politics Project, Suffolk University, and Marist Poll; official or public topline releases from YouGov Iowa, RMG Research/Napolitan News, and InsiderAdvantage.
+
+### Crosstab-Backed Polls Applied
+
+- `fox_us_house_generic_2026-10-09_2026-10-12_assumed_n` -> `us_house_generic`: Generic Republican 45 / Generic Democrat 54, n=1,202 registered voters; Republican 94 / 5, Democratic 2 / 98, Independent 36 / 62.
+- `economist-yougov_us_house_generic_2026-10-10_2026-10-12_crosstab` -> `us_house_generic`: Generic Republican 39 / Generic Democrat 46, ballot n=1,393 registered voters; Republican 84 / 3 (n=392), Democratic 2 / 90 (n=489), Independent 24 / 50 (n=512).
+- `ut-texas-politics_tx_sen_2026-09-25_2026-10-05_assumed_n` -> `tx_sen`: Paxton 47 / Talarico 50, n=861 likely voters; Republican 92 / 4, Democratic 1 / 98, Independent 11 / 69.
+- `ut-texas-politics_tx_gov_2026-09-25_2026-10-05_assumed_n` -> `tx_gov`: Abbott 48 / Hinojosa 49, n=861 likely voters; Republican 93 / 4, Democratic 2 / 98, Independent 17 / 67.
+- `suffolk_me_sen_2026-10-08_2026-10-11_crosstab` -> `me_sen`: Collins 47 / Jackson 49, n=500 likely voters; Republican 95 / 3 (n=164), Democratic 5 / 94 (n=184), Independent/Other 47 / 44 (n=152).
+- `marist_ia_sen_2026-10-08_2026-10-11_assumed_n` -> `ia_sen`: Hinson 45 / Turek 48; Republican 84 / 12, Democratic 2 / 98, Independent 31 / 51.
+- `marist_ia_gov_2026-10-08_2026-10-11_assumed_n` -> `ia_gov`: Lahn 45 / Sand 52; Republican 89 / 10, Democratic 2 / 98, Independent 26 / 67.
+
+### Polls Skipped As Duplicates
+
+- Stetson's Florida Senate and governor polls, Cygnal's national generic ballot, Quantus and Marist Texas polls, and SurveyUSA's North Carolina Senate poll were applied on October 14 and were not duplicated from current aggregator listings.
+- Previously reviewed YouGov state-poll packets and other retained records kept their existing normalized entries or aggregate-only log notes.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- YouGov October 6-12 Iowa Senate, Turek 47 / Hinson 46, n=2,245 likely voters. The public report publishes ballot crosstabs by age, gender, 2024 vote, and education but no candidate-choice table by current Republican, Democratic, and Independent identification.
+- YouGov October 6-12 Iowa governor, Sand 50 / Lahn 44, n=2,245 likely voters. The same public report lacks a complete candidate-by-current-party-ID table.
+- RMG Research/Napolitan News October 13-14 national generic congressional ballot, Generic Democrat 54 / Generic Republican 43, from a survey of n=2,000 registered voters. The public page restricts the full toplines and crosstabs and does not expose complete R/D/I candidate shares.
+- InsiderAdvantage October 12-13 Georgia governor, Jackson 49 / Bottoms 47, n=800 likely voters. Public reporting supplies the aggregate ballot but no inspectable complete candidate-by-R/D/I table.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Fox News national generic ballot: each Republican, Democratic, and Independent subgroup uses rounded total N / 4 = 301.
+- University of Texas/Texas Politics Project Texas Senate and governor: each subgroup uses rounded likely-voter N / 4 = 215.
+- Marist Iowa Senate and governor: each subgroup uses total survey N / 4 = 275 because the likely-voter tables publish neither a separate likely-voter base nor exact subgroup bases.
+- Party-composition percentages were not used to reverse-engineer subgroup Ns.
+
+### Unclassified Polls
+
+- Suffolk's Maine governor ballot and Marist's Iowa state generic-House ballot are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- The Economist/YouGov normalized record uses the official registered-voter Q38 ballot table because that table contains the complete party-ID rows and matching explicit subgroup bases; aggregator likely-voter toplines were not mixed into the record.
+- Suffolk's `Independent/Other` row is normalized as the model's Independent subgroup.
+- The Marist Iowa toplines are likely-voter-weighted results from a survey of 1,100 registered voters. With no separate likely-voter base printed, the public survey total is retained as `topline_n` and as the basis for the required N/4 fallback.
+- No source-specific parser code was needed.
+
 ## 2026-10-14
 
 ### Sources Searched
