@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-16
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed October 16, 2026.
+- PB Polls, PollingSource, and targeted web searches for releases added since the October 15 run.
+- Official releases and public tables from AP-NORC, InsiderAdvantage, and MDW Communications/EDGE Communications, including the AP-NORC topline and methodology PDFs and InsiderAdvantage's current release page.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled-race poll exposed complete Republican, Democratic, and Independent candidate-share rows in a public source during this run.
+
+### Polls Skipped As Duplicates
+
+- Marist's October 8-11 Iowa Senate and governor records, Fox News' October 9-12 national generic ballot, The Economist/YouGov's October 10-12 national generic ballot, the University of Texas/Texas Politics Project's Texas records, and Suffolk's Maine Senate record were applied on October 15 and were not duplicated from current listings.
+- Previously reviewed Florida polls from Stetson, Change Research, St. Pete Polls, James Madison Institute/Targoz, and other retained releases kept their existing normalized records or aggregate-only log entries.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- MDW Communications/EDGE Communications October 4-10 Florida Senate, Moody 47.6 / Nixon 42.4, n=2,351 likely voters. The public release says all results are shown and publishes aggregate results plus sample registration composition, but no candidate-choice table by Republican, Democratic, and NPA/Other identification.
+- MDW Communications/EDGE Communications October 4-10 Florida governor, Donalds 45.9 / Jolly 43.8, n=2,351 likely voters. The same release contains no complete candidate-by-party-ID table.
+- InsiderAdvantage October 13-14 Texas Senate, Paxton 49 / Talarico 48, n=1,200 likely voters. The current public release says top-line tabs will be posted separately, but no public complete R/D/I candidate-share table was available during this run.
+- InsiderAdvantage October 13-14 Maine Senate, Collins 47 / Jackson 49, n=1,200 likely voters. The current public release likewise does not yet expose the promised public tabs.
+- AP-NORC October 8-12 national U.S. House control ballot, Democrats 47 / Republicans 38 among voters, from a survey of n=1,119 adults. The official topline PDF publishes the overall House-control result and overall party-group bases, but no candidate-choice crosstab by party identification.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. The required N/4 fallback was not used because no new poll had complete R/D/I candidate shares.
+
+### Unclassified Polls
+
+- Newly listed Minnesota Senate and governor, Kansas Senate, Connecticut governor, and Montana Senate polls are outside the modeled race registry and were not applied.
+- MDW's Florida-only generic congressional ballot is not the modeled national generic-ballot race and was not applied.
+
+### Extraction Uncertainties
+
+- AP-NORC reports the House-control preference as 47 / 38 among voters in its release article, while the all-adult topline table is 43 / 34. Neither population has public complete R/D/I choice rows, so no values were mixed or normalized.
+- InsiderAdvantage states that separate top-line tabs are forthcoming. The Texas and Maine releases remain aggregate-only unless those public tables later expose complete candidate shares for all three modeled party-ID groups.
+- MDW publishes weighted registration composition, but those percentages were not used to infer subgroup Ns or candidate shares.
+- No source-specific parser code was needed.
+
 ## 2026-10-15
 
 ### Sources Searched
