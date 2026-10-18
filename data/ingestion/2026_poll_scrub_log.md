@@ -1,5 +1,46 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-18
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 18, 2026.
+- PB Polls, PollingSource, and targeted web searches for releases added since the October 16 run.
+- Official or public releases from ActiVote, Bowling Green State University/YouGov, Rasmussen Reports, Public Policy Polling, InsiderAdvantage, Fabrizio Ward, and AP-NORC.
+
+### Crosstab-Backed Polls Applied
+
+- `activote_fl_sen_2026-09-27_2026-10-15_assumed_n` -> `fl_sen`: Ashley Moody 53.1 / Angie Nixon 46.9, n=400 likely midterm voters; Republicans Moody 95 / Nixon 5, Democrats Moody 7 / Nixon 93, Independents Moody 33 / Nixon 67.
+
+### Polls Skipped As Duplicates
+
+- AP-NORC and Fox News national generic-ballot releases, Marist Iowa Senate and governor, and previously retained Florida Senate and governor polls were already applied or logged before this run and were not duplicated.
+- InsiderAdvantage's October 15 Maine Senate result matches the aggregate topline already logged on October 16; no new complete public R/D/I table was available.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Bowling Green State University/YouGov September 29-October 9 Ohio Senate, Brown 48 / Husted 42, n=1,000 likely voters, and Ohio governor, Acton 50 / Ramaswamy 44. The official repository publishes a crosstab PDF, but its download remained blocked during this run and no R/D/I candidate shares were inferred from secondary coverage.
+- Rasmussen Reports October 12-14 Michigan Senate, El-Sayed 46 / Rogers 44, n=798 likely voters. The public page reserves complete demographic tables for subscribers and does not expose all six required party-ID candidate shares.
+- Public Policy Polling October 14-15 Alaska Senate, Peltola 48 / Sullivan 47, n=578 registered voters. The publicly indexed release supplied the aggregate ballot only; no complete R/D/I candidate-choice table was located.
+- InsiderAdvantage October 15 Michigan Senate, El-Sayed 48 / Rogers 46, Alaska Senate, Peltola 50 / Sullivan 48, and Maine Senate, Jackson 49 / Collins 47, each n=1,200 likely voters. Public top-line tabs did not expose complete candidate shares for all three modeled party-ID groups.
+- Fabrizio Ward October 8-11 Florida governor, Donalds 49 / Jolly 43, n=1,200 likely voters. The Donalds campaign did not release the full poll, and the public memo/reporting contains no complete R/D/I candidate-choice table.
+- ActiVote September 30-October 14 Texas Senate, Talarico 51.9 / Paxton 48.1, and Texas governor, Abbott 50.9 / Hinojosa 49.1, each n=400 likely midterm voters. Those public pages explicitly omit party affiliation breakdowns, so neither poll was normalized.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- ActiVote Florida Senate: each Republican, Democratic, and Independent subgroup uses total N / 4 = 100. The weighted party-composition percentages were not used to reverse-engineer subgroup bases.
+
+### Unclassified Polls
+
+- Newly listed Minnesota Senate, California governor, Nebraska governor, Kansas Senate, Arkansas Senate, Alabama governor, Connecticut governor, and Mississippi Senate polls are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- ActiVote's Florida table labels its rows `Party D`, `R`, and `I`; those public rows were mapped directly to Democratic, Republican, and Independent party ID.
+- Bowling Green State University's official October crosstab record and DOI were verified, but the PDF endpoint returned an access challenge or blank response in available clients. The Ohio results remain aggregate-only until the table itself can be inspected.
+- No newly released national generic-ballot poll beyond already applied or logged releases was found during this run.
+- No source-specific parser code was needed.
+
 ## 2026-10-16
 
 ### Sources Searched

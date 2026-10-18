@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:04:10.884431+00:00",
+  "generated_at": "2026-10-18T07:00:07.883871+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -445,6 +445,13 @@
           "candidate_b_share": 0.3587,
           "margin": 0.1582,
           "margin_percent": 15.82
+        },
+        {
+          "date": "2026-10-15",
+          "candidate_a_share": 0.5863,
+          "candidate_b_share": 0.4137,
+          "margin": 0.1726,
+          "margin_percent": 17.26
         }
       ],
       "poll_points": [
@@ -573,6 +580,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.stetson.edu/artsci/cpor/media/cpor-fall-2026-report-wave-2-october.pdf"
+        },
+        {
+          "poll_id": "activote_fl_sen_2026-09-27_2026-10-15_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-15",
+          "candidate_a_share": 0.531,
+          "candidate_b_share": 0.469,
+          "margin": 0.062,
+          "margin_percent": 6.2,
+          "leader": "republican",
+          "sample_size": 400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/2026/fl-u-s-senate/"
         }
       ]
     },

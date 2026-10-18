@@ -4655,6 +4655,30 @@
       "topline_a": 0.45,
       "topline_b": 0.52,
       "topline_n": 1100
+    },
+    {
+      "poll_id": "activote_fl_sen_2026-09-27_2026-10-15_assumed_n",
+      "pollster": "ActiVote",
+      "field_date": "2026-10-15",
+      "race_id": "fl_sen",
+      "state": "Florida",
+      "office": "senate",
+      "candidate_a": "Ashley Moody",
+      "candidate_b": "Angie Nixon",
+      "source_url": "https://www.activote.net/polls/2026/fl-u-s-senate/",
+      "text": "Florida U.S. Senate likely-voter ballot test, September 27-October 15 2026, ActiVote, n=400 likely midterm voters. Candidate A is the Republican, Ashley Moody; candidate B is the Democrat, Angie Nixon. The public full crosstab table prints complete Party D, R, and I candidate shares but not subgroup sample sizes, so each modeled subgroup uses total N / 4 = 100.",
+      "republican_a": 0.95,
+      "republican_b": 0.05,
+      "republican_n": 100,
+      "democratic_a": 0.07,
+      "democratic_b": 0.93,
+      "democratic_n": 100,
+      "independent_a": 0.33,
+      "independent_b": 0.67,
+      "independent_n": 100,
+      "topline_a": 0.531,
+      "topline_b": 0.469,
+      "topline_n": 400
     }
   ]
 }
