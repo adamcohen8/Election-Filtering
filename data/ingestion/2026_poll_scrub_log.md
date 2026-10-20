@@ -1,5 +1,63 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-20
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 20, 2026.
+- PB Polls and targeted web searches for releases added since the October 18 run.
+- Official or public releases and tables from Marist, ActiVote, Univision/YouGov, the University of Houston Hobby School, CBS News/YouGov, Quantus Insights, Reuters/Ipsos, co/efficient, Trafalgar Group, ABC News/Washington Post/Ipsos, NBC News Decision Desk/SurveyMonkey, I&I/TIPP, Rasmussen Reports, and PennLive.
+
+### Crosstab-Backed Polls Applied
+
+- `marist_oh_sen_2026-10-15_2026-10-18_assumed_n` -> `oh_sen`: Jon Husted 44 / Sherrod Brown 48, from n=1,176 registered voters with a likely-voter weight; complete official R/D/I shares.
+- `marist_oh_gov_2026-10-15_2026-10-18_assumed_n` -> `oh_gov`: Vivek Ramaswamy 43 / Amy Acton 50, from the same Marist survey; complete official R/D/I shares.
+- `activote_fl_gov_2026-10-01_2026-10-19_assumed_n` -> `fl_gov`: Byron Donalds 51.7 / David Jolly 48.3, n=400 likely midterm voters; Republicans Donalds 90 / Jolly 10, Democrats Donalds 15 / Jolly 85, Independents Donalds 28 / Jolly 72.
+- `univision-yougov_fl_sen_2026-10-02_2026-10-15_crosstab` -> `fl_sen`: Ashley Moody 51 / Angie Nixon 42, n=825 Florida voters, with explicit party subgroup bases.
+- `univision-yougov_fl_gov_2026-10-02_2026-10-15_crosstab` -> `fl_gov`: Byron Donalds 50 / David Jolly 42, n=825 Florida voters, with explicit party subgroup bases.
+- `uh-hobby_tx_sen_2026-10-10_2026-10-14_assumed_n` -> `tx_sen`: Ken Paxton 46 / James Talarico 48, n=2,000 likely voters; complete official R/D/I shares.
+- `uh-hobby_tx_gov_2026-10-10_2026-10-14_assumed_n` -> `tx_gov`: Greg Abbott 49 / Gina Hinojosa 46, n=2,000 likely voters; complete official R/D/I shares.
+- `cbs-yougov_tx_sen_2026-10-08_2026-10-16_assumed_n` -> `tx_sen`: Ken Paxton 49 / James Talarico 51, from n=1,492 registered voters; complete likely-voter party shares in the official CBS chart.
+- `quantus_ga_sen_2026-10-15_2026-10-17_crosstab` -> `ga_sen`: Mike Collins 44.9 / Jon Ossoff 51.8, n=755 likely voters, with explicit modeled voter-file party bases.
+- `quantus_ga_gov_2026-10-15_2026-10-17_crosstab` -> `ga_gov`: Rick Jackson 48.2 / Keisha Lance Bottoms 46.6, n=755 likely voters, with explicit modeled voter-file party bases.
+- `reuters-ipsos_us_house_generic_2026-10-16_2026-10-19_crosstab` -> `us_house_generic`: Generic Republican 35 / Generic Democrat 47 among n=1,279 registered voters, with complete party-ID choice rows and explicit all-adult subgroup bases.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. No newly located release duplicated a new poll ID applied in this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- ActiVote September 27-October 19 Ohio governor, Ramaswamy 51.4 / Acton 48.6, n=400 likely midterm voters, and September 26-October 18 Ohio Senate, Husted 50 / Brown 50, n=400. The Ohio pages do not provide a party-affiliation breakdown.
+- CBS News/YouGov October 8-16 Texas governor, Abbott 52 / Hinojosa 48, from n=1,492 registered voters. The public release did not expose a complete R/D/I governor choice table.
+- co/efficient October 15-19 Iowa Senate, Hinson 48 / Turek 45, and Iowa governor, Sand 49 / Lahn 45, n=863 likely voters. The public release provides toplines and party composition but no candidate-by-party table.
+- Trafalgar Group October 13-15 Iowa Senate, Hinson 46 / Turek 44, n=1,094 likely voters. No complete public R/D/I candidate table was located.
+- ABC News/Washington Post/Ipsos October 9-13 national generic ballot, Democrats 52 / Republicans 44 among n=2,032 likely voters. The public article reports own-party support and the complete Independent row but not both candidate shares for Democratic and Republican identifiers, so missing values were not inferred.
+- NBC News Decision Desk/SurveyMonkey September 28-October 12 national generic ballot, Democrats 55 / Republicans 45, n=17,649 registered voters. The public DocumentCloud table was inaccessible during this run, so complete R/D/I candidate rows could not be verified.
+- I&I/TIPP September 29-October 1, n=1,328 registered voters, asks which party respondents prefer to control Congress rather than a candidate ballot. It was excluded despite complete party-control crosstabs because the model requires candidate shares.
+- Rasmussen Reports October 8 and 11-14 national generic ballot, Democrats 48 / Republicans 44, n=1,789 likely voters. The public article exposes own-party retention and a complete Independent row, but the opposite-party shares for Democratic and Republican identifiers are subscriber-only.
+- Rasmussen Reports Ohio Senate, Brown 47 / Husted 49, and Alaska Senate, Peltola 44 / Sullivan 42, did not expose complete public R/D/I candidate tables.
+- PennLive Pennsylvania governor, Shapiro 58 / Garrity 28, did not expose a complete public R/D/I candidate table.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Marist Ohio Senate and governor: each Republican, Democratic, and Independent subgroup uses total survey N / 4 = 294 because the likely-voter and subgroup bases are not separately printed.
+- ActiVote Florida governor: each subgroup uses total N / 4 = 100.
+- University of Houston Texas Senate and governor: each subgroup uses total N / 4 = 500; rounded party-composition percentages were not used to infer subgroup bases.
+- CBS News/YouGov Texas Senate: each subgroup uses total survey N / 4 = 373 because the likely-voter and subgroup bases are not separately printed.
+
+### Unclassified Polls
+
+- Newly listed Massachusetts Senate and governor, South Dakota governor, Arkansas governor, Connecticut governor, and South Carolina Senate polls are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- Reuters/Ipsos prints party-ID rows and explicit bases for all adults, while the supplemental aggregate generic-ballot topline is for registered voters. The record preserves the explicit subgroup bases and labels this mixed-universe detail.
+- Univision/YouGov labels candidates generically within the race crosstab tables; the surrounding official race titles and toplines identify the named Republican and Democratic nominees used in the normalized records.
+- Quantus identifies its party groups using modeled voter-file party; those published categories were mapped directly to the model's Republican, Democratic, and Independent groups.
+- The I&I/TIPP control-of-Congress wording was not treated as a candidate ballot. ABC News/Washington Post/Ipsos and Rasmussen values were not completed by subtraction, and the inaccessible NBC table was not inferred from secondary coverage.
+- No source-specific parser code was needed.
+
 ## 2026-10-18
 
 ### Sources Searched

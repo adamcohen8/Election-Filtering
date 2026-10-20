@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T07:00:07.883871+00:00",
+  "generated_at": "2026-10-20T07:05:32.547896+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -249,6 +249,20 @@
           "candidate_b_share": 0.3835,
           "margin": 0.0836,
           "margin_percent": 8.36
+        },
+        {
+          "date": "2026-10-15",
+          "candidate_a_share": 0.4746,
+          "candidate_b_share": 0.3827,
+          "margin": 0.0919,
+          "margin_percent": 9.19
+        },
+        {
+          "date": "2026-10-19",
+          "candidate_a_share": 0.5458,
+          "candidate_b_share": 0.4542,
+          "margin": 0.0917,
+          "margin_percent": 9.17
         }
       ],
       "poll_points": [
@@ -377,6 +391,34 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.stetson.edu/artsci/cpor/media/cpor-fall-2026-report-wave-2-october.pdf"
+        },
+        {
+          "poll_id": "univision-yougov_fl_gov_2026-10-02_2026-10-15_crosstab",
+          "pollster": "Univision/YouGov",
+          "date": "2026-10-15",
+          "candidate_a_share": 0.5,
+          "candidate_b_share": 0.42,
+          "margin": 0.08,
+          "margin_percent": 8.0,
+          "leader": "republican",
+          "sample_size": 825,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://st1.uvnimg.com/65/9b/a8b15584426684070c3d05cf6e34/n-univision-florida-poll-crosstabs-base-final.pdf"
+        },
+        {
+          "poll_id": "activote_fl_gov_2026-10-01_2026-10-19_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-19",
+          "candidate_a_share": 0.517,
+          "candidate_b_share": 0.483,
+          "margin": 0.034,
+          "margin_percent": 3.4,
+          "leader": "republican",
+          "sample_size": 400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/2026/fl-governor/"
         }
       ]
     },
@@ -448,10 +490,10 @@
         },
         {
           "date": "2026-10-15",
-          "candidate_a_share": 0.5863,
-          "candidate_b_share": 0.4137,
-          "margin": 0.1726,
-          "margin_percent": 17.26
+          "candidate_a_share": 0.5947,
+          "candidate_b_share": 0.4053,
+          "margin": 0.1894,
+          "margin_percent": 18.94
         }
       ],
       "poll_points": [
@@ -594,6 +636,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.activote.net/polls/2026/fl-u-s-senate/"
+        },
+        {
+          "poll_id": "univision-yougov_fl_sen_2026-10-02_2026-10-15_crosstab",
+          "pollster": "Univision/YouGov",
+          "date": "2026-10-15",
+          "candidate_a_share": 0.51,
+          "candidate_b_share": 0.42,
+          "margin": 0.09,
+          "margin_percent": 9.0,
+          "leader": "republican",
+          "sample_size": 825,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://st1.uvnimg.com/65/9b/a8b15584426684070c3d05cf6e34/n-univision-florida-poll-crosstabs-base-final.pdf"
         }
       ]
     },
@@ -634,6 +690,13 @@
           "candidate_b_share": 0.4748,
           "margin": 0.0242,
           "margin_percent": 2.42
+        },
+        {
+          "date": "2026-10-17",
+          "candidate_a_share": 0.5041,
+          "candidate_b_share": 0.4701,
+          "margin": 0.034,
+          "margin_percent": 3.4
         }
       ],
       "poll_points": [
@@ -706,6 +769,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedFor=public%40bigdatapoll.com&SharedBy=34090&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6"
+        },
+        {
+          "poll_id": "quantus_ga_gov_2026-10-15_2026-10-17_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-10-17",
+          "candidate_a_share": 0.482,
+          "candidate_b_share": 0.466,
+          "margin": 0.016,
+          "margin_percent": 1.6,
+          "leader": "republican",
+          "sample_size": 755,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
         }
       ]
     },
@@ -753,6 +830,13 @@
           "candidate_b_share": 0.5033,
           "margin": -0.0498,
           "margin_percent": -4.98
+        },
+        {
+          "date": "2026-10-17",
+          "candidate_a_share": 0.4559,
+          "candidate_b_share": 0.503,
+          "margin": -0.0471,
+          "margin_percent": -4.71
         }
       ],
       "poll_points": [
@@ -839,6 +923,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedFor=public%40bigdatapoll.com&SharedBy=34090&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6"
+        },
+        {
+          "poll_id": "quantus_ga_sen_2026-10-15_2026-10-17_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-10-17",
+          "candidate_a_share": 0.449,
+          "candidate_b_share": 0.518,
+          "margin": -0.069,
+          "margin_percent": -6.9,
+          "leader": "democratic",
+          "sample_size": 755,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
         }
       ]
     },
@@ -2083,6 +2181,13 @@
           "candidate_b_share": 0.4831,
           "margin": -0.0325,
           "margin_percent": -3.25
+        },
+        {
+          "date": "2026-10-18",
+          "candidate_a_share": 0.4524,
+          "candidate_b_share": 0.4849,
+          "margin": -0.0325,
+          "margin_percent": -3.25
         }
       ],
       "poll_points": [
@@ -2127,6 +2232,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.documentcloud.org/documents/28729016-cnn-ohio-poll-conducted-by-ssrs/"
+        },
+        {
+          "poll_id": "marist_oh_gov_2026-10-15_2026-10-18_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-10-18",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.5,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 1176,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_OH-NOS-and-Tables_202610191215zz9hjdV2l.pdf"
         }
       ]
     },
@@ -2160,6 +2279,13 @@
           "candidate_b_share": 0.4723,
           "margin": 0.0161,
           "margin_percent": 1.61
+        },
+        {
+          "date": "2026-10-18",
+          "candidate_a_share": 0.4887,
+          "candidate_b_share": 0.4721,
+          "margin": 0.0165,
+          "margin_percent": 1.65
         }
       ],
       "poll_points": [
@@ -2232,6 +2358,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.documentcloud.org/documents/28729016-cnn-ohio-poll-conducted-by-ssrs/"
+        },
+        {
+          "poll_id": "marist_oh_sen_2026-10-15_2026-10-18_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-10-18",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.48,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 1176,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_OH-NOS-and-Tables_202610191215zz9hjdV2l.pdf"
         }
       ]
     },
@@ -2412,6 +2552,13 @@
           "candidate_b_share": 0.4736,
           "margin": -0.005,
           "margin_percent": -0.5
+        },
+        {
+          "date": "2026-10-14",
+          "candidate_a_share": 0.471,
+          "candidate_b_share": 0.4742,
+          "margin": -0.0032,
+          "margin_percent": -0.32
         }
       ],
       "poll_points": [
@@ -2624,6 +2771,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_TX-NOS-and-Tables_202610131056%5Eal3j7.pdf"
+        },
+        {
+          "poll_id": "uh-hobby_tx_gov_2026-10-10_2026-10-14_assumed_n",
+          "pollster": "University of Houston Hobby School",
+          "date": "2026-10-14",
+          "candidate_a_share": 0.49,
+          "candidate_b_share": 0.46,
+          "margin": 0.03,
+          "margin_percent": 3.0,
+          "leader": "republican",
+          "sample_size": 2000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.uh.edu/hobby/texas2026/statewide26.pdf"
         }
       ]
     },
@@ -2755,6 +2916,20 @@
           "candidate_b_share": 0.5303,
           "margin": -0.0607,
           "margin_percent": -6.07
+        },
+        {
+          "date": "2026-10-14",
+          "candidate_a_share": 0.471,
+          "candidate_b_share": 0.529,
+          "margin": -0.0579,
+          "margin_percent": -5.79
+        },
+        {
+          "date": "2026-10-16",
+          "candidate_a_share": 0.4723,
+          "candidate_b_share": 0.5277,
+          "margin": -0.0553,
+          "margin_percent": -5.53
         }
       ],
       "poll_points": [
@@ -3023,6 +3198,34 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view?usp=sharing"
+        },
+        {
+          "poll_id": "uh-hobby_tx_sen_2026-10-10_2026-10-14_assumed_n",
+          "pollster": "University of Houston Hobby School",
+          "date": "2026-10-14",
+          "candidate_a_share": 0.46,
+          "candidate_b_share": 0.48,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 2000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.uh.edu/hobby/texas2026/statewide26.pdf"
+        },
+        {
+          "poll_id": "cbs-yougov_tx_sen_2026-10-08_2026-10-16_assumed_n",
+          "pollster": "CBS News/YouGov",
+          "date": "2026-10-16",
+          "candidate_a_share": 0.49,
+          "candidate_b_share": 0.51,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1492,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/"
         }
       ]
     },
@@ -3252,6 +3455,13 @@
           "candidate_b_share": 0.5526,
           "margin": -0.1052,
           "margin_percent": -10.52
+        },
+        {
+          "date": "2026-10-19",
+          "candidate_a_share": 0.4468,
+          "candidate_b_share": 0.5532,
+          "margin": -0.1063,
+          "margin_percent": -10.63
         }
       ],
       "poll_points": [
@@ -3996,6 +4206,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-9-12-2026_complete_national_cross-tabs_october-14-release.pdf"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-10-16_2026-10-19_crosstab",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-10-19",
+          "candidate_a_share": 0.35,
+          "candidate_b_share": 0.47,
+          "margin": -0.12,
+          "margin_percent": -12.0,
+          "leader": "democratic",
+          "sample_size": 1279,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20News%20Issue%20Survey%20October%202026%20Topline%2010.19%20release.pdf"
         }
       ]
     },
