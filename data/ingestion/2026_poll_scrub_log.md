@@ -1,5 +1,53 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-21
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 21, 2026.
+- PB Polls and targeted web searches for modeled-race releases added since the October 20 run.
+- Official or public releases, PDFs, and crosstab workbooks from Marist College, ActiVote, Data for Progress, and On Point Polling.
+- On Point Polling's public poll-release index, individual Florida, Michigan, Texas, and Ohio release pages, methodology text, and downloadable Google Sheets crosstab workbooks.
+
+### Crosstab-Backed Polls Applied
+
+- `marist_mi_sen_2026-10-15_2026-10-18_assumed_n` -> `mi_sen`: Mike Rogers 48 / Abdul El-Sayed 50, from n=1,185 registered voters with a likely-voter weight; complete official likely-voter R/D/I shares.
+- `marist_mi_gov_2026-10-15_2026-10-18_assumed_n` -> `mi_gov`: John James 45 / Jocelyn Benson 51, from the same Marist survey; complete official likely-voter R/D/I shares.
+- `activote_nc_sen_2026-10-08_2026-10-20_assumed_n` -> `nc_sen`: Michael Whatley 43.1 / Roy Cooper 56.9, n=400 likely midterm voters; Republicans Whatley 94 / Cooper 6, Democrats Whatley 1 / Cooper 99, Independents Whatley 35 / Cooper 65.
+- `data-for-progress_ak_sen_2026-10-08_2026-10-16_crosstab` -> `ak_sen`: Dan Sullivan 49 / Mary Peltola 51 in the final simulated ranked-choice round, n=671, with explicit weighted party subgroup bases.
+- `on-point_fl_sen_2026-10-18_2026-10-18_crosstab` -> `fl_sen`: Ashley Moody 49.6 / Angie Nixon 42.8, n=601 registered voters, with complete party-registration shares and explicit unweighted subgroup bases.
+- `on-point_fl_gov_2026-10-18_2026-10-18_crosstab` -> `fl_gov`: Byron Donalds 46.6 / David Jolly 42.4, from the same On Point survey, with complete party-registration shares and explicit unweighted subgroup bases.
+- `on-point_mi_sen_2026-10-18_2026-10-18_crosstab` -> `mi_sen`: Mike Rogers 42.8 / Abdul El-Sayed 48.7, n=586 registered voters, with complete party-ID shares and explicit unweighted subgroup bases.
+- `on-point_mi_gov_2026-10-18_2026-10-18_crosstab` -> `mi_gov`: John James 39.0 / Jocelyn Benson 50.8, from the same On Point survey, with complete party-ID shares and explicit unweighted subgroup bases.
+- `on-point_tx_sen_2026-10-17_2026-10-18_crosstab` -> `tx_sen`: Ken Paxton 43.0 / James Talarico 48.8, n=661 registered voters, with complete party-ID shares and explicit unweighted subgroup bases.
+- `on-point_tx_gov_2026-10-17_2026-10-18_crosstab` -> `tx_gov`: Greg Abbott 47.7 / Gina Hinojosa 45.2, from the same On Point survey, with complete party-ID shares and explicit unweighted subgroup bases.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. No newly located release duplicated a new poll ID applied in this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- ActiVote October 6-20 Georgia Senate, Jon Ossoff 54 / Mike Collins 46, and Georgia governor, Rick Jackson 51.5 / Keisha Lance Bottoms 48.5, each n=400 likely midterm voters. The public pages explicitly omit a party-affiliation breakdown because Georgia does not register voters by party.
+- On Point Polling October 16-17 Ohio Senate, Sherrod Brown 46.6 / Jon Husted 42.3, and Ohio governor, Amy Acton 47.9 / Vivek Ramaswamy 43.1, n=635 likely voters. The public release says full crosstabs are available only by request; no complete publicly downloadable R/D/I candidate table was located.
+- Morning Consult's current national generic-ballot aggregate remained visible, but no new public complete R/D/I candidate-choice table was located beyond the missing-crosstab status recorded on October 20.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Marist Michigan Senate and governor: each Republican, Democratic, and Independent subgroup uses total survey N / 4 = 296 because the likely-voter and subgroup bases are not separately printed.
+- ActiVote North Carolina Senate: each subgroup uses total N / 4 = 100.
+
+### Unclassified Polls
+
+- Data for Progress's Alaska governor ballot and newly released On Point South Carolina Senate ballot are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- On Point Polling is a new, self-published polling operation. Its Florida, Michigan, and Texas records were applied because the public releases include detailed methodology and downloadable crosstab workbooks with internally consistent toplines and explicit subgroup bases; this run did not independently audit respondent-level data or panel recruitment.
+- On Point's Florida workbook reports voter-registration groups rather than self-identified party. Dem, Rep, and NPA or minor-party columns were mapped to Democratic, Republican, and Independent, consistent with prior Florida records in the project.
+- Data for Progress's Alaska record uses the final simulated ranked-choice round after eliminating Daniel J. Sullivan Jr.; the printed weighted party bases sum to that round's n=671.
+- The On Point records use the as-asked candidate shares, not the pollster's modeled undecided allocation. No source-specific parser code was needed.
+
 ## 2026-10-20
 
 ### Sources Searched
