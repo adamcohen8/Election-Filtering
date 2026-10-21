@@ -17,6 +17,9 @@ from election_modeling.races import RaceModel
 from election_modeling.states import PARTY_IDS, PartyID
 
 
+BLOCKED_POLLSTER_PREFIXES = ("wedgewood",)
+
+
 @dataclass(frozen=True)
 class PartyIDCrosstab:
     """Party-ID cross-tab support for a two-candidate poll."""
@@ -296,6 +299,11 @@ class PollIngestionPipeline:
                 continue
 
             for poll in sorted(polls, key=_poll_sort_key):
+                if _is_blocked_pollster(poll.pollster):
+                    errors.append(
+                        f"{poll.poll_id}: blocked fabricated pollster: {poll.pollster}"
+                    )
+                    continue
                 if self.ledger.has_seen(poll.poll_id):
                     duplicates.append(poll.poll_id)
                     continue
@@ -375,6 +383,11 @@ def _read_text_location(location: str) -> str:
         with urlopen(request, timeout=30) as response:
             return response.read().decode("utf-8")
     return Path(location).read_text()
+
+
+def _is_blocked_pollster(pollster: str) -> bool:
+    normalized = " ".join(pollster.casefold().split())
+    return normalized.startswith(BLOCKED_POLLSTER_PREFIXES)
 
 
 def _normalize_key(key: object) -> str:

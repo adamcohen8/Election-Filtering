@@ -285,6 +285,43 @@ def test_ingestion_pipeline_accepts_rounded_zero_percent_crosstab_cell() -> None
     assert result.applied[0].poll_id == "zero-cell-generic"
 
 
+def test_ingestion_pipeline_blocks_disclosed_fabricated_pollster() -> None:
+    election = create_2026_election_model()
+    before = election.forecast("mi_sen").margin
+    poll = NormalizedPoll(
+        poll_id="wedgewood-mi-sen",
+        pollster="Wedgewood Polls",
+        field_date="2026-10-09",
+        race_id="mi_sen",
+        crosstab=PartyIDCrosstab(
+            values={
+                "republican": (0.90, 0.05),
+                "democratic": (0.05, 0.90),
+                "independent": (0.47, 0.48),
+            },
+            subgroup_sample_sizes={
+                "republican": 200,
+                "democratic": 200,
+                "independent": 200,
+            },
+        ),
+    )
+    ledger = IngestionLedger()
+    pipeline = PollIngestionPipeline(
+        sources=(StaticPollSource([poll]),),
+        ledger=ledger,
+    )
+
+    result = pipeline.run(election)
+
+    assert result.applied == ()
+    assert result.errors == (
+        "wedgewood-mi-sen: blocked fabricated pollster: Wedgewood Polls",
+    )
+    assert not ledger.has_seen(poll.poll_id)
+    assert election.forecast("mi_sen").margin == before
+
+
 def test_ingestion_pipeline_skips_duplicate_poll_ids() -> None:
     election = create_2026_election_model()
     poll = NormalizedPoll(

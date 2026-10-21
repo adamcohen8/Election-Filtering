@@ -33,3 +33,13 @@ def test_2026_normalized_poll_feed_is_crosstab_only() -> None:
 
     assert topline_only == []
     assert topline_named == []
+
+
+def test_2026_normalized_poll_feed_excludes_wedgewood() -> None:
+    rows = json.loads(FEED.read_text())["polls"]
+
+    assert [
+        row["poll_id"]
+        for row in rows
+        if row["pollster"].casefold().startswith("wedgewood")
+    ] == []

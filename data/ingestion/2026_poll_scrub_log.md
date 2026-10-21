@@ -8,6 +8,12 @@
 - PB Polls and targeted web searches for releases added since the October 18 run.
 - Official or public releases and tables from Marist, ActiVote, Univision/YouGov, the University of Houston Hobby School, CBS News/YouGov, Quantus Insights, Reuters/Ipsos, co/efficient, Trafalgar Group, ABC News/Washington Post/Ipsos, NBC News Decision Desk/SurveyMonkey, I&I/TIPP, Rasmussen Reports, and PennLive.
 
+### Source Integrity Update
+
+- On October 20, FiftyPlusOne published an investigation concluding that Wedgewood Polls fabricated its survey data; Wedgewood then publicly described itself as an experimental project intended to demonstrate weaknesses in polling-industry vetting. Sources: `https://blog.fiftyplusone.news/p/fiftyplusone-just-caught-a-pollster` and `https://magnoliatribune.com/2026/10/20/poll-pushed-by-colom-claiming-senate-race-with-hyde-smith-is-tied-was-fake-fabricated/`.
+- No Wedgewood poll was ever normalized, entered in `2026_seen_polls.json`, or applied to the model. Previously logged Wedgewood results for Texas, Ohio, Iowa, Maine, and Michigan must be treated as fabricated records rather than merely topline-only polls lacking party-ID crosstabs. No model rollback was required.
+- The ingestion pipeline now rejects pollster names beginning with `Wedgewood`, and regression tests require both the pipeline and the curated 2026 feed to remain free of Wedgewood observations.
+
 ### Crosstab-Backed Polls Applied
 
 - `marist_oh_sen_2026-10-15_2026-10-18_assumed_n` -> `oh_sen`: Jon Husted 44 / Sherrod Brown 48, from n=1,176 registered voters with a likely-voter weight; complete official R/D/I shares.
