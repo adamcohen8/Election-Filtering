@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:05:10.405929+00:00",
+  "generated_at": "2026-10-22T07:07:42.839880+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -287,10 +287,10 @@
         },
         {
           "date": "2026-10-19",
-          "candidate_a_share": 0.5442,
-          "candidate_b_share": 0.4558,
-          "margin": 0.0885,
-          "margin_percent": 8.85
+          "candidate_a_share": 0.541,
+          "candidate_b_share": 0.459,
+          "margin": 0.082,
+          "margin_percent": 8.2
         }
       ],
       "poll_points": [
@@ -461,6 +461,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.activote.net/polls/2026/fl-governor/"
+        },
+        {
+          "poll_id": "unf_fl_gov_2026-10-12_2026-10-19_crosstab",
+          "pollster": "University of North Florida",
+          "date": "2026-10-19",
+          "candidate_a_share": 0.487,
+          "candidate_b_share": 0.47,
+          "margin": 0.017,
+          "margin_percent": 1.7,
+          "leader": "republican",
+          "sample_size": 1378,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.unfporl.org/s/Fall-2026-Crosstabs-ADA.xlsx"
         }
       ]
     },
@@ -543,6 +557,13 @@
           "candidate_b_share": 0.4086,
           "margin": 0.1827,
           "margin_percent": 18.27
+        },
+        {
+          "date": "2026-10-19",
+          "candidate_a_share": 0.5854,
+          "candidate_b_share": 0.4146,
+          "margin": 0.1707,
+          "margin_percent": 17.07
         }
       ],
       "poll_points": [
@@ -713,6 +734,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1lvWZQjjccNoY-Xae9DTujsND8MtMIZRs2UlLw-17toM/edit"
+        },
+        {
+          "poll_id": "unf_fl_sen_2026-10-12_2026-10-19_crosstab",
+          "pollster": "University of North Florida",
+          "date": "2026-10-19",
+          "candidate_a_share": 0.493,
+          "candidate_b_share": 0.448,
+          "margin": 0.045,
+          "margin_percent": 4.5,
+          "leader": "republican",
+          "sample_size": 1414,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.unfporl.org/s/Fall-2026-Crosstabs-ADA.xlsx"
         }
       ]
     },

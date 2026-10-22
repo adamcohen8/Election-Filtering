@@ -1,5 +1,48 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-22
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 22, 2026.
+- PB Polls and targeted web searches for modeled-race releases added since the October 21 run.
+- Official or public releases, PDFs, and crosstab materials from the University of North Florida PORL, Fox News/Beacon Research/Shaw & Company Research, ActiVote, co/efficient, the Cook Political Report, and the University of Georgia/AJC.
+- UNF PORL's public Fall 2026 crosstab workbook, including the ballot-question rows and unweighted party-registration bases.
+
+### Crosstab-Backed Polls Applied
+
+- `unf_fl_gov_2026-10-12_2026-10-19_crosstab` -> `fl_gov`: Byron Donalds 48.7 / David Jolly 47.0 among n=1,378 respondents answering the ballot question, with complete public party-registration shares and explicit unweighted subgroup bases.
+- `unf_fl_sen_2026-10-12_2026-10-19_crosstab` -> `fl_sen`: Ashley Moody 49.3 / Angie Nixon 44.8 among n=1,414 respondents answering the ballot question, with complete public party-registration shares and explicit unweighted subgroup bases.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. No newly located release duplicated a new poll ID applied in this run.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Fox News/Beacon Research/Shaw & Company Research October 15-19 Texas Senate, James Talarico 49 / Ken Paxton 49, and Texas governor, Greg Abbott 52 / Gina Hinojosa 47, from n=1,398 likely voters. The public topline PDF prints political-identification composition but no candidate-by-party table.
+- Fox News/Beacon Research/Shaw & Company Research October 15-19 Ohio Senate, Sherrod Brown 52 / Jon Husted 47, and Ohio governor, Amy Acton 50 / Vivek Ramaswamy 48, from n=1,592 likely voters. The public topline PDF does not print complete R/D/I candidate shares.
+- ActiVote October 17-21 Texas Senate, James Talarico 51 / Ken Paxton 49, and Texas governor, Greg Abbott 52.5 / Gina Hinojosa 47.5, each n=400 likely midterm voters. The public pages explicitly omit a party-affiliation breakdown because Texas does not register voters by party.
+- co/efficient October 18-20 Florida Senate, Ashley Moody 48 / Angie Nixon 40, and Florida governor, Byron Donalds 49 / David Jolly 40, n=1,014 likely voters. The public release provides party composition but no candidate-by-party table.
+- Cook Political Report October 9-13 Iowa, Ohio, and Texas Senate surveys. Public toplines were released, including Ashley Hinson 44 / Josh Turek 46 in Iowa among n=602 likely voters, but the complete crosstab workbooks are restricted to subscribers.
+- University of Georgia/AJC October 7-15 Georgia Senate, Jon Ossoff 48 / Mike Collins 40, and Georgia governor, Rick Jackson 46 / Keisha Lance Bottoms 45, n=1,000 likely voters. Public coverage does not provide both candidate shares for all three R/D/I groups; missing opposite-party values were not inferred.
+- No newly released national generic-congressional-ballot poll with a complete public R/D/I candidate-choice table was located.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. Both UNF records use explicit unweighted ballot-question subgroup bases from the public workbook.
+
+### Unclassified Polls
+
+- Newly listed California, New York, and South Carolina governor polls and Montana Senate polling are outside the modeled race registry and were not applied.
+
+### Extraction Uncertainties
+
+- UNF reports registration groups rather than self-identified party. Dem, Rep, and NPA/Oth were mapped to Democratic, Republican, and Independent, consistent with prior Florida records in the project.
+- The UNF workbook's sheet tab still says `Fall 2025 Statewide Crosstabs`, while its title, field dates, and contents identify the survey as Fall 2026. The records use the clearly printed October 12-19, 2026 field dates.
+- UNF's published overall sample is n=1,471, but the ballot-question rows print smaller explicit unweighted bases after exclusions. The records use the question-specific n=1,378 governor and n=1,414 Senate bases, which equal their printed subgroup sums.
+- Cook's subscriber-only tables and incomplete public Fox, ActiVote, co/efficient, and UGA/AJC subgroup reporting were not reconstructed or inferred. No source-specific parser code was needed.
+
 ## 2026-10-21
 
 ### Sources Searched
