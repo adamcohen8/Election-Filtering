@@ -1,5 +1,57 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-23
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 23, 2026.
+- PB Polls and targeted web searches for modeled-race releases added since the October 22 run.
+- Official releases, PDFs, articles, and crosstab workbooks from VoteHub/Verasight, Emerson College Polling, Carolina Journal/Harper Polling, Saint Anselm College Survey Center, The Economist/YouGov, ActiVote, Franklin & Marshall College, Fox News/Beacon Research/Shaw & Company Research, CNN/SSRS, CNBC/Hart Research Associates/Public Opinion Strategies, New York Times/Siena College, and Strength in Numbers/Verasight.
+- Downloaded and inspected Emerson's Texas full-results workbook and Carolina Journal/Harper's North Carolina crosstab workbook, including their party rows, weighted shares, and published subgroup bases.
+
+### Crosstab-Backed Polls Applied
+
+- `votehub-verasight_oh_gov_2026-10-01_2026-10-20_crosstab` -> `oh_gov`: Vivek Ramaswamy 45.4 / Amy Acton 46.2 in the likely-voter model, from 623 registered-voter responses, with complete public party-ID shares and explicit raw subgroup bases.
+- `votehub-verasight_oh_sen_2026-10-01_2026-10-20_crosstab` -> `oh_sen`: Jon Husted 43.6 / Sherrod Brown 47.5 in the likely-voter model, from the same VoteHub/Verasight survey, with complete public party-ID shares and explicit raw subgroup bases.
+- `economist-yougov_us_house_generic_2026-10-19_2026-10-20_crosstab` -> `us_house_generic`: Generic Republican 40 / Generic Democrat 45 among n=1,496 registered voters answering the ballot, with complete current party-ID shares and explicit unweighted subgroup bases.
+- `carolina-journal-harper_nc_sen_2026-10-18_2026-10-20_crosstab` -> `nc_sen`: Michael Whatley 39.1 / Roy Cooper 49.4 among n=600 likely voters, with complete party-registration shares and explicit subgroup bases from the public workbook.
+- `st-anselm_nh_gov_2026-10-19_2026-10-20_crosstab` -> `nh_gov`: Kelly Ayotte 50 / Cinde Warmington 42 among n=1,672 likely voters, with complete public Party Identification shares and explicit weighted subgroup bases.
+- `st-anselm_nh_sen_2026-10-19_2026-10-20_crosstab` -> `nh_sen`: John E. Sununu 43 / Chris Pappas 50 among the same Saint Anselm sample, with complete public Party Identification shares and explicit weighted subgroup bases.
+- `emerson_tx_sen_2026-10-17_2026-10-19_crosstab` -> `tx_sen`: Ken Paxton 47.8 / James Talarico 49.4 after leaners among n=1,000 likely voters, with complete public party-affiliation shares and explicit weighted row counts.
+- `emerson_tx_gov_2026-10-17_2026-10-19_crosstab` -> `tx_gov`: Greg Abbott 51.1 / Gina Hinojosa 46.6 after leaners among the same Emerson sample, with complete public party-affiliation shares and explicit weighted row counts.
+- `activote_us_house_generic_2026-10-15_2026-10-21_assumed_n` -> `us_house_generic`: Generic Republican 46.3 / Generic Democrat 53.7 among n=1,000 likely midterm voters, with complete public D/R/I candidate shares and fallback subgroup Ns.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current listings also repeated Fox Texas and Ohio, ActiVote Texas, Cook Political Report state surveys, UNF Florida, and other releases already applied or logged on October 21-22; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Fox News/Beacon Research/Shaw & Company Research October 16-20 Maine Senate, Troy Jackson 49 / Susan Collins 49 among n=1,514 likely voters. The public topline PDF prints political-identification composition but no candidate-by-party table.
+- Franklin & Marshall College October 7-18 Pennsylvania governor, Josh Shapiro 59 / Stacy Garrity 36 among likely voters. The public summary appendix crosstabs issue and job-approval questions, not the governor ballot; the topline PDF does not provide candidate choice by party ID.
+- CNN/SSRS October 15-18 national generic ballot, Democrats 49 / Republicans 39 among n=1,206 registered voters. Public reporting gives the Independent margin but not both candidate shares for all Republican, Democratic, and Independent identifiers.
+- New York Times/Siena College October 12-19 national generic ballot, Democrats 52 / Republicans 41 among n=3,494 likely voters. The linked crosstab pages were inaccessible in available clients, so complete R/D/I candidate shares were not verified or inferred.
+- CNBC/Hart Research Associates/Public Opinion Strategies October national generic ballot, Democrats 52 / Republicans 45 among n=1,000 registered voters. No public complete candidate-by-R/D/I table was located.
+- Strength in Numbers/Verasight October national generic ballot, Democrats 54 / Republicans 42 among likely voters. The full crosstab archive is subscriber-only, so complete public R/D/I candidate shares were unavailable.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- ActiVote national generic ballot: each Republican, Democratic, and Independent subgroup uses total N / 4 = 250. The published weighted party-composition percentages were not used to reverse-engineer subgroup bases.
+
+### Unclassified Polls
+
+- Fox News Maine governor and newly listed Minnesota and South Dakota Senate polls are outside the modeled race registry and were not applied.
+- VoteHub/Verasight's Ohio generic congressional ballot and Carolina Journal/Harper's North Carolina generic congressional ballot are state-specific ballots, not the modeled national `us_house_generic` race, and were not applied.
+
+### Extraction Uncertainties
+
+- VoteHub/Verasight reports 623 registered-voter responses, including 23 partial responses, and an effective likely-voter sample size of 531. The records preserve the printed likely-voter shares while using the raw explicit party-ID bases and response count rather than substituting the effective sample size.
+- Emerson's subgroup Ns are rounded from the workbook's explicit weighted row counts: 444 Republicans, 329 Democrats, and 228 Independent/other voters.
+- Carolina Journal/Harper reports registration groups rather than self-identified party; the public `Republican`, `Democrat`, and `Independent` columns were mapped directly to the model groups. The multiparty ballot was used to match the published aggregate result.
+- Saint Anselm's `Swing` Party Identification group is normalized as independent. Its printed weighted demographic frequencies are used as explicit subgroup bases.
+- The Economist/YouGov record uses the official registered-voter ballot table because it contains the complete current party-ID rows and matching question bases; the aggregator's likely-voter topline was not mixed into the record.
+- No source-specific parser code was needed.
+
 ## 2026-10-22
 
 ### Sources Searched
