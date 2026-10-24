@@ -1,5 +1,45 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-24
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 24, 2026.
+- Targeted web searches and public polling aggregators for modeled-race releases added since the October 23 run.
+- InsiderAdvantage's official October 23 release and public X profile/search results for its promised Iowa, Michigan, and Ohio Senate tabs.
+- Texas Public Opinion Research's official October tracking-poll article and linked topline materials for the Texas Senate and governor races.
+
+### Crosstab-Backed Polls Applied
+
+- None. No newly released modeled-race poll had complete, publicly verifiable Republican, Democratic, and Independent candidate-choice shares.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. RealClearPolling continued to list the Fox News Maine Senate release and other October 20-22 polls already applied or logged in prior runs; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- InsiderAdvantage October 21-22 Iowa Senate, Ashley Hinson 47 / Josh Turek 45, n=1,200 likely voters. The official release says the survey was weighted by political affiliation and that tabs would be posted on the pollster's X account, but no public candidate-by-R/D/I table was available when checked.
+- InsiderAdvantage October 21-22 Michigan Senate, Abdul El-Sayed 47 / Mike Rogers 46, n=1,200 likely voters. The official release and public X posts provided toplines but no complete candidate shares for Republican, Democratic, and Independent identifiers.
+- InsiderAdvantage October 21-22 Ohio Senate, Sherrod Brown 47 / Jon Husted 44, n=1,200 likely voters. The promised public tabs were not posted or otherwise accessible when checked, so the poll was not normalized.
+- Texas Public Opinion Research October 15-18 Texas Senate, James Talarico 51 / Ken Paxton 47, with Ted Brown at 2%, among n=969 likely voters. The public article reports the Independent-voter split but says full crosstabs are available only upon request; complete R/D/I candidate shares were not public.
+- Texas Public Opinion Research October 15-18 Texas governor, Greg Abbott 51 / Gina Hinojosa 48, with Pat Dixon at 1%, among the same n=969 likely voters. The public article reports the Independent-voter split but not complete Republican and Democratic candidate shares.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None.
+
+### Unclassified Polls
+
+- Texas Public Opinion Research's Texas generic congressional ballot is a state-specific congressional preference, not the modeled national `us_house_generic` race, and was not applied.
+- Newly listed Minnesota Senate and Texas U.S. House district polls are outside the modeled race registry.
+
+### Extraction Uncertainties
+
+- InsiderAdvantage explicitly stated that its tab-posting system was malfunctioning and directed readers to its X account. The account was checked directly, but the October 21-22 party-ID ballot tabs were not present at run time. These polls remain eligible for a later run if complete public R/D/I tables appear.
+- Texas Public Opinion Research publishes crosstabs only on request. The public article's Independent-voter figures were insufficient to reconstruct the missing Republican and Democratic candidate shares, so no values were inferred.
+- No source-specific parser code was needed.
+
 ## 2026-10-23
 
 ### Sources Searched
