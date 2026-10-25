@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:02:22.630770+00:00",
+  "generated_at": "2026-10-25T12:17:28.655615+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -2849,17 +2849,17 @@
         },
         {
           "date": "2026-10-18",
-          "candidate_a_share": 0.4705,
+          "candidate_a_share": 0.4703,
           "candidate_b_share": 0.4742,
-          "margin": -0.0037,
-          "margin_percent": -0.37
+          "margin": -0.0039,
+          "margin_percent": -0.39
         },
         {
           "date": "2026-10-19",
-          "candidate_a_share": 0.472,
+          "candidate_a_share": 0.4719,
           "candidate_b_share": 0.4761,
-          "margin": -0.0041,
-          "margin_percent": -0.41
+          "margin": -0.0042,
+          "margin_percent": -0.42
         }
       ],
       "poll_points": [
@@ -3102,6 +3102,20 @@
           "source_url": "https://docs.google.com/spreadsheets/d/1PKqMOG4q_D-LOSQ0ctG9h_1HOhNribJevRxvYbbBsKk/edit"
         },
         {
+          "poll_id": "pollfinity_tx_gov_2026-10-15_2026-10-18_crosstab",
+          "pollster": "Pollfinity Research",
+          "date": "2026-10-18",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.46,
+          "margin": -0.01,
+          "margin_percent": -1.0,
+          "leader": "democratic",
+          "sample_size": 273,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://pollfinity.com/assets/polls/tx-governor-senate-2026-oct-crosstabs.pdf"
+        },
+        {
           "poll_id": "emerson_tx_gov_2026-10-17_2026-10-19_crosstab",
           "pollster": "Emerson College Polling",
           "date": "2026-10-19",
@@ -3269,8 +3283,8 @@
         },
         {
           "date": "2026-10-19",
-          "candidate_a_share": 0.4714,
-          "candidate_b_share": 0.5286,
+          "candidate_a_share": 0.4715,
+          "candidate_b_share": 0.5285,
           "margin": -0.0571,
           "margin_percent": -5.71
         }
@@ -3583,6 +3597,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1PKqMOG4q_D-LOSQ0ctG9h_1HOhNribJevRxvYbbBsKk/edit"
+        },
+        {
+          "poll_id": "pollfinity_tx_sen_2026-10-15_2026-10-18_crosstab",
+          "pollster": "Pollfinity Research",
+          "date": "2026-10-18",
+          "candidate_a_share": 0.43,
+          "candidate_b_share": 0.48,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 278,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://pollfinity.com/assets/polls/tx-governor-senate-2026-oct-crosstabs.pdf"
         },
         {
           "poll_id": "emerson_tx_sen_2026-10-17_2026-10-19_crosstab",

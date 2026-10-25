@@ -1,5 +1,45 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-25
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 25, 2026.
+- Targeted web searches and public polling aggregators for modeled-race releases added since the October 24 run.
+- Rasmussen Reports' official October 24 Texas Senate release and the public demographic figures in its article.
+- Pollfinity Research's official October 22 Texas release and public crosstab PDF for its October 15-18 Senate and governor survey.
+
+### Crosstab-Backed Polls Applied
+
+- `pollfinity_tx_sen_2026-10-15_2026-10-18_crosstab` -> `tx_sen`: Ken Paxton 43 / James Talarico 48 among n=278 registered voters, with complete public voter-file modeled-party shares and explicit unweighted subgroup bases.
+- `pollfinity_tx_gov_2026-10-15_2026-10-18_crosstab` -> `tx_gov`: Greg Abbott 45 / Gina Hinojosa 46 among n=273 registered voters, with complete public voter-file modeled-party shares and explicit unweighted subgroup bases.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. RealClearPolling continued to list the October 20-23 releases already applied or logged in prior runs; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Rasmussen Reports October 20-21 Texas Senate, Ken Paxton 45 / James Talarico 45, with Ted Brown at 5%, among n=965 likely voters. The public article reports Paxton support among Republicans, Talarico support among Democrats, and both candidate shares among unaffiliated voters, but it omits the opposing candidate share in each partisan group. The complete demographic table is subscriber-only, so the missing cells were not inferred and the poll was not normalized.
+- No newly released national generic congressional ballot with complete public Republican, Democratic, and Independent candidate shares was located.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. Both Pollfinity records use the public PDF's explicit unweighted subgroup bases.
+
+### Unclassified Polls
+
+- Pollfinity's Texas lieutenant governor ballot is outside the modeled race registry and was not applied.
+- Pollfinity's Texas generic congressional ballot is state-specific, not the modeled national `us_house_generic` race, and was not applied.
+
+### Extraction Uncertainties
+
+- Pollfinity's party groups are modeled from voter-file and commercial data rather than self-reported party identification or party registration. The public `Republican`, `Democratic`, and `Non-Partisan` columns were mapped directly to the model groups, with Non-Partisan normalized as independent.
+- Pollfinity's Non-Partisan base is only n=17 in each race. The pollster explicitly warns that cells under 50 respondents have margins of error above 14 percentage points, so those subgroup estimates are highly uncertain.
+- Pollfinity's overall Senate and governor samples are small, at n=278 and n=273, with a reported overall margin of error of approximately 6.5 percentage points.
+- Rasmussen's missing Republican and Democratic candidate cells were not reconstructed from the published one-candidate support figures.
+- No source-specific parser code was needed.
+
 ## 2026-10-24
 
 ### Sources Searched
