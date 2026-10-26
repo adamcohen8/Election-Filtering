@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:17:28.655615+00:00",
+  "generated_at": "2026-10-26T14:05:36.524045+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -3875,6 +3875,13 @@
           "candidate_b_share": 0.5531,
           "margin": -0.1061,
           "margin_percent": -10.61
+        },
+        {
+          "date": "2026-10-23",
+          "candidate_a_share": 0.4473,
+          "candidate_b_share": 0.5527,
+          "margin": -0.1054,
+          "margin_percent": -10.54
         }
       ],
       "poll_points": [
@@ -4661,6 +4668,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.activote.net/polls/generic-ballot/"
+        },
+        {
+          "poll_id": "cbs-yougov_us_house_generic_2026-10-21_2026-10-23_crosstab",
+          "pollster": "CBS News/YouGov",
+          "date": "2026-10-23",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.53,
+          "margin": -0.08,
+          "margin_percent": -8.0,
+          "leader": "democratic",
+          "sample_size": 1749,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/25/8ad451c3-2d1f-4f7f-a3c8-97f923271e92/cbsnews_20261025_sun.pdf"
         }
       ]
     },

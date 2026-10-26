@@ -1,5 +1,41 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-26
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through October 26, 2026.
+- Targeted web searches and public polling aggregators for modeled-race releases added since the October 25 run, including PollingSource, PB Polls, 99chambers, and current race-specific polling indexes.
+- CBS News/YouGov's official October 25 national release and 64-page public topline/crosstab PDF for its October 21-23 survey.
+- YouGov's public survey-results index and current official/aggregator searches for new modeled Senate and governor releases.
+
+### Crosstab-Backed Polls Applied
+
+- `cbs-yougov_us_house_generic_2026-10-21_2026-10-23_crosstab` -> `us_house_generic`: Generic Republican 45 / Generic Democrat 53 among n=1,749 likely voters, with complete public Party ID shares and explicit weighted subgroup bases of 586 Republicans, 639 Democrats, and 489 Independents.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current indexes continued to list the October 20-24 state polls already applied or logged in prior runs; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- None newly identified. The new CBS News/YouGov national generic ballot includes a complete public candidate-by-party table and was applied.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. CBS News/YouGov prints explicit weighted subgroup bases for the ballot table.
+
+### Unclassified Polls
+
+- No newly released out-of-registry race required classification. PB Polls continued to surface a Wedgewood Michigan row; Wedgewood is a documented fabricated pollster and remains blocked from ingestion.
+
+### Extraction Uncertainties
+
+- CBS News/YouGov reports n=2,355 for the full adult survey, while question 9's likely-voter ballot and Party ID table use n=1,749. The normalized record uses the internally consistent ballot base and its printed weighted subgroup bases.
+- The printed ballot percentages are rounded: the topline totals 99%, and the Independent row includes 4% voting for another candidate. The published Republican and Democratic candidate shares were preserved without renormalization.
+- No new modeled Senate or governor poll released after the prior run was located on the live sources checked.
+- No source-specific parser code was needed.
+
 ## 2026-10-25
 
 ### Sources Searched

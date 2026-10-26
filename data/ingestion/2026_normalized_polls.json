@@ -5495,6 +5495,30 @@
       "topline_a": 0.45,
       "topline_b": 0.46,
       "topline_n": 273
+    },
+    {
+      "poll_id": "cbs-yougov_us_house_generic_2026-10-21_2026-10-23_crosstab",
+      "pollster": "CBS News/YouGov",
+      "field_date": "2026-10-23",
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "house_generic",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/25/8ad451c3-2d1f-4f7f-a3c8-97f923271e92/cbsnews_20261025_sun.pdf",
+      "text": "National generic U.S. House ballot with leaners, October 21-23 2026, CBS News/YouGov, n=1,749 likely voters. Candidate A is the Republican candidate; candidate B is the Democratic candidate. Party-ID crosstabs use question 9's Party ID columns in the public PDF with explicit weighted subgroup bases.",
+      "republican_a": 0.97,
+      "republican_b": 0.03,
+      "republican_n": 586,
+      "democratic_a": 0.01,
+      "democratic_b": 0.99,
+      "democratic_n": 639,
+      "independent_a": 0.43,
+      "independent_b": 0.53,
+      "independent_n": 489,
+      "topline_a": 0.45,
+      "topline_b": 0.53,
+      "topline_n": 1749
     }
   ]
 }
