@@ -1,5 +1,53 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-27
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through the automation run time on October 27, 2026.
+- Targeted web searches and public polling indexes for modeled-race releases since the October 26 run, including 99chambers and race-specific aggregator listings used to locate original releases.
+- Reuters/Ipsos's official October 26 release and public topline/crosstab PDF for its October 22-26 national survey.
+- Quantus Insights' official North Carolina Senate release and linked public report for its October 24-25 survey.
+- Rasmussen Reports' official New Hampshire Senate and governor releases and public crosstab pages for its October 20-23 survey, plus its October national generic-ballot release.
+- Michigan State University Institute for Public Policy and Social Research's official State of the State Survey 95 release and public report.
+- Trafalgar Group's official Maine Senate release and public October 21-23 report.
+- Morning Consult's current national generic-ballot tracker and public aggregator listings for the October 19-25 wave.
+
+### Crosstab-Backed Polls Applied
+
+- `reuters-ipsos_us_house_generic_2026-10-22_2026-10-26_crosstab` -> `us_house_generic`: Generic Republican 44 / Generic Democrat 53 among n=1,164 likely voters, with complete public party-ID shares and explicit unweighted subgroup bases of 410 Republicans, 391 Democrats, and 363 Independents/others.
+- `quantus_nc_sen_2026-10-24_2026-10-25_crosstab` -> `nc_sen`: Michael Whatley 42.8 / Roy Cooper 51.4 among n=722 likely voters, with complete public voter-file party-registration shares and explicit subgroup bases of 240 Republicans, 234 Democrats, and 248 unaffiliated voters.
+- `rasmussen_nh_sen_2026-10-20_2026-10-23_assumed_n` -> `nh_sen`: John E. Sununu 44 / Chris Pappas 50 among n=970 likely voters, with complete public Republican, Democratic, and Independent/Other shares.
+- `rasmussen_nh_gov_2026-10-20_2026-10-23_assumed_n` -> `nh_gov`: Kelly Ayotte 52 / Cinde Warmington 42 among n=970 likely voters, with complete public Republican, Democratic, and Independent/Other shares.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current indexes continued to list earlier October releases already applied or logged; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Michigan State University/YouGov October 2-19 Michigan Senate: Abdul El-Sayed 48.0 / Mike Rogers 45.5 among likely voters with leaners. The public report prints only the overall ballot and sample party composition, not candidate choice by Republican, Democratic, and Independent voters; the raw data remain under a six-month embargo.
+- Michigan State University/YouGov October 2-19 Michigan governor: Jocelyn Benson 53.3 / John James 40.9 among likely voters. The same public report lacks candidate-by-party crosstabs, so the race was not normalized.
+- Trafalgar Group October 21-23 Maine Senate: Susan Collins 47.0 / Troy Jackson 46.5 among n=1,077 likely voters. The public report provides age, gender, and ethnicity breakouts but no candidate-by-party table.
+- Morning Consult October 19-25 national generic ballot: Generic Democrat 50.1 / Generic Republican 43.4 among n=17,491 likely voters. No complete current public Republican, Democratic, and Independent candidate table was located.
+- Rasmussen Reports October 15 and 18-21 national generic ballot: Generic Democrat 48 / Generic Republican 43 among n=1,755 likely voters. The public article gives only own-party retention and an internally ambiguous unaffiliated sentence; full crosstabs are subscriber-only, so missing cells were not inferred.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Both Rasmussen New Hampshire records use the required fallback of total n=970 divided by four, rounded to 243 for each Republican, Democratic, and Independent/Other subgroup. The public pages print complete shares but not subgroup bases; rounded party composition was not used to reconstruct them.
+
+### Unclassified Polls
+
+- No legitimate newly released poll covered an out-of-registry race requiring classification. Wedgewood entries that remain visible on some aggregators were excluded because the firm and its polls were disclosed as fabricated; the ingestion block remains in force.
+
+### Extraction Uncertainties
+
+- Reuters/Ipsos labels the party subgroup bases as unweighted while the published percentages are weighted. The printed bases were used as the explicit public subgroup sizes and the published shares were preserved without renormalization.
+- Quantus uses voter-file party registration rather than self-reported party identification. Its `Unaffiliated` column was normalized as independent, consistent with the model's three-group schema.
+- Rasmussen does not publish subgroup bases on the two New Hampshire crosstab pages. The automation's direct `total N / 4` fallback was used instead of reverse-engineering the rounded party-composition percentages.
+- Rasmussen's generic-ballot article appears to repeat `Democrats` in its unaffiliated sentence; the likely intended label was not silently corrected, and the poll was excluded.
+- No source-specific parser code was needed.
+
 ## 2026-10-26
 
 ### Sources Searched

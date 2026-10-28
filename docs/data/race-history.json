@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:05:36.524045+00:00",
+  "generated_at": "2026-10-27T09:04:58.224000+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -2125,6 +2125,13 @@
           "candidate_b_share": 0.5364,
           "margin": -0.0728,
           "margin_percent": -7.28
+        },
+        {
+          "date": "2026-10-25",
+          "candidate_a_share": 0.4644,
+          "candidate_b_share": 0.5356,
+          "margin": -0.0711,
+          "margin_percent": -7.11
         }
       ],
       "poll_points": [
@@ -2309,6 +2316,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.carolinajournal.com/wp-content/uploads/2026/10/H25035-CJ-NC-Oct26-Crosstabs.xlsx"
+        },
+        {
+          "poll_id": "quantus_nc_sen_2026-10-24_2026-10-25_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-10-25",
+          "candidate_a_share": 0.428,
+          "candidate_b_share": 0.514,
+          "margin": -0.086,
+          "margin_percent": -8.6,
+          "leader": "democratic",
+          "sample_size": 722,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1AACBwXHmGtPnvHvZKA7PxQqYnsAwIhqY/view?usp=sharing"
         }
       ]
     },
@@ -2328,6 +2349,13 @@
           "candidate_b_share": 0.3821,
           "margin": 0.1508,
           "margin_percent": 15.08
+        },
+        {
+          "date": "2026-10-23",
+          "candidate_a_share": 0.5148,
+          "candidate_b_share": 0.4088,
+          "margin": 0.106,
+          "margin_percent": 10.6
         }
       ],
       "poll_points": [
@@ -2358,6 +2386,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.anselm.edu/sites/default/files/2026-10/October%2019-20%20Poll%20Results.pdf"
+        },
+        {
+          "poll_id": "rasmussen_nh_gov_2026-10-20_2026-10-23_assumed_n",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-23",
+          "candidate_a_share": 0.52,
+          "candidate_b_share": 0.42,
+          "margin": 0.1,
+          "margin_percent": 10.0,
+          "leader": "republican",
+          "sample_size": 970,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_new_hampshire_governor_october_20_23_2026"
         }
       ]
     },
@@ -2377,6 +2419,13 @@
           "candidate_b_share": 0.4844,
           "margin": -0.0692,
           "margin_percent": -6.92
+        },
+        {
+          "date": "2026-10-23",
+          "candidate_a_share": 0.4114,
+          "candidate_b_share": 0.5047,
+          "margin": -0.0933,
+          "margin_percent": -9.33
         }
       ],
       "poll_points": [
@@ -2407,6 +2456,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.anselm.edu/sites/default/files/2026-10/October%2019-20%20Poll%20Results.pdf"
+        },
+        {
+          "poll_id": "rasmussen_nh_sen_2026-10-20_2026-10-23_assumed_n",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-23",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.5,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 970,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_new_hampshire_senate_october_20_23_2026"
         }
       ]
     },
@@ -3882,6 +3945,13 @@
           "candidate_b_share": 0.5527,
           "margin": -0.1054,
           "margin_percent": -10.54
+        },
+        {
+          "date": "2026-10-26",
+          "candidate_a_share": 0.4474,
+          "candidate_b_share": 0.5526,
+          "margin": -0.1053,
+          "margin_percent": -10.53
         }
       ],
       "poll_points": [
@@ -4682,6 +4752,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/25/8ad451c3-2d1f-4f7f-a3c8-97f923271e92/cbsnews_20261025_sun.pdf"
+        },
+        {
+          "poll_id": "reuters-ipsos_us_house_generic_2026-10-22_2026-10-26_crosstab",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-10-26",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.53,
+          "margin": -0.09,
+          "margin_percent": -9.0,
+          "leader": "democratic",
+          "sample_size": 1164,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf"
         }
       ]
     },
