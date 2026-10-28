@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:04:58.224000+00:00",
+  "generated_at": "2026-10-28T09:04:46.025993+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -130,6 +130,13 @@
           "candidate_b_share": 0.5047,
           "margin": -0.1225,
           "margin_percent": -12.25
+        },
+        {
+          "date": "2026-10-23",
+          "candidate_a_share": 0.3998,
+          "candidate_b_share": 0.4898,
+          "margin": -0.09,
+          "margin_percent": -9.0
         }
       ],
       "poll_points": [
@@ -202,6 +209,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1Fd2YDzfyqPek-g4TsayJfGMZh8tKfWdM/view?usp=sharing"
+        },
+        {
+          "poll_id": "redbox-afwh_az_gov_2026-10-20_2026-10-23_crosstab",
+          "pollster": "RedBox Research/A Fight Worth Having",
+          "date": "2026-10-23",
+          "candidate_a_share": 0.423,
+          "candidate_b_share": 0.474,
+          "margin": -0.051,
+          "margin_percent": -5.1,
+          "leader": "democratic",
+          "sample_size": 2686,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://afightworthhaving.com/polling/2026/arizona/crosstabs"
         }
       ]
     },
@@ -1572,6 +1593,13 @@
           "candidate_b_share": 0.5097,
           "margin": -0.0376,
           "margin_percent": -3.76
+        },
+        {
+          "date": "2026-10-25",
+          "candidate_a_share": 0.4633,
+          "candidate_b_share": 0.5169,
+          "margin": -0.0536,
+          "margin_percent": -5.36
         }
       ],
       "poll_points": [
@@ -1700,6 +1728,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_14_2026_maine_statewide_tables.pdf?hash=11399A1ED3B2418AA97D0C202B8E02983257A32A&la=en"
+        },
+        {
+          "poll_id": "marist_me_sen_2026-10-22_2026-10-25_assumed_n",
+          "pollster": "Marist Poll",
+          "date": "2026-10-25",
+          "candidate_a_share": 0.47,
+          "candidate_b_share": 0.49,
+          "margin": -0.02,
+          "margin_percent": -2.0,
+          "leader": "democratic",
+          "sample_size": 1449,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf"
         }
       ]
     },
@@ -1747,6 +1789,13 @@
           "candidate_b_share": 0.5225,
           "margin": -0.099,
           "margin_percent": -9.9
+        },
+        {
+          "date": "2026-10-23",
+          "candidate_a_share": 0.4289,
+          "candidate_b_share": 0.5124,
+          "margin": -0.0836,
+          "margin_percent": -8.36
         }
       ],
       "poll_points": [
@@ -1847,6 +1896,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1jYBVI2b4Z5HqJCrkc_R4jdSpQJxqRT0IXWEsBV_UlNY/edit"
+        },
+        {
+          "poll_id": "redbox-afwh_mi_gov_2026-10-20_2026-10-23_crosstab",
+          "pollster": "RedBox Research/A Fight Worth Having",
+          "date": "2026-10-23",
+          "candidate_a_share": 0.428,
+          "candidate_b_share": 0.486,
+          "margin": -0.058,
+          "margin_percent": -5.8,
+          "leader": "democratic",
+          "sample_size": 2696,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://afightworthhaving.com/polling/2026/michigan/crosstabs"
         }
       ]
     },
@@ -1908,6 +1971,13 @@
           "candidate_b_share": 0.4998,
           "margin": -0.0487,
           "margin_percent": -4.87
+        },
+        {
+          "date": "2026-10-23",
+          "candidate_a_share": 0.4537,
+          "candidate_b_share": 0.4967,
+          "margin": -0.0429,
+          "margin_percent": -4.29
         }
       ],
       "poll_points": [
@@ -2036,6 +2106,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1jYBVI2b4Z5HqJCrkc_R4jdSpQJxqRT0IXWEsBV_UlNY/edit"
+        },
+        {
+          "poll_id": "redbox-afwh_mi_sen_2026-10-20_2026-10-23_crosstab",
+          "pollster": "RedBox Research/A Fight Worth Having",
+          "date": "2026-10-23",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.489,
+          "margin": -0.049,
+          "margin_percent": -4.9,
+          "leader": "democratic",
+          "sample_size": 2696,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://afightworthhaving.com/polling/2026/michigan/crosstabs"
         }
       ]
     },
@@ -2923,6 +3007,13 @@
           "candidate_b_share": 0.4761,
           "margin": -0.0042,
           "margin_percent": -0.42
+        },
+        {
+          "date": "2026-10-21",
+          "candidate_a_share": 0.4712,
+          "candidate_b_share": 0.4764,
+          "margin": -0.0051,
+          "margin_percent": -0.51
         }
       ],
       "poll_points": [
@@ -3191,6 +3282,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/15mO22Uo80CA1-Wj1IKJYtPG-yFtacOmr/edit"
+        },
+        {
+          "poll_id": "univision-yougov_tx_gov_2026-10-13_2026-10-21_crosstab",
+          "pollster": "Univision/YouGov",
+          "date": "2026-10-21",
+          "candidate_a_share": 0.48,
+          "candidate_b_share": 0.46,
+          "margin": 0.02,
+          "margin_percent": 2.0,
+          "leader": "republican",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://st1.uvnimg.com/f0/3a/9fe2c0c445b7bd44b43fb9236c8e/n-univision-texas-october-poll-crosstabs-base-final.pdf"
         }
       ]
     },
@@ -3350,6 +3455,13 @@
           "candidate_b_share": 0.5285,
           "margin": -0.0571,
           "margin_percent": -5.71
+        },
+        {
+          "date": "2026-10-21",
+          "candidate_a_share": 0.4704,
+          "candidate_b_share": 0.5296,
+          "margin": -0.0593,
+          "margin_percent": -5.93
         }
       ],
       "poll_points": [
@@ -3688,6 +3800,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/15mO22Uo80CA1-Wj1IKJYtPG-yFtacOmr/edit"
+        },
+        {
+          "poll_id": "univision-yougov_tx_sen_2026-10-13_2026-10-21_crosstab",
+          "pollster": "Univision/YouGov",
+          "date": "2026-10-21",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.5,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://st1.uvnimg.com/f0/3a/9fe2c0c445b7bd44b43fb9236c8e/n-univision-texas-october-poll-crosstabs-base-final.pdf"
         }
       ]
     },
@@ -3927,31 +4053,31 @@
         },
         {
           "date": "2026-10-20",
-          "candidate_a_share": 0.4469,
-          "candidate_b_share": 0.5531,
-          "margin": -0.1063,
-          "margin_percent": -10.63
+          "candidate_a_share": 0.447,
+          "candidate_b_share": 0.553,
+          "margin": -0.106,
+          "margin_percent": -10.6
         },
         {
           "date": "2026-10-21",
-          "candidate_a_share": 0.4469,
-          "candidate_b_share": 0.5531,
-          "margin": -0.1061,
-          "margin_percent": -10.61
+          "candidate_a_share": 0.4471,
+          "candidate_b_share": 0.5529,
+          "margin": -0.1059,
+          "margin_percent": -10.59
         },
         {
           "date": "2026-10-23",
-          "candidate_a_share": 0.4473,
-          "candidate_b_share": 0.5527,
-          "margin": -0.1054,
-          "margin_percent": -10.54
+          "candidate_a_share": 0.4474,
+          "candidate_b_share": 0.5526,
+          "margin": -0.1051,
+          "margin_percent": -10.51
         },
         {
           "date": "2026-10-26",
-          "candidate_a_share": 0.4474,
-          "candidate_b_share": 0.5526,
-          "margin": -0.1053,
-          "margin_percent": -10.53
+          "candidate_a_share": 0.4475,
+          "candidate_b_share": 0.5525,
+          "margin": -0.1051,
+          "margin_percent": -10.51
         }
       ],
       "poll_points": [
@@ -4726,6 +4852,20 @@
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_AjDiUmp.pdf"
         },
         {
+          "poll_id": "npr-pbs-marist_us_house_generic_2026-10-19_2026-10-20_assumed_n",
+          "pollster": "NPR/PBS News/Marist Poll",
+          "date": "2026-10-20",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.52,
+          "margin": -0.08,
+          "margin_percent": -8.0,
+          "leader": "democratic",
+          "sample_size": 1289,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf"
+        },
+        {
           "poll_id": "activote_us_house_generic_2026-10-15_2026-10-21_assumed_n",
           "pollster": "ActiVote",
           "date": "2026-10-21",
@@ -4752,6 +4892,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/25/8ad451c3-2d1f-4f7f-a3c8-97f923271e92/cbsnews_20261025_sun.pdf"
+        },
+        {
+          "poll_id": "economist-yougov_us_house_generic_2026-10-23_2026-10-26_crosstab",
+          "pollster": "The Economist/YouGov",
+          "date": "2026-10-26",
+          "candidate_a_share": 0.4,
+          "candidate_b_share": 0.46,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 1430,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_nJaupnc.pdf"
         },
         {
           "poll_id": "reuters-ipsos_us_house_generic_2026-10-22_2026-10-26_crosstab",

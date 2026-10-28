@@ -1,5 +1,58 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-28
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, Senate, governor, and national generic-congressional-ballot surfaces, reviewed through the automation run time on October 28, 2026.
+- Targeted web searches and current polling indexes for modeled-race releases since the October 27 run, plus a broader public-dataset check that recovered October 25 RedBox Research releases missed by the prior daily scans.
+- Univision/YouGov's official Texas release and public crosstab PDF for its October 13-21 survey.
+- Marist's official Maine and NPR/PBS News national releases and public crosstab PDFs.
+- The Economist/YouGov's official October 23-26 public tab report.
+- A Fight Worth Having/RedBox Research's official Arizona and Michigan releases, interactive crosstab pages, and downloadable CSV files.
+- Detroit News/WDIV/Glengariff Group's Michigan Senate and governor releases; HighGround's Arizona governor report; and Harvard-Harris's October key-results report and current public-results page.
+
+### Crosstab-Backed Polls Applied
+
+- `univision-yougov_tx_sen_2026-10-13_2026-10-21_crosstab` -> `tx_sen`: Ken Paxton 45 / James Talarico 50 among n=1,000 registered voters, with complete public party-ID shares and explicit weighted subgroup bases of 486 Republicans, 397 Democrats, and 117 Independents.
+- `univision-yougov_tx_gov_2026-10-13_2026-10-21_crosstab` -> `tx_gov`: Greg Abbott 48 / Gina Hinojosa 46 among the same n=1,000 registered voters and explicit party-ID subgroup bases.
+- `marist_me_sen_2026-10-22_2026-10-25_assumed_n` -> `me_sen`: Susan Collins 47 / Troy Jackson 49 in Marist's likely-voter ballot, from n=1,449 registered voters, with complete public party-ID candidate shares.
+- `redbox-afwh_az_gov_2026-10-20_2026-10-23_crosstab` -> `az_gov`: Andy Biggs 42.3 / Katie Hobbs 47.4 among n=2,686 likely voters, with complete weighted party shares and explicit raw subgroup bases.
+- `redbox-afwh_mi_sen_2026-10-20_2026-10-23_crosstab` -> `mi_sen`: Mike Rogers 44.0 / Abdul El-Sayed 48.9 among n=2,696 likely voters, with complete weighted party shares and explicit raw subgroup bases.
+- `redbox-afwh_mi_gov_2026-10-20_2026-10-23_crosstab` -> `mi_gov`: John James 42.8 / Jocelyn Benson 48.6 in the same RedBox survey, with complete weighted party shares and explicit raw subgroup bases.
+- `economist-yougov_us_house_generic_2026-10-23_2026-10-26_crosstab` -> `us_house_generic`: Generic Republican 40 / Generic Democrat 46 among n=1,430 registered voters answering the ballot, with complete public party-ID shares and explicit unweighted subgroup bases.
+- `npr-pbs-marist_us_house_generic_2026-10-19_2026-10-20_assumed_n` -> `us_house_generic`: Generic Republican 44 / Generic Democrat 52 in the likely-voter ballot from a survey of n=1,289 registered voters, with complete public party-ID shares.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current indexes continued to list earlier October releases already applied or logged; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Detroit News/WDIV/Glengariff Group October 19-22 Michigan Senate: Abdul El-Sayed 51.4 / Mike Rogers 45.1 among n=600 likely voters. The public release contains no candidate-by-party crosstab.
+- Detroit News/WDIV/Glengariff Group October 19-22 Michigan governor: Jocelyn Benson 51.4 / John James 44.5 among the same n=600 likely voters. The public release contains no complete Republican, Democratic, and Independent candidate table.
+- HighGround October 21-25 Arizona governor: Katie Hobbs 51.5 / Andy Biggs 39.3 among n=400 likely voters. The public report prints the Independent split and only a qualitative description of Republican support, not all six required party-candidate cells.
+- Harvard-Harris October national generic ballot: Generic Democrat 52 / Generic Republican 48 in the forced-choice result. Only the key-results document was public at run time; no complete public Republican, Democratic, and Independent ballot table was available.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- The Marist Maine Senate record uses the required fallback of total survey n=1,449 divided by four, rounded to 362 for each Republican, Democratic, and Independent subgroup. The likely-voter table prints complete shares but no subgroup bases.
+- The NPR/PBS News/Marist generic-ballot record uses total survey n=1,289 divided by four, rounded to 322 for each party subgroup. Rounded party composition was not used to reconstruct the subgroup sizes.
+
+### Unclassified Polls
+
+- Marist October 22-25 Maine governor, Bobby Charles 44 / Hannah Pingree 44 with complete public party-ID shares, was not normalized because Maine governor is outside the modeled race registry.
+- Wedgewood entries were excluded because the firm and its polls were disclosed as fabricated; the ingestion block remains in force.
+
+### Extraction Uncertainties
+
+- Marist's Maine governor likely-voter table reports Bobby Charles at less than one percent among Democrats. Because Maine governor is outside the modeled registry, the poll was logged rather than normalized.
+- The Maine Senate and NPR/PBS News Marist ballot tables use likely-voter weights but do not print likely-voter or subgroup bases. The direct fallback uses the published registered-voter survey totals exactly as required by the automation.
+- RedBox Research is the polling unit of A Fight Worth Having, a Democratic-aligned super PAC. Its official CSVs provide exact weighted shares and raw subgroup counts; the records preserve those figures and identify the sponsor relationship.
+- The Economist/YouGov official registered-voter table reports 46 / 40, while RealClearPolling displays a 50 / 41 likely-voter result. The normalized record uses the official table whose party-ID columns and bases are internally complete.
+- HighGround's missing partisan cells, Glengariff's absent party table, and Harvard-Harris's unpublished full crosstabs were not inferred.
+- No source-specific parser code was needed.
+
 ## 2026-10-27
 
 ### Sources Searched
