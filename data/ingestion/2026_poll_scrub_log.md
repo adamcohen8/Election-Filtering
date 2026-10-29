@@ -1,5 +1,51 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-29
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, modeled Senate and governor race pages, and national generic-congressional-ballot surface, reviewed through the automation run time on October 29, 2026.
+- Targeted web searches and current polling indexes for modeled-race releases since the October 28 run.
+- Suffolk University's official Ohio release and October 21-26 statewide crosstab PDF.
+- Marquette Law School Poll's official Wisconsin release and detailed likely-voter crosstab page for its October 14-22 survey.
+- Siena College's official Florida release and the publicly reachable New York Times/Siena topline references for its October 19-26 survey.
+- CBS News Detroit's Mitchell Research Michigan Senate release; High Point University/YouGov's North Carolina Senate release and official memo; St. Pete Polls/Florida Politics release references; and Cygnal's October 24 national voter public deck.
+
+### Crosstab-Backed Polls Applied
+
+- `suffolk_oh_sen_2026-10-21_2026-10-26_crosstab` -> `oh_sen`: Jon Husted 44 / Sherrod Brown 47 among n=500 likely voters, with complete public party-ID shares and explicit subgroup bases of 194 Republicans, 168 Democrats, and 121 Independents.
+- `suffolk_oh_gov_2026-10-21_2026-10-26_crosstab` -> `oh_gov`: Vivek Ramaswamy 44 / Amy Acton 48 among the same n=500 likely voters and explicit party-ID subgroup bases.
+- `marquette_wi_gov_2026-10-14_2026-10-22_crosstab` -> `wi_gov`: Tom Tiffany 44 / David Crowley 51 among n=668 likely voters, with complete public party-ID shares and explicit subgroup bases of 230 Republicans, 214 Democrats, and 195 Independents when party leaners are retained as independents.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current indexes continued to list earlier October releases already applied or logged; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- NYT/Siena October 19-26 Florida Senate: Ashley Moody 50 / Angie Nixon 44 among n=813 likely voters. The official Siena release confirms the topline, but a complete public Republican, Democratic, and Independent candidate table could not be verified from the publicly reachable material.
+- NYT/Siena October 19-26 Florida governor: Byron Donalds 48 / David Jolly 44 among the same n=813 likely voters. The complete six-cell party table was likewise unavailable for verification.
+- St. Pete Polls October 25-27 Florida Senate: Ashley Moody 49 / Angie Nixon 45 among n=916 likely voters. Current public references provide the topline and methodology but no complete candidate-by-party table.
+- St. Pete Polls October 25-27 Florida governor: Byron Donalds 48 / David Jolly 46 among the same n=916 likely voters. No complete public Republican, Democratic, and Independent candidate table was located.
+- CBS News Detroit/Mitchell Research October 26-27 Michigan Senate: Abdul El-Sayed 51 / Mike Rogers 44 among n=636 likely voters. The release prints each candidate's own-party retention and both Independent shares, but omits the opposing candidate share in the Republican and Democratic groups.
+- High Point University/YouGov October 1-20 North Carolina Senate: Roy Cooper 54 / Michael Whatley 40 among n=620 likely voters. The official memo prints only the overall ballot and sample party composition, not candidate choice by party.
+- Cygnal October 24 national generic congressional ballot: Generic Democrat 51.5 / Generic Republican 43.1. The public deck prints both Independent shares but omits the small opposing-party candidate shares needed to complete all six cells, so no values were inferred.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- None. All three applied records use explicit subgroup bases from the official crosstab tables.
+
+### Unclassified Polls
+
+- No legitimate newly released poll covered an out-of-registry race requiring classification. Wedgewood entries remained excluded because the firm and its polls were disclosed as fabricated; the ingestion block remains in force.
+
+### Extraction Uncertainties
+
+- Marquette publishes both a party-ID view that retains leaners as independents and a view that assigns leaners to a party. The normalized record uses the former, matching the retained September Marquette record and preserving self-identified Independents as the model's Independent group.
+- The Cygnal deck's rounded overall result is 51.5 / 43.1, while RealClearPolling displays 52 / 43. The record was excluded because the Republican and Democratic rows do not visibly label both candidate shares, regardless of that topline rounding difference.
+- The NYT interactive crosstab page was not publicly retrievable in this run. No party shares were reconstructed from news summaries or aggregate composition.
+- No source-specific parser code was needed.
+
 ## 2026-10-28
 
 ### Sources Searched

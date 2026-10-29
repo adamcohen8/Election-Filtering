@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:04:46.025993+00:00",
+  "generated_at": "2026-10-29T09:01:14.581270+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -2587,6 +2587,13 @@
           "candidate_b_share": 0.4807,
           "margin": -0.026,
           "margin_percent": -2.6
+        },
+        {
+          "date": "2026-10-26",
+          "candidate_a_share": 0.4547,
+          "candidate_b_share": 0.479,
+          "margin": -0.0242,
+          "margin_percent": -2.42
         }
       ],
       "poll_points": [
@@ -2659,6 +2666,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf"
+        },
+        {
+          "poll_id": "suffolk_oh_gov_2026-10-21_2026-10-26_crosstab",
+          "pollster": "USA Today/Suffolk University",
+          "date": "2026-10-26",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.48,
+          "margin": -0.04,
+          "margin_percent": -4.0,
+          "leader": "democratic",
+          "sample_size": 500,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_28_2026_ohio_statewide_tables.pdf?hash=9D19A4CBD006C5FB8D1516D8CC2E3FC342DD7FF4&la=en"
         }
       ]
     },
@@ -2706,6 +2727,13 @@
           "candidate_b_share": 0.4723,
           "margin": 0.0146,
           "margin_percent": 1.46
+        },
+        {
+          "date": "2026-10-26",
+          "candidate_a_share": 0.486,
+          "candidate_b_share": 0.4713,
+          "margin": 0.0147,
+          "margin_percent": 1.47
         }
       ],
       "poll_points": [
@@ -2806,6 +2834,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf"
+        },
+        {
+          "poll_id": "suffolk_oh_sen_2026-10-21_2026-10-26_crosstab",
+          "pollster": "USA Today/Suffolk University",
+          "date": "2026-10-26",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.47,
+          "margin": -0.03,
+          "margin_percent": -3.0,
+          "leader": "democratic",
+          "sample_size": 500,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_28_2026_ohio_statewide_tables.pdf?hash=9D19A4CBD006C5FB8D1516D8CC2E3FC342DD7FF4&la=en"
         }
       ]
     },
@@ -4953,6 +4995,13 @@
           "candidate_b_share": 0.4824,
           "margin": -0.0407,
           "margin_percent": -4.07
+        },
+        {
+          "date": "2026-10-22",
+          "candidate_a_share": 0.4458,
+          "candidate_b_share": 0.4916,
+          "margin": -0.0458,
+          "margin_percent": -4.58
         }
       ],
       "poll_points": [
@@ -5011,6 +5060,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://law.marquette.edu/assets/community/poll/MLSP91/MLSP91CrosstabsLV.html"
+        },
+        {
+          "poll_id": "marquette_wi_gov_2026-10-14_2026-10-22_crosstab",
+          "pollster": "Marquette Law School",
+          "date": "2026-10-22",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.51,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 668,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://law.marquette.edu/assets/community/poll/MLSP92/MLSP92CrosstabsLV.html"
         }
       ]
     }
