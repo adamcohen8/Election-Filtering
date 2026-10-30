@@ -1,5 +1,58 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-30
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, modeled Senate and governor race pages, and national generic-congressional-ballot surface, reviewed through the automation run time on October 30, 2026.
+- CNN/SSRS's official October Texas, Maine, and Michigan state-poll packets hosted by DocumentCloud, including the complete likely-voter party-ID crosstab tables.
+- UMass Lowell/YouGov's official New Hampshire release and October 2-19 topline/crosstab PDF.
+- co/efficient's official Iowa battleground page; CBS News Detroit's Mitchell Research Michigan governor release; the Daily Signal/League of American Workers Wisconsin governor release; and current Texas Southern University/YouGov release references.
+- Targeted current-source searches for newly released modeled-race polls and national generic-congressional-ballot surveys since the October 29 run.
+
+### Crosstab-Backed Polls Applied
+
+- `cnn-ssrs_tx_sen_2026-10-20_2026-10-27_assumed_n` -> `tx_sen`: Ken Paxton 43 / James Talarico 49 among n=923 likely voters, with complete public Democratic, Republican, and Independent/Other candidate shares.
+- `cnn-ssrs_tx_gov_2026-10-20_2026-10-27_assumed_n` -> `tx_gov`: Greg Abbott 48 / Gina Hinojosa 46 among the same n=923 likely voters, with complete public party-ID candidate shares.
+- `cnn-ssrs_me_sen_2026-10-20_2026-10-26_assumed_n` -> `me_sen`: Susan Collins 45 / Troy Jackson 49 among n=783 likely voters, with complete public party-ID candidate shares.
+- `cnn-ssrs_mi_sen_2026-10-20_2026-10-27_assumed_n` -> `mi_sen`: Mike Rogers 42 / Abdul El-Sayed 49 among n=768 likely voters, with complete public party-ID candidate shares.
+- `cnn-ssrs_mi_gov_2026-10-20_2026-10-27_assumed_n` -> `mi_gov`: John James 41 / Jocelyn Benson 53 among the same n=768 likely voters, with complete public party-ID candidate shares.
+- `umass-lowell-yougov_nh_sen_2026-10-02_2026-10-19_assumed_n` -> `nh_sen`: John E. Sununu 41 / Chris Pappas 48 among n=600 likely voters, with complete leaned-party-ID candidate shares.
+- `umass-lowell-yougov_nh_gov_2026-10-02_2026-10-19_assumed_n` -> `nh_gov`: Kelly Ayotte 48 / Cinde Warmington 42 among the same n=600 likely voters, with complete leaned-party-ID candidate shares.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current indexes continued to list earlier October releases already applied or logged; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- Texas Southern University/YouGov October 21-25 Texas Senate: James Talarico 49 / Ken Paxton 47, with Ted Brown at 3%, among n=2,000 likely voters. Current public release references provide the topline and methodology but no complete candidate-by-party table.
+- Texas Southern University/YouGov October 21-25 Texas governor: Greg Abbott 50 / Gina Hinojosa 47 among the same n=2,000 likely voters. No complete public Republican, Democratic, and Independent candidate table was located.
+- co/efficient October 28 Iowa Senate: Ashley Hinson 48 / Josh Turek 46 among n=1,020 likely voters. The official page prints the overall ballot and sample party composition, not candidate choice by party.
+- co/efficient October 28 Iowa governor: Rob Sand 50 / Zach Lahn 45 among the same n=1,020 likely voters. The official page contains no candidate-by-party table.
+- CBS News Detroit/Mitchell Research October 26-27 Michigan governor: Jocelyn Benson 49 / John James 44 among n=636 likely voters. The public article contains no complete Republican, Democratic, and Independent candidate table.
+- League of American Workers October 19-23 Wisconsin governor: David Crowley 47.7 / Tom Tiffany 44.6 among n=1,213 likely voters. The Daily Signal release prints sample party composition but no candidate-by-party crosstab.
+- No newly released national generic congressional ballot with a complete public Republican, Democratic, and Independent candidate table was identified after the October 29 run.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- Both CNN/SSRS Texas records use the required fallback of total n=923 divided by four, rounded to 231 for each Republican, Democratic, and Independent/Other subgroup.
+- The CNN/SSRS Maine Senate record uses total n=783 divided by four, rounded to 196 for each subgroup.
+- Both CNN/SSRS Michigan records use total n=768 divided by four, or 192 for each subgroup.
+- Both UMass Lowell/YouGov New Hampshire records use total n=600 divided by four, or 150 for each subgroup.
+
+### Unclassified Polls
+
+- CNN/SSRS October 20-26 Maine governor, Hannah Pingree 53 / Bobby Charles 39, has complete public party-ID shares but was not normalized because Maine governor is outside the modeled race registry.
+- Wedgewood entries remained excluded because the firm and its polls were disclosed as fabricated; the ingestion block remains in force.
+
+### Extraction Uncertainties
+
+- CNN/SSRS prints party-ID candidate shares and subgroup sampling errors but not subgroup bases. The direct total-N-divided-by-four fallback was used; subgroup sizes were not reconstructed from rounded party composition or margins of error.
+- The UMass Lowell/YouGov table labels its columns `Leaned Party ID`. Those complete shares were mapped to the model's Republican, Democratic, and Independent groups, matching the treatment of prior UMass Lowell/YouGov records.
+- The Texas Southern University/YouGov release was publicly summarized, but no official crosstab packet containing all six required party-candidate cells was located; no values were inferred.
+- No source-specific parser code was needed.
+
 ## 2026-10-29
 
 ### Sources Searched
