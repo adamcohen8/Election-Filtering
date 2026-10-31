@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:08:11.798193+00:00",
+  "generated_at": "2026-10-31T07:04:19.365584+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -137,6 +137,13 @@
           "candidate_b_share": 0.4898,
           "margin": -0.09,
           "margin_percent": -9.0
+        },
+        {
+          "date": "2026-10-28",
+          "candidate_a_share": 0.4028,
+          "candidate_b_share": 0.4963,
+          "margin": -0.0934,
+          "margin_percent": -9.34
         }
       ],
       "poll_points": [
@@ -223,6 +230,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://afightworthhaving.com/polling/2026/arizona/crosstabs"
+        },
+        {
+          "poll_id": "noble-predictive-insights_az_gov_2026-10-26_2026-10-28_crosstab",
+          "pollster": "Noble Predictive Insights",
+          "date": "2026-10-28",
+          "candidate_a_share": 0.45,
+          "candidate_b_share": 0.51,
+          "margin": -0.06,
+          "margin_percent": -6.0,
+          "leader": "democratic",
+          "sample_size": 511,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://7453540.fs1.hubspotusercontent-na1.net/hubfs/7453540/AZPOP/2026/PoR/2026%20GE_AZPoR_PR_Poll%20Report.xlsx"
         }
       ]
     },
@@ -2027,6 +2048,13 @@
           "candidate_b_share": 0.4971,
           "margin": -0.0446,
           "margin_percent": -4.46
+        },
+        {
+          "date": "2026-10-29",
+          "candidate_a_share": 0.4524,
+          "candidate_b_share": 0.4974,
+          "margin": -0.045,
+          "margin_percent": -4.5
         }
       ],
       "poll_points": [
@@ -2183,6 +2211,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.documentcloud.org/documents/28856720-cnn-poll-conducted-by-ssrs-michigan-october/"
+        },
+        {
+          "poll_id": "rasmussen_mi_sen_2026-10-28_2026-10-29_assumed_n",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-29",
+          "candidate_a_share": 0.44,
+          "candidate_b_share": 0.49,
+          "margin": -0.05,
+          "margin_percent": -5.0,
+          "leader": "democratic",
+          "sample_size": 745,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_senate_october_28_29_2026"
         }
       ]
     },
@@ -3168,6 +3210,13 @@
           "candidate_b_share": 0.4733,
           "margin": 0.0022,
           "margin_percent": 0.22
+        },
+        {
+          "date": "2026-10-28",
+          "candidate_a_share": 0.4771,
+          "candidate_b_share": 0.4726,
+          "margin": 0.0044,
+          "margin_percent": 0.44
         }
       ],
       "poll_points": [
@@ -3464,6 +3513,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/"
+        },
+        {
+          "poll_id": "quantus_tx_gov_2026-10-26_2026-10-28_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-10-28",
+          "candidate_a_share": 0.507,
+          "candidate_b_share": 0.458,
+          "margin": 0.049,
+          "margin_percent": 4.9,
+          "leader": "republican",
+          "sample_size": 1214,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1ARCDbN8BXrLNkeMWZAhCC0uytZtvWnhW/view?usp=sharing"
         }
       ]
     },
@@ -3637,6 +3700,13 @@
           "candidate_b_share": 0.528,
           "margin": -0.056,
           "margin_percent": -5.6
+        },
+        {
+          "date": "2026-10-28",
+          "candidate_a_share": 0.4737,
+          "candidate_b_share": 0.5263,
+          "margin": -0.0526,
+          "margin_percent": -5.26
         }
       ],
       "poll_points": [
@@ -4003,6 +4073,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/"
+        },
+        {
+          "poll_id": "quantus_tx_sen_2026-10-26_2026-10-28_crosstab",
+          "pollster": "Quantus Insights",
+          "date": "2026-10-28",
+          "candidate_a_share": 0.487,
+          "candidate_b_share": 0.476,
+          "margin": 0.011,
+          "margin_percent": 1.1,
+          "leader": "republican",
+          "sample_size": 1207,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://drive.google.com/file/d/1ARCDbN8BXrLNkeMWZAhCC0uytZtvWnhW/view?usp=sharing"
         }
       ]
     },
@@ -5095,6 +5179,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_nJaupnc.pdf"
+        },
+        {
+          "poll_id": "emerson_us_house_generic_2026-10-24_2026-10-26_crosstab",
+          "pollster": "Emerson College Polling",
+          "date": "2026-10-26",
+          "candidate_a_share": 0.424,
+          "candidate_b_share": 0.524,
+          "margin": -0.1,
+          "margin_percent": -10.0,
+          "leader": "democratic",
+          "sample_size": 1000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://emersoncollegepolling.com/october-2026-national-poll-democrats-hold-10-point-midterm-advantage/"
         },
         {
           "poll_id": "reuters-ipsos_us_house_generic_2026-10-22_2026-10-26_crosstab",

@@ -1,5 +1,52 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-10-31
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, modeled Senate and governor race pages, and national generic-congressional-ballot surface, reviewed through the automation run time on October 31, 2026.
+- Quantus Insights' official October 26-28 Texas release and linked 32-page public report with Senate and governor crosstabs.
+- Emerson College Polling's official October 24-26 national release and public full-results workbook.
+- Noble Predictive Insights' official October 26-28 Arizona release and public poll-report workbook.
+- Rasmussen Reports' official October 28-29 Michigan Senate release and public crosstab page.
+- InsiderAdvantage and Big Data Poll's official Florida releases, Alaska Survey Research's current Alaska Senate release surfaces, and targeted current-source searches for newly released modeled-race polls since the October 30 run.
+
+### Crosstab-Backed Polls Applied
+
+- `quantus_tx_sen_2026-10-26_2026-10-28_crosstab` -> `tx_sen`: Ken Paxton 48.7 / James Talarico 47.6 among n=1,207 race voters, with complete public voter-file party-ID shares and explicit subgroup bases of 563 Republicans, 477 Democrats, and 167 Independents.
+- `quantus_tx_gov_2026-10-26_2026-10-28_crosstab` -> `tx_gov`: Greg Abbott 50.7 / Gina Hinojosa 45.8 among n=1,214 race voters, with explicit subgroup bases of 568 Republicans, 478 Democrats, and 168 Independents.
+- `emerson_us_house_generic_2026-10-24_2026-10-26_crosstab` -> `us_house_generic`: Generic Republican 42.4 / Generic Democrat 52.4 among n=1,000 likely voters, with complete weighted party-registration shares and explicit weighted subgroup bases of 330 Republicans, 330 Democrats, and 340 Independents/others.
+- `noble-predictive-insights_az_gov_2026-10-26_2026-10-28_crosstab` -> `az_gov`: Andy Biggs 45 / Katie Hobbs 51 among n=511 likely voters, with complete public party shares and explicit weighted subgroup bases of 210 Republicans, 169 Democrats, and 133 Independents/nonpartisans.
+- `rasmussen_mi_sen_2026-10-28_2026-10-29_assumed_n` -> `mi_sen`: Mike Rogers 44 / Abdul El-Sayed 49 among n=745 likely voters, with complete public Republican, Democratic, and Independent/Other candidate shares.
+
+### Polls Skipped As Duplicates
+
+- Previously retained modeled-race polls remained in the normalized archive and ledger. Current indexes continued to list earlier October releases already applied or logged; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- InsiderAdvantage October 28-29 Florida Senate: Ashley Moody 49 / Angie Nixon 43 among n=1,200 likely voters. The official release says tabs will be posted on the pollster's X account, but no complete public Republican, Democratic, and Independent candidate table was available during this run.
+- InsiderAdvantage October 28-29 Florida governor: Byron Donalds 49 / David Jolly 45 among the same n=1,200 likely voters. The promised public tabs were not available during this run.
+- Big Data Poll October 26-30 Florida Senate: Ashley Moody 52 / Angie Nixon 45 among n=1,129 likely voters. The release's MarketSight link resolves to the pollster's September Texas dataset rather than the Florida survey, so it cannot support a Florida observation.
+- Big Data Poll October 26-30 Florida governor: Byron Donalds 47 / David Jolly 44 among the same n=1,129 likely voters. The mismatched MarketSight link provides no usable Florida party crosstab.
+- Alaska Survey Research October 26-29 Alaska Senate: Mary Peltola 51 / Dan Sullivan 49 in the final-round result among n=1,326 likely voters. Public release surfaces did not expose complete candidate shares for Republican, Democratic, and Independent identifiers.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- The Rasmussen Michigan Senate record uses the required fallback of total n=745 divided by four, rounded to 186 for each Republican, Democratic, and Independent/Other subgroup. Rounded party-composition percentages were not used to reconstruct subgroup sizes.
+
+### Unclassified Polls
+
+- No legitimate newly released poll covered an out-of-registry race requiring classification. Wedgewood entries remained excluded because the firm and its polls were disclosed as fabricated; the ingestion block remains in force.
+
+### Extraction Uncertainties
+
+- Quantus labels its party columns as modeled voter-file party ID. Those columns were normalized to Republican, Democratic, and Independent, consistent with retained Quantus records.
+- Emerson's workbook provides weighted row counts and unrounded shares. The explicit weighted party bases were rounded to whole respondents, matching prior Emerson records.
+- Rasmussen prints complete candidate shares by party but only rounded party composition, not subgroup bases. The direct total-N-divided-by-four fallback was used.
+- Big Data Poll's release title and body incorrectly name `Angie Craig` in the Florida Senate matchup, while its displayed polling row and current race listings identify the Democratic candidate as Angie Nixon. The poll was excluded regardless because the linked crosstab is a different survey.
+- No source-specific parser code was needed.
+
 ## 2026-10-30
 
 ### Sources Searched
