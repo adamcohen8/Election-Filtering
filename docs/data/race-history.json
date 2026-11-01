@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T07:04:19.365584+00:00",
+  "generated_at": "2026-11-01T07:00:38.090857+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -333,6 +333,13 @@
           "candidate_b_share": 0.459,
           "margin": 0.082,
           "margin_percent": 8.2
+        },
+        {
+          "date": "2026-10-31",
+          "candidate_a_share": 0.5399,
+          "candidate_b_share": 0.4601,
+          "margin": 0.0798,
+          "margin_percent": 7.98
         }
       ],
       "poll_points": [
@@ -517,6 +524,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.unfporl.org/s/Fall-2026-Crosstabs-ADA.xlsx"
+        },
+        {
+          "poll_id": "activote_fl_gov_2026-10-20_2026-10-31_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-31",
+          "candidate_a_share": 0.523,
+          "candidate_b_share": 0.477,
+          "margin": 0.046,
+          "margin_percent": 4.6,
+          "leader": "republican",
+          "sample_size": 400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/2026/fl-governor/"
         }
       ]
     },
@@ -606,6 +627,13 @@
           "candidate_b_share": 0.4146,
           "margin": 0.1707,
           "margin_percent": 17.07
+        },
+        {
+          "date": "2026-10-27",
+          "candidate_a_share": 0.5832,
+          "candidate_b_share": 0.4168,
+          "margin": 0.1663,
+          "margin_percent": 16.63
         }
       ],
       "poll_points": [
@@ -790,6 +818,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.unfporl.org/s/Fall-2026-Crosstabs-ADA.xlsx"
+        },
+        {
+          "poll_id": "activote_fl_sen_2026-10-17_2026-10-27_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-27",
+          "candidate_a_share": 0.53,
+          "candidate_b_share": 0.47,
+          "margin": 0.06,
+          "margin_percent": 6.0,
+          "leader": "republican",
+          "sample_size": 400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/2026/fl-u-s-senate/"
         }
       ]
     },
@@ -3021,6 +3063,13 @@
           "candidate_b_share": 0.5372,
           "margin": -0.1328,
           "margin_percent": -13.28
+        },
+        {
+          "date": "2026-10-21",
+          "candidate_a_share": 0.4208,
+          "candidate_b_share": 0.5792,
+          "margin": -0.1583,
+          "margin_percent": -15.83
         }
       ],
       "poll_points": [
@@ -3065,6 +3114,20 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://poll.qu.edu/images/polling/pa/pa10072026_pgrx47.pdf"
+        },
+        {
+          "poll_id": "activote_pa_gov_2026-10-01_2026-10-21_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-21",
+          "candidate_a_share": 0.385,
+          "candidate_b_share": 0.615,
+          "margin": -0.23,
+          "margin_percent": -23.0,
+          "leader": "democratic",
+          "sample_size": 400,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/2026/pa-governor/"
         }
       ]
     },
@@ -4351,6 +4414,13 @@
           "candidate_b_share": 0.5525,
           "margin": -0.1051,
           "margin_percent": -10.51
+        },
+        {
+          "date": "2026-10-30",
+          "candidate_a_share": 0.4476,
+          "candidate_b_share": 0.5524,
+          "margin": -0.1048,
+          "margin_percent": -10.48
         }
       ],
       "poll_points": [
@@ -5207,6 +5277,34 @@
           "measurement": "topline",
           "partial_party_id": false,
           "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf"
+        },
+        {
+          "poll_id": "activote_us_house_generic_2026-10-22_2026-10-30_assumed_n",
+          "pollster": "ActiVote",
+          "date": "2026-10-30",
+          "candidate_a_share": 0.465,
+          "candidate_b_share": 0.535,
+          "margin": -0.07,
+          "margin_percent": -7.0,
+          "leader": "democratic",
+          "sample_size": 2000,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://www.activote.net/polls/generic-ballot/"
+        },
+        {
+          "poll_id": "big-data-poll_us_house_generic_2026-10-27_2026-10-30_crosstab",
+          "pollster": "Big Data Poll",
+          "date": "2026-10-30",
+          "candidate_a_share": 0.395,
+          "candidate_b_share": 0.512,
+          "margin": -0.117,
+          "margin_percent": -11.7,
+          "leader": "democratic",
+          "sample_size": 3418,
+          "measurement": "topline",
+          "partial_party_id": false,
+          "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=public%40bigdatapoll.com&id=316b028e-c8c9-4dc9-a054-b4f40137114d"
         }
       ]
     },

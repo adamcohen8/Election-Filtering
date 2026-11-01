@@ -1,5 +1,50 @@
 # 2026 Poll Crosstab Scrub Log
 
+## 2026-11-01
+
+### Sources Searched
+
+- RealClearPolling's latest-polls, modeled Senate and governor race pages, and national generic-congressional-ballot surface, reviewed through the automation run time on November 1, 2026.
+- ActiVote's completed 2026 archive and full public crosstab pages for modeled Florida, Georgia, North Carolina, Ohio, Pennsylvania, and Texas races and the national generic congressional ballot.
+- Big Data Poll's October 27-30 national release and its official public MarketSight table, including the registered-voter generic-ballot-with-leaners row and explicit party-ID subgroup bases.
+- Big Data Poll's Florida release and linked MarketSight surface, New York Times/Siena's October 31 Nebraska releases, and targeted current-source searches for modeled-race and generic-ballot polls released since the October 31 run.
+
+### Crosstab-Backed Polls Applied
+
+- `activote_fl_sen_2026-10-17_2026-10-27_assumed_n` -> `fl_sen`: Ashley Moody 53.0 / Angie Nixon 47.0 among n=400 likely midterm voters; Republicans Moody 97 / Nixon 3, Democrats Moody 6 / Nixon 94, and Independents Moody 30 / Nixon 70.
+- `activote_fl_gov_2026-10-20_2026-10-31_assumed_n` -> `fl_gov`: Byron Donalds 52.3 / David Jolly 47.7 among n=400 likely midterm voters; Republicans Donalds 91 / Jolly 9, Democrats Donalds 11 / Jolly 89, and Independents Donalds 33 / Jolly 67.
+- `activote_pa_gov_2026-10-01_2026-10-21_assumed_n` -> `pa_gov`: Stacy Garrity 38.5 / Josh Shapiro 61.5 among n=400 likely midterm voters; Republicans Garrity 81 / Shapiro 19, Democrats Garrity 2 / Shapiro 98, and Independents Garrity 18 / Shapiro 82. This older usable row was found while reconciling ActiVote's completed 2026 archive.
+- `activote_us_house_generic_2026-10-22_2026-10-30_assumed_n` -> `us_house_generic`: Generic Republican 46.5 / Generic Democrat 53.5 among n=2,000 likely midterm voters; Republicans 91 / 9, Democrats 7 / 93, and Independents 45 / 55.
+- `big-data-poll_us_house_generic_2026-10-27_2026-10-30_crosstab` -> `us_house_generic`: Generic Republican 39.5 / Generic Democrat 51.2 among n=3,418 registered voters, with explicit party-ID subgroup bases of 1,145 Republicans, 1,398 Democrats, and 875 Independents/Others.
+
+### Polls Skipped As Duplicates
+
+- Previously retained ActiVote Florida, North Carolina, and national generic-ballot readings and all other modeled-race ledger entries remained intact; no duplicate records were added.
+
+### Aggregate Topline-Only Polls Found Without Party-ID Crosstabs
+
+- ActiVote October 18-31 Ohio Senate: Sherrod Brown 50.2 / Jon Husted 49.8 among n=400 likely midterm voters. ActiVote explicitly states that Ohio does not register voters by party and therefore omits a party-affiliation breakdown.
+- ActiVote October 16-31 Ohio governor: Amy Acton 50.8 / Vivek Ramaswamy 49.2 among the same n=400 likely midterm voters. The public page likewise contains no party-affiliation crosstab.
+- ActiVote October 22-28 Texas Senate: James Talarico 52.1 / Ken Paxton 47.9 among n=400 likely midterm voters, and October 23-29 Texas governor: Greg Abbott 52.1 / Gina Hinojosa 47.9 among n=400. Both public pages explicitly omit party-affiliation breakdowns because Texas does not register voters by party.
+- Big Data Poll October 26-30 Florida Senate and governor remain topline-only for model purposes. The Florida release's MarketSight link still resolves to the pollster's September Texas dataset, so it cannot support Florida party-ID observations.
+
+### Polls Applied With Assumed Subgroup Ns
+
+- The three ActiVote state records each use the required fallback of total n=400 divided by four, or 100, for each Republican, Democratic, and Independent subgroup.
+- The ActiVote national generic-ballot record uses total n=2,000 divided by four, or 500, for each subgroup. Printed weighted party-composition percentages were not used to reconstruct subgroup sizes.
+
+### Unclassified Polls
+
+- New York Times/Siena's October 31 Nebraska Senate and governor releases cover races outside the modeled registry and were not normalized.
+- Wedgewood entries remained excluded because the firm and its polls were disclosed as fabricated; the ingestion block remains in force.
+
+### Extraction Uncertainties
+
+- ActiVote labels its public rows `Party D`, `R`, and `I`; those rows were mapped directly to Democratic, Republican, and Independent party ID. The public tables print rounded party composition but not subgroup bases, so the direct total-N-divided-by-four fallback was used.
+- Big Data Poll's registered-voter generic-ballot-with-leaners row matches its published 51.2 Democratic / 39.5 Republican registered-voter topline. Its party columns are from that same n=3,418 registered-voter sample; the separate n=3,214 likely-voter topline was not mixed with those subgroup bases.
+- Big Data Poll's Florida release title incorrectly names Angie Craig while the body and race result identify Angie Nixon. No Florida observation was applied because the linked crosstab is a different survey.
+- No source-specific parser code was needed.
+
 ## 2026-10-31
 
 ### Sources Searched
