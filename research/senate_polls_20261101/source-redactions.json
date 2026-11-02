@@ -1,0 +1,30 @@
+{
+  "sanitized_on": "2026-11-01",
+  "reason": "Remove a third-party Google Maps API key copied in archived public Siena HTML. The credential value is intentionally not recorded.",
+  "replacement": "REDACTED_GOOGLE_API_KEY",
+  "scope": "Only the Google Maps API key in each archived page was replaced. Poll content, source links and source-access decisions are retained. These held pages supplied no accepted model observations.",
+  "history_cleanup": "The same replacement is applied to earlier Git revisions containing these pages.",
+  "artifacts": [
+    {
+      "path": "research/senate_polls_20261101/reopened_nyt_early/sources/siena-release.html",
+      "source_url": "https://sri.siena.edu/2026/10/03/nytimes-siena-poll-of-likely-voters-senate-races/",
+      "redaction_count": 1,
+      "original_sha256": "cf258e1af619e813f40a327c8f07578f07190ea38bbefd29da08e4f4f6eadfe9",
+      "sanitized_sha256": "ef9f7cd7a3e5f03408d682b7948a18dc2fd39ed2e78f47dea72252cd9165ee1e"
+    },
+    {
+      "path": "research/senate_polls_20261101/reopened_nyt_other/sources/siena-oct03.html",
+      "source_url": "https://sri.siena.edu/2026/10/03/nytimes-siena-poll-of-likely-voters-senate-races/",
+      "redaction_count": 1,
+      "original_sha256": "fbd1bb2b57b34630af711cfb57694074f3784785394958bb7c51407d68f5f926",
+      "sanitized_sha256": "ab175a691933abb96e4dc150387c58e934a7f74617483c169284d8fe3a182d21"
+    },
+    {
+      "path": "research/senate_polls_20261101/reopened_nyt_other/sources/siena-oct28.html",
+      "source_url": "https://sri.siena.edu/2026/10/28/nytimes-siena-poll-of-likely-voters-florida-minnesota-and-south-carolina/",
+      "redaction_count": 1,
+      "original_sha256": "c0705b990f5064c9712f631b4bb5467c5099b3f56d2d12bd288cbeaa5e48fafb",
+      "sanitized_sha256": "f007541d58228d394b6ca13aa064f6552591f2901e74f26e1995b1d23196ff91"
+    }
+  ]
+}

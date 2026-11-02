@@ -1,5 +1,7 @@
 # October 3 New York Times / Siena Senate crosstabs
 
+Archive sanitation (2026-11-01): the Google Maps API key embedded in `sources/siena-release.html` was replaced with `REDACTED_GOOGLE_API_KEY`. The poll text and links are retained. Original and sanitized SHA-256 hashes are recorded in `../source-redactions.json`.
+
 No eligible six-cell candidate-by-party record was recovered for Alaska, Iowa or Kansas. Siena’s public October 3 release identifies each matchup and explicitly links separate state toplines and crosstabs. All six linked documents are NYTimes interactive HTML pages, not Siena-hosted PDFs. The web reader returned non-retryable errors, and ordinary direct requests to all three crosstab URLs returned HTTP 403. Searches for separate Siena-hosted original state crosstab PDFs did not locate any. Access controls were not bypassed. Siena’s original release HTML is preserved in sources.
 
 The three polls satisfy the publication-date window, but publication of a crosstab link is not evidence of its six cell values. polls.json is empty in keeping with the user’s party-crosstab requirement. The inventory records Siena’s state toplines and secondary-reported field dates and sample sizes for follow-up only. Source-backed ambiguity remains: Siena’s Kansas summary lists Libertarian Graham at 3%; independent reports describing NYT toplines state 5%. Iowa field start is variously Sep 21 or 22 in secondary sources; Alaska field start Sep 22 or 24. The primary state table is needed to resolve those conflicts.
