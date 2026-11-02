@@ -1,0 +1,209 @@
+TOPLINE & METHODOLOGY
+
+                                    Reuters/Ipsos Large Sample Survey
+
+                                    Conducted by Ipsos using KnowledgePanel®
+                           A survey of the American general population (ages 18+)
+                                 Interview dates: September 30 to October 5, 2026
+                                               Number of interviews: 4,506
+
+          Margin of error: +/- 1.5 percentage points at the 95% confidence level for all respondents
+        Margin of error: +/- 1.7 percentage points at the 95% confidence level for               Registered Voters
+    Margin of error: +/- 2.7 percentage points at the 95% confidence level for Republican respondents
+    Margin of error: +/- 2.7 percentage points at the 95% confidence level for Democratic respondents
+Margin of error: +/- 2.4 percentage points at the 95% confidence level for independent/other respondents
+
+NOTE: All results show percentages among all respondents, unless otherwise labeled. Reduced bases
+are unweighted values.
+
+NOTE: * = less than 0.5%, - = no respondents, N/A = not applicable
+
+
+Annotated Questionnaire
+
+Questions held for future release.
+
+TM3287Y24. Thinking about the elections in 2026, if the election for U.S. Congress were held today,
+would you vote for the Democratic candidate or the Republican candidate in your district where you live?
+
+                                  Total                 RV                 Rep                 Dem              Ind/Other
+                               (N=4,506)           (N=3,526)           (N=1,339)            (N=1,337)           (N=1,830)
+ Democratic                        37%                 44%                  3%                 85%                 26%
+ candidate
+ Republican                        30%                 37%                 83%                  2%                 14%
+ candidate
+ Candidate from
+ another political                 2%                  2%                   1%                  1%                  4%
+ party
+ Don’t know                        14%                 13%                  8%                  6%                 24%
+ Will not/do not plan              16%                 4%                   5%                  6%                 30%
+ to vote
+ Skipped                           1%                    *                   -                   *                  1%
+
+
+Questions held for future release.
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                 Senior Vice President, US, Public Affairs
++1 202 463-7300               Email: alec.tyson@ipsos.com
+
+1
+
+TOPLINE & METHODOLOGY
+
+
+Approval5_Sum. Overall, do you approve or disapprove of the way Donald Trump is handling his job as
+president? (If Skipped) If you had to choose, do you lean more towards approve or disapprove?
+
+                                 Total                RV                 Rep                Dem              Ind/Other
+                              (N=4,506)           (N=3,526)           (N=1,339)          (N=1,337)           (N=1,830)
+ Strongly approve                 12%                15%                 34%                 1%                  5%
+ Somewhat approve                 20%                20%                 43%                 4%                 15%
+ Lean towards                       *                  *                   *                   -                 1%
+ approve
+ Lean towards                       *                  *                   -                   *                 1%
+ disapprove
+ Somewhat                         15%                14%                 15%                 9%                 20%
+ disapprove
+ Strongly disapprove              49%                50%                  7%                 86%                51%
+ Skipped                          3%                  1%                  0%                 0%                  7%
+ Approve (Net)                    32%                36%                 77%                 5%                 21%
+ Disapprove (Net)                 65%                64%                 23%                 95%                71%
+
+
+Questions held for future release.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+2
+
+TOPLINE & METHODOLOGY
+
+About the Study
+
+This Reuters/Ipsos poll was conducted September 30 to October 5, 2026, by Ipsos using the probability-
+based KnowledgePanel®. This poll is based on a nationally representative probability sample of 4,506
+general population adults aged 18 or older.
+
+The study was conducted in English. The data were weighted to adjust for gender by age, race and
+ethnicity, census region, metropolitan status, education, household income, 2024 vote choice, and
+political party identification. Political party identification benchmarks are from the 2026 NPORS annual
+survey. The demographic benchmarks came from the 2025 March supplement of the U.S. Census
+Bureau’s Current Population Survey (CPS).
+
+     •    Gender (Male, Female) by Age (18–29, 30–44, 45-59 and 60+)
+     •    Race/Hispanic Ethnicity (White Non-Hispanic, Black Non-Hispanic, Other, Non-Hispanic,
+          Hispanic, 2+ Races, Non-Hispanic)
+     •    Education (Less than High School, High School, Some College, Bachelor’s degree, Master’s
+          degree or higher)
+     •    Census Region (Northeast, Midwest, South, West)
+     •    Metropolitan status (Metro, non-Metro)
+     •    Household Income (Under $25,000, $25,000-$49,999, $50,000-$74,999, $75,000-$99,999,
+          $100,000-$149,999, $150,000+)
+     •    2024 Vote Choice (Trump, Harris, Another candidate, Did not vote)
+     •    Political Party ID (Democrat, Lean Democrat, Republican, Lean Republican,
+          Independent/Something else)
+
+The margin of sampling error is plus or minus 1.5 percentage points at the 95% confidence level, for
+results based on the entire sample of adults. The margin of sampling error takes into account the design
+effect, which was 1.06. The margin of sampling error is higher and varies for results based on sub                     -
+samples. In our reporting of the findings, percentage points are rounded off to the nearest whole number.
+As a result, percentages in a given table column may total slightly higher or lower than 100%. In
+questions that permit multiple responses, columns may total substantially more than 100%, depending on
+the number of different responses offered by each respondent.
+
+For more information on this news release, please contact:
+
+Alec Tyson
+Senior Vice President, US
+Public Affairs
+Alec.Tyson@ipsos.com
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                 Senior Vice President, US, Public Affairs
++1 202 463-7300               Email: alec.tyson@ipsos.com
+
+3
+
+TOPLINE & METHODOLOGY
+
+About Ipsos
+
+Ipsos is one of the largest market research and polling companies globally, operating in 90 markets and
+employing nearly 20,000 people.
+
+Our passionately curious research professionals, analysts and scientists have built unique multi-specialist
+capabilities that provide true understanding and powerful insights into the actions, opinions and
+motivations of citizens, consumers, patients, customers or employees. Our 75 business solutions are
+based on primary data from our surveys, social media monitoring, and qualitative or observational
+techniques.
+
+“Game Changers” – our tagline – summarizes our ambition to help our 5,000 clients navigate with
+confidence our rapidly changing world.
+
+Founded in France in 1975, Ipsos has been listed on the Euronext Paris since July 1, 1999. The company
+is part of the SBF 120, Mid-60 indices, and is eligible for the Deferred Settlement Service (SRD).
+
+ISIN code FR0000073298, Reuters ISOS.PA, Bloomberg IPS:FP www.ipsos.com
+
+35 rue du Val de Marne
+75 628 Paris, Cedex 13 France
+Tel. +33 1 41 98 90 00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                  Senior Vice President, US, Public Affairs
++1 202 463-7300               Email: alec.tyson@ipsos.com
+
+4

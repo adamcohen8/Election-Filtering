@@ -1,0 +1,880 @@
+{
+  "schema_version": 2,
+  "reviewed_on": "2026-11-01",
+  "window": {
+    "start": "2026-10-01",
+    "end": "2026-11-01"
+  },
+  "precision_policy": "Working DEFF1.5 for reported unweighted bases; 2 for reported weighted/unspecified bases;3 for rounded-composition estimates and published suppression lower bounds. Source-informed larger effects override defaults; reported effective bases use DEFF1. Exact source bases retained; fractional model counts floored. These are provisional assumptions, not empirically calibrated guarantees. Reopened sources with missing counts or model-produced subgroup estimates may use an explicit Gaussian covariance:5pp SD per candidate/group share, within-group correlation -0.5; source counts stay null. Proxy inclusion is labeled and separately authorized. Published intervals can use labeled midpoint approximations with half-width-squared added variance.",
+  "limitations": [
+    "Search coverage is documented, not proof every public poll was found. Remaining unreadable, paywalled or incomplete R/D/I sources cannot be invented.",
+    "Modeled, mixed or unspecified party classification and source-produced subgroup predictions are included at the user request and labeled distinctly from self-reported ID/registration.",
+    "Derived bases, published lower bounds and assumed measurement covariance are modeling choices, not reported interview counts or empirically calibrated error guarantees.",
+    "Primary table values are used when narrative summaries conflict, with conflicts retained; interval-censored cells use explicit approximations where recorded.",
+    "Publication cutoff remains October1,2026; duplicate wave variants and disclosed fabricated Wedgewood remain excluded.",
+    "No forecast accuracy or historical calibration claim follows from a successful replay."
+  ],
+  "decisions": {
+    "ak_sen/rasmussen-2026-10-15": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Do not ingest: R/I/D basis and leaners not established. Article reverses the table\u2019s independent candidate percentages, and incorrectly attributes Peltola\u2019s House service to Sullivan; seek clarification or corrected source. Group Ns are floor(775 \u00d7 rounded composition), estimates only, not reported unweighted or exact weighted counts; source methodology says survey weighted. Another-party group is separate, not folded into Independent. Release date Oct 19 independently reported by Wikipedia and political.org, absent on retrieved original page. Source lists Daniel J. Sullivan Jr. as Republican; other sources report no party affiliation. Dan S. Sullivan refers to incumbent Dan Sullivan, distinct from separately listed Daniel J. Sullivan Jr.",
+      "record_sha256": "83a1dce8eca23fb2310e7a4e2790d1864761e0a53e3c83bbc19f135e831cd540",
+      "previous_hold_reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Do not ingest: R/I/D basis and leaners not established. Article reverses the table\u2019s independent candidate percentages, and incorrectly attributes Peltola\u2019s House service to Sullivan; seek clarification or corrected source. Group Ns are floor(775 \u00d7 rounded composition), estimates only, not reported unweighted or exact weighted counts; source methodology says survey weighted. Another-party group is separate, not folded into Independent. Release date Oct 19 independently reported by Wikipedia and political.org, absent on retrieved original page. Source lists Daniel J. Sullivan Jr. as Republican; other sources report no party affiliation.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified",
+        "candidate_a": "Dan Sullivan"
+      },
+      "allow_proxy": true
+    },
+    "fl_sen/redbox-20261031": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Unleaned party ID preferred to separate voter-file registration table; independent party-lean subset not used. Overall design effect 1.37 and overall MOE \u00b12.1 points per release. Source party subgroup MOEs R \u00b13.3, D \u00b13.8, I \u00b14.1 points (crosstabs p.6); do not apply overall MOE to subgroups.",
+      "record_sha256": "d087e4f527f53f5debad6e3d2163148a46eb274e26015f6ec8cd10591585821e",
+      "precision": {
+        "design_effect": 1.5,
+        "reported_overall_design_effect": 1.37,
+        "reported_party_moe_points": {
+          "republican": 3.3,
+          "democratic": 3.8,
+          "independent": 4.1
+        },
+        "evidence": "Original release methodology and party-ID subgroup MOEs; choose at least model default, overall reported effect and inflation implied by largest checked group MOE. See verification/NOTES.md."
+      }
+    },
+    "fl_sen/stetson-20261030": {
+      "action": "accept",
+      "reason": "Explicit party-identification table and unweighted bases. NPA registration elsewhere is a different variable; narrow I group retained.",
+      "record_sha256": "158be315c76cc70202507aad9dd3349bb834fd625bd63c9c092130eb6fd32183"
+    },
+    "fl_sen/unf-20261019": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. No party-ID ballot table seen. NPA/Oth includes other registered parties; base 1414 excludes would-not-vote and refusals; full poll n1471.",
+      "record_sha256": "b32755106b1a30276307c7c0403097ff821b6be1c03315e93353928ecf103f8c"
+    },
+    "fl_sen/yougov-univision-20261015": {
+      "action": "accept",
+      "reason": "Sponsor broadcast confirms Moody/Nixon mapping to Republican/Democratic full-recode table. Weighted RV bases retained; recoding and lean details remain uncertain.",
+      "record_sha256": "38a6e982565e020e877951f5acba652b03462648905d706ef190d2d7a58b5157"
+    },
+    "fl_sen/stpete-20261007": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Explicitly non-weighted subgroup support. Basis inferred from Florida voter-registration sampling frame, party weights, absence of a self-identification question, and exact match between demographic Other and Independent Voter counts. Other voter-file registrations are mapped to independent proxy, with specific component categories unlisted.",
+      "record_sha256": "6984dcc97bec81f43ea388df5ac0e26b963f5356d1f549a8d0b6f34841de4497"
+    },
+    "fl_sen/stpete-20261027": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Explicitly non-weighted subgroup support. Basis inferred from Florida voter-registration sampling frame, party weights, absence of a self-identification question, and exact match between demographic Other and Independent Voter counts. Other voter-file registrations are mapped to independent proxy, with specific component categories unlisted.",
+      "record_sha256": "039239df35799ad954920f876f6b0bb48ea886434a0660eaecb5756c4f1d7d1b"
+    },
+    "fl_sen/mason-dixon-20261001": {
+      "action": "accept",
+      "reason": "Root read sponsor NBC6 article in normal browser: registration categories, support and exact interview bases verified.",
+      "record_sha256": "209b58bcb9fc2ab5bc42e90941b624c9254b8a10211141fee9c6d3e48a178ed7"
+    },
+    "ga_sen/uga-ajc-ga-sen-20261015": {
+      "action": "accept",
+      "reason": "Root read original DocumentCloud Text view pp2/4/29. Three-point party support and composition verified; derived bases and unknown lean treatment retained.",
+      "record_sha256": "e30d2bee76b30b9d5a1fe92ba76e962841cad85231e9218a926ab37726e174c7"
+    },
+    "ia_sen/fox-20260928": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "1bd80451fcd446f640b939f0ea72df90db3e46c509e9a63a31eaf5156f86ff31",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 100,
+        "evidence": "Fox original PDF disclosure: displayed subgroups have at least 100 unweighted cases."
+      }
+    },
+    "ia_sen/ssrs-cnn-20261005": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "04039285aac995936cfa237a4a6143f52c8cb6c0ab0eb1bb9e2e7896e8bc0a31",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 125,
+        "evidence": "SSRS original p1 suppresses subgroups below 125 unweighted interviews; all selected party groups displayed."
+      }
+    },
+    "ia_sen/emerson-nexstar-20261006": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Counts are weighted fractional bases, not unweighted respondents. Independent/other includes all categories jointly; no usable party-ID table found. Publication date per 270toWin; exact raw Excel cells retained.",
+      "record_sha256": "0b64bfe6ddebe460612c286de03e9331fd2c9324813e3f487c12b107938dd576"
+    },
+    "ia_sen/marist-20261011": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "6d9d21d0bef3113fb614b4ff4fca316d35136cd2d113a73395cada8574ee4f07",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 50,
+        "evidence": "Marist original ballot table footnote suppresses unweighted subgroup n<50; all selected R/D/I cells displayed."
+      }
+    },
+    "ia_sen/marist-20261011-rv-alternative": {
+      "action": "hold",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both.",
+      "record_sha256": "781315f9f80e1bdd47e8d67d2d5ccfd7c1d66bc88641c0d44ba591b76974bc2d"
+    },
+    "ia_sen/onpoint-20261021": {
+      "action": "accept",
+      "reason": "First-choice table, reported raw bases. Model-implied n327 is turnout-weighted RV interviewing, not a contradictory separate interview count. Registration fallback inferred from explicit Party registration question/categories; banner label ambiguity retained.",
+      "record_sha256": "88dba1f25cd0f538c7c95f281b52731e63ab69116d1f9b4551a68c159d7609ec",
+      "overrides": {
+        "crosstab_basis": "party_registration"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Probability-weighted LV table, source weighting effect not reported; working factor3, not calibrated or a guaranteed error bound."
+      }
+    },
+    "ks_sen/emerson-20261028": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Fractional bases are weighted counts, not actual interviews. Independent/other maps all non-D/R registration responses; no separate party-ID table in workbook. First choice rather than subsequent leaner allocation.",
+      "record_sha256": "f09244620d902f052d78f54c55d4b1c832e6da5ec48b24feb36068d8d3893726"
+    },
+    "ks_sen/wapo-schar-20261026": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. All others maps non-D/R registration, including minor-party and unaffiliated; precise underlying composition is not supplied. Workbook gives margins of error, not subgroup n or shares; do not infer n from MOE.",
+      "record_sha256": "c3a815065ab1827e0365078a7e8cd341f147e005b11e7482580767d856f762a1",
+      "previous_hold_reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      }
+    },
+    "ks_sen/redbox-20261023": {
+      "action": "accept",
+      "reason": "Original self-ID table and source CSV have support and unweighted bases. No evidence establishing fabrication; unverified allegation alone is not an exclusion rule.",
+      "record_sha256": "33d59fc720b90535fd9cc0fbc0ea5537f379b280396723f9458b7f2222b2bd1d",
+      "precision": {
+        "design_effect": 1.5,
+        "reported_overall_design_effect": 1.41,
+        "reported_party_moe_points": null,
+        "evidence": "Original release methodology and party-ID subgroup MOEs; choose at least model default, overall reported effect and inflation implied by largest checked group MOE. See verification/NOTES.md."
+      }
+    },
+    "me_sen/aarp-fabrizio-impact-20260922": {
+      "action": "accept",
+      "reason": "Original PDF pp3/19 verified, composition visually checked R33 I29 D38. October publication qualifies despite September fieldwork; bases are estimates.",
+      "record_sha256": "7f96b38ca8d5e01d004d4f609d3342b022b1c8725fc426334cabc51344995009"
+    },
+    "me_sen/yougov-cbs-20261001": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. PDF says 1,144 RV in full sample; 1,136 is weighted base for likely-voter ballot. Some aggregators say 1,114 RV; do not substitute. Independent totals 99% from rounding.",
+      "record_sha256": "afba14b858f2ffbe244f1cba5d83b86fa1e6721f4652e35cbff99dd4fe1dc88e",
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Original methodology reports RV N1144 and MOE4.7pp, implying worst-case inflation about2.63; use working factor3 for weighted LV bases."
+      }
+    },
+    "me_sen/marist-20261004": {
+      "action": "accept",
+      "reason": "Original RV table and RV composition verified; estimates from total times rounded composition, not reported group counts.",
+      "record_sha256": "ede59645acc75594d29db311b99aa1cd9727e55f4ffe84f803fe549bb5dba406"
+    },
+    "me_sen/wapo-schar-20261005": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Independent/Other includes other identifiers. The accessible sheet did not show party sample sizes or composition; do not use leaned columns as separate observation. Full downloaded workbook has one sheet of 130 rows and does not give subgroup counts or composition.",
+      "record_sha256": "4baa2f8d5fcb3a4e0e3182eadf8de4414670c4ddf054d4f918402f842c4fe17b",
+      "previous_hold_reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      }
+    },
+    "me_sen/rasmussen-20261008": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Table labels Party but source does not establish how classified; classification as party_id is tentative and requires verification; must not be ingested if based on model inference. Ns floor(804 x rounded shares), estimates. Official generic methodology says party weighting targets take voting history, national trends, recent polling into account, but does not specify how this survey assigns respondent party. A 2006 third-party report discusses historical self-ID questions but does not establish 2026 practice. Basis remains unverified.",
+      "record_sha256": "6573524d85aa4e987c5c27d547d041e210ef05c538e6ac1ceb799aa8a60e35c1",
+      "previous_hold_reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Table labels Party but source does not establish how classified; classification as party_id is tentative and requires verification; must not be ingested if based on model inference. Ns floor(804 x rounded shares), estimates. Official generic methodology says party weighting targets take voting history, national trends, recent polling into account, but does not specify how this survey assigns respondent party. A 2006 third-party report discusses historical self-ID questions but does not establish 2026 practice. Basis remains unverified.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "allow_proxy": true
+    },
+    "me_sen/suffolk-20261011": {
+      "action": "accept",
+      "reason": "Explicit self-reported registration and reported integer bases verified. Weighting status stays unspecified.",
+      "record_sha256": "fe9aad1e96c7a878530360ad61a470165a7c596f84fde6fd79ce0dd0265980a2"
+    },
+    "me_sen/marist-20261025": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "ee7b65cd904175fd177e7bc71dea359af0d9d8f0f4301f03a3fa8a4f6ba84d9f",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 50,
+        "evidence": "Marist original p7 footnote: * means unweighted n<50; all selected party groups displayed."
+      }
+    },
+    "me_sen/dfp-20261027": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Source explicitly says self-identified affiliation, not partisan registration; independent category includes third-party identifiers.",
+      "record_sha256": "a86741994b627dc7699ae00b31cb2956b0510c2627e6d81dbeb25bca46f3ef41"
+    },
+    "mi_sen/redbox-2026-10-23-lv": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Self-identified independents group includes other party and do not know; distinct from true independents.",
+      "record_sha256": "14053776e25f0cb740da8fae48d39bc14ac82711f3a863ae1020ab01f85cbef2",
+      "precision": {
+        "design_effect": 3.62,
+        "reported_overall_design_effect": 3.35,
+        "reported_party_moe_points": {
+          "republican": 6.1,
+          "democratic": 6.2,
+          "independent": 5.6
+        },
+        "evidence": "Original release methodology and party-ID subgroup MOEs; choose at least model default, overall reported effect and inflation implied by largest checked group MOE. See verification/NOTES.md."
+      }
+    },
+    "mi_sen/dfp-2026-10-25-lv": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Subgroup bases explicitly weighted, not reported interview counts.",
+      "record_sha256": "e14b722733a85032316339ee8e2f7bcbd89be2905249cdc17872511e72c58674"
+    },
+    "mi_sen/onpoint-2026-10-18-lv": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. LV weighted model uses all 586 RV as unweighted base; workbook labels preliminary partial field. Party lean status not established.",
+      "record_sha256": "04a879ea802c02f7d2ff6a3f83270bc38b93573228ec5266cda8b287a2ba401d",
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Probability-weighted LV table, source weighting effect not reported; working factor3, not calibrated or a guaranteed error bound."
+      }
+    },
+    "mi_sen/marist-2026-10-18-lv": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable. Root verified Marist release page dated October21.",
+      "record_sha256": "51c2fdb3ff7d8bb18b0380031eacd4e514869583070ac5390c2ea5fc40affaf6",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 50,
+        "evidence": "Marist original p7 footnote suppresses n<50; all selected party groups displayed."
+      },
+      "overrides": {
+        "publication_date": "2026-10-21"
+      }
+    },
+    "mi_sen/marist-2026-10-18-rv-alternate": {
+      "action": "hold",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both. Root verified Marist release page dated October21.",
+      "record_sha256": "df3fdebb9e08017f2765682046a434ccc360bec59b60fcee2960bd792da8d635",
+      "overrides": {
+        "publication_date": "2026-10-21"
+      }
+    },
+    "mi_sen/ssrs-cnn-2026-10-27-lv": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "b0a635a0bb9ec449e5ecb799e3cc25f8585464dd7de61ee1265ef49f58455d09",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 125,
+        "evidence": "SSRS original p1 suppresses subgroups below125 unweighted; all selected party groups displayed in table011."
+      }
+    },
+    "mn_sen/surveyusa-mn-20261012": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Composition is rounded weighted party share; floor(total * rounded weighted share) only estimate, not actual n. Survey interviewed nonprobability online panel and weighted to census targets; PDF omits exact party question and lean treatment.",
+      "record_sha256": "78b9b0becc3feb394d528a96cd6dda03b12768eabc6cc4119275a78403bb6103"
+    },
+    "mn_sen/surveyusa-mn-20261028": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Composition is rounded weighted party share; floor(total * rounded weighted share) only estimate, not actual n. Survey interviewed nonprobability online panel and weighted to census targets; PDF omits exact party question and lean treatment.",
+      "record_sha256": "998c290dafc8959899ac792f3b8ac5349327fc91b766f3f6133661d16673444d"
+    },
+    "mn_sen/rasmussen-mn-20261007": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Reported party composition identical across waves despite different n. Weighting status and exact question unspecified; derived group n are estimates from rounded proportions. Independent/Other is combined. Oct 21 article conflicts with own crosstab on major-party crossovers; direct crosstab used.",
+      "record_sha256": "fdfad820929b4392025c9ff13d76a0c58e240d549b02be7d9b82c7ee54e8c25d",
+      "previous_hold_reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Reported party composition identical across waves despite different n. Weighting status and exact question unspecified; derived group n are estimates from rounded proportions. Independent/Other is combined. Oct 21 article conflicts with own crosstab on major-party crossovers; direct crosstab used.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "allow_proxy": true
+    },
+    "mn_sen/rasmussen-mn-20261021": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Reported party composition identical across waves despite different n. Weighting status and exact question unspecified; derived group n are estimates from rounded proportions. Independent/Other is combined. Oct 21 article conflicts with own crosstab on major-party crossovers; direct crosstab used.",
+      "record_sha256": "408d03d21d577e4fdaededca87adb7956e455072a3a1d8dd3b58a35b71207f0a",
+      "previous_hold_reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Reported party composition identical across waves despite different n. Weighting status and exact question unspecified; derived group n are estimates from rounded proportions. Independent/Other is combined. Oct 21 article conflicts with own crosstab on major-party crossovers; direct crosstab used.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "allow_proxy": true
+    },
+    "mn_sen/bigdata-mn-20260930": {
+      "action": "accept",
+      "reason": "Initial named ballot and party-ID table supplied by original interactive publisher, integer bases explicitly labeled Sample Size, weighting status unspecified. October release qualifies despite September fieldwork.",
+      "record_sha256": "e5f65f4578d346af3361c171ebf6e89245003fe2f2abfcbc5b3fd33ea9942bf6",
+      "overrides": {
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      }
+    },
+    "nc_sen/redbox-20261023": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Independent includes independent, another party, and dont know, including partisan leaners; 228 true independents are a separate subset. Separate voter-file registration table not counted. Large design effect 4.81; 3,292 pooled statewide/NC-01/NC-11.",
+      "record_sha256": "205afc604b3af0e935a2b5b6f1df3c5cfcb9e2243ecd2ae35bc76d8a2bb0532e",
+      "precision": {
+        "design_effect": 5.29,
+        "reported_overall_design_effect": 4.81,
+        "reported_party_moe_points": {
+          "republican": 7.0,
+          "democratic": 6.1,
+          "independent": 6.2
+        },
+        "evidence": "Original release methodology and party-ID subgroup MOEs; choose at least model default, overall reported effect and inflation implied by largest checked group MOE. See verification/NOTES.md."
+      }
+    },
+    "nc_sen/change-20261007": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Google Sheets directly accessible in browser; xlsx export returned 401. Ballot includes leans and party ID groups are leaned. Rounded bases do not sum to total.",
+      "record_sha256": "446b8c2fe8f1745502f5a6e975dd280b96d3f0228e582c811236f126310fdf54"
+    },
+    "nc_sen/harper-20261020": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Self-reported voter registration, not party ID; source uses Independent registration label. Other 21 and unsure 12 separately reported and excluded, not silently mapped into independent. Frequencies rounded weighted bases: cell-level weighted counts fractional; actual unweighted subgroup Ns not established.",
+      "record_sha256": "f71d71370143f6ed92f6793191a2766d6c53d9f001ea4e900091d8c45ce1dba3"
+    },
+    "nc_sen/ecu-20261003": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Source says positive percentages rounding to 0 displayed <1%; do not replace with 0. No subgroup bases or party composition in crosstab report. Weighted cell counts rounded before computing percentages. Published <1% cell represented by explicit 0.5% midpoint approximation with added 0.5pp uncertainty; raw cell remains censored, not zero.",
+      "record_sha256": "3f4cd0ba8bc7a6522d29c5b42ce48650396f47f6e974a1148d5c71412086a456",
+      "previous_hold_reason": "Democratic Whatley support is censored <1%, not zero, and no subgroup precision denominator/bound established.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      },
+      "interval_midpoints": {
+        "democratic_a": {
+          "lower": 0,
+          "upper": 0.01
+        }
+      }
+    },
+    "nc_sen/surveyusa-20261011": {
+      "action": "accept",
+      "reason": "Publisher Party Affiliation table interpreted as ID under SurveyUSA primary methodology. Exact party question unavailable; composition-derived precision and inference retained.",
+      "record_sha256": "6e27341f18e0b078778fb4e09bfec0d242003dcfe4055f0d1d10ba600c51a248",
+      "overrides": {
+        "crosstab_basis": "party_id"
+      }
+    },
+    "nc_sen/activote-20261020": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Counts derived from rounded unweighted composition. Party source must be confirmed as actual registration for all respondents, not modeled party or mixed sources; general disclosure says most participants linked to L2 voter file. See https://www.activote.net/trust/aapor/ .",
+      "record_sha256": "204dd81b8c84c122f7f1ae7731862e3f6195bf9eebe26e0de77e8d98792d0a22",
+      "previous_hold_reason": "Not established that voter-file party classification is actual registration for every respondent; modeled proxy not authorized.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "allow_proxy": true,
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Reported rounded unweighted party composition with N400; classification may be mixed or modeled. No actual group counts claimed."
+      }
+    },
+    "nh_sen/umass-lowell-yougov-20261019": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Leaned ID, not unleaned ID; independent is the remaining independent group. No subgroup bases or composition located. YouGov explains its general self-reported party and lean methodology at https://yougov.com/en-us/articles/53444-how-yougov-classifies-americans-party-identification.",
+      "record_sha256": "d0807501ede89acfaf9daf212bf1db4ea62a3237dbaefe429eacb9377b15acdd",
+      "previous_hold_reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      }
+    },
+    "nh_sen/npa-20261012": {
+      "action": "accept",
+      "reason": "Explicit registration table with undeclared as I; published rounded composition supplies estimated bases. Source does not specify collection mode.",
+      "record_sha256": "8dcfecbb0b1d5989ee278c803178e8768c20f09e2d74cb1b86814746aeefe9b5"
+    },
+    "nh_sen/anselm-20261020": {
+      "action": "accept",
+      "reason": "Original pp56/66 and method p3 verified: actual registration categories and reported weighted bases. Undefined Swing ID table not counted.",
+      "record_sha256": "db605642594bc427429e15beaa196b64db994ba63c2ed94ce14c4a7213a0ca05"
+    },
+    "nh_sen/rasmussen-20261004": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Party basis not confirmed: labeled Party, release calls non-major-party voters unaffiliated; cannot establish whether self-reported ID or registration. Article date not displayed; On Point Politics recorded wave by Oct 5. Table question names three candidates but topline question lists seven; possible wording inconsistency. Group sizes are floor(total \u00d7 rounded published party shares), estimated weighted-equivalent figures rather than observed counts. Party weighting described in https://www.rasmussenreports.com/public_content/about_us/methodology; method of determining each respondent party is unspecified. Publication interval bounded by Oct4 field-end and contemporaneous Oct5 reporting; exact date unknown.",
+      "record_sha256": "2edc15caf02ca8f26ca7bb79d52bac061bdc5f9d184591a1e523dfe80b9ac9dc",
+      "previous_hold_reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Party basis not confirmed: labeled Party, release calls non-major-party voters unaffiliated; cannot establish whether self-reported ID or registration. Article date not displayed; On Point Politics recorded wave by Oct 5. Table question names three candidates but topline question lists seven; possible wording inconsistency. Group sizes are floor(total \u00d7 rounded published party shares), estimated weighted-equivalent figures rather than observed counts. Party weighting described in https://www.rasmussenreports.com/public_content/about_us/methodology; method of determining each respondent party is unspecified.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "allow_proxy": true,
+      "publication_date_bounds": [
+        "2026-10-04",
+        "2026-10-05"
+      ]
+    },
+    "nh_sen/rasmussen-20261023": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Party basis not confirmed: labeled Party, release calls non-major-party voters unaffiliated; cannot establish whether self-reported ID or registration. October 26 date from Wikipedia attribution; primary article displays no date. Group sizes are floor(total \u00d7 rounded published party shares), estimated weighted-equivalent figures rather than observed counts. Party weighting described in https://www.rasmussenreports.com/public_content/about_us/methodology; method of determining each respondent party is unspecified.",
+      "record_sha256": "497ebd3ababd9a380322213587f2c3f331061b8f2ab32bd942d20da87dc08c29",
+      "previous_hold_reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Party basis not confirmed: labeled Party, release calls non-major-party voters unaffiliated; cannot establish whether self-reported ID or registration. October 26 date from Wikipedia attribution; primary article displays no date. Group sizes are floor(total \u00d7 rounded published party shares), estimated weighted-equivalent figures rather than observed counts. Party weighting described in https://www.rasmussenreports.com/public_content/about_us/methodology; method of determining each respondent party is unspecified.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "allow_proxy": true
+    },
+    "nh_sen/anselm-aarp-20260929": {
+      "action": "accept",
+      "reason": "Original pp57/102 show explicit Party Identification support and weighted frequencies, verified centrally. Exact ID/lean wording unknown; do not also ingest registration alternative.",
+      "record_sha256": "35a5c32b2b5e026c2c80b3646f17c209fcfbca36989348169f8f8dd63bb5e097"
+    },
+    "oh_sen/redbox-oh-20261023": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. AFWH is sponsor and operator; high design effect 6.48. Party ID preferred to voter-file tabulation.",
+      "record_sha256": "3e95413d7e006a0e5678381b15129a8f7e162a160933536b4065af49ecb387d3",
+      "precision": {
+        "design_effect": 6.83,
+        "reported_overall_design_effect": 6.48,
+        "reported_party_moe_points": {
+          "republican": 7.8,
+          "democratic": 7.5,
+          "independent": 8.1
+        },
+        "evidence": "Original release methodology and party-ID subgroup MOEs; choose at least model default, overall reported effect and inflation implied by largest checked group MOE. See verification/NOTES.md."
+      }
+    },
+    "oh_sen/verasight-oh-20261020": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. 623 registered respondents reweighted with a likely-voter model; effective sample size 531.3, not raw LV count. First-choice crosstabs unavailable; lean-included table used.",
+      "record_sha256": "755300960042c9e0b0574395e3a77219d7d59fd29cd91736a3568f9b99ae9dd3",
+      "precision": {
+        "method": "reported_effective",
+        "evidence": "Original report p5 provides effective party Ns R182.0/D202.0/I147.3. Use floored effective counts and DEFF1; no double inflation."
+      }
+    },
+    "oh_sen/suffolk-oh-20261026": {
+      "action": "accept",
+      "reason": "Explicit self-reported party question, named ballot and integer bases verified. Keep weighting status unspecified.",
+      "record_sha256": "21d702b9b828516a0359bb98c6a8dd5160e70256ad45678232eba58231a5d7d6",
+      "overrides": {
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      }
+    },
+    "oh_sen/marist-oh-20261018-lv": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "245df26bcd0fc03c2c20048e0220ca7476aa6bf0388e77f5a9ec8c1d21daf566",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 50,
+        "evidence": "Marist original ballot table suppresses unweighted n<50; all selected R/D/I cells displayed."
+      }
+    },
+    "oh_sen/marist-oh-20261018-rv-alternative": {
+      "action": "hold",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both.",
+      "record_sha256": "13c387e9f74f542209026d1a2999c6057a2fb4dccbe4818d4addcab0278460ad"
+    },
+    "oh_sen/suffolk-oh-20260927": {
+      "action": "hold",
+      "reason": "Senate result first published September30; October university repost does not establish a new eligible wave.",
+      "record_sha256": "6cf706aae1c9b6d7b95ef899c9f9d3266e4f36d71e5dfaf4aa74163e19d808f4",
+      "overrides": {
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      }
+    },
+    "oh_sen/fox-oh-20261019-lv": {
+      "action": "accept",
+      "reason": "Use chosen LV table once with published minimum subgroup size as a nominal information limit, not actual n. Full exact counts unavailable.",
+      "record_sha256": "2edfc5b840810ee66b0ea38bc2cdd07aa24f2936164166ca28eed9398df77b58",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 100,
+        "evidence": "Fox original PDF disclosure reports only subgroups with sample size at least100; threshold weighting status unspecified, treated as nominal lower bound."
+      }
+    },
+    "oh_sen/fox-oh-20261019-rv": {
+      "action": "hold",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both.",
+      "record_sha256": "e55c5d7d9cbce8858df1cd888b97bf5baf4d880fd8872212c260800bba35480c"
+    },
+    "tx_sen/ut-tpp-20261005": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Aggregated party groups appear to include leaners; seven-point rows include LeanDem and LeanRep. No subgroup bases or LV party composition found.",
+      "record_sha256": "20ae123a659e365da2355e9e2c1646427d07e615d234efb20ad44eae80b170f7",
+      "previous_hold_reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      }
+    },
+    "tx_sen/umass-lowell-yougov-20260928": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. Subgroup bases and LV party composition not found.",
+      "record_sha256": "80820b88f8cde471a2d2dc160f33c65a10f68c76cb305909a46c163b19b7b36a",
+      "previous_hold_reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      }
+    },
+    "tx_sen/reconmr-siena-20261008": {
+      "action": "accept",
+      "reason": "Reopened under user instruction to include previously excluded modeled/unknown-party or uncertain-denominator polls. Use verified complete source table; retain original limitations. IND/OTHER combined; independent_a/b represent the combined group, not pure independents. No subgroup counts found. Review mapping.",
+      "record_sha256": "ab8b5990f99aa008a2ff6d70048eca338ec200a8e11ff862634f39e1d6509975",
+      "previous_hold_reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact subgroup denominators unavailable in the original table. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      }
+    },
+    "tx_sen/houston-hobby-20261014": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Party composition rounded. Estimated counts are floor(2000 \u00d7 share), not reported counts. 4% other/unsure retained outside I; lean treatment unspecified.",
+      "record_sha256": "d53da2d1a56d8ad69d83a7a9d5266bb084ea8115749c4250981549bdc874e2ce"
+    },
+    "tx_sen/texas-southern-20261025": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Estimated counts floor(2000 \u00d7 reported rounded shares), not reported counts; other and unsure excluded from I. Some respondents had already voted.",
+      "record_sha256": "281f91500a0e6aeebe730376aa91e61a3db16dde7fdcaa83fdc09c118caba41d"
+    },
+    "tx_sen/data-for-progress-20261026": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. PDF p. 1 describes self-identified party affiliation. Independent/third-party combined; weighted bases reported, not unweighted.",
+      "record_sha256": "f5d9d8ab4d1896a8e7e7ca1add79395d3990ddb4ce74e7510505ae8f1af60c89"
+    },
+    "tx_sen/marist-20261011": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Same-wave LV table has Paxton among Democrats <1% and no defensible subgroup n; RV is used once as a fully reported alternative. Ns floor(1196 \u00d7 rounded shares); not exact counts. Other 4% separate. LV values and interval retained in metadata.",
+      "record_sha256": "5310f43438183f3542c7f5e55180665b8f699a8c3c06b1f6e5b2d51fd79c7111"
+    },
+    "tx_sen/onpoint-20261018": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. As-asked ballot; same 661 RV cases reweighted for LV. Publication narrative rounds party composition differently from workbook; workbook wins.",
+      "record_sha256": "44eda395917b2616c7f3fdefaa6c79d201e0f8698b81b49b0ef9cce8c7536628",
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Probability-weighted LV table, source weighting effect not reported; working factor3, not calibrated or a guaranteed error bound."
+      }
+    },
+    "tx_sen/onpoint-20261027": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. As-asked ballot. Release and methodology say Oct 27; workbook title says Oct 27\u201328. No duplicate allocation ballot. Unpublished political outlook weighting target and model-based LV weights are comparability concerns.",
+      "record_sha256": "1c282b6b771dd8b870bfc3aab8cf63cee546442a73cc367feaf1c3e0d73438f6",
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Probability-weighted LV table, source weighting effect not reported; working factor3, not calibrated or a guaranteed error bound."
+      }
+    },
+    "tx_sen/emerson-nexstar-20261019": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. I is explicitly Independent/other; weights fractional, not unweighted counts. First choice selected rather than combined vote.",
+      "record_sha256": "71901186d0b43a328f9275ca5cbd619b9cdb497c362a413bf119d4c795a6c8d7"
+    },
+    "tx_sen/cbs-yougov-20261016": {
+      "action": "accept",
+      "reason": "Primary candidate-support table and reported/derived subgroup bases reviewed; publisher definitions and limitations retained. Includes candidate leaners, not first-choice-only; party ID lean treatment not established. Total 1458 is weighted question base, not 1492 RV interviews.",
+      "record_sha256": "52887759b267ac82ce68aab0f02534cf011f05be5f4bd59390c11445b990de39"
+    },
+    "ga_sen/quantus-ga-sen-20261017": {
+      "action": "accept",
+      "record_sha256": "4c5ad1c8db960289395d1547a4e81849be16e1ddd428a2d8d0257623829fc23a",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Modeled party mapped from voter-file field; no self-ID question; weighted status of Q1 subgroup bases unspecified.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_party_id",
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Published table bases with uncertain weighting status and modeled or ambiguous classification. Working factor3; exact primary bases preserved."
+      }
+    },
+    "ak_sen/quantus-ak-sen-20260930": {
+      "action": "accept",
+      "record_sha256": "ae609a9ac6d72ab669bd08e251fb2bc63b2cc123b3fee32c74483c1cbe85c805",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Page 3 calls this respondent-reported identification; p4 says reported voter-file identification, creating provenance ambiguity. Unaffiliated maps to I, not established to include other-party registrants. Q1 first-choice includes other candidates including Daniel J. Sullivan Jr.; incumbent is Dan S. Sullivan. 758 screened full sample, 737 race voters. Base weighting status unspecified. Alaska source conflicts on self-report versus voter-file classification; preserve as unspecified rather than assert self-report. Source Dan S. Sullivan is the modeled incumbent Dan Sullivan; Daniel J. Sullivan Jr. is separately listed and is not substituted.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified",
+        "subgroup_n_method": "reported_count_weighting_unspecified",
+        "candidate_a": "Dan Sullivan"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Published table bases with uncertain weighting status and modeled or ambiguous classification. Working factor3; exact primary bases preserved."
+      }
+    },
+    "mi_sen/quantus-mi-sen-20261006": {
+      "action": "accept",
+      "record_sha256": "6dde5795c21ac7f20e436ac90989567458be1d7e0bff24f0f7cc4eda12112631",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party is modeled voter-file identification, not self-report. 762 completed; 744 race voters. Base weighting status unspecified.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_party_id",
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Published table bases with uncertain weighting status and modeled or ambiguous classification. Working factor3; exact primary bases preserved."
+      }
+    },
+    "nc_sen/quantus-nc-sen-20261025": {
+      "action": "accept",
+      "record_sha256": "3804461196548f1ebcb985355da7b86dd64eeed8d35134fe3868cc241755b938",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party is voter-file registration; Unaffiliated mapped to I. No separately reported other-party registration category; unknown whether collapsed or absent. 746 prescreen, 722 race voters. Base weighting status unspecified.",
+      "inclusion_revision": "reopened",
+      "overrides": {
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Published table bases with uncertain weighting status and modeled or ambiguous classification. Working factor3; exact primary bases preserved."
+      }
+    },
+    "tx_sen/quantus-tx_early-sen-20261011": {
+      "action": "accept",
+      "record_sha256": "3ca3231baf39ee2406d7145db2a995c54f40bda3378c27ba5d9cdfc0ef543086",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party mapped from voter file. Q1 839 race-voter base, 854 total interviewed; use Q1 table bases rather than full-sample party bases. Base weighting status unspecified. Libertarian Brown omitted from table but included in ballot.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_party_id",
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Published table bases with uncertain weighting status and modeled or ambiguous classification. Working factor3; exact primary bases preserved."
+      }
+    },
+    "tx_sen/quantus-tx_late-sen-20261028": {
+      "action": "accept",
+      "record_sha256": "733a27819e067777a1111fdfa85de24484421c4e01d76fbd90319a7f0a44bc7b",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party mapped from voter file. 1,221 overall, 1,207 race voters. Q2 n labels do not explicitly say weighted or unweighted; page 13 labels corresponding derived-table counts weighted equivalents and page 6 labels full-sample counts unweighted. Preserve ambiguity. Democrats 2+96+2+1=101 due to rounding.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_party_id",
+        "subgroup_n_method": "reported_count_weighting_unspecified"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Published table bases with uncertain weighting status and modeled or ambiguous classification. Working factor3; exact primary bases preserved."
+      }
+    },
+    "tx_sen/ras_tx_early": {
+      "action": "accept",
+      "record_sha256": "8248628e222eb7ceeaa10374ead616347c95386e80add22217512170e29c135d",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Oct 1 publication supported by Texas Wikipedia citation and contemporaneous Oct 1 Reddit report.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Rounded published composition multiplied by source total; estimates only, not actual group interviews."
+      }
+    },
+    "tx_sen/ras_tx_late": {
+      "action": "accept",
+      "record_sha256": "49a534032cac5cf31d295d86c7038454cefdc205fe826f73f482b920eb1d0bd8",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Publication date as prior TX inventory, cited aggregator.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Rounded published composition multiplied by source total; estimates only, not actual group interviews."
+      }
+    },
+    "ia_sen/ras_ia": {
+      "action": "accept",
+      "record_sha256": "bb97e854963ebd634db0463da047ebc6da8422ad7051a91c9dc55c648f43cbaa",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. The table\u2019s Republican answer rows sum to 100%; October 2 contemporaneous report supports publication date.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Rounded published composition multiplied by source total; estimates only, not actual group interviews."
+      }
+    },
+    "oh_sen/ras_oh": {
+      "action": "accept",
+      "record_sha256": "9d9a13c4939131caf059386b3859dd1a64f8a027e53fa056eec53f3d2f55c040",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Independent and Another are separate; Another not folded into Independent. Publication date as prior OH inventory.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Rounded published composition multiplied by source total; estimates only, not actual group interviews."
+      }
+    },
+    "mi_sen/ras_mi_early": {
+      "action": "accept",
+      "record_sha256": "b559f8a1825ea1b93245708f21aad0669127f0e37b23352b7de36d276a1525a5",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Publication date as prior MI inventory.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Rounded published composition multiplied by source total; estimates only, not actual group interviews."
+      }
+    },
+    "mi_sen/ras_mi_late": {
+      "action": "accept",
+      "record_sha256": "9cf0f4d12551cee7c3d40e7a94576164961a1c63973e28a77a9753ae7c62e36d",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Publication date supported by Michigan Wikipedia source citation.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "party_basis_unspecified"
+      },
+      "precision": {
+        "method": "derived_total_x_share",
+        "design_effect": 3.0,
+        "evidence": "Rounded published composition multiplied by source total; estimates only, not actual group interviews."
+      }
+    },
+    "tx_sen/pollfinity-tx-20261018": {
+      "action": "accept",
+      "record_sha256": "c960624a92daf776651f8a22c15e62d3c7570eeffb1f8528f7bb255d708f6a7f",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Candidate percentages are weighted actual responses conditional on modeled voter-file categories, not model-produced outcome estimates. Non-Partisan n=17. Source says registered voters but S1 shows 5% not registered, a material population conflict. Publication Oct 22 confirmed pollster media page.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_party_id"
+      },
+      "precision": {
+        "design_effect": 3.0,
+        "evidence": "Raw reported counts, modeled voter-file categories, nonpartisan group n17 and population inconsistency; working factor3, not accuracy calibration."
+      }
+    },
+    "tx_sen/a2-tx-20261027": {
+      "action": "accept",
+      "record_sha256": "3a06567727babdc822cca28ec063b6cbe43b580dd2fe1ee28a45d7019e9cec8b",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Subgroup percentages are model-produced predictions, not weighted raw subgroup responses. Composition itself is modeled turnout; do not multiply by total to invent actual respondent Ns. One-decimal rounding causes Independent sum of all choices 100.1%. Prior TX inventory says Oct 28 but exact publication date not independently confirmed; publicly reported by Oct 29.",
+      "inclusion_revision": "reopened",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_subgroup_estimate"
+      },
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "A2 subgroup percentages and composition are output from a fitted model, with no observed subgroup counts. Explicit working assumption: 5 percentage points SD per candidate/group share; no invented respondent counts; not empirically calibrated."
+      },
+      "publication_date_bounds": [
+        "2026-10-27",
+        "2026-10-29"
+      ]
+    },
+    "tx_sen/ssrs-cnn-tx_sen-20261027": {
+      "action": "accept",
+      "record_sha256": "fe99190efafdfb5d0a9e063de73504097cba922d317401e6bb257d5e61e752fc",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. 923 is registered voter sample, not unweighted LV n; LV results weight all registered respondents by predicted probability of voting. Published groups each at least 125 unweighted cases. Independent/Other pooled; candidate leaners included, party groups exclude leaners. Percentages are rounded. Source accessible in ordinary Safari DocumentCloud viewer.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 125,
+        "evidence": "Original SSRS methodology p1 reports minimum 125 unweighted cases for displayed groups; a lower-bound precision input, not actual group n."
+      }
+    },
+    "me_sen/ssrs-cnn-me_sen-20261026": {
+      "action": "accept",
+      "record_sha256": "3e97144d9c7ebfeb96a58fe3e79e327a5322f8a0563d1c726088b24ea8cdcf03",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. 783 is registered voter sample, not unweighted LV n; LV results weight all registered respondents by predicted probability of voting. Published groups each at least 125 unweighted cases. Independent/Other pooled; candidate leaners included, party groups exclude leaners. Percentages are rounded. Source accessible in ordinary Safari DocumentCloud viewer.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 125,
+        "evidence": "Original SSRS methodology p1 reports minimum 125 unweighted cases for displayed groups; a lower-bound precision input, not actual group n."
+      }
+    },
+    "ks_sen/ssrs-cnn-ks_sen-20261026": {
+      "action": "accept",
+      "record_sha256": "f058766896104f2f4c7aa38c8d8d5187f20cd9029c3a8588efd75b2ec64c0f0f",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. 838 is registered voter sample, not unweighted LV n; LV results weight all registered respondents by predicted probability of voting. Published groups each at least 125 unweighted cases. Independent/Other pooled; candidate leaners included, party groups exclude leaners. Percentages are rounded. Source accessible in ordinary Safari DocumentCloud viewer.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 125,
+        "evidence": "Original SSRS methodology p1 reports minimum 125 unweighted cases for displayed groups; a lower-bound precision input, not actual group n."
+      }
+    },
+    "oh_sen/ssrs-cnn-oh_sen-20261005": {
+      "action": "accept",
+      "record_sha256": "45f1c4890c2a22c9e31a1796a246f4e7478a285d897a68d57f93c537e46e59ed",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. 760 is registered voter sample, not unweighted LV n; LV results weight all registered respondents by predicted probability of voting. Published groups each at least 125 unweighted cases. Independent/Other pooled; candidate leaners included, party groups exclude leaners. Percentages are rounded. Source accessible in ordinary Safari DocumentCloud viewer.",
+      "inclusion_revision": "reopened",
+      "precision": {
+        "method": "suppression_lower_bound",
+        "minimum_n": 125,
+        "evidence": "Original SSRS methodology p1 reports minimum 125 unweighted cases for displayed groups; a lower-bound precision input, not actual group n."
+      }
+    },
+    "oh_sen/bgsu-yougov-oh-20261009": {
+      "action": "accept",
+      "record_sha256": "0c49cf823a1771213a49300a5146f8352867749320f9e1be463611df0889ece4",
+      "reason": "Recovered original complete six-cell table; reopened under user instruction. Primary document calls party ID with leaners; unweighted groups sum 994 of 1000. Also includes Libertarian Bill Redpath and independent Greg Levy; their shares preserved in source excerpt.",
+      "inclusion_revision": "reopened"
+    }
+  },
+  "supplement_files": [
+    "reopened_quantus/polls.json",
+    "reopened_proxy/polls.json",
+    "reopened_access/polls.json"
+  ],
+  "inclusion_policy": {
+    "revision": "reopened",
+    "authorization": "User instructed adding polls previously excluded for modeled affiliation, unknown basis/counts and source-access reasons. User expressly reaffirmed Oct1 publication cutoff.",
+    "proxy_basis_requires_explicit_review_flag": true,
+    "unknown_counts": "Explicit measurement covariance; subgroup n stays null.",
+    "censored_cells": "Explicit interval midpoint plus added variance when justified by source bounds.",
+    "survey_variants": "One version per wave; outside-window and fabricated sources remain excluded."
+  }
+}

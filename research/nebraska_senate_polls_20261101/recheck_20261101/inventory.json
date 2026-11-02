@@ -1,0 +1,63 @@
+{
+  "reviewed_on": "2026-11-01",
+  "race_id": "ne_sen",
+  "new_qualifying_polls": 0,
+  "checked": [
+    {
+      "name": "National Public Affairs, October22",
+      "url": "https://backend.natpublicaffairs.com/media/NE_Tracker_R2_Trend_Memo_102226.7.pdf",
+      "finding": "Two-page memo checked. Full-ballot and head-to-head toplines plus registration composition; no complete six party-ballot cells. Registration shares are not candidate support."
+    },
+    {
+      "name": "National Public Affairs, October12",
+      "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf",
+      "finding": "Three-page memo checked. Ricketts77% among registered Republicans, but remaining five cells absent; other party figures are sample composition."
+    },
+    {
+      "name": "co/efficient, October2",
+      "url": "https://battlegrounds.coefficient.org/ne/",
+      "finding": "Full public questionnaire page checked. Candidate toplines and registration composition; no linked candidate-by-party table found."
+    },
+    {
+      "name": "Concord, October18",
+      "url": "https://concordpublicopinionpartners.org/polls/nebraska-ge-2026",
+      "finding": "Nebraska section reports500LV Oct15\u201318 and says crosstabs available upon request. Other-state tables on same page cannot supply Nebraska cells."
+    },
+    {
+      "name": "YouGov, November1",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ne_20261026_lv.pdf",
+      "finding": "Public10-page release is toplines; no candidate-by-party table recovered."
+    },
+    {
+      "name": "YouGov, October6/7",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ne_20260921_lv.pdf",
+      "finding": "Public12-page release is toplines; no candidate-by-party table recovered."
+    },
+    {
+      "name": "Echelon/NetChoice, October27",
+      "url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "finding": "Public28-page PDF checked. Nebraska candidate question page11 has state topline47/46, not party columns; national party demographics cannot be substituted."
+    },
+    {
+      "name": "Echelon memo",
+      "url": "https://netchoice.org/wp-content/uploads/2026/10/Echelon-Insights-Release-Memo.pdf",
+      "finding": "Companion7-page memo contains policy-question party splits, but no complete Nebraska Senate candidate-by-party cells."
+    },
+    {
+      "name": "Impact October memo lead",
+      "url": "https://www.the-downballot.com/p/morning-digest-keisha-lance-bottoms",
+      "finding": "Aggregator source link led to subscription-gated digest. No public primary complete six-cell table recovered in indexed searches; no values inferred."
+    },
+    {
+      "name": "NYT/Siena October31",
+      "url": null,
+      "finding": "Not accessed after prior explicit site-policy denial. Missing source access, not a claim the report lacks party tabs."
+    },
+    {
+      "name": "GBAO October23",
+      "url": null,
+      "finding": "Previously linked DocSend report unreadable. Six-cell table not verified; older September memo separately archived by re-audit agent."
+    }
+  ],
+  "limitations": "Public-report screening does not prove unpublished or separately posted tables do not exist. No total count of unique public polls inferred from aggregator counts/ballot variants."
+}

@@ -1,0 +1,76 @@
+{
+  "race_id": "ne_sen",
+  "included_count": 1,
+  "sources": [
+    {
+      "path": "research/nebraska_senate_polls_20261101/reopened_older/sources/gbao-sep.pdf",
+      "sha256": "acd6e84c0d704533262c6e06c35e5bbf6f8ae8934af667acae1169c1044767b8",
+      "bytes": 175562
+    },
+    {
+      "path": "research/nebraska_senate_polls_20261101/reopened_older/sources/impact-feb.pdf",
+      "sha256": "03698744ddc937afb52c0bad54699e06e07a48b08a5d1684c00908fef8f759c5",
+      "bytes": 127039
+    },
+    {
+      "path": "research/nebraska_senate_polls_20261101/reopened_older/sources/lake-dec.pdf",
+      "sha256": "6d63d7e34bb5857e7042dcc139d375279f5e2c1eca3c72d294179580f5da1723",
+      "bytes": 288873
+    }
+  ],
+  "checked": [
+    {
+      "url": "https://drive.google.com/file/d/1Izlk1L3prsXm04d-1ZRi8cLSliHvySnC/view",
+      "result": "Included. December 2025 Lake registration crosstabs; published Jan 22 2026 per Wikipedia citation; Jan 27 independent news corroborates public release."
+    },
+    {
+      "url": "https://www.huskeradio.com/2026/01/27/new-independent-poll-shows-nebraskas-u-s-senate-race-tied/",
+      "result": "News corroboration of December Lake poll, date January 27."
+    },
+    {
+      "url": "https://www.osbornforsenate.com/impactpoll",
+      "result": "February 2026 Impact campaign page embeds linked memo."
+    },
+    {
+      "url": "https://drive.google.com/file/d/1J7qIETxmanSTdKOi_-MDIoAaHlE2S0IR/preview",
+      "result": "February Impact memo: independent support 65 Osborn/27 Ricketts; no complete R/D cells."
+    },
+    {
+      "url": "https://static.washingtonsun.com/38/fa/94e79558460286cbf3847a27e4b5/working-class-majority-pac-september-survey-memo-091826.pdf",
+      "result": "September GBAO memo reports 67/22 independent and Osborn 11 among self-ID Republicans; no remaining three cells."
+    },
+    {
+      "url": "https://www.tavernresearch.com/research-and-writings/nebraska-senate-poll",
+      "result": "May 2026 release already included in prior package; no additional wave located."
+    },
+    {
+      "url": "https://www.surveyusa.com/client/PollPrint.aspx?d=0&g=f6e85a00-8f25-4e7d-a2d4-7455491febd2&pt=1",
+      "result": "2024 poll is Osborn\u2013Fischer and Ricketts\u2013Love separately, wrong matchup."
+    },
+    {
+      "url": "https://www.surveyusa.com/client/PollPrint.aspx?d=0&g=d94236a7-5861-4b7f-9d81-d5a81ab786cc&pt=1",
+      "result": "September 2026 release already included, no further matching wave located."
+    },
+    {
+      "url": "https://nebraskaexaminer.com/2025/04/10/nebraskas-dan-osborn-statistically-tied-with-u-s-sen-pete-ricketts-in-poll/",
+      "result": "April 2025 Change Research reports topline, no six cells located."
+    },
+    {
+      "url": "https://poliagg.com/race/us-senate-2026-ne/",
+      "result": "Displayed YouGov demographic data are for age, education, gender, and map independent candidate incorrectly; no qualifying R/D/I cells."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
+      "result": "Inventory of matching waves and direct citations, including Lake December and July 2025. July source reports topline only."
+    },
+    {
+      "url": "https://polls.politicalbetting.com/pollsters/gbao",
+      "result": "GBAO September and October listed; no candidate by party tables."
+    },
+    {
+      "url": "https://www.270towin.com/2026-senate-polls/nebraska",
+      "result": "Additional aggregate inventory; no second SurveyUSA wave identified."
+    }
+  ],
+  "search_limit": "No matching Middle West poll surfaced in targeted indexed searches; not proof none exists. Other October sources under parent audit."
+}

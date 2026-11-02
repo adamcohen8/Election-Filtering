@@ -1,0 +1,20 @@
+{
+  "race_id": "nv_gov",
+  "publication_window": [
+    "2026-10-01",
+    "2026-11-01"
+  ],
+  "included": 6,
+  "october_count": 3,
+  "backfill_count": 3,
+  "target": 10,
+  "shortfall": 4,
+  "notes": [
+    "Three confirmed qualifying October releases, three verified earlier polls. Search limited to located public primary sources; completeness cannot be guaranteed.",
+    "Noble October 2025, 766 RV, released October 21, 2025: only topline located; party crosstabs not located.",
+    "Hart / A More Affordable Nevada October 20\u201325, 2026: topline found, six cells not located.",
+    "GSG / Aaron Ford October 8\u201313, 2026: public memo toplines only. https://data.ddhq.io/polls/2026/10/19/Global-Strategy-Group/Aaron-Ford-Nevada-2026-10-08-2026-10-13",
+    "Concord September 26\u201330, 2026: https://concordpublicopinionpartners.org/polls/nevada-ge-2026 says crosstabs available upon request; no public six cells.",
+    "PPP July 15\u201316: reporting says subgroup details not publicized. Republican-sponsored Tarrance, Grassroots, POS surveys likewise no public six-cell tables located."
+  ]
+}

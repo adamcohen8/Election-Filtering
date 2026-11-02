@@ -1,0 +1,71 @@
+If you had to choose, do you lean more toward (Tom Tiffany) or (David Crowley)?
+Tom Tiffany | | David Crowley | | Haven't decided | | n
+sex
+Man | | 23 | | 24 | | 53 | | 12
+Woman | | 13 | | 18 | | 69 | | 19
+Some other way | | 0 | | 0 | | 100 | | 2
+age
+18-29 | | 0 | | 0 | | 100 | | 4
+30-44 | | 0 | | 16 | | 84 | | 8
+45-59 | | 23 | | 30 | | 47 | | 14
+60+ | | 28 | | 13 | | 59 | | 8
+education
+Not HS | | 0 | | 100 | | 0 | | 1
+HS | | 0 | | 0 | | 100 | | 7
+Some Coll | | 17 | | 0 | | 83 | | 7
+AA | | 33 | | 45 | | 21 | | 3
+BA+ | | 20 | | 24 | | 56 | | 16
+income
+under $50k | | 11 | | 13 | | 77 | | 11
+$50k to $99k | | 10 | | 38 | | 51 | | 10
+$100k plus | | 24 | | 10 | | 67 | | 13
+party ID, leaners as independents
+Independent | | 17 | | 18 | | 65 | | 32
+Democrat | | 0 | | 30 | | 70 | | 2
+party ID, leaners as partisans
+Republican | | 53 | | 28 | | 19 | | 5
+Independent | | 11 | | 18 | | 71 | | 25
+Democrat | | 0 | | 16 | | 84 | | 4
+party ID, leaners separate
+Lean Rep | | 53 | | 28 | | 19 | | 5
+Ind | | 11 | | 18 | | 71 | | 25
+Lean Dem | | 0 | | 0 | | 100 | | 2
+Dem | | 0 | | 30 | | 70 | | 2
+marital status
+Married | | 25 | | 33 | | 41 | | 15
+Widow/Div/Sep/CoHab | | 12 | | 0 | | 88 | | 9
+Never Married | | 4 | | 14 | | 83 | | 10
+race and ethnicity
+White | | 17 | | 23 | | 60 | | 27
+Black | | 0 | | 0 | | 100 | | 3
+Hispanic | | 0 | | 0 | | 100 | | 1
+Other | | 28 | | 0 | | 72 | | 3
+religious service attendance
+More than 1/wk | | 25 | | 0 | | 75 | | 1
+1/week | | 20 | | 0 | | 80 | | 7
+1-2 month | | 48 | | 17 | | 35 | | 4
+few times a year | | 0 | | 26 | | 74 | | 6
+Seldom | | 14 | | 6 | | 80 | | 6
+Never | | 9 | | 39 | | 52 | | 10
+religious preference
+Born again Protestant | | 64 | | 0 | | 36 | | 3
+Mainline Protestant | | 16 | | 21 | | 63 | | 9
+Roman Catholic | | 4 | | 16 | | 79 | | 11
+No religion | | 3 | | 16 | | 81 | | 8
+Other religion | | 49 | | 51 | | 0 | | 3
+ideology
+Very conservative | | 8 | | 0 | | 92 | | 4
+Conservative | | 24 | | 28 | | 49 | | 5
+Moderate | | 17 | | 23 | | 59 | | 21
+Liberal | | 0 | | 0 | | 100 | | 2
+Don't know | | 0 | | 0 | | 100 | | 1
+labor union membership
+respondent | | 0 | | 0 | | 100 | | 2
+another household member | | 0 | | 0 | | 100 | | 3
+nobody in household | | 18 | | 22 | | 59 | | 29
+region of Wisconsin
+MKE City | | 0 | | 0 | | 100 | | 1
+Rest of MKE | | 34 | | 38 | | 29 | | 8
+MSN | | 7 | | 0 | | 93 | | 5
+GB/A | | 5 | | 13 | | 82 | | 5
+Rest of state | | 12 | | 18 | | 70 | | 16

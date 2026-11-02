@@ -1,0 +1,74 @@
+{
+  "race_id": "ks_sen",
+  "cutoff": "2026-09-30",
+  "selection": "Most recent qualifying publication waves before October 1, 2026; 3 sought, 2 located. Publication dates, not field dates, control inclusion. Search is broad but not exhaustive.",
+  "qualifying": [
+    "emerson-ks-20260916",
+    "tavern-ks-20260128"
+  ],
+  "gaps": [
+    {
+      "wave": "co/efficient September 8\u201310",
+      "publication": "September 2026, reported September 11",
+      "url": "https://battlegrounds.coefficient.org/ks/",
+      "reason": "Original page supplies ballot toplines and registered party sample distribution, but no ballot by party crosstabs found."
+    },
+    {
+      "wave": "Global Strategy Group / People Over Politics Action Fund August 12\u201316",
+      "publication": "public by September 3",
+      "url": "https://535.wtf/dispatches/137-kansas-poll-shows-a-one-point-race-and-our-marshall-odds",
+      "reason": "Public toplines found, no six conditional party ballot cells located."
+    },
+    {
+      "wave": "Public Policy Polling August 7\u20138",
+      "publication": "2026-08-13",
+      "url": "https://www.publicpolicypolling.com/polls/a-toss-up-in-kansas/",
+      "reason": "Original pollster release gives independents Hamilton 57% and Marshall 26%, Hamilton 14% among Republicans, but no Republican Marshall or Democratic candidate cells. Full party table not found."
+    },
+    {
+      "wave": "GBAO Hamilton campaign July 8\u201313",
+      "publication": "pre-September 2026 secondary reporting",
+      "url": "https://www.pollcheck.co.uk/us-midterms-2026/senate/kansas",
+      "reason": "Toplines only found; no six conditional cells located."
+    },
+    {
+      "wave": "GQR April 23\u201327",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+      "reason": "Identified as hypothetical versus Patrick Schmidt; a secondary site incorrectly mapped it to Hamilton. Excluded."
+    },
+    {
+      "wave": "Global Strategy Group / Democratic Attorneys General Association September 13\u201316",
+      "publication": "2026-10-02 AG release",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+      "reason": "Senate publication date not verified before cutoff; AG memo dated October 2. No six cells found."
+    },
+    {
+      "wave": "Wedgewood September 22\u201324",
+      "reason": "Fabricated per assignment; excluded."
+    },
+    {
+      "wave": "New York Times/Siena September 22\u201330",
+      "publication": "2026-10-03",
+      "url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-crosstabs.html",
+      "reason": "Outside publication window; endpoint blocked by browser safety policy during existing research. No alternate retrieval attempted."
+    },
+    {
+      "wave": "Fort Hays / Docking Kansas Speaks",
+      "publication": "2026-10-26",
+      "url": "https://www.fhsu.edu/docking/Kansas-Speaks/2026-kansas-speaks-survey-report_final.pdf",
+      "reason": "Official 217-page report and questionnaire inspected: no Hamilton name or Senate ballot question found. Q19_3 party crosstabs measure satisfaction with Marshall, not candidate support; Q23 concerns governor. 603 adult residents, not screened likely voters. October publication considered under expanded instruction, but six Senate candidate cells absent.",
+      "evidence_path": "research/senate_polls_20261101/backfill_ks_sen/sources/kansas-speaks-2026.pdf"
+    }
+  ],
+  "search_sources": [
+    "https://integration-votes.decisiondeskhq.com/polls/2026/kansas",
+    "https://www.pollcheck.co.uk/us-midterms-2026/senate/kansas",
+    "https://www.270towin.com/2026-senate-polls/kansas",
+    "https://www.electiontracker.live/races/senate/kansas-2026.html",
+    "https://www.publicpolicypolling.com/polls/a-toss-up-in-kansas/",
+    "https://www.fhsu.edu/docking/Kansas-Speaks/",
+    "https://emersoncollegepolling.com/kansas-2026/",
+    "https://www.dataforprogress.org/"
+  ],
+  "notes": "Missing party bases and uncertain classification are explicit; no cell extrapolated from partial subgroup statements or ideology."
+}

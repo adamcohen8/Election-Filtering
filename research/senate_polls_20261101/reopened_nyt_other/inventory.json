@@ -1,0 +1,82 @@
+{
+  "releases": [
+    {
+      "race_id": "tx_sen",
+      "pollster": "New York Times / Siena Research Institute",
+      "publication_date": "2026-10-03",
+      "candidate_a": "Ken Paxton",
+      "candidate_b": "James Talarico",
+      "release_url": "https://sri.siena.edu/2026/10/03/nytimes-siena-poll-of-likely-voters-senate-races/",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-texas-poll-crosstabs.html",
+      "source_location": "State-specific Crosstabs link on Siena release",
+      "status": "inaccessible",
+      "reason": "Siena links directly to NYT interactive page, not a Siena-hosted PDF. Web open returned non-retryable error; prior browser site-safety access gate was not bypassed. No full six-cell party table verified.",
+      "republican_a": null,
+      "republican_b": null,
+      "democratic_a": null,
+      "democratic_b": null,
+      "independent_a": null,
+      "independent_b": null
+    },
+    {
+      "race_id": "oh_sen",
+      "pollster": "New York Times / Siena Research Institute",
+      "publication_date": "2026-10-03",
+      "candidate_a": "Jon Husted",
+      "candidate_b": "Sherrod Brown",
+      "release_url": "https://sri.siena.edu/2026/10/03/nytimes-siena-poll-of-likely-voters-senate-races/",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-ohio-poll-crosstabs.html",
+      "source_location": "State-specific Crosstabs link on Siena release",
+      "status": "inaccessible",
+      "reason": "Siena links directly to NYT interactive page, not a Siena-hosted PDF. Web open returned non-retryable error; prior browser site-safety access gate was not bypassed. No full six-cell party table verified.",
+      "republican_a": null,
+      "republican_b": null,
+      "democratic_a": null,
+      "democratic_b": null,
+      "independent_a": null,
+      "independent_b": null
+    },
+    {
+      "race_id": "fl_sen",
+      "pollster": "New York Times / Siena Research Institute",
+      "publication_date": "2026-10-28",
+      "candidate_a": "Ashley Moody",
+      "candidate_b": "Angie Nixon",
+      "release_url": "https://sri.siena.edu/2026/10/28/nytimes-siena-poll-of-likely-voters-florida-minnesota-and-south-carolina/",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-fl-poll-crosstabs.html",
+      "source_location": "State-specific Crosstabs link on Siena release",
+      "status": "inaccessible",
+      "reason": "Siena links directly to NYT interactive page, not a Siena-hosted PDF. Web open returned non-retryable error; prior browser site-safety access gate was not bypassed. No full six-cell party table verified.",
+      "republican_a": null,
+      "republican_b": null,
+      "democratic_a": null,
+      "democratic_b": null,
+      "independent_a": null,
+      "independent_b": null
+    },
+    {
+      "race_id": "mn_sen",
+      "pollster": "New York Times / Siena Research Institute",
+      "publication_date": "2026-10-28",
+      "candidate_a": "Michele Tafoya",
+      "candidate_b": "Peggy Flanagan",
+      "release_url": "https://sri.siena.edu/2026/10/28/nytimes-siena-poll-of-likely-voters-florida-minnesota-and-south-carolina/",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-mn-poll-crosstabs.html",
+      "source_location": "State-specific Crosstabs link on Siena release",
+      "status": "inaccessible",
+      "reason": "Siena links directly to NYT interactive page, not a Siena-hosted PDF. Web open returned non-retryable error; prior browser site-safety access gate was not bypassed. No full six-cell party table verified.",
+      "republican_a": null,
+      "republican_b": null,
+      "democratic_a": null,
+      "democratic_b": null,
+      "independent_a": null,
+      "independent_b": null
+    }
+  ],
+  "search_coverage": [
+    "Siena original release pages and all four labeled state crosstab links",
+    "Siena-hosted PDFs indexed for each state and candidate pair",
+    "state and party-specific search queries"
+  ],
+  "notes": "Separately published ReconMR/Siena Texas October 13 poll is a different wave and is already present in research/tx_sen."
+}

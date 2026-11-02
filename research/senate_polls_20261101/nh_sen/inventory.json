@@ -1,0 +1,167 @@
+{
+  "race_id": "nh_sen",
+  "search_queries": [
+    "2026 New Hampshire Senate Sununu Pappas poll October 2026 crosstabs",
+    "New Hampshire Senate polls October 2026 Pappas Sununu survey party",
+    "New Hampshire Senate 2026 polling October Sununu Pappas pollster",
+    "New Hampshire October 2026 AARP Anselm poll Senate crosstabs",
+    "New Hampshire October 2026 YouGov Pappas Sununu poll party tables",
+    "Rasmussen Pappas Sununu October 2-4 2026 poll",
+    "Saint Anselm Party Identification Swing survey definition",
+    "National Public Affairs New Hampshire October 2026 survey"
+  ],
+  "aggregator_urls": [
+    "https://www.callthemap.com/polls/SEN-NH",
+    "https://www.270towin.com/2026-senate-polls/new-hampshire",
+    "https://www.onpointpolitics.us/polls/nh/senate",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+    "https://votes.decisiondeskhq.com/polls/2026/new-hampshire",
+    "https://www.realclearpolling.com/polls/senate/general/2026/new-hampshire/pappas-vs-sununu"
+  ],
+  "releases": [
+    {
+      "pollster": "UMass Lowell / YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-02",
+      "field_end": "2026-10-19",
+      "original_url": "https://www.uml.edu/news/press-releases/2026/102826-new-england-polls.aspx",
+      "table_url": "https://www.uml.edu/docs/TOPLINE%20-%20UMass%20Lowell%20NEW%20HAMPSHIRE%20GEN%201%20202610XX%20FINAL_tcm18-424375.pdf",
+      "status": "candidate_needs_denominator",
+      "reason": "Leaning party ID complete; missing group bases."
+    },
+    {
+      "pollster": "National Public Affairs",
+      "sponsor": null,
+      "publication_date": "2026-10-16",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-12",
+      "original_url": "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_101526.2.pdf",
+      "table_url": "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_101526.2.pdf",
+      "status": "candidate_needs_review",
+      "reason": "Registration and estimated weighted composition bases; registration source unspecified."
+    },
+    {
+      "pollster": "Saint Anselm College Survey Center",
+      "sponsor": null,
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-19",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-democrats-leading-congressional-races-affordability-concerns-shape-election-landscape",
+      "table_url": "https://www.anselm.edu/sites/default/files/2026-10/October%2019-20%20Poll%20Results.pdf",
+      "status": "candidate_needs_review",
+      "reason": "Swing identification undefined; registration fallback needs source confirmation."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-02",
+      "field_end": "2026-10-04",
+      "original_url": "https://www.rasmussenreports.com/public_content/archive/election_2026/n_h_senate_lead_narrows_for_democrat_pappas",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_new_hampshire_senate_october_2_4_2026",
+      "status": "candidate_needs_review",
+      "reason": "Party measure unspecified and estimated subgroup bases available; primary publication date not displayed; wave in October 5 changelog.",
+      "alternate_dates": "Wikipedia cites Oct 26, apparently incorrect for this earlier wave."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-26",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-23",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_new_hampshire_senate",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_new_hampshire_senate_october_20_23_2026",
+      "status": "candidate_needs_review",
+      "reason": "Party measure unspecified and estimated subgroup bases available; publication date from secondary citation."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-07",
+      "field_start": "2026-09-28",
+      "field_end": "2026-10-05",
+      "original_url": "https://yougov.com/en-us/articles/55703-new-polls-in-seven-states-show-tight-races-for-senate-and-governor-in-each-including-leads-for-talarico-brown-and-acton",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_nh_20260921_lv.pdf",
+      "status": "excluded",
+      "reason": "PDF 12-page toplines without party crosstabs found. Wikipedia says Oct 6; YouGov seven-state article is Oct 7."
+    },
+    {
+      "pollster": "Saint Anselm College Survey Center",
+      "sponsor": "AARP",
+      "publication_date": "2026-10-06",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-29",
+      "original_url": "https://www.aarp.org/press/releases/2026-10-06-new-aarp-new-hampshire-poll-older-voters-will-play-key-role-in-senate-governor-races/",
+      "table_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-new-hampshire.doi.10.26419-2fres.01065.022.pdf",
+      "status": "candidate_needs_review",
+      "reason": "Original PDF recovered: complete party-identification support and reported weighted group frequencies; party ID measure and lean handling unspecified, registration alternative in same wave."
+    },
+    {
+      "pollster": "University of New Hampshire Survey Center",
+      "sponsor": null,
+      "publication_date": "2026-09-24",
+      "field_start": "2026-09-17",
+      "field_end": "2026-09-21",
+      "original_url": "https://scholars.unh.edu/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication; October aggregator added date is not publication."
+    },
+    {
+      "pollster": "The New York Times / Siena College",
+      "sponsor": null,
+      "publication_date": "2026-09-24",
+      "field_start": "2026-09-15",
+      "field_end": "2026-09-22",
+      "original_url": "https://www.nytimes.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication; October aggregator added date is not publication."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-09-18",
+      "field_start": "2026-09-16",
+      "field_end": "2026-09-17",
+      "original_url": "https://insideradvantage.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication; October aggregator added date is not publication."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-09-11",
+      "field_start": "2026-09-08",
+      "field_end": "2026-09-10",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication; October aggregator added date is not publication."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-09-27",
+      "field_start": "2026-09-26",
+      "field_end": "2026-09-27",
+      "original_url": "https://www.thetrafalgargroup.org/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication; field dates differ among aggregators."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Repository-blocked fabricated pollster; no specific NH race wave established in search."
+    }
+  ]
+}

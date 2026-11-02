@@ -1,0 +1,15 @@
+{
+  "race_id": "nh_gov",
+  "search_through": "2026-11-01",
+  "selected_count": 10,
+  "october_selected_count": 3,
+  "coverage_sources": ["https://www.270towin.com/2026-governor-polls/new-hampshire", "https://www.onpointpolitics.us/polls/nh/governor", "https://www.callthemap.com/polls/GOV-NH", "https://www.realclearpolling.com/polls/governor/general/2026/new-hampshire/ayotte-vs-warmington"],
+  "unresolved": [
+    {"pollster":"Rasmussen Reports", "field_end":"2026-10-23", "publication_date":"2026-10-26", "status":"held_source_integrity", "source_url":"https://ec2-3-16-228-157.us-east-2.compute.amazonaws.com/public_content/archive/election_2026/n_h_governor_ayotte_52_warmington_42", "notes":"Six values in article but incorrect third-candidate name John Horsley, national-survey wording and internal gender inconsistency. Publication date secondary. Actual questionnaire not verified; excluded from ten."},
+    {"pollster":"National Public Affairs", "field_end":"2026-10-12", "publication_date":"2026-10-16", "status":"incomplete", "source_url":"https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_101526.2.pdf", "notes":"Ayotte registration R 91 D 16 undeclared 50; Warmington undeclared 39; missing Warmington R and D."},
+    {"pollster":"YouGov", "field_end":"2026-10-05", "publication_date":"2026-10-07", "status":"incomplete", "notes":"Standalone YouGov 1520 LV release and toplines found; complete party ballot crosstabs not located; distinct from UMass/YouGov."},
+    {"pollster":"NYT/Siena", "field_end":"2026-09-22", "publication_date":"2026-09-24", "status":"access_blocked", "source_url":"https://www.nytimes.com/interactive/2026/09/24/polls/times-siena-poll-nh-crosstabs.html", "notes":"No alternate access attempted; September 25 date also appears in some aggregators. User-supplied table could resolve values."},
+    {"pollster":"co/efficient", "field_end":"2026-09-11", "publication_date":"2026-09-14", "status":"incomplete", "notes":"Topline and sample composition located, but six party conditional cells not found."},
+    {"pollster":"Wedgewood", "status":"excluded", "notes":"Blocked fabricated pollster; no assumption a NH wave exists."}
+  ]
+}

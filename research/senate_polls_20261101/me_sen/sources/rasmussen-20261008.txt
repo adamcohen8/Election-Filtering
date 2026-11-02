@@ -1,0 +1,7 @@
+Source: https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_5_8_2026
+Release: https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_maine_senate
+Location: Crosstabs Q1 and Survey Demographics
+
+Party columns D/R/Ind-Other: Collins 10/89/46%; Jackson 87/8/48%; party composition D35/R32/I33%; total 804 LV.
+
+Table labels Party but source does not establish how classified; classification as party_id is tentative and requires verification; must not be ingested if based on model inference. Ns floor(804 x rounded shares), estimates.

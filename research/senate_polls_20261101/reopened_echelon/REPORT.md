@@ -1,0 +1,9 @@
+# Echelon Insights follow-up
+
+No additional poll meets the requirement for candidate support conditional on Republican, Democratic, and Independent voters. NetChoice’s October 27 release and its two linked documents identify five modeled-state Senate matchups (FL, GA, IA, ME and OH), but only state totals are available. Inventory records totals and dates for audit only; polls.json is empty, consistent with the user’s instruction to require party crosstabs. A sixth oversample is Nebraska, outside the 12 modeled races.
+
+The 28-page original topline contains state-specific Senate ballot questions 12, 16, 19, 23 and 26; the seven-page Echelon memo summarizes the same state results and reports partisan breaks for policy issues, not Senate choice within state and party. No public state-by-party ballot crosstab was identified in targeted sponsor, pollster and search-engine queries. These are not proof that an unpublished table does not exist. The original Maine Senate question names Troy Jackson, not Graham Platner. The memo’s internal Oct 26 date is not an established publication date; the linked sponsor statement is explicitly Oct 27.
+
+A separate Echelon national omnibus, fielded October 15–19 and published October 20, has a public full crosstab workbook. It aggregates all state Senate contests as a generic [NAME] Republican, Democratic or independent choice. Its party columns cannot be interpreted as a crosstab for a specific state’s candidates; it is a different survey from NetChoice’s October 16–23 sample. The downloaded original omnibus workbook is in sources.
+
+The NetChoice primary PDF and memo were readable through the web PDF reader; direct downloads of both and the release returned HTTP 403. No access controls were bypassed. The source transcription gives exact page references and URLs for independent inspection.

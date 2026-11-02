@@ -1,0 +1,43 @@
+{
+  "polls": [
+    {
+      "race_id": "fl_sen",
+      "state": "Florida",
+      "office": "senate",
+      "poll_id": "stpete-fl-20260917",
+      "pollster": "St. Pete Polls",
+      "sponsor": null,
+      "publication_date": "2026-09-18",
+      "field_start": "2026-09-15",
+      "field_date": "2026-09-17",
+      "population": "LV",
+      "candidate_a": "Ashley Moody",
+      "candidate_b": "Angie Nixon",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "crosstab_basis": "party_registration",
+      "party_question": "Unweighted party table explicit. Party measure inferred as registration from Florida voter-file sampling and sample demographics; Independent Voter pools non-D/R registrations, composition consistent. Overall topline weighting is separate from this explicitly non-weighted table.",
+      "ballot_question_stage": "Initial Senate ballot; one version per survey.",
+      "reported_total_n": 913,
+      "subgroup_n_method": "reported_unweighted",
+      "sample_id": "stpete-fl-20260917",
+      "source_url": "https://stpetepolls.org/files/StPetePolls_2026_State_Gov_September17_G7V29BPN.pdf",
+      "release_url": "https://floridapolitics.com/archives/820643-poll-ashley-moody-45-angie-nixon-45-and-florida-now-has-two-toss-ups-at-the-top-of-the-ticket/",
+      "source_location": "p6 Senate non-weighted party table; p1 method",
+      "evidence_path": "research/senate_polls_20261101/backfill_fl_sen/sources/stpete-september.pdf",
+      "evidence_excerpt": "R/D/I Ashley Moody: 0.767/0.081/0.374; Angie Nixon: 0.124/0.852/0.498.",
+      "notes": "Unweighted party table explicit. Party measure inferred as registration from Florida voter-file sampling and sample demographics; Independent Voter pools non-D/R registrations, composition consistent. Overall topline weighting is separate from this explicitly non-weighted table.",
+      "provenance_type": "primary_source_transcription",
+      "ingestion_status": "needs_review",
+      "republican_a": 0.767,
+      "republican_b": 0.124,
+      "democratic_a": 0.081,
+      "democratic_b": 0.852,
+      "independent_a": 0.374,
+      "independent_b": 0.498,
+      "republican_n": 412,
+      "democratic_n": 298,
+      "independent_n": 203
+    }
+  ]
+}

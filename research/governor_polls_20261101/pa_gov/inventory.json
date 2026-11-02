@@ -1,0 +1,63 @@
+{
+  "race_id": "pa_gov",
+  "included_count": 5,
+  "included": [
+    "activote-pa-gov-20261021",
+    "quinnipiac-pa-gov-20261005",
+    "quinnipiac-pa-gov-20260713",
+    "quinnipiac-pa-gov-20260223",
+    "quinnipiac-pa-gov-20250929"
+  ],
+  "unresolved": [
+    {
+      "poll": "Franklin & Marshall Oct 22, 2026",
+      "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-october-2026/",
+      "reason": "Downloaded October summary and topline PDFs in sources/ and inspected all pages. Ballot toplines appear, but the four selected party crosstabs concern other questions; no ballot-by-party table."
+    },
+    {
+      "poll": "Bravo/PennLive Oct 2026 and September",
+      "url": "https://bravogroup.us/morning-scrapple/",
+      "reason": "Inspected October Looker Studio dashboard in Safari: Republican filter yields Garrity 56%, Shapiro 24%, but Democratic and independent cells were not recovered; exclude incomplete table. September dashboard remains unverified."
+    },
+    {
+      "poll": "Z to A / Rust Belt Rising Sep 28\u2013Oct 1",
+      "url": "https://www.callthemap.com/polls/pollsters/z-to-a-research",
+      "reason": "Sponsor poll listed, party crosstabs not verified."
+    },
+    {
+      "poll": "Susquehanna Sep 22\u201330",
+      "url": "https://www.270towin.com/2026-governor-polls/pennsylvania",
+      "reason": "Poll listed, party crosstabs not verified."
+    },
+    {
+      "poll": "NYT/Inquirer/Siena September and August",
+      "url": "https://www.nytimes.com/interactive/2026/09/24/polls/times-inquirer-siena-pa-poll-lv-crosstabs.html",
+      "reason": "NYT browser access blocked by policy; no alternative retrieval or screenshots. Link requires verification, seek user-provided governor table."
+    },
+    {
+      "poll": "On Point Pennsylvania",
+      "url": "https://www.onpointpolitics.us/on-point-polling/polls",
+      "reason": "Poll releases list shows no Pennsylvania statewide fieldwork; model/forecast crosstabs are not polling."
+    },
+    {
+      "poll": "Muhlenberg October",
+      "url": "https://politicspa.com/elections/news/pa-07-poll-brooks-49-mackenzie-43",
+      "reason": "PA-07 district survey, not statewide; no complete statewide governor table located."
+    },
+    {
+      "poll": "National Public Affairs Aug 4",
+      "url": "https://backend.natpublicaffairs.com/media/PA_Statewide_Topline_08042026%20-Public_Release-v2.pdf",
+      "reason": "Primary memo has ballot topline and party composition, but no ballot by party table."
+    },
+    {
+      "poll": "Franklin & Marshall August, June, March 2026",
+      "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-august-2026/",
+      "reason": "Downloaded and inspected summaries in sources/. August appendix tables A1\u2013A5 concern finances, governor approval, president approval, inflation and policy effects; June A1\u2013A4 and March A1\u2013A6 likewise contain no governor vote-by-party table."
+    },
+    {
+      "poll": "PPP/DGA September 2025",
+      "url": "https://democraticgovernors.org/wp-content/uploads/2025/09/September-PA-Polling_Garrity.pdf",
+      "reason": "Primary PDF contains Republican primary Garrity versus Mastriano, not the required general election matchup."
+    }
+  ]
+}

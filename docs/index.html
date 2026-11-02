@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Election Filtering</title>
-    <link rel="stylesheet" href="styles.css?v=20260706-tilt-ratings-1">
+    <link rel="stylesheet" href="styles.css?v=20261101-rolling-average-1">
   </head>
   <body>
     <main class="shell" id="dashboard-page">
@@ -37,6 +37,10 @@
           <strong id="blue-count">0</strong>
         </div>
         <div class="metric">
+          <span class="metric-label">Independent</span>
+          <strong id="independent-count">0</strong>
+        </div>
+        <div class="metric">
           <span class="metric-label">Tossup</span>
           <strong id="tossup-count">0</strong>
         </div>
@@ -60,7 +64,8 @@
             <span><i class="swatch lean-democratic"></i>Lean D</span>
             <span><i class="swatch likely-democratic"></i>Likely D</span>
             <span><i class="swatch safe-democratic"></i>Safe D</span>
-            <span><i class="swatch unmodeled"></i>Unmodeled</span>
+            <span><i class="swatch independent"></i>Independent</span>
+            <span><i class="swatch unmodeled"></i>Unrated / unmodeled</span>
           </div>
         </div>
 
@@ -109,6 +114,7 @@
                 <span class="makeup-bar-segment republican" id="senate-republican-bar"></span>
                 <span class="makeup-bar-segment tossup" id="senate-tossup-bar"></span>
                 <span class="makeup-bar-segment democratic" id="senate-democratic-bar"></span>
+                <span class="makeup-bar-segment independent" id="senate-independent-bar"></span>
               </div>
               <dl class="makeup-rows">
                 <div>
@@ -120,7 +126,11 @@
                   <dd id="senate-democratic-seats">-</dd>
                 </div>
                 <div>
-                  <dt>Tossup</dt>
+                  <dt>Independent (caucus unassigned)</dt>
+                  <dd id="senate-independent-seats">-</dd>
+                </div>
+                <div>
+                  <dt>Tossup / unrated</dt>
                   <dd id="senate-tossup-seats">-</dd>
                 </div>
               </dl>
@@ -145,13 +155,13 @@
                   <dd id="governor-democratic-seats">-</dd>
                 </div>
                 <div>
-                  <dt>Tossup</dt>
+                  <dt>Tossup / unrated</dt>
                   <dd id="governor-tossup-seats">-</dd>
                 </div>
               </dl>
             </section>
           </div>
-          <p class="panel-note">Unmodeled races hold with the incumbent party; modeled tossups are unassigned.</p>
+          <p class="panel-note">Unmodeled races hold with the incumbent party; modeled tossups and unrated races are unassigned.</p>
         </aside>
       </section>
     </main>
@@ -167,6 +177,7 @@
       </section>
 
       <section class="race-prediction" aria-label="Race prediction">
+        <h2>Kalman estimate</h2>
         <div class="detail-grid race-grid">
           <div>
             <span>Leader</span>
@@ -201,14 +212,29 @@
         </dl>
       </section>
 
+      <section class="race-prediction" aria-labelledby="race-rolling-title">
+        <div>
+          <h2 id="race-rolling-title">7-poll rolling average</h2>
+          <p class="panel-note" id="race-rolling-summary">Awaiting polls</p>
+        </div>
+        <div class="rolling-support">
+          <strong id="race-rolling-republican">Republican: —</strong>
+          <strong id="race-rolling-democratic">Democratic: —</strong>
+          <span>R − D margin: <strong id="race-rolling-margin">—</strong></span>
+        </div>
+        <p class="panel-note">Each poll counts equally. Uses the latest seven polls, or all available if fewer. Crosstabs use the model's electorate weights. This average has no Election Day projection or uncertainty interval.</p>
+      </section>
+
       <section class="race-chart-card" aria-labelledby="race-chart-title">
         <div class="chart-heading">
           <h2 id="race-chart-title">Model Over Time</h2>
           <div class="chart-legend" aria-label="Chart legend">
-            <span><i class="line-key republican"></i>Republican model</span>
-            <span><i class="line-key democratic"></i>Democratic model</span>
+            <span><i class="line-key republican"></i>Republican Kalman</span>
+            <span><i class="line-key democratic"></i><span data-opponent-kind="Kalman">Democratic Kalman</span></span>
+            <span><i class="line-key rolling republican"></i>Republican 7-poll average</span>
+            <span><i class="line-key rolling democratic"></i><span data-opponent-kind="7-poll average">Democratic 7-poll average</span></span>
             <span><i class="x-key republican"></i>Republican poll</span>
-            <span><i class="x-key democratic"></i>Democratic poll</span>
+            <span><i class="x-key democratic"></i><span data-opponent-kind="poll">Democratic poll</span></span>
           </div>
         </div>
         <div id="race-chart" class="race-chart" role="img" aria-label="Race model history chart"></div>
@@ -217,6 +243,6 @@
 
     <script src="vendor/d3.min.js"></script>
     <script src="vendor/topojson-client.min.js"></script>
-    <script src="app.js?v=20260706-tilt-ratings-1"></script>
+    <script src="app.js?v=20261101-rolling-average-1"></script>
   </body>
 </html>

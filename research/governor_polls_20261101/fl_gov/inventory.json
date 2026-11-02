@@ -1,0 +1,155 @@
+{
+  "race_id": "fl_gov",
+  "entries": [
+    {
+      "poll_id": "redbox-20261031",
+      "status": "included",
+      "publication_date": "2026-11-01",
+      "source_url": "https://afightworthhaving.com/polling/2026/florida/crosstabs.pdf"
+    },
+    {
+      "poll_id": "activote-20261031",
+      "status": "included",
+      "publication_date": "2026-10-31",
+      "source_url": "https://www.activote.net/polls/2026/fl-governor/"
+    },
+    {
+      "poll_id": "stetson-20261030",
+      "status": "included",
+      "publication_date": "2026-10-30",
+      "source_url": "https://www.stetson.edu/artsci/cpor/media/cpor-release-lateoct2026.pdf"
+    },
+    {
+      "poll_id": "insider-20261029",
+      "status": "included",
+      "publication_date": "2026-10-30",
+      "source_url": "https://pbs.twimg.com/media/HV6UprSa8AA-m08.jpg"
+    },
+    {
+      "poll_id": "stpete-20261027",
+      "status": "included",
+      "publication_date": "2026-10-27",
+      "source_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October27_P4GSI29L.pdf"
+    },
+    {
+      "poll_id": "unf-20261019",
+      "status": "included",
+      "publication_date": "2026-10-21",
+      "source_url": "https://static1.squarespace.com/static/6994d571bce3436c60d86870/t/6ad8a5ec13c20404a1f8052b/1792583148294/UNF%2BPORL%2BFALL%2BStatewide%2B2026%2BFLLV%2B-%2BPress%2BRelease%2B1021%2BEMBARGO.pdf"
+    },
+    {
+      "poll_id": "yougov-univision-20261015",
+      "status": "included",
+      "publication_date": "2026-10-19",
+      "source_url": "https://st1.uvnimg.com/65/9b/a8b15584426684070c3d05cf6e34/n-univision-florida-poll-crosstabs-base-final.pdf"
+    },
+    {
+      "poll_id": "activote-20261019",
+      "status": "included",
+      "publication_date": "2026-10-19",
+      "source_url": "https://www.activote.net/polls/2026/fl-governor/2026-10-19/"
+    },
+    {
+      "poll_id": "onpoint-20261018",
+      "status": "included",
+      "publication_date": "2026-10-19",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lvWZQjjccNoY-Xae9DTujsND8MtMIZRs2UlLw-17toM/edit?gid=1259501057#gid=1259501057"
+    },
+    {
+      "poll_id": "stpete-20261007",
+      "status": "included",
+      "publication_date": "2026-10-07",
+      "source_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October7_K7ZU3GA.pdf"
+    },
+    {
+      "pollster": "NYT/Siena",
+      "source_url": "https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-fl-poll-crosstabs.html",
+      "status": "unresolved_or_excluded",
+      "reason": "Original Florida governor crosstab blocked by browser policy; no alternate retrieval attempted. Link confirmed from Siena October 28 release."
+    },
+    {
+      "pollster": "Political Matrix / Listener Group",
+      "source_url": "https://palafoxproductions.com/new-florida-statewide-poll-for-november-election/",
+      "status": "unresolved_or_excluded",
+      "reason": "Oct 26\u201328: release gives own-party support, undecideds and NPA support but does not explicitly give both crossover cells. Do not infer unreported cells."
+    },
+    {
+      "pollster": "Mason-Dixon / NBC6",
+      "source_url": "https://www.nbcmiami.com/elections/florida-poll/3869071/",
+      "status": "unresolved_or_excluded",
+      "reason": "October 6/7 article says Jolly 85 and Donalds 19 among Democrats (sum 104); original poll document needed to resolve."
+    },
+    {
+      "pollster": "Stetson mid-October",
+      "source_url": "https://www.stetson.edu/artsci/cpor/media/cpor-fall-2026-report-wave-2-october.pdf",
+      "status": "unresolved_or_excluded",
+      "reason": "October 1\u20139 wave. Linked 18 MB full report could not be read via web PDF extractor and terminal DNS unavailable; release gives topline only."
+    },
+    {
+      "pollster": "Big Data Poll",
+      "source_url": "https://www.bigdatapoll.com/blog/sunshine-state-poll-ashley-moody-leads-angie-craig-governors-race-tight/",
+      "status": "unresolved_or_excluded",
+      "reason": "Governor correct matchup but interactive MarketSight table not extracted. Release has inconsistent Senate candidate names and LV counts across sources."
+    },
+    {
+      "pollster": "RedBox earlier wave",
+      "source_url": "https://afightworthhaving.com/polling/2026/florida/governor",
+      "status": "unresolved_or_excluded",
+      "reason": "Oct 20\u201323 wave acknowledged; current crosstab URL replaced by Nov 1 wave; older governor table not recovered."
+    },
+    {
+      "pollster": "Echelon / NetChoice",
+      "source_url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+      "status": "unresolved_or_excluded",
+      "reason": "October state subsample; original subgroup table not recovered."
+    },
+    {
+      "pollster": "co/efficient",
+      "source_url": "https://battlegrounds.coefficient.org/fl/",
+      "status": "unresolved_or_excluded",
+      "reason": "Governor Q7 published as topline, not party breakdown."
+    },
+    {
+      "pollster": "MDW / EDGE",
+      "source_url": "https://www.mdwcommunications.com/media/florida-statewide-poll-october-2026.html",
+      "status": "unresolved_or_excluded",
+      "reason": "Oct 14 original memo provides topline and party composition, not six candidate support cells."
+    },
+    {
+      "pollster": "Fabrizio Lee",
+      "source_url": "https://floridapolitics.com/archives/824797-last-call-for-10-13-26-a-prime-time-read-of-whats-going-down-in-florida-politics/",
+      "status": "unresolved_or_excluded",
+      "reason": "October 13 campaign internal, governor party crosstabs not publicly disclosed in identified reporting."
+    },
+    {
+      "pollster": "Change Research",
+      "source_url": "https://changeresearch.com/research/2026/2026-09-28-florida-aapor-methodology-statement",
+      "status": "unresolved_or_excluded",
+      "reason": "September 25\u201327 survey, pre-window; toplines only in statement. Backfill unnecessary with ten October records."
+    },
+    {
+      "pollster": "St. Pete September",
+      "source_url": "https://stpetepolls.org/files/StPetePolls_2026_State_Gov_September17_G7V29BPN.pdf",
+      "status": "unresolved_or_excluded",
+      "reason": "September 17 source has complete governor tables; backfill not needed."
+    },
+    {
+      "pollster": "YouGov early October",
+      "source_url": "https://home.fau.edu/burnettc/web/polls.html",
+      "status": "unresolved_or_excluded",
+      "reason": "Sept 28\u2013Oct 5 wave identified via aggregator; original complete governor crosstabs and first release not located."
+    },
+    {
+      "pollster": "Targoz / James Madison Institute",
+      "source_url": "https://home.fau.edu/burnettc/web/polls.html",
+      "status": "unresolved_or_excluded",
+      "reason": "Sept 28\u2013Oct 4 wave; publicly indexed source links to marginals; qualifying party breakdown not verified."
+    },
+    {
+      "pollster": "Wedgewood",
+      "source_url": null,
+      "status": "unresolved_or_excluded",
+      "reason": "Excluded: fabricated pollster, not evidence."
+    }
+  ]
+}

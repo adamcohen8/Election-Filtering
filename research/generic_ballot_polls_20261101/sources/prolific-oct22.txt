@@ -1,0 +1,577 @@
+ Prolific Poll (US) | October 2026
+ Full questionnaire: 2026 midterm generic ballot and political trackers
+
+
+ Fieldwork                  21–22 October 2026
+
+ Mode                       Online, self-administered; survey scripted in Qualtrics. About 4 minutes.
+
+ Sample                     US adults on Prolific's opt-in online participant panel, invited using propensity-score sampling: a
+                            model of how the panel differs from the US adult population on age, sex, race, education, region
+                            and 2024 and 2020 presidential vote defined 25 groups, each invited in proportion to its population
+                            share. 1,518 US adult citizens analysed (non-citizens and one duplicate session excluded).
+
+ Profile data               2020 presidential vote is taken from Prolific's participant-level profile data and is not asked in this
+                            survey. 2024 presidential vote from the profile was used to invite participants; it is also asked in the
+                            survey (Vote2024).
+
+ Randomisation              (1) Order of the parties in the generic-ballot question: half of respondents saw the Democratic
+                            candidate listed first, half the Republican candidate first (even presentation). (2) Topic-choice
+                            experiment: a random half of respondents were first asked which topic they would like to give
+                            opinions on; the other half went straight to the political questions. See Section 2.
+
+ Question order             As printed below, following the fielded survey flow: Introduction and consent, Topic-choice
+                            experiment (random half), Political questions, About you, Additional questions, End.
+
+ Source                     Transcribed directly from the fielded Qualtrics survey file. Numeric answer codes are omitted for
+                            readability; question wording, option order and display logic are reproduced as fielded. Every
+                            question required an answer.
+
+ 1 Introduction and consent
+
+ Consent
+ Hello! Thank you for taking part in the Prolific Poll.
+
+ This short survey (about 4 minutes) is run by the Prolific team. We will ask about your views on current issues
+ and a few questions about you.
+
+ You may also be invited to two very short paid follow-up surveys in the following weeks. Participating in those
+ follow-up surveys is not mandatory.
+
+ Please answer honestly. All data will be kept fully anonymous at all times.
+
+ Are you happy to continue?
+      ○  Yes
+      ○  No
+ Respondents who selected "No" were routed straight to the end of the survey.
+
+ 2 Topic-choice experiment (random half of respondents)
+ Shown only to the random half assigned to the experiment; the other half went straight to Section 3. Everyone, whichever
+ topic they picked, then answered all the political questions in Section 3. Respondents who picked politics went straight to
+ Section 3; those who picked another topic first answered the one question for that topic, then saw a short transition
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                            1
+
+ screen.
+
+ TopicChoice
+ For which of the following would you like to provide your opinions?
+      ○  Movies
+      ○  Politics
+      ○  Health
+      ○  Sports
+
+ SportsRate
+ How would you rate each of the following athletes?
+                                         Very                Somewhat            Somewhat            Very                 Haven't
+                                         favorable           favorable           unfavorable         unfavorable          heard
+                                                                                                                          enough
+       Patrick Mahomes                   ○                   ○                   ○                   ○                    ○
+       Shohei Ohtani                     ○                   ○                   ○                   ○                    ○
+       Caitlin Clark                     ○                   ○                   ○                   ○                    ○
+       Lionel Messi                      ○                   ○                   ○                   ○                    ○
+ Shown if "Sports" was selected at TopicChoice. Athletes shown in the order listed.
+
+ HealthExercise
+ In a typical week, on how many days do you do at least 30 minutes of physical exercise?
+      ○  0
+      ○  1
+      ○  2
+      ○  3
+      ○  4
+      ○  5
+      ○  6
+      ○  7
+ Shown if "Health" was selected at TopicChoice.
+
+ MoviesFreq
+ How often do you watch a movie, either at home or in a cinema?
+      ○  Every day or almost every day
+      ○  A few times a week
+      ○  About once a week
+      ○  A few times a month
+      ○  Less often
+      ○  Never
+ Shown if "Movies" was selected at TopicChoice.
+
+ Transition
+ Thank you. We would also like your views on some current issues.
+ Shown to respondents who did not select "Politics" at TopicChoice, before Section 3. Information screen; no response.
+
+ 3 Political questions
+ Asked of all respondents.
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                           2
+
+ TrumpApprove
+ Do you approve or disapprove of the way Donald Trump is handling his job as president?
+      ○  Strongly approve
+      ○  Somewhat approve
+      ○  Somewhat disapprove
+      ○  Strongly disapprove
+      ○  Not sure
+
+ RightTrack
+ Generally speaking, would you say things in this country are heading in the right direction, or are they off on
+ the wrong track?
+      ○  Right direction
+      ○  Off on the wrong track
+      ○  Not sure
+
+ CongressApprove
+ Do you approve or disapprove of the way that the United States Congress is handling its job?
+      ○  Strongly approve
+      ○  Somewhat approve
+      ○  Somewhat disapprove
+      ○  Strongly disapprove
+      ○  Not sure
+
+ LikeVote
+ How likely are you to vote in the midterm election for the U.S. Congress on November 3, 2026?
+      ○  Definitely will vote
+      ○  Probably will vote
+      ○  Maybe / 50-50
+      ○  Probably will not vote
+      ○  Definitely will not vote
+      ○  I have already voted
+      ○  I am not eligible to vote
+
+ LikeVote10
+ On a scale from 0 to 10, where 0 means you will definitely not vote and 10 means you will definitely vote, how
+ likely are you to vote in the election for the U.S. Congress on November 3, 2026?
+      ○  0
+      ○  1
+      ○  2
+      ○  3
+      ○  4
+      ○  5
+      ○  6
+      ○  7
+      ○  8
+      ○  9
+      ○  10
+
+
+
+
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                                3
+
+ GenBallot
+ If the election for U.S. Congress were held today, would you vote for the Democratic Party candidate or the
+ Republican Party candidate in your district?
+
+ If you have already voted, please tell us how you voted.
+      ○  The Democratic Party candidate
+      ○  The Republican Party candidate
+      ○  Other
+      ○  Not sure
+      ○  I would not vote
+ One of two versions, assigned at random with even presentation: half of respondents saw the Democratic Party candidate
+ listed first (shown here), half saw the Republican Party candidate first (GenBallotRfirst, below). Wording otherwise identical.
+
+ GenBallotRfirst
+ If the election for U.S. Congress were held today, would you vote for the Democratic Party candidate or the
+ Republican Party candidate in your district?
+
+ If you have already voted, please tell us how you voted.
+      ○  The Republican Party candidate
+      ○  The Democratic Party candidate
+      ○  Other
+      ○  Not sure
+      ○  I would not vote
+ Version with the Republican Party candidate listed first; shown to the other half of respondents.
+
+ GenBallotLean
+ If you had to choose, which party’s candidate do you lean toward?
+      ○  The Democratic Party candidate
+      ○  The Republican Party candidate
+      ○  Neither / still not sure
+ Shown if "Not sure" was selected at the generic-ballot question. Respondents saw the version with the same party order as
+ their generic-ballot question (GenBallotLeanRfirst lists the Republican Party candidate first).
+
+ VoteCertainty
+ How certain are you about this choice?
+      ○  Completely certain
+      ○  Very certain
+      ○  Moderately certain
+      ○  Slightly certain
+      ○  Not at all certain
+ Shown if the respondent had not already voted and was not ineligible (LikeVote), and chose a candidate at the generic-ballot
+ question (not "Not sure" or "I would not vote").
+
+ AlreadyVotedConfirm
+ Just to confirm: have you already cast your ballot in the November 3 election, either in person or by returning
+ a mail ballot?
+      ○  Yes, I have already voted
+      ○  No, not yet
+ Shown if "I have already voted" was selected at LikeVote.
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                                  4
+
+ AlreadyVotedHouse
+ Did you vote in the race for the U.S. House of Representatives in your district?
+      ○  Yes
+      ○  No, I did not vote in that race
+      ○  Not sure
+ Shown if "Yes, I have already voted" was selected at AlreadyVotedConfirm.
+
+ RegVote
+ Are you currently registered to vote at your current address?
+      ○  Yes
+      ○  No
+      ○  Not sure
+      ○  I cannot register to vote
+
+ PartyID
+ In politics today, do you consider yourself a Republican, Democrat, independent, or something else?
+      ○  Republican
+      ○  Democrat
+      ○  Independent
+      ○  Something else
+
+ PartyLean
+ As of today do you lean more to the Republican Party or the Democratic Party?
+      ○  The Republican Party
+      ○  The Democratic Party
+      ○  Neither
+ Shown if "Independent" or "Something else" was selected at PartyID.
+
+ Vote2024
+ Who did you vote for in the 2024 US presidential election?
+      ○  Donald Trump
+      ○  Kamala Harris
+      ○  Other candidate
+      ○  I did not vote
+      ○  I did not have the right to vote
+      ○  Rather not say
+
+ 4 About you
+ Asked of all respondents.
+
+ Citizen
+ Are you a citizen of the United States?
+      ○  Yes, born in the United States
+      ○  Yes, born in Puerto Rico, Guam, the U.S. Virgin Islands, or Northern Marianas
+      ○  Yes, born abroad of U.S. citizen parent or parents
+      ○  Yes, U.S. citizen by naturalization
+      ○  No, not a U.S. citizen
+ Respondents who are not US citizens are excluded from all estimates.
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                                5
+
+ Age
+ What is your age?
+      ○  18-24
+      ○  25-34
+      ○  35-44
+      ○  45-54
+      ○  55-64
+      ○  65 or older
+
+ Sex
+ What is your sex?
+      ○  Male
+      ○  Female
+
+ Hispanic
+ Are you of Hispanic, Latino, or Spanish origin?
+      ○  No, not of Hispanic, Latino, or Spanish origin
+      ○  Yes, Mexican, Mexican American, Chicano
+      ○  Yes, Puerto Rican
+      ○  Yes, Cuban
+      ○  Yes, another Hispanic, Latino, or Spanish origin
+
+ Race
+ What is your race? Select all that apply.
+      ☐  White
+      ☐  Black or African American
+      ☐  American Indian or Alaska Native
+      ☐  Asian
+      ☐  Native Hawaiian or Other Pacific Islander
+      ☐  Some other race
+ More than one answer could be selected.
+
+ Educ
+ What is the highest degree or level of school you have completed?
+      ○  Less than a high school diploma
+      ○  High school diploma or GED
+      ○  Some college, no degree
+      ○  Associate degree
+      ○  Bachelor’s degree
+      ○  Master’s degree
+      ○  Professional degree or doctorate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                                   6
+
+  State
+  In which US state do you live?
+       ○  Alabama
+       ○  Alaska
+       ○  Arizona
+       ○  Arkansas
+       ○  California
+       ○  Colorado
+       ○  Connecticut
+       ○  Delaware
+       ○  District of Columbia
+       ○  Florida
+       ○  Georgia
+       ○  Hawaii
+       ○  Idaho
+       ○  Illinois
+       ○  Indiana
+       ○  Iowa
+       ○  Kansas
+       ○  Kentucky
+       ○  Louisiana
+       ○  Maine
+       ○  Maryland
+       ○  Massachusetts
+       ○  Michigan
+       ○  Minnesota
+       ○  Mississippi
+       ○  Missouri
+       ○  Montana
+       ○  Nebraska
+       ○  Nevada
+       ○  New Hampshire
+       ○  New Jersey
+       ○  New Mexico
+       ○  New York
+       ○  North Carolina
+       ○  North Dakota
+       ○  Ohio
+       ○  Oklahoma
+       ○  Oregon
+       ○  Pennsylvania
+       ○  Rhode Island
+       ○  South Carolina
+       ○  South Dakota
+       ○  Tennessee
+       ○  Texas
+       ○  Utah
+       ○  Vermont
+       ○  Virginia
+       ○  Washington
+       ○  West Virginia
+       ○  Wisconsin
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                                                      7
+
+      ○  Wyoming
+ Drop-down list.
+
+ Community
+ How would you describe the community where you live?
+      ○  Urban
+      ○  Suburban
+      ○  Rural
+
+ Marital
+ What is your marital status?
+      ○  Now married (except separated)
+      ○  Widowed
+      ○  Divorced
+      ○  Separated
+      ○  Never married
+
+ Tenure
+ Is the house, apartment, or mobile home where you live…
+      ○  Owned by you or someone in your household with a mortgage or loan
+      ○  Owned by you or someone in your household free and clear
+      ○  Rented
+      ○  Occupied without payment of rent
+
+ Children
+ Do any of your own children under 18 (including stepchildren and adopted children) live with you?
+      ○  Yes
+      ○  No
+
+ WorkLastWeek
+ Last week, did you work for pay at a job or business?
+      ○  Yes
+      ○  No
+
+ Veteran
+ Have you ever served on active duty in the U.S. Armed Forces, Reserves, or National Guard?
+      ○  Never served in the military
+      ○  Only on active duty for training in the Reserves or National Guard
+      ○  Now on active duty
+      ○  On active duty in the past, but not now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                            8
+
+ HealthIns
+ Are you currently covered by any of the following types of health insurance or health coverage plans? Select
+ all that apply.
+      ☐  Insurance through a current or former employer or union (of you or a family member)
+      ☐  Insurance purchased directly from an insurance company (including the Marketplace)
+      ☐  Medicare
+      ☐  Medicaid, Medical Assistance, or any government-assistance plan for those with low incomes or a disability
+      ☐  TRICARE or other military health care
+      ☐  VA (including those who have ever used or enrolled for VA health care)
+      ☐  Indian Health Service
+      ☐  Any other type of health insurance or health coverage plan
+      ☐  No health insurance or coverage of any kind
+ More than one answer could be selected.
+
+ Religion
+ What is your present religion, if any?
+      ○  Protestant (for example, Baptist, Methodist, Non-denominational, Lutheran, Presbyterian, Pentecostal,
+      Episcopalian, Reformed, Church of Christ)
+      ○  Roman Catholic
+      ○  Mormon (Church of Jesus Christ of Latter-day Saints)
+      ○  Orthodox (such as Greek, Russian, or some other Orthodox church)
+      ○  Jewish
+      ○  Muslim
+      ○  Buddhist
+      ○  Hindu
+      ○  Atheist
+      ○  Agnostic
+      ○  Something else
+      ○  Nothing in particular
+
+ HHIncome
+ What was the total income of all members of your household during the past 12 months, before taxes?
+      ○  Less than $25,000
+      ○  $25,000 to $49,999
+      ○  $50,000 to $74,999
+      ○  $75,000 to $99,999
+      ○  $100,000 to $149,999
+      ○  $150,000 to $199,999
+      ○  $200,000 or more
+      ○  Rather not say
+
+ 5 Additional questions
+ Asked of all respondents.
+
+ Vote2022
+ In the November 2022 elections for the U.S. House of Representatives, did you vote?
+      ○  Yes, I voted
+      ○  No, I did not vote
+      ○  I was not eligible to vote
+      ○  I don't remember
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                              9
+
+ Vote2022Party
+ Which party's candidate did you vote for in the 2022 House election?
+      ○  The Democratic candidate
+      ○  The Republican candidate
+      ○  Another candidate
+      ○  I don't remember
+ Shown if "Yes, I voted" was selected at Vote2022.
+
+ Volunteer
+ In the last 12 months, have you done any volunteer work through or for an organization?
+      ○  Yes
+      ○  No
+
+ ReligAttend
+ Aside from weddings and funerals, how often do you attend religious services?
+      ○  More than once a week
+      ○  Once a week
+      ○  Once or twice a month
+      ○  A few times a year
+      ○  Seldom
+      ○  Never
+
+ AttnCheck
+ To show that you are reading carefully, please select "Rarely" from the options below.
+      ○  Always
+      ○  Often
+      ○  Sometimes
+      ○  Rarely
+      ○  Never
+
+ HowFound
+ How did you find this study?
+      ○  On my Prolific study list
+      ○  From a Prolific email or notification
+      ○  Other
+
+ 6 End
+
+ End
+ Thank you for taking part!
+
+ Click the arrow below to complete your submission and return to Prolific.
+ Closing screen; no response.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prolific Poll (US) — October 2026 | Full questionnaire                                                                                           10

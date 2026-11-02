@@ -1,0 +1,713 @@
+
+PAGE 1
+S T A T E W I D E  S U R V E Y  O F  A R I Z O N A  L I K E L Y  V O T E R S
+Arizona Governor 2026
+Hobbs vs. Biggs with ballot, re-elect, favorability and the 
+political environment, with demographic detail.
+F I E L D E D
+August 14–17, 2026
+R E S P O N D E N T S
+780
+P O P U L A T I O N
+Arizona likely voters
+M A R G I N  O F  E R R O R
+±4.1
+
+PAGE 2
+E X E C U T I V E  B R I E F
+Core findings
+49.1 – 
+43.2
+Hobbs–Biggs ballot
+01 Hobbs leads, narrowly
+49.1 to 43.2 on the ballot, 53.2 to 46.8 on the two-way. The lead 
+is real but sits close to the survey’s margin of error.
+02 The electorate is already decided
+Only 6.0 percent are undecided and 2.4 percent are unsure on 
+re-election. Both candidates are net-defined, with Hobbs at 
++1.5 favorability and Biggs at −1.4.
+03 Re-elect tracks the ballot
+50.0 percent say Hobbs deserves re-election against 47.6 who 
+say it is time for a new person, a net of +2.4.
+04 Age is the sharpest divide
+Hobbs takes 80.6 percent of the two-way among voters 18 to 
+29 and 44.2 among those 65 and over.
+05 Geography sets the map
+Urban voters back Hobbs 56.0 to 40.4; rural and town voters 
+back Biggs 47.6 to 32.8.
+06 The environment is a headwind
+Presidential approval stands at 43.4 percent against 55.4 
+disapproving, a net of −12.0 and considered the backdrop for 
+every reading in this survey.
+Quantus Insights 
+
+PAGE 3
+M E T H O D O L O G Y
+How this survey was conducted
+P OP U L A T I O N
+Likely voters in the 2026 Arizona general election. Likely-voter status was set 
+by the Quantus Insights turnout model, which estimates each voter’s 
+probability of participating from vote history, demographics, partisan-lean 
+indicators and voter-file geography. Turnout scores define and weight the 
+population. A screening question was administered for the online sample 
+only.
+U NI V E R S E
+Active registered voter-file records with two or more general elections voted.
+F I E L D  P ER I O D
+August 14 to August 17, 2026.
+M O D E
+Online panel and SMS-to-mobile cell interviews.
+S A M PL I NG
+Stratified random sampling from the eligible universe, matched to 
+available contact records.
+W E I G H T I N G
+Iterative proportional fitting, or raking, to benchmarks for the Arizona 
+likely general-election electorate on seven dimensions: sex, age, race, 
+education, party, metro type and media market. Race comes from the 
+voter-file field. Weights were trimmed to limit the influence of individual 
+respondents and renormalised each iteration.
+M A R G I N  O F ER R O R
+±4.1 percentage points at the 95 percent confidence level, design-
+adjusted, on the full sample of 780. Subgroup margins are larger.
+R E PO R T I N G
+Crosstab bases are weighted to the electorate profile.. Town is folded 
+into rural and the balance of state into Tucson; Black, Asian and Other 
+are reported as one group.
+R O U ND I N G
+Percentages may not total 100 due to rounding. Full precision is retained 
+in the underlying results.
+For questions or inquiries email contact@quantusinsights.org or visit 
+quantusinsights.org.
+
+
+PAGE 4
+S A M P L E  C O M P O S I T I O N
+Weighted to the Arizona likely-electorate profile
+780
+completed interviews
+S EX %
+Women 52
+Men 48
+A G E %
+18–29 10
+30–44 22
+45–64 34
+65+ 34
+R A CE %
+White 69
+Hispanic 21
+Black, Asian, Other 10
+ED UC AT I ON %
+High school / some college 60
+College 25
+Master’s+ 15
+PA R TY I D %
+Republican 35
+Democrat 33
+Independent 32
+MET R O TYPE %
+Urban 45
+Suburban 45
+Rural 6
+Town 4
+MED I A  MA R K ET %
+Phoenix 79
+Tucson 18
+Balance of state 3
+T H E  T A R G E T S
+These are the quota and weighting targets for 
+the Arizona likely electorate. Race, education and 
+party ID are modeled from the voter file.
+P H OE N I X  C A R R I ES  T H E  S T A TE
+79 percent of the electorate sits in the Phoenix 
+market. The balance of state is too small to stand 
+alone and is folded into Tucson in the crosstabs.
+C O M BI N E D  G R OU P
+Black, Asian and Other voters are reported 
+together throughout; each falls below the 
+reporting threshold on its own.
+
+PAGE 5
+F I N D I N G S
+Arizona Governor 2026
+Ballot, re-elect, favorability and the political environment.
+Q U E S T I O N S
+Q1 through Q10
+S T R U C T U R E
+Headline result and demographic 
+crosstab for every question
+B A S E S
+Weighted to the the likely electorate 
+profile.
+
+PAGE 6
+Q 1  ·  B A L L O T
+If the election for Governor were held today, for 
+whom would you vote? 6.0
+undecided
+Katie Hobbs 49.1
+Andy Biggs 43.2
+Someone else 1.7
+Undecided 6.0
+T W O- W A Y S H A R E
+53.2 46.8
+Hobbs Biggs
+6.4 point margin, 
+Hobbs
+G E ND ER  G A P
+Women back Hobbs by 15.6 points; men 
+back Biggs by 4.6.
+W H E R E  I T I S  D E C I D E D
+Urban voters back Hobbs 56.0 to 40.4; rural 
+and town voters back Biggs 47.6 to 32.8.
+R O O M L EF T
+6.0 percent are undecided overall, rising to 
+28.8 percent among independents.
+
+PAGE 7
+Q 1  ·  D E M O G R A P H I C  D E T A I L
+If the election for Governor were held today, for whom 
+would you vote?
+GROUP HOBBS BIGGS UNDEC.
+HOBBS 2 -
+WAY
+N
+S E X
+Women 53.7 38.1 6.9 58.5 406
+Men 44.1 48.7 5.0 47.5 374
+A G E
+18–29 74.0 17.8 5.4 80.6 78
+30–44 56.3 32.7 6.7 63.3 172
+45–64 45.0 48.7 5.6 48.0 265
+65+ 41.2 52.0 6.2 44.2 265
+R A C E
+White 46.3 45.4 6.4 50.5 538
+Hispanic 55.7 40.8 1.9 57.7 164
+B/A/O 54.7 33.1 11.5 62.3 78
+M ED I A  M A R K ET
+Phoenix 48.0 44.3 6.3 52.0 616
+Tucson / balance 53.2 39.1 4.9 57.6 163
+GROUP HOBBS BIGGS UNDEC. HOBBS 2 -WAY
+N
+E D UC A T I O N
+High school 45.7 46.2 6.3 49.7 468
+College 53.3 39.1 6.0 57.7 195
+Master’s+ 55.8 37.8 4.9 59.6 117
+R E G I S TE R E D  P A R T Y
+Democrat 94.9 1.9 2.7 98.0 257
+Republican 7.3 84.4 7.0 8.0 273
+Unaffiliated / DTS 50.9 42.6 3.3 54.4 201
+Independent / other 34.1 32.6 28.8 51.1 49
+M ET R O TY P E
+Urban 56.0 40.4 2.3 58.1 351
+Suburban 45.8 45.0 7.3 50.4 351
+Rural / town 32.8 47.6 16.5 40.8 78
+P A R T Y  I S  T H E  F R A M E
+Republicans give Hobbs 8.0 percent of the 
+two-way; independents give her 51.1 and 
+unaffiliated voters 54.4.
+A G E G R A D I EN T
+Hobbs two-way runs from 80.6 among 18–
+29 to 44.2 among 65+.
+R E PO R T I N G  NO T E
+Bases are weighted to the sample profile. 
+Town is folded into rural and the balance of 
+state into Tucson.
+
+PAGE 8
+Q 3  ·  R E - E L E C T
+Does Katie Hobbs deserve re-election, or is it 
+time for a new person?
+50.0
+Deserves re-election
+47.6
+Time for a new person
++2.4
+net re-elect
+F UL L  R E S P ON S E B R E A K D OW N
+44.
+5
+5.5 6.7 40.
+9
+Definitely deserves re-election Probably deserves Probably time for a new person Definitely time for a new person Unsure
+I N T EN S I T Y
+44.5 percent say definitely deserves re-election; 
+40.9 percent say definitely time for a new person.
+A L M O S T  NO BO D Y  I S  UN S U R E
+2.4 percent are unsure; this electorate has 
+largely made up its mind.
+T R A C K S  T H E BA L L OT
+Re-elect at 50.0 sits within a point of the 
+Hobbs ballot share of 49.1.
+
+PAGE 9
+Q 3  ·  D E M O G R A P H I C  D E T A I L
+Does Katie Hobbs deserve re-election, or is it time for a 
+new person?
+GROUP DESERVES NEW DEF. YES UNSURE
+N
+S E X
+Women 53.3 43.5 49.9 3.2 406
+Men 46.4 52.1 38.6 1.5 374
+A G E
+18–29 60.8 34.9 48.2 4.4 78
+30–44 57.2 41.1 48.3 1.7 172
+45–64 51.1 45.3 48.3 3.6 265
+65+ 41.1 57.9 37.2 1.0 265
+R A C E
+White 47.7 50.1 42.2 2.1 538
+Hispanic 54.6 42.7 50.4 2.7 164
+B/A/O 55.7 40.5 47.6 3.8 78
+M ED I A  M A R K ET
+Phoenix 46.7 50.6 41.2 2.6 616
+Tucson / balance 62.3 36.1 56.9 1.5 163
+GROUP DESERVES NEW DEF. YES UNSURE
+N
+E D UC A T I O N
+High school 48.3 49.0 41.8 2.8 468
+College 49.5 48.0 45.9 2.5 195
+Master’s+ 57.9 41.6 53.2 0.5 117
+R E G I S TE R E D  P A R T Y
+Democrat 96.8 2.4 91.7 0.7 257
+Republican 12.2 85.3 8.8 2.5 273
+Unaffiliated / DTS 47.7 48.0 38.3 4.3 201
+Independent / other 24.3 72.4 21.2 3.3 49
+M ET R O TY P E
+Urban 52.8 45.2 48.5 2.0 351
+Suburban 48.8 48.9 42.4 2.2 351
+Rural / town 42.7 52.2 36.2 5.1 78
+H I G H ES T
+Democrat at 96.8 percent deserves re-election.
+L O W ES T
+Republican at 12.2 percent deserves re-election.
+S P R E A D
+84.6 points between the highest and lowest 
+reported group.
+
+PAGE 10
+Q 5  ·  F A V O R A B I L I T Y
+Favorability: Katie Hobbs
+48.8
+Favorable
+47.3
+Unfavorable
++1.5
+net favorability
+F UL L  R E S P ON S E B R E A K D OW N
+31.9 16.9 14.6 32.7
+Very favorable Somewhat favorable Somewhat unfavorable Very unfavorable No opinion Never heard of her
+I N T EN S I T Y I S  N EG A TI V E
+Very unfavorable (32.7) edges very 
+favorable (31.9).
+F UL L Y  D EF I N E D
+Only 3.9 percent have no opinion or have 
+never heard of her.
+L I T T L E S O FT  S U PP O R T
+Only 31.5 percent hold a soft view either way; 
+opinion on Hobbs is held with intensity.
+
+PAGE 11
+Q 5  ·  D E M O G R A P H I C  D E T A I L
+Favorability: Katie Hobbs
+GROUP FAVORABLE UNFAVORABLE
+VERY 
+FAV.
+VERY 
+UNFAV.
+N
+S E X
+Women 49.7 45.9 34.6 34.6 406
+Men 47.8 48.8 28.9 30.6 374
+A G E
+18–29 43.6 46.1 23.9 33.8 78
+30–44 47.1 52.3 23.9 34.6 172
+45–64 50.5 45.6 34.0 29.0 265
+65+ 49.7 46.1 37.3 34.8 265
+R A C E
+White 48.3 48.2 33.5 37.0 538
+Hispanic 55.2 42.6 34.2 16.4 164
+B/A/O 39.0 50.6 16.4 37.1 78
+M ED I A  M A R K ET
+Phoenix 48.6 47.7 33.0 33.2 616
+Tucson / 
+balance 49.6 45.5 27.6 30.7 163
+GROUP FAVORABLE UNFAVORABLE
+VERY 
+FAV.
+VERY 
+UNFAV.
+N
+E D UC A T I O N
+High school 47.1 49.4 28.9 33.4 468
+College 47.3 47.7 31.2 31.3 195
+Master’s+ 58.1 38.3 45.1 32.4 117
+R E G I S TE R E D  P A R T Y
+Democrat 79.4 17.4 55.0 11.1 257
+Republican 22.1 74.6 15.0 58.0 273
+Unaffiliated / 
+DTS 49.4 44.1 27.6 28.1 201
+Independent 
+/ other 34.6 65.3 22.4 23.9 49
+M ET R O TY P E
+Urban 54.0 42.3 38.9 30.5 351
+Suburban 45.7 50.9 28.8 33.9 351
+Rural / town 39.3 53.8 14.4 37.4 78
+H I G H ES T
+Democrat at 79.4 percent favorable.
+L O W ES T
+Republican at 22.1 percent favorable.
+S P R E A D
+57.3 points between the highest and lowest 
+reported group.
+
+PAGE 12
+Q 7  ·  F A V O R A B I L I T Y
+Favorability: Andy Biggs
+46.1
+Favorable
+47.5
+Unfavorable
+−1.4
+net favorability
+F UL L  R E S P ON S E B R E A K D OW N
+33.5 12.6 10.8 36.7 5.1
+Very favorable Somewhat favorable Somewhat unfavorable Very unfavorable No opinion Never heard of him
+BO T H  N E T  N EG A TI V E
+Biggs sits at −1.4 net; Hobbs at +1.5.
+R O O M T O D EF I N E
+6.4 percent have no opinion or have never heard 
+of him, well above the 3.9 percent for Hobbs.
+I N T EN S I T Y
+Very unfavorable at 36.7 is his largest single 
+category.
+
+PAGE 13
+Q 7  ·  D E M O G R A P H I C  D E T A I L
+Favorability: Andy 
+Biggs
+GROUP FAVORABLE UNFAVORABLE
+VERY 
+FAV.
+VERY 
+UNFAV.
+N
+S E X
+Women 44.8 47.6 30.0 37.7 406
+Men 47.5 47.3 37.3 35.6 374
+A G E
+18–29 27.2 64.4 20.2 60.3 78
+30–44 38.4 59.7 23.8 40.6 172
+45–64 51.5 41.5 40.2 34.1 265
+65+ 51.3 40.6 37.0 29.8 265
+R A C E
+White 48.9 46.5 35.7 34.9 538
+Hispanic 40.1 48.9 28.5 40.6 164
+B/A/O 39.7 51.1 28.9 40.7 78
+M ED I A  M A R K ET
+Phoenix 49.9 44.2 36.4 34.8 616
+Tucson / 
+balance 31.6 59.9 22.6 43.9 163
+GROUP FAVORABLE UNFAVORABLE
+VERY 
+FAV.
+VERY 
+UNFAV.
+N
+E D UC A T I O N
+High school 49.8 44.3 36.6 34.9 468
+College 42.2 49.8 30.5 33.8 195
+Master’s+ 37.8 56.6 26.2 48.8 117
+R E G I S TE R E D  P A R T Y
+Democrat 2.6 91.3 2.1 84.8 257
+Republican 87.9 9.6 83.9 2.5 273
+Unaffiliated / 
+DTS 43.1 46.0 10.3 28.3 201
+Independent 
+/ other 53.6 35.1 12.3 9.2 49
+M ET R O TY P E
+Urban 44.8 49.4 28.5 42.0 351
+Suburban 46.7 47.6 36.9 35.2 351
+Rural / town 48.6 38.9 40.4 19.9 78
+H I G H ES T
+Republican at 87.9 percent favorable.
+L O W ES T
+Democrat at 2.6 percent favorable.
+S P R E A D
+85.3 points between the highest and lowest 
+reported group.
+
+PAGE 14
+Q 8  ·  2 0 2 2  R E C A L L
+In 2022, did you vote for Katie Hobbs or Kari 
+Lake for Governor? 6.4
+did not vote in 2022
+Katie Hobbs 46.0
+Kari Lake 44.9
+Someone else 1.2
+Did not vote 6.4
+Unsure 1.5
+T W O- W A Y S H A R E
+50.6 49.
+4
+Hobbs Lake
+1.2 point margin, 
+Hobbs
+R E C A L L  TR A C K S  T H E  R ES UL T
+The reported 2022 split of 50.6 to 49.4 is 
+close to the certified statewide outcome.
+S W I T C H I N G  I S  L I M I T ED
+Republicans recall Lake at 82.0 percent; 
+Democrats recall Hobbs at 94.1.
+N EW ER  V O TE R S
+6.4 percent did not vote in 2022, rising to 12.0 
+among voters 30 to 44.
+
+PAGE 15
+Q 8  ·  D E M O G R A P H I C  D E T A I L
+In 2022, did you vote for Katie Hobbs or Kari Lake for 
+Governor?
+GROUP HOBBS LAKE
+DID NOT 
+VOTE
+HOBBS 2 -
+WAY
+N
+S E X
+Women 45.7 44.9 7.0 50.4 406
+Men 46.3 44.9 5.7 50.8 374
+A G E
+18–29 54.1 30.1 6.7 64.3 78
+30–44 47.8 39.7 12.0 54.6 172
+45–64 41.4 48.0 8.0 46.3 265
+65+ 47.0 49.5 1.1 48.7 265
+R A C E
+White 43.7 49.1 4.6 47.1 538
+Hispanic 53.5 35.5 9.5 60.1 164
+B/A/O 46.1 35.8 12.4 56.3 78
+M ED I A  M A R K ET
+Phoenix 41.9 49.5 5.7 45.8 616
+Tucson / 
+balance 61.3 27.4 9.1 69.1 163
+GROUP HOBBS LAKE DID NOT VOTE
+HOBBS 2 -
+WAY
+N
+E D UC A T I O N
+High school 40.7 48.5 8.2 45.6 468
+College 52.0 41.2 4.0 55.8 195
+Master’s+ 57.4 36.7 3.4 61.0 117
+R E G I S TE R E D  P A R T Y
+Democrat 94.1 1.2 3.0 98.7 257
+Republican 6.2 82.0 7.8 7.0 273
+Unaffiliated / DTS 43.4 43.9 10.4 49.7 201
+Independent / other 26.1 71.5 0.0 26.7 49
+M ET R O TY P E
+Urban 50.3 41.5 6.1 54.8 351
+Suburban 45.0 47.0 4.9 48.9 351
+Rural / town 31.3 50.6 14.5 38.2 78
+H I S P A N I C  V OT E R S
+Recall Hobbs at 60.1 on the two-way against 
+47.1 among white voters.
+R U R A L  P A T T ER N
+Rural and town voters recall Lake 50.6 to 31.3.
+R E PO R T I N G  NO T E
+Bases are weighted to the sample profile.
+
+PAGE 16
+Q 9  ·  I D E O L O G Y
+Do you consider yourself conservative, moderate, 
+or liberal? 38.3
+Conservative
+Conservative 38.3
+Moderate 38.1
+Liberal 21.7
+Unsure or something else 1.9
+E FFE CTIV E LY T IED
+Conservative (38.3) and moderate (38.1) sit 0.2 
+points apart.
+PROG RESSIVE SHARE
+21.7 percent identify as liberal.
+IMPL ICATION
+Self-identified moderates are the decisive bloc in 
+this electorate.
+
+PAGE 17
+Q 9  ·  D E M O G R A P H I C  D E T A I L
+Do you consider yourself conservative, moderate, or 
+liberal?
+GROUP CONS. MOD. LIB. UNSURE
+N
+S E X
+Women 35.9 33.0 28.6 2.5 406
+Men 40.9 43.7 14.2 1.2 374
+A G E
+18–29 29.5 30.3 38.6 1.6 78
+30–44 28.2 40.4 30.2 1.3 172
+45–64 36.7 40.1 20.6 2.6 265
+65+ 49.1 36.9 12.4 1.6 265
+R A C E
+White 41.3 34.1 22.7 2.0 538
+Hispanic 32.1 44.5 21.2 2.3 164
+B/A/O 30.6 52.5 16.2 0.7 78
+M ED I A  M A R K ET
+Phoenix 41.3 36.4 20.5 1.9 616
+Tucson / balance 27.1 44.6 26.4 1.9 163
+GROUP CONS. MOD. LIB. UNSURE
+N
+E D UC A T I O N
+High school 41.9 39.6 16.4 2.1 468
+College 34.4 38.7 25.1 1.7 195
+Master’s+ 30.6 30.9 37.2 1.2 117
+R E G I S TE R E D  P A R T Y
+Democrat 15.0 34.9 48.6 1.5 257
+Republican 68.5 24.8 4.4 2.3 273
+Unaffiliated / DTS 26.4 57.0 14.4 2.1 201
+Independent / other 40.7 51.8 6.8 0.7 49
+M ET R O TY P E
+Urban 39.3 30.5 28.8 1.3 351
+Suburban 35.7 46.0 15.9 2.4 351
+Rural / town 45.2 36.6 15.8 2.4 78
+H I G H ES T
+Republican at 68.5 percent conservative.
+L O W ES T
+Democrat at 15.0 percent conservative.
+S P R E A D
+53.5 points between the highest and lowest 
+reported group.
+
+PAGE 18
+Q 1 0  ·  P R E S I D E N T I A L  A P P R O V A L
+Do you approve or disapprove of the job Donald 
+Trump is doing as President?
+43.4
+Approve
+55.4
+Disapprove
+−12.0
+net approval
+F UL L  R E S P ON S E B R E A K D OW N
+38.
+0
+5.
+4
+53.2
+Strongly approve Somewhat approve Somewhat disapprove Strongly disapprove Unsure
+O NE - S I D E D  I N T EN S I T Y
+53.2 percent strongly disapprove against 
+38.0 percent who strongly approve.
+T H I N  M I D D L E
+Only 7.6 percent are in the soft approve or 
+soft disapprove categories.
+E NV I R O NM E N T
+Net approval of −12.0 is the backdrop for 
+every reading in this survey.
+
+PAGE 19
+Q 1 0  ·  D E M O G R A P H I C  D E T A I L
+Do you approve or disapprove of the job Donald Trump 
+is doing as President?
+GROUP APPROVE DISAPPROVE
+STRONG 
+APP.
+STRONG 
+DISAPP.
+N
+S E X
+Women 46.5 52.2 42.2 49.3 406
+Men 40.0 58.9 33.4 57.5 374
+A G E
+18–29 20.5 79.5 13.5 79.4 78
+30–44 26.1 73.8 18.5 69.4 172
+45–64 41.3 55.9 36.3 53.8 265
+65+ 63.5 35.8 59.6 34.3 265
+R A C E
+White 46.6 52.5 41.7 50.8 538
+Hispanic 33.3 63.7 29.9 59.0 164
+B/A/O 42.2 57.6 29.4 57.6 78
+M ED I A  M A R K ET
+Phoenix 43.9 54.6 38.4 53.2 616
+Tucson / 
+balance 41.6 58.5 36.6 53.3 163
+GROUP APPROVE DISAPPROVE
+STRONG 
+APP.
+STRONG 
+DISAPP.
+N
+E D UC A T I O N
+High school 41.4 57.2 36.1 53.6 468
+College 45.7 52.9 41.0 52.8 195
+Master’s+ 47.4 52.6 40.6 52.5 117
+R E G I S TE R E D  P A R T Y
+Democrat 5.3 94.7 4.8 93.2 257
+Republican 87.1 11.3 78.2 7.7 273
+Unaffiliated / 
+DTS 21.9 75.8 15.0 74.1 201
+Independent 
+/ other 88.5 11.5 82.8 11.4 49
+M ET R O TY P E
+Urban 41.5 57.6 37.1 56.5 351
+Suburban 46.2 52.1 42.2 49.5 351
+Rural / town 39.4 60.6 23.1 55.2 78
+H I G H ES T
+Independent / other at 88.5 percent approve.
+L O W ES T
+Democrat at 5.3 percent approve.
+S P R E A D
+83.2 points between the highest and lowest 
+reported group.
+
+PAGE 20
+T H E  R A C E  A T  A  G L A N C E
+Where the contest stands
++5.9
+Hobbs ballot margin
+BA L L OT  · Q 1
+Katie Hobbs 49.1
+Andy Biggs 43.2
+Someone else 1.7
+Undecided 6.0
+T W O- W A Y S H A R E
+53.2 46.8
+Hobbs Biggs
+H O BB S  TW O- W A Y S H A R E  B Y  A G E
+18–29 80.6
+30–44 63.3
+45–64 48.0
+65+ 44.2
+H O BB S  TW O- W A Y S H A R E  B Y  M ET R O  T Y P E
+Urban 58.1
+Suburban 50.4
+Rural / town 40.8
++2.4
+Net re-elect
++1.5
+Hobbs net favorability
+−1.4
+Biggs net favorability
+−12.0
+Presidential net approval
+A  C L OS E R A C E
+Hobbs leads by 5.9 points on the ballot against a 
+design-adjusted margin of error of 4.1.
+A G E I S  TH E S H A R PE S T  D I V I D E
+The two-way runs from 80.6 among 18–29 to 
+44.2 among 65+, a 36.4-point span.
+L I T T L E R O OM  L EF T
+Only 6.0 percent are undecided and both 
+candidates sit within a point and a half of 
+neutral favorability.
+
+PAGE 21
+C O N T A C T
+Questions, crosstabs and media requests
+Prior releases and our polling archive are posted on the website.
+P R E P A R E D  B Y
+Quantus Insights
+E M A I L
+contact@quantusinsights.org
+W E B S I T E
+quantusinsights.org
+X  /  T W I T T E R
+F I E L D  D A T E S
+August 14–17, 2026

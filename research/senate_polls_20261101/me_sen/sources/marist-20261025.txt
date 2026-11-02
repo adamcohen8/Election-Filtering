@@ -1,0 +1,7 @@
+Source: https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf
+Release: https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/
+Location: PDF pages 1, 3, 7; SNVT26R
+
+LV ID rows Democrat, Republican, Independent: Jackson 99%,1%,50%; Collins 1%,99%,41%. LV composition D31%, R31%, I35%, Other 3%.
+
+1,449 is registered-voter sample, not likely-voter sample; LV is a weight applied to registered voters. Separate RV crosstab is same survey and excluded as duplicate. No defensible LV base identified.

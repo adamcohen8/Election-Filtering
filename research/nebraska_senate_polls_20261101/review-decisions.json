@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "reviewed_on": "2026-11-01",
+  "window": {
+    "start": "2026-10-01",
+    "end": "2026-11-01"
+  },
+  "precision_policy": "Same provisional policies as other acquisitions. Exact weighting-unspecified bases DEFF2. Unknown counts or source-produced modeled ballot allocations use explicit5pp cellSD covariance, within-pair correlation-.5, acrossgroups0. Original source counts/basis remain inspectable.",
+  "limitations": [
+    "Four verified six-cell sources located after re-audit; six short of the10-wave target. Inventories record partial/unreadable sources; failure to recover a table is not proof it does not exist.",
+    "User selected R57/D24/I19 for Nebraska on November1 2026, replacing R55/D25/I20 and interim R45/D27/I28; these are user assumptions, not sourced exit-poll estimates.",
+    "Osborn is Independent, with no Democratic caucus affiliation assigned. Minor candidates remain outside the two-candidate model, without renormalizing observed support.",
+    "October OnPoint ballot allocates undecideds using a model and uses registration groups including nonpartisan/other; labeled as modeled subgroup estimate, not raw intention.",
+    "Older backfills include a May hypothetical of the same two candidates. Party measures, ballot choices and subgroup precision vary.",
+    "No forecast accuracy or historical calibration claim follows from replay checks.",
+    "Lake December2025 fieldwork released Jan22 2026 uses party registration, combining unaffiliated/other; first-choice shares sum rounded strong/not-so-strong cells. Printed subgroup bases have unspecified weighting and model Ns remain null."
+  ],
+  "decisions": {
+    "ne_sen/onpoint-ne-20261029": {
+      "action": "accept",
+      "record_sha256": "e77cdabf6705568fb453f06122d7885d52045a5ee1dfb3cf2941cc7749a3ff6c",
+      "reason": "Verified complete Ricketts/Osborn conditional support for R/D/I groups in primary table. Preserve actual independent opponent affiliation. Registration proxy rather than party identity; nonpartisan/other includes third-party registrants. Modeled allocation of undecideds, turnout weighting; all 1555 interviewed treated as likely and ballot question base is 1514. Source has additional precision beyond published display.",
+      "allow_proxy": true,
+      "overrides": {
+        "crosstab_basis": "modeled_subgroup_estimate"
+      },
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Source-produced allocation of undecideds and turnout modeling; use conservative provisional covariance rather than pretend model-imputed responses carry ordinary respondent precision. Source registration and actual bases retained."
+      }
+    },
+    "ne_sen/surveyusa-ne-20260913": {
+      "action": "accept",
+      "record_sha256": "5855ca796c52fcb876ae2ffe38818ac7ddc2a2d50eda497e02093a0739b519ee",
+      "reason": "Verified complete Ricketts/Osborn conditional support for R/D/I groups in primary table. Preserve actual independent opponent affiliation. Rounded weighted party shares do not identify subgroup sample counts; counts set null.",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "The selected Senate party table has no exact applicable subgroup Ns. Preserve null counts rather than infer respondents from rounded composition."
+      },
+      "backfill_authorized": true
+    },
+    "ne_sen/tavern-ne-20260511": {
+      "action": "accept",
+      "record_sha256": "cc22632c95566b6d9eb1c002a56f8c9195eb3d3b81714bb5114212bbfe191a01",
+      "reason": "Verified complete Ricketts/Osborn conditional support for R/D/I groups in primary table. Preserve actual independent opponent affiliation. Source table reports n but does not identify whether these are weighted or unweighted. Head-to-head ballot omitted later candidates.",
+      "precision": {
+        "method": "reported_count_weighting_unspecified",
+        "design_effect": 2,
+        "evidence": "Primary table reports group bases316D/423R/426I but does not establish raw versus weighted; retain uncertainty classification."
+      },
+      "backfill_authorized": true
+    },
+    "ne_sen/lake-ne-20251217": {
+      "action": "accept",
+      "record_sha256": "6608870562e24a514608778e1fd1d44593647b6c2de740b01ec66d97cfbf6b75",
+      "reason": "Visually verified PDF page6 R/D/unaffiliated-other registration columns for the same Ricketts/Osborn matchup. First-choice totals sum printed strong and not-so-strong support, with rounding limitation retained. Party registration is an authorized backup; unaffiliated/other is a proxy. Publication Jan22 explicitly supported by campaign release republished Jan27. Exact group bases printed but weighting status unspecified; preserve those metadata and leave model Ns null.",
+      "backfill_authorized": true,
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Conservative provisional covariance for registration proxy, rounded component sums and uncertain weighting of printed subgroup bases; no synthetic respondent counts."
+      }
+    }
+  },
+  "backfill_policy": {
+    "target_count": 10,
+    "baseline_counts": {
+      "ne_sen": 1
+    },
+    "baseline_source_hashes": {
+      "ne_sen--onpoint-ne-20261029": "e77cdabf6705568fb453f06122d7885d52045a5ee1dfb3cf2941cc7749a3ff6c"
+    },
+    "target_races": {
+      "ne_sen": 1
+    },
+    "unfilled": {
+      "ne_sen": 6
+    },
+    "selection": "All verified October releases; newest located qualifying older sources until10. Source gaps remain explicit."
+  },
+  "supplement_files": [
+    "reopened_older/polls.json"
+  ]
+}

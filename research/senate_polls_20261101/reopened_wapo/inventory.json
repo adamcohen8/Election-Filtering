@@ -1,0 +1,71 @@
+{
+  "scope": "Washington Post\u2013Schar School statewide Senate waves published 2026-10-01 through 2026-11-01; identify additions beyond existing Maine and Kansas rows",
+  "search_queries": [
+    "Washington Post Schar School Senate October 2026 Maine Kansas",
+    "Washington Post Schar Senate October 2026 Michigan Texas Ohio Alaska",
+    "Washington Post Schar Senate poll October Iowa North Carolina Georgia",
+    "site:washingtonpost.com Schar School Senate October 2026 polling"
+  ],
+  "sources": [
+    "https://schar.gmu.edu/washington-post-schar-school-poll",
+    "https://www.washingtonpost.com/politics/polling/",
+    "https://99chambers.app/pollsters/george-mason-university-schar-school-of-policy-and-government-washington-post"
+  ],
+  "releases": [
+    {
+      "race_id": "me_sen",
+      "pollster": "Washington Post\u2013Schar School",
+      "publication_date": "2026-10-09",
+      "field_start": "2026-09-30",
+      "field_end": "2026-10-05",
+      "original_url": "https://schar.gmu.edu/news/2026-10/washington-post-schar-school-poll-finds-tight-senate-contest-maine",
+      "table_url": "https://docs.google.com/spreadsheets/d/1pc_YoJKZGVAl08v7PYmVPH1sFIDOL9vAHykTKbKLa5I/",
+      "status": "already_in_feed",
+      "reason": "Existing Maine wave, 800 LV; no duplicate row."
+    },
+    {
+      "race_id": "ks_sen",
+      "pollster": "Washington Post\u2013Schar School",
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-22",
+      "field_end": "2026-10-26",
+      "original_url": "https://www.washingtonpost.com/politics/2026/10/30/we-polled-kansas-democrats-wanted-talk-republicans-not-so-much/",
+      "table_url": "https://docs.google.com/spreadsheets/d/1YWj-IcboBO8qF0eVPz4agZgQDD7c8BmrBInmwoamSPU/",
+      "status": "already_in_feed",
+      "reason": "Existing Kansas wave, 801 LV; 52/43 first choice and 54/44 alternate two-party result are one sample, not two waves. Schar index has not yet listed Kansas, but Post primary report and independent tracker do."
+    },
+    {
+      "race_id": "mi_sen",
+      "pollster": "Washington Post\u2013Schar School",
+      "publication_date": "2026-09-17",
+      "field_start": "2026-09-10",
+      "field_end": "2026-09-14",
+      "original_url": "https://schar.gmu.edu/news/2026-10/washington-post-schar-school-poll-finds-close-michigan-senate-race",
+      "table_url": null,
+      "status": "excluded_outside_window",
+      "reason": "Schar page URL contains 2026-10 but page itself explicitly dates release September 17; do not mistake URL for publication date."
+    },
+    {
+      "race_id": null,
+      "pollster": "Washington Post\u2013Schar School",
+      "publication_date": "2026-10-23",
+      "field_start": "2026-10-14",
+      "field_end": "2026-10-19",
+      "original_url": "https://www.washingtonpost.com/politics/polling/",
+      "table_url": null,
+      "status": "excluded_scope",
+      "reason": "District-specific Texas House polling, not a statewide Senate survey."
+    },
+    {
+      "race_id": null,
+      "pollster": "Washington Post\u2013Schar School",
+      "publication_date": "2026-10-01",
+      "field_start": "2026-09-23",
+      "field_end": "2026-09-28",
+      "original_url": "https://schar.gmu.edu/washington-post-schar-school-poll",
+      "table_url": null,
+      "status": "excluded_scope",
+      "reason": "Virginia House district polling, not a statewide Senate survey."
+    }
+  ]
+}

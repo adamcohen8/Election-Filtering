@@ -1,0 +1,148 @@
+{
+  "scope": "Pre-Oct 1 2026 Alaska Senate waves, ordered newest first; publication months approximate when day unavailable",
+  "candidates": [
+    {
+      "publication_date": "2026-09-26",
+      "pollster": "Trafalgar",
+      "field_dates": "2026-09-22/24",
+      "status": "No six-party ballot table found",
+      "source_url": "https://www.thetrafalgargroup.org/"
+    },
+    {
+      "publication_date": "2026-09-22",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-09-10/12",
+      "status": "Public pollster post reports toplines and RCV, no party cells found",
+      "source_url": "https://www.findglocal.com/US/Anchorage/585549851597652/Alaska-Survey-Research"
+    },
+    {
+      "publication_date": "2026-09-17",
+      "pollster": "co/efficient",
+      "field_dates": "2026-09-14/17",
+      "status": "No candidate support by party table found",
+      "source_url": "https://www.reddit.com/r/YAPms/comments/1wj34s3/coefficient_ak_senate_sullivan_48peltola_46_sept/"
+    },
+    {
+      "publication_date": "2026-09-17",
+      "pollster": "AARP Fabrizio Ward / Impact",
+      "field_dates": "2026-09-08/11",
+      "status": "accepted: original research PDF p3 six first-ballot party cells; read in Safari",
+      "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-alaska.doi.10.26419-2fres.01065.016.pdf"
+    },
+    {
+      "publication_date": "2026-09-15",
+      "pollster": "Rasmussen",
+      "field_dates": "2026-09-13/14",
+      "status": "accepted",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_alaska_senate_september_13_14_2026"
+    },
+    {
+      "publication_date": "2026-09-02",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-08-20/23",
+      "status": "No candidate support by party table found",
+      "source_url": "https://www.reddit.com/r/fivethirtyeight/comments/1w5hh4l/alaska_survey_research_poll_alaska_senate_peltola/"
+    },
+    {
+      "publication_date": "2026-08-17",
+      "pollster": "Data for Progress",
+      "field_dates": "2026-07-28/08-04",
+      "status": "accepted",
+      "source_url": "https://www.filesforprogress.org/datasets/2026/8/dfp_alaska_aug_2026.pdf"
+    },
+    {
+      "publication_date": "2026-08-11",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-08-02/05",
+      "status": "No candidate support by party table found",
+      "source_url": "https://www.reddit.com/r/fivethirtyeight/comments/1vlsh5f/alaska_us_senate_general_poll_peltola_51_d/"
+    },
+    {
+      "publication_date": "2026-07",
+      "pollster": "NYT/Siena",
+      "field_dates": "2026-06-15/29",
+      "status": "NYT site-safety blocked; no workaround; no user supplied table",
+      "source_url": "https://www.realclearpolitics.com/epolls/2026/senate/ak/2026_alaska_senate_sullivan_vs_peltola-8754.html"
+    },
+    {
+      "publication_date": "2026-06",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-06-04/07",
+      "status": "No candidate support by party table found",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+    },
+    {
+      "publication_date": "2026-05",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-05-14/17",
+      "status": "No candidate support by party table found",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+    },
+    {
+      "publication_date": "2026-04-23",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-04-16/19",
+      "status": "Pollster release gives ranked-choice aggregate rounds, no party ballot crosstabs found",
+      "source_url": "https://alaskasurveyresearch.com/peltola-vs-sullivan-april-2026/"
+    },
+    {
+      "publication_date": "2026-03",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-03-19/22",
+      "status": "Frequencies report no party candidate crossbreaks found",
+      "source_url": "https://alaskasurveyresearch.com/wp-content/uploads/FULL-REPORT-March-Senate-Political-Tracking-Survey.pdf"
+    },
+    {
+      "publication_date": "2026-01",
+      "pollster": "PPP",
+      "field_dates": "2026-01-16/17",
+      "status": "No six-cell table located",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+    },
+    {
+      "publication_date": "2026-01-13",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2026-01-08/11",
+      "status": "accepted; January 13 publication cited in contemporary report and ASR media upload metadata",
+      "source_url": "https://alaskasurveyresearch.com/wp-content/uploads/202526-Winter-Alaska-Survey-Report.pdf"
+    },
+    {
+      "publication_date": "2025-10-31",
+      "pollster": "Data for Progress",
+      "field_dates": "2025-10-17/23",
+      "status": "accepted",
+      "source_url": "https://www.filesforprogress.org/datasets/2025/10/dfp_ak_oct_2025_electoral_and_health.pdf"
+    },
+    {
+      "publication_date": "2025-10",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2025-10-10/15",
+      "status": "News reports topline and party composition 29/15/48/8 but not support by party; composition is not crosstabs",
+      "source_url": "https://www.juneauindependent.com/post/poll-peltola-ahead-of-sullivan-in-race-that-could-decide-control-of-us-senate"
+    },
+    {
+      "publication_date": "2025-08-05 or earlier",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2025-07-29/08-01",
+      "status": "accepted: full 72-page original at DocumentCloud, p54 candidate-by-party table, read in Safari",
+      "source_url": "https://www.documentcloud.org/documents/26071481-ak-sen-alaska-survey-research-d/?mode=text#document/p54"
+    },
+    {
+      "publication_date": "2025-08-08",
+      "pollster": "Data for Progress",
+      "field_dates": "2025-07-21/27",
+      "status": "accepted",
+      "source_url": "https://www.filesforprogress.org/datasets/2025/7/dfp_alaska_summer_2025_peltola.pdf"
+    },
+    {
+      "publication_date": "2023-05",
+      "pollster": "Alaska Survey Research",
+      "field_dates": "2023-04-21/25",
+      "status": "Hypothetical race, topline only in identified reporting; no six-cell table found",
+      "source_url": "https://mustreadalaska.com/new-poll-says-rep-mary-peltola-could-take-sen-dan-sullivan-in-2026/"
+    }
+  ],
+  "excluded_pollsters": [
+    "Wedgewood: fabricated"
+  ]
+}

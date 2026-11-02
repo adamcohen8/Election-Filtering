@@ -1,0 +1,9 @@
+# New Hampshire governor polling, as of November 1, 2026
+
+Ten distinct waves have six reported Ayotte/Warmington party-group shares: three published October 1–November 1, and seven earlier waves selected in reverse publication order, skipping incomplete or inaccessible sources. They are candidate records for review, not ready for automatic ingestion. Denominators are weighted frequencies, unspecified-weight table bases, or unknown as labeled. Independents, undeclared registrants, and leaned party ID are different concepts. Anselm's unexplained “Swing” category is not treated as independent.
+
+The AARP first-choice table is 52/44 overall; the release's 52/45 is its later pushed ballot, so the difference is deliberate and documented. UNH's September and June ballot base counts are 1407 and 2221, smaller than the general likely-voter samples 1418 and 2232. The UNH August governor report was published August 27 even though its paired Senate report appeared August 26.
+
+A Rasmussen October 20–23 article has complete shares but names John Horsley as an independent candidate and describes a national survey; a gender sentence is also inconsistent. This is held outside the ten until the actual questionnaire and source integrity can be established. NPA's October memo omits two party cells for Warmington, and standalone YouGov supplies no full party breakdown found. NYT/Siena September 24 crosstabs remain inaccessible under the site access policy. See inventory and `sources/EXCERPTS.md` for unresolved newer alternatives and direct evidence.
+
+The research searched 270toWin, On Point Politics, Call the Map, RealClearPolling and individual pollster releases through November 1. This is a bounded search, not a guarantee that every published crosstab was found. Sources with unknown subgroup N, uncertain party definitions, or registration-based grouping remain explicitly labeled.

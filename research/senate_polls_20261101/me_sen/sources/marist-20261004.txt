@@ -1,0 +1,7 @@
+Source: https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610051032xtc92617B.pdf
+Release: https://maristpoll.marist.edu/polls/midterm-elections-in-maine-october-2026/
+Location: PDF pages 1-2 and 6, Nature of Sample and SNVT26R
+
+ID rows Democrat, Republican, Independent: Jackson 94%,3%,52%; Collins 4%,97%,45%. Nature of sample D34%, R30%, I32%, Other 5%; total RV 1,505.
+
+Ns are floor(total times rounded weighted composition), estimates only, not reported respondent counts. Other is separately reported and not combined with independent; percentages rounded, composition sums to 101%.

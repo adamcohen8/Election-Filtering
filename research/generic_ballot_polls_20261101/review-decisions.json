@@ -1,0 +1,289 @@
+{
+  "schema_version": 2,
+  "reviewed_on": "2026-11-01",
+  "window": {
+    "start": "2026-10-01",
+    "end": "2026-11-01"
+  },
+  "decisions": {
+    "us_house_generic/economist-oct5": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Party columns are the full registered-voter ballot base, NOT the adjacent strict/loose LV columns; one version per wave. Candidate names are piped by district. Party leaner handling not shown in table. Publication bounds use field end and dated public citation when exact first release not pinned.",
+      "record_sha256": "c5c003eda89b06f024c0c741d0fd3930f97050c07664eee4cb4229b49f82b14b",
+      "publication_date_bounds": [
+        "2026-10-05",
+        "2026-10-07"
+      ],
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/economist-oct12": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Party columns are the full registered-voter ballot base, NOT the adjacent strict/loose LV columns; one version per wave. Candidate names are piped by district. Party leaner handling not shown in table. Publication bounds use field end and dated public citation when exact first release not pinned.",
+      "record_sha256": "6561ae26f12301649565fa1b35ee68469e1a63fcf831f052174c4db42ff67f15",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/economist-official-oct20": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Party columns are the full registered-voter ballot base, NOT the adjacent strict/loose LV columns; one version per wave. Candidate names are piped by district. Party leaner handling not shown in table. Publication bounds use field end and dated public citation when exact first release not pinned.",
+      "record_sha256": "d94ee123560b348a7a1f83bd23c80f7684c92b8532b8b23f9f82151a393910a7",
+      "publication_date_bounds": [
+        "2026-10-20",
+        "2026-10-23"
+      ],
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/economist-official-oct26": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Party columns are the full registered-voter ballot base, NOT the adjacent strict/loose LV columns; one version per wave. Candidate names are piped by district. Party leaner handling not shown in table. Publication bounds use field end and dated public citation when exact first release not pinned.",
+      "record_sha256": "c4040b093a5603248163ff1fd9433c6789b50133f8d7a04c49db36e1d2df5067",
+      "publication_date_bounds": [
+        "2026-10-26",
+        "2026-10-28"
+      ],
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/fox-oct12": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Full registered-voter party columns. PDF reports subgroup MOEs, not exact subgroup Ns.",
+      "record_sha256": "994c8619552767fc936f2fa6802a65f850461e9b753cce6dd1a3dee4c5b75778",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/cbs-oct2": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Weighted subgroup bases; LV party table, not RV approval table.",
+      "record_sha256": "80386889afdb4055b70adf46effa20be45a86798288486717ab01c5e6773860b",
+      "precision": {
+        "method": "reported_weighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/cbs-oct23": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Weighted subgroup bases; table contains additional non-R/D/I categories, and rounded party bases need not sum to total.",
+      "record_sha256": "7b19f4cb6e119a5bbdfab94968a8da804549ac81766fdba7d2285635ec7b2589",
+      "precision": {
+        "method": "reported_weighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/ipsos-oct26": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Lean-inclusive ballot. Independents include other party; exact source subgroup Ns unweighted. One LV version, RV alternative not counted.",
+      "record_sha256": "94d3b0d1adb8621f8f34e26a15bf54cf09fe13804b8a940f2b3401ffd439f4ac",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/ipsos-oct19": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. The complete party columns cover ALL ADULTS, not the adjacent RV column. First choice before lean probe, which applies only to undecided respondents. Independents include other party. Do not substitute RV topline population.",
+      "record_sha256": "20ac5d6ef0d3290f42dccc19b4a5e3f0ab842e72339349bd1ea517d0edff4269",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/marist-oct20": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Exact LV party subgroup counts not printed in selected table; 1289 is the RV base and is not substituted.",
+      "record_sha256": "f3372efa23568184fd7b348a8d1d824e68cfb7c3977c9f8b23a3397ae40bf8e5",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/harvard-oct26": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Forced two-party question; preserve source 100% two-party totals. Independents include other party. Exact LV subgroup Ns absent; do not substitute full RV sample.",
+      "record_sha256": "c7c06a9e0a8bf6618e9653c01833f326ecb9451616fa27f93a7b87d8b2feb989",
+      "publication_date_bounds": [
+        "2026-10-26",
+        "2026-10-28"
+      ],
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/umass-oct4": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Leaned party ID assigns party leaners to D/R; narrow Independent differs from unleaned party ID. Exact subgroup Ns unshown.",
+      "record_sha256": "9f65f3e95275d352841e44e33c7e1fe3400040b4092c538f358905b97a3ae23b",
+      "publication_date_bounds": [
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/rainey-oct20": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Sum definitely+probably support from rounded components; may differ by1pp from unrounded aggregates. Independent combines other party. Exact subgroup Ns absent.",
+      "record_sha256": "8ec1be1e689a29031adf6a190f3310730b5492918d091015de6a8cda2b11ea90",
+      "publication_date_bounds": [
+        "2026-10-20",
+        "2026-10-28"
+      ],
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/emerson-oct26": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Question: party registration or affiliation, with Independent/other combined; exact fractional weighted bases retained in raw record and floored only by ingestion.",
+      "record_sha256": "42b2adbdd67005770de4b778e989afe1785a207f3c0f0e28872a44aacc3428a9",
+      "precision": {
+        "method": "reported_weighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/focaldata-oct5": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. All-adult first-choice party columns. Pool strong/not-strong identifiers into D/R; retain both leaner groups with Independent. Support pooled using exact weighted bases; raw subgroup Ns summed. Unknown-party respondents excluded from those groups. LV/RV headline columns are different populations and not used.",
+      "record_sha256": "1f3b5300be59d7dd6937959eb3a545c67e9a26e6ef3edcdf4c3299f29b9c69cb",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/focaldata-oct20": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. All-adult first-choice party columns. Pool strong/not-strong identifiers into D/R; retain both leaner groups with Independent. Support pooled using exact weighted bases; raw subgroup Ns summed. Unknown-party respondents excluded from those groups. LV/RV headline columns are different populations and not used.",
+      "record_sha256": "ca46dd9d93aa0b700e5c189fdef0a1ab31513eb5495f3eab258df6cf3c7dece4",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/activote03": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Source-produced binary candidate choice; no new renormalization. Source narrative refers to registered party. Party composition is rounded; exact subgroup Ns stay null. Separate non-overlapping field periods.",
+      "record_sha256": "dd95938d5a60c548bd529a7cc0431ed9484e42b4132ede92af877da5f4020418",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/activote14": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Source-produced binary candidate choice; no new renormalization. Source narrative refers to registered party. Party composition is rounded; exact subgroup Ns stay null. Separate non-overlapping field periods.",
+      "record_sha256": "1e9751471e16a7ccc5bfb208e020d73d1c94a9321f8a849653ba331f93d3f2d1",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/activote21": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Source-produced binary candidate choice; no new renormalization. Source narrative refers to registered party. Party composition is rounded; exact subgroup Ns stay null. Separate non-overlapping field periods.",
+      "record_sha256": "ff6a75e354526ce1aab825746d315e468ac1a1ce2d1cfb2eb4dffac7d2b393a1",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/activote30": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Source-produced binary candidate choice; no new renormalization. Source narrative refers to registered party. Party composition is rounded; exact subgroup Ns stay null. Separate non-overlapping field periods.",
+      "record_sha256": "dba0f90ed1cbc5e51dc6a397ff2d55645fdc391a32895a3558f007cea164b75c",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/bigdata-oct30": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. First-choice registered-voter table3418, not the3214 LV headline. Excel export resolves the displayed rounded Sample Size to fractional weighted bases; use exact source shares and DEFF2. Independent/other combined. Exact browser selections Generic Congressional Ballot and Party.",
+      "record_sha256": "c21ab62149494b739acf65a82c26f6c17012a99e9764ba4b1dce2fa77261d501",
+      "precision": {
+        "method": "reported_weighted",
+        "design_effect": 2.0,
+        "evidence": "Source-reported applicable subgroup bases; conservative provisional DEFF2 for weighting/nonprobability or unspecified weighting. Preserve the reported base classification."
+      }
+    },
+    "us_house_generic/clarity-oct21": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Modeled party-ID proxy, not direct self-ID; expressly authorized proxy class. R93 minus published R margin89 yields D4; D94 minus published D margin90 yields R4. I17R/35D printed. Arithmetic on independently rounded support/margins can differ by1pp; use explicit conservative covariance.",
+      "record_sha256": "d9340f2cfcc935c426c388f847a672063daae7f8bdf835ab0c657c91cde9e292",
+      "publication_date_bounds": [
+        "2026-10-21",
+        "2026-10-27"
+      ],
+      "allow_proxy": true,
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    },
+    "us_house_generic/onpoint-oct28": {
+      "action": "accept",
+      "reason": "Verified all six conditional candidate support cells in the primary source. Source turnout-probability weighting and ballot soft targets; source-produced model-based subgroup estimate, not an ordinary1170-person LV screen. All1170 interviewed RV contribute probabilistically. Independent/other unleaned self-ID group; source interviews R371/D424/I375 retained as metadata, model Ns null. No additional undecided allocation applied.",
+      "record_sha256": "0d7422c36fe358b21f4603c4618d9c9490eb681af021f4fdf175b9c8833747b5",
+      "allow_proxy": true,
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable subgroup counts unavailable or uncertain; retain null Ns and use the existing provisional conservative measurement covariance."
+      }
+    }
+  },
+  "limitations": [
+    "Selection is national generic House vote preference only; national aggregates of named district candidates are labeled. Congressional-control preference alone is excluded.",
+    "Population and party definitions differ: LV, RV and all-adult party tables are explicitly distinguished; national user weights R37/D33/I30 remain unchanged.",
+    "One population/question version per poll wave. Unrecovered sources are inventoried; search is not proof of complete public coverage.",
+    "Unknown subgroup counts use explicit5pp cellSD covariance with within-pair correlation-.5. Reported weighted/unweighted/uncertain bases use provisional DEFF2; no synthetic exact Ns.",
+    "Source binary ballots retain source shares; other candidates, undecided and nonvoters remain outside the model without normalization.",
+    "Modeled-party-ID and rounded arithmetic cases are explicitly marked; no empirical calibration claim."
+  ]
+}

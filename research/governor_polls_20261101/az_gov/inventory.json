@@ -1,0 +1,141 @@
+{
+  "race_id": "az_gov",
+  "entries": [
+    {
+      "poll_id": "noble-20261028",
+      "publication_date": "2026-10-30",
+      "status": "included_review",
+      "source_url": "https://www.noblepredictiveinsights.com/post/az-poll-of-record-hobbs-6-yee-bucks-the-trend"
+    },
+    {
+      "poll_id": "kstrat-20261027",
+      "publication_date": "2026-10-28",
+      "status": "included_review",
+      "source_url": "https://americanencore.org/node/243"
+    },
+    {
+      "poll_id": "highground-20261025",
+      "publication_date": "2026-10-27",
+      "status": "included_review",
+      "source_url": "https://azhighground.com/trailing-republicans-gain-ground-in-latest-survey/"
+    },
+    {
+      "poll_id": "redbox-20261023",
+      "publication_date": "2026-10-25",
+      "status": "included",
+      "source_url": "https://afightworthhaving.com/polling/2026/arizona/crosstabs.pdf"
+    },
+    {
+      "poll_id": "grayhouse-20261020",
+      "publication_date": "2026-10-23",
+      "status": "included_review",
+      "source_url": "https://data.ddhq.io/polls/2026/10/23/GrayHouse-Arizona"
+    },
+    {
+      "poll_id": "highground-20261008",
+      "publication_date": "2026-10-13",
+      "status": "included_review",
+      "source_url": "https://azhighground.com/hurricane-season-for-arizona-republicans/"
+    },
+    {
+      "poll_id": "wick-20261006",
+      "publication_date": "2026-10-13",
+      "status": "included",
+      "source_url": "https://wick.io/assets/arizona-survey-release-crosstab-tables.pdf"
+    },
+    {
+      "poll_id": "asu-20260904",
+      "publication_date": null,
+      "status": "held_publication_date_uncertain",
+      "source_url": "https://www.dropbox.com/scl/fi/zw2q5gxws1dl59v9d9ivy/Crosstabs-full-sample-ASU-Svy-August-2026.pdf?rlkey=288kk2u0s27qzprjom3l32t16&st=dautaf2c&e=2&dl=0",
+      "first_observed_publication_date": "2026-10-06",
+      "publication_date_lower_bound": "2026-09-04"
+    },
+    {
+      "poll_id": "highground-20260818",
+      "publication_date": "2026-08-24",
+      "status": "included_review",
+      "source_url": "https://azhighground.com/hobbs-builds-double-digit-lead-in-arizona/"
+    },
+    {
+      "poll_id": "quantus-20260817",
+      "publication_date": "2026-08-21",
+      "status": "included_review",
+      "source_url": "https://quantusinsights.org/f/arizona-2026-hobbs-holds-the-edge?blogcategory=Polling"
+    },
+    {
+      "pollster": "GrayHouse October 28\u201329",
+      "source_url": "https://x.com/Garrett_Archer",
+      "status": "unresolved_or_excluded",
+      "reason": "October 30 reporting identifies 500 LV and 50\u201345 Hobbs\u2013Biggs; six party cells not located."
+    },
+    {
+      "pollster": "GrayHouse October 6\u20138",
+      "source_url": "https://www.grayhouse.com/post/new-grayhouse-poll-norton-leads-for-arizona-treasurer",
+      "status": "unresolved_or_excluded",
+      "reason": "Pollster reports governor topline and links toplines PDF; governor six party cells not recovered. Different wave from included October 18\u201320."
+    },
+    {
+      "pollster": "Equis October 6",
+      "source_url": "https://www.weareequis.us/research/memo-arizona-voter-research---sept-2026",
+      "status": "unresolved_or_excluded",
+      "reason": "September 1\u20139 fielded; governor margin for independents without all six party cells; memo alone insufficient."
+    },
+    {
+      "pollster": "GQR / Hobbs campaign",
+      "source_url": "https://data.ddhq.io/",
+      "status": "unresolved_or_excluded",
+      "reason": "October 7 memo cited by aggregators, complete party table not located."
+    },
+    {
+      "pollster": "NextGen August 20",
+      "source_url": "https://nxtgenp.com/post/new-blog-post-6092",
+      "status": "unresolved_or_excluded",
+      "reason": "Pollster reports full tables exist but interactive article content did not expose original party breakdown; more recent eligible backfill if recovered."
+    },
+    {
+      "pollster": "KStrat August 20",
+      "source_url": "https://kstrat.net/press/arizona-2026-governor-biggs-trails-hobbs-august",
+      "status": "unresolved_or_excluded",
+      "reason": "Release is topline only in accessible indexed text; full subgroup tables not located."
+    },
+    {
+      "pollster": "Noble August 20",
+      "source_url": "https://www.noblepredictiveinsights.com/post/katie-hobbs-leads-andy-biggs-in-the-grand-canyon-state",
+      "status": "included_review",
+      "reason": "Third backfill while ASU release date remains unresolved.",
+      "poll_id": "noble-20260813",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "pollster": "AARP August 6",
+      "source_url": "https://www.aarp.org/government-elections/arizona-poll-2026/",
+      "status": "unresolved_or_excluded",
+      "reason": "First-party page returned 403 to web reader; source-backed six party cells not extracted. Older than current backfills."
+    },
+    {
+      "pollster": "Noble May 18",
+      "source_url": "https://www.noblepredictiveinsights.com/post/azgov-biggs-nears-majority-as-hobbs-holds-early-edge",
+      "status": "unresolved_or_excluded",
+      "reason": "Original workbook in sources/noble-may.xlsx has correct named matchup and complete cells but not used: older than two selected backfills. Dateline May 18 and page date May 15 conflict."
+    },
+    {
+      "pollster": "ActiVote",
+      "source_url": "https://www.activote.net/polls/",
+      "status": "unresolved_or_excluded",
+      "reason": "No independently identifiable October 2026 Arizona governor governor table located; do not borrow other states or generic ballots."
+    },
+    {
+      "pollster": "On Point Polling",
+      "source_url": "https://www.onpointpolitics.us/forecast/az/governor",
+      "status": "unresolved_or_excluded",
+      "reason": "Arizona forecast tables are simulated estimates, not original survey crosstabs; excluded."
+    },
+    {
+      "pollster": "Wedgewood",
+      "source_url": null,
+      "status": "unresolved_or_excluded",
+      "reason": "Excluded: fabricated pollster."
+    }
+  ]
+}

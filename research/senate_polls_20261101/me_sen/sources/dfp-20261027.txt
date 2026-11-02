@@ -1,0 +1,7 @@
+Source: https://www.filesforprogress.org/datasets/2026/10/dfp_2026_me_ge_tabs.pdf
+Release: https://www.dataforprogress.org/blog/2026/10/30/democratic-senate-candidates-lead-in-maine-michigan-and-texas
+Location: PDF pages 1 and 5, Q2
+
+D / Independent-Third party / R: Jackson 88%,55%,4%; Collins 7%,38%,96%; weighted N 215,236,201; total 652.
+
+Source explicitly says self-identified affiliation, not partisan registration; independent category includes third-party identifiers.

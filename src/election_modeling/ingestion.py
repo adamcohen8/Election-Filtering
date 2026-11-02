@@ -5,16 +5,21 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Iterable, Mapping, Protocol
 from urllib.request import Request, urlopen
+
+import numpy as np
 
 from election_modeling.cycles import RACES_2026_BY_ID, Office, race_id_for
 from election_modeling.elections import ElectionModel
 from election_modeling.polls import PollAdjustment, PollObservation
 from election_modeling.races import RaceModel
-from election_modeling.states import PARTY_IDS, PartyID
+from election_modeling.states import PARTY_IDS, PARTY_STATE_SLICES, PartyID
+from election_modeling.nominees import NOMINEES_2026_BY_RACE
+from election_modeling.races import parse_date
+from election_modeling.validation import covariance_matrix, nonnegative, sample_size as validate_sample_size
 
 
 BLOCKED_POLLSTER_PREFIXES = ("wedgewood",)
@@ -22,10 +27,20 @@ BLOCKED_POLLSTER_PREFIXES = ("wedgewood",)
 
 @dataclass(frozen=True)
 class PartyIDCrosstab:
-    """Party-ID cross-tab support for a two-candidate poll."""
+    """Party-category cross-tab support for a two-candidate poll."""
 
     values: Mapping[PartyID, tuple[float, float]]
     subgroup_sample_sizes: Mapping[PartyID, int]
+    # Explicit measurement uncertainty when subgroup counts are unavailable or
+    # source-produced model estimates cannot justify a multinomial calculation.
+    measurement_covariance: np.ndarray | None = None
+
+    def __post_init__(self) -> None:
+        if self.measurement_covariance is not None:
+            matrix = covariance_matrix(self.measurement_covariance, 6)
+            if np.any(np.diag(matrix) <= 0):
+                raise ValueError("crosstab covariance diagonal must be positive")
+            object.__setattr__(self, "measurement_covariance", matrix.copy())
 
     def to_observation(
         self,
@@ -34,7 +49,19 @@ class PartyIDCrosstab:
         pollster: str | None = None,
         field_date: str | None = None,
         extra_variance: float = 0.0,
+        design_effect: float = 1.5,
+        sample_id: str | None = None,
     ) -> PollObservation:
+        if self.measurement_covariance is not None:
+            values = np.full(6, np.nan)
+            for party, shares in self.values.items():
+                values[list(PARTY_STATE_SLICES[party])] = shares
+            return PollObservation(
+                values=values,
+                covariance=self.measurement_covariance + np.eye(6) * nonnegative(extra_variance, "extra variance"),
+                adjustment=adjustment, pollster=pollster, field_date=field_date,
+                sample_id=sample_id,
+            )
         return PollObservation.from_party_id_shares(
             values=self.values,
             subgroup_sample_sizes=self.subgroup_sample_sizes,
@@ -42,6 +69,8 @@ class PartyIDCrosstab:
             pollster=pollster,
             field_date=field_date,
             extra_variance=extra_variance,
+            design_effect=design_effect,
+            sample_id=sample_id,
         )
 
 
@@ -70,6 +99,13 @@ class NormalizedPoll:
     candidate_b: str | None = None
     source_url: str | None = None
     text: str = ""
+    design_effect: float = 1.5
+    sample_id: str | None = None
+    candidate_a_party: str | None = None
+    candidate_b_party: str | None = None
+    party_named_crosstabs: bool = False
+    crosstab_basis: str | None = None
+    precision_method: str | None = None
 
     @classmethod
     def from_mapping(cls, row: Mapping[str, object]) -> "NormalizedPoll":
@@ -79,6 +115,7 @@ class NormalizedPoll:
         office = _parse_office(_empty_to_none(_string_value(normalized.get("office"))))
         pollster = _required_string(normalized, "pollster")
         field_date = _required_string(normalized, "field_date")
+        parse_date(field_date)
         candidate_a = _empty_to_none(_string_value(normalized.get("candidate_a")))
         candidate_b = _empty_to_none(_string_value(normalized.get("candidate_b")))
         source_url = _empty_to_none(_string_value(normalized.get("source_url")))
@@ -88,19 +125,20 @@ class NormalizedPoll:
 
         values: dict[PartyID, tuple[float, float]] = {}
         sample_sizes: dict[PartyID, int] = {}
+        direct_covariance = normalized.get("crosstab_covariance")
         for party_id in PARTY_IDS:
-            a_value = _find_value(
+            a_value = _find_share(
                 normalized,
                 f"{party_id}_candidate_a",
                 f"{party_id}_a",
-                f"{party_id}_dem",
+                f"{party_id}_rep",
                 f"{party_id}_candidate_1",
             )
-            b_value = _find_value(
+            b_value = _find_share(
                 normalized,
                 f"{party_id}_candidate_b",
                 f"{party_id}_b",
-                f"{party_id}_rep",
+                f"{party_id}_dem",
                 f"{party_id}_candidate_2",
             )
             n_value = _find_value(
@@ -111,13 +149,15 @@ class NormalizedPoll:
             )
             if a_value is None and b_value is None and n_value is None:
                 continue
-            if a_value is None or b_value is None or n_value is None:
+            if a_value is None or b_value is None or (n_value is None and direct_covariance is None):
                 raise ValueError(f"incomplete {party_id} crosstab fields")
             values[party_id] = (_parse_share(a_value), _parse_share(b_value))
-            sample_sizes[party_id] = _parse_int(n_value)
+            if n_value is not None:
+                sample_sizes[party_id] = _parse_int(n_value)
 
         crosstab = (
-            PartyIDCrosstab(values=values, subgroup_sample_sizes=sample_sizes)
+            PartyIDCrosstab(values=values, subgroup_sample_sizes=sample_sizes,
+                            measurement_covariance=direct_covariance)
             if values
             else None
         )
@@ -135,6 +175,7 @@ class NormalizedPoll:
                 office=office,
                 measurement=_measurement_payload(crosstab=crosstab, topline=topline),
                 source_url=source_url,
+                sample_id=_empty_to_none(_string_value(normalized.get("sample_id"))),
             )
 
         return cls(
@@ -150,6 +191,13 @@ class NormalizedPoll:
             candidate_b=candidate_b,
             source_url=source_url,
             text=text,
+            design_effect=float(normalized.get("design_effect", 1.5)),
+            sample_id=_empty_to_none(_string_value(normalized.get("sample_id"))),
+            candidate_a_party=_empty_to_none(_string_value(normalized.get("candidate_a_party"))),
+            candidate_b_party=_empty_to_none(_string_value(normalized.get("candidate_b_party"))),
+            party_named_crosstabs=any(_string_value(normalized.get(f"{party}_{label}")) for party in PARTY_IDS for label in ("rep", "dem")),
+            crosstab_basis=_empty_to_none(_string_value(normalized.get("crosstab_basis"))),
+            precision_method=_empty_to_none(_string_value(normalized.get("model_base_method"))),
         )
 
 
@@ -234,6 +282,7 @@ class IngestionLedger:
 
     seen_poll_ids: set[str] = field(default_factory=set)
     path: Path | None = None
+    measurement_keys: set[str] = field(default_factory=set)
 
     @classmethod
     def load(cls, path: str | Path) -> "IngestionLedger":
@@ -241,7 +290,8 @@ class IngestionLedger:
         if not ledger_path.exists():
             return cls(path=ledger_path)
         payload = json.loads(ledger_path.read_text())
-        return cls(seen_poll_ids=set(payload.get("seen_poll_ids", [])), path=ledger_path)
+        return cls(seen_poll_ids=set(payload.get("seen_poll_ids", [])), path=ledger_path,
+                   measurement_keys=set(payload.get("measurement_keys", [])))
 
     def has_seen(self, poll_id: str) -> bool:
         return poll_id in self.seen_poll_ids
@@ -253,7 +303,7 @@ class IngestionLedger:
         if self.path is None:
             return
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        payload = {"seen_poll_ids": sorted(self.seen_poll_ids)}
+        payload = {"seen_poll_ids": sorted(self.seen_poll_ids), "measurement_keys": sorted(self.measurement_keys)}
         self.path.write_text(json.dumps(payload, indent=2) + "\n")
 
 
@@ -291,63 +341,55 @@ class PollIngestionPipeline:
         unknown_race_ids: list[str] = []
         errors: list[str] = []
 
+        all_polls = []
         for source in self.sources:
             try:
-                polls = source.fetch()
+                all_polls.extend(list(source.fetch()))
             except Exception as exc:
                 errors.append(f"{source.name}: fetch failed: {exc}")
-                continue
 
-            for poll in sorted(polls, key=_poll_sort_key):
-                if _is_blocked_pollster(poll.pollster):
-                    errors.append(
-                        f"{poll.poll_id}: blocked fabricated pollster: {poll.pollster}"
-                    )
-                    continue
-                if self.ledger.has_seen(poll.poll_id):
+        # Sort across sources, not just within each source. Validate dates before
+        # mutation. Older releases arriving in later runs require a full replay.
+        valid_polls = []
+        for poll in all_polls:
+            try:
+                parse_date(poll.field_date)
+                valid_polls.append(poll)
+            except (ValueError, TypeError) as exc:
+                errors.append(f"{poll.poll_id}: invalid date: {exc}")
+        for poll in sorted(valid_polls, key=_poll_sort_key):
+            if _is_blocked_pollster(poll.pollster):
+                errors.append(f"{poll.poll_id}: blocked fabricated pollster: {poll.pollster}")
+                continue
+            if self.ledger.has_seen(poll.poll_id):
+                duplicates.append(poll.poll_id)
+                continue
+            try:
+                race_id = self.classifier.classify(poll)
+            except (ValueError, KeyError) as exc:
+                errors.append(f"{poll.poll_id}: classification failed: {exc}")
+                continue
+            if race_id is None:
+                unclassified.append(poll.poll_id)
+                continue
+            if race_id not in election.races:
+                unknown_race_ids.append(race_id)
+                continue
+            try:
+                poll = canonical_poll(poll, race_id)
+                key = measurement_key(poll, race_id)
+                if key in self.ledger.measurement_keys:
                     duplicates.append(poll.poll_id)
                     continue
-                race_id = self.classifier.classify(poll)
-                if race_id is None:
-                    unclassified.append(poll.poll_id)
-                    continue
-                if race_id not in election.races:
-                    unknown_race_ids.append(race_id)
-                    continue
-
-                try:
-                    if poll.crosstab is not None:
-                        observation = poll.crosstab.to_observation(
-                            adjustment=self.adjustment_by_poll_id.get(poll.poll_id),
-                            pollster=poll.pollster,
-                            field_date=poll.field_date,
-                            extra_variance=self.extra_variance,
-                        )
-                        election.update(race_id, observation)
-                    elif poll.topline is not None:
-                        election.races[race_id].update_topline(
-                            candidate_a_share=poll.topline.candidate_a_share,
-                            candidate_b_share=poll.topline.candidate_b_share,
-                            sample_size=poll.topline.sample_size,
-                            pollster=poll.pollster,
-                            field_date=poll.field_date,
-                            extra_variance=self.extra_variance,
-                        )
-                    else:
-                        raise ValueError("poll has no crosstab or topline measurement")
-                except Exception as exc:
-                    errors.append(f"{poll.poll_id}: apply failed: {exc}")
-                    continue
-
-                self.ledger.mark_seen(poll.poll_id)
-                applied.append(
-                    AppliedPoll(
-                        poll_id=poll.poll_id,
-                        race_id=race_id,
-                        pollster=poll.pollster,
-                        field_date=poll.field_date,
-                    )
-                )
+                apply_poll(poll, election.races[race_id],
+                           adjustment=self.adjustment_by_poll_id.get(poll.poll_id),
+                           extra_variance=self.extra_variance)
+            except Exception as exc:
+                errors.append(f"{poll.poll_id}: apply failed: {exc}")
+                continue
+            self.ledger.mark_seen(poll.poll_id)
+            self.ledger.measurement_keys.add(key)
+            applied.append(AppliedPoll(poll.poll_id, race_id, poll.pollster, poll.field_date))
 
         self.ledger.save()
         return IngestionResult(
@@ -459,9 +501,10 @@ def _find_value(row: Mapping[str, object], *keys: str) -> object | None:
 
 
 def _parse_share(value: object) -> float:
-    text = _string_value(value).replace("%", "").replace(",", "")
+    original = _string_value(value)
+    text = original.replace("%", "").replace(",", "")
     number = float(text)
-    if number > 1.0:
+    if "%" in original or number > 1.0:
         number = number / 100.0
     if not 0.0 <= number <= 1.0:
         raise ValueError(f"share outside [0, 1]: {value}")
@@ -470,15 +513,12 @@ def _parse_share(value: object) -> float:
 
 def _parse_int(value: object) -> int:
     text = _string_value(value).replace(",", "")
-    number = int(float(text))
-    if number <= 0:
-        raise ValueError(f"sample size must be positive: {value}")
-    return number
+    return validate_sample_size(float(text))
 
 
 def _parse_topline(row: Mapping[str, object]) -> ToplineResult | None:
-    a_value = _find_value(row, "topline_candidate_a", "topline_a", "overall_a")
-    b_value = _find_value(row, "topline_candidate_b", "topline_b", "overall_b")
+    a_value = _find_share(row, "topline_candidate_a", "topline_a", "overall_a")
+    b_value = _find_share(row, "topline_candidate_b", "topline_b", "overall_b")
     n_value = _find_value(
         row,
         "topline_sample_size",
@@ -505,10 +545,13 @@ def _measurement_payload(
 ) -> Mapping[str, object]:
     payload: dict[str, object] = {}
     if crosstab is not None:
+        payload["subgroup_sample_sizes"] = dict(crosstab.subgroup_sample_sizes)
         payload["crosstab"] = {
             key: crosstab.values[key]
             for key in sorted(crosstab.values)
         }
+        if crosstab.measurement_covariance is not None:
+            payload["crosstab_covariance"] = crosstab.measurement_covariance.tolist()
     if topline is not None:
         payload["topline"] = {
             "candidate_a": topline.candidate_a_share,
@@ -527,6 +570,7 @@ def _stable_poll_id(
     office: Office | None,
     measurement: Mapping[str, object],
     source_url: str | None,
+    sample_id: str | None = None,
 ) -> str:
     payload = {
         "pollster": pollster,
@@ -536,6 +580,113 @@ def _stable_poll_id(
         "office": office,
         "measurement": measurement,
         "source_url": source_url,
+        "sample_id": sample_id,
     }
     digest = hashlib.sha1(json.dumps(payload, sort_keys=True).encode("utf-8")).hexdigest()
     return digest[:16]
+
+
+def _party_label(value: str | None) -> str | None:
+    if value is None:
+        return None
+    value = value.casefold().strip()
+    if value in {"r", "rep", "republican", "generic republican"}:
+        return "republican"
+    if value in {"d", "dem", "democrat", "democratic", "generic democrat"}:
+        return "democratic"
+    if value in {"i", "ind", "independent", "nonpartisan", "non-partisan"}:
+        return "independent"
+    raise ValueError(f"unsupported candidate party label: {value}")
+
+
+def canonical_poll(poll: NormalizedPoll, race_id: str) -> NormalizedPoll:
+    """Canonical observations are Republican A and the registered opponent B."""
+    nominees = NOMINEES_2026_BY_RACE.get(race_id)
+    opponent_party = nominees.candidate_b.party if nominees and nominees.candidate_b else "democratic"
+    if poll.party_named_crosstabs and opponent_party != "democratic":
+        raise ValueError("Independent-opponent races require explicit candidate A/B support columns")
+    def party(name, declared):
+        explicit = _party_label(declared)
+        if name is None:
+            return explicit
+        normal = lambda value: "".join(c for c in value.casefold() if c.isalnum())
+        inferred = None
+        if nominees:
+            for candidate in (nominees.republican, nominees.candidate_b):
+                if candidate and normal(candidate.name) == normal(name):
+                    inferred = candidate.party
+        if inferred is None:
+            inferred = _party_label(name)
+        if explicit and explicit != inferred:
+            raise ValueError("candidate name and declared party disagree")
+        return inferred
+    a = party(poll.candidate_a, poll.candidate_a_party)
+    b = party(poll.candidate_b, poll.candidate_b_party)
+    if a is None and b is None:
+        a, b = "republican", opponent_party
+    elif a is None:
+        a = opponent_party if b == "republican" else "republican"
+    elif b is None:
+        b = opponent_party if a == "republican" else "republican"
+    if a == b:
+        raise ValueError("poll candidates must represent different major parties")
+    if (a, b) == ("republican", opponent_party):
+        return poll
+    if (b, a) != ("republican", opponent_party):
+        raise ValueError("poll candidate parties do not match the registered matchup")
+    if poll.party_named_crosstabs:
+        raise ValueError("party-named crosstabs are Republican-first; conflicting candidate labels")
+    crosstab = poll.crosstab
+    topline = poll.topline
+    if crosstab:
+        matrix = crosstab.measurement_covariance
+        if matrix is not None:
+            permutation = [1, 0, 3, 2, 5, 4]
+            matrix = matrix[np.ix_(permutation, permutation)]
+        crosstab = replace(crosstab, values={key: (value[1], value[0]) for key, value in crosstab.values.items()},
+                           measurement_covariance=matrix)
+    if topline:
+        topline = replace(topline, candidate_a_share=topline.candidate_b_share,
+                          candidate_b_share=topline.candidate_a_share)
+    return replace(poll, crosstab=crosstab, topline=topline,
+                   candidate_a=poll.candidate_b, candidate_b=poll.candidate_a,
+                   candidate_a_party="republican", candidate_b_party=opponent_party)
+
+
+def measurement_key(poll: NormalizedPoll, race_id: str) -> str:
+    payload = {
+        "pollster": " ".join(poll.pollster.casefold().split()),
+        "date": poll.field_date, "race": race_id, "sample_id": poll.sample_id,
+        "measurement": _measurement_payload(crosstab=poll.crosstab, topline=poll.topline),
+    }
+    return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
+
+
+def apply_poll(poll: NormalizedPoll, model: RaceModel, *, adjustment=None, extra_variance=0.0) -> None:
+    """Shared ingestion/history path: dates, survey errors and design effects."""
+    if poll.crosstab is not None:
+        model.update(poll.crosstab.to_observation(
+            adjustment=adjustment, pollster=poll.pollster, field_date=poll.field_date,
+            extra_variance=extra_variance, design_effect=poll.design_effect, sample_id=poll.sample_id,
+        ))
+    elif poll.topline is not None:
+        if adjustment is not None:
+            raise ValueError("six-cell adjustments cannot be applied to topline-only polls")
+        model.update_topline(
+            candidate_a_share=poll.topline.candidate_a_share,
+            candidate_b_share=poll.topline.candidate_b_share,
+            sample_size=poll.topline.sample_size, pollster=poll.pollster,
+            field_date=poll.field_date, extra_variance=extra_variance,
+            design_effect=poll.design_effect, sample_id=poll.sample_id,
+        )
+    else:
+        raise ValueError("poll has no crosstab or topline measurement")
+
+
+def _find_share(row: Mapping[str, object], *keys: str) -> float | None:
+    values = [_parse_share(row[key]) for key in keys if key in row and _string_value(row[key])]
+    if not values:
+        return None
+    if max(values)-min(values) > 1e-12:
+        raise ValueError(f"conflicting share aliases: {keys}")
+    return values[0]

@@ -1,0 +1,51 @@
+{
+  "race_id": "nc_sen",
+  "selected": [
+    "opinion-diagnostics-20260920",
+    "harper-20260915",
+    "ecu-20260903"
+  ],
+  "unresolved": [
+    {
+      "poll": "Big Data Poll",
+      "field": "2026-09-27 to 2026-09-29",
+      "reason": "MarketSight page 1 accessible but ballot is on later interactive pages; six party cells not verified. Release methodology says Texas despite NC poll; page 1 NC weighting identifies geography."
+    },
+    {
+      "poll": "Catawba/YouGov",
+      "field": "2026-09-04 to 2026-09-15",
+      "publication": "2026-09-30",
+      "reason": "Linked SharePoint crosstab prompts sign-in; sponsor release gives four of six cells, not both crossovers."
+    },
+    {
+      "poll": "Quantus",
+      "field": "2026-09-21 to 2026-09-22",
+      "reason": "Original party crosstabs not established in this search; see existing Quantus research."
+    },
+    {
+      "poll": "AARP/Fabrizio Ward/Impact",
+      "field": "2026-09-17 to 2026-09-20",
+      "reason": "AARP original topline and public release located; no full all-age party cross-table verified."
+    },
+    {
+      "poll": "YouGov",
+      "field": "2026-09-15 to 2026-09-18",
+      "reason": "Original PDF has ballot by demographics, likely model and past vote but no party ballot table."
+    },
+    {
+      "poll": "High Point 127",
+      "field": "2026-09-06 to 2026-09-16",
+      "reason": "Public memo gives toplines; no party ballot crosstab established."
+    },
+    {
+      "poll": "Elon/YouGov",
+      "field": "2026-08-21 to 2026-08-31",
+      "reason": "Public topline and charts found; party ballot table not located."
+    },
+    {
+      "poll": "InsiderAdvantage",
+      "field": "2026-09-16 to 2026-09-17",
+      "reason": "Six-cell original party table not established in this search."
+    }
+  ]
+}

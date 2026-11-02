@@ -1,0 +1,163 @@
+{
+  "race_id": "nc_sen",
+  "search_queries": [
+    "North Carolina senate 2026 polls October 2026 Cooper Whatley crosstabs",
+    "North Carolina Senate poll October 2026 Whatley Cooper SurveyUSA YouGov Quantus",
+    "Carolina Forward October 2026 poll crosstabs Change Research",
+    "ttw_nc_20261026 crosstabs yougov",
+    "ECU poll 2026 crosstab report",
+    "Harper Carolina Journal October 2026 crosstabs"
+  ],
+  "aggregator_urls": [
+    "https://www.270towin.com/2026-senate-polls/north-carolina",
+    "https://www.callthemap.com/polls/SEN-NC",
+    "https://electiontracker.live/races/senate/north-carolina-2026.html",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
+    "https://crosstab.vote/senate/north-carolina/"
+  ],
+  "releases": [
+    {
+      "pollster": "RedBox Research",
+      "sponsor": "A Fight Worth Having",
+      "publication_date": "2026-10-25",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-23",
+      "original_url": "https://afightworthhaving.com/polling/2026/north-carolina/senate",
+      "table_url": "https://afightworthhaving.com/polling/2026/north-carolina/crosstabs.pdf",
+      "status": "ready",
+      "reason": "Independent includes independent, another party, and dont know, including partisan leaners; 228 true independents are a separate subset. Separate voter-file registration table not counted. Large design effect 4.81; 3,292 pooled statewide/NC-01/NC-11."
+    },
+    {
+      "pollster": "Change Research",
+      "sponsor": "Carolina Forward",
+      "publication_date": "2026-10-13",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-07",
+      "original_url": "https://carolinaforward.org/news/the-october-2026-carolina-forward-poll/",
+      "table_url": "https://docs.google.com/spreadsheets/d/1TdqW3LGWesRMSCd2B9YNz0kmZOz2rUtwDd44UyNFLI0/edit?usp=drive_link",
+      "status": "ready",
+      "reason": "Google Sheets directly accessible in browser; xlsx export returned 401. Ballot includes leans and party ID groups are leaned. Rounded bases do not sum to total."
+    },
+    {
+      "pollster": "Harper Polling",
+      "sponsor": "Carolina Journal",
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-18",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.carolinajournal.com/polls/october-2026-coopers-lead-over-whatley-narrows-to-10-points-in-nc-senate-race/",
+      "table_url": "https://www.carolinajournal.com/wp-content/uploads/2026/10/H25035-CJ-NC-Oct26-Crosstabs.xlsx",
+      "status": "ready",
+      "reason": "Self-reported voter registration, not party ID; source uses Independent registration label. Other 21 and unsure 12 separately reported and excluded, not silently mapped into independent. Frequencies rounded weighted bases: cell-level weighted counts fractional; actual unweighted subgroup Ns not established."
+    },
+    {
+      "pollster": "East Carolina University Center for Survey Research",
+      "sponsor": null,
+      "publication_date": "2026-10-08",
+      "field_start": "2026-09-30",
+      "field_end": "2026-10-03",
+      "original_url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-s-lead-holds-at-7-points",
+      "table_url": "https://cdn.filestackcontent.com/sVeW8FAaSPaEQyJBDOZZ",
+      "status": "needs_review",
+      "reason": "Source says positive percentages rounding to 0 displayed <1%; do not replace with 0. No subgroup bases or party composition in crosstab report. Weighted cell counts rounded before computing percentages."
+    },
+    {
+      "pollster": "SurveyUSA",
+      "sponsor": "WRAL/WSOC",
+      "publication_date": "2026-10-13",
+      "field_start": "2026-10-07",
+      "field_end": "2026-10-11",
+      "original_url": "https://www.wral.com/news/nccapitol/wral-nc-us-senate-poll-cooper-whatley-tillis-trump-stein-approval-midterm-october-2026/",
+      "table_url": "https://results.surveyusa.com/client/PollReport_main.aspx?g=0a876c84-9a95-4995-9218-82b1015f5d77",
+      "status": "needs_review",
+      "reason": "Basis not established: affiliation may mean registration or ID; no party question provided in report. Ns are floor(643 \u00d7 rounded composition), estimates, not source counts. LV already-voted/likely sample; percentages weighted."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-11-01",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-29",
+      "original_url": "https://www.270towin.com/2026-senate-polls/north-carolina",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_nc_20261026_lv.pdf",
+      "status": "excluded",
+      "reason": "Linked 8-page original document presents toplines only, no Senate by party table; 270toWin dates publication Nov 1."
+    },
+    {
+      "pollster": "High Point University / YouGov",
+      "sponsor": "High Point University",
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.highpoint.edu/blog/2026/10/hpu-yougov-poll-north-carolina-likely-voters-weigh-in-on-u-s-senate-race-and-more/",
+      "table_url": "https://www.highpoint.edu/src/files/2023/08/HPUPoll128A.pdf",
+      "status": "excluded",
+      "reason": "Poll 128 memo presents LV and RV toplines and demographics, not Senate by party crosstabs."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-26",
+      "field_start": "2026-10-24",
+      "field_end": "2026-10-25",
+      "original_url": "https://quantusinsights.org/f/north-carolina-senate-cooper-holds-a-9-point-lead-over-whatley",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Search-indexed release says report and crosstabs linked, but live primary URL resolves to generic homepage in web and curl; link target could not be recovered. Cached partial narrative provides only 94% Democrats Cooper and 89% Republicans Whatley, insufficient for complete six cells."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": "Elon University",
+      "publication_date": "2026-10-20",
+      "field_start": "2026-09-29",
+      "field_end": "2026-10-08",
+      "original_url": "https://www.elon.edu/u/news/2026/10/20/final-elon-university-poll-before-election-day-cooper-has-double-digit-lead-over-whatley-in-nc-us-senate-race/",
+      "table_url": "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/10/Elon-University-Poll-data-charts-10-20-26.pdf",
+      "status": "excluded",
+      "reason": "News release discusses pure independents; toplines/methodology and data charts do not give complete R/D/I ballot crosstabs. 561 LV estimate in aggregator; two-way forced ballot is separate question, not a separate wave."
+    },
+    {
+      "pollster": "ActiVote",
+      "sponsor": null,
+      "publication_date": "2026-10-20",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.activote.net/polls/2026/nc-u-s-senate/",
+      "table_url": "https://www.activote.net/polls/2026/nc-u-s-senate/",
+      "status": "needs_review",
+      "reason": "Counts derived from rounded unweighted composition. Party source must be confirmed as actual registration for all respondents, not modeled party or mixed sources; general disclosure says most participants linked to L2 voter file. See https://www.activote.net/trust/aapor/ ."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-12",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-10",
+      "original_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/NC-Gen-Sen-Poll-Report-1011.pdf",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/NC-Gen-Sen-Poll-Report-1011.pdf",
+      "status": "excluded",
+      "reason": "Nine-page report provides party composition and age/gender ballot crosstabs, no party ballot crosstabs."
+    },
+    {
+      "pollster": "Catawba College / YouGov",
+      "sponsor": "Catawba College",
+      "publication_date": "2026-09-30",
+      "field_start": "2026-09-04",
+      "field_end": "2026-09-15",
+      "original_url": "https://www.catawba.edu/news/all-news/2026/yougov-39/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Original release explicitly published September 30, before cutoff."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Explicitly blocked fabricated pollster; no verified NC wave asserted."
+    }
+  ]
+}

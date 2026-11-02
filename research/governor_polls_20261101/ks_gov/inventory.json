@@ -1,0 +1,75 @@
+{
+  "race_id": "ks_gov",
+  "leads": [
+    {
+      "name": "Emerson College Polling",
+      "status": "included",
+      "poll_id": "emerson-20261028-gov",
+      "source_url": "https://docs.google.com/spreadsheets/d/1Fsg1YqnPjM1kKMkAQIhpoBRW3J1vwCH0/edit"
+    },
+    {
+      "name": "Washington Post / George Mason University Schar School",
+      "status": "included",
+      "poll_id": "wapo-schar-20261026-gov",
+      "source_url": "https://docs.google.com/spreadsheets/d/1YWj-IcboBO8qF0eVPz4agZgQDD7c8BmrBInmwoamSPU/edit"
+    },
+    {
+      "name": "CNN / SSRS",
+      "status": "included",
+      "poll_id": "cnn-ks-gov-20261026",
+      "source_url": "https://www.documentcloud.org/documents/28856723-cnn-poll-conducted-by-ssrs-kansas-october/"
+    },
+    {
+      "name": "RedBox Research",
+      "status": "included",
+      "poll_id": "redbox-20261023-gov",
+      "source_url": "https://afightworthhaving.com/polling/2026/kansas/crosstabs.csv"
+    },
+    {
+      "name": "On Point Polling",
+      "status": "included",
+      "poll_id": "onpoint-ks-gov-20261021",
+      "source_url": "https://docs.google.com/spreadsheets/d/1mH6leJLeoXvQTxmk91FXbL-Y2WLpEx2DC5j_esEgXcM/edit"
+    },
+    {
+      "name": "Emerson College Polling",
+      "status": "included",
+      "poll_id": "emerson-ks-20260916-gov",
+      "source_url": "https://docs.google.com/spreadsheets/d/1tg-s80eUIL2lkRdrNEk3RCMsyEGaKXSg/edit"
+    },
+    {
+      "name": "NYT/Siena",
+      "status": "user supplied separate wave; counted once, not duplicated",
+      "source_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-crosstabs.html"
+    },
+    {
+      "name": "Kansas Speaks, Oct 26",
+      "status": "excluded: Q23 asked governor ballot but footnote explicitly says results withheld due inability to identify likely voters",
+      "source_url": "https://www.fhsu.edu/docking/Kansas-Speaks/2026-kansas-speaks-survey-report_final.pdf",
+      "evidence_path": "research/senate_polls_20261101/backfill_ks_sen/sources/kansas-speaks-2026.pdf"
+    },
+    {
+      "name": "YouGov early and late October",
+      "status": "excluded: governor crosstabs by demographics, no party candidate table",
+      "evidence_path": "research/senate_polls_20261101/ks_sen/sources/yougov-early.pdf"
+    },
+    {
+      "name": "Global Strategy Group, October 18\u201321",
+      "status": "unresolved: campaign toplines located; six-cell party table not found"
+    },
+    {
+      "name": "Global Strategy Group, September 13\u201316 and August 13\u201316",
+      "status": "unresolved: candidate toplines found, no six-cell party tables located"
+    },
+    {
+      "name": "co/efficient September 8\u201310",
+      "status": "excluded based on available release: toplines and party composition only",
+      "source_url": "https://battlegrounds.coefficient.org/ks/"
+    },
+    {
+      "name": "Tavern January",
+      "status": "excluded: examined table does not contain matching governor ballot",
+      "evidence_path": "research/senate_polls_20261101/backfill_ks_sen/sources/tavern-january.pdf"
+    }
+  ]
+}

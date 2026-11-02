@@ -1,0 +1,74 @@
+If | the | election | for | governor | were | held | today | between | (Tom | Tiffany, | the | Republican), | and | (David | Crowley, | the | Democrat), | would | you | vote | for | (Tom | Tiffany) | or | for | (David | Crowley) | or | haven’t | you | decided?
+Tom | Tiffany, | the | Republican | David | Crowley, | the | Democrat | Haven't | decided | n
+sex
+Man | 52 | 44 | 4 | 313
+Woman | 41 | 54 | 6 | 348
+Some | other | way | 0 | 62 | 38 | 6
+age
+18-29 | 34 | 61 | 5 | 84
+30-44 | 42 | 52 | 6 | 133
+45-59 | 52 | 40 | 8 | 181
+60+ | 47 | 50 | 3 | 269
+education
+Not | HS | 33 | 55 | 12 | 11
+HS | 58 | 38 | 4 | 160
+Some | Coll | 41 | 53 | 5 | 125
+AA | 69 | 28 | 3 | 96
+BA+ | 34 | 61 | 6 | 274
+income
+under | $50k | 42 | 52 | 6 | 171
+$50k | to | $99k | 46 | 50 | 4 | 225
+$100k | plus | 48 | 47 | 5 | 263
+party | ID, | leaners | as | independents
+Republican | 98 | 2 | 0 | 244
+Independent | 30 | 53 | 17 | 191
+Democrat | 3 | 96 | 1 | 231
+party | ID, | leaners | as | partisans
+Republican | 95 | 4 | 2 | 301
+Independent | 18 | 44 | 38 | 66
+Democrat | 3 | 96 | 1 | 299
+party | ID, | leaners | separate
+Rep | 98 | 2 | 0 | 244
+Lean | Rep | 80 | 11 | 8 | 57
+Ind | 18 | 44 | 38 | 66
+Lean | Dem | 1 | 97 | 3 | 68
+Dem | 3 | 96 | 1 | 231
+marital | status
+Married | 51 | 46 | 4 | 417
+Widow/Div/Sep/CoHab | 40 | 54 | 7 | 136
+Never | Married | 36 | 56 | 8 | 114
+race | and | ethnicity
+White | 49 | 47 | 5 | 594
+Black | 17 | 72 | 11 | 26
+Hispanic | 19 | 77 | 4 | 25
+Other | 31 | 57 | 13 | 20
+religious | service | attendance
+More | than | 1/wk | 61 | 31 | 7 | 19
+1/week | 62 | 34 | 5 | 150
+1-2 | month | 59 | 36 | 5 | 69
+few | times | a | year | 45 | 49 | 6 | 91
+Seldom | 49 | 47 | 4 | 154
+Never | 24 | 70 | 6 | 183
+religious | preference
+Born | again | Protestant | 69 | 28 | 3 | 110
+Mainline | Protestant | 53 | 42 | 5 | 188
+Roman | Catholic | 53 | 41 | 6 | 181
+No | religion | 20 | 75 | 5 | 164
+Other | religion | 8 | 81 | 12 | 23
+ideology
+Very | conservative | 92 | 3 | 4 | 99
+Conservative | 86 | 11 | 3 | 176
+Moderate | 32 | 56 | 12 | 183
+Liberal | 0 | 98 | 2 | 125
+Very | liberal | 5 | 95 | 0 | 80
+Don't | know | 0 | 83 | 17 | 3
+labor | union | membership
+respondent | 43 | 50 | 7 | 32
+another | household | member | 45 | 49 | 6 | 43
+nobody | in | household | 46 | 49 | 5 | 591
+region | of | Wisconsin
+MKE | City | 25 | 74 | 1 | 48
+Rest | of | MKE | 50 | 46 | 4 | 215
+MSN | 30 | 66 | 4 | 120
+GB/A | 57 | 39 | 4 | 128
+Rest | of | state | 49 | 41 | 10 | 155

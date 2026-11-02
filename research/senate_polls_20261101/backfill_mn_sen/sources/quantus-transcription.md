@@ -1,0 +1,3 @@
+# Quantus Minnesota September11 original scanned report
+
+Root visually checked PDFp1 fieldSep8–10, n720 andeffective545; p3 explicitly weighted composition R38.3/D43.6/I18.1 counts276/314/130; p4 Q7 party question; p6 initialQ1 Tafoya/Flanagan R89/4 D4/89 I45/44. Q7 includes lean categories. The table aggregates partisan leaners with the corresponding party and somethingelse with independents, verified by matching percentages exactly. Weighted Ns retained labeled. This replaces the older August SurveyUSA fallback; one survey wave only. Original PDF archived, no image editing or NYT access involved.

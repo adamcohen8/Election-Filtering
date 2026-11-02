@@ -1,0 +1,129 @@
+{
+  "race_id": "ga_sen",
+  "window": {
+    "publication_start": "2026-10-01",
+    "publication_end": "2026-11-01"
+  },
+  "search_queries": [
+    "Georgia Senate polls 2026 Ossoff Collins October 2026 poll crosstabs",
+    "Georgia Senate 2026 polling October 2026 Ossoff Collins polls November",
+    "2026 Georgia Senate polls Ossoff Collins October 2026 survey party crosstabs",
+    "Quantus Georgia October 2026 Ossoff Democrats independents",
+    "AJC Ossoff Collins independents October 2026 86",
+    "NetChoice October 2026 crosstabs Echelon Insights",
+    "Wedgewood Georgia Ossoff Collins October 2026 poll",
+    "Georgia senate poll October 2026 Ossoff Collins new survey"
+  ],
+  "aggregator_urls": [
+    "https://www.270towin.com/2026-senate-polls/georgia",
+    "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+    "https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins",
+    "https://elections2026.thehill.com/polls/general-ballot-test/2026-ga-us-senate/georgia/lv-rv-adults",
+    "https://electiontracker.live/races/senate/georgia-2026.html",
+    "https://political.org/2026-elections/",
+    "https://polls.politicalbetting.com/pollsters/wedgewood-polls"
+  ],
+  "releases": [
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-10",
+      "field_start": "2026-10-07",
+      "field_end": "2026-10-09",
+      "original_url": "https://www.thetrafalgargroup.org/news/ga-senate-gen-1010/",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/GA-General-Report-1010.pdf",
+      "status": "excluded",
+      "reason": "Original 9-page report has age, gender and ethnicity ballot crosstabs; no ballot crosstab by party. Party composition alone is insufficient."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-17",
+      "original_url": "https://quantusinsights.org/polling/f/georgia-two-weeks-out-ossoff-ahead-down-ballot-near-even",
+      "table_url": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view",
+      "status": "excluded",
+      "reason": "Party ID (modeled) is a mapped voter-file field, not verified self-reported party identification or actual registration. Page 10 Q1 R Ossoff/Collins 6/92 n290; D 96/3 n281; I 56/35 n184. Base weighting status not specified. Transcription sources/quantus_transcription.txt."
+    },
+    {
+      "pollster": "ActiVote",
+      "sponsor": null,
+      "publication_date": "2026-10-20",
+      "field_start": "2026-10-06",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.activote.net/polls/2026/ga-u-s-senate/",
+      "table_url": "https://www.activote.net/polls/2026/ga-u-s-senate/",
+      "status": "excluded",
+      "reason": "Pollster explicitly says no breakdown by party affiliation in Georgia; spectrum categories are ideology, not party ID."
+    },
+    {
+      "pollster": "University of Georgia School of Public and International Affairs",
+      "sponsor": "Atlanta Journal-Constitution",
+      "publication_date": "2026-10-21",
+      "field_start": "2026-10-07",
+      "field_end": "2026-10-15",
+      "original_url": "https://www.ajc.com/politics/2026/10/ajc-poll-ossoff-leads-collins-in-georgias-us-senate-race/",
+      "table_url": "https://www.documentcloud.org/documents/28824163-ajc-poll-october-2026-1/?mode=text",
+      "status": "needs_review",
+      "reason": "Party (3pt) support table available in public viewer pp 4, 29. Exact party question and leaner treatment not specified; self-reported ID inferred, not explicit. Subgroup Ns derived from rounded composition shares; Senate story Oct 21, same-wave governor reporting Oct 20, PDF dated Oct 16 and DocumentCloud creation Oct 19; earliest publication unknown.",
+      "alternate_dates": "Governor report Oct 20; cover Oct 16 and viewer creation Oct 19 do not prove publication."
+    },
+    {
+      "pollster": "Echelon Insights",
+      "sponsor": "NetChoice",
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-16",
+      "field_end": "2026-10-23",
+      "original_url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+      "table_url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "status": "excluded",
+      "reason": "Original 28-page topline reports Georgia senate Q12 p7 state totals but not candidate support by party ID or registration. It includes Buckley 3%; candidate ballot qualification questioned by https://political.org/2026-elections/. The Hill lists Oct 17-24; original p1 states Oct 16-23."
+    },
+    {
+      "pollster": "Wedgewood Polls",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-02",
+      "field_end": "2026-10-03",
+      "original_url": "https://polls.politicalbetting.com/pollsters/wedgewood-polls",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Disclosed fabricated pollster expressly blocked by assignment. Aggregator reports 600 LV; release date not independently confirmed. Listed by Oct 4 https://onpointpolitics.us/forecast/changelog."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-09-25",
+      "field_start": "2026-09-22",
+      "field_end": "2026-09-23",
+      "original_url": "https://insideradvantage.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication outside window; field dates and release date from https://political.org/2026-elections/."
+    },
+    {
+      "pollster": "Big Data Poll",
+      "sponsor": "Public Polling Project",
+      "publication_date": "2026-09-24",
+      "field_start": "2026-09-21",
+      "field_end": "2026-09-23",
+      "original_url": "https://www.bigdatapoll.com/blog/peace-state-poll-jon-ossoff-opens-up-lead-over-mike-collin-in-georgia/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "September publication outside window. LV and RV and pushed versions share a wave."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-09-23",
+      "field_start": "2026-09-15",
+      "field_end": "2026-09-18",
+      "original_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+      "table_url": "https://www.270towin.com/2026-senate-polls/georgia",
+      "status": "excluded",
+      "reason": "September release outside window, despite Oct 3 discussion. Dates per https://political.org/2026-elections/ and Wikipedia reference."
+    }
+  ]
+}

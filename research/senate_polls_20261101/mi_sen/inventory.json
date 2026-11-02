@@ -1,0 +1,272 @@
+{
+  "race_id": "mi_sen",
+  "search_queries": [
+    "Michigan senate 2026 Rogers El-Sayed poll October 2026 crosstabs",
+    "Michigan senate polling October 2026 Rogers El-Sayed 2026 polls",
+    "2026 Michigan senate polls El-Sayed Rogers October 2026 pollster",
+    "Michigan senate October 2026 crosstabs poll El-Sayed",
+    "CNN SSRS Michigan October 2026 poll crosstabs party"
+  ],
+  "aggregator_urls": [
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "https://www.realclearpolling.com/elections/senate/2026/michigan",
+    "https://www.onpointpolitics.us/polls/mi/senate",
+    "https://www.270towin.com/2026-senate-polls/michigan",
+    "https://polling-desk.com/polls/2026-michigan"
+  ],
+  "releases": [
+    {
+      "pollster": "RedBox Research",
+      "sponsor": "A Fight Worth Having",
+      "publication_date": "2026-10-25",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-23",
+      "original_url": "https://afightworthhaving.com/polling/2026/michigan",
+      "table_url": "https://afightworthhaving.com/polling/2026/michigan/crosstabs.pdf",
+      "status": "included",
+      "reason": "All three self-ID groups, exact unweighted n"
+    },
+    {
+      "pollster": "Data for Progress",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-23",
+      "field_end": "2026-10-25",
+      "original_url": "https://www.dataforprogress.org/blog/2026/10/30/democratic-senate-candidates-lead-in-maine-michigan-and-texas",
+      "table_url": "https://www.filesforprogress.org/datasets/2026/10/dfp_2026_mi_ge_tabs.pdf",
+      "status": "included",
+      "reason": "All groups, weighted n only"
+    },
+    {
+      "pollster": "On Point Polling",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-18",
+      "field_end": "2026-10-18",
+      "original_url": "https://onpointpolitics.substack.com/p/michigan-poll-el-sayed-leads-rogers",
+      "table_url": "https://docs.google.com/spreadsheets/d/1jYBVI2b4Z5HqJCrkc_R4jdSpQJxqRT0IXWEsBV_UlNY/edit",
+      "status": "included",
+      "reason": "Full workbook exported and read. Preliminary partial field; unweighted n."
+    },
+    {
+      "pollster": "Marist Poll",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-18",
+      "original_url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+      "table_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_MI-NOS-and-Tables_202610191238FFx09@Jal.pdf",
+      "status": "review",
+      "reason": "LV base missing; RV alternate with estimates only; exact publication day not established but Wikipedia cites retrieval Oct 20."
+    },
+    {
+      "pollster": "SSRS",
+      "sponsor": "CNN",
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-27",
+      "original_url": "https://www.documentcloud.org/documents/28856720-cnn-poll-conducted-by-ssrs-michigan-october/",
+      "table_url": "https://www.documentcloud.org/documents/28856720-cnn-poll-conducted-by-ssrs-michigan-october/",
+      "status": "review",
+      "reason": "Crosstabs visible through browser. No party bases; subgroup n >=125; vote plus leaners."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-01",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-30",
+      "original_url": "https://www.thetrafalgargroup.org/news/mi-senate-general-1001/",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/MI-Gen-Sen-Poll-Report-1001.pdf",
+      "status": "excluded",
+      "reason": "PDF contains age, gender, ethnicity ballot tabs only; party participation alone, no vote by party."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-06",
+      "field_start": "2026-09-22",
+      "field_end": "2026-10-04",
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20260921_lv.pdf",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20260921_lv.pdf",
+      "status": "excluded",
+      "reason": "Ballot tabs by age, sex, race, prior vote, education, no party."
+    },
+    {
+      "pollster": "Michigan State University/YouGov",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-02",
+      "field_end": "2026-10-19",
+      "original_url": "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf",
+      "table_url": "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf",
+      "status": "excluded",
+      "reason": "Public report is topline; no vote by party found; publication day uncertain."
+    },
+    {
+      "pollster": "Michigan State University/Verasight",
+      "sponsor": null,
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-23",
+      "original_url": "https://polisci.msu.edu/news-events/news/smidt-poll102926.html",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "MSU release HTTP 403 via web; no confirmed party vote table."
+    },
+    {
+      "pollster": "Glengariff Group",
+      "sponsor": "Detroit News/WDIV",
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-19",
+      "field_end": "2026-10-22",
+      "original_url": "https://www.clickondetroit.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No full candidate by party table located."
+    },
+    {
+      "pollster": "Mitchell Research & Communications",
+      "sponsor": "CBS News Detroit",
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-27",
+      "original_url": "https://www.cbsnews.com/detroit/news/el-sayed-widens-lead-rogers-michigan-senate-poll/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No complete three-group candidate support table located."
+    },
+    {
+      "pollster": "Mitchell Research & Communications",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-01",
+      "original_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Original press release linked from aggregator; full party table not found. Publication date uncertain."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-23",
+      "field_start": "2026-10-21",
+      "field_end": "2026-10-22",
+      "original_url": "https://insideradvantage.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No complete self-ID party candidate table established."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-11",
+      "field_start": "2026-10-09",
+      "field_end": "2026-10-10",
+      "original_url": "https://insideradvantage.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No complete self-ID party candidate table established."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-28",
+      "field_end": "2026-10-29",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_michigan_senate",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Detailed tabs not freely located; no usable all-group crosstab established."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-16",
+      "field_start": "2026-10-12",
+      "field_end": "2026-10-14",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_michigan_senate",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Detailed tabs not freely located; no usable all-group crosstab established."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-07",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-06",
+      "original_url": "https://quantusinsights.org/f/michigan-senate-el-sayed-48-rogers-47-at-four-weeks-out",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Original page inspected; no full party candidate table located."
+    },
+    {
+      "pollster": "Guidant Polling & Strategy",
+      "sponsor": null,
+      "publication_date": "2026-10-06",
+      "field_start": "2026-09-20",
+      "field_end": "2026-09-27",
+      "original_url": "https://static01.nyt.com/newsgraphics/documenttools/517739e11050c66b/43ffa3c2-full.pdf",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "NYT document fails non-retryable fetch; party table unverified."
+    },
+    {
+      "pollster": "The Tyson Group",
+      "sponsor": "Better Future AI",
+      "publication_date": "2026-10-16",
+      "field_start": "2026-10-06",
+      "field_end": "2026-10-08",
+      "original_url": "https://betterfutureai.org/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Original campaign report party-vote crosstabs not established; Oct 16 report also mentions separate Sep 24\u201327 wave."
+    },
+    {
+      "pollster": "Z to A Research",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-09-28",
+      "field_end": "2026-10-01",
+      "original_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Publication and party table not established."
+    },
+    {
+      "pollster": "Upswing Research",
+      "sponsor": "Demand Justice",
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-24",
+      "field_end": "2026-10-28",
+      "original_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Source cited public social post; no full party vote table established."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-29",
+      "original_url": "https://www.realclearpolling.com/elections/senate/2026/michigan",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf",
+      "status": "excluded",
+      "reason": "RCP linked PDF is Texas, not Michigan; actual original Michigan release/date not established."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Explicitly blocked fabricated pollster; no Michigan wave asserted."
+    }
+  ]
+}

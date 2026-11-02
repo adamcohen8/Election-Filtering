@@ -104,7 +104,7 @@ h2 {
 
 .summary {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 1px;
   margin: 18px 0;
   overflow: hidden;
@@ -240,7 +240,8 @@ h2 {
   fill: var(--tossup);
 }
 
-.state-shape.unmodeled {
+.state-shape.unmodeled,
+.state-shape.unrated {
   fill: var(--unmodeled);
 }
 
@@ -694,6 +695,12 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
+.rolling-support {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+}
+
 .chart-heading {
   display: flex;
   align-items: baseline;
@@ -728,6 +735,15 @@ h2 {
 
 .line-key.democratic {
   background: var(--democratic-safe);
+}
+
+.line-key.rolling {
+  border-radius: 0;
+  background: repeating-linear-gradient(to right, var(--republican-safe) 0 6px, transparent 6px 9px);
+}
+
+.line-key.rolling.democratic {
+  background: repeating-linear-gradient(to right, var(--democratic-safe) 0 6px, transparent 6px 9px);
 }
 
 .x-key {
@@ -813,6 +829,33 @@ h2 {
 }
 
 .model-line.democratic {
+  stroke: var(--democratic-safe);
+}
+
+.rolling-line {
+  fill: none;
+  stroke-width: 2;
+  stroke-dasharray: 7 5;
+}
+
+.rolling-line.republican {
+  stroke: var(--republican-safe);
+}
+
+.rolling-line.democratic {
+  stroke: var(--democratic-safe);
+}
+
+.rolling-markers circle {
+  fill: var(--panel);
+  stroke-width: 1.5;
+}
+
+.rolling-markers.republican circle {
+  stroke: var(--republican-safe);
+}
+
+.rolling-markers.democratic circle {
   stroke: var(--democratic-safe);
 }
 
@@ -924,4 +967,26 @@ h2 {
   .race-chart {
     min-height: 260px;
   }
+}
+
+.race-status.unrated {
+  background: var(--unmodeled);
+}
+
+/* Independent candidates retain a separate party identity and seat count. */
+.state-shape.independent:not(.tossup):not(.tilt-independent):not(.lean-independent):not(.likely-independent):not(.safe-independent),
+.swatch.independent, .makeup-bar-segment.independent {
+  fill: #8055ad;
+  background: #8055ad;
+}
+.state-shape.tilt-independent, .race-status.tilt-independent { fill: #e4d7ef; background: #e4d7ef; }
+.state-shape.lean-independent, .race-status.lean-independent { fill: #c5a8df; background: #c5a8df; }
+.state-shape.likely-independent, .race-status.likely-independent { fill: #a178c5; background: #a178c5; }
+.state-shape.safe-independent, .race-status.safe-independent { fill: #8055ad; background: #8055ad; }
+#race-page.is-independent {
+  --democratic-safe: #8055ad;
+  --democratic-likely: #a178c5;
+  --democratic-lean: #c5a8df;
+  --democratic-tilt: #e4d7ef;
+  --democratic: #8055ad;
 }

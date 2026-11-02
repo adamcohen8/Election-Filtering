@@ -1,0 +1,75 @@
+{
+  "releases": [
+    {
+      "race_id": "tx_sen",
+      "poll_id": "ssrs-cnn-tx_sen-20261027",
+      "source_url": "https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/?mode=document#document/p10",
+      "status": "recovered",
+      "reason": "Complete Senate support by party, read in public Safari viewer."
+    },
+    {
+      "race_id": "me_sen",
+      "poll_id": "ssrs-cnn-me_sen-20261026",
+      "source_url": "https://www.documentcloud.org/documents/28856725-cnn-poll-conducted-by-ssrs-maine-october/?mode=document#document/p11",
+      "status": "recovered",
+      "reason": "Complete Senate support by party, read in public Safari viewer."
+    },
+    {
+      "race_id": "ks_sen",
+      "poll_id": "ssrs-cnn-ks_sen-20261026",
+      "source_url": "https://www.documentcloud.org/documents/28856723-cnn-poll-conducted-by-ssrs-kansas-october/?mode=document#document/p10",
+      "status": "recovered",
+      "reason": "Complete Senate support by party, read in public Safari viewer."
+    },
+    {
+      "race_id": "oh_sen",
+      "poll_id": "ssrs-cnn-oh_sen-20261005",
+      "source_url": "https://www.documentcloud.org/documents/28729016-cnn-ohio-poll-conducted-by-ssrs/?mode=document#document/p10",
+      "status": "recovered",
+      "reason": "Complete Senate support by party, read in public Safari viewer."
+    },
+    {
+      "race_id": "oh_sen",
+      "poll_id": "bgsu-yougov-oh-20261009",
+      "source_url": "https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1029&context=depo",
+      "status": "recovered",
+      "reason": "Complete Senate support by party, read in public Safari viewer."
+    },
+    {
+      "race_id": "ak_sen",
+      "pollster": "NYT/Siena",
+      "status": "not_retried",
+      "reason": "Prior browser site-safety gate; no bypass."
+    },
+    {
+      "race_id": "ks_sen",
+      "pollster": "NYT/Siena",
+      "status": "not_retried",
+      "reason": "Prior browser site-safety gate; no bypass."
+    },
+    {
+      "race_id": "oh_sen",
+      "pollster": "NYT/Siena",
+      "status": "not_retried",
+      "reason": "Prior browser site-safety gate; no bypass."
+    },
+    {
+      "race_id": "tx_sen",
+      "pollster": "NYT/Siena",
+      "status": "not_retried",
+      "reason": "Prior browser site-safety gate; no bypass."
+    },
+    {
+      "race_id": "mn_sen",
+      "pollster": "NYT/Siena",
+      "status": "not_retried",
+      "reason": "Prior browser site-safety gate; no bypass."
+    },
+    {
+      "race_id": "fl_sen",
+      "pollster": "NYT/Siena",
+      "status": "not_retried",
+      "reason": "Prior browser site-safety gate; no bypass."
+    }
+  ]
+}

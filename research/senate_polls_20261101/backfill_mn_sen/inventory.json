@@ -1,0 +1,52 @@
+{
+  "notes": "Four latest verified accessible selected waves: InsiderSep30, SurveyUSASep15, QuantusSep11, TIPPSep8. Quantus original recovered from the public pollster HTML linked PDF; it displaces August SurveyUSA. Other newer unresolved sources remain documented; no completeness claim.",
+  "candidates": [
+    {
+      "poll": "InsiderAdvantage",
+      "release": "2026-09-30",
+      "status": "included",
+      "source": "https://insideradvantage.com/insideradvantage-survey-u-s-senate-minnesota-contest-a-one-point-race-flanagan-46-tafoya-45/"
+    },
+    {
+      "poll": "SurveyUSA/KSTP",
+      "release": "2026-09-15",
+      "status": "included",
+      "source": "https://kstp.com/wp-content/uploads/2026/09/Election-Poll-9-16.pdf"
+    },
+    {
+      "poll": "co/efficient",
+      "release": "2026-09-15 or 16 (secondary reporting); exact date not independently confirmed",
+      "status": "unresolved, no party candidate crosstabs on pollster page",
+      "source": "https://battlegrounds.coefficient.org/mn/"
+    },
+    {
+      "poll": "Quantus",
+      "release": "2026-09-11",
+      "status": "included; original scanned report recovered and visually verified",
+      "source": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
+      "table_url": "https://drive.google.com/file/d/1j6OWqhY-_l9cV20O-rfMeESV7n-IqVCG/view"
+    },
+    {
+      "poll": "TIPP",
+      "release": "2026-09-08",
+      "status": "included",
+      "source": "https://tippinsights.com/league-of-american-workers-survey-minnesota/"
+    },
+    {
+      "poll": "Deep Root Analytics",
+      "release": "2026-08-20 (secondary)",
+      "status": "unresolved, campaign poll; complete party crosstabs not located",
+      "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota"
+    },
+    {
+      "poll": "SurveyUSA/KSTP",
+      "release": "2026-08-18",
+      "status": "not selected; older fallback displaced by recovered September11 Quantus",
+      "source": "https://kstp.com/wp-content/uploads/2026/08/Election-Poll-8-19-26.pdf"
+    },
+    {
+      "poll": "Wedgewood",
+      "status": "excluded: disclosed fabricated pollster"
+    }
+  ]
+}

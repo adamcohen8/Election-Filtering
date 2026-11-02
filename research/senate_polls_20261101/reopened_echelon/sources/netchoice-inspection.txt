@@ -1,0 +1,13 @@
+NetChoice/Echelon Insights Fall 2026 Antitrust Tech Survey
+Source: https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf
+Release: https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/
+Memo: https://netchoice.org/wp-content/uploads/2026/10/Echelon-Insights-Release-Memo.pdf
+Publication: Oct 27, 2026, per NetChoice press statement; memo internally dated Oct 26, not established as publicly released then. Field Oct 16-23. 3644 national likely electorate including state samples FL 515 OH 508 GA 508 IA 403 ME 413 NE 407. Sample weighting and survey details on p1 and p28.
+
+Page 7 Q12 Georgia, already voted + first-choice/leaner merged: Mike Collins (R) 40%, Jon Ossoff (D) 55%, Allen Buckley (L) 3%, someone else *%, unsure 2%.
+Page 9 Q16 Ohio, voted + first-choice/leaner merged: Jon Husted (R) 47%, Sherrod Brown (D) 47%, Bill Redpath (L) 1%, Greg Levy (other) 2%, someone else 1%, unsure 3%.
+Page 10 Q19 Maine, voted + first-choice/leaner merged: Susan Collins (R) 44%, Troy Jackson (D) 51%, someone else 1%, unsure 4%. This is Jackson, not Graham Platner.
+Page 12 Q23 Florida, voted + first-choice/leaner merged: Ashley Moody (R) 51%, Angie Nixon (D) 43%, Neil Gillespie (NPA) 3%, unsure 4%.
+Page 15 Q26 Iowa, voted + first-choice/leaner merged: Ashley Hinson (R) 43%, Josh Turek (D) 45%, Thomas Laehn (L) 7%, someone else 2%, unsure 3% (shown total column; IA column appears blank for unsure).
+
+No state-by-party Senate vote columns appear in 28-page topline: state columns for state-specific ballot questions only. Memo p2 has state ballot totals, partisan statements refer to other national issues, not state conditional Senate vote. The release links only this PDF and 7-page memo. PDF text inspected in web reader; direct download attempts returned HTTP 403, so original binary was not saved. Separate national October omnibus is different fieldwork Oct15-19 (1010 national) with a party-by-aggregate Senate ballot across states; its workbook is saved as omnibus.xlsx, but does not report state-by-party Senate support, nor candidate names for each state.

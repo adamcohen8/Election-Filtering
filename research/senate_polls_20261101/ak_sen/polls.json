@@ -1,0 +1,49 @@
+{
+  "race_id": "ak_sen",
+  "polls": [
+    {
+      "poll_id": "rasmussen-2026-10-15",
+      "race_id": "ak_sen",
+      "state": "Alaska",
+      "office": "senate",
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-12",
+      "field_date": "2026-10-15",
+      "population": "LV",
+      "candidate_a": "Dan S. Sullivan",
+      "candidate_b": "Mary Peltola",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "crosstab_basis": null,
+      "party_question": "Table labels Party as Republican, Democrat, Independent, Another; question and source of classification are not disclosed. Leaning unknown.",
+      "ballot_question_stage": "general-election first choice, four candidates and undecided",
+      "republican_a": 0.75,
+      "republican_b": 0.09,
+      "democratic_a": 0.03,
+      "democratic_b": 0.93,
+      "independent_a": 0.43,
+      "independent_b": 0.41,
+      "republican_n": 294,
+      "democratic_n": 217,
+      "independent_n": 232,
+      "subgroup_n_method": "derived_total_x_share",
+      "reported_total_n": 775,
+      "reported_party_composition": {
+        "republican": 0.38,
+        "democratic": 0.28,
+        "independent": 0.3,
+        "another_party": 0.04
+      },
+      "sample_id": "rasmussen-ak-sen-20261012-15",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_alaska_senate_october_12_15_2026",
+      "release_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+      "source_location": "HTML demographic table, first Senate ballot, Party columns; Survey Demographics Party",
+      "evidence_path": null,
+      "evidence_excerpt": "Columns Republican / Democrat / Independent / Another: Dan S. Sullivan 75 / 3 / 43 / 34; Mary Peltola 9 / 93 / 41 / 26; demographics 38 / 28 / 30 / 4%. Article instead says Sullivan 41 and Peltola 43 among independents.",
+      "ingestion_status": "needs_review",
+      "notes": "Do not ingest: R/I/D basis and leaners not established. Article reverses the table\u2019s independent candidate percentages, and incorrectly attributes Peltola\u2019s House service to Sullivan; seek clarification or corrected source. Group Ns are floor(775 \u00d7 rounded composition), estimates only, not reported unweighted or exact weighted counts; source methodology says survey weighted. Another-party group is separate, not folded into Independent. Release date Oct 19 independently reported by Wikipedia and political.org, absent on retrieved original page. Source lists Daniel J. Sullivan Jr. as Republican; other sources report no party affiliation."
+    }
+  ]
+}

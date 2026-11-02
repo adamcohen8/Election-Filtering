@@ -1,0 +1,140 @@
+{
+  "race_id": "mi_gov",
+  "included": [
+    "dfp-2026-10-25-lv",
+    "ssrs-2026-10-27-lv",
+    "redbox-2026-10-23-lv",
+    "onpoint-2026-10-18-lv",
+    "marist-2026-10-18-lv",
+    "fox-2026-09-28-lv",
+    "marist-2026-09-27-rv",
+    "suffolk-2026-09-20-lv",
+    "ssrs-2026-09-06-lv",
+    "emerson-2026-09-14-lv"
+  ],
+  "limitations": [
+    {
+      "pollster": "YouGov",
+      "publication_date": "2026-11-01",
+      "field_end": "2026-10-29",
+      "status": "excluded",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20261026_lv.pdf",
+      "reason": "Governor table p9 has age, gender, race, prior vote, education; no party."
+    },
+    {
+      "pollster": "MSU/YouGov",
+      "publication_date": "2026-10-26",
+      "field_end": "2026-10-19",
+      "status": "incomplete",
+      "url": "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight",
+      "reason": "Release links toplines; complete party by governor vote not located."
+    },
+    {
+      "pollster": "MSU/Verasight",
+      "publication_date": "2026-10-29",
+      "field_end": "2026-10-23",
+      "status": "inaccessible",
+      "url": "https://polisci.msu.edu/news-events/news/smidt-poll102926.html",
+      "reason": "403; party table unverified."
+    },
+    {
+      "pollster": "Mitchell",
+      "publication_date": "2026-10-29",
+      "field_end": "2026-10-27",
+      "status": "incomplete",
+      "url": "https://www.cbsnews.com/detroit/news/jocelyn-benson-john-james-october-michigan-gubernatorial-poll/",
+      "reason": "Complete party vote table not located; Oct 1 wave also unverified."
+    },
+    {
+      "pollster": "Glengariff",
+      "publication_date": "2026-10-27",
+      "field_end": "2026-10-22",
+      "status": "incomplete",
+      "reason": "No complete party vote table located."
+    },
+    {
+      "pollster": "Guidant",
+      "publication_date": "2026-10-06",
+      "field_end": "2026-09-27",
+      "status": "blocked",
+      "url": "https://static01.nyt.com/newsgraphics/documenttools/517739e11050c66b/43ffa3c2-full.pdf",
+      "reason": "NYT policy block; user-provided screenshots needed for governor table."
+    },
+    {
+      "pollster": "NYT/Siena",
+      "publication_date": "2026-09-25",
+      "field_end": "2026-09-22",
+      "status": "blocked",
+      "url": "https://www.nytimes.com/2026/09/25/us/politics/governor-polls-michigan-ohio.html",
+      "reason": "Governor crosstab screenshots needed; URL of original table not independently confirmed."
+    },
+    {
+      "pollster": "Cygnal/Beacon",
+      "publication_date": "2026-09-29",
+      "field_end": "2026-09-21",
+      "status": "incomplete",
+      "url": "https://enjoyer.com/michigan-poll-fall-2026/",
+      "reason": "Release provides toplines and party composition, no party vote table found."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "status": "incomplete",
+      "url": "https://quantusinsights.org/f/michigan-senate-el-sayed-48-rogers-47-at-four-weeks-out",
+      "reason": "Previously retrieved October PDF is Senate only; governor candidate table not established."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "status": "incomplete",
+      "reason": "Previously retrieved Michigan chart was Senate only; no governor table verified."
+    },
+    {
+      "pollster": "Big Data Poll",
+      "status": "not established",
+      "reason": "No eligible Michigan governor wave with original complete party table located."
+    },
+    {
+      "pollster": "EPIC-MRA",
+      "status": "unreviewed",
+      "reason": "August 29 wave older than current backfill; governor party tables not yet checked."
+    },
+    {
+      "pollster": "Wedgewood",
+      "status": "excluded",
+      "reason": "Fabricated source; no poll asserted."
+    },
+    {
+      "pollster": "Washington Post/Schar",
+      "publication_date": "2026-09-17",
+      "status": "incomplete",
+      "url": "https://www.washingtonpost.com/documents/08fa9b5e-43ac-456c-a706-4c33ec6506dc.pdf",
+      "reason": "Original trend shell Q4 governor topline; party ballot tabs not found."
+    },
+    {
+      "pollster": "EPIC-MRA",
+      "publication_date": "2026-08-29",
+      "status": "incomplete",
+      "url": "https://data.ddhq.io/polls/2026/08/29/EPIC-MRA-Michigan",
+      "reason": "Four-page frequency report lacks governor by party table."
+    },
+    {
+      "pollster": "Fox News",
+      "publication_date": "2026-08-13",
+      "status": "eligible not selected",
+      "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_michigan_cross-tabs_august-13-release.pdf",
+      "reason": "Valid full ballot table but older than ten selected waves; D/R/I Benson 97/6/56, James 3/94/38."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "publication_date": "2026-10-30",
+      "field_end": "2026-10-29",
+      "status": "paywalled",
+      "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_michigan_governor",
+      "reason": "Original release lists 745 LV topline; detailed demographic crosstabs are subscriber-only."
+    },
+    {
+      "pollster": "UMass Lowell/YouGov",
+      "status": "no matching 2026 Michigan release located",
+      "reason": "The available 2026 UMass Lowell/YouGov Senate sources in prior research are New Hampshire and Texas; search result for Michigan refers to 2024."
+    }
+  ]
+}

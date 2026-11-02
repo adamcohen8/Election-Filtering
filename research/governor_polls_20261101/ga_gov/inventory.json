@@ -1,0 +1,73 @@
+{
+  "included": [
+    {
+      "poll_id": "state-navigate-ga-gov-20261027",
+      "source_url": "https://docs.google.com/spreadsheets/d/1JSNSY_eNVPrsRZXAfxgr1lehmTFVjqY8/edit"
+    },
+    {
+      "poll_id": "quantus-ga-gov-20261017",
+      "source_url": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
+    },
+    {
+      "poll_id": "big-data-ga-gov-20260923",
+      "source_url": "https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=public%40bigdatapoll.com&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6"
+    },
+    {
+      "poll_id": "insider-ga-gov-20260817",
+      "source_url": "https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.jpg"
+    },
+    {
+      "poll_id": "quantus-ga-gov-20260801",
+      "source_url": "https://drive.google.com/file/d/1ZlADn1F-Cy55dtxnEo-fJsAwVpJENRKl/view"
+    },
+    {
+      "poll_id": "aarp-ga-gov-20260716",
+      "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf"
+    },
+    {
+      "poll_id": "state-navigate-ga-gov-20260713",
+      "source_url": "https://docs.google.com/spreadsheets/d/1IqEHxHtrW0p6vXThEIL6sO9viNCV5dIHoRAb_TLa0dY/edit"
+    },
+    {
+      "poll_id": "wick-ga-gov-20260630",
+      "source_url": "https://wick.io/assets/research-georgia-election-survey-june-2026-crosstabs.xlsx?v=20260716-report-audit"
+    },
+    {
+      "poll_id": "fox-ga-gov-20260627",
+      "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_june-23-27-2026_complete_georgia_cross-tabs_july-1-release.pdf"
+    },
+    {
+      "poll_id": "uga-ajc-ga-gov-20261015",
+      "source_url": "https://www.documentcloud.org/documents/28824163-ajc-poll-october-2026-1/?mode=text",
+      "evidence": "User-supplied governor table; six R/D/I cells now complete."
+    }
+  ],
+  "unresolved": [
+    {
+      "pollster": "Echelon/NetChoice",
+      "field_dates": "2026-10-16 through 2026-10-23",
+      "reason": "State toplines recovered; complete governor party-by-candidate cells not found."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "field_dates": "2026-10-12 through 2026-10-13",
+      "reason": "Topline found; original party candidate chart not recovered."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "field_dates": "2026-09-22 through 2026-09-23",
+      "source_url": "https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/",
+      "reason": "Candidate party chart not recovered."
+    },
+    {
+      "pollster": "YouGov",
+      "field_dates": "2026-09-15 through 2026-09-18",
+      "reason": "Available report breaks governor ballot by other variables; six party cells not located."
+    },
+    {
+      "pollster": "Echelon/NetChoice",
+      "field_dates": "2026-04-03 through 2026-04-09",
+      "reason": "Governor matchup topline; full party cells not located."
+    }
+  ]
+}

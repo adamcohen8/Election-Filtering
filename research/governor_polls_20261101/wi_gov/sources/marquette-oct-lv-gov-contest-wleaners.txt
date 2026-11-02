@@ -1,0 +1,74 @@
+Tiffany vs Crowley, with leaners
+Tom Tiffany, the Republican | | David Crowley, the Democrat | | Haven't decided | | n
+sex
+Man | | 48 | | 50 | | 1 | | 311
+Woman | | 43 | | 55 | | 2 | | 322
+Some other way | | 45 | | 55 | | 0 | | 5
+age
+18-29 | | 31 | | 69 | | 0 | | 76
+30-44 | | 38 | | 61 | | 1 | | 133
+45-59 | | 51 | | 48 | | 2 | | 173
+60+ | | 51 | | 47 | | 2 | | 257
+education
+Not HS | | 46 | | 54 | | 0 | | 8
+HS | | 53 | | 47 | | 1 | | 146
+Some Coll | | 37 | | 62 | | 1 | | 124
+AA | | 51 | | 45 | | 4 | | 88
+BA+ | | 44 | | 55 | | 1 | | 273
+income
+under $50k | | 34 | | 63 | | 3 | | 142
+$50k to $99k | | 50 | | 48 | | 2 | | 206
+$100k plus | | 48 | | 51 | | 1 | | 283
+party ID, leaners as independents
+Republican | | 96 | | 3 | | 1 | | 230
+Independent | | 36 | | 61 | | 3 | | 195
+Democrat | | 0 | | 99 | | 0 | | 214
+party ID, leaners as partisans
+Republican | | 95 | | 5 | | 1 | | 287
+Independent | | 29 | | 62 | | 9 | | 67
+Democrat | | 1 | | 99 | | 0 | | 285
+party ID, leaners separate
+Rep | | 96 | | 3 | | 1 | | 230
+Lean Rep | | 89 | | 11 | | 0 | | 57
+Ind | | 29 | | 62 | | 9 | | 67
+Lean Dem | | 1 | | 99 | | 0 | | 72
+Dem | | 0 | | 99 | | 0 | | 214
+marital status
+Married | | 52 | | 47 | | 1 | | 389
+Widow/Div/Sep/CoHab | | 41 | | 57 | | 2 | | 125
+Never Married | | 31 | | 69 | | 1 | | 123
+race and ethnicity
+White | | 47 | | 51 | | 2 | | 568
+Black | | 12 | | 85 | | 3 | | 18
+Hispanic | | 21 | | 79 | | 0 | | 28
+Other | | 68 | | 32 | | 0 | | 25
+religious service attendance
+More than 1/wk | | 73 | | 27 | | 0 | | 49
+1/week | | 63 | | 35 | | 2 | | 109
+1-2 month | | 70 | | 30 | | 0 | | 76
+few times a year | | 55 | | 42 | | 3 | | 101
+Seldom | | 38 | | 61 | | 0 | | 136
+Never | | 16 | | 81 | | 2 | | 169
+religious preference
+Born again Protestant | | 76 | | 24 | | 1 | | 110
+Mainline Protestant | | 51 | | 47 | | 2 | | 181
+Roman Catholic | | 53 | | 46 | | 1 | | 181
+No religion | | 11 | | 88 | | 1 | | 145
+Other religion | | 26 | | 72 | | 2 | | 21
+ideology
+Very conservative | | 95 | | 4 | | 1 | | 79
+Conservative | | 88 | | 12 | | 0 | | 172
+Moderate | | 31 | | 66 | | 3 | | 210
+Liberal | | 2 | | 97 | | 1 | | 117
+Very liberal | | 0 | | 99 | | 1 | | 61
+Don't know | | 0 | | 100 | | 0 | | 1
+labor union membership
+respondent | | 37 | | 63 | | 0 | | 55
+another household member | | 56 | | 41 | | 3 | | 27
+nobody in household | | 46 | | 52 | | 1 | | 557
+region of Wisconsin
+MKE City | | 20 | | 79 | | 1 | | 42
+Rest of MKE | | 55 | | 44 | | 1 | | 204
+MSN | | 26 | | 73 | | 1 | | 117
+GB/A | | 53 | | 47 | | 1 | | 125
+Rest of state | | 50 | | 47 | | 2 | | 151

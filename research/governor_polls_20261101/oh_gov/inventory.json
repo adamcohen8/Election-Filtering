@@ -1,0 +1,251 @@
+{
+  "race_id": "oh_gov",
+  "search_queries": [
+    "Ohio governor October 2026 polls Acton Ramaswamy party crosstabs",
+    "Ohio governor September 2026 poll Ramaswamy Acton crosstabs Marist Suffolk Fox",
+    "Ohio governor Rasmussen crosstabs",
+    "Ohio governor BGSU CNN party"
+  ],
+  "aggregator_urls": [
+    "https://www.270towin.com/2026-governor-polls/ohio",
+    "https://votes.decisiondeskhq.com/polls/2026/ohio",
+    "https://www.realclearpolling.com/polls/governor/general/2026/ohio/ramaswamy-vs-acton"
+  ],
+  "releases": [
+    {
+      "pollster": "RedBox Research",
+      "publication_date": "2026-10-25",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-23",
+      "original_url": "https://afightworthhaving.com/polling/2026/ohio",
+      "table_url": "https://afightworthhaving.com/polling/2026/ohio/crosstabs.pdf",
+      "status": "included",
+      "reason": "AFWH is sponsor and operator; high design effect 6.48. Party ID preferred to voter-file tabulation. Source identifies Libertarian as Don Kissick."
+    },
+    {
+      "pollster": "Verasight",
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-20",
+      "original_url": "https://votehub.com/2026/10/22/votehub-verasight-poll-surveys-ohios-u-s-senate-and-gubernatorial-races/",
+      "table_url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf",
+      "status": "included",
+      "reason": "623 registered respondents reweighted with a likely-voter model; effective sample size 531.3, not raw LV count. First-choice crosstabs unavailable; lean-included table used. Table calls Libertarian Travis Kissick."
+    },
+    {
+      "pollster": "Suffolk University",
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-21",
+      "field_end": "2026-10-26",
+      "original_url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states",
+      "table_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_28_2026_ohio_statewide_tables.pdf",
+      "status": "included",
+      "reason": "Table reports integer bases; source labels do not establish whether weighted or unweighted; source says quotas determined from prior elections and demographics."
+    },
+    {
+      "pollster": "Marist Poll",
+      "publication_date": "2026-10-20",
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-18",
+      "original_url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+      "table_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_OH-NOS-and-Tables_202610191215zz9hjdV2l.pdf",
+      "status": "included",
+      "reason": "1,176 is registered voters, not LV; likely voter probability weight applied. Each displayed group has unweighted n >=50, but exact counts unknown. Same-wave RV alternative provided."
+    },
+    {
+      "pollster": "Beacon Research/Shaw & Company Research",
+      "publication_date": "2026-10-21",
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-19",
+      "original_url": "https://www.foxnews.com/politics/fox-news-poll-gender-gap-pocketbook-pain-shape-ohio-senate-race",
+      "table_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_cross-tabs_october-21-release.pdf",
+      "status": "included",
+      "reason": "No subgroup bases or party composition published; reported subgroups have sample size at least 100 under explicit Fox disclosure (weight status of threshold unspecified). Same wave LV and RV are alternatives."
+    },
+    {
+      "pollster": "Suffolk University",
+      "publication_date": "2026-09-29",
+      "field_start": "2026-09-23",
+      "field_end": "2026-09-27",
+      "original_url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states",
+      "table_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_2_2026_ohio_statewide_complete_tables.pdf",
+      "status": "included",
+      "reason": "Governor topline first reported September 29 (270toWin); university tables dated October 2. PDF also contains negative-ad questions, including language that resembles the October 28 wave; chronology and provenance require review. N weighting unspecified."
+    },
+    {
+      "pollster": "Marist Poll",
+      "publication_date": "2026-09-29",
+      "field_start": "2026-09-24",
+      "field_end": "2026-09-27",
+      "original_url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-september-2026/",
+      "table_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_OH-NOS-and-Tables_202609281347aC909p6465.pdf",
+      "status": "included",
+      "reason": "Counts are floor of total times rounded weighted share, not reported subgroup counts. Independent separate from Other."
+    },
+    {
+      "pollster": "NYT/Siena",
+      "sponsor": null,
+      "publication_date": "2026-10-03",
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "User screenshot separately ingested; one wave counted in target, omitted from these rows. Publication and Oct 1 field end provisional."
+    },
+    {
+      "pollster": "BGSU",
+      "sponsor": null,
+      "publication_date": "2026-10-16",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.bgsu.edu/content/bgsu/en/arts-and-sciences/democracy-and-public-policy-research-network/bgsu-poll.html",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Original repository blocked; complete table inaccessible."
+    },
+    {
+      "pollster": "CNN/SSRS",
+      "sponsor": null,
+      "publication_date": "2026-10-08",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://edition.cnn.com/",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Original DocumentCloud blocked; complete table inaccessible."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-11-01",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_oh_20261026_lv.pdf",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Governor crosstabs omit party."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-06",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_oh_20260921_lv.pdf",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Governor crosstabs omit party."
+    },
+    {
+      "pollster": "Echelon/NetChoice",
+      "sponsor": null,
+      "publication_date": "2026-10-27",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Topline only; available workbook was different national omnibus."
+    },
+    {
+      "pollster": "co/efficient",
+      "sponsor": null,
+      "publication_date": "2026-10-08",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://battlegrounds.coefficient.org/oh/",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Topline and party composition only."
+    },
+    {
+      "pollster": "On Point",
+      "sponsor": null,
+      "publication_date": "2026-10-17",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.onpointpolitics.us/on-point-polling/polls/ohio-2026",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Only independent cells publicly located; full tabs on request."
+    },
+    {
+      "pollster": "ActiVote",
+      "sponsor": null,
+      "publication_date": "2026-10-31",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.activote.net/polls/2026/oh-governor/",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Release explicitly says no party breakdown."
+    },
+    {
+      "pollster": "ActiVote",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.activote.net/polls/2026/oh-governor/",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "No complete party table located."
+    },
+    {
+      "pollster": "New River/GSG",
+      "sponsor": null,
+      "publication_date": "2026-10-21",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.cookpolitical.com/",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Cook access blocked; no complete party table located."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Excluded: fabricated pollster."
+    },
+    {
+      "pollster": "BGSU",
+      "sponsor": null,
+      "publication_date": "2026-09-16",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.bgsu.edu/content/bgsu/en/arts-and-sciences/democracy-and-public-policy-research-network/bgsu-poll.html",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Backfill; repository access blocked."
+    },
+    {
+      "pollster": "Fox",
+      "sponsor": null,
+      "publication_date": "2026-08-13",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_ohio_topline_august-13-release.pdf",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Backfill; located topline only."
+    },
+    {
+      "pollster": "AARP",
+      "sponsor": null,
+      "publication_date": "2026-06-25",
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.aarp.org/",
+      "table_url": null,
+      "status": "excluded_or_separate",
+      "reason": "Backfill; original PDF returned 403."
+    }
+  ]
+}

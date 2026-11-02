@@ -1,0 +1,155 @@
+{
+  "race_id": "ak_sen",
+  "search_queries": [
+    "Alaska Senate poll Sullivan Peltola October 2026 poll crosstabs",
+    "Alaska Senate 2026 polls October Sullivan Peltola polling party crosstabs",
+    "Alaska Sullivan Peltola October 2026 poll crosstabs pdf",
+    "Alaska Peltola Sullivan October 2026 Data for Progress poll",
+    "Rasmussen Alaska October 12-15 2026 party crosstabs",
+    "Quantus Alaska 758 crosstabs September 30 2026",
+    "InsiderAdvantage Alaska crosstabs October 11 2026",
+    "times-siena-alaska-poll-crosstabs 2026"
+  ],
+  "aggregator_urls": [
+    "https://www.callthemap.com/polls/SEN-AK",
+    "https://www.270towin.com/2026-senate-polls/alaska",
+    "https://votes.decisiondeskhq.com/polls/2026/alaska",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+    "https://99chambers.app/senate/ak",
+    "https://political.org/2026-elections/"
+  ],
+  "releases": [
+    {
+      "pollster": "Alaska Survey Research",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-29",
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release date and first choices via political.org and Wikipedia; no public party crosstabs found."
+    },
+    {
+      "pollster": "Data for Progress",
+      "sponsor": null,
+      "publication_date": "2026-10-20",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-16",
+      "original_url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release gives first-choice totals and says party is self-identified, but no candidate-support R/D/I crosstab found. Ranked rounds are same survey."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-12",
+      "field_end": "2026-10-15",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_alaska_senate_october_12_15_2026",
+      "status": "needs_review",
+      "reason": "Table has party columns, but independent candidate values contradict article; basis self-identification vs registration and party leaners not specified. Date from Wikipedia and political.org, not dated primary page."
+    },
+    {
+      "pollster": "Public Policy Polling",
+      "sponsor": null,
+      "publication_date": "2026-10-15",
+      "field_start": "2026-10-14",
+      "field_end": "2026-10-15",
+      "original_url": "https://x.com/AndrewSolender",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Dem-aligned 578 RV head-to-head as reported by journalist, no original R/D/I candidate crosstabs found; sponsor not identified."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-11",
+      "field_start": "2026-10-09",
+      "field_end": "2026-10-10",
+      "original_url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Original says tabs coming tonight; no R/D/I candidate crosstabs found."
+    },
+    {
+      "pollster": "Alaska Survey Research",
+      "sponsor": null,
+      "publication_date": "2026-10-07",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-03",
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release date October 7 from contemporaneous Reddit and political.org, October 13 aggregator added date is not publication. No public party crosstabs found."
+    },
+    {
+      "pollster": "The New York Times/Siena University",
+      "sponsor": "The New York Times",
+      "publication_date": "2026-10-03",
+      "field_start": "2026-09-24",
+      "field_end": "2026-10-01",
+      "original_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-alaska-poll-toplines.html",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-alaska-poll-crosstabs.html",
+      "status": "inaccessible",
+      "reason": "Browser site-safety gate blocked NYT; web fetch non-retryable. No table extracted; dates/sample supported by Ballotpedia and 99chambers."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-30",
+      "original_url": "https://quantusinsights.org/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Indexed original release says cross tabs linked and pollster separately confirms Oct 2 release, but web open redirects to homepage; browser unavailable in subagent. No full table read. Survey 758 LV, ballot base 737."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-09-26",
+      "field_start": "2026-09-22",
+      "field_end": "2026-09-24",
+      "original_url": "https://www.thetrafalgargroup.org/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Released before cutoff; do not confuse later aggregator addition with publication."
+    },
+    {
+      "pollster": "co/efficient",
+      "sponsor": null,
+      "publication_date": "2026-09-17",
+      "field_start": "2026-09-14",
+      "field_end": "2026-09-17",
+      "original_url": "https://battlegrounds.coefficient.org/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Released September 17; aggregator added October 15 is not publication date."
+    },
+    {
+      "pollster": "Fabrizio Ward/Impact Research",
+      "sponsor": "AARP",
+      "publication_date": "2026-09-17",
+      "field_start": "2026-09-08",
+      "field_end": "2026-09-11",
+      "original_url": "https://www.aarp.org/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "AARP September release; aggregator added October 15 is not publication."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Blocked fabricated pollster; no Alaska wave specifically established."
+    }
+  ]
+}

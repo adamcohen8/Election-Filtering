@@ -1,0 +1,3 @@
+# Pollfinity original governor table
+
+Source: https://pollfinity.com/assets/polls/tx-governor-senate-2026-oct-crosstabs.pdf, p. 2, B2. Field October 15–18, 2026. The pollster's https://pollfinity.com/polls/ archive identifies October 22 as release date. Columns modeled Democratic / Republican / Non-Partisan: Abbott 13 / 76 / 63; Hinojosa 76 / 17 / 26 percent. Unweighted governor question n 134 / 122 / 17. The nonpartisan category is a voter-file model, not self-identification; n=17 is directional. Overall survey n=278; governor question n=273. Full-sample margin of error does not apply to these subgroups.

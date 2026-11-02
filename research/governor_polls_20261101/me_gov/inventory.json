@@ -1,0 +1,43 @@
+{
+  "race_id": "me_gov",
+  "included_count": 10,
+  "included": [
+    "dfp-me-gov-20261027",
+    "cnn-ssrs-me-gov-20261026",
+    "marist-me-gov-20261025",
+    "suffolk-me-gov-20261011",
+    "wapo-schar-me-gov-20261005",
+    "marist-me-gov-20261004",
+    "cbs-yougov-me-gov-20261001",
+    "aarp-me-gov-20260922",
+    "unh-me-gov-20260921",
+    "umass-yougov-me-gov-20260914"
+  ],
+  "unresolved": [
+    {
+      "poll": "Fox News October 22",
+      "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-16-20-2026_maine_topline_october-22-release.pdf",
+      "reason": "Governor topline found; no six-cell party governor table in release."
+    },
+    {
+      "poll": "Echelon / NetChoice October 27",
+      "url": "https://netchoice.org/",
+      "reason": "Governor topline found, full candidate by party table not located."
+    },
+    {
+      "poll": "Maine People\u2019s Resource Center Sept/Oct",
+      "url": "https://www.mainepeoplesalliance.org/",
+      "reason": "Existing original PDF lacks complete candidate by party governor table; publication-date uncertainty."
+    },
+    {
+      "poll": "NYT/Press Herald/Siena September",
+      "url": "https://www.nytimes.com/interactive/2026/09/23/polls/times-press-herald-siena-me-poll-lv-crosstabs.html",
+      "reason": "NYT browser policy blocked; no alternate retrieval. Direct URL is a lead, not verified exact location."
+    },
+    {
+      "poll": "On Point, Emerson, Rasmussen",
+      "url": "https://www.onpointpolitics.us/polls/me/governor",
+      "reason": "No verified statewide Maine governor party crosstab in poll releases located; model forecasts are excluded."
+    }
+  ]
+}

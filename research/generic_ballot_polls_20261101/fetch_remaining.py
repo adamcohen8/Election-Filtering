@@ -1,0 +1,20 @@
+from pathlib import Path
+import urllib.request, concurrent.futures, json, re
+BASE=Path(__file__).resolve().parent
+urls={
+'clarity-oct21.pdf':'https://clarity-public-web.s3.us-east-1.amazonaws.com/Clarity+Omnibus+Overview+-+October+2026+-+PUBLIC.pdf',
+'prolific-oct22.pdf':'https://drive.google.com/uc?export=download&id=1ZsrVniE9jCMw0R6nTMKbNTcy8waAv64L',
+'bullfinch-oct6.pdf':'https://cdn.prod.website-files.com/65fc824cf835683ce2d3549b/6adf8b1408eb4e2bb4a38a28_updated-toplines-ic_102026.pdf',
+'activote21.html':'https://www.activote.net/polls/generic-ballot/2026-10-21/',
+'activote14.html':'https://www.activote.net/polls/generic-ballot/2026-10-14/',
+'activote03.html':'https://www.activote.net/polls/generic-ballot/2026-10-03/',
+'tipp-oct1.png':'https://i0.wp.com/issuesinsights.com/wp-content/uploads/2026/10/image-5.png?resize=770%2C565&ssl=1'}
+def get(item):
+ name,url=item;p=BASE/'sources'/name
+ try:
+  if not p.exists():
+   with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=40) as r:p.write_bytes(r.read())
+  print(name,p.stat().st_size)
+ except Exception as e:print(name,str(e))
+with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:list(pool.map(get,urls.items()))
+(BASE/'remaining-urls.json').write_text(json.dumps(urls,indent=2))

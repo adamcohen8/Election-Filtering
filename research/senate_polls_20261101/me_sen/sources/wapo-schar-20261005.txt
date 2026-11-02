@@ -1,0 +1,7 @@
+Source: https://docs.google.com/spreadsheets/d/1pc_YoJKZGVAl08v7PYmVPH1sFIDOL9vAHykTKbKLa5I/edit
+Release: https://schar.gmu.edu/news/2026-10/washington-post-schar-school-poll-finds-tight-senate-contest-maine
+Location: Sheet rows 1-2, 11-15, Q2
+
+Unleaned Party ID columns D, R, Independent/Other: Jackson 90%,9%,53%; Collins 6%,89%,40%. 800 LV total; separate leaned columns also displayed.
+
+Independent/Other includes other identifiers. The accessible sheet did not show party sample sizes or composition; do not use leaned columns as separate observation.

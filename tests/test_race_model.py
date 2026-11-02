@@ -162,7 +162,7 @@ def test_election_model_forecasts_multiple_races() -> None:
 def test_2026_registry_contains_initial_senate_and_governor_races() -> None:
     race_ids = {race.race_id for race in RACES_2026}
 
-    assert len(RACES_2026) == 21
+    assert len(RACES_2026) == 28
     assert {"fl_sen", "tx_sen", "ga_sen", "me_sen", "pa_gov", "wi_gov", "us_house_generic"} <= race_ids
     assert "nc_gov" not in race_ids
     assert RACES_2026_BY_ID["ga_gov"].state == "Georgia"
@@ -176,7 +176,7 @@ def test_2026_nominee_registry_tracks_concluded_primaries() -> None:
     assert NOMINEES_2026_BY_RACE["nc_sen"].democratic.name == "Roy Cooper"
     assert NOMINEES_2026_BY_RACE["ga_gov"].democratic.name == "Keisha Lance Bottoms"
     assert NOMINEES_2026_BY_RACE["me_sen"].democratic.name == "Troy Jackson"
-    assert NOMINEES_2026_BY_RACE["me_sen"].democratic.status == "presumptive_nominee"
+    assert NOMINEES_2026_BY_RACE["me_sen"].democratic.status == "nominee"
     assert "nc_gov" not in NOMINEES_2026_BY_RACE
 
 
@@ -191,19 +191,22 @@ def test_create_2026_election_model_preloads_all_races() -> None:
     assert "us_house_generic" in election.races
     assert election.races["fl_sen"].electorate.republican == 0.38
     assert election.races["tx_sen"].electorate.republican == 0.41
-    assert election.races["tx_sen"].electorate.democratic == 0.30
-    assert election.races["tx_sen"].electorate.independent == 0.29
-    assert election.races["ia_sen"].electorate.republican == 36.0 / 101.0
-    assert election.races["ia_sen"].electorate.democratic == 26.0 / 101.0
-    assert election.races["ia_sen"].electorate.independent == 39.0 / 101.0
-    assert election.races["ak_sen"].electorate.republican == 0.35
-    assert election.races["ak_sen"].electorate.democratic == 0.19
-    assert election.races["ak_sen"].electorate.independent == 0.46
-    assert election.races["me_sen"].electorate.republican == 0.233
-    assert election.races["me_sen"].electorate.democratic == 0.275
-    assert election.races["me_sen"].electorate.independent == 0.492
-    assert election.races["us_house_generic"].electorate.republican == 0.35
-    assert election.races["us_house_generic"].electorate.democratic == 0.35
+    assert election.races["tx_sen"].electorate.democratic == 0.28
+    assert election.races["tx_sen"].electorate.independent == 0.31
+    assert election.races["ia_sen"].electorate.republican == 0.38
+    assert election.races["ia_sen"].electorate.democratic == 0.27
+    assert election.races["ia_sen"].electorate.independent == 0.35
+    assert election.races["ak_sen"].electorate.republican == 0.40
+    assert election.races["ak_sen"].electorate.democratic == 0.24
+    assert election.races["ak_sen"].electorate.independent == 0.36
+    assert election.races["me_sen"].electorate.republican == 0.26
+    assert election.races["me_sen"].electorate.democratic == 0.30
+    assert election.races["me_sen"].electorate.independent == 0.44
+    assert election.races["me_gov"].electorate == election.races["me_sen"].electorate
+    assert election.races["nh_sen"].electorate.party_vector().tolist() == [0.32, 0.30, 0.38]
+    assert election.races["nh_gov"].electorate == election.races["nh_sen"].electorate
+    assert election.races["us_house_generic"].electorate.republican == 0.37
+    assert election.races["us_house_generic"].electorate.democratic == 0.33
     assert election.races["us_house_generic"].electorate.independent == 0.30
 
 
@@ -551,29 +554,29 @@ def test_public_forecast_payload_exports_race_statuses() -> None:
     race = next(race for race in payload["races"] if race["race_id"] == "fl_sen")
     assert race["office"] == "senate"
     assert race["state_code"] == "FL"
-    assert race["data_available"] is True
-    assert race["data_note"] is None
-    assert race["status"] == "safe-republican"
-    assert race["leader"] == "republican"
-    assert race["candidate_a_share"] is not None
-    assert race["candidate_b_share"] is not None
-    assert race["margin"] is not None
+    assert race["data_available"] is False
+    assert "Prior only" in race["data_note"]
+    assert race["status"] == "unrated"
+    assert race["leader"] == "unknown"
+    assert race["candidate_a_share"] is None
+    assert race["candidate_b_share"] is None
+    assert race["margin"] is None
 
     texas = next(race for race in payload["races"] if race["race_id"] == "tx_sen")
-    assert texas["data_available"] is True
+    assert texas["data_available"] is False
     assert texas["candidate_a_name"] == "Ken Paxton"
     assert texas["candidate_b_name"] == "James Talarico"
-    assert texas["nominee_last_verified"] == "2026-07-01"
+    assert texas["nominee_last_verified"] == "2026-11-01"
 
     maine = next(race for race in payload["races"] if race["race_id"] == "me_sen")
-    assert maine["data_available"] is True
+    assert maine["data_available"] is False
     assert maine["candidate_a_name"] == "Susan Collins"
     assert maine["candidate_b_name"] == "Troy Jackson"
-    assert maine["candidate_b_nominee_status"] == "presumptive_nominee"
-    assert maine["nominee_last_verified"] == "2026-07-19"
+    assert maine["candidate_b_nominee_status"] == "nominee"
+    assert maine["nominee_last_verified"] == "2026-11-01"
 
     generic = next(race for race in payload["races"] if race["race_id"] == "us_house_generic")
-    assert generic["data_available"] is True
+    assert generic["data_available"] is False
     assert generic["office"] == "generic_ballot"
     assert generic["state"] == "United States"
     assert generic["state_code"] == "US"
@@ -611,7 +614,7 @@ def test_export_public_forecasts_writes_static_json(tmp_path) -> None:
     )
 
     assert output_path.exists()
-    assert len(payload["races"]) == 21
+    assert len(payload["races"]) == len(RACES_2026_BY_ID)
 
 
 def test_public_race_history_payload_replays_poll_feed(tmp_path) -> None:

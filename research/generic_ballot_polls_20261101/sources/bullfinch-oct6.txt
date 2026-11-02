@@ -1,0 +1,1108 @@
+National Policy Survey — October 2026
+Toplines — The Independent Center 2026 Nationwide Voter Survey
+Online survey of U.S. adults, n = 1,200, of whom 1,000 are registered voters (RV). Results are unweighted (pre-field flex quotas
+balanced to census and data universe targets on gender, age, race/ethnicity, partisanship, education level and geography). Margin of
+error ±3.1 pts (RV) / ±2.8 pts (adults) at 95% confidence. Totals may not sum to 100 due to rounding; multi-select questions sum to
+more than 100; "<1" is a non-zero value under 0.5%. Survey fielded 10/01-06/2026.
+
+Political profile
+
+ Screener2. Registered to vote                                                                                      RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Yes                                                                                                                 100                   83
+ No                                                                                                                    0                   17
+ Unsure                                                                                                                0                    0
+
+
+ Screener3_PartyID. In politics today, and regardless of how you are registered, do you                             RV %               Adults %
+ consider yourself to be a…
+                                                                                                                   n=1000               n=1200
+ Strong Democrat                                                                                                      25                   23
+ Not so strong Democrat                                                                                                7                    8
+ Independent leaning Democrat                                                                                          9                    8
+ Independent                                                                                                          23                   24
+ Independent leaning Republican                                                                                        6                    6
+ Not so strong Republican                                                                                              7                    8
+ Strong Republican                                                                                                    23                   22
+ Other / Unsure                                                                                                        1                    2
+ Total Democrat (strong + not so strong)                                                                              32                   31
+ Total Independent (lean Dem + Independent + lean Rep)                                                                37                   37
+ Total Republican (not so strong + strong)                                                                            30                   30
+
+
+ Party ID                                                                                                           RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Dem                                                                                                                  32                   31
+ Ind                                                                                                                  37                   37
+ Rep                                                                                                                  30                   30
+ Unsure                                                                                                                1                    2
+
+
+
+
+
+                                            ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 1
+
+ Ideology. Thinking for a moment about your social, economic, and political views… Do                                 RV %                Adults %
+ you consider yourself to be…
+                                                                                                                     n=1000                n=1200
+ Very Liberal                                                                                                           15                    14
+ Somewhat Liberal                                                                                                       14                    12
+ Moderate                                                                                                               37                    39
+ Somewhat Conservative                                                                                                  15                    15
+ Very Conservative                                                                                                      17                    16
+ Unsure                                                                                                                  2                    4
+ Total liberal (very + somewhat)                                                                                        29                    26
+ Total moderate (moderate + somewhat liberal + somewhat conservative)                                                   66                    66
+ Total conservative (somewhat + very)                                                                                   32                    31
+
+
+ Political self-placement, 0 = Progressive Liberal / Strong Democrat … 10 = Staunch                                   RV %                Adults %
+ Conservative / Strong Republican
+                                                                                                                     n=1000                n=1200
+ Mean (0-10)                                                                                                            5.2                  5.2
+ % at 5 (center)                                                                                                        32                    35
+ % 0-4                                                                                                                  31                    29
+ % 6-10                                                                                                                 37                    36
+
+
+ Thinking for a moment about your economic views… Do you consider yourself to                                         RV %                Adults %
+ be…?
+                                                                                                                     n=1000                n=1200
+ Fiscally liberal                                                                                                       27                    25
+ Fiscally responsible                                                                                                   34                    32
+ Fiscally conservative                                                                                                  27                    27
+ Unsure                                                                                                                 12                    16
+
+
+ Thinking for a moment about your social views… Do you consider yourself to be…?                                      RV %                Adults %
+                                                                                                                     n=1000                n=1200
+ Socially liberal                                                                                                       29                    26
+ Socially compassionate                                                                                                 33                    32
+ Socially conservative                                                                                                  30                    30
+ Unsure                                                                                                                  8                    12
+
+
+ If you could choose, which type of elected official would you prefer to have represent                               RV %                Adults %
+ you and your community?
+                                                                                                                     n=1000                n=1200
+ Fiscally liberal and socially liberal                                                                                  12                    11
+ Fiscally liberal and socially compassionate                                                                            10                    9
+ Fiscally liberal and socially conservative                                                                              5                    5
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 2
+
+ Fiscally responsible and socially liberal                                                                               8                     7
+ Fiscally responsible and socially compassionate                                                                         15                   14
+ Fiscally responsible and socially conservative                                                                          10                   10
+ Fiscally conservative and socially liberal                                                                              5                     5
+ Fiscally conservative and socially compassionate                                                                        9                    10
+ Fiscally conservative and socially conservative                                                                         14                   13
+ Unsure                                                                                                                  12                   17
+
+
+ Vote2024. For whom did you vote in the 2024 Presidential election?                                                    RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Kamala Harris                                                                                                           43                   37
+ Donald Trump                                                                                                            43                   38
+ Someone Else                                                                                                            4                     4
+ Did not vote                                                                                                            9                    19
+ Don’t recall                                                                                                            1                     1
+ Refused                                                                                                                 1                     2
+
+
+ Turnout. How likely are you to vote in the congressional elections this November?                                     RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Absolutely certain to vote                                                                                              58                   49
+ Very likely                                                                                                             21                   19
+ Somewhat likely                                                                                                         12                   12
+ Not very likely                                                                                                         3                     5
+ Will not vote                                                                                                           3                    10
+ Unsure                                                                                                                  3                     6
+ NET Certain/Very likely                                                                                                 79                   68
+
+
+General sentiment and approval
+
+ At this time next year, do you think that you will personally be better or worse off                                  RV %               Adults %
+ than you are today?
+                                                                                                                      n=1000               n=1200
+ Much better off                                                                                                         23                   23
+ Somewhat better off                                                                                                     37                   37
+ Somewhat worse off                                                                                                      20                   18
+ Much worse off                                                                                                          10                   10
+ Unsure                                                                                                                  11                   12
+ NET Better                                                                                                              60                   59
+ NET Worse                                                                                                               29                   29
+
+
+ At this time next year, do you think America will be better or worse off than it is                                   RV %               Adults %
+ today?
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                              National Policy Survey — October 2026 — Toplines — Page 3
+
+                                                                                                                   n=1000               n=1200
+ Much better off                                                                                                      17                   16
+ Somewhat better off                                                                                                  27                   27
+ Somewhat worse off                                                                                                   26                   26
+ Much worse off                                                                                                       19                   19
+ Unsure                                                                                                               11                   12
+ NET Better                                                                                                           44                   43
+ NET Worse                                                                                                            45                   45
+
+
+ Do you approve or disapprove of the job President Donald Trump is doing                                            RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Strongly approve                                                                                                     22                   21
+ Somewhat approve                                                                                                     18                   19
+ Somewhat disapprove                                                                                                  11                   12
+ Strongly disapprove                                                                                                  46                   45
+ Unsure                                                                                                                2                    4
+ NET Approve                                                                                                          41                   40
+ NET Disapprove                                                                                                       57                   57
+
+
+ Do you approve or disapprove of the job the U.S. Congress is doing?                                                RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Strongly approve                                                                                                     11                   10
+ Somewhat approve                                                                                                     23                   22
+ Somewhat disapprove                                                                                                  25                   24
+ Strongly disapprove                                                                                                  33                   32
+ Unsure                                                                                                                9                   11
+ NET Approve                                                                                                          34                   33
+ NET Disapprove                                                                                                       58                   56
+
+
+ When Congress fails to get things done, which of the following comes closest to your                               RV %               Adults %
+ view?
+                                                                                                                   n=1000               n=1200
+ Both parties put their own party’s interests ahead of the country’s                                                  44                   43
+ One party is mainly responsible for the gridlock                                                                     31                   29
+ The problems facing the country are genuinely hard, and no one could solve them                                      17                   17
+ quickly
+ Unsure                                                                                                                9                   12
+
+
+ Favorability                                                                                                       RV %               Adults %
+ Donald Trump
+                                                                                                                   n=1000               n=1200
+ Very favorable                                                                                                       25                   24
+
+                                            ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 4
+
+ Somewhat favorable                                                                                                15                   16
+ Somewhat unfavorable                                                                                              12                   12
+ Very unfavorable                                                                                                  47                   46
+ Never heard of                                                                                                     0                   <1
+ Unsure                                                                                                             1                    2
+ NET Favorable                                                                                                     41                   40
+ NET Unfavorable                                                                                                   58                   58
+ The Republican party
+                                                                                                                n=1000               n=1200
+ Very favorable                                                                                                    21                   19
+ Somewhat favorable                                                                                                22                   22
+ Somewhat unfavorable                                                                                              16                   16
+ Very unfavorable                                                                                                  37                   36
+ Never heard of                                                                                                     1                    1
+ Unsure                                                                                                             3                    5
+ NET Favorable                                                                                                     43                   41
+ NET Unfavorable                                                                                                   53                   53
+ The Democratic party
+                                                                                                                n=1000               n=1200
+ Very favorable                                                                                                    21                   19
+ Somewhat favorable                                                                                                29                   28
+ Somewhat unfavorable                                                                                              22                   22
+ Very unfavorable                                                                                                  25                   26
+ Never heard of                                                                                                    <1                    1
+ Unsure                                                                                                             3                    5
+ NET Favorable                                                                                                     50                   48
+ NET Unfavorable                                                                                                   47                   47
+ An independent candidate not affiliated with the Republican or Democratic parties
+                                                                                                                n=1000               n=1200
+ Very favorable                                                                                                    12                   11
+ Somewhat favorable                                                                                                40                   38
+ Somewhat unfavorable                                                                                              16                   16
+ Very unfavorable                                                                                                   9                    9
+ Never heard of                                                                                                     5                    6
+ Unsure                                                                                                            18                   20
+ NET Favorable                                                                                                     52                   49
+ NET Unfavorable                                                                                                   25                   25
+
+
+Independent candidates and representation
+
+ If this November’s congressional election were between a viable Republican, a viable                             RV %              Adults %
+ Democrat, a viable third-party candidate who was Independent, how would you vote?
+                                                                                                                n=1000               n=1200
+
+                                           ILC & Independent Center, conducted by The Bullfinch Group
+                                           National Policy Survey — October 2026 — Toplines — Page 5
+
+ Strongly Independent                                                                                                 8                    9
+ Lean Independent                                                                                                    10                   10
+ Strongly Republican                                                                                                 24                   23
+ Lean Republican                                                                                                     12                   12
+ Strongly Democrat                                                                                                   26                   25
+ Lean Democrat                                                                                                       13                   13
+ Unsure                                                                                                               6                    9
+ NET Independent                                                                                                     18                   18
+ NET Republican                                                                                                      36                   35
+ NET Democrat                                                                                                        40                   38
+
+
+ Which of the following do you think would be the best candidate to represent you and                               RV %               Adults %
+ your neighbors in Congress?
+                                                                                                                  n=1000               n=1200
+ A candidate who works and votes with the Republicans in Congress.                                                   24                   23
+ A candidate who works and votes with the Democrats in Congress.                                                     29                   28
+ A candidate who works and votes with both Republicans and Democrats in Congress.                                    38                   36
+ Unsure                                                                                                               9                   14
+
+
+ Suppose three to five independent members of Congress held the balance of power,                                   RV %               Adults %
+ meaning neither party had a majority without them. Which comes closer to your
+ view?
+                                                                                                                  n=1000               n=1200
+ They would be able to force the two parties to reach agreements and get things done                                 47                   45
+ They would be shut out by the two parties and have little real influence                                            30                   29
+ Unsure                                                                                                              23                   26
+
+
+ Do you believe that your voice and opinions are being heard in Washington, DC by                                   RV %               Adults %
+ your elected representatives?
+                                                                                                                  n=1000               n=1200
+ Yes, Strongly                                                                                                       14                   12
+ Yes, Somewhat                                                                                                       25                   23
+ No, Somewhat                                                                                                        23                   23
+ No, Strongly                                                                                                        27                   28
+ Unsure / Depends                                                                                                    11                   15
+ NET Yes                                                                                                             38                   35
+ NET No                                                                                                              50                   51
+
+
+ Do you think your voice and opinions would be more clearly heard in Washington, DC                                 RV %               Adults %
+ if your elected representative was a moderate Independent, not aligned with either
+ Republicans or Democrats?
+                                                                                                                  n=1000               n=1200
+ Yes, Strongly                                                                                                       16                   14
+
+                                            ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 6
+
+ Yes, Somewhat                                                                                                          28                   28
+ No, Somewhat                                                                                                           18                   17
+ No, Strongly                                                                                                           17                   17
+ Unsure / Depends                                                                                                       22                   25
+ NET Yes                                                                                                                44                   42
+ NET No                                                                                                                 34                   34
+
+
+ Elections and the parties: Rules on ballot access, debates, and campaign finance are                                 RV %               Adults %
+ largely written by the two major parties.
+                                                                                                                     n=1000               n=1200
+ The two-party system gives voters clearer choices and more stable government, and the                                  31                   31
+ current rules reasonably reflect that most voters align with one of the two parties.
+ Independent and third-party candidates should have the same ballot access, debate                                      44                   44
+ access, and campaign-finance treatment under the law as the two major parties.
+ Ballot access should be opened up for everyone, even if that means far more candidates                                 25                   25
+ on the ballot and winners elected with only a small share of the vote.
+
+
+ Congress and personal finances: Members of Congress can currently trade individual                                   RV %               Adults %
+ stocks while in office.
+                                                                                                                     n=1000               n=1200
+ Members should be able to trade stocks with public disclosure, as today.                                               25                   24
+ Members should be banned from trading individual stocks while in office, with holdings                                 51                   49
+ placed in blind trusts.
+ Members should be banned from owning any investments at all while in office.                                           24                   26
+
+
+Issues and cost of living
+
+ Most pressing issue — ranked FIRST                                                                                   RV %               Adults %
+                                                                                                                     n=1000               n=1200
+ Jobs and the economy                                                                                                   27                   26
+ Government leadership                                                                                                  7                     7
+ Immigration                                                                                                            9                     9
+ Taxes and government spending                                                                                          9                     9
+ Health care                                                                                                            16                   16
+ National security                                                                                                      7                     7
+ Abortion                                                                                                               3                     3
+ Energy and the environment                                                                                             6                     5
+ Police reform and criminal justice                                                                                     3                     3
+ Education                                                                                                              4                     4
+ Free speech and censorship                                                                                             3                     4
+ Social reforms                                                                                                         2                     2
+
+
+ Most pressing issue — in TOP THREE                                                                                   RV %               Adults %
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 7
+
+                                                                                                                    n=1000               n=1200
+ Jobs and the economy                                                                                                  55                   53
+ Government leadership                                                                                                 23                   22
+ Immigration                                                                                                           26                   25
+ Taxes and government spending                                                                                         37                   37
+ Health care                                                                                                           44                   42
+ National security                                                                                                     23                   22
+ Abortion                                                                                                              9                     9
+ Energy and the environment                                                                                            19                   18
+ Police reform and criminal justice                                                                                    13                   12
+ Education                                                                                                             12                   12
+ Free speech and censorship                                                                                            12                   12
+ Social reforms                                                                                                        9                     8
+
+
+ And thinking specifically about the cost of living, which of these has put the most                                 RV %               Adults %
+ pressure on your household budget over the past year?
+                                                                                                                    n=1000               n=1200
+ Housing — rent or mortgage                                                                                            24                   24
+ Groceries and food                                                                                                    61                   60
+ Health care and insurance                                                                                             21                   19
+ Electricity and home energy                                                                                           19                   19
+ Gasoline and transportation                                                                                           35                   35
+ Child care                                                                                                            4                     4
+ Insurance other than health — auto, home, renters                                                                     7                     8
+ None of these                                                                                                         7                     8
+
+
+ Which of the following do you believe would make the government more effective?                                     RV %               Adults %
+                                                                                                                    n=1000               n=1200
+ Growing and investing more in government-run programs and regulations                                                 27                   26
+ Reforming government programs to offer more choice with competition from the                                          40                   39
+ private sector
+ Reducing and eliminating government-run programs and regulations                                                      20                   19
+ Unsure                                                                                                                13                   16
+
+
+ Which of the following do you believe would help address housing affordability?                                     RV %               Adults %
+                                                                                                                    n=1000               n=1200
+ More government involvement in offering more subsidies and programs targeted at                                       39                   40
+ disadvantaged individuals
+ Reducing regulatory barriers that delay construction and impose higher costs on                                       42                   41
+ building housing.
+ Eliminating all government programs and regulation in the housing market to allow                                     19                   19
+ private providers to build what they want and where.
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 8
+
+Values
+
+ Immigration: Borders are used to control immigration.                                                                 RV %               Adults %
+                                                                                                                     n=1000                n=1200
+ We must strongly limit the entry of new immigrants and/or expel those who do not                                       27                    28
+ integrate.
+ The Government shall regulate immigration to allow necessary immigrants to come in a                                   46                    46
+ legal way.
+ There should be no differences of rights based on the place of birth or one’s nationality.                             27                    26
+
+
+ Environment: Which of the following best addresses environmental challenges?                                          RV %               Adults %
+                                                                                                                     n=1000                n=1200
+ Laws should provide clarity to address a cleaner environment by imposing strict                                        36                    37
+ limitations of pollutants.
+ Regulations and laws for clean energies should be promoted through more subsidies to                                   40                    39
+ those who pollute less and more taxes to those who pollute the most.
+ Well-defined property rights make it the responsibility of property owners to address                                  25                    24
+ pollution and polluting activity.
+
+
+ Equality: The status of being equal, especially in status, rights, and opportunities.                                 RV %               Adults %
+                                                                                                                     n=1000                n=1200
+ The government should actively promote fairness with programs and regulations to                                       38                    38
+ intervene directly in community, social and economic relationships.
+ The government’s role is to ensure the laws and protections are in place to protect                                    43                    42
+ against discrimination but not intervene directly.
+ The government should not be involved at all in private interactions.                                                  20                    21
+
+
+ Globalization: Imports may be limited by the Government through various                                               RV %               Adults %
+ instruments such as tariffs, prohibitions, or certain regulations.
+                                                                                                                     n=1000                n=1200
+ The Government should limit imports from other countries to favor domestic                                             33                    32
+ producers.
+ The Government should limit imports from some third world countries, as they use                                       22                    22
+ cheap labor.
+ The Government should not restrict international trade. It must be free and tariffs                                    45                    45
+ should be reduced or eliminated.
+
+
+ Retirement: Retirement funds guarantee a level of welfare for the elderly.                                            RV %               Adults %
+                                                                                                                     n=1000                n=1200
+ Retirement plans must be managed by the Government with a public system of                                             18                    18
+ mandatory contributions.
+ Retirement plans should be guaranteed by the Government, with some kind of mixed                                       46                    45
+ model that can combine public and private plans.
+ Retirement plans are a matter of individual planning and savings. The Government                                       36                    37
+ should not require mandatory contributions to a public system.
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 9
+
+ Solidarity: The poor and needy depend on the solidarity of the rest of society.                                      RV %               Adults %
+                                                                                                                    n=1000                n=1200
+ The Government should be responsible for removing or reducing poverty and inequality                                  33                    35
+ in society.
+ The Government shall manage aid and an adequate assistance to the needy, including                                    46                    45
+ engaging private charitable institutions to supplement.
+ Private charity should be the main channel for the solidarity of society.                                             21                    20
+
+
+ Health care: Medical coverage is a necessity for everyone eventually.                                                RV %               Adults %
+                                                                                                                    n=1000                n=1200
+ The Government should manage public medical centers paid by contributions to a                                        21                    22
+ mandatory public health insurance.
+ The Government should guarantee universal access to health care centers using some                                    46                    47
+ sort of public funding.
+ The government should not manage medical centers. Medical facilities should be                                        32                    32
+ private, and citizens be free to buy the health insurance they wish.
+
+
+ Which level of government do you think is the most trustworthy, accountable, and                                     RV %               Adults %
+ transparent?
+                                                                                                                    n=1000                n=1200
+ My local county and city government                                                                                   35                    32
+ State government                                                                                                      20                    19
+ The federal government                                                                                                13                    13
+ Unsure                                                                                                                32                    36
+
+
+Ownership and the economy
+
+ Do you think owning property is important to your future?                                                            RV %               Adults %
+                                                                                                                    n=1000                n=1200
+ Yes — I believe owning property is important, and I want to buy one                                                   26                    25
+ Yes — I already own property, and ownership is important to my future                                                 44                    39
+ I own property, but I don’t think property ownership is important to my future                                        10                    10
+ I don’t think it is important, and I don’t intend to buy property                                                     12                    13
+ No opinion                                                                                                             9                    13
+
+
+ Which best describes your current housing situation?                                                                 RV %               Adults %
+                                                                                                                    n=1000                n=1200
+ I own my home                                                                                                         62                    56
+ I rent                                                                                                                30                    32
+ I live with family or others and do not pay rent                                                                       5                     7
+ Other arrangement                                                                                                      2                     3
+ Prefer not to say                                                                                                      1                     2
+
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 10
+
+ Thinking about buying a home: do you believe owning a home is realistically                                          RV %                Adults %
+ achievable for someone like you?
+                                                                                                                     n=1000               n=1200
+ Yes — I already own, and it was achievable                                                                             53                   47
+ Yes — I expect to be able to buy within the next five years                                                            15                   15
+ Maybe someday, but not in the foreseeable future                                                                       14                   16
+ No — I don’t believe it will ever be achievable for me                                                                 15                   17
+ Unsure                                                                                                                  4                    6
+
+
+ Which of the following best describes you when it comes to owning a business?                                        RV %                Adults %
+                                                                                                                     n=1000               n=1200
+ I already own a business — it is my only job                                                                           10                    9
+ I own a business and have another job (or more) as well                                                                 7                    7
+ I do not own a business but want to                                                                                    27                   26
+ I have no desire to own my own business now or in the future                                                           47                   46
+ No opinion                                                                                                              9                   12
+
+
+ Which of the following comes closest to your view of American capitalism?                                            RV %                Adults %
+                                                                                                                     n=1000               n=1200
+ American capitalism is the reason we are an exceptionally successful nation The                                        24                   23
+ American free enterprise system is the reason we are an exceptionally successful nation
+ American capitalism is core to our success, but the free market needs some guardrails                                  28                   27
+ and reform for our future The American free enterprise system is core to our success,
+ but the free market needs some guardrails and reform for our future
+ American capitalism is no longer fit for purpose, and we need more government                                          12                   12
+ intervention to balance the free market The American free enterprise system is no
+ longer fit for purpose, and we need more government intervention to balance the free
+ market
+ We should reject American capitalism in favor of a more social-democratic model like                                   11                   11
+ Europe’s We should reject the American free enterprise system in favor of a more
+ social-democratic model like Europe’s
+ We should adopt a socialist system, with government replacing the free market                                           5                    5
+ None of the above                                                                                                       6                    7
+ No opinion                                                                                                             14                   16
+
+
+ And thinking about how the American economy actually works today, which comes                                        RV %                Adults %
+ closer to your view?
+                                                                                                                     n=1000               n=1200
+ The American economy today mostly works the way a free market should — businesses                                      34                   32
+ and individuals succeed or fail based on what they offer
+ The American economy today is rigged in favor of large companies and people with                                       54                   54
+ political connections, and doesn’t work like a real free market
+ Unsure                                                                                                                 11                   15
+
+
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 11
+
+ What is the single biggest obstacle to starting or growing a small business in America                               RV %               Adults %
+ today?
+                                                                                                                    n=1000                n=1200
+ Getting access to capital or a loan                                                                                   20                    20
+ Government regulation, licensing, and paperwork                                                                       23                    22
+ The cost of providing health care to employees                                                                        17                    16
+ Taxes                                                                                                                 24                    22
+ Large companies using political influence and government rules to shut out competition                                29                    28
+ Tariffs and the cost of imported goods and materials                                                                  23                    22
+ Finding and keeping good workers                                                                                      14                    13
+ Unsure                                                                                                                12                    15
+
+
+ When people say the economic system is rigged, who do you think is most                                              RV %               Adults %
+ responsible?
+                                                                                                                    n=1000                n=1200
+ Large corporations                                                                                                    11                    11
+ Banks and financial institutions                                                                                       4                     5
+ The Republican party                                                                                                  22                    20
+ The Democratic party                                                                                                  13                    13
+ Both parties working together with large corporations                                                                 20                    20
+ Government generally, regardless of party                                                                             16                    16
+ No one — the system isn’t rigged                                                                                       6                     5
+ Unsure                                                                                                                 9                    11
+
+
+ Which of the following do you or your household currently own?                                                       RV %               Adults %
+                                                                                                                    n=1000                n=1200
+ A home                                                                                                                60                    55
+ A business or a share of one                                                                                          10                     9
+ A retirement account such as an IRA or 401(k)                                                                         51                    44
+ Stocks, bonds or mutual funds outside a retirement account                                                            34                    29
+ Cryptocurrency                                                                                                        17                    15
+ Rental or investment property                                                                                         10                     9
+ None of these                                                                                                         19                    24
+
+
+Policy modules
+
+ Immigration reform: The border and legal status are debated together.                                                RV %               Adults %
+                                                                                                                    n=1000                n=1200
+ The border must be fully secured before any legal status is considered for anyone here                                36                    37
+ without authorization.
+ Border security and earned legal status — a fee, a background check, and a work permit                                35                    35
+ — should be passed together as one package.
+ A path to legal status should be provided now; increased enforcement is not needed.                                   29                    28
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 12
+
+ Legal immigration: The economy depends in part on who is admitted legally.                                            RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Overall legal immigration should be reduced.                                                                            21                   23
+ Legal immigration should be restructured to target the skills and sector needs of the                                   47                   46
+ economy, with clear, consistent, enforceable rules.
+ Legal immigration should be broadly expanded across all categories.                                                     32                   32
+
+
+ Interior enforcement: Immigration laws are also enforced away from the border.                                        RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Enforcement should focus only on people convicted of serious crimes; others who are                                     42                   42
+ working and have no criminal record should be left alone.
+ Enforcement should prioritize people convicted of crimes, but anyone here illegally                                     28                   28
+ should remain subject to removal.
+ Immigration laws should be enforced against everyone here illegally, regardless of                                      30                   30
+ criminal record or how long they have been here.
+
+
+ Skills and degrees: Government aid supports education after high school.                                              RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Aid should remain focused on traditional two- and four-year college degrees.                                            25                   25
+ Aid should apply equally to short-term skills training, apprenticeships, and industry                                   56                   56
+ credentials that individuals choose.
+ Government should not subsidize education or training after high school at all.                                         19                   20
+
+
+ Health coverage: Most working-age Americans get insurance through an employer.                                        RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ The employer-based system should be kept as it is.                                                                      31                   32
+ Coverage should become portable and individually owned — contributions go into an                                       40                   40
+ account that travels with the person from job to job.
+ Employer coverage should be replaced by a single government-run health program.                                         29                   29
+
+
+ Health care prices: Patients often do not learn what care will cost until after they                                  RV %               Adults %
+ receive it.
+                                                                                                                      n=1000               n=1200
+ Government should require hospitals and insurers to publish the actual prices they                                      45                   43
+ charge and pay, and enforce it with penalties.
+ Government should require clear price estimates before treatment, but leave the                                         30                   30
+ details to hospitals and insurers to work out.
+ Prices are too complicated to publish usefully; the focus should be on lowering costs by                                26                   28
+ other means..
+
+
+ Health plan rules: Government sets requirements for what health insurance plans                                       RV %               Adults %
+ must include.
+
+
+                                              ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 13
+
+                                                                                                                      n=1000               n=1200
+ Insurance plans should be required to cover a standard set of benefits, so that no one is                               31                   31
+ sold coverage that leaves them exposed when they actually get sick.
+ Government should require a core set of protections — such as coverage for pre-                                         28                   28
+ existing conditions — while letting plans vary beyond that, including plans purchased
+ across state lines.
+ People should be free to choose the level of coverage they want, including cheaper                                      40                   41
+ plans with fewer benefits, rather than paying for coverage requirements they don’t
+ need.
+
+
+ Energy: America needs more energy for growth and affordability.                                                       RV %                Adults %
+                                                                                                                      n=1000               n=1200
+ Government should actively support cleaner energy through tax credits and standards,                                    39                   39
+ to cut emissions and build the industries that will define the next economy.
+ Government should treat all energy sources equally and approve projects of every kind                                   31                   31
+ quickly, letting markets and communities decide what gets built.
+ Government should maintain strong environmental review for new energy projects,                                         30                   30
+ even when that slows development, to protect communities and the land.
+
+
+ Thinking about energy policy, which of these should be the top priority?                                              RV %                Adults %
+                                                                                                                      n=1000               n=1200
+ Lowering the price of energy and electricity for households                                                             26                   25
+ Increasing the total supply of energy produced in America                                                               14                   13
+ Reducing pollution and emissions                                                                                        10                    9
+ Making the electric grid more reliable                                                                                  12                   11
+ All of the above                                                                                                        33                   33
+ Unsure                                                                                                                   6                    8
+
+
+ Artificial intelligence: Governments are deciding how to regulate AI.                                                 RV %                Adults %
+                                                                                                                      n=1000               n=1200
+ States should be free to set their own AI protections for their residents, and the federal                              31                   31
+ government should not block them from acting.
+ There should be a single national AI framework that sets consistent rules across the                                    50                   48
+ country and prevents a patchwork of conflicting state laws.
+ Government should hold off on new AI rules for now, so American companies can move                                      19                   21
+ quickly and stay ahead of China.
+
+
+ Which concerns you more?                                                                                              RV %                Adults %
+                                                                                                                      n=1000               n=1200
+ That the United States falls behind China and other countries in developing AI                                          26                   24
+ That AI is developed too quickly, without enough attention to safety and accountability                                 63                   61
+ Unsure                                                                                                                  12                   15
+
+
+ Social media and children: favor or oppose                                                                            RV %                Adults %
+
+                                              ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 14
+
+ Requiring social media companies to verify a user’s age before allowing them to open
+ an account
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       57                   56
+ Somewhat favor                                                                                                       27                   26
+ Somewhat oppose                                                                                                       6                    6
+ Strongly oppose                                                                                                       4                    4
+ Unsure                                                                                                                6                    9
+ NET Favor                                                                                                            84                   81
+ NET Oppose                                                                                                           10                   10
+ Barring social media companies from using features designed to keep children
+ scrolling — autoplay, endless feeds, streak rewards — on accounts belonging to
+ minors
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       47                   45
+ Somewhat favor                                                                                                       29                   28
+ Somewhat oppose                                                                                                       9                    8
+ Strongly oppose                                                                                                       5                    5
+ Unsure                                                                                                               11                   13
+ NET Favor                                                                                                            76                   73
+ NET Oppose                                                                                                           13                   14
+ Giving parents the legal right to see and control what their minor children do on social
+ media
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       58                   57
+ Somewhat favor                                                                                                       27                   26
+ Somewhat oppose                                                                                                       6                    6
+ Strongly oppose                                                                                                       3                    4
+ Unsure                                                                                                                6                    8
+ NET Favor                                                                                                            85                   83
+ NET Oppose                                                                                                            9                    9
+
+
+ Government access to personal data: Law enforcement and intelligence agencies can                                   RV %               Adults %
+ obtain data held by technology companies.
+                                                                                                                   n=1000               n=1200
+ Agencies should be able to access Americans’ personal data held by companies when                                    21                   20
+ they judge it necessary for public safety.
+ Agencies should be required to obtain a warrant from a judge before accessing an                                     49                   47
+ American’s personal data, with narrow emergency exceptions.
+ Agencies should not be able to access Americans’ personal data held by companies                                     31                   33
+ under any circumstances.
+
+
+ AI and work: Which comes closest to your view of what AI will mean for jobs like                                    RV %               Adults %
+ yours?
+
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 15
+
+                                                                                                                     n=1000                n=1200
+ AI will eliminate jobs like mine, and government should act now to protect workers                                     22                    22
+ AI will change jobs like mine, and government should focus on helping workers adapt                                    32                    31
+ and retrain
+ AI will create more opportunity than it destroys, and government should stay out of the                                15                    14
+ way
+ AI will not meaningfully affect jobs like mine                                                                         14                    14
+ Unsure                                                                                                                 18                    20
+
+
+ AI infrastructure: Data centers require significant land, power, and water.                                           RV %               Adults %
+                                                                                                                     n=1000                n=1200
+ The federal government should be able to override local objections to approve data                                     19                    21
+ centers.
+ Local communities should decide what is built in their area, with the federal                                          63                    61
+ government as a partner on grid capacity and permitting speed.
+ These decisions should be left entirely to developers and property owners, with minimal                                18                    18
+ review.
+
+
+ When a new data center increases demand on the electric grid, who should pay for                                      RV %               Adults %
+ the upgrades needed to serve it?
+                                                                                                                     n=1000                n=1200
+ The data center company should pay the full cost of the grid upgrades its facility                                     63                    61
+ requires
+ The cost should be shared between the company and electricity customers in the area                                    11                    11
+ The cost should be treated as a normal utility investment and spread across all                                        17                    16
+ customers, since the grid benefits everyone
+ Unsure                                                                                                                  9                    12
+
+
+ Social Security: favor or oppose each change                                                                          RV %               Adults %
+ Apply the Social Security payroll tax to earnings above $176,100, which are currently
+ exempt
+                                                                                                                     n=1000                n=1200
+ Strongly favor                                                                                                         40                    38
+ Somewhat favor                                                                                                         29                    28
+ Somewhat oppose                                                                                                         9                    10
+ Strongly oppose                                                                                                         5                     5
+ Unsure                                                                                                                 17                    20
+ NET Favor                                                                                                              70                    66
+ NET Oppose                                                                                                             14                    15
+ Gradually raise the full retirement age to 69 for people now under 50
+                                                                                                                     n=1000                n=1200
+ Strongly favor                                                                                                         21                    20
+ Somewhat favor                                                                                                         27                    26
+ Somewhat oppose                                                                                                        17                    18
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 16
+
+Strongly oppose                                                                                                     22                   22
+Unsure                                                                                                              12                   14
+NET Favor                                                                                                           48                   46
+NET Oppose                                                                                                          39                   40
+Reduce benefits for retirees who have high income from other sources
+                                                                                                                 n=1000               n=1200
+Strongly favor                                                                                                      23                   22
+Somewhat favor                                                                                                      32                   31
+Somewhat oppose                                                                                                     16                   17
+Strongly oppose                                                                                                     17                   16
+Unsure                                                                                                              12                   15
+NET Favor                                                                                                           55                   52
+NET Oppose                                                                                                          33                   33
+Slow the annual cost-of-living increase for all beneficiaries
+                                                                                                                 n=1000               n=1200
+Strongly favor                                                                                                      27                   27
+Somewhat favor                                                                                                      25                   25
+Somewhat oppose                                                                                                     14                   14
+Strongly oppose                                                                                                     21                   20
+Unsure                                                                                                              13                   15
+NET Favor                                                                                                           52                   52
+NET Oppose                                                                                                          35                   33
+Raise the Social Security payroll tax rate on all workers and employers
+                                                                                                                 n=1000               n=1200
+Strongly favor                                                                                                      22                   21
+Somewhat favor                                                                                                      28                   27
+Somewhat oppose                                                                                                     21                   20
+Strongly oppose                                                                                                     15                   15
+Unsure                                                                                                              15                   17
+NET Favor                                                                                                           50                   48
+NET Oppose                                                                                                          35                   36
+Let workers under 40 direct part of their payroll contribution into a personal
+retirement account they own
+                                                                                                                 n=1000               n=1200
+Strongly favor                                                                                                      33                   33
+Somewhat favor                                                                                                      38                   37
+Somewhat oppose                                                                                                      9                    9
+Strongly oppose                                                                                                      6                    6
+Unsure                                                                                                              14                   16
+NET Favor                                                                                                           71                   69
+NET Oppose                                                                                                          15                   15
+Guarantee everyone 55 and older their full promised benefit with no changes
+                                                                                                                 n=1000               n=1200
+
+                                           ILC & Independent Center, conducted by The Bullfinch Group
+                                          National Policy Survey — October 2026 — Toplines — Page 17
+
+ Strongly favor                                                                                                          54                   53
+ Somewhat favor                                                                                                          27                   26
+ Somewhat oppose                                                                                                         7                     7
+ Strongly oppose                                                                                                         3                     3
+ Unsure                                                                                                                  10                   12
+ NET Favor                                                                                                               81                   79
+ NET Oppose                                                                                                              10                   10
+
+
+ If Congress could do only one of these to close the Social Security shortfall, which                                  RV %               Adults %
+ should it be?
+                                                                                                                      n=1000               n=1200
+ Apply the Social Security payroll tax to earnings above $176,100, which are currently                                   26                   24
+ exempt
+ Gradually raise the full retirement age to 69 for people now under 50                                                   10                    9
+ Reduce benefits for retirees who have high income from other sources                                                    8                     9
+ Slow the annual cost-of-living increase for all beneficiaries                                                           9                    10
+ Raise the Social Security payroll tax rate on all workers and employers                                                 7                     8
+ Let workers under 40 direct part of their payroll contribution into a personal retirement                               13                   14
+ account they own
+ Guarantee everyone 55 and older their full promised benefit with no changes                                             27                   27
+
+
+ And overall, which comes closest to your view of Social Security’s future?                                            RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Social Security should be preserved as a guaranteed government benefit, funded by                                       48                   46
+ asking higher earners to pay more.
+ Social Security should be preserved for those near retirement, combining guaranteed                                     36                   37
+ benefits with personal accounts for younger workers.
+ Social Security should gradually be replaced by personal retirement accounts that                                       17                   17
+ workers own and control.
+
+
+ Federal programs: Thousands of programs operate across departments and agencies.                                      RV %               Adults %
+                                                                                                                      n=1000               n=1200
+ Federal programs generally serve people who depend on them, and Congress should                                         46                   45
+ focus on funding them properly rather than on relitigating whether they should exist.
+ Every federal program should automatically expire after a set number of years unless                                    29                   31
+ Congress votes to renew it, forcing a regular review of whether it still works.
+ The federal government does far too much, and a large share of its programs should be                                   25                   25
+ eliminated to reduce its size and cost.
+
+
+ Congressional spending and tax rules: favor or oppose                                                                 RV %               Adults %
+ Requiring that any new government program be paid for, either by raising the money
+ or cutting elsewhere
+                                                                                                                      n=1000               n=1200
+ Strongly favor                                                                                                          31                   30
+
+                                             ILC & Independent Center, conducted by The Bullfinch Group
+                                             National Policy Survey — October 2026 — Toplines — Page 18
+
+ Somewhat favor                                                                                                       34                   32
+ Somewhat oppose                                                                                                      11                   12
+ Strongly oppose                                                                                                       5                    5
+ Unsure                                                                                                               18                   21
+ NET Favor                                                                                                            66                   62
+ NET Oppose                                                                                                           16                   18
+ Requiring that any new tax cut be paid for, either by cutting spending or raising other
+ revenue
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       33                   31
+ Somewhat favor                                                                                                       33                   31
+ Somewhat oppose                                                                                                      10                   11
+ Strongly oppose                                                                                                       5                    6
+ Unsure                                                                                                               19                   22
+ NET Favor                                                                                                            66                   62
+ NET Oppose                                                                                                           15                   16
+ Barring Congress from using accounting techniques that hide the long-term cost of a
+ bill
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       47                   45
+ Somewhat favor                                                                                                       30                   29
+ Somewhat oppose                                                                                                       7                    7
+ Strongly oppose                                                                                                       4                    4
+ Unsure                                                                                                               12                   15
+ NET Favor                                                                                                            77                   73
+ NET Oppose                                                                                                           11                   12
+ Requiring a public vote on any spending bill introduced less than 72 hours before it is
+ considered
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       36                   34
+ Somewhat favor                                                                                                       32                   31
+ Somewhat oppose                                                                                                       9                    9
+ Strongly oppose                                                                                                       5                    5
+ Unsure                                                                                                               19                   21
+ NET Favor                                                                                                            68                   65
+ NET Oppose                                                                                                           13                   14
+
+
+ Congress and elections reforms: favor or oppose                                                                    RV %               Adults %
+ Term limits for members of Congress
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       52                   50
+ Somewhat favor                                                                                                       29                   28
+ Somewhat oppose                                                                                                       7                    8
+
+
+                                            ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 19
+
+Strongly oppose                                                                                                      3                    3
+Unsure                                                                                                               9                    12
+NET Favor                                                                                                            81                   78
+NET Oppose                                                                                                           10                   11
+A maximum age for serving in federal office
+                                                                                                                  n=1000               n=1200
+Strongly favor                                                                                                       48                   47
+Somewhat favor                                                                                                       29                   28
+Somewhat oppose                                                                                                      9                    9
+Strongly oppose                                                                                                      4                    4
+Unsure                                                                                                               10                   12
+NET Favor                                                                                                            77                   75
+NET Oppose                                                                                                           13                   13
+Open primaries, in which any registered voter can vote in any party’s primary
+                                                                                                                  n=1000               n=1200
+Strongly favor                                                                                                       39                   37
+Somewhat favor                                                                                                       32                   31
+Somewhat oppose                                                                                                      9                    9
+Strongly oppose                                                                                                      7                    6
+Unsure                                                                                                               13                   17
+NET Favor                                                                                                            71                   68
+NET Oppose                                                                                                           16                   16
+Drawing congressional district lines through independent commissions rather than
+state legislatures
+                                                                                                                  n=1000               n=1200
+Strongly favor                                                                                                       30                   27
+Somewhat favor                                                                                                       31                   30
+Somewhat oppose                                                                                                      10                   11
+Strongly oppose                                                                                                      6                    6
+Unsure                                                                                                               23                   26
+NET Favor                                                                                                            61                   57
+NET Oppose                                                                                                           16                   17
+Barring states from redrawing district lines mid-decade for partisan advantage
+                                                                                                                  n=1000               n=1200
+Strongly favor                                                                                                       43                   41
+Somewhat favor                                                                                                       28                   26
+Somewhat oppose                                                                                                      8                    9
+Strongly oppose                                                                                                      4                    4
+Unsure                                                                                                               17                   20
+NET Favor                                                                                                            71                   67
+NET Oppose                                                                                                           12                   13
+Barring former members of Congress and senior staff from becoming lobbyists for at
+least five years
+
+                                           ILC & Independent Center, conducted by The Bullfinch Group
+                                           National Policy Survey — October 2026 — Toplines — Page 20
+
+                                                                                                                   n=1000               n=1200
+ Strongly favor                                                                                                       44                   42
+ Somewhat favor                                                                                                       30                   29
+ Somewhat oppose                                                                                                       9                    9
+ Strongly oppose                                                                                                       3                    3
+ Unsure                                                                                                               14                   17
+ NET Favor                                                                                                            74                   71
+ NET Oppose                                                                                                           12                   12
+
+
+Demographics
+
+ Gender. Your gender identification?                                                                                RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Female                                                                                                               52                   52
+ Male                                                                                                                 47                   47
+ Other                                                                                                                <1                   <1
+
+
+ HID_FINALAGE. Final calculated age                                                                                 RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ 18 to 24                                                                                                              8                    9
+ 25 to 29                                                                                                              7                    7
+ 30 to 39                                                                                                             16                   16
+ 40 to 49                                                                                                             17                   17
+ 50 to 64                                                                                                             30                   29
+ 65 or older                                                                                                          23                   22
+
+
+ Ethnicity. Do you consider yourself to be of Hispanic or Latino descent, such as                                   RV %               Adults %
+ Mexican, Puerto Rican, Cuban, or some other Central or South American background?
+                                                                                                                   n=1000               n=1200
+ Yes                                                                                                                  14                   13
+ No                                                                                                                   86                   87
+ Unsure                                                                                                                0                    0
+
+
+ HID_RACE.                                                                                                          RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Non-hispanic White                                                                                                   68                   67
+ Non-hispanic Black                                                                                                   12                   13
+ Hisp/Latino                                                                                                          14                   13
+ Non-hispanic Asian                                                                                                    4                    4
+ Other / Multi racial                                                                                                  2                    3
+
+
+ Education. What is the highest level of formal education that you have completed?                                  RV %               Adults %
+                                            ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 21
+
+                                                                                                                   n=1000               n=1200
+ Less than high school                                                                                                 2                    4
+ High school graduate                                                                                                 28                   32
+ Some college                                                                                                         13                   14
+ College graduate with associate or 2-year degree                                                                     11                   10
+ College graduate with bachelor’s or 4-year degree                                                                    23                   21
+ Post-graduate degree                                                                                                 20                   17
+ Technical or vocational school graduate                                                                               2                    2
+ Unsure                                                                                                               <1                   <1
+
+
+ Income. We want to classify people into broad income groups only. Would you                                        RV %               Adults %
+ estimate your total household income to be…?
+                                                                                                                   n=1000               n=1200
+ Below $40,000                                                                                                        18                   23
+ Between $40,000 and $79,999                                                                                          24                   24
+ Between $80,000 and $124,999                                                                                         26                   23
+ Above $125,000                                                                                                       30                   27
+ Unsure                                                                                                               <1                   <1
+ Prefer not to answer                                                                                                  2                    3
+
+
+ Marital Status. What would best describe your marital status?                                                      RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Single or never married                                                                                              33                   35
+ Married                                                                                                              49                   45
+ Separated                                                                                                             2                    3
+ Divorced                                                                                                             10                   11
+ Widowed                                                                                                               5                    5
+ Other                                                                                                                 1                    2
+
+
+ Children. Do you have children currently living in your household?                                                 RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Yes                                                                                                                  40                   38
+ No                                                                                                                   60                   62
+ Refused                                                                                                              <1                    1
+
+
+ Neighborhood. Would you best describe the neighborhood or area you live in as…                                     RV %               Adults %
+                                                                                                                   n=1000               n=1200
+ Urban                                                                                                                34                   34
+ Suburban                                                                                                             48                   46
+ Rural                                                                                                                18                   18
+ Unsure                                                                                                                1                    1
+
+
+                                            ILC & Independent Center, conducted by The Bullfinch Group
+                                            National Policy Survey — October 2026 — Toplines — Page 22

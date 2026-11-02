@@ -1,0 +1,61 @@
+{
+  "race_id": "ne_sen",
+  "included_count": 3,
+  "in_window_count": 1,
+  "backfill_count": 2,
+  "sources": [
+    {
+      "path": "research/nebraska_senate_polls_20261101/ne_sen/sources/onpoint.xlsx",
+      "sha256": "32c39b269693718d970b3cebafa85d7a06ac4e0285ae8089e0c1c23673364177",
+      "bytes": 259227
+    },
+    {
+      "path": "research/nebraska_senate_polls_20261101/ne_sen/sources/surveyusa-sep.pdf",
+      "sha256": "681fce4f2bc75fb70bb554bf8209416e6ec000ea9455e830a2b1e80952f0bb01",
+      "bytes": 833965
+    },
+    {
+      "path": "research/nebraska_senate_polls_20261101/ne_sen/sources/tavern-may.pdf",
+      "sha256": "0a4188c1b18e501a0c6883ef53e3954ff528406642e08eff21829fc0aac4a3c4",
+      "bytes": 553932
+    }
+  ],
+  "screened": [
+    {
+      "name": "NYT/Siena Oct 31",
+      "disposition": "Not accessed: site policy denial communicated by parent; no subgroup values."
+    },
+    {
+      "name": "YouGov Nov 1 and Oct 6",
+      "disposition": "Public releases linked by 270toWin are toplines, no candidate by party cells."
+    },
+    {
+      "name": "NPA Oct 22 and Oct 12",
+      "disposition": "Memos have toplines and sample party composition, not six party ballot cells."
+    },
+    {
+      "name": "Concord Oct 18 survey",
+      "disposition": "Public memo says crosstabs available on request; no six cells."
+    },
+    {
+      "name": "co/efficient Oct 2",
+      "disposition": "Public page toplines and party composition only."
+    },
+    {
+      "name": "Echelon Oct 27",
+      "disposition": "Public linked state toplines; no six Nebraska party ballot cells verified."
+    },
+    {
+      "name": "GBAO Oct 23",
+      "disposition": "Docsend returned 403; no bypass attempted."
+    },
+    {
+      "name": "Tavern May 11",
+      "disposition": "Included as backward extension."
+    },
+    {
+      "name": "Wedgewood",
+      "disposition": "Not verified; excluded."
+    }
+  ]
+}

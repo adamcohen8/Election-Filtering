@@ -1,0 +1,54 @@
+{
+  "race_id": "ne_sen",
+  "polls": [
+    {
+      "race_id": "ne_sen",
+      "state": "Nebraska",
+      "office": "senate",
+      "candidate_a": "Pete Ricketts",
+      "candidate_b": "Dan Osborn",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "independent",
+      "poll_id": "lake-ne-20251217",
+      "sample_id": "lake-ne-20251217",
+      "pollster": "Lake Research Partners",
+      "sponsor": "not identified in viewed document",
+      "publication_date": "2026-01-22",
+      "publication_date_basis": "January 22 release date explicitly stated in Osborn campaign release republished by Huskeradio January 27; PDF itself undated.",
+      "field_start": "2025-12-11",
+      "field_date": "2025-12-17",
+      "population": "LV",
+      "reported_total_n": 900,
+      "republican_n": null,
+      "democratic_n": null,
+      "independent_n": null,
+      "subgroup_n_method": "missing",
+      "reported_party_composition": {
+        "republican": 0.54,
+        "democratic": 0.26,
+        "independent": 0.2
+      },
+      "crosstab_basis": "party_registration",
+      "party_question": "Party registration on file: Republican, Democrat, unaffiliated or other; not respondent party identification. Self-ID asked separately in Q40, but ballot is not cross-tabulated on it.",
+      "ballot_question_stage": "Two-candidate first-choice; sum strong and not-so-strong percentages before undecided lean probe",
+      "republican_a": 0.73,
+      "republican_b": 0.18,
+      "democratic_a": 0.06,
+      "democratic_b": 0.88,
+      "independent_a": 0.24,
+      "independent_b": 0.63,
+      "source_url": "https://drive.google.com/file/d/1Izlk1L3prsXm04d-1ZRi8cLSliHvySnC/view",
+      "release_url": "https://www.huskeradio.com/2026/01/27/new-independent-poll-shows-nebraskas-u-s-senate-race-tied/",
+      "evidence_path": "research/nebraska_senate_polls_20261101/reopened_older/sources/lake-dec.pdf",
+      "source_location": "PDF pp. 1, 6 Q6 registration columns; p. 7 Q40",
+      "evidence_excerpt": "D/R/unaff-other first-choice strong + not strong: Ricketts 6+0/57+16/15+9, Osborn 69+19/12+6/48+15. Lean-inclusive totals 7/75/27 and 89/19/66 respectively.",
+      "ingestion_status": "ready",
+      "notes": "Registration proxy combines unaffiliated/other; reported D/R/other N=234/483/183 but weighting status unspecified, so subgroup Ns null. Sums are arithmetic on rounded components, can differ from unrounded first-choice aggregate by one percentage point. Q6 asked two-candidate hypothetical; do not use 2024 race. PDF says oversample of 100 NE-02 Democratic primary voters; statewide table labels N=900 likely voters; oversample not added to total.",
+      "reported_subgroup_bases_weighting_unspecified": {
+        "republican": 483,
+        "democratic": 234,
+        "independent": 183
+      }
+    }
+  ]
+}

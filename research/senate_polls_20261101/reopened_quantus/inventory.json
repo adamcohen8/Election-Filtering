@@ -1,0 +1,89 @@
+{
+  "scope": "Quantus across prior modeled-race inventories; October 1\u2013November 1 publication window",
+  "releases": [
+    {
+      "race_id": "ga_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-17",
+      "original_url": "https://quantusinsights.org/polling/f/georgia-two-weeks-out-ossoff-ahead-down-ballot-near-even",
+      "table_url": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view",
+      "status": "recovered",
+      "reason": "Modeled party mapped from voter-file field; no self-ID question; weighted status of Q1 subgroup bases unspecified."
+    },
+    {
+      "race_id": "ak_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-30",
+      "original_url": "https://quantusinsights.org/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska",
+      "table_url": "https://drive.google.com/file/d/1nCtCrSwufcL_hlLEVQiN-xsM4f_6c-6C/view",
+      "status": "recovered",
+      "reason": "Page 3 calls this respondent-reported identification; p4 says reported voter-file identification, creating provenance ambiguity. Unaffiliated maps to I, not established to include other-party registrants. Q1 first-choice includes other candidates including Daniel J. Sullivan Jr.; incumbent is Dan S. Sullivan. 758 screened full sample, 737 race voters. Base weighting status unspecified."
+    },
+    {
+      "race_id": "mi_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-07",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-06",
+      "original_url": "https://quantusinsights.org/f/michigan-senate-el-sayed-48-rogers-47-at-four-weeks-out",
+      "table_url": "https://drive.google.com/file/d/1bHZzzB3l3QQ7Fc7l7UZk8GwkTkgj6oJk/view",
+      "status": "recovered",
+      "reason": "Party is modeled voter-file identification, not self-report. 762 completed; 744 race voters. Base weighting status unspecified."
+    },
+    {
+      "race_id": "nc_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-26",
+      "field_start": "2026-10-24",
+      "field_end": "2026-10-25",
+      "original_url": "https://quantusinsights.org/f/north-carolina-senate-cooper-holds-a-9-point-lead-over-whatley",
+      "table_url": "https://drive.google.com/file/d/1AACBwXHmGtPnvHvZKA7PxQqYnsAwIhqY/view",
+      "status": "recovered",
+      "reason": "Party is voter-file registration; Unaffiliated mapped to I. No separately reported other-party registration category; unknown whether collapsed or absent. 746 prescreen, 722 race voters. Base weighting status unspecified."
+    },
+    {
+      "race_id": "tx_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-13",
+      "field_start": "2026-10-09",
+      "field_end": "2026-10-11",
+      "original_url": "https://quantusinsights.org/polling/f/texas-senate-paxton-and-talarico-in-a-near-tie",
+      "table_url": "https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view",
+      "status": "recovered",
+      "reason": "Party mapped from voter file. Q1 839 race-voter base, 854 total interviewed; use Q1 table bases rather than full-sample party bases. Base weighting status unspecified. Libertarian Brown omitted from table but included in ballot."
+    },
+    {
+      "race_id": "tx_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-28",
+      "original_url": "https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five",
+      "table_url": "https://drive.google.com/file/d/1ARCDbN8BXrLNkeMWZAhCC0uytZtvWnhW/view",
+      "status": "recovered",
+      "reason": "Party mapped from voter file. 1,221 overall, 1,207 race voters. Q2 n labels do not explicitly say weighted or unweighted; page 13 labels corresponding derived-table counts weighted equivalents and page 6 labels full-sample counts unweighted. Preserve ambiguity. Democrats 2+96+2+1=101 due to rounding."
+    },
+    {
+      "race_id": "ia_sen",
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-09-30",
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Prior Iowa inventory reports September 30 publication; outside reaffirmed October 1 publication cutoff."
+    }
+  ]
+}

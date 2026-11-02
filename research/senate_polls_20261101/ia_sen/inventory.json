@@ -1,0 +1,245 @@
+{
+  "race_id": "ia_sen",
+  "window": "Publication 2026-10-01 through 2026-11-01 inclusive",
+  "search_queries": [
+    "2026 Iowa Senate Hinson Turek October 2026 poll crosstabs",
+    "Iowa senate polls Hinson Turek October 2026 polling survey party crosstabs",
+    "Iowa 2026 senate poll Hinson Turek November 1 2026 poll",
+    "Iowa Turek Hinson October crosstabs 2026",
+    "Suffolk Iowa Turek Hinson crosstabs 2026 October",
+    "NetChoice October 2026 Echelon poll crosstabs Iowa pdf",
+    "InsiderAdvantage Turek Hinson October 23 2026 party",
+    "Iowa Senate and governor 491 poll On Point 2026",
+    "CNN Iowa 2026 Hinson Turek crosstabs SSRS pdf"
+  ],
+  "aggregator_urls": [
+    "https://www.callthemap.com/polls/SEN-IA",
+    "https://www.270towin.com/2026-senate-polls/iowa",
+    "https://www.pollcheck.co.uk/us-midterms-2026/senate/iowa",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+    "https://political.org/2026-elections/",
+    "https://www.onpointpolitics.us/on-point-polling/polls?st=IA"
+  ],
+  "releases": [
+    {
+      "pollster": "Beacon Research / Shaw & Company Research",
+      "sponsor": "Fox News",
+      "publication_date": "2026-10-01",
+      "field_start": "2026-09-24",
+      "field_end": "2026-09-28",
+      "original_url": "https://www.foxnews.com/politics/fox-news-poll-turek-hinson-close-iowa-senate-race",
+      "table_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_september-24-28-2026_iowa_cross-tabs_october-1-release.pdf",
+      "status": "needs_denominator",
+      "reason": "Complete party ID table; subgroup n missing. Same wave LV preferred over RV."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-30",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate2",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Primary link 404; no accessible complete party crosstabs found."
+    },
+    {
+      "pollster": "The New York Times / Siena College",
+      "sponsor": "The New York Times",
+      "publication_date": "2026-10-03",
+      "field_start": "2026-09-22",
+      "field_end": "2026-10-01",
+      "original_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-iowa-poll-toplines.html",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "NYT source inaccessible to web tool; no independently inspectable complete table. Alternative Sep 21 field start in a secondary source."
+    },
+    {
+      "pollster": "Suffolk University",
+      "sponsor": null,
+      "publication_date": "2026-10-07",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-04",
+      "original_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_7_2026_iowa_statewide_marginals.pdf?hash=2D72AC4AC373F8C2FA39466A7E5CD59D2370B6F9&la=en",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Four-page statewide marginals inspected: no conditional party ballot crosstab located."
+    },
+    {
+      "pollster": "SSRS",
+      "sponsor": "CNN",
+      "publication_date": "2026-10-08",
+      "field_start": "2026-09-29",
+      "field_end": "2026-10-05",
+      "original_url": "https://www.documentcloud.org/documents/28729018-cnn-iowa-poll-conducted-by-ssrs/",
+      "table_url": "https://www.documentcloud.org/documents/28729018-cnn-iowa-poll-conducted-by-ssrs/?mode=document#document/p10",
+      "status": "needs_denominator",
+      "reason": "Full table read in browser p.10; independent/other combined, exact group n missing."
+    },
+    {
+      "pollster": "Emerson College Polling",
+      "sponsor": "Nexstar Media",
+      "publication_date": "2026-10-09",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-06",
+      "original_url": "https://emersoncollegepolling.com/iowa-2026-poll-u-s-senate-race-tightens-sand-maintains-edge-for-governor/",
+      "table_url": "https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit",
+      "status": "ready",
+      "reason": "Full workbook inspected; self-reported registration; weighted fractional bases."
+    },
+    {
+      "pollster": "Marist Poll",
+      "sponsor": "Marist University",
+      "publication_date": "2026-10-15",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-11",
+      "original_url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+      "table_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Iowa_NOS-and-Tables_202610131230%403bcy%5Ew.pdf",
+      "status": "needs_denominator",
+      "reason": "LV party ID percentages, LV subgroup and total n not published; 1100 is RV. Wikipedia links say retrieved Oct 14; 270toWin lists Oct 15."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-14",
+      "field_start": "2026-10-06",
+      "field_end": "2026-10-12",
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Full LV PDF ballot tables report age, sex, 2024 vote and education; no party/registration crossbreak."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-17",
+      "field_start": "2026-10-13",
+      "field_end": "2026-10-15",
+      "original_url": "https://www.thetrafalgargroup.org/news/ia-senate-gen-1017/",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/IA-Midterms-Report-1017.pdf",
+      "status": "excluded",
+      "reason": "Full report includes party composition, but Senate crosstabs by age, sex, ethnicity, not party."
+    },
+    {
+      "pollster": "co/efficient",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-19",
+      "original_url": "https://battlegrounds.coefficient.org/ia/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Current primary page overwritten by Oct 28 wave; no original party crossbreak located."
+    },
+    {
+      "pollster": "National Public Affairs",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-12",
+      "original_url": "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Primary memo reports registration R and D support but omits independent full ballot; no full crosstabs located. Memo date Oct 19; aggregator lists Oct 20."
+    },
+    {
+      "pollster": "New River Strategies / GS Strategy Group",
+      "sponsor": "Cook Political Report",
+      "publication_date": "2026-10-21",
+      "field_start": "2026-10-09",
+      "field_end": "2026-10-13",
+      "original_url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Cook source returned 403; no public complete party tables located."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-23",
+      "field_start": "2026-10-21",
+      "field_end": "2026-10-22",
+      "original_url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release says tabs posting malfunction and directs users to X; no accessible complete party tabs found."
+    },
+    {
+      "pollster": "Echelon Insights",
+      "sponsor": "NetChoice",
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-16",
+      "field_end": "2026-10-23",
+      "original_url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+      "table_url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "status": "excluded",
+      "reason": "Primary multi-state topline inspected; state results only, no Iowa party conditional table. Alternate aggregator dates Oct 17-24 conflict with primary."
+    },
+    {
+      "pollster": "co/efficient",
+      "sponsor": null,
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-28",
+      "field_end": "2026-10-28",
+      "original_url": "https://battlegrounds.coefficient.org/ia/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Full public toplines show no candidate support by party subgroup; release exact day per 270toWin."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-11-01",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-29",
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261026_lv.pdf",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Full ballot crossbreaks include age, sex, 2024 vote, education; registration asked but not crossed with Senate choice. Publication day from 270toWin."
+    },
+    {
+      "pollster": "GOTV Polling",
+      "sponsor": "Results PAC",
+      "publication_date": "2026-11-01",
+      "field_start": "2026-10-30",
+      "field_end": null,
+      "original_url": "https://gotvpolling.com/races/IA-SEN",
+      "table_url": "https://gotvpolling.com/races/IA-SEN",
+      "status": "excluded",
+      "reason": "Live continuously updating collection, prior Oct 31 release also visible; nonpartisan subgroup suppressed <30, both candidate cells null. No final field end established."
+    },
+    {
+      "pollster": "On Point Polling",
+      "sponsor": "On Point Politics",
+      "publication_date": "2026-10-21",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-21",
+      "original_url": "https://onpointpolitics.substack.com/p/new-polls-democrats-lead-both-iowa",
+      "table_url": "https://docs.google.com/spreadsheets/d/1Gt6_kirOc965SYxeNHgJRfIUZVWyxhh39ku8d4wJ_Io/edit?usp=sharing",
+      "status": "needs_review",
+      "reason": "Public full workbook inspected. First-choice LV crosstabs complete; party ID vs registration label unclear and LV unweighted subgroup counts identical to full RV counts; release methodology Oct 19-21 conflicts with workbook Oct 20-21."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-08-29",
+      "field_end": "2026-08-29",
+      "original_url": "https://whatsonmyballot.info/polls/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Fabricated pollster, explicitly blocked; also outside field window as listed. No inference of release date."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "sponsor": null,
+      "publication_date": "2026-09-30",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-29",
+      "original_url": "https://quantusinsights.org",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Outside publication window (Sep 30), regardless of field-date overlap with other eligible releases."
+    }
+  ]
+}

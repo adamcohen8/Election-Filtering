@@ -3,13 +3,15 @@
 from __future__ import annotations
 
 import json
+from math import fsum
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
 from election_modeling.cycles import RACES_2026_BY_ID, create_2026_election_model
 from election_modeling.elections import ElectionModel
-from election_modeling.ingestion import NormalizedPoll, RaceClassifier, StructuredJSONSource
+from election_modeling.ingestion import (NormalizedPoll, RaceClassifier, StructuredJSONSource,
+                                        apply_poll, canonical_poll, measurement_key, _is_blocked_pollster)
 from election_modeling.nominees import NOMINEES_2026_BY_RACE, RaceNominees
 from election_modeling.persistence import load_election_model
 from election_modeling.races import Forecast, RaceModel
@@ -25,6 +27,7 @@ class PublicExportOptions:
     lean_margin_threshold: float = 0.05
     likely_margin_threshold: float = 0.08
     z_score: float = 1.96
+    forecast_date: str = "2026-11-03"
 
 
 def public_forecast_payload(
@@ -41,13 +44,15 @@ def public_forecast_payload(
         if race is None:
             continue
         nominees = NOMINEES_2026_BY_RACE.get(race_id)
-        forecast = model.forecast(z_score=options.z_score)
-        data_available = _has_public_forecast_data(race.office, nominees)
-        leader = _leader_for_margin(forecast.margin) if data_available else "tie"
+        data_available = _has_public_forecast_data(model, nominees)
+        forecast = model.forecast(z_score=options.z_score,
+                                  target_date=options.forecast_date if data_available else None)
+        opponent = nominees.candidate_b if nominees else None
+        leader = _leader_for_margin(forecast.margin, opponent.party if opponent else "democratic") if data_available else "unknown"
         status = (
             _status_for_margin(margin=forecast.margin, leader=leader, options=options)
             if data_available
-            else "tossup"
+            else "unrated"
         )
         races.append(
             {
@@ -63,15 +68,25 @@ def public_forecast_payload(
                 "candidate_a_nominee_status": nominees.republican.status
                 if nominees and nominees.republican
                 else None,
-                "candidate_b_party": "Democratic",
-                "candidate_b_name": nominees.democratic.name
-                if nominees and nominees.democratic
+                "candidate_b_party": opponent.party.title() if opponent else "Democratic",
+                "candidate_b_name": opponent.name
+                if opponent
                 else None,
-                "candidate_b_nominee_status": nominees.democratic.status
-                if nominees and nominees.democratic
+                "candidate_b_nominee_status": opponent.status
+                if opponent
                 else None,
                 "data_available": data_available,
-                "data_note": None if data_available else "No data available",
+                "data_note": None if data_available else "Prior only: no dated polling observations",
+                "estimate_type": "election_day" if data_available else "prior_only",
+                "observation_count": model.observation_count,
+                "state_date": model.last_date,
+                "forecast_date": options.forecast_date,
+                "margin_uncertainty_sd_points": {
+                    "polling": 100 * forecast.polling_variance**0.5,
+                    "movement": 100 * forecast.movement_variance**0.5,
+                    "turnout": 100 * forecast.turnout_variance**0.5,
+                } if data_available else None,
+                "turnout_share_sd_points": 100 * model.electorate.share_standard_deviation,
                 "candidate_a_share": round(forecast.candidate_a_share, 4)
                 if data_available
                 else None,
@@ -138,6 +153,9 @@ def public_race_history_payload(
             "race_id": race_id,
             "model_points": [],
             "poll_points": [],
+            "rolling_average_window": 7,
+            "rolling_average_points": [],
+            "rolling_average": None,
         }
         for race_id in RACES_2026_BY_ID
     }
@@ -156,25 +174,24 @@ def public_race_history_payload(
             continue
         poll_pairs.append((poll, race_id))
 
-    initialized_races: set[str] = set()
+    seen_ids: set[str] = set()
+    seen_measurements: set[str] = set()
     for poll, race_id in sorted(poll_pairs, key=lambda item: (item[0].field_date, item[0].poll_id)):
+        if _is_blocked_pollster(poll.pollster):
+            continue
+        poll = canonical_poll(poll, race_id)
+        key = measurement_key(poll, race_id)
+        if poll.poll_id in seen_ids or key in seen_measurements:
+            continue
         model = election.races[race_id]
         history = histories[race_id]
-        if race_id not in initialized_races:
-            _append_daily_model_point(
-                history,
-                _public_history_point(
-                    date=poll.field_date,
-                    forecast=model.forecast(z_score=options.z_score),
-                ),
-            )
-            initialized_races.add(race_id)
-
         poll_point = _public_poll_point(poll, model=model)
         if poll_point is not None:
             history["poll_points"].append(poll_point)
 
         _apply_poll_to_model(poll, model)
+        seen_ids.add(poll.poll_id)
+        seen_measurements.add(key)
         _append_daily_model_point(
             history,
             _public_history_point(
@@ -183,11 +200,46 @@ def public_race_history_payload(
             ),
         )
 
+    for history in histories.values():
+        points = _rolling_average_points(history["poll_points"])
+        history["rolling_average_points"] = points
+        history["rolling_average"] = points[-1] if points else None
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "cycle": 2026,
         "races": [histories[race_id] for race_id in sorted(histories)],
     }
+
+
+def _rolling_average_points(poll_points: list[dict[str, object]]) -> list[dict[str, object]]:
+    """Equal-weight trailing seven polls, after canonicalization and deduplication.
+
+    Count surveys rather than days; retain the last window of each day for the
+    chart. Early windows use all available polls. The poll markers already use
+    the race's electorate weights for crosstabs (or the reported topline).
+    """
+    points = []
+    for index, poll in enumerate(poll_points):
+        window = poll_points[max(0, index - 6):index + 1]
+        candidate_a = fsum(p["candidate_a_share"] for p in window) / len(window)
+        candidate_b = fsum(p["candidate_b_share"] for p in window) / len(window)
+        margin = candidate_a - candidate_b
+        point = {
+            "date": poll["date"],
+            "window_start_date": window[0]["date"],
+            "poll_count": len(window),
+            "poll_ids": [p["poll_id"] for p in window],
+            "candidate_a_share": round(candidate_a, 4),
+            "candidate_b_share": round(candidate_b, 4),
+            "margin": round(margin, 4),
+            "margin_percent": round(margin * 100, 2),
+        }
+        if points and points[-1]["date"] == point["date"]:
+            points[-1] = point
+        else:
+            points.append(point)
+    return points
 
 
 def export_public_race_history(
@@ -205,29 +257,13 @@ def export_public_race_history(
     return payload
 
 
-def _has_public_forecast_data(office: str, nominees: RaceNominees | None) -> bool:
-    if office == "generic_ballot":
-        return True
-    return bool(nominees and nominees.republican and nominees.democratic)
+def _has_public_forecast_data(model: RaceModel, nominees: RaceNominees | None) -> bool:
+    return bool(model.observation_count > 0 and model.last_date is not None
+                and nominees and nominees.republican and nominees.candidate_b)
 
 
 def _apply_poll_to_model(poll: NormalizedPoll, model: RaceModel) -> None:
-    if poll.crosstab is not None:
-        model.update(
-            poll.crosstab.to_observation(
-                pollster=poll.pollster,
-                field_date=poll.field_date,
-            )
-        )
-        return
-    if poll.topline is not None:
-        model.update_topline(
-            candidate_a_share=poll.topline.candidate_a_share,
-            candidate_b_share=poll.topline.candidate_b_share,
-            sample_size=poll.topline.sample_size,
-            pollster=poll.pollster,
-            field_date=poll.field_date,
-        )
+    apply_poll(poll, model)
 
 
 def _public_history_point(*, date: str, forecast: Forecast) -> dict[str, object]:
@@ -280,6 +316,8 @@ def _public_poll_point(poll: NormalizedPoll, *, model: RaceModel) -> dict[str, o
         "leader": _leader_for_margin(margin),
         "sample_size": sample_size,
         "measurement": measurement,
+        "party_basis": poll.crosstab_basis,
+        "precision_method": poll.precision_method,
         "partial_party_id": partial_party_id,
         "source_url": poll.source_url,
     }
@@ -289,7 +327,7 @@ def _weighted_crosstab_result(
     *,
     poll: NormalizedPoll,
     model: RaceModel,
-) -> tuple[float, float, int, bool] | None:
+) -> tuple[float, float, int | None, bool] | None:
     if poll.crosstab is None:
         return None
 
@@ -297,6 +335,7 @@ def _weighted_crosstab_result(
     candidate_b_share = 0.0
     total_weight = 0.0
     total_sample = 0
+    complete_sample_sizes = True
     for party_id in PARTY_IDS:
         if party_id not in poll.crosstab.values:
             continue
@@ -305,7 +344,10 @@ def _weighted_crosstab_result(
         candidate_a_share += weight * candidate_a
         candidate_b_share += weight * candidate_b
         total_weight += weight
-        total_sample += poll.crosstab.subgroup_sample_sizes.get(party_id, 0)
+        if party_id in poll.crosstab.subgroup_sample_sizes:
+            total_sample += poll.crosstab.subgroup_sample_sizes[party_id]
+        else:
+            complete_sample_sizes = False
 
     if total_weight <= 0:
         return None
@@ -313,7 +355,7 @@ def _weighted_crosstab_result(
     return (
         candidate_a_share / total_weight,
         candidate_b_share / total_weight,
-        total_sample,
+        total_sample if complete_sample_sizes else None,
         total_weight < 0.999,
     )
 
@@ -327,6 +369,8 @@ def _nominee_sources(nominees: RaceNominees | None) -> dict[str, str]:
         sources["republican"] = nominees.republican.source_url
     if nominees.democratic:
         sources["democratic"] = nominees.democratic.source_url
+    if nominees.independent:
+        sources["independent"] = nominees.independent.source_url
     return sources
 
 
@@ -336,11 +380,11 @@ def _state_code_for_race(race_id: str) -> str | None:
     return race_id[:2].upper()
 
 
-def _leader_for_margin(margin: float) -> str:
+def _leader_for_margin(margin: float, opponent_party: str = "democratic") -> str:
     if margin > 0:
         return "republican"
     if margin < 0:
-        return "democratic"
+        return opponent_party
     return "tie"
 
 

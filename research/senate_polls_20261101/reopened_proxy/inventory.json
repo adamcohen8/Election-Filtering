@@ -1,0 +1,198 @@
+{
+  "scope": "Review prior 12 Senate inventories; modeled or unspecified party and inaccessible Rasmussen waves; Quantus delegated to another agent.",
+  "search_queries": [
+    "Rasmussen Ohio Senate October 12-14 2026 crosstabs",
+    "Rasmussen Texas Senate September 28-29 October 20-21 2026 crosstabs",
+    "Rasmussen Iowa Senate September 28-30 2026 crosstabs",
+    "Rasmussen Michigan Senate October 12-14 October 28-29 2026 crosstabs",
+    "Pollfinity Texas 2026 October 22 release",
+    "A2 Insights Texas 631 October 27 release"
+  ],
+  "releases": [
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "tx_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-01",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-29",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_texas_senate_september_28_29_2026",
+      "status": "included",
+      "reason": "Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Oct 1 publication supported by Texas Wikipedia citation and contemporaneous Oct 1 Reddit report.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "tx_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-23",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-21",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_texas_senate_october_20_21_2026",
+      "status": "included",
+      "reason": "Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Publication date as prior TX inventory, cited aggregator.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "ia_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-30",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_iowa_senate_september_28_30_2026",
+      "status": "included",
+      "reason": "Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. The table\u2019s Republican answer rows sum to 100%; October 2 contemporaneous report supports publication date.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "oh_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-12",
+      "field_end": "2026-10-14",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_senate_october_12_14_2026",
+      "status": "included",
+      "reason": "Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Independent and Another are separate; Another not folded into Independent. Publication date as prior OH inventory.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "mi_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-16",
+      "field_start": "2026-10-12",
+      "field_end": "2026-10-14",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_senate_october_12_14_2026",
+      "status": "included",
+      "reason": "Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Publication date as prior MI inventory.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "mi_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-28",
+      "field_end": "2026-10-29",
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_senate_october_28_29_2026",
+      "status": "included",
+      "reason": "Party classification question, source and lean handling undisclosed; Independent/Other combined unless noted. Counts not reported; party shares are rounded and cannot be treated as exact sample sizes. Source reports weighted survey. Publication date supported by Michigan Wikipedia source citation.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "Pollfinity Research LLC",
+      "race_id": "tx_sen",
+      "sponsor": null,
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-15",
+      "field_end": "2026-10-18",
+      "original_url": "https://pollfinity.com/media",
+      "table_url": "https://pollfinity.com/assets/polls/tx-governor-senate-2026-oct-crosstabs.pdf",
+      "status": "included",
+      "reason": "Candidate percentages are weighted actual responses conditional on modeled voter-file categories, not model-produced outcome estimates. Non-Partisan n=17. Source says registered voters but S1 shows 5% not registered, a material population conflict. Publication Oct 22 confirmed pollster media page.",
+      "publication_date_bounds": null
+    },
+    {
+      "pollster": "A2 Insights",
+      "race_id": "tx_sen",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-23",
+      "field_end": "2026-10-27",
+      "original_url": "https://drive.google.com/file/d/1UACnmnM84Dd1hU0l6iqHNgXkyh5oCelO/view",
+      "table_url": "https://drive.google.com/file/d/1UACnmnM84Dd1hU0l6iqHNgXkyh5oCelO/view",
+      "status": "included",
+      "reason": "Subgroup percentages are model-produced predictions, not weighted raw subgroup responses. Composition itself is modeled turnout; do not multiply by total to invent actual respondent Ns. One-decimal rounding causes Independent sum of all choices 100.1%. Prior TX inventory says Oct 28 but exact publication date not independently confirmed; publicly reported by Oct 29.",
+      "publication_date_bounds": {
+        "earliest": "2026-10-27",
+        "latest": "2026-10-29",
+        "basis": "Field ended Oct 27; public Oct 29 535 dispatch establishes release no later than Oct 29; exact date unverified."
+      }
+    },
+    {
+      "pollster": "ActiVote",
+      "race_id": "nc_sen",
+      "publication_date": "2026-10-20",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.activote.net/polls/2026/nc-u-s-senate/",
+      "table_url": "https://www.activote.net/polls/2026/nc-u-s-senate/",
+      "status": "already_in_race_data",
+      "reason": "Prior nc_sen/polls.json has six cells; user authorizes uncertain origin. Avoid duplicate. Independent voter-file versus other classification origin unknown."
+    },
+    {
+      "pollster": "VoteHub / Verasight",
+      "race_id": "oh_sen",
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-20",
+      "original_url": "https://votehub.com/2026/10/22/votehub-verasight-poll-surveys-ohios-u-s-senate-and-gubernatorial-races/",
+      "table_url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf",
+      "status": "already_in_race_data",
+      "reason": "Prior OH inventory says LV weighted model party crosstabs included; avoid duplicate."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "race_id": "multiple",
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://quantusinsights.org/",
+      "table_url": null,
+      "status": "delegated_elsewhere",
+      "reason": "All Quantus waves owned by GA agent as directed."
+    },
+    {
+      "pollster": "ActiVote",
+      "race_id": "ga_sen",
+      "publication_date": "2026-10-20",
+      "field_start": "2026-10-06",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.activote.net/polls/2026/ga-u-s-senate/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Prior inventory: source says no party affiliation breakdown; ideology not party."
+    },
+    {
+      "pollster": "ActiVote",
+      "race_id": "oh_sen,tx_sen,fl_sen",
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.activote.net/",
+      "table_url": null,
+      "status": "unresolved",
+      "reason": "Prior OH/TX/FL inventories found no complete party candidate-support table; party provenance policy change does not supply missing cells."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "race_id": "ak_sen,mn_sen,me_sen,nh_sen",
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.rasmussenreports.com/",
+      "table_url": null,
+      "status": "already_in_race_data",
+      "reason": "Prior six-plus detailed Rasmussen waves are in respective race polls files; avoid duplication. AK and MN Oct 21 direct tables conflict with own articles; primary table may be used with explicit discrepancy."
+    },
+    {
+      "pollster": "CNN / SSRS",
+      "race_id": "me_sen,ks_sen,tx_sen,oh_sen",
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://www.cnn.com/",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Prior inventory documents 403 on DocumentCloud sources; no six-cell information obtained, access restrictions not bypassed."
+    }
+  ]
+}

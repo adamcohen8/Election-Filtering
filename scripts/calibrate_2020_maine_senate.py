@@ -77,9 +77,15 @@ def run_calibration() -> dict[str, Any]:
         "metadata": payload["metadata"],
         "actual_result": payload["actual_result"],
         "filter_settings": {
+            "methodology_version": 2,
             "initial_mean": [0.86, 0.10, 0.08, 0.88, 0.46, 0.46],
             "initial_variance": 0.04,
             "process_variance": 0.00005,
+            "process_time_unit": "calendar day",
+            "design_effect": 1.5,
+            "shared_margin_sd": 0.02,
+            "pollster_margin_sd": 0.01,
+            "survey_margin_sd": 0.01,
             "electorate": {
                 "republican": 1.0 / 3.0,
                 "democratic": 1.0 / 3.0,

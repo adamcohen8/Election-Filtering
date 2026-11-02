@@ -1,0 +1,113 @@
+{
+  "search_coverage": [
+    "https://battlegrounds.coefficient.org/",
+    "https://99chambers.app/pollsters/coefficient",
+    "https://polls.politicalbetting.com/pollsters/co-efficient",
+    "https://www.pollingforecast.com/us/pollsters/coefficient",
+    "Pollster-specific web search for each in-window release and crosstabs"
+  ],
+  "releases": [
+    {
+      "race_id": "fl_sen",
+      "field_end": "2026-10-20",
+      "publication_date": "2026-10-21",
+      "source_url": "https://battlegrounds.coefficient.org/fl/",
+      "status": "topline_only_not_eligible",
+      "reason": "Topline-only inventory: not authorized for model ingestion; no party candidate-support tables found in full release HTML; release date from primary index."
+    },
+    {
+      "race_id": "ia_sen",
+      "field_end": "2026-10-28",
+      "publication_date": "2026-10-29",
+      "source_url": "https://battlegrounds.coefficient.org/ia/",
+      "status": "topline_only_not_eligible",
+      "reason": "Topline-only inventory: not authorized for model ingestion; no party candidate-support tables found in full release HTML; release date from primary index."
+    },
+    {
+      "race_id": "oh_sen",
+      "field_end": "2026-10-06",
+      "publication_date": "2026-10-08",
+      "source_url": "https://battlegrounds.coefficient.org/oh/",
+      "status": "topline_only_not_eligible",
+      "reason": "Topline-only inventory: not authorized for model ingestion; no party candidate-support tables found in full release HTML; release date from primary index."
+    },
+    {
+      "race_id": "ia_sen",
+      "field_end": "2026-10-19",
+      "publication_date": null,
+      "source_url": "https://battlegrounds.coefficient.org/ia/",
+      "status": "topline_only_not_eligible",
+      "reason": "Historical primary wave replaced by later Oct 28 results; figures and field dates from secondary sources; first choice multi-candidate as reported by https://votendi.com/election-polls/469/; Oct 19 publication reported by contemporaneous https://535.wtf/dispatches/530-co-efficient-has-hinson-at-48-in-iowa-and-our-model-does. Exact primary release publication date not established; no party splits recovered."
+    },
+    {
+      "race_id": "me_sen",
+      "publication_date": "2026-09-30",
+      "source_url": "https://battlegrounds.coefficient.org/me/",
+      "status": "outside_publication_window",
+      "reason": "Primary pollster index explicitly dates release before October 1."
+    },
+    {
+      "race_id": "mi_sen",
+      "publication_date": "2026-09-23",
+      "source_url": "https://battlegrounds.coefficient.org/mi/",
+      "status": "outside_publication_window",
+      "reason": "Primary pollster index explicitly dates release before October 1."
+    },
+    {
+      "race_id": "ak_sen",
+      "publication_date": "2026-09-17",
+      "source_url": "https://battlegrounds.coefficient.org/ak/",
+      "status": "outside_publication_window",
+      "reason": "Primary pollster index explicitly dates release before October 1."
+    },
+    {
+      "race_id": "mn_sen",
+      "publication_date": "2026-09-15",
+      "source_url": "https://battlegrounds.coefficient.org/mn/",
+      "status": "outside_publication_window",
+      "reason": "Primary pollster index explicitly dates release before October 1."
+    },
+    {
+      "race_id": "nh_sen",
+      "publication_date": "2026-09-14",
+      "source_url": "https://battlegrounds.coefficient.org/nh/",
+      "status": "outside_publication_window",
+      "reason": "Primary pollster index explicitly dates release before October 1."
+    },
+    {
+      "race_id": "ks_sen",
+      "publication_date": "2026-09-11",
+      "source_url": "https://battlegrounds.coefficient.org/ks/",
+      "status": "outside_publication_window",
+      "reason": "Primary pollster index explicitly dates release before October 1."
+    },
+    {
+      "race_id": "ga_sen",
+      "publication_date": null,
+      "source_url": "https://battlegrounds.coefficient.org/",
+      "status": "no_in_window_release_found",
+      "reason": "No state release listed in primary public Senate series; additional pollster-specific web searches yielded no qualifying wave with six cells."
+    },
+    {
+      "race_id": "nc_sen",
+      "publication_date": null,
+      "source_url": "https://battlegrounds.coefficient.org/",
+      "status": "no_in_window_release_found",
+      "reason": "No state release listed in primary public Senate series; additional pollster-specific web searches yielded no qualifying wave with six cells."
+    },
+    {
+      "race_id": "tx_sen",
+      "publication_date": null,
+      "source_url": "https://battlegrounds.coefficient.org/",
+      "status": "no_in_window_release_found",
+      "reason": "No state release listed in primary public Senate series; additional pollster-specific web searches yielded no qualifying wave with six cells."
+    },
+    {
+      "race_id": "nh_sen",
+      "source_url": "https://coefficient.org/wp-content/uploads/2025/09/NH-U.S.-Senate-General-Election-2026.pdf",
+      "status": "excluded_wrong_year",
+      "publication_date": "2025-09-12",
+      "reason": "99chambers links this actual 2025 PDF for a purported 2026 NH wave; PDF cover gives September 12, 2025, not 2026. Do not import."
+    }
+  ]
+}

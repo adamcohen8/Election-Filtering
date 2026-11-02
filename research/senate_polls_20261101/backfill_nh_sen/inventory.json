@@ -1,0 +1,72 @@
+{
+  "inventory": [
+    {
+      "pollster": "University of New Hampshire Survey Center",
+      "field_end": "2026-09-21",
+      "publication_date": "2026-09-24",
+      "status": "included",
+      "source_url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=2004&context=survey_center_polls"
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "field_end": "2026-09-17",
+      "publication_date": "2026-09-18",
+      "status": "included",
+      "source_url": "https://insideradvantage.com/wp-content/uploads/2026/09/7765.jpg"
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "field_end": "2026-09-10",
+      "publication_date": "2026-09-11",
+      "status": "included",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_new_hampshire_senate_september_8_10_2026"
+    },
+    {
+      "pollster": "University of New Hampshire Survey Center",
+      "field_end": "2026-08-24",
+      "publication_date": "2026-08-26",
+      "status": "included",
+      "source_url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1987&context=survey_center_polls"
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "field_end": "2026-09-25",
+      "publication_date": "2026-09-27",
+      "status": "excluded_missing_party_ballot_crosstab",
+      "source_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/NH-Midterms-Survey-Report-0927.pdf",
+      "notes": "Report has age/gender/ethnicity ballot breaks, but not party ballot breaks."
+    },
+    {
+      "pollster": "NYT/Siena",
+      "field_end": "2026-09-22",
+      "publication_date": "2026-09-24",
+      "status": "unrecovered_access",
+      "source_url": "https://www.nytimes.com/interactive/2026/09/24/polls/times-siena-poll-nh-crosstabs.html",
+      "notes": "Site safety/access gate; no alternate access attempted. Siena release https://sri.siena.edu/2026/09/24/nytimes-siena-poll-of-likely-voters/"
+    },
+    {
+      "pollster": "co/efficient",
+      "field_end": "2026-09-11",
+      "publication_date": "2026-09-14",
+      "status": "excluded_missing_party_ballot_crosstab",
+      "source_url": "https://battlegrounds.coefficient.org/",
+      "notes": "Published topline and party composition do not establish conditional candidate support."
+    },
+    {
+      "pollster": "Fabrizio Lee / NRSC",
+      "field_end": "2026-08-30",
+      "publication_date": "2026-09-01",
+      "status": "excluded_missing_party_ballot_crosstab",
+      "source_url": "https://www.nrsc.org/wp-content/uploads/2026/09/9-1-26-NRSC-NH-Polling-Memo.pdf",
+      "notes": "Two-page memo; no six party support cells recovered."
+    },
+    {
+      "pollster": "Saint Anselm College",
+      "field_end": "2026-08-18",
+      "publication_date": "2026-08-20",
+      "status": "qualifying_older_than_selected_four",
+      "source_url": "https://www.anselm.edu/sites/default/files/2026-08/August%2017-18%202026%20Poll.pdf",
+      "notes": "Registration R/D/undeclared Sununu 84/4/34; Pappas 7/85/55; weighted frequencies R471/D434/undeclared506, n1411; archive anselm-aug.pdf."
+    }
+  ]
+}

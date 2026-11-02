@@ -8,6 +8,7 @@ from typing import Mapping, Sequence
 import numpy as np
 
 from election_modeling.states import PARTY_IDS, PARTY_STATE_SLICES, PartyID
+from election_modeling.validation import covariance_matrix, nonnegative, sample_size as validate_sample_size
 
 
 def _share_variance(share: float, sample_size: int) -> float:
@@ -40,6 +41,12 @@ class PollAdjustment:
 
     values: np.ndarray
 
+    def __post_init__(self) -> None:
+        values = _as_vector(self.values, name="adjustment values")
+        if not np.all(np.isfinite(values)):
+            raise ValueError("adjustment values must be finite")
+        object.__setattr__(self, "values", values.copy())
+
     @classmethod
     def from_values(cls, values: Sequence[float]) -> "PollAdjustment":
         return cls(values=_as_vector(values, name="adjustment values"))
@@ -54,12 +61,13 @@ class LinearPollObservation:
     design_matrix: np.ndarray
     pollster: str | None = None
     field_date: str | None = None
+    sample_id: str | None = None
 
     def __post_init__(self) -> None:
         values = np.asarray(self.values, dtype=float)
         covariance = np.asarray(self.covariance, dtype=float)
         design_matrix = np.asarray(self.design_matrix, dtype=float)
-        if values.ndim != 1:
+        if values.ndim != 1 or values.size == 0:
             raise ValueError("linear observation values must be a vector.")
         if covariance.shape != (values.size, values.size):
             raise ValueError("linear observation covariance shape does not match values.")
@@ -71,6 +79,7 @@ class LinearPollObservation:
             raise ValueError("linear observation covariance must contain finite values.")
         if not np.all(np.isfinite(design_matrix)):
             raise ValueError("linear observation design matrix must contain finite values.")
+        covariance = covariance_matrix(covariance, values.size)
         if np.any(np.diag(covariance) <= 0):
             raise ValueError("linear observation covariance diagonal must be positive.")
         object.__setattr__(self, "values", values)
@@ -91,22 +100,28 @@ class PollObservation:
     adjustment: PollAdjustment | None = None
     pollster: str | None = None
     field_date: str | None = None
+    sample_id: str | None = None
 
     def __post_init__(self) -> None:
         values = _as_vector(self.values, name="poll values")
         covariance = _as_square_matrix(self.covariance, name="poll covariance")
         if not np.all(np.isfinite(covariance)):
             raise ValueError("poll covariance must contain finite values.")
+        covariance = covariance_matrix(covariance, values.size)
         if np.any(np.diag(covariance) <= 0):
             raise ValueError("poll covariance diagonal must be positive.")
-        object.__setattr__(self, "values", values)
+        _validate_shares(values)
+        object.__setattr__(self, "values", values.copy())
         object.__setattr__(self, "covariance", covariance)
+        _validate_shares(self.adjusted_values)
 
     @property
     def adjusted_values(self) -> np.ndarray:
         if self.adjustment is None:
             return self.values.copy()
-        return self.values + self.adjustment.values
+        values = self.values + self.adjustment.values
+        _validate_shares(values)
+        return values
 
     @property
     def observed_mask(self) -> np.ndarray:
@@ -122,6 +137,8 @@ class PollObservation:
         pollster: str | None = None,
         field_date: str | None = None,
         extra_variance: float = 0.0,
+        design_effect: float = 1.5,
+        sample_id: str | None = None,
     ) -> "PollObservation":
         """Build an observation from party-ID candidate shares.
 
@@ -131,6 +148,10 @@ class PollObservation:
         approximation, preserving negative covariance between the two candidates.
         """
 
+        design_effect = nonnegative(design_effect, "design effect")
+        if design_effect == 0:
+            raise ValueError("design effect must be positive")
+        extra_variance = nonnegative(extra_variance, "extra variance")
         vector = np.full(6, np.nan, dtype=float)
         covariance = np.eye(6, dtype=float)
 
@@ -142,10 +163,10 @@ class PollObservation:
                 continue
 
             candidate_a, candidate_b = values[party_id]
-            n = subgroup_sample_sizes[party_id]
+            n = validate_sample_size(subgroup_sample_sizes[party_id]) / design_effect
             if n <= 0:
                 raise ValueError(f"sample size for {party_id} must be positive.")
-            if candidate_a < 0 or candidate_b < 0 or candidate_a + candidate_b > 1:
+            if not np.all(np.isfinite([candidate_a, candidate_b])) or candidate_a < 0 or candidate_b < 0 or candidate_a + candidate_b > 1:
                 raise ValueError(
                     f"shares for {party_id} must be non-negative and sum to at most 1."
                 )
@@ -167,4 +188,16 @@ class PollObservation:
             adjustment=adjustment,
             pollster=pollster,
             field_date=field_date,
+            sample_id=sample_id,
         )
+
+
+def _validate_shares(values: np.ndarray) -> None:
+    if np.any(np.isinf(values)):
+        raise ValueError("shares must be finite or NaN for missing cells")
+    finite = values[np.isfinite(values)]
+    if np.any(finite < 0) or np.any(finite > 1):
+        raise ValueError("shares must lie in [0, 1]")
+    for pair in values.reshape(3, 2):
+        if np.all(np.isfinite(pair)) and pair.sum() > 1 + 1e-12:
+            raise ValueError("candidate shares within a party must sum to at most 1")

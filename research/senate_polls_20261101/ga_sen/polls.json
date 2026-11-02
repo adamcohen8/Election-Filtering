@@ -1,0 +1,48 @@
+{
+  "race_id": "ga_sen",
+  "polls": [
+    {
+      "poll_id": "uga-ajc-ga-sen-20261015",
+      "race_id": "ga_sen",
+      "state": "Georgia",
+      "office": "senate",
+      "pollster": "University of Georgia School of Public and International Affairs",
+      "sponsor": "Atlanta Journal-Constitution",
+      "publication_date": "2026-10-21",
+      "field_start": "2026-10-07",
+      "field_date": "2026-10-15",
+      "population": "LV",
+      "candidate_a": "Mike Collins",
+      "candidate_b": "Jon Ossoff",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "crosstab_basis": "party_id",
+      "party_question": "Political Party (3pt), report p. 29; exact party-identification question and leaner treatment not stated in report. Georgia does not register voters by party.",
+      "ballot_question_stage": "general-election first choice",
+      "republican_a": 0.858,
+      "republican_b": 0.048,
+      "democratic_a": 0.009,
+      "democratic_b": 0.948,
+      "independent_a": 0.302,
+      "independent_b": 0.492,
+      "republican_n": 380,
+      "democratic_n": 356,
+      "independent_n": 264,
+      "subgroup_n_method": "derived_total_x_share",
+      "reported_total_n": 1000,
+      "reported_party_composition": {
+        "republican": 0.38,
+        "democratic": 0.356,
+        "independent": 0.264
+      },
+      "sample_id": "uga-ajc-ga-20261007-15",
+      "source_url": "https://www.documentcloud.org/documents/28824163-ajc-poll-october-2026-1/?mode=text",
+      "release_url": "https://www.ajc.com/politics/2026/10/ajc-poll-ossoff-leads-collins-in-georgias-us-senate-race/",
+      "source_location": "PDF page 4 Senate ballot, party columns; page 29 Political Party (3pt); page 2 methodology",
+      "evidence_path": "research/senate_polls_20261101/ga_sen/sources/ajc_transcription.txt",
+      "evidence_excerpt": "p4 Senate ballot, columns Republican / Democrat / Independent: Mike Collins 85.8 / 0.9 / 30.2; Jon Ossoff 4.8 / 94.8 / 49.2. p29 Political Party (3pt) Republican 38.0%, Democrat 35.6%, Independent 26.4%.",
+      "ingestion_status": "needs_review",
+      "notes": "Party table is labeled Political Party (3pt); question wording, whether leaners included, and exact subgroup counts are not provided. Georgia does not register by party; party ID is inferred from labeling, not explicitly described by the instrument. Subgroup counts are floor(1000 x weighted shares), estimates only, not reported sample counts. AJC Senate story Oct 21 is verified; same-wave governor reporting appeared Oct 20, while document metadata shows Oct 19 creation and report cover Oct 16; earliest public availability unknown."
+    }
+  ]
+}

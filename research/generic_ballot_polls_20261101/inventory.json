@@ -1,0 +1,152 @@
+{
+  "reviewed_on": "2026-11-01",
+  "window": {
+    "start": "2026-10-01",
+    "end": "2026-11-01"
+  },
+  "accepted_count": 23,
+  "counts_by_pollster": {
+    "The Economist/YouGov": 4,
+    "Fox News/Beacon Research/Shaw & Co.": 1,
+    "CBS News/YouGov": 2,
+    "Reuters/Ipsos": 2,
+    "NPR/PBS News/Marist": 1,
+    "Harvard CAPS/Harris Poll/HarrisX": 1,
+    "UMass Lowell/YouGov": 1,
+    "Rainey Center": 1,
+    "Emerson College": 1,
+    "Focaldata/Financial Times": 2,
+    "ActiVote": 4,
+    "BIG DATA POLL": 1,
+    "Clarity Campaign Labs": 1,
+    "On Point Polling": 1
+  },
+  "screened_not_admitted": [
+    {
+      "name": "Reuters/Ipsos September30\u2013October5",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Large%20Issue%20Topline%2010.5%20release.pdf",
+      "reason": "Downloaded four-page public release covers registration and approval; says other questions held for future release. Complete ballot party table not recovered."
+    },
+    {
+      "name": "Echelon/NetChoice October16\u201323",
+      "source_url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "reason": "Downloaded28-page topline and companion memo have generic candidate results by state, not conditional candidate support by respondent party. No six-cell table recovered."
+    },
+    {
+      "name": "Echelon October omnibus ending19",
+      "source_url": "https://www.pollingforecast.com/us/polls/1000811",
+      "reason": "Distinct wave listed in secondary inventory; public six-cell primary source not recovered. Not treated as NetChoice duplicate."
+    },
+    {
+      "name": "Cygnal early October1\u20132",
+      "source_url": "https://www.cygn.al/wp-content/uploads/2026/10/24822-Cygnal-National-Early-Oct26-NVT-Deck-Midterm-Political.pdf",
+      "reason": "Downloaded full public deck. Displayed generic/partisanship graphs not verified for all six exact cells; incomplete subgroup labels were not filled from remainder."
+    },
+    {
+      "name": "Cygnal October7\u201310",
+      "source_url": "https://www.cygn.al/wp-content/uploads/2026/10/Cygnal-National-Poll-on-Foreign-Conflicts-Oct-2026.pdf",
+      "reason": "Downloaded35-page public deck; no complete six-cell candidate by party table verified."
+    },
+    {
+      "name": "Cygnal late October23\u201324",
+      "source_url": "https://www.cygn.al/wp-content/uploads/2026/10/Cygnal-National-Late-Oct26-NVT-Deck-Public.pdf",
+      "reason": "Downloaded full public deck. Page28 shows R91.1/D6.4 among Republicans and R37.4/D51.1 among Independents; Democratic crossover not printed/readable as an exact cell. No missing support inferred from graph area."
+    },
+    {
+      "name": "ABC News/Washington Post/Ipsos October9\u201313",
+      "source_url": "https://www.ipsos.com/en-us/ABC-News-Washington-Post-Ipsos-Poll-October-2026",
+      "reason": "Downloaded32-page public trend topline, not the full party crosstabs. Candidate question Q4 is present but no complete party table recovered. Tables may exist elsewhere."
+    },
+    {
+      "name": "Pew September28\u2013October4",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/10/PP_2026.10.8_midterms_report.pdf",
+      "reason": "Downloaded60-page report. Complete unleaned/leaned three-group ballot cells not recovered; combined party/leaner toplines are not six conditional cells."
+    },
+    {
+      "name": "Prolific October21\u201322",
+      "source_url": "https://www.prolific.com/resources/poll-democrats-lead-by-11-points-here-s-how-we-reached-that-number",
+      "reason": "Downloaded linked primary10-page questionnaire; it contains question wording and methodology, not complete reported party-cell results."
+    },
+    {
+      "name": "Penn State/YouGov October14\u201320",
+      "source_url": "https://democracy.psu.edu/poll-report-archive/democrats-have-tiny-edge-in-congressional-generic-ballot/",
+      "reason": "Primary article retrieved; chart download returned403 and remaining party table not verified. No values manufactured from vague narrative."
+    },
+    {
+      "name": "Tufts/YouGov October23\u201327",
+      "source_url": "https://tufts-pol.medium.com/tufts-public-opinion-lab-national-pre-election-poll-shows-a-big-lead-for-democrats-in-the-race-for-57656e85c738",
+      "reason": "Linked Box report inaccessible; primary article field-year2024 conflicts with2026 framing and needs resolving against original table. No full ballot by party cells verified."
+    },
+    {
+      "name": "Centerline September26\u2013October1",
+      "source_url": "https://centerliners.com/public-polling",
+      "reason": "October6 primary release and10-page topline checked; release reports only four of six support cells. No full R/D/I table linked on public polling page."
+    },
+    {
+      "name": "I&I/TIPP September29\u2013October1",
+      "source_url": "https://issuesinsights.com/2026/10/19/dems-hold-slim-lead-over-gop-in-midterm-vote-but-can-they-keep-it-ii-tipp-poll/",
+      "reason": "Six party-group values are shown, but inspected chart explicitly asks preferred party CONTROL OF CONGRESS, not district candidate vote. Different construct; excluded."
+    },
+    {
+      "name": "Bullfinch October1\u20136",
+      "source_url": "https://www.independentcenter.org/poll-toplines/national-policy-survey-october-2026",
+      "reason": "Downloaded22-page public toplines; no six-cell ballot by respondent party table verified. Generic independent option is not itself disqualifying."
+    },
+    {
+      "name": "Quantus October national lead",
+      "source_url": "https://quantusinsights.org/f/which-party-will-control-the-us-house?blogcategory=Polling",
+      "reason": "Indexed article surfaced, but opening primary URL returned homepage instead of report. Full attributable six-cell table not recovered. Party-registration proxy or modeled cells would be eligible if provided."
+    },
+    {
+      "name": "Morning Consult weekly October releases",
+      "source_url": "https://pro-assets.morningconsult.com/wp-uploads/2026/09/MCPI-Midterm-Ballot.html",
+      "reason": "Public tracker shell retrieved via web; direct acquisition403. Dynamic party-series data not recovered. No weekly observations inferred from headlines or cumulative snapshot."
+    },
+    {
+      "name": "Morning Consult/Deseret October13\u201320",
+      "source_url": "https://www.deseret.com/",
+      "reason": "National/Utah report identified in secondary inventory; no complete national candidate by party table recovered. State-only tables would not supply national input."
+    },
+    {
+      "name": "CNBC/Hart/POS October14\u201318",
+      "source_url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+      "reason": "Primary page returned cache miss; full six-cell source not recovered."
+    },
+    {
+      "name": "RMG/Napolitan October13\u201314",
+      "source_url": "https://napolitannews.org/posts/generic-ballot-likely-voters-dem-54-gop-43",
+      "reason": "Public release retrieved; complete party ballot table not recovered."
+    },
+    {
+      "name": "Rasmussen weekly releases",
+      "source_url": "https://www.rasmussenreports.com/",
+      "reason": "October weekly toplines identified in secondary inventory; no full public six-cell tables verified. Not excluded merely because a pollster is partisan."
+    },
+    {
+      "name": "TrueDot/NewsNation/DDHQ October5\u20139",
+      "source_url": "https://thehill.com/homenews/campaign/6143963-democrats-lead-congressional-ballot-ddhq/",
+      "reason": "Primary release link returned cache miss; six-cell source not recovered."
+    },
+    {
+      "name": "The Honest Poll October4\u20136",
+      "source_url": "https://www.thehonestpoll.com/polls/trump-approval-at-44-among-likely-voters-down-slightly-from-mid-september",
+      "reason": "Public article has generic topline and party approval splits; no complete ballot by party cells verified. Membership-only material not accessed."
+    },
+    {
+      "name": "NYT/Siena October12\u201319",
+      "source_url": "https://www.nytimes.com/",
+      "reason": "Not accessed after explicit earlier tool site-policy denial; no alternate copy sought. Generic national party table remains unrecovered."
+    },
+    {
+      "name": "NYT/Siena September22\u201326 potential October release",
+      "source_url": "https://www.nytimes.com/",
+      "reason": "Not accessed after earlier site-policy denial; publication boundary and full table not verified. No cutoff assumption used to admit it."
+    },
+    {
+      "name": "Wedgewood",
+      "source_url": null,
+      "reason": "Not verified, no primary attributable source; excluded."
+    }
+  ],
+  "scope": "National generic House vote. Candidate-name district aggregation allowed and labeled. No aggregate polling averages ingested. This inventory is not proof no additional polls or tables exist."
+}

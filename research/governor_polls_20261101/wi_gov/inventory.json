@@ -1,0 +1,64 @@
+{
+  "race_id": "wi_gov",
+  "included_count": 6,
+  "included": [
+    {
+      "poll_id": "wick-wi-gov-20261023",
+      "publication_date": "2026-10-28",
+      "source_url": "https://wick.io/assets/law-wisconsin-poll-crosstab-tables.pdf",
+      "source_location": "PDF p.12 Q9 governor ballot, party identification"
+    },
+    {
+      "poll_id": "marquette-wi-gov-20261022",
+      "publication_date": "2026-10-28",
+      "source_url": "https://law.marquette.edu/assets/community/poll/MLSP92/MLSP92CrosstabsLV.html",
+      "source_location": "Tiffany vs. Crowley; party ID, leaners as independents"
+    },
+    {
+      "poll_id": "marquette-wi-gov-20260923",
+      "publication_date": "2026-09-30",
+      "source_url": "https://law.marquette.edu/assets/community/poll/MLSP91/MLSP91CrosstabsLV.html",
+      "source_location": "Tiffany vs. Crowley; party ID, leaners as independents"
+    },
+    {
+      "poll_id": "marquette-wi-gov-20260820",
+      "publication_date": "2026-08-26",
+      "source_url": "https://law.marquette.edu/assets/community/poll/MLSP90/MLSP90CrosstabsLV.html",
+      "source_location": "Tiffany vs. Crowley; party ID, leaners as independents"
+    },
+    {
+      "poll_id": "tipp-wi-gov-20260818",
+      "publication_date": "2026-08-21",
+      "source_url": "https://tippinsights.com/content/files/2026/08/Tables-Wisconsin-Aug-2026.xlsx",
+      "source_location": "Banner One, LV governor ballot Tiffany vs Crowley; support rows 686,689; D/R/I cols Z/AA/AB"
+    },
+    {
+      "poll_id": "tipp-wi-gov-20260319",
+      "publication_date": "2026-03-23",
+      "source_url": "https://tippinsights.com/content/files/2026/03/Tables-LAW-Wisconsin-Survey---March-2026.xlsx",
+      "source_location": "Banner One, LV governor ballot Tiffany vs Crowley; support rows 525,528; D/R/I cols Z/AA/AB"
+    }
+  ],
+  "unresolved": [
+    {
+      "pollster": "YouGov",
+      "sponsor": "City Forward Collective",
+      "publication_date": "2026-10-15",
+      "url": "https://cityforwardcollective.org/wp-content/uploads/2026/10/CFCAF-Statewide-Oct.-Release-10.15.26-1.pdf",
+      "reason": "Published four-page release inspected; complete ballot by party cells not supplied."
+    },
+    {
+      "pollster": "Z to A Research",
+      "sponsor": "Rust Belt Rising",
+      "publication_date": "2026-10-09",
+      "reason": "Identified October wave; complete ballot by party cells not recovered."
+    },
+    {
+      "pollster": "RMG Research",
+      "sponsor": "Institute for Reforming Government",
+      "publication_date": "2026-07-23",
+      "url": "https://reforminggovernment.org/irg-poll-inflation-still-rules-free-markets-still-win-race-still-open/",
+      "reason": "Release and linked memo inspected; full six party cells not supplied; publication date should be rechecked before inclusion."
+    }
+  ]
+}

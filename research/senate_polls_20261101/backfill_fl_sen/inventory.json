@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    "stpete-fl-20260917"
+  ],
+  "newer_unresolved": [
+    {
+      "pollster": "Change Research",
+      "publication": "2026-09-28",
+      "url": "https://changeresearch.com/research/2026/2026-09-28-florida-aapor-methodology-statement",
+      "gap": "No conditional party candidate table, only composition and totals; inconsistent n1063 vs1107."
+    },
+    {
+      "pollster": "Stetson",
+      "publication": "2026-09-23",
+      "url": "https://www.stetson.edu/artsci/cpor/media/cpor-sept.-2026-poll-final.pdf",
+      "gap": "Four-page release lacks conditional party table; separate full report not recovered."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "publication": "2026-09-22",
+      "url": "https://insideradvantage.com/insideradvantage-florida-u-s-senate-survey-moody-leads-nixon-by-7/",
+      "gap": "Separate promised chart not recovered."
+    }
+  ]
+}

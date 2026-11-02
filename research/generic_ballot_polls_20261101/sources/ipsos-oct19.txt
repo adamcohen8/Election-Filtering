@@ -1,0 +1,1181 @@
+TOPLINE & METHODOLOGY
+
+                               Reuters/Ipsos mid-October Survey Topline
+
+                                     Conducted by Ipsos using KnowledgePanel®
+                            A survey of the American general population (ages 18+)
+                                         Interview dates: October 16-19, 2026
+                                               Number of interviews: 1,679
+
+          Margin of error: +/- 2.4 percentage points at the 95% confidence level for all respondents
+        Margin of error: +/- 2.8 percentage points at the 95% confidence level for Registered Voters
+           Margin of error: +/- 2.9 percentage points at the 95% confidence level for Likely Voters
+             Margin of error: +/- 4.3 percentage points at the 95% confidence level for Democrats
+            Margin of error: +/- 4.6 percentage points at the 95% confidence level for Republicans
+       Margin of error: +/- 3.8 percentage points at the 95% confidence level for independents/other
+
+NOTE: All results show percentages among all respondents, unless otherwise labeled. Reduced bases
+are unweighted values.
+
+NOTE: * = less than 0.5%, - = no respondents, N/A = not applicable
+
+
+Annotated Questionnaire
+
+RV_1. Are you registered to vote at your current address?
+
+                                   Total                 RV                 Dem                 Rep             Ind/Other
+                                (N=1,679)            (N=1,279)            (N=522)            (N=465)             (N=692)
+ Yes, registered to
+ vote at my current                74%                 100%                 82%                 86%                 61%
+ address
+ No, not registered
+ to vote at my                     21%                    -                 15%                 11%                 31%
+ current address
+ Not sure                           4%                    -                  2%                 3%                  7%
+ Skipped                            1%                    -                    -                  -                 1%
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                 Senior Vice President, US, Public Affairs
++1 202 463-7300               Email: alec.tyson@ipsos.com
+
+1
+
+TOPLINE & METHODOLOGY
+
+
+TM3382Y26. Thinking ahead to the midterm Congressional elections this November, how likely are you to
+vote in the midterm elections?
+
+                                   Total                 RV                Dem                Rep             Ind/Other
+                                (N=1,679)           (N=1,279)            (N=522)            (N=465)            (N=692)
+ Almost certain                     40%                 53%                46%                53%                28%
+ Very likely                        11%                 13%                13%                11%                 9%
+ Somewhat likely                    11%                 11%                11%                11%                11%
+ Not very likely                    7%                   5%                 6%                 7%                 8%
+ Not at all likely                  20%                  5%                11%                11%                33%
+ Already voted                      10%                 12%                13%                 7%                 9%
+ Skipped                            1%                    *                  *                  -                 2%
+ Almost certain/Very                51%                 66%                59%                64%                38%
+ likely (Net)
+ Not very/Not at all                27%                 10%                16%                18%                41%
+ likely (Net)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+2
+
+TOPLINE & METHODOLOGY
+
+
+TM3287Y24. Thinking about the elections in 2026, if the election for U.S. Congress were held today,
+would you vote for the Democratic candidate or the Republican candidate in your district where you live?
+
+                                  Total                RV                Dem                Rep            Ind/Other
+                               (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic                       40%                 47%                86%                4%                 30%
+ candidate
+ Republican                       29%                 35%                 2%                82%                14%
+ candidate
+ Candidate from
+ another political                 3%                  3%                 1%                1%                 5%
+ party
+ Don’t know                       12%                 11%                 5%                8%                 20%
+ Will not/do not plan             15%                  4%                 6%                5%                 28%
+ to vote
+ Skipped                           1%                  1%                  -                  *                2%
+
+
+TM3287Y24_2. [Base: Don’t know in TM3287Y24] Would you say you lean more to the Democratic
+candidate or the Republican candidate in your district where you live?
+
+                                   Total               RV                Dem               Rep             Ind/Other
+                                 (N=195)            (N=131)             (N=25)            (N=34)            (N=136)
+ Democratic candidate              30%                32%                76%                5%                27%
+ Republican candidate              33%                40%                 4%               69%                29%
+ Would not vote                    30%                21%                20%               23%                34%
+ Skipped                            7%                 7%                  -                3%                10%
+
+
+TM3332Y25. How enthusiastic are you about voting in the 2026 congressional elections, if at all?
+
+                                    Total               RV                Dem               Rep             Ind/Other
+                                 (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Very enthusiastic                  26%                 34%               36%               29%                17%
+ Somewhat                           15%                 18%               18%               17%                11%
+ enthusiastic
+ Neither enthusiastic or            32%                 28%               28%               33%                34%
+ unenthusiastic
+ Somewhat                            8%                 9%                 8%                9%                8%
+ unenthusiastic
+ Very unenthusiastic                18%                 11%               10%               13%                27%
+ Skipped                             1%                   *                  -                -                3%
+ Enthusiastic (Net)                 41%                 52%               54%               46%                28%
+ Unenthusiastic (Net)               26%                 20%               18%               21%                35%
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+3
+
+TOPLINE & METHODOLOGY
+
+
+TM3328Y25. If the 2026 congressional elections were held today, which of the following would be the
+single MOST important factor for you in deciding who to vote for? A candidate’s position on...
+
+                                  Total               RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Cost of living                   49%                 47%               47%               47%                52%
+ Immigration                      12%                 12%                7%               22%                 9%
+ Crime                             4%                 3%                 2%                6%                 4%
+ Democratic values                22%                 26%               38%               13%                16%
+ and norms
+ Something else                   10%                 9%                 5%               11%                13%
+ Skipped                           3%                 1%                 1%                 *                 7%
+
+
+Approval5_Combined. Overall, do you approve or disapprove of the way Donald Trump is handling his
+job as president? (If Skipped) If you had to choose, do you lean more towards approve or disapprove?
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Strongly approve                 12%                15%                 1%               36%                 4%
+ Somewhat approve                 19%                19%                 4%               41%                16%
+ Lean towards                       *                   *                 -                 *                  *
+ approve
+ Lean towards                       *                   *                 *                 -                  *
+ disapprove
+ Somewhat                         16%                13%                 9%               16%                20%
+ disapprove
+ Strongly disapprove              51%                52%                86%                7%                54%
+ Skipped                           2%                 1%                  -                 -                 6%
+ Approve (Net)                    31%                34%                 5%               77%                20%
+ Disapprove (Net)                 66%                65%                95%               23%                74%
+
+
+TM3154Y23_Sum1. Would you say you are generally favorable or unfavorable towards these public
+figures? Summary - Favorable
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                              (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ J.D. Vance                      33%                 37%                 6%               78%                23%
+ Marco Rubio                     32%                 36%                10%               69%                24%
+ Alexandria Ocasio-              32%                 36%                62%                8%                27%
+ Cortez
+ Donald Trump                    32%                 35%                 5%               78%                22%
+ Gavin Newsom                    31%                 34%                58%               12%                25%
+ Jon Ossoff                      21%                 25%                38%                8%                19%
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+4
+
+TOPLINE & METHODOLOGY
+
+
+TM3154Y23_1. Would you say you are generally favorable or unfavorable towards these public figures?
+Donald Trump
+
+                                  Total               RV                Dem               Rep            Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)           (N=692)
+ Very favorable                   15%                18%                 2%               44%                5%
+ Somewhat favorable               17%                17%                 3%               34%               17%
+ Somewhat                         12%                10%                 7%               13%               14%
+ unfavorable
+ Very unfavorable                 51%                53%                86%               8%                54%
+ I have not heard of               2%                  *                 2%                 -                4%
+ them
+ Skipped                           3%                 2%                 1%               1%                 6%
+ Favorable (Net)                  32%                35%                 5%               78%               22%
+ Unfavorable (Net)                62%                63%                93%               21%               67%
+
+
+TM3154Y23_2. Would you say you are generally favorable or unfavorable towards these public figures?
+J.D. Vance
+
+                                  Total               RV                Dem               Rep            Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)           (N=692)
+ Very favorable                   16%                20%                 2%               46%                7%
+ Somewhat favorable               17%                17%                 5%               32%               16%
+ Somewhat                         13%                12%                12%               10%               15%
+ unfavorable
+ Very unfavorable                 41%                45%                73%               6%                42%
+ I have not heard of               9%                 4%                 7%               5%                14%
+ them
+ Skipped                           3%                 2%                 1%               1%                 6%
+ Favorable (Net)                  33%                37%                 6%               78%               23%
+ Unfavorable (Net)                54%                57%                85%               16%               57%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+5
+
+TOPLINE & METHODOLOGY
+
+
+TM3154Y23_3. Would you say you are generally favorable or unfavorable towards these public figures?
+Marco Rubio
+
+                                 Total                RV               Dem               Rep            Ind/Other
+                               (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Very favorable                   16%                20%                3%               43%                8%
+ Somewhat favorable               16%                16%                7%               25%                16%
+ Somewhat                         17%                19%               23%               11%                18%
+ unfavorable
+ Very unfavorable                 28%                31%               51%                5%                27%
+ I have not heard of              19%                12%               15%               15%                24%
+ them
+ Skipped                           3%                 2%                1%                1%                6%
+ Favorable (Net)                  32%                36%               10%               69%                24%
+ Unfavorable (Net)                46%                49%               74%               15%                46%
+
+
+TM3154Y23_7. Would you say you are generally favorable or unfavorable towards these public figures?
+Gavin Newsom
+
+                                 Total                RV               Dem               Rep            Ind/Other
+                               (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Very favorable                   11%                12%               25%                4%                6%
+ Somewhat favorable               20%                22%               33%                8%                19%
+ Somewhat                         15%                16%               15%               12%                16%
+ unfavorable
+ Very unfavorable                 28%                32%                7%               55%                24%
+ I have not heard of              23%                16%               18%               20%                28%
+ them
+ Skipped                           4%                 2%                2%                1%                7%
+ Favorable (Net)                  31%                34%               58%               12%                25%
+ Unfavorable (Net)                42%                47%               22%               68%                40%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+6
+
+TOPLINE & METHODOLOGY
+
+
+TM3154Y23_12. Would you say you are generally favorable or unfavorable towards these public figures?
+Jon Ossoff
+
+                                 Total                RV               Dem               Rep            Ind/Other
+                               (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Very favorable                   11%                14%               26%                2%                8%
+ Somewhat favorable               10%                11%               13%                6%               11%
+ Somewhat                         8%                  9%                7%               11%                8%
+ unfavorable
+ Very unfavorable                 10%                11%                8%               15%               10%
+ I have not heard of              56%                53%               46%               64%               58%
+ them
+ Skipped                          4%                  3%                2%                2%                6%
+ Favorable (Net)                  21%                25%               38%                8%               19%
+ Unfavorable (Net)                19%                19%               15%               26%               17%
+
+
+TM3154Y23_13. Would you say you are generally favorable or unfavorable towards these public figures?
+Alexandria Ocasio-Cortez
+
+                                 Total                RV               Dem               Rep            Ind/Other
+                               (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Very favorable                   14%                16%               31%                1%               10%
+ Somewhat favorable               18%                19%               31%                6%               17%
+ Somewhat                         11%                11%                9%               10%               13%
+ unfavorable
+ Very unfavorable                 28%                32%                6%               57%               25%
+ I have not heard of              26%                18%               22%               23%               29%
+ them
+ Skipped                          3%                  2%                1%                2%                6%
+ Favorable (Net)                  32%                36%               62%                8%               27%
+ Unfavorable (Net)                39%                44%               15%               67%               38%
+
+
+TM1128Y17_Sum1. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? Summary - Approve
+
+                                  Total               RV                Dem              Rep            Ind/Other
+                                (N=1,679)          (N=1,279)          (N=522)          (N=465)           (N=692)
+ Immigration                       36%                39%                8%              81%               27%
+ Crime                             35%                39%               11%              76%               26%
+ U.S. foreign policy               27%                32%                4%              67%               18%
+ Iran                              25%                29%                4%              63%               16%
+ The U.S. economy                  23%                27%                5%              58%               14%
+ Your cost of living               19%                22%                3%              49%               11%
+ Inflation/rising prices           18%                21%                3%              47%                9%
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+7
+
+TOPLINE & METHODOLOGY
+
+
+TM1128Y17_1. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? The U.S. economy
+
+                                 Total               RV               Dem               Rep            Ind/Other
+                              (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Strongly approve                 9%                11%                1%               25%                3%
+ Somewhat approve                15%                16%                4%               34%               11%
+ Somewhat                        17%                17%                10%              24%               17%
+ disapprove
+ Strongly disapprove             51%                53%                83%              13%               54%
+ Don’t know                       6%                 3%                2%                4%               10%
+ Skipped                          2%                 1%                  *               1%                4%
+ Approve (Net)                   23%                27%                5%               58%               14%
+ Disapprove (Net)                68%                69%                93%              37%               71%
+
+
+TM1128Y17_7. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? Immigration
+
+                                 Total               RV               Dem               Rep            Ind/Other
+                              (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Strongly approve                22%                26%                2%               58%               13%
+ Somewhat approve                14%                13%                6%               23%               14%
+ Somewhat                        12%                12%                12%               9%               14%
+ disapprove
+ Strongly disapprove             44%                45%                77%               7%               44%
+ Don’t know                       6%                 2%                3%                2%               11%
+ Skipped                          2%                 1%                  *               1%                4%
+ Approve (Net)                   36%                39%                8%               81%               27%
+ Disapprove (Net)                56%                57%                89%              16%               58%
+
+
+TM1128Y17_8. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? Your cost of living
+
+                                 Total               RV               Dem               Rep            Ind/Other
+                              (N=1,679)          (N=1,279)          (N=522)           (N=465)           (N=692)
+ Strongly approve                 6%                 8%                1%               17%                3%
+ Somewhat approve                13%                15%                2%               32%                8%
+ Somewhat                        17%                17%                9%               27%               17%
+ disapprove
+ Strongly disapprove             55%                56%                85%              18%               58%
+ Don’t know                       6%                 3%                2%                5%               10%
+ Skipped                          2%                 1%                1%                1%                4%
+ Approve (Net)                   19%                22%                3%               49%               11%
+ Disapprove (Net)                73%                73%                94%              45%               75%
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006              Senior Vice President, US, Public Affairs
++1 202 463-7300            Email: alec.tyson@ipsos.com
+
+8
+
+TOPLINE & METHODOLOGY
+
+
+TM1128Y17_19. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? Crime
+
+                                 Total               RV               Dem               Rep             Ind/Other
+                              (N=1,679)          (N=1,279)           (N=522)          (N=465)            (N=692)
+ Strongly approve                17%                21%                2%               48%                9%
+ Somewhat approve                18%                17%                9%               28%                17%
+ Somewhat                        14%                13%                18%               8%                14%
+ disapprove
+ Strongly disapprove             37%                39%                66%               6%                37%
+ Don’t know                      12%                 8%                5%                9%                18%
+ Skipped                          2%                 1%                  *               1%                4%
+ Approve (Net)                   35%                39%                11%              76%                26%
+ Disapprove (Net)                51%                52%                84%              14%                52%
+
+
+TM1128Y17_25. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? U.S. foreign policy
+
+                                 Total               RV               Dem               Rep             Ind/Other
+                              (N=1,679)          (N=1,279)           (N=522)          (N=465)            (N=692)
+ Strongly approve                13%                16%                2%               35%                6%
+ Somewhat approve                15%                16%                2%               32%                12%
+ Somewhat                        13%                13%                12%              15%                13%
+ disapprove
+ Strongly disapprove             47%                49%                78%               9%                50%
+ Don’t know                      10%                 5%                5%                8%                14%
+ Skipped                          2%                 1%                  *               1%                4%
+ Approve (Net)                   27%                32%                4%               67%                18%
+ Disapprove (Net)                61%                62%                91%              24%                63%
+
+
+TM1128Y17_36. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? Inflation/rising prices
+
+                                 Total               RV               Dem               Rep             Ind/Other
+                              (N=1,679)          (N=1,279)           (N=522)          (N=465)            (N=692)
+ Strongly approve                 6%                 7%                1%               17%                2%
+ Somewhat approve                12%                14%                2%               29%                7%
+ Somewhat                        17%                17%                8%               29%                16%
+ disapprove
+ Strongly disapprove             57%                58%                87%              19%                60%
+ Don’t know                       6%                 3%                1%                4%                10%
+ Skipped                          2%                 1%                  *               1%                4%
+ Approve (Net)                   18%                21%                3%               47%                9%
+ Disapprove (Net)                74%                75%                95%              48%                77%
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006              Senior Vice President, US, Public Affairs
++1 202 463-7300            Email: alec.tyson@ipsos.com
+
+9
+
+TOPLINE & METHODOLOGY
+
+
+TM1128Y17_15. Do you approve or disapprove of the way President Donald Trump is handling the
+following issues? Iran
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Strongly approve                 11%                13%                 2%               30%                5%
+ Somewhat approve                 14%                16%                 2%               33%                11%
+ Somewhat                         12%                12%                 9%               15%                12%
+ disapprove
+ Strongly disapprove              50%                52%                81%               14%                52%
+ Don’t know                       10%                 6%                 5%                8%                15%
+ Skipped                           2%                 1%                 1%                1%                4%
+ Approve (Net)                    25%                29%                 4%               63%                16%
+ Disapprove (Net)                 63%                64%                91%               28%                65%
+
+
+QCP_11_1. In your opinion, which political party has a better plan, policy or approach to each of the
+following? The U.S. economy
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 36%                40%                80%                4%                25%
+ Republican Party                 28%                33%                 4%               73%                17%
+ Other                             7%                 7%                 4%                4%                12%
+ Don’t know                       26%                18%                12%               19%                40%
+ Skipped                           2%                 1%                  *                1%                5%
+
+
+QCP_11_4. In your opinion, which political party has a better plan, policy or approach to each of the
+following? Healthcare
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 41%                46%                84%                7%                33%
+ Republican Party                 24%                28%                 2%               67%                11%
+ Other                             7%                 7%                 3%                4%                11%
+ Don’t know                       26%                18%                10%               22%                39%
+ Skipped                           3%                 2%                 1%                 *                5%
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+10
+
+TOPLINE & METHODOLOGY
+
+
+QCP_11_5. In your opinion, which political party has a better plan, policy or approach to each of the
+following? Immigration
+
+                                  Total                RV               Dem                Rep             Ind/Other
+                               (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 34%                 37%                76%                6%                22%
+ Republican Party                 34%                 40%                6%                81%                24%
+ Other                             8%                  7%                4%                 1%                14%
+ Don’t know                       22%                 14%                13%               12%                35%
+ Skipped                           3%                  2%                1%                 1%                5%
+
+
+QCP_11_8. In your opinion, which political party has a better plan, policy or approach to each of the
+following? Crime
+
+                                  Total                RV               Dem                Rep             Ind/Other
+                               (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 28%                 31%                67%                3%                17%
+ Republican Party                 35%                 41%                8%                80%                26%
+ Other                             7%                  6%                4%                 2%                11%
+ Don’t know                       28%                 20%                20%               15%                41%
+ Skipped                           3%                  2%                1%                 1%                5%
+
+
+QCP_11_11. In your opinion, which political party has a better plan, policy or approach to each of the
+following? Cost of living
+
+                                  Total                RV               Dem                Rep             Ind/Other
+                               (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 37%                 41%                80%                6%                26%
+ Republican Party                 25%                 29%                3%                67%                14%
+ Other                             8%                  8%                4%                 4%                14%
+ Don’t know                       27%                 20%                12%               22%                41%
+ Skipped                           3%                  2%                1%                 1%                5%
+
+
+QCP_11_12. In your opinion, which political party has a better plan, policy or approach to each of the
+following? Democratic values and norms
+
+                                  Total                RV               Dem                Rep             Ind/Other
+                               (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 40%                 45%                86%                7%                29%
+ Republican Party                 25%                 30%                2%                68%                14%
+ Other                             8%                  7%                2%                 4%                13%
+ Don’t know                       24%                 17%                9%                20%                38%
+ Skipped                           3%                  1%                1%                 1%                5%
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+11
+
+TOPLINE & METHODOLOGY
+
+
+QCP_11_13. In your opinion, which political party has a better plan, policy or approach to each of the
+following? War, foreign conflicts, or terrorism
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 35%                39%                79%                3%                25%
+ Republican Party                 29%                34%                 4%               77%                17%
+ Other                             7%                 6%                 2%                3%                13%
+ Don’t know                       26%                18%                15%               16%                40%
+ Skipped                           3%                 2%                 1%                1%                5%
+
+
+QCP_11_20. In your opinion, which political party has a better plan, policy or approach to each of the
+following? The death penalty
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                               (N=1,679)          (N=1,279)           (N=522)           (N=465)            (N=692)
+ Democratic Party                 25%                28%                57%                3%                17%
+ Republican Party                 29%                34%                 6%               70%                19%
+ Other                             7%                 6%                 4%                1%                12%
+ Don’t know                       37%                31%                31%               25%                48%
+ Skipped                           3%                 2%                 1%                1%                5%
+
+
+TM628Y15. Do you support or oppose the death penalty?
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                              (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Strongly support                22%                 24%                11%               43%                17%
+ Somewhat support                33%                 34%                29%               37%                33%
+ Somewhat oppose                 19%                 20%                27%               10%                18%
+ Strongly oppose                 13%                 14%                23%                5%                11%
+ Don’t know                      12%                  8%                10%                5%                18%
+ Skipped                          1%                  1%                  *                 *                3%
+ Support (Net)                   55%                 58%                39%               80%                50%
+ Oppose (Net)                    31%                 34%                50%               15%                29%
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+12
+
+TOPLINE & METHODOLOGY
+
+
+TM629Y15. [Base: If TM628Y15 = Strongly or Somewhat oppose] Which of the following execution
+methods do you believe to be the most appropriate for the death penalty?
+
+                                   Total              RV                Dem               Rep             Ind/Other
+                                 (N=929)           (N=739)            (N=202)           (N=376)            (N=351)
+ Lethal injection                  45%                45%               56%               46%                37%
+ Firing squad                      19%                19%               12%               22%                19%
+ Electrocution / Electric           7%                7%                 7%                7%                 7%
+ Chair
+ Hanging                            5%                4%                 1%                5%                 5%
+ Gas chamber                        4%                5%                 5%                5%                 3%
+ Other                              3%                3%                 2%                3%                 4%
+ None                               1%                1%                 2%                1%                 1%
+ Don’t know                        16%                15%               14%               11%                22%
+ Skipped                             *                  *                 *                 *                 1%
+
+
+TM630Y15_1. Which of the following issues, if any, concern you regarding the death penalty? Possibility
+of executing an innocent person wrongly convicted
+
+                                Total                RV                Dem                Rep             Ind/Other
+                             (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Yes                            74%                 77%                 86%               64%                73%
+ No                             22%                 21%                 12%               35%                20%
+ Skipped                         4%                  2%                 2%                 1%                 6%
+
+
+TM630Y15_2. Which of the following issues, if any, concern you regarding the death penalty? The
+morality of the death penalty
+
+                                Total                RV                Dem                Rep             Ind/Other
+                             (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Yes                            47%                 48%                 67%               32%                43%
+ No                             49%                 50%                 31%               67%                50%
+ Skipped                         4%                  2%                 2%                 1%                 7%
+
+
+TM630Y15_3. Which of the following issues, if any, concern you regarding the death penalty? The cost of
+the death penalty to taxpayers
+
+                                Total                RV                Dem                Rep             Ind/Other
+                             (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Yes                            36%                 38%                 49%               27%                34%
+ No                             59%                 59%                 50%               71%                59%
+ Skipped                         4%                  3%                 2%                 2%                 8%
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+13
+
+TOPLINE & METHODOLOGY
+
+
+TM630Y15_4. Which of the following issues, if any, concern you regarding the death penalty? Possible
+complications associated with different methods of execution
+
+                                 Total                RV                 Dem                Rep             Ind/Other
+                              (N=1,679)           (N=1,279)            (N=522)            (N=465)            (N=692)
+ Yes                             59%                 61%                 74%                44%                 57%
+ No                              37%                 36%                 24%                53%                 36%
+ Skipped                          4%                  2%                  2%                 2%                 7%
+
+
+TM630Y15_5. Which of the following issues, if any, concern you regarding the death penalty? Whether
+the death penalty is constitutional
+
+                                 Total                RV                 Dem                Rep             Ind/Other
+                              (N=1,679)           (N=1,279)            (N=522)            (N=465)            (N=692)
+ Yes                             32%                 31%                 46%                18%                 31%
+ No                              64%                 66%                 51%                80%                 62%
+ Skipped                          4%                  3%                  3%                 2%                 7%
+
+
+TM630Y15_6. Which of the following issues, if any, concern you regarding the death penalty? Racial
+disparity
+
+                                 Total                RV                 Dem                Rep             Ind/Other
+                              (N=1,679)           (N=1,279)            (N=522)            (N=465)            (N=692)
+ Yes                             43%                 45%                 67%                15%                 44%
+ No                              53%                 53%                 31%                83%                 49%
+ Skipped                          4%                  2%                  2%                 2%                 7%
+
+
+TM3514Y26. In the United States, the federal government and some state governments administer the
+death penalty for certain crimes. There are rare instances where an individual survives the first execution
+attempt. What do you believe should happen if an individual survives the first execution attempt?
+
+                                 Total                RV                 Dem                Rep             Ind/Other
+                              (N=1,679)           (N=1,279)            (N=522)            (N=465)            (N=692)
+ They should serve
+ life in prison and
+ not face another                39%                 42%                 51%                31%                 35%
+ attempt to put them
+ to death
+ There should be
+ another attempt to              33%                 35%                 24%                52%                 28%
+ put them to death
+ Not sure                        26%                 22%                 24%                16%                 33%
+ Skipped                          2%                  1%                  1%                 1%                 4%
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+14
+
+TOPLINE & METHODOLOGY
+
+
+TM3515Y26. In general, do you think it is appropriate or inappropriate for federal or state executions to be
+shown to the public on television or on the internet?
+
+                                   Total                RV                Dem                Rep             Ind/Other
+                                (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Appropriate                       13%                 13%                 7%                21%                11%
+ Not appropriate                   71%                 74%                 85%               63%                65%
+ Not sure                          15%                 12%                 7%                15%                21%
+ Skipped                            2%                  1%                   *                1%                 3%
+
+
+TM3516Y26. The Pentagon recently announced plans to execute Nidal Hasan by firing squad. Nidal
+Hasan is a former US Army Major who killed 13 fellow soldiers and injured 32 others during a 2009 mass
+shooting at Fort Hood. Nidal Hasan was convicted of this c           rime and sentenced to death. Do you think it is
+appropriate or inappropriate to carry out this execution by firing squad?
+
+                                   Total                RV                Dem                Rep             Ind/Other
+                                (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Appropriate                       46%                 48%                 29%               71%                41%
+ Not appropriate                   29%                 31%                 51%               13%                25%
+ Not sure                          22%                 20%                 20%               15%                29%
+ Skipped                            2%                  1%                 1%                 1%                 4%
+
+
+TM3363Y26. Overall, do you approve or disapprove of U.S. military strikes against Iran?
+
+                                  Total                 RV                Dem                Rep             Ind/Other
+                                (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Approve                           34%                 37%                11%                74%                24%
+ Disapprove                        61%                 60%                88%                23%                66%
+ Skipped                            5%                  3%                 1%                 3%                10%
+
+
+TM3396Y26. Considering both the costs and benefits to the U.S., do you think it has been...?
+
+                                 Total                 RV                Dem                 Rep             Ind/Other
+                              (N=1,679)           (N=1,279)            (N=522)            (N=465)             (N=692)
+ Worth the U.S.
+ taking military                 23%                  26%                 5%                56%                 13%
+ action in Iran
+ Not worth the U.S.
+ taking military                 54%                  56%                80%                24%                 55%
+ action in Iran
+ Not sure                        20%                  16%                15%                19%                 25%
+ Skipped                          3%                  1%                    -                1%                  6%
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+15
+
+TOPLINE & METHODOLOGY
+
+
+CAA2. Just your impression, do you think U.S. military involvement in Iran will ...
+
+                                 Total                 RV                Dem                Rep              Ind/Other
+                              (N=1,679)            (N=1,279)           (N=522)            (N=465)             (N=692)
+ Go on for an
+ extended period of               78%                 81%                 90%               69%                 76%
+ time
+ End pretty quickly
+ in a matter of                   16%                 16%                 8%                28%                 14%
+ weeks
+ Skipped                          6%                   3%                 2%                 3%                 10%
+
+
+TM3408Y26. Do you think the Trump administration has a clear strategy for achieving its goals for the
+conflict with Iran, or not?
+
+                                 Total                RV                 Dem                Rep             Ind/Other
+                              (N=1,679)           (N=1,279)            (N=522)            (N=465)             (N=692)
+ Yes                             16%                  19%                 3%                42%                 8%
+ No                              58%                  61%                86%                25%                 61%
+ Not sure                        24%                  20%                11%                33%                 27%
+ Skipped                          2%                  1%                   *                  *                 4%
+
+
+TM3409Y26. Based on what you have heard about the conflict with Iran, which of the following comes
+closest to your current view of the conflict?
+
+                                  Total                RV                 Dem                Rep             Ind/Other
+                               (N=1,679)           (N=1,279)            (N=522)           (N=465)             (N=692)
+ The United States                25%                  29%                 8%               57%                 17%
+ has the advantage
+ Iran has the                     15%                  16%                24%                4%                 15%
+ advantage
+ Neither side has the             34%                  35%                47%               19%                 34%
+ advantage
+ Not sure                         24%                  19%                20%               19%                 29%
+ Skipped                           3%                  1%                  1%                1%                  5%
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+16
+
+TOPLINE & METHODOLOGY
+
+
+TM3385Y26_1. How likely, if at all, do you think it is that the following will happen in the next month? Gas
+prices will continue to go up
+
+                                  Total                 RV                Dem                Rep              Ind/Other
+                               (N=1,679)            (N=1,279)           (N=522)            (N=465)             (N=692)
+ Extremely likely                  29%                 28%                 42%               11%                 30%
+ Very likely                       26%                 27%                 30%               20%                 27%
+ Somewhat likely                   29%                 29%                 21%               38%                 28%
+ Not too likely                    12%                 12%                 4%                27%                  8%
+ Not at all likely                 3%                   3%                 3%                 4%                  3%
+ Skipped                           2%                   1%                   *                 *                  4%
+ Likely (Net)                      83%                 83%                 93%               69%                 85%
+ Not likely (Net)                  15%                 16%                 7%                30%                 11%
+
+
+TM3385Y26_2. How likely, if at all, do you think it is that the following will happen in the next month?
+Prices of consumer goods will go down
+
+                                  Total                 RV                Dem                Rep              Ind/Other
+                               (N=1,679)            (N=1,279)           (N=522)            (N=465)             (N=692)
+ Extremely likely                  3%                   3%                 2%                 4%                  3%
+ Very likely                       4%                   4%                 2%                 7%                  3%
+ Somewhat likely                   12%                 12%                 5%                23%                 10%
+ Not too likely                    36%                 38%                 33%               47%                 32%
+ Not at all likely                 42%                 42%                 57%               18%                 48%
+ Skipped                           2%                   1%                   *                1%                  3%
+ Likely (Net)                      19%                 19%                 10%               34%                 16%
+ Not likely (Net)                  79%                 80%                 90%               65%                 80%
+
+
+TM3517Y26. In September 2026, President Donald Trump addressed the United Nations. During the
+speech, President Trump made the following statement: “Will a deal be made with Iran that lets them
+rebuild and create a far greater country than it ever was before, or do I annihilate the Islamic Republic,
+and do it quickly, never giving them a chance to kill and destroy people and countries again?”
+
+Do you think this statement was appropriate or inappropriate for the president to make?
+
+                                    Total                RV                Dem                Rep             Ind/Other
+                                 (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Appropriate                        23%                 25%                 6%                58%                12%
+ Inappropriate                      52%                 55%                80%                18%                53%
+ Not sure                           23%                 19%                14%                24%                29%
+ Skipped                             3%                  1%                 1%                 1%                 5%
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+17
+
+TOPLINE & METHODOLOGY
+
+
+TM3518Y26. How much, if anything, have you heard about the Nobel Peace Prize?
+
+                                Total                RV                Dem                Rep             Ind/Other
+                             (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ A lot                          23%                 26%                32%                16%                20%
+ A little                       58%                 59%                56%                62%                55%
+ Nothing at all                 19%                 15%                12%                21%                22%
+ Skipped                         1%                  1%                  -                1%                 3%
+
+
+TM3519Y26. Do you believe President Donald Trump deserves to be awarded the Nobel Peace Prize?
+
+                                Total                RV                Dem                Rep             Ind/Other
+                             (N=1,679)           (N=1,279)           (N=522)            (N=465)            (N=692)
+ Yes                            14%                 16%                 2%                38%                6%
+ No                             69%                 70%                93%                38%                72%
+ Not sure                       15%                 13%                 5%                24%                18%
+ Skipped                         2%                  1%                  *                1%                 4%
+
+
+TM3460Y26. To what extent, if at all, do you personally identify with the Make America Great Again
+(MAGA) movement?
+
+                                 Total                RV                Dem               Rep             Ind/Other
+                              (N=1,679)           (N=1,279)           (N=522)           (N=465)            (N=692)
+ Strongly identify with
+ the MAGA                         9%                 11%                 2%               28%                 2%
+ movement
+ Somewhat identify
+ with the MAGA                   17%                 19%                 3%               42%                10%
+ movement
+ Do not identify with
+ the MAGA                        64%                 64%                90%               23%                71%
+ movement at all
+ Don’t know                       8%                  5%                 4%                6%                13%
+ Skipped                          2%                  1%                  *                1%                 4%
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006               Senior Vice President, US, Public Affairs
++1 202 463-7300             Email: alec.tyson@ipsos.com
+
+18
+
+TOPLINE & METHODOLOGY
+
+
+TM3391Y26. To what extent, if at all, do you personally identify with the Make America Healthy Again
+(MAHA) movement?
+
+                                  Total                RV                 Dem                Rep             Ind/Other
+                               (N=1,679)           (N=1,279)            (N=522)           (N=465)             (N=692)
+ Strongly identify with
+ the MAHA                          9%                  9%                  3%               22%                  5%
+ movement
+ Somewhat identify
+ with the MAHA                    19%                  21%                 7%               40%                 13%
+ movement
+ Do not identify with
+ the MAHA                         48%                  50%                71%               17%                 53%
+ movement at all
+ Don’t know                       22%                  18%                18%               20%                 25%
+ Skipped                           2%                  2%                  1%                1%                  4%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                Senior Vice President, US, Public Affairs
++1 202 463-7300              Email: alec.tyson@ipsos.com
+
+19
+
+TOPLINE & METHODOLOGY
+
+About the Study
+
+This Reuters/Ipsos poll was conducted October 16-19, 2026, by Ipsos using the probability-based
+KnowledgePanel®. This poll is based on a nationally representative probability sample of 1,679 general
+population adults aged 18 or older.
+
+The study was conducted in English. The data were weighted to adjust for gender by age, race and
+ethnicity, census region, metropolitan status, education, household income, 2024 vote choice, and
+political party identification. Political party identification benchmarks are from the 2026 NPORS annual
+survey. The demographic benchmarks came from the 2026 March supplement of the U.S. Census
+Bureau’s Current Population Survey (CPS).
+
+    •    Gender (Male, Female) by Age (18–29, 30–44, 45-59 and 60+)
+    •    Race/Hispanic Ethnicity (White Non-Hispanic, Black Non-Hispanic, Other, Non-Hispanic,
+         Hispanic, 2+ Races, Non-Hispanic)
+    •    Education (Less than High School, High School, Some College, Bachelor’s degree, Master’s
+         degree or higher)
+    •    Census Region (Northeast, Midwest, South, West)
+    •    Metropolitan status (Metro, non-Metro)
+    •    Household Income (Under $25,000, $25,000-$49,999, $50,000-$74,999, $75,000-$99,999,
+         $100,000-$149,999, $150,000+)
+    •    2024 Vote Choice (Trump, Harris, Another candidate, Did not vote)
+    •    Political Party ID (Democrat, Lean Democrat, Republican, Lean Republican,
+         Independent/Something else)
+
+The margin of sampling error is plus or minus 2.4 percentage points at the 95% confidence level, for
+results based on the entire sample of adults. The margin of sampling error takes into account the design
+effect, which was 1.02. The margin of sampling error is higher and varies for results based on sub                     -
+samples. In our reporting of the findings, percentage points are rounded off to the nearest whole number.
+As a result, percentages in a given table column may total slightly higher or lower than 100%. In
+questions that permit multiple responses, columns may total substantially more than 100%, depending on
+the number of different responses offered by each respondent.
+
+For more information on this news release, please contact:
+
+Alec Tyson
+Senior Vice President, US
+Public Affairs
+Alec.Tyson@ipsos.com
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                 Senior Vice President, US, Public Affairs
++1 202 463-7300               Email: alec.tyson@ipsos.com
+
+20
+
+TOPLINE & METHODOLOGY
+
+About Ipsos
+
+Ipsos is one of the largest market research and polling companies globally, operating in 90 markets and
+employing nearly 20,000 people.
+
+Our passionately curious research professionals, analysts and scientists have built unique multi-specialist
+capabilities that provide true understanding and powerful insights into the actions, opinions and
+motivations of citizens, consumers, patients, customers or employees. Our 75 business solutions are
+based on primary data from our surveys, social media monitoring, and qualitative or observational
+techniques.
+
+“Game Changers” – our tagline – summarizes our ambition to help our 5,000 clients navigate with
+confidence our rapidly changing world.
+
+Founded in France in 1975, Ipsos has been listed on the Euronext Paris since July 1, 1999. The company
+is part of the SBF 120, Mid-60 indices, and is eligible for the Deferred Settlement Service (SRD).
+
+ISIN code FR0000073298, Reuters ISOS.PA, Bloomberg IPS:FP www.ipsos.com
+
+35 rue du Val de Marne
+75 628 Paris, Cedex 13 France
+Tel. +33 1 41 98 90 00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020 K Street, NW, Suite 410 Contact: Alec Tyson
+Washington DC 20006                  Senior Vice President, US, Public Affairs
++1 202 463-7300               Email: alec.tyson@ipsos.com
+
+21

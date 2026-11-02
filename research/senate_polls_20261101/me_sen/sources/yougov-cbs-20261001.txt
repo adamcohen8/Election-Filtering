@@ -1,0 +1,7 @@
+Source: https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/02/3eea12d2-f488-4cf2-bc3b-ac5adff5db7e/cbsnews_20261002_maine.pdf
+Release: https://www.cbsnews.com/news/maine-senate-poll-2026-10-02/
+Location: PDF page 11, Q6
+
+Party ID columns Dem, Ind, Rep: Jackson 91%,53%,5%; Collins 9%,46%,95%; weighted N 363,424,339; total weighted N 1,136.
+
+PDF says 1,144 RV in full sample; 1,136 is weighted base for likely-voter ballot. Some aggregators say 1,114 RV; do not substitute. Independent totals 99% from rounding.

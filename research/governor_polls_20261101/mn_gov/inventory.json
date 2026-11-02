@@ -1,0 +1,95 @@
+{
+  "race_id": "mn_gov",
+  "scope": "All located qualifying releases October 1\u2013November 1 plus newest earlier qualifying releases until ten including separately supplied NYT. Search is not proof of completeness.",
+  "leads": [
+    {
+      "name": "SurveyUSA",
+      "publication_date": "2026-10-29",
+      "status": "included",
+      "poll_id": "surveyusa-mn-20261028",
+      "source_url": "https://kstp.com/wp-content/uploads/2026/10/PollMargins.pdf"
+    },
+    {
+      "name": "SurveyUSA",
+      "publication_date": "2026-10-13",
+      "status": "included",
+      "poll_id": "surveyusa-mn-20261012",
+      "source_url": "https://kstp.com/wp-content/uploads/2026/10/Poll-Races-1.pdf"
+    },
+    {
+      "name": "Mason-Dixon Polling & Strategy",
+      "publication_date": "2026-10-13",
+      "status": "included",
+      "poll_id": "mason-dixon-mn-gov-20261007",
+      "source_url": "https://datawrapper.dwcdn.net/gVgz3/1/"
+    },
+    {
+      "name": "SurveyUSA",
+      "publication_date": "2026-09-15",
+      "status": "included",
+      "poll_id": "surveyusa-mn-20260914",
+      "source_url": "https://kstp.com/wp-content/uploads/2026/09/Election-Poll-9-16.pdf"
+    },
+    {
+      "name": "TIPP Insights",
+      "publication_date": "2026-09-08",
+      "status": "included",
+      "poll_id": "tipp-mn-20260902",
+      "source_url": "https://tippinsights.com/content/files/2026/09/Tables-Minnesota-September-2026---Post.xlsx"
+    },
+    {
+      "name": "SurveyUSA",
+      "publication_date": "2026-08-18",
+      "status": "included",
+      "poll_id": "surveyusa-mn-20260817",
+      "source_url": "https://kstp.com/wp-content/uploads/2026/08/Election-Poll-8-19-26.pdf"
+    },
+    {
+      "name": "Mason-Dixon Polling & Strategy",
+      "publication_date": "2026-06-15",
+      "status": "included",
+      "poll_id": "mason-dixon-mn-gov-20260610",
+      "source_url": "https://datawrapper.dwcdn.net/NsfmF/4/"
+    },
+    {
+      "name": "Emerson College Polling",
+      "publication_date": "2026-02-11",
+      "status": "included",
+      "poll_id": "emerson-mn-gov-20260208",
+      "source_url": "https://docs.google.com/spreadsheets/d/1JA1bJWjrfS2kJbvUpGC8cGy7c0UiK7Qr/edit"
+    },
+    {
+      "name": "SurveyUSA",
+      "publication_date": "2026-01-30",
+      "status": "included",
+      "poll_id": "surveyusa-mn-gov-20260130",
+      "source_url": "https://kstp.com/wp-content/uploads/2026/02/SurveyUSA-Governor-Race-02-02-26.pdf"
+    },
+    {
+      "name": "NYT/Siena October",
+      "status": "separately supplied by user; counted once externally, not reproduced here",
+      "source_url": "https://www.nytimes.com/interactive/2026/10/28/us/elections/times-siena-poll-minnesota-crosstabs.html"
+    },
+    {
+      "name": "State Navigate October 26\u201328",
+      "status": "excluded: accessible release contains topline and party composition but no governor candidate-by-party cells",
+      "source_url": "https://projects.statenavigate.com/interactives/mn/statewide-poll-october-2026/"
+    },
+    {
+      "name": "Victory October 21\u201322",
+      "status": "excluded: party margins alone do not identify six candidate cells",
+      "evidence_path": "research/governor_polls_20261101/mn_gov/sources/victory-october.pdf"
+    },
+    {
+      "name": "Morning Consult October 2\u20137",
+      "status": "excluded: examined published graphic contains no party candidate-by-party table",
+      "evidence_path": "research/governor_polls_20261101/mn_gov/sources/morning-consult-october.png",
+      "source_url": "https://fluence-media.co/4AYwmRg"
+    },
+    {
+      "name": "co/efficient September 14\u201315",
+      "status": "unresolved: release shows governor topline; complete party table not located",
+      "source_url": "https://battlegrounds.coefficient.org/mn/"
+    }
+  ]
+}

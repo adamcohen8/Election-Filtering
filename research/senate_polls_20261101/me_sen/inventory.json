@@ -1,0 +1,219 @@
+{
+  "race_id": "me_sen",
+  "search_queries": [
+    "Maine 2026 Senate Collins Jackson October 2026 poll crosstabs",
+    "Maine Senate 2026 Collins Jackson October survey party independent",
+    "AARP Maine October 1 2026 Fabrizio Impact poll party",
+    "CNN SSRS Maine October 29 2026 crosstabs",
+    "Suffolk Maine October 2026 survey party",
+    "Rasmussen Maine Senate October 2026 crosstabs"
+  ],
+  "aggregator_urls": [
+    "https://www.270towin.com/2026-senate-polls/maine",
+    "https://www.callthemap.com/polls/SEN-ME",
+    "https://uspollingdata.com/races/senate/maine/",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+    "https://ballotpedia.org/United_States_Senate_election_in_Maine,_2026",
+    "https://www.pollcheck.co.uk/us-midterms-2026/senate/maine"
+  ],
+  "releases": [
+    {
+      "pollster": "YouGov",
+      "sponsor": "CBS News",
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-23",
+      "field_end": "2026-10-01",
+      "original_url": "https://www.cbsnews.com/news/maine-senate-poll-2026-10-02/",
+      "table_url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/02/3eea12d2-f488-4cf2-bc3b-ac5adff5db7e/cbsnews_20261002_maine.pdf",
+      "status": "ready",
+      "reason": "PDF says 1,144 RV in full sample; 1,136 is weighted base for likely-voter ballot. Some aggregators say 1,114 RV; do not substitute. Independent totals 99% from rounding."
+    },
+    {
+      "pollster": "Marist Poll",
+      "sponsor": null,
+      "publication_date": "2026-10-06",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-04",
+      "original_url": "https://maristpoll.marist.edu/polls/midterm-elections-in-maine-october-2026/",
+      "table_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610051032xtc92617B.pdf",
+      "status": "needs_review",
+      "reason": "Ns are floor(total times rounded weighted composition), estimates only, not reported respondent counts. Other is separately reported and not combined with independent; percentages rounded, composition sums to 101%."
+    },
+    {
+      "pollster": "Washington Post / Schar School",
+      "sponsor": "Washington Post / George Mason University",
+      "publication_date": "2026-10-09",
+      "field_start": "2026-09-30",
+      "field_end": "2026-10-05",
+      "original_url": "https://schar.gmu.edu/news/2026-10/washington-post-schar-school-poll-finds-tight-senate-contest-maine",
+      "table_url": "https://docs.google.com/spreadsheets/d/1pc_YoJKZGVAl08v7PYmVPH1sFIDOL9vAHykTKbKLa5I/edit",
+      "status": "needs_denominator",
+      "reason": "Independent/Other includes other identifiers. The accessible sheet did not show party sample sizes or composition; do not use leaned columns as separate observation."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-09",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-08",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_maine_senate",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_5_8_2026",
+      "status": "needs_review",
+      "reason": "Table labels Party but source does not establish how classified; classification as party_id is tentative and requires verification; must not be ingested if based on model inference. Ns floor(804 x rounded shares), estimates."
+    },
+    {
+      "pollster": "Suffolk University",
+      "sponsor": null,
+      "publication_date": "2026-10-14",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-11",
+      "original_url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states",
+      "table_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_14_2026_maine_statewide_tables.pdf?hash=11399A1ED3B2418AA97D0C202B8E02983257A32A&la=en",
+      "status": "needs_review",
+      "reason": "Independent proxy combines unenrolled/independent and Green/Libertarian; no cases dropped. Exact reported counts, weighting status not explicitly established. Ballot includes candidate leaners."
+    },
+    {
+      "pollster": "Marist Poll",
+      "sponsor": null,
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-22",
+      "field_end": "2026-10-25",
+      "original_url": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/",
+      "table_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf",
+      "status": "needs_denominator",
+      "reason": "1,449 is registered-voter sample, not likely-voter sample; LV is a weight applied to registered voters. Separate RV crosstab is same survey and excluded as duplicate. No defensible LV base identified."
+    },
+    {
+      "pollster": "Data for Progress",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-23",
+      "field_end": "2026-10-27",
+      "original_url": "https://www.dataforprogress.org/blog/2026/10/30/democratic-senate-candidates-lead-in-maine-michigan-and-texas",
+      "table_url": "https://www.filesforprogress.org/datasets/2026/10/dfp_2026_me_ge_tabs.pdf",
+      "status": "ready",
+      "reason": "Source explicitly says self-identified affiliation, not partisan registration; independent category includes third-party identifiers."
+    },
+    {
+      "pollster": "Fabrizio Ward / Impact Research",
+      "sponsor": "AARP",
+      "publication_date": "2026-10-01",
+      "field_start": "2026-09-20",
+      "field_end": "2026-09-22",
+      "original_url": "https://www.aarp.org/government-elections/maine-election-poll-2026/",
+      "table_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-maine.doi.10.26419-2fres.01065.013.pdf",
+      "status": "needs_review",
+      "reason": "Original PDF retrieved, candidate support by party ID and total and party composition provided; derived counts are estimates; party wording and leaner treatment unspecified."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-29",
+      "field_end": "2026-10-01",
+      "original_url": "https://www.thetrafalgargroup.org/news/me-senate-gen-1002/",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1001.pdf",
+      "status": "excluded",
+      "reason": "Document contains party composition, and candidate crosstabs by age, gender and ethnicity, not by party. 270toWin lists Oct 3; Wikipedia cites Oct 2."
+    },
+    {
+      "pollster": "Maine People\u2019s Resource Center",
+      "sponsor": null,
+      "publication_date": "2026-10-05",
+      "field_start": "2026-09-25",
+      "field_end": "2026-09-29",
+      "original_url": "https://drive.google.com/file/d/1nVC9doKmSak5hQ8ajaaKftWiXSEZf-Us/view",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Public Drive PDF retrieved and inspected: contains toplines and demographic distributions but no Senate support by party. Publication date conflicting: 270toWin/Wikipedia Oct 5, Ballotpedia Sept 30."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-15",
+      "field_start": "2026-10-13",
+      "field_end": "2026-10-14",
+      "original_url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release is topline only; promised separate tabs not located. Aggregators cite Oct 16, primary page Oct 15."
+    },
+    {
+      "pollster": "Beacon Research / Shaw & Company Research",
+      "sponsor": "Fox News",
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-16",
+      "field_end": "2026-10-20",
+      "original_url": "https://www.foxnews.com/",
+      "table_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-16-20-2026_maine_topline_october-22-release.pdf",
+      "status": "excluded",
+      "reason": "Original release PDF is topline, no complete party candidate crosstab identified."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-25",
+      "field_start": "2026-10-21",
+      "field_end": "2026-10-23",
+      "original_url": "https://www.thetrafalgargroup.org/",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+      "status": "excluded",
+      "reason": "PDF has age/gender/ethnicity candidate crosstabs, not party candidate crosstab."
+    },
+    {
+      "pollster": "Echelon Insights",
+      "sponsor": "NetChoice",
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-16",
+      "field_end": "2026-10-23",
+      "original_url": "https://netchoice.org/",
+      "table_url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "status": "excluded",
+      "reason": "Public document is toplines, no Maine party-specific ballot table identified."
+    },
+    {
+      "pollster": "SSRS",
+      "sponsor": "CNN",
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-26",
+      "original_url": "https://kvia.com/politics/cnn-us-politics/2026/10/29/democrats-in-striking-distance-new-cnn-polls-in-four-states-highlight-partys-path-to-senate-majority/",
+      "table_url": "https://www.documentcloud.org/documents/28856725-cnn-poll-conducted-by-ssrs-maine-october/",
+      "status": "inaccessible",
+      "reason": "DocumentCloud returned HTTP 403; syndicated CNN report provides topline and methodology but not full three party rows."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-11-01",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-29",
+      "original_url": "https://www.270towin.com/2026-senate-polls/maine",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_me_20261026_lv.pdf",
+      "status": "excluded",
+      "reason": "Publication November 1 per 270toWin; PDF reports toplines only, not party candidate crosstabs. Party registration composition alone is not a crosstab."
+    },
+    {
+      "pollster": "Wedgewood Polls",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-09-27",
+      "field_end": "2026-10-01",
+      "original_url": "https://uspollingdata.com/races/senate/maine/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Disclosed fabricated pollster, explicitly blocked. No publication date established."
+    },
+    {
+      "pollster": "co/efficient",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-30",
+      "original_url": "https://battlegrounds.coefficient.org/me/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Primary page says released September 2026; Ballotpedia says Oct 1, 270toWin Sept 30. Publication eligibility uncertain; primary page contains no party-specific ballot table."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "polls": [
+    {
+      "race_id": "mi_sen",
+      "state": "Michigan",
+      "office": "senate",
+      "poll_id": "marist-mi-20260927",
+      "pollster": "Marist Poll",
+      "sponsor": null,
+      "publication_date": "2026-09-30",
+      "field_start": "2026-09-24",
+      "field_date": "2026-09-27",
+      "population": "RV",
+      "candidate_a": "Mike Rogers",
+      "candidate_b": "Abdul El-Sayed",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "crosstab_basis": "party_id",
+      "party_question": "Party identification; independent excludes Other. Rounded weighted composition supports estimated bases only. Published overall DEFF1.87; working DEFF3 protects composition estimates.",
+      "ballot_question_stage": "Initial Senate ballot; one version per survey.",
+      "reported_total_n": 1235,
+      "subgroup_n_method": "derived_total_x_share",
+      "sample_id": "marist-mi-20260927",
+      "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_MI-NOS-and-Tables_202609281401%409159_7e99y.pdf",
+      "release_url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-september-2026/",
+      "source_location": "p8 SNVT26R; p2 composition; p1 methodology",
+      "evidence_path": "research/senate_polls_20261101/backfill_mi_sen/sources/EXCERPTS.md",
+      "evidence_excerpt": "R/D/I Mike Rogers: 0.93/0.02/0.45; Abdul El-Sayed: 0.03/0.95/0.48.",
+      "notes": "Party identification; independent excludes Other. Rounded weighted composition supports estimated bases only. Published overall DEFF1.87; working DEFF3 protects composition estimates.",
+      "provenance_type": "primary_source_transcription",
+      "ingestion_status": "needs_review",
+      "republican_a": 0.93,
+      "republican_b": 0.03,
+      "democratic_a": 0.02,
+      "democratic_b": 0.95,
+      "independent_a": 0.45,
+      "independent_b": 0.48,
+      "republican_n": null,
+      "democratic_n": null,
+      "independent_n": null,
+      "reported_party_composition": {
+        "republican": 0.29,
+        "democratic": 0.34,
+        "independent": 0.32,
+        "other": 0.05
+      }
+    }
+  ]
+}

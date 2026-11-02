@@ -1,0 +1,173 @@
+{
+  "race_id": "mn_sen",
+  "search_queries": [
+    "Minnesota US Senate 2026 nominees secretary of state",
+    "Minnesota Senate Flanagan Tafoya October 2026 poll crosstabs",
+    "SurveyUSA KSTP Minnesota 2026 October Senate tables",
+    "Rasmussen Minnesota Senate 2026 party crosstabs",
+    "Siena Minnesota Senate October 2026"
+  ],
+  "aggregator_urls": [
+    "https://scrutinel.com/race/mn-sen/",
+    "https://www.270towin.com/2026-senate-polls/minnesota",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+    "https://www.callthemap.com/polls/pollsters/surveyusa",
+    "https://www.realclearpolling.com/polls/senate/general/2026/minnesota/tafoya-vs-flanagan"
+  ],
+  "releases": [
+    {
+      "pollster": "SurveyUSA",
+      "sponsor": "KSTP/KAAL/WDIO",
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-24",
+      "field_end": "2026-10-28",
+      "original_url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-minnesota-statewide-races-inch-left-in-final-poll-before-election-day/",
+      "table_url": "https://kstp.com/wp-content/uploads/2026/10/PollMargins.pdf",
+      "status": "included",
+      "reason": "Party affiliation, four-candidate initial choice, rounded weighted composition."
+    },
+    {
+      "pollster": "SurveyUSA",
+      "sponsor": "KSTP/KAAL/WDIO",
+      "publication_date": "2026-10-13",
+      "field_start": "2026-10-08",
+      "field_end": "2026-10-12",
+      "original_url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/",
+      "table_url": "https://kstp.com/wp-content/uploads/2026/10/Poll-Races-1.pdf",
+      "status": "included",
+      "reason": "Party affiliation, four-candidate initial choice, rounded weighted composition."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-09",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-07",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_minnesota_senate",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_minnesota_senate_october_5_7_2026",
+      "status": "needs_review",
+      "reason": "Two-way party crosstabs, I/Other combined; composition rounded and exact party wording unavailable."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "publication_date": "2026-10-22",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-21",
+      "original_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_minnesota_senate",
+      "table_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_minnesota_senate_october_20_21_2026",
+      "status": "needs_review",
+      "reason": "Two-way party crosstabs; article contradicts the direct table on R/D crossovers; table takes precedence pending correction."
+    },
+    {
+      "pollster": "Big Data Poll",
+      "sponsor": "Public Polling Project",
+      "publication_date": "2026-10-02",
+      "field_start": "2026-09-29",
+      "field_end": "2026-09-30",
+      "original_url": "https://www.bigdatapoll.com/blog/north-star-state-poll-peggy-flanagan-holds-slight-lead-over-michele-tafoya-for-us-senate-in-minnesota/",
+      "table_url": "https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=director%40bigdatapoll.com&id=e2d0610e-a1c1-40da-b1fa-b4d70011b55d",
+      "status": "needs_review",
+      "reason": "Interactive initial ballot; reported Sample Size weighting unclear; I/Other combined."
+    },
+    {
+      "pollster": "New York Times/Siena",
+      "sponsor": "New York Times",
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-19",
+      "field_end": "2026-10-26",
+      "original_url": "https://sri.siena.edu/2026/10/28/nytimes-siena-poll-of-likely-voters-florida-minnesota-and-south-carolina/",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-mn-poll-crosstabs.html",
+      "status": "inaccessible",
+      "reason": "NYT crosstab browser and escalated curl 403; no circumvention."
+    },
+    {
+      "pollster": "Victory Insights",
+      "sponsor": "Michele Tafoya campaign",
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-21",
+      "field_end": "2026-10-22",
+      "original_url": "https://irp.cdn-website.com/07e08705/files/uploaded/PollReport_MN-GE-26_10-28-26.pdf",
+      "table_url": "https://irp.cdn-website.com/07e08705/files/uploaded/PollReport_MN-GE-26_10-28-26.pdf",
+      "status": "excluded",
+      "reason": "Public 12-page report provides R/D/I vote margins only, not individual candidate support per group; no invertible complete crosstabs."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-16",
+      "field_start": "2026-10-13",
+      "field_end": "2026-10-15",
+      "original_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/MN-Midterms-Report-1017.pdf",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/MN-Midterms-Report-1017.pdf",
+      "status": "excluded",
+      "reason": "Original 8-page report only age, gender, race candidate crosstabs; no party vote conditional table."
+    },
+    {
+      "pollster": "Mason-Dixon Polling & Strategy",
+      "sponsor": "Minnesota Star Tribune/KARE 11",
+      "publication_date": "2026-10-12",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-07",
+      "original_url": "https://www.startribune.com/minnesota-poll-flanagan-tafoya-senate/601887443",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Article/crosstabs access restricted; no source-backed full conditional party table."
+    },
+    {
+      "pollster": "Morning Consult",
+      "sponsor": "The Daily Agenda",
+      "publication_date": "2026-10-09",
+      "field_start": "2026-10-02",
+      "field_end": "2026-10-07",
+      "original_url": "https://www.thedailyagenda.com/p/morning-take-the-daily-agenda-poll",
+      "table_url": null,
+      "status": "unresolved",
+      "reason": "Original memo/table for this wave not located; published topline alone insufficient."
+    },
+    {
+      "pollster": "GQR",
+      "sponsor": "Senate Majority PAC",
+      "publication_date": "2026-10-09",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-04",
+      "original_url": "https://x.com/DrewSav/status/2108502733045334207",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Campaign-related release inaccessible; no original party crosstabs verified."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-09-30",
+      "field_start": "2026-09-28",
+      "field_end": "2026-09-29",
+      "original_url": "https://insideradvantage.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "First released Sept 30, before cutoff; later aggregation does not qualify."
+    },
+    {
+      "pollster": "SurveyUSA",
+      "sponsor": "KSTP/KAAL/WDIO",
+      "publication_date": "2026-09-16",
+      "field_start": "2026-09-09",
+      "field_end": "2026-09-14",
+      "original_url": "https://kstp.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Pre-cutoff prior wave."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": null,
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Disclosed fabricated pollster, blocked regardless of dates."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "included": [
+    {
+      "poll_id": "quantus-ga-20260916",
+      "source_url": "https://drive.google.com/file/d/1zqVNjagPrRDYJ4sIg6aKe3G0ggfv7yek/view",
+      "source_location": "quantus.pdf p8 Q1"
+    },
+    {
+      "poll_id": "insider-ga-20260817",
+      "source_url": "https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.jpg",
+      "source_location": "insider_aug.jpg Senate chart"
+    },
+    {
+      "poll_id": "aarp-ga-20260716",
+      "source_url": "https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-georgia.doi.10.26419-2fres.01065.004.pdf",
+      "source_location": "Original report page 5 Senate contest; accessed normally in Safari"
+    },
+    {
+      "poll_id": "wick-ga-20260630",
+      "source_url": "https://wick.io/assets/research-georgia-election-survey-june-2026-crosstabs.xlsx?v=20260716-report-audit",
+      "source_location": "wick.xlsx Senate ballot Q11, party ID columns G-I"
+    },
+    {
+      "poll_id": "fox-ga-20260627",
+      "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_june-23-27-2026_complete_georgia_cross-tabs_july-1-release.pdf",
+      "source_location": "fox.pdf p2, question 2, party columns"
+    },
+    {
+      "poll_id": "emerson-ga-20260302",
+      "source_url": "https://docs.google.com/spreadsheets/d/1WMIkxH0hZRhWe0dbY6wtuuqshJGChuhv/edit",
+      "source_location": "emerson.xlsx full crosstabs rows 46-49, columns U/W/Y"
+    },
+    {
+      "poll_id": "quantus-ga-20250912",
+      "source_url": "https://drive.google.com/file/d/1s_XyIo0Rre1TGtVisHKu9hW3S4yEvxRl/view",
+      "source_location": "quantus2025.pdf p6"
+    },
+    {
+      "poll_id": "trafalgar-ga-20250427",
+      "source_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2025/04/GA-26-US-Senate-0428_Full-Report.pdf",
+      "source_location": "traf2025.pdf p20 party crosstab"
+    }
+  ],
+  "unresolved": [
+    {
+      "pollster": "Big Data Poll",
+      "publication_date": "2026-09-24",
+      "release_url": "https://www.bigdatapoll.com/blog/peace-state-poll-jon-ossoff-opens-up-lead-over-mike-collin-in-georgia/",
+      "crosstab_url": "https://application.marketsight.com/app/ItemView.aspx?SharedFor=public%40bigdatapoll.com&SharedBy=34090&id=c7c559ca-f7a0-45c9-9e09-b4cf015445c6",
+      "reason": "Original MarketSight linked report could not be accessed; unresolved, do not infer cells."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "publication_date": "2026-09-25",
+      "release_url": "https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/",
+      "reason": "Full party candidate table not recovered; separate social posts may exist."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "publication_date": "2026-09-14",
+      "release_url": "https://www.wjcl.com/article/trafalgar-georgia-senate-race-ossoff-collins/73721116",
+      "reason": "Party composition and topline reported, not six party ballot cells."
+    },
+    {
+      "pollster": "Cygnal",
+      "publication_date": "2025-05-22",
+      "release_url": "https://www.270towin.com/2026-senate-polls/georgia",
+      "reason": "Adobe original report needs JavaScript; accessible topline report did not establish six cells."
+    },
+    {
+      "pollster": "YouGov",
+      "publication_date": "2026-09-23",
+      "reason": "Accessible report has ballot by age, gender, race, and likely voter status; no party ballot table found."
+    },
+    {
+      "pollster": "TIPP Insights",
+      "publication_date": null,
+      "field_dates": "2025-07-28 through 2025-08-01",
+      "reason": "Listed matchup; full party ballot cells not recovered."
+    }
+  ]
+}

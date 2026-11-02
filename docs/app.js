@@ -210,6 +210,7 @@ const racePage = document.querySelector("#race-page");
 const tabs = document.querySelectorAll(".tab");
 const modeledCount = document.querySelector("#modeled-count");
 const redCount = document.querySelector("#red-count");
+const independentCount = document.querySelector("#independent-count");
 const blueCount = document.querySelector("#blue-count");
 const tossupCount = document.querySelector("#tossup-count");
 const updatedAt = document.querySelector("#updated-at");
@@ -253,6 +254,10 @@ const raceBar = document.querySelector("#race-bar");
 const raceBarLeft = document.querySelector("#race-bar-left");
 const raceBarRight = document.querySelector("#race-bar-right");
 const raceChart = document.querySelector("#race-chart");
+const raceRollingSummary = document.querySelector("#race-rolling-summary");
+const raceRollingRepublican = document.querySelector("#race-rolling-republican");
+const raceRollingDemocratic = document.querySelector("#race-rolling-democratic");
+const raceRollingMargin = document.querySelector("#race-rolling-margin");
 
 let selectedOffice = "senate";
 let selectedState = null;
@@ -480,6 +485,7 @@ function renderSummary() {
   modeledCount.textContent = races.length;
   redCount.textContent = races.filter((race) => race.leader === "republican").length;
   blueCount.textContent = races.filter((race) => race.leader === "democratic").length;
+  independentCount.textContent = races.filter((race) => race.leader === "independent").length;
   tossupCount.textContent = races.filter((race) => race.status === "tossup").length;
   updatedAt.textContent = forecastPayload.generated_at
     ? new Intl.DateTimeFormat(undefined, {
@@ -502,6 +508,8 @@ function renderDetail() {
     republicanBar: senateRepublicanBar,
     democraticBar: senateDemocraticBar,
     tossupBar: senateTossupBar,
+    independentSeats: document.querySelector("#senate-independent-seats"),
+    independentBar: document.querySelector("#senate-independent-bar"),
   });
   renderChamberMakeup("governor", governorMakeup(), {
     total: governorTotal,
@@ -522,11 +530,11 @@ function renderActiveMakeupCard() {
 function renderGenericBallot() {
   const race = forecastPayload.races.find((item) => item.race_id === "us_house_generic");
 
-  if (!race) {
-    genericLeader.textContent = "-";
+  if (!race || !hasForecastData(race)) {
+    genericLeader.textContent = race ? "Awaiting polls" : "-";
     genericMargin.textContent = "-";
     genericMoe.textContent = "-";
-    genericStatus.textContent = "-";
+    genericStatus.textContent = race ? "Awaiting polls" : "-";
     genericRepublicanShare.textContent = "-";
     genericDemocraticShare.textContent = "-";
     genericBar.classList.add("is-empty");
@@ -550,13 +558,15 @@ function renderGenericBallot() {
 }
 
 function renderChamberMakeup(kind, counts, elements) {
-  const total = counts.republican + counts.democratic + counts.tossup;
+  const independent = counts.independent ?? 0;
+  const total = counts.republican + counts.democratic + independent + counts.tossup;
   const republicanWidth = total > 0 ? (counts.republican / total) * 100 : 50;
   const tossupWidth = total > 0 ? (counts.tossup / total) * 100 : 0;
-  const democraticWidth = Math.max(0, 100 - republicanWidth - tossupWidth);
+  const independentWidth = total > 0 ? independent / total * 100 : 0;
+  const democraticWidth = Math.max(0, 100 - republicanWidth - tossupWidth - independentWidth);
   elements.total.textContent =
     kind === "senate"
-      ? `${counts.republican}-${counts.democratic}-${counts.tossup}`
+      ? `${counts.republican} R · ${counts.democratic} D · ${independent} I · ${counts.tossup} unrated`
       : `${total} seats`;
   elements.republicanSeats.textContent = counts.republican;
   elements.democraticSeats.textContent = counts.democratic;
@@ -564,10 +574,12 @@ function renderChamberMakeup(kind, counts, elements) {
   elements.republicanBar.style.width = `${republicanWidth}%`;
   elements.tossupBar.style.width = `${tossupWidth}%`;
   elements.democraticBar.style.width = `${democraticWidth}%`;
+  if (elements.independentSeats) elements.independentSeats.textContent = independent;
+  if (elements.independentBar) elements.independentBar.style.width = `${independentWidth}%`;
 }
 
 function senateMakeup() {
-  const counts = { ...senateSeatsBefore, tossup: 0 };
+  const counts = { ...senateSeatsBefore, independent: 0, tossup: 0 };
   const senateRaces = racesByState("senate");
 
   Object.entries(senateIncumbentParties2026).forEach(([stateCode, incumbentParty]) => {
@@ -595,14 +607,14 @@ function predictedPartyForRace(race, incumbentParty) {
   if (!race) {
     return incumbentParty;
   }
-  if (race.status === "tossup") {
+  if (!hasForecastData(race) || race.status === "tossup") {
     return "tossup";
   }
   if (race.margin > 0) {
     return "republican";
   }
   if (race.margin < 0) {
-    return "democratic";
+    return (race.candidate_b_party ?? "Democratic").toLowerCase();
   }
   return incumbentParty;
 }
@@ -639,7 +651,7 @@ function leaderLabel(race) {
   if (race.leader === "republican") {
     return candidateLabel(race, "republican");
   }
-  if (race.leader === "democratic") {
+  if (race.leader === "democratic" || race.leader === "independent") {
     return candidateLabel(race, "democratic");
   }
   return "Tie";
@@ -649,12 +661,13 @@ function candidateLabel(race, party, compact = false) {
   if (party === "republican") {
     return race.candidate_a_name ?? (compact ? "Rep" : "Republican");
   }
-  return race.candidate_b_name ?? (compact ? "Dem" : "Democratic");
+  return race.candidate_b_name ?? (race.candidate_b_party === "Independent" ? (compact ? "Ind" : "Independent") : (compact ? "Dem" : "Democratic"));
 }
 
 function statusLabel(status) {
   const labels = {
     tossup: "Tossup",
+    unrated: "Awaiting polls",
     "tilt-republican": "Tilt Republican",
     "lean-republican": "Lean Republican",
     "likely-republican": "Likely Republican",
@@ -663,6 +676,10 @@ function statusLabel(status) {
     "lean-democratic": "Lean Democratic",
     "likely-democratic": "Likely Democratic",
     "safe-democratic": "Safe Democratic",
+    "tilt-independent": "Tilt Independent",
+    "lean-independent": "Lean Independent",
+    "likely-independent": "Likely Independent",
+    "safe-independent": "Safe Independent",
   };
   if (status in labels) {
     return labels[status];
@@ -709,12 +726,16 @@ function renderRacePage(raceId) {
 
   dashboardPage.hidden = true;
   racePage.hidden = false;
+  racePage.classList.toggle("is-independent", race.candidate_b_party === "Independent");
+  racePage.querySelectorAll("[data-opponent-kind]").forEach((element) => {
+    element.textContent = `${race.candidate_b_party ?? "Democratic"} ${element.dataset.opponentKind}`;
+  });
   hideTooltip();
 
   raceOffice.textContent = officeLabel(race.office);
   raceTitle.textContent = raceTitleLabel(race);
   raceStatus.textContent = hasForecastData(race) ? statusLabel(race.status) : "No data available";
-  raceStatus.className = `race-status ${hasForecastData(race) ? race.status : "tossup"}`;
+  raceStatus.className = `race-status ${hasForecastData(race) ? race.status : "unrated"}`;
   raceLeader.textContent = leaderLabel(race);
   raceMargin.textContent = signedPercent(race.margin_percent);
   raceMoe.textContent =
@@ -742,7 +763,25 @@ function renderRacePage(raceId) {
   raceBarLeft.style.width = `${republicanWidth}%`;
   raceBarRight.style.width = `${100 - republicanWidth}%`;
 
+  renderRollingAverage(race);
   renderRaceChart(race);
+}
+
+function renderRollingAverage(race) {
+  const history = raceHistoryPayload.races.find((item) => item.race_id === race.race_id);
+  const average = history?.rolling_average;
+  const available = average && typeof average.candidate_a_share === "number" &&
+    typeof average.candidate_b_share === "number";
+  raceRollingSummary.textContent = available
+    ? `${average.poll_count} of 7 polls · ${average.window_start_date} to ${average.date}`
+    : "Awaiting polls";
+  raceRollingRepublican.textContent = available
+    ? `${candidateLabel(race, "republican")}: ${(average.candidate_a_share * 100).toFixed(1)}%`
+    : "Republican: —";
+  raceRollingDemocratic.textContent = available
+    ? `${candidateLabel(race, "democratic")}: ${(average.candidate_b_share * 100).toFixed(1)}%`
+    : `${race.candidate_b_party ?? "Democratic"}: —`;
+  raceRollingMargin.textContent = available ? signedPercent(average.margin_percent) : "—";
 }
 
 function renderRaceChart(race) {
@@ -752,6 +791,10 @@ function renderRaceChart(race) {
     .map((point) => ({ ...point, parsedDate: parseDate(point.date) }))
     .filter((point) => point.parsedDate);
   const pollPoints = (history?.poll_points ?? [])
+    .filter((point) => typeof point.candidate_a_share === "number" && typeof point.candidate_b_share === "number")
+    .map((point) => ({ ...point, parsedDate: parseDate(point.date) }))
+    .filter((point) => point.parsedDate);
+  const rollingPoints = (history?.rolling_average_points ?? [])
     .filter((point) => typeof point.candidate_a_share === "number" && typeof point.candidate_b_share === "number")
     .map((point) => ({ ...point, parsedDate: parseDate(point.date) }))
     .filter((point) => point.parsedDate);
@@ -770,10 +813,11 @@ function renderRaceChart(race) {
   const margin = { top: 24, right: 28, bottom: 46, left: 54 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
-  const allDates = [...modelPoints, ...pollPoints].map((point) => point.parsedDate);
+  const allDates = [...modelPoints, ...pollPoints, ...rollingPoints].map((point) => point.parsedDate);
   const allShares = [
     ...modelPoints.flatMap((point) => [point.candidate_a_share, point.candidate_b_share]),
     ...pollPoints.flatMap((point) => [point.candidate_a_share, point.candidate_b_share]),
+    ...rollingPoints.flatMap((point) => [point.candidate_a_share, point.candidate_b_share]),
   ];
   const dateExtent = d3.extent(allDates);
   const shareExtent = d3.extent(allShares);
@@ -789,7 +833,7 @@ function renderRaceChart(race) {
     .append("svg")
     .attr("viewBox", `0 0 ${width} ${height}`)
     .attr("role", "img")
-    .attr("aria-label", `${raceTitleLabel(race)} model prediction over time`);
+    .attr("aria-label", `${raceTitleLabel(race)} Kalman estimates and seven-poll rolling averages over time`);
   const plot = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
 
   plot
@@ -832,6 +876,22 @@ function renderRaceChart(race) {
       .attr("d", democraticLine);
   }
 
+  for (const [party, shareKey] of [["republican", "candidate_a_share"], ["democratic", "candidate_b_share"]]) {
+    const rollingLine = d3.line()
+      .x((point) => x(point.parsedDate))
+      .y((point) => y(point[shareKey]));
+    if (rollingPoints.length >= 2) {
+      plot.append("path").datum(rollingPoints)
+        .attr("class", `rolling-line ${party}`).attr("d", rollingLine);
+    }
+    plot.append("g").attr("class", `rolling-markers ${party}`)
+      .selectAll("circle").data(rollingPoints).join("circle")
+      .attr("cx", (point) => x(point.parsedDate))
+      .attr("cy", (point) => y(point[shareKey])).attr("r", 3)
+      .append("title")
+      .text((point) => `${point.date}: ${point.poll_count}-poll average ${(point[shareKey] * 100).toFixed(1)}%`);
+  }
+
   drawPollMarkers(plot, pollPoints, x, y, "candidate_a_share", "republican", race);
   drawPollMarkers(plot, pollPoints, x, y, "candidate_b_share", "democratic", race);
 }
@@ -850,7 +910,15 @@ function drawPollMarkers(plot, pollPoints, x, y, shareKey, party, race) {
     .append("title")
     .text((point) => {
       const label = party === "republican" ? candidateLabel(race, "republican") : candidateLabel(race, "democratic");
-      return `${point.pollster} (${point.date}): ${label} ${(point[shareKey] * 100).toFixed(1)}%`;
+      const basis = {
+        party_id: "party ID",
+        party_registration: "party registration",
+        modeled_party_id: "modeled party affiliation",
+        party_basis_unspecified: "party classification unspecified",
+        modeled_subgroup_estimate: "model-derived subgroup estimates",
+      }[point.party_basis];
+      const precision = point.precision_method === "assumed_covariance" ? "; assumed uncertainty" : "";
+      return `${point.pollster} (${point.date}): ${label} ${(point[shareKey] * 100).toFixed(1)}%${basis ? `; ${basis}` : ""}${precision}`;
     });
 }
 

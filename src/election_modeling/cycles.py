@@ -28,24 +28,25 @@ DEFAULT_PLACEHOLDER_ELECTORATE = Electorate(
 )
 
 TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE: dict[str, Electorate] = {
-    "Alaska": Electorate(republican=0.35, democratic=0.19, independent=0.46),
-    "Arizona": Electorate(republican=0.34, democratic=0.27, independent=0.39),
-    "Florida": Electorate(republican=0.42, democratic=0.28, independent=0.30),
-    "Georgia": Electorate(republican=0.41, democratic=0.36, independent=0.23),
-    "Iowa": Electorate(
-        republican=36.0 / 101.0,
-        democratic=26.0 / 101.0,
-        independent=39.0 / 101.0,
-    ),
-    "Maine": Electorate(republican=0.233, democratic=0.275, independent=0.492),
-    "Michigan": Electorate(republican=0.34, democratic=0.35, independent=0.31),
-    "New Hampshire": Electorate(republican=0.29, democratic=0.28, independent=0.43),
-    "North Carolina": Electorate(republican=0.37, democratic=0.32, independent=0.31),
-    "Ohio": Electorate(republican=0.41, democratic=0.30, independent=0.29),
-    "Pennsylvania": Electorate(republican=0.40, democratic=0.37, independent=0.23),
-    "Texas": Electorate(republican=0.41, democratic=0.30, independent=0.29),
-    "United States": Electorate(republican=0.35, democratic=0.35, independent=0.30),
-    "Wisconsin": Electorate(republican=0.37, democratic=0.33, independent=0.30),
+    "Alaska": Electorate(republican=0.40, democratic=0.24, independent=0.36),
+    "Arizona": Electorate(republican=0.36, democratic=0.29, independent=0.35),
+    "Florida": Electorate(republican=0.40, democratic=0.27, independent=0.33),
+    "Georgia": Electorate(republican=0.40, democratic=0.36, independent=0.24),
+    "Iowa": Electorate(republican=0.38, democratic=0.27, independent=0.35),
+    "Kansas": Electorate(republican=0.48, democratic=0.27, independent=0.25),
+    "Maine": Electorate(republican=0.26, democratic=0.30, independent=0.44),
+    "Michigan": Electorate(republican=0.35, democratic=0.33, independent=0.32),
+    "Minnesota": Electorate(republican=0.34, democratic=0.37, independent=0.29),
+    # User-selected Nebraska turnout shares.
+    "Nebraska": Electorate(republican=0.57, democratic=0.24, independent=0.19),
+    "Nevada": Electorate(republican=0.38, democratic=0.34, independent=0.28),
+    "New Hampshire": Electorate(republican=0.32, democratic=0.30, independent=0.38),
+    "North Carolina": Electorate(republican=0.38, democratic=0.36, independent=0.26),
+    "Ohio": Electorate(republican=0.42, democratic=0.30, independent=0.28),
+    "Pennsylvania": Electorate(republican=0.38, democratic=0.38, independent=0.24),
+    "Texas": Electorate(republican=0.41, democratic=0.28, independent=0.31),
+    "United States": Electorate(republican=0.37, democratic=0.33, independent=0.30),
+    "Wisconsin": Electorate(republican=0.37, democratic=0.34, independent=0.29),
 }
 
 SENATE_2026_STATES: tuple[str, ...] = (
@@ -59,8 +60,12 @@ SENATE_2026_STATES: tuple[str, ...] = (
     "Michigan",
     "Ohio",
     "North Carolina",
+    "Kansas",
+    "Minnesota",
+    "Nebraska",
 )
 
+# Alaska governor is excluded by user request: its GOP has multiple finalists.
 GOVERNOR_2026_STATES: tuple[str, ...] = (
     "Florida",
     "Georgia",
@@ -72,6 +77,10 @@ GOVERNOR_2026_STATES: tuple[str, ...] = (
     "Ohio",
     "Michigan",
     "Wisconsin",
+    "Kansas",
+    "Maine",
+    "Nevada",
+    "Minnesota",
 )
 
 GENERIC_BALLOT_2026_RACES: tuple[RaceSpec, ...] = (
@@ -89,8 +98,12 @@ STATE_ABBREVIATIONS: dict[str, str] = {
     "Florida": "fl",
     "Georgia": "ga",
     "Iowa": "ia",
+    "Kansas": "ks",
     "Maine": "me",
     "Michigan": "mi",
+    "Minnesota": "mn",
+    "Nebraska": "ne",
+    "Nevada": "nv",
     "New Hampshire": "nh",
     "North Carolina": "nc",
     "Ohio": "oh",

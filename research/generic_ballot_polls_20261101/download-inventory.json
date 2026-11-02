@@ -1,0 +1,163 @@
+[
+  {
+    "name": "economist-oct26",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_nJaupnc.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/economist-oct26.pdf",
+    "sha256": "acd9bfa787837c5e98241151d0760ed4d38b373423e91b9bcc08f7c7a027026b",
+    "bytes": 278462
+  },
+  {
+    "name": "economist-oct20",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_AjDiUmp.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/economist-oct20.pdf",
+    "sha256": "0e9129b2c71efff4ad11a56e876d688c13adddfe725a02686a10c9be2fccd138",
+    "bytes": 237994
+  },
+  {
+    "name": "ipsos-oct26",
+    "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/ipsos-oct26.pdf",
+    "sha256": "0ee2dca1ac3b9f3c14db78b107286a4271a3e57efe0bd4531698dcfe4c10aa5c",
+    "bytes": 664898
+  },
+  {
+    "name": "marist-oct20",
+    "url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/marist-oct20.pdf",
+    "sha256": "0fd731e32eaa874e4877737c724acc384be30619f0c1026de041c0802d7561a1",
+    "bytes": 1292433
+  },
+  {
+    "name": "cygnal-oct24",
+    "url": "https://www.cygn.al/wp-content/uploads/2026/10/Cygnal-National-Late-Oct26-NVT-Deck-Public.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/cygnal-oct24.pdf",
+    "sha256": "342387e35ad3d1b46c7d805bb500d87c15cc6c4b7a97dcf1aac9ff13807a9739",
+    "bytes": 15843999
+  },
+  {
+    "name": "cbs-oct23",
+    "url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/25/8ad451c3-2d1f-4f7f-a3c8-97f923271e92/cbsnews_20261025_sun.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/cbs-oct23.pdf",
+    "sha256": "12d7562222e3e2c4688d2f4b41b95abce25ee699871ce2e74133c2dfe1686e3c",
+    "bytes": 482819
+  },
+  {
+    "name": "fox-oct12",
+    "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-9-12-2026_complete_national_cross-tabs_october-14-release.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/fox-oct12.pdf",
+    "sha256": "299ba7c2ffd6fc00965163fd699f3e7e72a9e4f8943c708172ad185e2b912eb2",
+    "bytes": 635769
+  },
+  {
+    "name": "harvard-oct26",
+    "url": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Oct2026_KeyResults.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/harvard-oct26.pdf",
+    "sha256": "701939aac7eefea5bc23ab3d2ccf01877af89c39f9543ac143059788630a94fe",
+    "bytes": 1350261
+  },
+  {
+    "name": "echelon-oct23",
+    "url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/echelon-oct23.pdf",
+    "sha256": "8eaf1ada054ba5a85dd60d1fb6e80b865cbd7f83099f3a77f51ddd296dc21145",
+    "bytes": 1408434
+  },
+  {
+    "name": "ipsos-oct19",
+    "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20News%20Issue%20Survey%20October%202026%20Topline_2.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/ipsos-oct19.pdf",
+    "sha256": "8356c7aa6e77e328fada4893102248ba062435e432dd2f9a1c4cec1a4e4d67d7",
+    "bytes": 585504
+  },
+  {
+    "name": "abc-post-oct13",
+    "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/ABC-Post-Ipsos%20Trend%20Topline%2010.18.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/abc-post-oct13.pdf",
+    "sha256": "20f061d33ef80f4da83d575ae9f144407c71561a91cfefc6fab4e43d99369664",
+    "bytes": 334162
+  },
+  {
+    "name": "cygnal-oct10",
+    "url": "https://www.cygn.al/wp-content/uploads/2026/10/Cygnal-National-Poll-on-Foreign-Conflicts-Oct-2026.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/cygnal-oct10.pdf",
+    "sha256": "e1698643ff1f3b153d5b6cd6c63796b4351e5033c8d9fb26a112f11e28b47ebc",
+    "bytes": 1134800
+  },
+  {
+    "name": "economist-oct5",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_703uvs1.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/economist-oct5.pdf",
+    "sha256": "af701df207e2f8ca3c21e701afb5394cfd743a989ddd0d405d0166931592d16d",
+    "bytes": 342304
+  },
+  {
+    "name": "ipsos-oct5",
+    "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Large%20Issue%20Topline%2010.5%20release.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/ipsos-oct5.pdf",
+    "sha256": "901d463d83f9f64827b6c75e2b7f8fd453abcdea78ffabc7e3672feac7c0f80d",
+    "bytes": 261972
+  },
+  {
+    "name": "umass-oct4",
+    "url": "https://www.uml.edu/docs/2026-October-National-Topline_tcm18-423714.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/umass-oct4.pdf",
+    "sha256": "19a70637104ee585d41f8f2f1261a737e6d5a202963a1e31eb5980e218995612",
+    "bytes": 433446
+  },
+  {
+    "name": "pew-oct4",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/10/PP_2026.10.8_midterms_report.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/pew-oct4.pdf",
+    "sha256": "fddc3405cdc676d51d12c01f19bbc9b863577263d44231917e288b84666b6b6a",
+    "bytes": 3355654
+  },
+  {
+    "name": "cygnal-oct2",
+    "url": "https://www.cygn.al/wp-content/uploads/2026/10/24822-Cygnal-National-Early-Oct26-NVT-Deck-Midterm-Political.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/cygnal-oct2.pdf",
+    "sha256": "2232966a1923a74c163629bacd1b20755141980a37bcf534ffb91d38ff1c6a02",
+    "bytes": 14081677
+  },
+  {
+    "name": "cbs-oct2",
+    "url": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/04/0957ee32-a848-4872-b659-14303d3d3734/cbsnews_20261004_sun.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/cbs-oct2.pdf",
+    "sha256": "8314fe71e1f1d120989dca0c076d39447608899d8b1e4c3d27d4e54337758808",
+    "bytes": 3610554
+  },
+  {
+    "name": "economist-oct12",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_uVJWjRK.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/economist-oct12.pdf",
+    "sha256": "954baa35a9d87cf96a80c9d8104ce78c6646e89032c0deb36f23272fa226121a",
+    "bytes": 254151
+  },
+  {
+    "name": "yougov-midterms",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Politics_and_the_Midterms_poll_results.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/yougov-midterms.pdf",
+    "sha256": "fd95bb2eb67de3fdf964968ed686c71d0ccbba57cfe319005aecd9f11010bb56",
+    "bytes": 154286
+  },
+  {
+    "name": "rainey-oct20",
+    "url": "https://cdn.prod.website-files.com/663a60b91deeae06e8ae1d1c/6ae1468bd5e5a1314442e86f_Rainey_Center_October_Crosstabs_Final_Site.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/rainey-oct20.pdf",
+    "sha256": "c768d92061351057d03b2d7a90e3e81a0e420a90ee64f41a5306d6957f54cc59",
+    "bytes": 4509528
+  },
+  {
+    "name": "economist-official-oct26",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_AdxdJpN.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/economist-official-oct26.pdf",
+    "sha256": "0061fe4732007c565967c206fee962de5751b9ec11529099d0701094237ce508",
+    "bytes": 278525
+  },
+  {
+    "name": "economist-official-oct20",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_55Zxk28.pdf",
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/generic_ballot_polls_20261101/sources/economist-official-oct20.pdf",
+    "sha256": "5c25c5f777c79174af5fe001dea16701c85861452be37345e157eb303e90eec8",
+    "bytes": 238194
+  }
+]

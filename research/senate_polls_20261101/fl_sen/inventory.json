@@ -1,0 +1,288 @@
+{
+  "race_id": "fl_sen",
+  "search_queries": [
+    "Florida Senate poll Ashley Moody Angie Nixon October 2026 poll crosstabs",
+    "2026 Florida senate polling Moody Nixon October 2026 survey",
+    "Florida senate polls November 1 2026 Nixon Moody poll party crosstabs",
+    "Florida Senate October 2026 Nixon Moody Republican Independent crosstabs",
+    "Stetson October 13 2026 Moody Nixon poll crosstabs party",
+    "N+ Univision Florida Poll Senate Party ID Nixon Moody October 2026",
+    "October 2026 Siena Florida Moody Nixon crosstabs party",
+    "CBS News YouGov Florida senate poll Moody Nixon October 2026 crosstabs",
+    "Mason-Dixon Moody Nixon NBC 6 party subgroup October 2026",
+    "Univision YouGov Florida 51 42 Moody Nixon October 2026"
+  ],
+  "aggregator_urls": [
+    "https://www.270towin.com/2026-senate-polls/florida",
+    "https://www.realclearpolling.com/polls/senate/general/2026/florida/moody-vs-nixon",
+    "https://www.onpointpolitics.us/polls/fl/senate",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+    "https://home.fau.edu/burnettc/web/polls-archive.html"
+  ],
+  "releases": [
+    {
+      "pollster": "RedBox Research",
+      "sponsor": "A Fight Worth Having",
+      "publication_date": "2026-11-01",
+      "field_start": "2026-10-30",
+      "field_end": "2026-10-31",
+      "original_url": "https://afightworthhaving.com/polling/2026/florida/senate",
+      "table_url": "https://afightworthhaving.com/polling/2026/florida/crosstabs.pdf",
+      "status": "ready",
+      "reason": "Unleaned party ID preferred to separate voter-file registration table; independent party-lean subset not used."
+    },
+    {
+      "pollster": "Stetson University CPOR",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-30",
+      "original_url": "https://www.stetson.edu/artsci/cpor/media/cpor-release-lateoct2026.pdf",
+      "table_url": "https://www.stetson.edu/artsci/cpor/media/cpor-release-lateoct2026.pdf",
+      "status": "needs_review",
+      "reason": "Table explicitly party ID; narrow independent n83 not same construct as registration NPA/other. Party-lean and exact question remain unspecified."
+    },
+    {
+      "pollster": "University of North Florida PORL",
+      "sponsor": null,
+      "publication_date": "2026-10-21",
+      "field_start": "2026-10-12",
+      "field_end": "2026-10-19",
+      "original_url": "https://static1.squarespace.com/static/6994d571bce3436c60d86870/t/6ad8a5ec13c20404a1f8052b/1792583148294/UNF%2BPORL%2BFALL%2BStatewide%2B2026%2BFLLV%2B-%2BPress%2BRelease%2B1021%2BEMBARGO.pdf",
+      "table_url": "https://static1.squarespace.com/static/6994d571bce3436c60d86870/t/6ad8a5ec13c20404a1f8052b/1792583148294/UNF%2BPORL%2BFALL%2BStatewide%2B2026%2BFLLV%2B-%2BPress%2BRelease%2B1021%2BEMBARGO.pdf",
+      "status": "ready",
+      "reason": "No party-ID ballot table seen. NPA/Oth includes other registered parties; base 1414 excludes would-not-vote and refusals; full poll n1471."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": "Univision",
+      "publication_date": "2026-10-19",
+      "field_start": "2026-10-02",
+      "field_end": "2026-10-15",
+      "original_url": "https://st1.uvnimg.com/65/9b/a8b15584426684070c3d05cf6e34/n-univision-florida-poll-crosstabs-base-final.pdf",
+      "table_url": "https://st1.uvnimg.com/65/9b/a8b15584426684070c3d05cf6e34/n-univision-florida-poll-crosstabs-base-final.pdf",
+      "status": "needs_review",
+      "reason": "Sponsor video confirms named candidates and topline; ballot table is Full Recoded, lean handling unspecified, party base weighted only."
+    },
+    {
+      "pollster": "St. Pete Polls",
+      "sponsor": "FloridaPolitics.com",
+      "publication_date": "2026-10-07",
+      "field_start": "2026-10-05",
+      "field_end": "2026-10-07",
+      "original_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October7_K7ZU3GA.pdf",
+      "table_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October7_K7ZU3GA.pdf",
+      "status": "ready",
+      "reason": "Registration basis inferred from registered voter-file sample, party weighting, no party ID question, and Independent count equals demographic Other count; Other mapped to independent proxy."
+    },
+    {
+      "pollster": "St. Pete Polls",
+      "sponsor": "FloridaPolitics.com",
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-25",
+      "field_end": "2026-10-27",
+      "original_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October27_P4GSI29L.pdf",
+      "table_url": "https://www.stpetepolls.org/files/StPetePolls_2026_State_Gov_October27_P4GSI29L.pdf",
+      "status": "ready",
+      "reason": "Registration basis inferred from registered voter-file sample, party weighting, no party ID question, and Independent count equals demographic Other count; Other mapped to independent proxy."
+    },
+    {
+      "pollster": "RedBox Research",
+      "sponsor": "A Fight Worth Having",
+      "publication_date": "2026-10-25",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-23",
+      "original_url": "https://afightworthhaving.com/polling/2026/florida",
+      "table_url": null,
+      "status": "inaccessible",
+      "reason": "Original page has been replaced by Nov 1 wave; cached search reports 4,823 LV, October 25 release. Historical party tables not recovered."
+    },
+    {
+      "pollster": "Big Data Poll",
+      "sponsor": "1776 Law Center",
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-30",
+      "original_url": "https://www.bigdatapoll.com/blog/sunshine-state-poll-ashley-moody-leads-angie-craig-governors-race-tight/",
+      "table_url": "https://application.marketsight.com/app/ItemView.aspx?SharedBy=34090&SharedFor=public%40bigdatapoll.com&id=67452e2c-4ea3-49cd-8e38-b4d2001e3383",
+      "status": "inaccessible",
+      "reason": "Interactive party crosstabs not extracted; title and opening say Angie Craig while body says Angie Nixon; conflicting published sample counts across sources."
+    },
+    {
+      "pollster": "Political Matrix/The Listener Group",
+      "sponsor": null,
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-28",
+      "original_url": "https://palafoxproductions.com",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No usable party candidate-support crosstabs found."
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-28",
+      "field_end": "2026-10-29",
+      "original_url": "https://insideradvantage.com/insideradvantage-florida-survey-donalds-49-jolly-45-moody-49-nixon-43/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No usable party candidate-support crosstabs located."
+    },
+    {
+      "pollster": "ActiVote",
+      "sponsor": null,
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-17",
+      "field_end": "2026-10-27",
+      "original_url": "https://www.activote.net/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No usable party candidate-support crosstabs located; two-way vote."
+    },
+    {
+      "pollster": "New York Times/Siena College",
+      "sponsor": null,
+      "publication_date": "2026-10-28",
+      "field_start": "2026-10-19",
+      "field_end": null,
+      "original_url": "https://sri.siena.edu/2026/10/28/nytimes-siena-poll-of-likely-voters-florida-minnesota-and-south-carolina/",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-fl-poll-crosstabs.html",
+      "status": "excluded",
+      "reason": "Siena links exact NYT crosstabs, but direct retrieval returned non-retryable error. End date varies Oct 25 vs 26 across sources."
+    },
+    {
+      "pollster": "Echelon Insights",
+      "sponsor": "NetChoice",
+      "publication_date": "2026-10-27",
+      "field_start": "2026-10-16",
+      "field_end": "2026-10-23",
+      "original_url": "https://netchoice.org/wp-content/uploads/2026/10/NetChoice-October-2026-Antitrust-Tech-Survey-Topline.pdf",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Topline PDF; usable party candidate-support crosstabs not located."
+    },
+    {
+      "pollster": "Workbench Strategy",
+      "sponsor": "Nixon campaign",
+      "publication_date": null,
+      "field_start": "2026-10-18",
+      "field_end": "2026-10-22",
+      "original_url": "https://www.onpointpolitics.us/polls/fl/senate",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Campaign internal reported by aggregators with contradictory sample sizes 600 vs 800; no usable crosstabs or verified publication date."
+    },
+    {
+      "pollster": "co/efficient",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": "2026-10-18",
+      "field_end": "2026-10-20",
+      "original_url": "https://battlegrounds.coefficient.org/fl/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release page says October 2026; exact publication day and usable party crosstabs not established."
+    },
+    {
+      "pollster": "On Point Polling",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": "2026-10-18",
+      "original_url": "https://www.onpointpolitics.us/polls/fl/senate",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Aggregator reports 378 LV; publication day, field start and usable party crosstabs not established."
+    },
+    {
+      "pollster": "ActiVote",
+      "sponsor": null,
+      "publication_date": "2026-10-15",
+      "field_start": "2026-09-27",
+      "field_end": "2026-10-15",
+      "original_url": "https://www.activote.net/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "No usable party candidate-support crosstabs found; two-way vote."
+    },
+    {
+      "pollster": "MDW Communications",
+      "sponsor": null,
+      "publication_date": "2026-10-14",
+      "field_start": "2026-10-04",
+      "field_end": "2026-10-10",
+      "original_url": "https://www.mdwcomm.com/media/florida-statewide-poll-october-2026.html",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Memo publishes toplines and registration composition, but not candidate-support by group."
+    },
+    {
+      "pollster": "Stetson University CPOR",
+      "sponsor": null,
+      "publication_date": "2026-10-13",
+      "field_start": "2026-10-01",
+      "field_end": "2026-10-09",
+      "original_url": "https://www2.stetson.edu/today/2026/10/stetson-poll-donalds-moody-maintain-double-digit-leads/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release includes toplines; usable party candidate-support table not recovered."
+    },
+    {
+      "pollster": "Targoz Market Research",
+      "sponsor": "James Madison Institute",
+      "publication_date": "2026-10-09",
+      "field_start": "2026-09-28",
+      "field_end": "2026-10-04",
+      "original_url": "https://jamesmadison.org/new-jmi-poll-republicans-hold-double-digit-leads-in-key-statewide-races-florida-voters-focused-on-affordability/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Usable party candidate-support crosstabs not found; sources disagree 847 versus 857 LV."
+    },
+    {
+      "pollster": "Mason-Dixon",
+      "sponsor": "NBC6/Telemundo",
+      "publication_date": "2026-10-07",
+      "field_start": "2026-09-28",
+      "field_end": "2026-10-01",
+      "original_url": "https://www.nbcmiami.com/elections/poll-shows-ashley-moody-leading-angie-nixon-in-floridas-u-s-senate-race/3869181/?amp=1",
+      "table_url": "https://www.nbcmiami.com/elections/poll-shows-ashley-moody-leading-angie-nixon-in-floridas-u-s-senate-race/3869181/?amp=1",
+      "status": "needs_review",
+      "reason": "Sponsor article indexed text supplies all party splits and exact subgroup counts; direct access 403, original embedded poll PDF not recovered. Independent/other registration mapping is not explicitly enumerated."
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-06",
+      "field_start": "2026-09-28",
+      "field_end": "2026-10-05",
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_fl_20260921_lv.pdf",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Source includes toplines and demographic crosstabs but no R/I/D ballot breakdown."
+    },
+    {
+      "pollster": "Change Research",
+      "sponsor": "Freedom Project USA",
+      "publication_date": "2026-09-28",
+      "field_start": "2026-09-25",
+      "field_end": "2026-09-27",
+      "original_url": "https://changeresearch.com/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Released before publication window."
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": null,
+      "field_start": null,
+      "field_end": null,
+      "original_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Explicitly excluded fabricated pollster; no eligible wave relied upon."
+    }
+  ]
+}

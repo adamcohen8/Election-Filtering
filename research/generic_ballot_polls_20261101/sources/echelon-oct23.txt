@@ -1,0 +1,1718 @@
+NetChoice — Fall 2026 Antitrust Tech Survey — Topline
+N=3,644 voters in likely electorate nationally, with a base sample of 1,004 voters and oversamples
+to achieve n=515 in FL, n=508 in OH and n=508 in GA, n=403 in IA, n=413 in ME, and n=407 in NE
+Mode: Online and Text to Web
+Sample from Cint/Lucid, Purespectrum and RepData online sample exchanges matched to L2
+voter file, sample for the text to web survey was sourced from L2 voter file
+Field Dates: October 16-23, 2026
+Margin of Error: Overall ± 3.2, FL ± 5.0, OH ± 5.2, GA ± 5.2, IA ± 6.5, ME ± 6.3, NE ± 6.3
+
+   1.    [QVtlk] What are the chances that you will vote in the November 2026 general election?
+         [RANDOMIZE SCALE 1-4, 4-1]
+                                                               Total       FL        OH         GA          IA       ME         NE
+                                                                       (n=515)   (n=508)    (n=508)   (n=403)    (n=413)   (n=407)
+         I have already voted                                 18%        25%       20%        27%       10%        21%        17%
+         I will definitely vote                               70%        62%       72%        62%       73%        67%        73%
+         I will probably vote                                   8%        9%         6%        6%       13%          9%        7%
+         There's a 50-50 chance
+         I will vote                                            4%        4%         2%        5%         4%         3%        4%
+         Will not vote                  TERMINATE                  -         -          -         -          -         -          -
+         Unsure                         TERMINATE                  -         -          -         -          -         -          -
+
+[IF QVTLK = 1. I HAVE ALREADY VOTED, ASK]
+   2.    [QEarlyVote] How did you cast your ballot in the November 2026 general election?
+         [RANDOMIZE 1-2]
+                                                               Total       FL        OH         GA          IA       ME         NE
+                                                            (n=737)    (n=132)    (n=99)    (n=137)    (n=45)    (n=108)     (n=72)
+         I voted early in person                              30%        27%       43%        93%       43%        42%        24%
+         I voted early by mail or absentee ballot             70%        73%       57%         7%       57%        58%        76%
+         Unsure                                                 *%        1%            -         -          -         -          -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             1
+
+   3.    [QVotePlan] How do you plan to cast your ballot in the November 2026 general election?
+         [RANDOMIZE 1-3]
+                                                            Total       FL        OH        GA         IA       ME        NE
+         I plan to vote by mail or absentee ballot         30%        34%       21%        7%       18%       19%       31%
+         I plan to vote early in person                    29%        36%       27%       62%       24%       26%       13%
+         I plan to vote on Election Day, in person
+         at a polling place                                40%        28%       52%       30%       57%       54%       55%
+         Unsure                                              1%        2%        1%        2%        2%        1%        2%
+
+[Responses to QEarlyVote 1. I voted early in person were recoded as QVotePlan 2. I plan to vote early in
+person. Responses to QEarlyVote 2. I voted early by mail or absentee ballot were recoded as QVotePlan
+1. I plan to vote by mail or absentee ballot. Responses to QEarlyVote 3. Unsure were recoded as
+QVotePlan 4. Unsure]
+
+[Responses to QVtlk 2. I will definitely vote, 3. I will probably vote and 4. There’s a 50-50 chance I will
+vote were asked QVotePlan separately]
+
+NATIONAL POLITICAL LANDSCAPE
+
+[IF QVTLK = 2-4, ASK]
+    4.   [QMotivation2026] How motivated are you to vote in the November 2026 general elections?
+         [RANDOMIZE SCALE 1-5, 5-1]
+                                                            Total       FL        OH        GA         IA       ME        NE
+                                                        (n=2,907)  (n=383)    (n=409)   (n=371)   (n=358)   (n=305)   (n=335)
+         EXTREMELY/VERY MOTIVATED                          87%        85%       89%       85%       81%       82%       87%
+         Extremely motivated                               63%        55%       65%       62%       62%       61%       58%
+         Very motivated                                    24%        30%       24%       22%       19%       21%       29%
+         Somewhat motivated                                 11%       10%        9%       13%       14%       14%       12%
+         Not very motivated                                  2%        3%        2%        2%        2%        3%        1%
+         Not at all motivated                                *%        1%        *%         *%       2%        1%         *%
+         Unsure                                              *%        1%           -       *%          -       *%       1%
+
+    5.   [QRightDirection] Would you say things in the United States are headed in the right
+         direction, or is the country on the wrong track? [RANDOMIZE 1-2]
+                                                            Total       FL        OH        GA         IA       ME        NE
+         Right direction                                   31%        36%       30%       29%       34%       25%       34%
+         Wrong track                                       61%        54%       62%       63%       59%       69%       58%
+         Unsure                                              8%       10%        8%        8%        7%        5%        8%
+
+    6.   [QApproval] Do you approve or disapprove of the way Donald Trump is handling his job as
+         President? [RANDOMIZE SCALE 1-4, 4-1]
+                                                            Total       FL        OH        GA         IA       ME        NE
+         STRONGLY/SOMEWHAT APPROVE                         40%        48%       42%       42%       43%       38%       48%
+         STRONGLY/SOMEWHAT
+         DISAPPROVE                                        59%        50%       58%       57%       56%       62%       52%
+         Strongly approve                                  23%        27%       25%       21%       26%       21%       26%
+         Somewhat approve                                  17%        21%       16%       21%       17%       17%       22%
+         Somewhat disapprove                                 9%        6%       12%        7%       10%        7%        8%
+         Strongly disapprove                               50%        43%       46%       50%       46%       55%       44%
+         Unsure                                              1%        2%        *%        1%         *%          -       *%
+
+
+
+
+
+
+
+
+                                                          2
+
+    7.  [QGenericCongressional] If the election for Congress were held today and you had to
+        make a choice, for whom would you vote? [RANDOMIZE SCALE 1-4, 4-1]
+        [QGenericCongressionalLeaner] And if you had to choose today, would you vote for
+        [ROTATE TO MATCH ANSWER OPTION ORDER] the Republican candidate or the
+        Democratic candidate? [RANDOMIZE 1-2]
+                                                          Total       FL       OH        GA         IA      ME        NE
+        DEFINITELY/PROBABLY/LEAN THE
+        REPUBLICAN CANDIDATE                              46%      51%       50%       46%       49%      42%       53%
+        DEFINITELY/PROBABLY/LEAN THE
+        DEMOCRATIC CANDIDATE                              51%      45%       46%       52%       46%      54%       43%
+        Definitely the Republican candidate               33%      39%       39%       36%       37%      36%       39%
+        Probably the Republican candidate                 12%       11%      10%       10%       12%        7%      13%
+        Lean the Republican candidate                      1%        *%        *%       1%        1%           -      1%
+        Lean the Democratic candidate                      *%        *%        *%        *%       1%           -      2%
+        Probably the Democratic candidate                  7%        9%       6%        6%       10%        8%        7%
+        Definitely the Democratic candidate               43%      36%       40%       45%       34%      46%       34%
+        Unsure                                             4%        4%       4%        2%        5%        4%        4%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         3
+
+AFFORDABILITY & PRIORITIES
+
+    8.  [QIssues] If you had to choose, which one or two of the following would you say should be
+        the top priority issues for policymakers to address? [SELECT MULTIPLE, UP TO TWO]
+        [RANDOMIZE 1-12]
+                                                          Total       FL        OH        GA        IA       ME        NE
+        Inflation and the cost of living                  55%       58%       57%       57%      51%       49%       50%
+        Jobs and the economy                              25%       22%       19%       25%      23%       16%       17%
+        Ending the war with Iran                          22%       23%       24%       21%      18%       25%       22%
+        Healthcare costs                                  20%       19%       21%       21%      29%       23%       21%
+        Immigration and border security                   16%       16%       20%       14%      15%       22%       24%
+        Government waste and spending                     12%       14%       14%       13%      17%       17%       19%
+        National security and foreign threats             10%       11%       10%       11%      12%         8%      10%
+        Crime and public safety                           10%       10%        6%        9%        4%        5%        7%
+        Regulating artificial intelligence                 9%        8%        6%        8%        8%      10%         6%
+        Education                                          4%        3%        4%        3%        6%        2%        5%
+        Online scams and fraud                             2%        1%        2%        4%        2%        2%        3%
+        Breaking up large tech companies                   2%        1%        3%        2%        1%        3%        1%
+        Something else (Please specify)                    5%        4%        5%        6%        4%        9%        5%
+        Unsure                                             1%        1%                  *%        1%        *%        *%
+
+    9.  [QSpend] Over the past year, which two or three of the following areas are putting the
+        most pressure on your personal finances? [SELECT MULTIPLE, UP TO THREE]
+        [RANDOMIZE 1-12]
+                                                          Total       FL        OH        GA        IA       ME        NE
+        Groceries/food                                    66%       71%       61%       68%      65%       62%       58%
+        Transportation (gas/car
+        payments/maintenance)                             36%       38%       33%       35%      39%       35%       43%
+        Utilities (electricity/water, etc.)               36%       32%       44%       35%      22%       56%       23%
+        Housing (rent/mortgage)                           30%       33%       22%       25%      23%       27%       23%
+        Healthcare & health insurance                     27%       27%       31%       30%      41%       22%       37%
+        Taxes                                             19%       12%       22%       21%      21%       27%       29%
+        Home, auto or life insurance                      14%       22%       16%       17%      23%         8%      18%
+        Education                                          4%        1%        4%        4%        4%        1%        2%
+        Phone and broadband services                       4%        2%        5%        4%        4%        5%        3%
+        Childcare                                          3%        1%        4%        2%        4%        5%        4%
+        Entertainment                                      3%        3%        3%        3%        2%        1%        2%
+        Online services (e.g. cloud storage,
+        streaming apps)                                    3%        2%        4%        4%        3%        2%        1%
+        Something else (Please specify)                    2%        2%        2%        2%        2%        4%        2%
+        None of the above                                  6%        6%        5%        4%        4%        3%        5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         4
+
+    10.  [QOversight] Which two or three of the following areas do you believe the federal
+         government should prioritize to help lower consumer prices? [SELECT MULTIPLE, UP TO
+         THREE] [RANDOMIZE 1-12]
+                                                           Total        FL       OH        GA         IA       ME         NE
+         Groceries/food                                    62%       64%       59%       64%       60%       52%       50%
+         Healthcare & health insurance                     41%       46%       47%       45%       56%       49%       53%
+         Utilities (electricity/water, etc.)               34%       26%       40%       29%       24%       45%       21%
+         Transportation (gas/car
+         payments/maintenance)                             33%       33%       29%       31%       34%       29%       36%
+         Housing (rent/mortgage)                           30%       36%       30%       33%       27%       31%       31%
+         Taxes                                             30%       28%       31%       28%       26%       34%       41%
+         Home, auto or life insurance                       9%       17%         6%      11%       10%         3%      10%
+         Education                                          7%         4%        6%        7%        9%        6%        5%
+         Childcare                                          5%         4%        7%        5%        7%        9%        7%
+         Phone and broadband services                       3%         1%        3%        2%        4%        1%        3%
+         Entertainment                                      2%         1%        2%        1%        *%        1%        *%
+         Online services (e.g. cloud storage,
+         streaming apps)                                    2%         2%        2%        1%        2%        *%        *%
+         Something else (Please specify)                    2%         2%        3%        4%        3%        6%        2%
+         None of the above                                  2%         2%        1%        1%        2%        1%        2%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          5
+
+MIDTERM ELECTIONS OUTLOOK
+
+GEORGIA ONLY
+
+    11.  [QGAGovBallot_Voted] Who did you vote for in the 2026 Georgia gubernatorial election?
+         [RANDOMIZE 1-2]
+         [QGAGovBallot] If the 2026 Georgia gubernatorial election were being held today, would
+         you vote for…? [RANDOMIZE SCALE 1-4, 4-1]
+         [QGAGovBallotLeaner] And if you had to choose today, would you vote for [ROTATE TO
+         MATCH ANSWER OPTION ORDER] Rick Jackson or Keisha Lance Bottoms in the 2026
+         Georgia gubernatorial election?
+                                                              Total       FL        OH        GA          IA       ME         NE
+                                                           (n=508)                        (n=508)
+         RICK JACKSON, THE REPUBLICAN
+         CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                            48%            -         -     48%            -          -         -
+         KEISHA LANCE BOTTOMS, THE
+         DEMOCRATIC CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                            49%            -         -     49%            -          -         -
+         Rick Jackson, the Republican
+         candidate, definitely                               41%            -         -     41%            -          -         -
+         Rick Jackson, the Republican
+         candidate, probably                                   6%           -         -       6%           -          -         -
+         Rick Jackson, the Republican
+         candidate, lean                                       *%           -         -       *%           -          -         -
+         Keisha Lance Bottoms, the Democratic
+         candidate, lean                                       1%           -         -       1%           -          -         -
+         Keisha Lance Bottoms, the Democratic
+         candidate, probably                                   8%           -         -       8%           -          -         -
+         Keisha Lance Bottoms, the Democratic
+         candidate, definitely                               39%            -         -     39%            -          -         -
+         Someone else (Please specify)                         *%           -         -       *%           -          -         -
+         I did not vote for this office                        *%           -         -       *%           -          -         -
+         Unsure                                                3%           -         -       3%           -          -         -
+
+[Responses to QGAGovBallot_Voted 1. Rick Jackson, the Republican candidate were recoded as
+QGAGovBallot 1. Rick Jackson, the Republican candidate, definitely]
+[Responses to QGAGovBallot_Voted 2. Keisha Lance Bottoms, the Democratic candidate were recoded
+as QGAGovBallot 4. Keisha Lance Bottoms, the Democratic candidate, definitely]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            6
+
+    12.  [QGASenateBallot_Voted] Who did you vote for in the election for the U.S. Senate?
+         [RANDOMIZE 1-3]
+         [QGASenateBallotFull] If the 2026 election for the U.S. Senate were held today and you had
+         to make a choice, for whom would you vote? [RANDOMIZE 1-3]
+         [QGASenateBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-3]
+                                                              Total        FL        OH         GA         IA        ME        NE
+                                                            (n=508)                        (n=508)
+         Mike Collins, the Republican candidate               40%            -         -     40%            -          -         -
+         Jon Ossoff, the Democratic candidate                 55%            -         -     55%            -          -         -
+         Allen Buckley, the Libertarian candidate              3%            -         -       3%           -          -         -
+         Someone else (Please specify)                          *%           -         -       *%           -          -         -
+         I did not vote for this office                                      -         -                    -          -         -
+         Unsure                                                2%            -         -       2%           -          -         -
+
+[Responses to GASenateBallot_Voted were merged with QGASenateBallotFull and
+QGASenateBallotFullLeaner]
+
+[GEORGIA PUBLIC SERVICE COMMISSION]
+
+    13.  [QGAPSC3_Voted] Who did you vote for in the 2026 election for Georgia Public Service
+         Commission, District 3? [RANDOMIZE 1-2]
+         [QGAPSC3] The Georgia Public Service Commission sets electricity and other utility rates
+         in the state. If the 2026 election for Georgia Public Service Commission, District 3 were
+         being held today, would you vote for...? [RANDOMIZE SCALE 1-4, 4-1]
+         [QGAPSC3Leaner] And if you had to choose today, would you vote for [ROTATE TO
+         MATCH ANSWER OPTION ORDER] Fitz Johnson or Peter Hubbard? [RANDOMIZE 1-2]
+                                                              Total        FL        OH         GA         IA        ME        NE
+                                                            (n=508)                        (n=508)
+         FITZ JOHNSON, THE REPUBLICAN
+         CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                             45%            -         -     45%            -          -         -
+         PETER HUBBARD, THE DEMOCRATIC
+         CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                             47%            -         -     47%            -          -         -
+         Fitz Johnson, the Republican candidate,
+         definitely                                           35%            -         -     35%            -          -         -
+         Fitz Johnson, the Republican candidate,
+         probably                                              8%            -         -       8%           -          -         -
+         Fitz Johnson, the Republican candidate,
+         lean                                                  2%            -         -       2%           -          -         -
+         Peter Hubbard, the Democratic
+         candidate, lean                                        *%           -         -       *%           -          -         -
+         Peter Hubbard, the Democratic
+         candidate, probably                                  10%            -         -     10%            -          -         -
+         Peter Hubbard, the Democratic
+         candidate, definitely                                36%            -         -     36%            -          -         -
+         I did not vote for this office                        1%            -         -       1%           -          -         -
+         Unsure                                                7%            -         -       7%           -          -         -
+
+[Responses to QGAPSC3_Voted 1. Fitz Johnson, the Republican candidate were recoded as QGAPSC3
+1.  Fitz Johnson, the Republican candidate, definitely]
+[Responses to QGAPSC3_Voted  2. Peter Hubbard, the Democratic candidate were recoded as
+QGAPSC3 4. Peter Hubbard, the Democratic candidate, definitely]
+
+
+
+
+
+                                                             7
+
+    14.  [QGAPSC5_Voted] Who did you vote for in the 2026 election for Georgia Public Service
+         Commission, District 5? [RANDOMIZE 1-2]
+         [QGAPSC5Full] If the 2026 election for Georgia Public Service Commission, District 5 were
+         being held today, would you vote for...? [RANDOMIZE SCALE 1-4, 4-1]
+         [QGAPSC5Leaner] And if you had to choose today, would you vote for [ROTATE TO
+         MATCH ANSWER OPTION ORDER] Josh Tolbert or Shelia Edwards in the election for
+         Georgia Public Service Commission, District 5? [RANDOMIZE 1-2]
+                                                              Total        FL        OH         GA         IA        ME        NE
+                                                            (n=508)                        (n=508)
+         JOSH TOLBERT, THE REPUBLICAN
+         CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                             46%            -         -     46%            -          -         -
+         SHELIA EDWARDS, THE
+         DEMOCRATIC CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                             48%            -         -     48%            -          -         -
+         Josh Tolbert, the Republican candidate,
+         definitely                                           35%            -         -     35%            -          -         -
+         Josh Tolbert, the Republican candidate,
+         probably                                             10%            -         -     10%            -          -         -
+         Josh Tolbert, the Republican candidate,
+         lean                                                  1%            -         -       1%           -          -         -
+         Shelia Edwards, the Democratic
+         candidate, lean                                        *%           -         -       *%           -          -         -
+         Shelia Edwards, the Democratic
+         candidate, probably                                  11%            -         -      11%           -          -         -
+         Shelia Edwards, the Democratic
+         candidate, definitely                                37%            -         -     37%            -          -         -
+         I did not vote for this office                        1%            -         -       1%           -          -         -
+         Unsure                                                5%            -         -       5%           -          -         -
+
+[Responses to QGAPSC5_Voted 1. Josh Tolbert, the Republican candidate were recoded as
+QGAPSC5Full 1.  Josh Tolbert, the Republican candidate, definitely]
+[Responses to QGAPSC5_Voted  2. Shelia Edwards, the Democratic candidate were recoded as
+QGAPSC5Full 4. Shelia Edwards, the Democratic candidate, definitely]
+
+OHIO ONLY
+
+    15.  [QOHGovBallot_Voted] Who did you vote for in the 2026 Ohio gubernatorial election?
+         [RANDOMIZE 1-3]
+         [QOHGovBallotFull] If the 2026 Ohio gubernatorial election were held today and you had to
+         make a choice, for whom would you vote? [RANDOMIZE 1-3]
+         [QOHGovBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-3]
+                                                              Total        FL        OH         GA         IA        ME        NE
+                                                            (n=508)              (n=508)
+         Vivek Ramaswamy, the Republican
+         candidate                                            47%            -     47%            -         -          -         -
+         Amy Acton, the Democratic candidate                  45%            -     45%            -         -          -         -
+         Don Kissick, the Libertarian candidate                4%            -      4%            -         -          -         -
+         Someone else (Please specify)                          *%           -       *%           -         -          -         -
+         I did not vote for this office                        1%            -      1%            -         -          -         -
+         Unsure                                                3%            -      3%            -         -          -         -
+
+[Responses to QOHGovBallot_Voted were merged with QOHGovBallotFull and
+QOHGovBallotFullLeaner]
+
+
+
+
+                                                             8
+
+    16.  [QOHSenateBallot_Voted] Who did you vote for in the election for the U.S. Senate?
+         [RANDOMIZE 1-4]
+         [QOHSenateBallotFull] If the 2026 election for the U.S. Senate were held today and you had
+         to make a choice, for whom would you vote? [RANDOMIZE 1-4]
+         [QOHSenateBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-4]
+                                                               Total       FL        OH         GA          IA       ME         NE
+                                                            (n=508)              (n=508)
+         Jon Husted, the Republican candidate                 47%            -     47%            -          -         -          -
+         Sherrod Brown, the Democratic
+         candidate                                            47%            -     47%            -          -         -          -
+         Bill Redpath, the Libertarian candidate                1%           -       1%           -          -         -          -
+         Greg Levy, other-party candidate                       2%           -       2%           -          -         -          -
+         Someone else (Please specify)                          1%           -       1%           -          -         -          -
+         I did not vote for this office                         *%           -       *%           -          -         -          -
+         Unsure                                                 3%           -       3%           -          -         -          -
+
+[Responses to QOHSenateBallot_Voted were merged with QOHSenateBallotFull and
+QOHSenateBallotFullLeaner]
+
+
+[OHIO STATE ISSUE 3]
+
+    17.  [QOHIssue3_Voted] How did you vote on State Issue 3, the proposed constitutional
+         amendment that would require voters to present photo identification in order to vote?
+         [RANDOMIZE 1-2]
+         [QOHIssue3] State Issue 3 would require voters to present photo identification in order to
+         vote. Would you vote [ROTATE TO MATCH ORDER] yes or no on State Issue 3 in the
+         November 2026 election? [RANDOMIZE SCALE 1-4, 4-1]
+         [QOHIssue3Leaner] And if you had to choose today, would you vote [ROTATE TO MATCH
+         ORDER] yes or no on State Issue 3 in the November 2026 election? [RANDOMIZE 1-2]
+                                                               Total       FL        OH         GA          IA       ME         NE
+                                                            (n=508)              (n=508)
+         DEFINITELY/PROBABLY/LEAN YES                         70%            -     70%            -          -         -          -
+         DEFINITELY/PROBABLY/LEAN NO                          28%            -     28%            -          -         -          -
+         Definitely yes                                       55%            -     55%            -          -         -          -
+         Probably yes                                         14%            -     14%            -          -         -          -
+         Lean yes                                               1%           -       1%           -          -         -          -
+         Lean no                                                *%           -       *%           -          -         -          -
+         Probably no                                            4%           -       4%           -          -         -          -
+         Definitely no                                        24%            -     24%            -          -         -          -
+         I did not vote on this measure                         1%           -       1%           -          -         -          -
+         Unsure                                                 2%           -       2%           -          -         -          -
+
+[Responses to QOHIssue3_Voted 1. Yes were recoded as QOHIssue3 1. Definitely yes]
+[Responses to QOHIssue3_Voted 2. No were recoded as QOHIssue3 4. Definitely no]
+
+
+
+
+
+
+
+
+
+
+
+                                                             9
+
+MAINE ONLY
+
+    18.  [QMEGovBallot_Voted] Who did you vote for in the 2026 Maine gubernatorial election?
+         [RANDOMIZE 1-3]
+         [QMEGovBallotFull] If the 2026 Maine gubernatorial election were held today and you had
+         to make a choice, for whom would you vote? [RANDOMIZE 1-3][QMEGovBallotFullLeaner]
+         [QMEGovBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-3]
+                                                               Total        FL        OH         GA         IA        ME         NE
+                                                            (n=413)                                              (n=413)
+         Bobby Charles, the Republican
+         candidate                                             38%            -         -          -          -     38%            -
+         Hannah Pingree, the Democratic
+         candidate                                             51%            -         -          -          -     51%            -
+         Rick Bennett, independent candidate                    7%            -         -          -          -      7%            -
+         Someone else (Please specify)                          *%            -         -          -          -       *%           -
+         I did not vote for this office                         1%            -         -          -          -      1%            -
+         Unsure                                                 3%            -         -          -          -      3%            -
+
+[Responses to QMEGovBallot_Voted were merged with QMEGovBallotFull and
+QMEGovBallotFullLeaner]
+
+    19.  [QMESenateBallot_Voted] Who did you vote for in the election for the U.S. Senate?
+         [RANDOMIZE 1-2]
+         [QMESenateBallotFull] If the 2026 election for the U.S. Senate were held today and you had
+         to make a choice, for whom would you vote? [RANDOMIZE 1-2]
+         [QMESenateBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-2]
+                                                               Total        FL        OH         GA         IA        ME         NE
+                                                            (n=413)                                              (n=413)
+         Susan Collins, the Republican candidate               44%            -         -          -          -     44%            -
+         Troy Jackson, the Democratic candidate                51%            -         -          -          -     51%            -
+         Someone else (Please specify)                          1%            -         -          -          -      1%            -
+         I did not vote for this office                            -          -         -          -          -         -          -
+         Unsure                                                 4%            -         -          -          -      4%            -
+
+[Responses to QMESenateBallot_Voted were merged with QMESenateBallotFull and
+QMESenateBallotFullLeaner]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             10
+
+NEBRASKA ONLY
+
+    20.  [QNEGovBallot_Voted] Who did you vote for in the 2026 Nebraska gubernatorial election?
+         [RANDOMIZE 1-4]
+         [QNEGovBallotFull] If the 2026 Nebraska gubernatorial election were held today and you
+         had to make a choice, for whom would you vote? [RANDOMIZE 1-4]
+         [QNEGovBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-4]
+                                                               Total        FL         OH        GA          IA        ME         NE
+                                                             (n=407)                                                         (n=407)
+         Jim Pillen, the Republican candidate                  47%            -          -          -         -          -     47%
+         Lynne Walz, the Democratic candidate                  40%            -          -          -         -          -     40%
+         Brett Lindstrom, the America First Party
+         candidate                                              4%            -          -          -         -          -       4%
+         Rick Beard, the Legal Marijuana Now
+         Party candidate                                        7%            -          -          -         -          -       7%
+         Someone else (Please specify)                           *%           -          -          -         -          -       *%
+         I did not vote for this office                          *%           -          -          -         -          -       *%
+         Unsure                                                 2%            -          -          -         -          -       2%
+
+[Responses to QNEGovBallot_Voted were merged with QNEGovBallotFull and QNEGovBallotFullLeaner]
+
+    21.  [QNESenateBallot_Voted] Who did you vote for in the election for the U.S. Senate?
+         [RANDOMIZE 1-4]
+         [QNESenateBallotFull] If the 2026 election for the U.S. Senate were held today and you had
+         to make a choice, for whom would you vote? [RANDOMIZE 1-4]
+         [QNESenateBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-4]
+                                                               Total        FL         OH        GA          IA        ME         NE
+                                                             (n=407)                                                         (n=407)
+         Pete Ricketts, the Republican candidate               47%            -          -          -         -          -     47%
+         Dan Osborn, non-partisan candidate                    46%            -          -          -         -          -     46%
+         Chuck Conboy, the America First Party
+         candidate                                              1%            -          -          -         -          -       1%
+         Robin Richards, the Nebraska Working
+         People Party candidate                                 2%            -          -          -         -          -       2%
+         Someone else (Please specify)                          1%            -          -          -         -          -       1%
+         I did not vote for this office                          *%           -          -          -         -          -       *%
+         Unsure                                                 3%            -          -          -         -          -       3%
+
+[Responses to QMESenateBallot_Voted were merged with QMESenateBallotFull and
+QMESenateBallotFullLeaner]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             11
+
+FLORIDA ONLY
+
+    22.  [QFLGov_Voted] Who did you vote for in the 2026 Florida gubernatorial election?
+         [RANDOMIZE 1-3]
+         [QFLGovBallotFull] If the 2026 Florida gubernatorial election were held today and you had
+         to make a choice, for whom would you vote? [RANDOMIZE 1-3]
+         [QFLGovBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-3]
+                                                                Total        FL        OH         GA          IA       ME         NE
+                                                             (n=515)    (n=515)
+         Byron Donalds, the Republican
+         candidate                                             50%        50%            -          -          -          -          -
+         David Jolly, the Democratic candidate                 44%        44%            -          -          -          -          -
+         Scott Jewett, the Libertarian candidate                 1%         1%           -          -          -          -          -
+         Someone else (Please specify)                           *%         *%           -          -          -          -          -
+         I did not vote for this office                          *%         *%           -          -          -          -          -
+         Unsure                                                  5%         5%           -          -          -          -          -
+
+[Responses to QFLGov_Voted were merged with QFLGovBallotFull and QFLGovBallotFullLeaner]
+
+    23.  [QFLSenateBallot_Voted] Who did you vote for in the election for the U.S. Senate?
+         [RANDOMIZE 1-3]
+         [QFLSenBallotFull] If the 2026 election for the U.S. Senate were held today and you had to
+         make a choice, for whom would you vote? [RANDOMIZE 1-3]
+         [QFLSenateBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-3]
+                                                                Total        FL        OH         GA          IA       ME         NE
+                                                             (n=515)    (n=515)
+         Ashley Moody, the Republican
+         candidate                                             51%        51%            -          -          -          -          -
+         Angie Nixon, the Democratic candidate                 43%        43%            -          -          -          -          -
+         Neil Gillespie, no party affiliation                    3%         3%           -          -          -          -          -
+         Someone else (Please specify)                              -          -         -          -          -          -          -
+         I did not vote for this office                             -          -         -          -          -          -          -
+         Unsure                                                  4%         4%           -          -          -          -          -
+
+
+[Responses to QFLSenateBallot_Voted were merged with QFLSenBallotFull and
+QFLSenateBallotFullLeaner]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                              12
+
+[FLORIDA AMENDMENT 3]
+
+    24.  [QFLAmend3_Voted] How did you vote on Constitutional Amendment 3, which would
+         increase the homestead tax exemption and change other property tax rules? [RANDOMIZE
+         1-2]
+         [QFLAmend3] Constitutional Amendment 3 would increase the homestead tax exemption
+         and change other property tax rules. Would you vote [ROTATE TO MATCH ORDER] yes or
+         no on Constitutional Amendment 3 in the November 2026 election? [RANDOMIZE SCALE
+         1-4, 4-1]
+         [QFLAmend3Leaner] And if you had to choose today, would you vote [ROTATE TO MATCH
+         ORDER] yes or no on Constitutional Amendment 3 in the November 2026 election?
+         [RANDOMIZE 1-2]
+                                                            Total        FL       OH        GA         IA        ME        NE
+                                                          (n=515)   (n=515)
+         DEFINITELY/PROBABLY/LEAN YES                       57%       57%           -         -          -         -         -
+         DEFINITELY/PROBABLY/LEAN NO                        32%       32%           -         -          -         -         -
+         Definitely yes                                     38%       38%           -         -          -         -         -
+         Probably yes                                       18%       18%           -         -          -         -         -
+         Lean yes                                            1%        1%           -         -          -         -         -
+         Lean no                                             1%        1%           -         -          -         -         -
+         Probably no                                         8%        8%           -         -          -         -         -
+         Definitely no                                      23%       23%           -         -          -         -         -
+         I did not vote on this measure                      1%        1%           -         -          -         -         -
+         Unsure                                             10%       10%           -         -          -         -         -
+
+[Responses to QFLAmend3_Voted 1. Yes were recoded as QFLAmend3 1. Definitely yes. Responses to
+QFLAmend3_Voted 2. No were recoded as QFLAmend3 4. Definitely no]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          13
+
+IOWA ONLY
+
+    25.  [QIAGov_Voted] Who did you vote for in the 2026 Iowa gubernatorial election?
+         [RANDOMIZE 1-2]
+         [QIAGov] If the 2026 Iowa gubernatorial election were being held today, would you vote
+         for…? [RANDOMIZE SCALE 1-4, 4-1]
+         [QIAGovLeaner] And if you had to choose today, would you vote for [ROTATE TO MATCH
+         ANSWER OPTION ORDER] Zach Lahn or Rob Sand in the 2026 Iowa gubernatorial
+         election? [RANDOMIZE 1-2]
+                                                              Total        FL        OH        GA          IA       ME         NE
+                                                           (n=403)                                   (n=403)
+         ZACH LAHN, THE REPUBLICAN
+         CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                             46%           -          -         -     46%            -          -
+         ROB SAND, THE DEMOCRATIC
+         CANDIDATE,
+         DEFINITELY/PROBABLY/LEAN                             50%           -          -         -     50%            -          -
+         Zach Lahn, the Republican candidate,
+         definitely                                           36%           -          -         -     36%            -          -
+         Zach Lahn, the Republican candidate,
+         probably                                             10%           -          -         -     10%            -          -
+         Zach Lahn, the Republican candidate,
+         lean                                                  1%           -          -         -       1%           -          -
+         Rob Sand, the Democratic candidate,
+         lean                                                  *%           -          -         -       *%           -          -
+         Rob Sand, the Democratic candidate,
+         probably                                              8%           -          -         -       8%           -          -
+         Rob Sand, the Democratic candidate,
+         definitely                                           42%           -          -         -     42%            -          -
+         Someone else (Please specify)                            -         -          -         -          -         -          -
+         I did not vote for this office                        *%           -          -         -       *%           -          -
+         Unsure                                                3%           -          -         -       3%           -          -
+
+[Responses to QIAGov_Voted 1. Zach Lahn, the Republican candidate were recoded as QIAGov 1. Zach
+Lahn, the Republican candidate, definitely]
+[Responses to QIAGov_Voted 2. Rob Sand, the Democratic candidate were recoded as QIAGov 4. Rob
+Sand, the Democratic candidate, definitely]
+[Responses to QIAGov_Voted were merged with QIAGov and QIAGovLeaner]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            14
+
+    26.  [QIASenateBallot_Voted] Who did you vote for in the election for the U.S. Senate?
+         [RANDOMIZE 1-3]
+         [QIASenBallotFull] If the 2026 election for the U.S. Senate were held today and you had to
+         make a choice, for whom would you vote? [RANDOMIZE 1-3]
+         [QIASenateBallotFullLeaner] And if you had to choose today, which of the following
+         candidates would you vote for? [RANDOMIZE 1-3]
+                                                                 Total        FL         OH        GA           IA       ME          NE
+                                                              (n=403)                                     (n=403)
+         Ashley Hinson, the Republican
+         candidate                                              43%             -          -          -     43%             -          -
+         Josh Turek, the Democratic candidate                   45%             -          -          -     45%             -          -
+         Thomas Laehn, the Libertarian
+         candidate                                                7%            -          -          -       7%            -          -
+         Someone else (Please specify)                            2%            -          -          -       2%            -          -
+         I did not vote for this office                           *%            -          -          -       *%            -          -
+         Unsure                                                   3%            -          -          -          -          -          -
+
+[Responses to QIASenateBallot_Voted were merged with QIASenBallotFull and
+QIASenateBallotFullLeaner]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                               15
+
+TECHNOLOGY & ANTITRUST
+
+[ASK ALL]
+
+    27. [QFTCMission] The Federal Trade Commission (FTC) is the federal agency responsible for
+        protecting consumers and promoting competition. Which of the following do you think
+        should be the FTC's top priorities? Select up to two. [SELECT MULTIPLE UP TO TWO,
+        RANDOMIZE 1-6]
+                                                         Total       FL       OH        GA         IA      ME        NE
+        Stopping consumer fraud and scams                49%       49%      48%       49%       48%      47%       48%
+        Protecting data privacy and online
+        security                                         41%       35%      40%       43%       40%      37%       40%
+        Cracking down on "junk fees" and
+        deceptive pricing                                27%       26%      24%       25%       21%      19%       22%
+        Going after foreign-based companies
+        that harm U.S. consumers or
+        businesses                                       26%       30%      25%       27%       29%      31%       27%
+        Stopping deceptive or misleading
+        advertising                                      20%       23%      26%       22%       21%      21%       19%
+        Breaking up large American companies             15%       13%      16%       15%       20%      20%       15%
+        Something else (Please specify)                   1%        1%        1%        *%       1%        3%       2%
+        Unsure                                            5%        5%        4%       4%        2%        3%       4%
+
+    28. [QConsumerWelfare] The consumer welfare standard in antitrust focuses on maximizing
+        benefits to consumers, typically measured through lower prices, improved quality and
+        service, and innovation. Applying the consumer welfare standard in antitrust enforcement
+        means that businesses can be seen as breaking antitrust law if they have harmed
+        consumers in some way.
+
+        Knowing this, do you support or oppose the federal government applying the Consumer
+        Welfare Standard when assessing potentially anticompetitive behavior? [RANDOMIZE
+        SCALE 1-4, 4-1]
+                                                         Total       FL       OH        GA         IA      ME        NE
+        STRONGLY/SOMEWHAT SUPPORT                        76%       73%      73%       69%       71%      77%       78%
+        STRONGLY/SOMEWHAT OPPOSE                          7%        6%        8%      11%        9%        7%       7%
+        Strongly support                                 40%       38%      38%       37%       35%      42%       43%
+        Somewhat support                                 36%       35%      35%       32%       36%      35%       35%
+        Somewhat oppose                                   4%        4%        5%       6%        3%        5%       4%
+        Strongly oppose                                   3%        2%        3%       5%        6%        2%       3%
+        Unsure                                           17%       21%      19%       20%       21%      17%       15%
+
+
+    29. [QEqualLaws] Do you agree or disagree with the following statement?
+        “Antitrust laws should be written and enforced equally on all companies.” [RANDOMIZE
+        SCALE 1-4, 4-1]
+                                                         Total       FL       OH        GA         IA      ME        NE
+        STRONGLY/SOMEWHAT AGREE                          90%       88%      86%       83%       84%      84%       88%
+        STRONGLY/SOMEWHAT DISAGREE                        3%        4%        5%       8%        5%        5%       5%
+        Strongly agree                                   62%       60%      57%       57%       64%      60%       62%
+        Somewhat agree                                   28%       28%      29%       26%       20%      24%       26%
+        Somewhat disagree                                 2%        2%        3%       4%        1%        3%       2%
+        Strongly disagree                                 1%        1%        2%       4%        4%        2%       3%
+        Unsure                                            7%        9%        9%       9%       11%       11%       8%
+
+
+
+
+
+                                                       16
+
+GLOBAL COMPETITION & A.I.
+
+    30. [QTechSafety] Do you agree or disagree with the following statement?
+        “It makes our country stronger when the world’s leading technology companies are based
+        in the United States, rather than overseas.” [RANDOMIZE SCALE 1-4, 4-1]
+                                                          Total       FL       OH        GA         IA       ME        NE
+        STRONGLY/SOMEWHAT AGREE                           80%      85%       78%       83%       82%       81%      81%
+        STRONGLY/SOMEWHAT DISAGREE                        11%        9%      13%        9%       11%       14%       11%
+        Strongly agree                                    46%      55%       47%       50%       48%       47%      49%
+        Somewhat agree                                    34%      30%       31%       33%       34%       34%      33%
+        Somewhat disagree                                  7%        5%        9%       6%        4%        8%        7%
+        Strongly disagree                                  4%        4%        4%       3%        6%        6%        4%
+        Unsure                                             9%        6%        9%       8%        7%        6%        8%
+
+    31. [QChinaAI] America is currently in a race with China to develop the best artificial
+        Intelligence (AI) technology. Do you think breaking up America’s leading tech companies
+        would help or hurt the United States in this race against China? [RANDOMIZE 1-2]
+                                                          Total       FL       OH        GA         IA       ME        NE
+        Help the U.S. win the race                        22%      19%       18%       17%       22%       20%      19%
+        Hurt the U.S. and help China                      35%      44%       39%       37%       36%       37%      40%
+        No impact                                         21%      12%       18%       16%       14%       17%      15%
+        Unsure                                            23%      25%       25%       29%       27%       25%      26%
+
+    32. [QAIUse] AI now comes in many forms, from chatbots and AI assistants to features built
+        into apps people already use for search, email, and photos. Thinking about all of these,
+        how often would you say you use AI? [RANDOMIZE SCALE 1-6, 6-1]
+                                                          Total       FL       OH        GA         IA       ME        NE
+        EVERY DAY OR ALMOST EVERY
+        DAY/A FEW TIMES A WEEK                            50%      56%       51%       56%       53%       60%      54%
+        Every day or almost every day                     27%      32%       28%       30%       32%       33%      29%
+        A few times a week                                23%      24%       23%       26%       21%       27%      25%
+        Once a week                                        7%        5%        6%       5%        6%        5%        8%
+        A few times a month                               10%      12%       14%        8%        8%       10%      10%
+        Once a month                                       3%        4%        3%       5%        4%        2%        1%
+        Less often than once a month                      10%        5%        9%      10%       12%       11%       11%
+        Never                                             17%      14%       13%       10%       15%        9%        9%
+        Unsure                                             4%        4%        5%       5%        3%        3%        6%
+
+[IF QAIUSE = 1-6, ASK]
+    33. [QAIHelpful] How helpful, if at all, have these AI tools or features been to you in your daily
+        life or work? [RANDOMIZE SCALE 1-5, 5-1]
+                                                          Total       FL       OH        GA         IA       ME        NE
+                                                      (n=3,015)  (n=424)   (n=413)   (n=427)   (n=335)   (n=349)  (n=350)
+        EXTREMELY/VERY HELPFUL                            46%      50%       34%       45%       39%       35%      33%
+        Extremely helpful                                 17%      18%       13%       17%       11%        9%        9%
+        Very helpful                                      29%      32%       21%       28%       28%       25%      24%
+        Somewhat helpful                                  37%      40%       47%       40%       41%       45%      43%
+        Not very helpful                                   9%        6%      10%       11%        9%       12%      13%
+        Not at all helpful                                 5%        4%        5%       3%        8%        4%        8%
+        Unsure                                             3%        1%        4%       2%        3%        5%        3%
+
+
+
+
+
+
+
+
+                                                        17
+
+    34.  [QAIExistingLaws] As lawmakers debate artificial intelligence, some say existing laws on
+         fraud, discrimination, privacy, and consumer protection already apply to AI and should be
+         enforced first. Others say Congress needs to pass new laws now, regardless of whether
+         existing law can be enforced. Which comes closer to your view? [RANDOMIZE 1-2]
+                                                            Total       FL       OH         GA         IA       ME        NE
+         Enforce existing laws before creating
+         new AI-specific laws                              48%       47%       42%        44%       47%       46%       49%
+         Pass new laws now regardless of how
+         existing laws can be enforced                     41%       38%       41%        40%       35%       45%       36%
+         Unsure                                            12%       15%       17%        16%       19%       10%       14%
+
+    35.  [QAIStandard] As artificial intelligence grows, lawmakers are debating who should set the
+         rules for it. Which comes closer to your view? [RANDOMIZE 1-2]
+                                                            Total       FL       OH         GA         IA       ME        NE
+         States should set their own AI rules,
+         even if they differ from state to state           19%       22%       19%        21%       22%       18%       21%
+         Congress should set national AI rules
+         that apply in every state                         68%       65%       70%        67%       69%       74%       65%
+         Unsure                                            13%       13%        11%       12%       10%        9%       15%
+
+   36.   [QAIRegConcerns] When it comes to regulating artificial intelligence, which one or two of
+         the following concern you the most? [SELECT MULTIPLE, UP TO TWO] [RANDOMIZE 1-6]
+                                                            Total       FL       OH         GA         IA       ME        NE
+         Government using regulation to control
+         information                                       40%       38%       43%        41%       44%       43%       46%
+         Lawmakers not understanding the
+         technology                                        39%       41%       42%        40%       43%       45%       41%
+         America falling behind China on AI                24%       23%       21%        24%       24%       20%       22%
+         Regulations favoring big companies
+         over startups                                     24%       25%       26%        27%       23%       28%       25%
+         A patchwork of different state laws               18%       19%       19%        20%       17%       15%       19%
+         AI tools becoming more expensive and
+         harder to use                                     15%        11%      14%        12%        8%        8%        9%
+         Something else (Please specify)                     4%        3%        4%        5%        4%        8%        5%
+         I have no concerns about AI regulation              5%        6%        3%        4%        5%        3%        1%
+         Unsure                                              6%        6%        5%        5%        7%        6%        7%
+
+   37.   [QRegConfidence Grid] How much confidence do you have that each of the following has
+         the expertise needed to effectively regulate artificial intelligence technologies? [DISPLAY
+         AS GRID] [RANDOMIZE ROWS] [RANDOMIZE SCALE 1-4, 4-1]
+           1. A great deal     2. Some            3. Not very         4. Not at all       5. Unsure
+                                                  much
+             1.   [QRegConfidence_Congress] The U.S. Congress
+                                                            Total       FL       OH         GA         IA       ME        NE
+         A GREAT DEAL/SOME                                 44%       46%       39%        42%       41%       37%       36%
+         A great deal                                      15%       15%        11%       12%        6%        8%        5%
+         Some                                              29%       31%       28%        29%       35%       30%       31%
+         Not very much                                     31%       27%       34%        32%       34%       34%       32%
+         Not at all                                        21%       21%       23%        18%       20%       25%       27%
+         Unsure                                              5%        6%        5%        8%        5%        4%        4%
+
+
+
+
+
+
+
+
+                                                          18
+
+             2.  [QRegConfidence_Agencies] Federal regulatory agencies
+                                                         Total       FL       OH        GA         IA       ME       NE
+        A GREAT DEAL/SOME                                57%       54%      49%       53%       52%       49%      50%
+        A great deal                                     15%       17%      15%       16%        9%        8%      12%
+        Some                                             42%       37%      34%       37%       43%       42%      38%
+        Not very much                                    26%       24%      30%       26%       27%       30%      28%
+        Not at all                                       12%       14%      16%       14%       15%       17%      17%
+        Unsure                                            5%        7%        5%       7%        6%        4%        5%
+
+             3.  [QRegConfidence_State] State legislatures
+                                                         Total       FL       OH        GA         IA       ME       NE
+        A GREAT DEAL/SOME                                46%       43%      40%       40%       42%       29%      35%
+        A great deal                                     12%       14%      10%       12%        5%        7%        5%
+        Some                                             35%       30%      31%       28%       37%       22%      30%
+        Not very much                                    32%       32%      30%       31%       33%       40%      38%
+        Not at all                                       17%       17%      24%       20%       20%       26%      23%
+        Unsure                                            5%        7%        5%       9%        6%        4%        5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       19
+
+DATA CENTERS AND A.I. INFRASTRUCTURE
+
+   38.  [QDataCenterSupport] If a data center were planned for construction in your county within
+        the next few months, would you support or oppose it? [RANDOMIZE SCALE 1-4, 4-1]
+                                                          Total       FL       OH        GA        IA       ME        NE
+        STRONGLY/SOMEWHAT SUPPORT                        33%       37%       29%       33%      34%       28%       31%
+        STRONGLY/SOMEWHAT OPPOSE                         58%       51%       61%       59%      56%       65%       55%
+        Strongly support                                 12%       14%       10%       11%        9%      12%       10%
+        Somewhat support                                 21%       23%       19%       22%      26%       17%       21%
+        Somewhat oppose                                  18%       18%       17%       21%      17%       16%       14%
+        Strongly oppose                                  40%       32%       44%       38%      39%       49%       41%
+        Unsure                                           10%       13%        9%        8%      10%         7%      14%
+
+   39.  [QDataCenterConcern] When you think about the construction of data centers in your
+        county, which of the following concerns you most? You may select up to 2, if you believe
+        more than one applies. [RANDOMIZE 1-7] [SELECT UP TO 2]
+                                                          Total       FL       OH        GA        IA       ME        NE
+        My electricity bill could go up                  42%       45%       48%       42%      32%       40%       32%
+        Local water supplies are strained                42%       33%       34%       41%      39%       38%       44%
+        My local power grid becomes less
+        reliable                                         29%       27%       28%       27%      33%       24%       29%
+        Increased local environmental and
+        emissions impacts                                25%       25%       20%       24%      27%       37%       23%
+        Local governments giving large
+        companies tax breaks to attract data
+        centers                                          15%       15%       21%       21%      23%       15%       25%
+        Noise from the facility                          13%       12%       14%       11%        8%        8%      11%
+        Data centers could change the look and
+        feel of my county.                                 9%      10%       12%       11%      10%       13%        5%
+        Something else (Please specify)                    1%        1%       1%        1%        3%        2%       1%
+        I have no concerns about data centers
+        near me                                            8%      11%        7%        7%        8%        7%       8%
+
+
+   40.  [QDataCenterRole] Data centers power streaming, online banking, personal document and
+        photo storage, along with the computing used by hospitals, companies, and the U.S.
+        military.
+
+        Knowing this, do you agree or disagree with the following statement? “Keeping data
+        center development growing in the United States is key to the future of American national
+        security.” [RANDOMIZE SCALE 1-4, 4-1]
+                                                          Total       FL       OH        GA        IA       ME        NE
+        STRONGLY/SOMEWHAT AGREE                          54%       58%       51%       53%      54%       52%       53%
+        STRONGLY/SOMEWHAT DISAGREE                       34%       26%       35%       35%      35%       38%       33%
+        Strongly agree                                   20%       23%       19%       20%      22%       16%       20%
+        Somewhat agree                                   34%       34%       32%       33%      32%       36%       32%
+        Somewhat disagree                                18%       13%       18%       19%      19%       19%       17%
+        Strongly disagree                                16%       13%       17%       16%      16%       19%       17%
+        Unsure                                           12%       16%       13%       12%       11%      10%       14%
+
+
+
+
+
+
+
+
+
+                                                        20
+
+   41.  [QPledgeLift] Major technology companies have publicly committed to pay for the
+        electricity and grid upgrades their data centers require, rather than shifting those costs
+        onto local households. Knowing this, would you be more or less likely to support new data
+        center investment in your area? [RANDOMIZE SCALE 1-5, 5-1]
+                                                         Total       FL       OH        GA         IA      ME        NE
+        MUCH/SOMEWHAT MORE LIKELY                        48%       52%      47%       47%       49%      45%       56%
+        MUCH/SOMEWHAT LESS LIKELY                        12%       13%      13%       12%       13%       11%      12%
+        Much more likely                                 18%       19%      20%       20%       18%      18%       17%
+        Somewhat more likely                             31%       33%      27%       27%       31%      27%       39%
+        It would make no difference                      33%       28%      34%       34%       34%      40%       26%
+        Somewhat less likely                              4%        4%        4%       5%        6%        3%       5%
+        Much less likely                                  8%        9%        9%       7%        8%        7%       7%
+        Unsure                                            7%        7%        6%       7%        4%        4%       6%
+
+[ASK ALL]
+   42.  [QDataCenterSupport_Informed] Now that you have heard more about data centers, if a
+        data center were planned for construction in your county within the next few months,
+        would you support or oppose it? [RANDOMIZE SCALE 1-4, 4-1]
+                                                         Total       FL       OH        GA         IA      ME        NE
+        STRONGLY/SOMEWHAT SUPPORT                        44%       48%      38%       42%       41%      38%       43%
+        STRONGLY/SOMEWHAT OPPOSE                         48%       40%      54%       51%       49%      54%       47%
+        Strongly support                                 14%       18%      14%       14%       14%       11%      15%
+        Somewhat support                                 29%       30%      24%       27%       27%      27%       28%
+        Somewhat oppose                                  19%       17%      23%       20%       17%      13%       16%
+        Strongly oppose                                  29%       23%      31%       31%       33%      41%       32%
+        Unsure                                            9%       12%        8%       8%       10%        8%      10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       21
+
+EUROPEAN INFLUENCE & THE DIGITAL MARKETS ACT (DMA)
+
+   43.  [QDMA_Awareness] The European Union enacted  a law called the "Digital Markets Act"
+        (DMA), which is a regulatory framework that critics say stifles innovation, punishes
+        successful American companies, and imposes costly compliance burdens based on
+        political motivations rather than genuine consumer harm. Based on this, which approach
+        do you think the U.S. Congress should take? [RANDOMIZE 1-2]
+                                                          Total       FL       OH       GA         IA       ME        NE
+        Pass similar laws in the United States to
+        copy the European approach                       34%       31%       29%       32%      23%       35%       23%
+        Reject the European approach                     35%       36%       39%       34%      34%       32%       45%
+        Unsure                                           30%       33%       33%       34%      43%       33%       32%
+
+   44.  [QAntiAmerican_Model] Critics of the European Union’s Digital Markets Act call it an
+        "anti-American" policy because it targets U.S. companies while exempting many European
+        and Chinese competitors.
+
+        Would you be more or less likely to vote for a candidate for Congress, who proposes new
+        U.S. laws that are similar to these European regulations? [RANDOMIZE SCALE 1-5, 5-1]
+                                                          Total       FL       OH       GA         IA       ME        NE
+        MUCH/SOMEWHAT MORE LIKELY                        26%       20%       23%       23%      19%       27%       20%
+        MUCH/SOMEWHAT LESS LIKELY                        31%       37%       39%       30%      36%       31%       36%
+        Much more likely                                   9%       8%        8%        7%        6%      11%        6%
+        Somewhat more likely                             17%       11%       15%       16%      13%       16%       14%
+        It would make no difference                      27%       23%       23%       22%      25%       20%       22%
+        Somewhat less likely                             13%       17%       15%       10%      21%       16%       14%
+        Much less likely                                 19%       20%       23%       19%      15%       15%       22%
+        Unsure                                           16%       20%       16%       25%      21%       22%       23%
+
+   45.  [QConsumer_Impact_EU] In Europe, new antitrust regulations have forced companies to
+        remove features for consumers like Google Maps previews in search results or certain
+        security features on the iPhone.
+
+        Knowing this, would you support or oppose bringing these same regulations to the United
+        States if it meant you might lose access to convenient features you currently use?
+        [RANDOMIZE SCALE 1-4, 4-1]
+                                                          Total       FL       OH       GA         IA       ME        NE
+        STRONGLY/SOMEWHAT SUPPORT                        27%       23%       20%       26%      21%       27%       20%
+        STRONGLY/SOMEWHAT OPPOSE                         52%       56%       59%       49%      52%       49%       55%
+        Strongly support                                   9%       9%        7%        8%        6%      10%        6%
+        Somewhat support                                 18%       14%       13%       18%      15%       16%       15%
+        Somewhat oppose                                  26%       29%       29%       23%      30%       26%       27%
+        Strongly oppose                                  26%       27%       30%       26%      22%       24%       28%
+        Unsure                                           21%       20%       21%       26%      27%       24%       25%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        22
+
+DEMOGRAPHICS
+
+Now, a few final questions for statistical purposes...
+
+
+
+   46.  [QBirthYear] Which range of years includes the year you were born?
+                                                           Total       FL       OH        GA         IA       ME        NE
+        1903-1927                                             -         -         -         -         -         -         -
+        1928-1945                                           4%       5%        2%        2%        1%        2%        2%
+        1946-1964                                         37%       45%       42%       35%       39%       41%      39%
+        1965-1980                                         25%       22%       23%       27%       25%       25%      25%
+        1981-1996                                         24%       18%       24%       24%       24%       23%      27%
+        1997-2012                                         10%       11%        8%       12%       11%        8%        7%
+
+[In 2026, TERMINATE AFTER QBirthYear IF:
+QBirthYear=1 and QAge is <98,
+QBirthYear=2 and QAge is >98 or <80,
+QBirthYear=3 and QAge is >80 or <61,
+QBirthYear=4 and QAge is >61 or <45,
+QBirthYear=5 and QAge is >45 or <29,
+QBirthYear=6 and QAge is >29]
+
+[ASK ALL]
+
+   47.  [QPartyID] Do you consider yourself a…? [RANDOMIZE 1-2]
+                                                           Total       FL       OH        GA         IA       ME        NE
+        Republican                                        39%       44%       45%       37%       41%       30%      49%
+        Democrat                                          40%       32%       33%       36%       26%       35%      23%
+        Independent                                       20%       22%       21%       24%       31%       32%      27%
+        Member of another party                             1%       1%        1%        2%        1%        2%        1%
+        Unsure                                              *%       1%        1%        1%        *%        1%        1%
+
+
+[IF INDEPENDENT, MEMBER OF ANOTHER PARTY, OR UNSURE (QPartyID=3-5), ASK]
+   48.  [QPartyLeanView] Even if neither political party perfectly represents your views, who do
+        you agree with more often on issues that are important to you? [RANDOMIZE 1-2]
+                                                           Total       FL       OH        GA         IA       ME        NE
+                                                        (n=922)   (n=120)   (n=118)   (n=126)   (n=129)   (n=148)  (n=102)
+        Republicans                                       33%       40%       34%       41%       32%       37%      35%
+        Democrats                                         37%       39%       40%       36%       40%       42%      43%
+        Both equally often                                24%       14%       22%       18%       15%       17%      12%
+        Unsure                                              6%       8%        3%        6%       14%        4%      10%
+
+    49. [QPartyConsolidated] QPartyID and QPartyLeanView
+                                                           Total       FL       OH        GA         IA       ME        NE
+        Total Republican+Republican-leaning
+        Independents                                      46%       54%       53%       48%       52%       43%      59%
+        Total Democratic+Democratic-leaning
+        Independents                                      47%       41%       42%       46%       39%       50%      35%
+        Total Independent                                   6%       5%        6%        6%        9%        7%        6%
+
+
+
+
+
+
+
+                                                        23
+
+[ASK ALL]
+   50.  [QIdeology] Regardless of how you typically vote, would you say you consider yourself to
+        be…? [RANDOMIZE SCALE 1-5, 5-1]
+                                                         Total       FL       OH        GA         IA       ME       NE
+        VERY/SOMEWHAT CONSERVATIVE                       41%       46%      46%       43%       46%       37%      52%
+        VERY/SOMEWHAT LIBERAL                            31%       25%      27%       28%       26%       35%      22%
+        Very conservative                                21%       25%      25%       22%       24%       16%      29%
+        Somewhat conservative                            20%       22%      21%       21%       22%       20%      23%
+        Moderate                                         27%       26%      26%       27%       27%       28%      24%
+        Somewhat liberal                                 15%       14%      15%       13%       16%       18%      11%
+        Very liberal                                     16%       11%      12%       15%       10%       17%      11%
+        Unsure                                            1%        3%        1%        1%       1%        *%        2%
+
+   51.  [Q2024Vote] For which candidate did you vote for in the 2024 presidential election?
+        [RANDOMIZE 1-2]
+                                                         Total       FL       OH        GA         IA       ME       NE
+        Donald Trump                                     47%       53%      51%       47%       56%       44%      54%
+        Kamala Harris                                    48%       43%      41%       47%       39%       49%      39%
+        Someone else                                      2%        1%        2%        3%       2%        3%        4%
+        I did not vote                                    2%        3%        5%        3%       3%        4%        2%
+        Unsure                                             *%        *%       1%        *%        *%       *%        *%
+
+   52.  [QUrbanRural] How would you describe the area in which you live? [RANDOMIZE SCALE
+        1-4, 4-1]
+                                                         Total       FL       OH        GA         IA       ME       NE
+        City                                             25%       20%      24%       16%       25%       10%      37%
+        Suburb near a city                               48%       58%      44%       51%       21%       23%      26%
+        Small town not near a city                       10%       12%        9%      13%       26%       18%      18%
+        Rural or country area                            16%       10%      23%       20%       28%       49%      20%
+
+
+   53.  [QDataCenterProximity] As far as you know, is there a large data center located in your
+        community or county? [RANDOMIZE 1-2]
+                                                         Total       FL       OH        GA         IA       ME       NE
+        Yes                                              15%        6%      22%       21%       23%        2%      32%
+        No                                               64%       67%      55%       57%       63%       88%      53%
+        Unsure                                           21%       27%      23%       22%       14%       10%      15%
+
+   54.  [QIncome] Which range includes your total annual household income, before taxes?
+                                                         Total       FL       OH        GA         IA       ME       NE
+        Less than $30,000 per year                       18%       17%      16%       16%       21%       18%      14%
+        $30,000 to $49,999 per year                      14%       17%      15%       14%       17%       12%      13%
+        $50,000 to $74,999 per year                      22%       26%      22%       23%       17%       15%      22%
+        $75,000 to $99,999 per year                      12%       14%      17%       13%       13%       19%      12%
+        $100,000 to $124,999 per year                    11%       10%        9%      10%       13%       12%      12%
+        $125,000 or more per year                        21%       12%      17%       20%       14%       20%      23%
+        Prefer not to say                                 1%        4%        3%        3%       4%        3%        4%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       24
+
+INTERVIEWER PRE-CODE
+
+    55.  [QDMA] DMA PRE-CODE
+                                                             Total       FL        OH        GA         IA        NE        ME
+         Atlanta DMA                                          3%           -         -     71%           -          -         -
+         Augusta-Aiken DMA                                    *%           -         -      2%           -          -         -
+         Bangor DMA                                           *%           -         -         -         -     26%            -
+         Cedar Rapids-Wtrlo-Iwc&Dub DMA                       *%           -         -         -     29%            -         -
+         Cincinnati DMA                                       1%           -     15%           -         -          -         -
+         Cleveland-Akron (Canton) DMA                         1%           -     34%           -         -          -         -
+         Columbus Oh DMA                                      1%           -     22%           -         -          -         -
+         Davenport-R.Island-Moline DMA                        *%           -         -         -      7%            -         -
+         Dayton DMA                                           *%           -     11%           -                    -         -
+         Des Moines-Ames DMA                                  *%           -         -         -     42%            -         -
+         Macon DMA                                            *%           -         -      6%           -          -         -
+         Miami-Ft. Lauderdale DMA                             1%      19%            -         -         -          -         -
+         Omaha DMA                                            *%           -         -         -         -          -    49%
+         Orlando-Daytona Bch-Melbrn DMA                       2%      23%            -         -         -          -         -
+         Portland-Auburn DMA                                  *%           -         -         -         -     70%            -
+         Presque Isle DMA                                     *%           -         -         -         -       4%           -
+         Savannah DMA                                         *%           -         -      6%           -          -         -
+         Sioux City DMA                                       *%           -         -         -      8%            -         -
+         Tampa-St. Pete (Sarasota) DMA                        2%      24%            -         -         -          -         -
+         West Palm Beach-Ft. Pierce DMA                       1%        7%           -         -         -          -         -
+         Other                                              86%       26%        18%       15%       14%            -    51%
+
+    56.  [QTurnout] 2026 TURNOUT BUCKET PRE-CODE
+                                                             Total       FL        OH        GA         IA        NE        ME
+         0-0.5                                              19%       17%        15%       17%       12%         4%      17%
+         0.51-0.75                                          19%       19%        18%       16%       16%       15%       14%
+         0.76-1                                             62%       64%        67%       67%       71%       81%       69%
+
+    57.  [QPartyReg] VOTER FILE PARTY REGISTRATION PRE-CODE
+                                                             Total       FL        OH        GA         IA        NE        ME
+         Democrat                                           32%       31%        26%       30%       33%       37%       28%
+         Republican                                         38%       24%        38%       38%       26%       35%       19%
+         Other                                              30%       44%        36%       32%       41%       29%       53%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          25
+
+SCREENERS / DEMOGRAPHIC QUOTAS (ASKED AT BEGINNING OF THE SURVEY)
+
+   58.  [QIndScreener] Do you or does anyone in your household work in any of the following
+        industries? [SELECT MULTIPLE] [RANDOMIZE 1-7]
+                                                           Total       FL       OH        GA         IA       NE       ME
+        Technology                                          4%       5%        3%        6%        3%        5%        5%
+        Sales                                               4%       6%        4%        6%        6%        5%        9%
+        Healthcare or the
+        pharmaceutical industry                             9%       6%       11%       11%       15%       15%      18%
+        Journalism or the media      TERMINATE                -         -         -         -         -         -         -
+        Food service or the
+        restaurant industry                                 3%       6%        5%        6%        6%        6%        6%
+        Market research              TERMINATE                -         -         -         -         -         -         -
+        Public relations             TERMINATE                -         -         -         -         -         -         -
+        None of these                                     82%       80%       78%       75%       74%       72%      67%
+
+   59.  [QRegVote] Are you currently registered to vote?
+                                                           Total       FL       OH        GA         IA       NE       ME
+        Yes                                              100%      100%      100%     100%      100%      100%      100%
+        No                           TERMINATE                -         -         -         -         -         -         -
+        Unsure                       TERMINATE                -         -         -         -         -         -         -
+
+   60.  [QAge] What is your age? [TEXT BOX, VALIDATED TO BE BETWEEN 18-120, TERMINATE
+        IF UNDER 18]
+                                                           Total       FL       OH        GA         IA       ME        NE
+        18-34                                             19%       15%       17%       20%       20%       18%      18%
+        35-49                                             21%       19%       20%       22%       21%       20%      22%
+        50-64                                             26%       26%       25%       28%       24%       25%      24%
+        65+                                               35%       40%       38%       30%       35%       37%      36%
+
+   61.  [QGender] Do you describe yourself as a man, a woman, or in some other way?
+        [RANDOMIZE 1-2]
+                                                           Total       FL       OH        GA         IA       ME        NE
+        Man                                               47%       46%       47%       45%       48%       47%      48%
+        Woman                                             53%       53%       53%       55%       52%       52%      52%
+        Some other way                                      *%        *%        *%        *%       *%        1%        *%
+
+   62.  [QRace] What is your race or ethnicity? [SELECT MULTIPLE] [RANDOMIZE 1-6]
+                                                           Total       FL       OH        GA         IA       ME        NE
+        White                                             78%       75%       86%       64%       93%       95%      90%
+        Black or African American                         12%       12%       12%       31%        2%        3%        7%
+        Hispanic or Latino                                11%       19%        4%        4%        4%        1%        3%
+        Asian                                               5%       3%        1%        2%        1%        1%        *%
+        Native American or Alaska Native                    2%       3%        1%        3%        2%        2%        3%
+        Native Hawaiian or Other Pacific
+        Islander                                            *%        *%       1%         *%       *%           -         -
+        Other race or ethnicity (Please specify)            1%       1%        1%        2%        2%        1%        2%
+
+    63. [QRaceRecode] Recoded Race/Ethnicity
+                                                           Total       FL       OH        GA         IA       ME        NE
+        White, non-Hispanic                               71%       64%       82%       60%       90%       92%      87%
+        Black, non-Hispanic                               10%       11%       10%       29%        2%        3%        6%
+        Hispanic                                          11%       19%        4%        4%        4%        1%        3%
+        AAPI, non-Hispanic                                  4%       2%         *%       2%        1%        1%        *%
+        Other/2+ races, non-Hispanic                        4%       4%        4%        6%        4%        4%        4%
+
+
+
+                                                        26
+
+   64.   [QEducation] What is the highest level of education you have completed?
+                                                               Total        FL        OH        GA          IA       ME         NE
+         High school or less                                  25%        26%       29%        25%        28%       28%        22%
+         Some college                                         19%        19%       20%        19%        19%       19%        21%
+         Associate degree                                     11%        13%         9%       11%        15%         9%       13%
+         Bachelor's degree                                    27%        25%       25%        28%        26%       27%        29%
+         Graduate degree                                      18%        17%       17%        18%        13%       17%        16%
+         Prefer not to say                                      *%         *%           -       *%         *%        *%         *%
+
+   65.   [QState] In which state do you live?
+                                                               Total        FL        OH        GA          IA       ME         NE
+         States in the Northeast                              17%            -          -         -          -    100%            -
+         States in the Midwest                                23%            -    100%            -    100%             -   100%
+         States in the South                                  38%      100%             -    100%            -          -         -
+         States in the West                                   23%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            27
+
+METHODOLOGY
+
+Echelon Insights conducted a survey on behalf of NetChoice to understand voter perceptions around
+antitrust regulations, artificial intelligence, datacenters and the 2026 midterm elections. The survey was
+fielded from October 16th to 23rd, 2026 in English among a sample of 3,644 voters in the likely electorate
+using a mixed mode approach, with a base sample of 1,004 and oversamples to achieve n=515
+respondents in Florida, n=508 in Ohio, n=508 in Georgia, n=403 in Iowa, n=407 in Nebraska and n=413
+in Maine. Given some overlap between the oversample and the national base voters, we surveyed a total
+of 3,644 respondents, with 1,072 of the respondents in the final sample completing the survey online after
+receiving a text message invitation and 2,572 completing the survey online after being drawn from the
+web-based sample exchanges [Cint, PureSpectrum and RepData]. The text sample was drawn from the
+L2 voter file, and the web sample was matched to the L2 voter file to verify respondents’ voter registration
+status.
+
+Measures taken to ensure data quality included measures to prevent duplicate responses, questions
+designed to disqualify inattentive respondents, and the removal of respondents from the data file who
+answered more than one-third of the questions they were asked in less than one-third of the median
+response time per question.
+
+Respondents were asked to indicate their voting preferences in the 2026 midterm election. Those who
+had already voted were asked to select their candidate choice from a randomized list of candidates
+specific to their state ballot. Respondents who had not yet voted were asked who they would vote for if
+the election were held today. Those initially undecided were prompted with a follow-up to indicate a lean
+towards a candidate. On the head-to-head ballot, coding was applied to streamline responses into a final
+preference by classifying responses as “definitely” for the candidate selected. When asking about the
+likelihood of voter participation in the 2026 midterm election, respondents selected from a range of voting
+intentions, including options to confirm if they had already cast their vote. Those who indicated they had
+already voted specified whether they voted early in person or by mail/absentee, with responses coded to
+align with future voting intention categories. Respondents who had not yet voted detailed their voting
+plans, with all responses coded according to method or uncertainty regarding voting.
+
+The sample was weighted to reflect modeled turnout and demographic characteristics of the population of
+voters in the 2026 likely electorate based on a probabilistic model that incorporates data from the US
+Census Bureau’s American Community Survey and Current Population Survey Voting and Registration
+Supplement, as well as L2 voter file data. Weighting dimensions included gender, age, race/ethnicity,
+education, designated market area (DMA), turnout probability, party by ideology, as well as gender by
+age.
+
+The oversamples for Florida, Ohio, Georgia, Iowa, Nebraska and Maine were weighted down to the
+proportion in the population of voters in the likely electorate in those states.
+
+Adjusted to incorporate the effect of weighting, the overall margin of sampling error is ± 3.2 percentage
+points. Margin of error was ± 5.0 percentage points for Florida, ± 5.2 percentage points for Ohio, ± 5.2
+percentage points for Georgia, ± 6.5 percentage points for Iowa, ± 6.3 percentage points for Nebraska
+and ± 6.3 percentage points for Maine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                28

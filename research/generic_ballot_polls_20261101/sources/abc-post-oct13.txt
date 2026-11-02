@@ -1,0 +1,1947 @@
+This Washington Post-ABC News-Ipsos poll was conducted among 2,545 U.S. adults, Oct.
+9-13, 2026, via the probability-based Ipsos KnowledgePanel®. Results have a margin of
+sampling error of plus or minus 2 percentage points for the full sample, including
+design effects due to weighting. The error margin is plus or minus 2.2 points for
+results among 2,032 registered voters and likely voters; all registered voters were
+assigned a probability of voting to produce likely voter results. The error margin is
+plus or minus 2.8 points for the half-sample questions asked of 1,271-1,274 U.S.
+adults. Sampling error is not the only cause of differences in polls. Sampling,
+fieldwork and data processing were provided by Ipsos Public Affairs.
+
+Where noted, trend comparisons are to random-digit-dialed telephone surveys (“CATI
+mode”) by The Washington Post and ABC News or others. Questions were reformatted as of
+January 2024 given the change to a self-administered online questionnaire. Differences
+from previous results may reflect mode effects.
+
+See full methodological details at the end of this document.
+
+In the tables below, asterisks in data columns indicate <0.5 percent. “Skipped” shows
+the share of respondents who skipped the question in online administration.
+“Skipped/No opinion” shows the share of respondents who skipped the question or who
+selected an explicit “no opinion” option in online administration. Respondents
+interviewed via telephone were able to volunteer a “no opinion” response. Phrases
+surrounded by parentheticals within questions indicate clauses that were randomly
+rotated for respondents.
+
+RV=Registered voters
+LV=Likely voters
+
+
+1. (AMONG REGISTERED VOTERS) How likely are you to vote in the congressional election
+in November?
+
+              Absolutely   Probably   Chances     Less       Have
+               certain       will       are      likely     already
+               to vote       vote      50-50    than that    voted    Skipped
+10/13/26 RV       63          17         9          9          2         *
+7/13/26 RV*       68          16         9          7         NA         *
+4/28/26 RV        70          13         9          7         NA         *
+2/17/26 RV        66          15        11          9         NA         *
+*July 2026: Post-Ipsos, all others ABC-Post-Ipsos.
+
+Compare to:
+How likely are you to vote in the congressional election next week - are you
+absolutely certain to vote, will you probably vote, are the chances 50-50, or less
+than that?
+
+                                                         Don't think   Already
+              Certain   Probably   Chances   Less than    will vote     voted    No
+              to vote     vote      50/50      50/50       (vol.)      (vol.)    op.
+11/2/22 RV*     44         14         6          2            6          29       0
+*Post-ABC-Ipsos
+
+
+2/3. (AMONG THOSE CERTAIN OR PROBABLY TO VOTE) How do you think you’ll vote? (AMONG
+THOSE WHO ALREDY VOTED) How did you vote?
+
+                                               Vote in person
+              Vote in person at   Vote early    at a polling     Drop off a
+               a polling place     by mail      place BEFORE    ballot BEFORE
+
+                                                                                                          1
+
+
+               ON Election Day      ballot      Election Day    Election Day   Skipped
+10/13/26 RV          42               27             24               7           *
+
+
+4. (AMONG REGISTERED VOTERS) If the election for the U.S. House of Representatives
+were being held today, would you vote for (the Democratic candidate) or (the
+Republican candidate) in your congressional district? Would you lean toward (the
+Democratic candidate) or (the Republican candidate)? (AMONG THOSE WHO ALREADY VOTED)
+Confidentially, did you vote for (the Democratic candidate), (the Republican
+candidate) or another candidate in your congressional district?
+
+               Democratic   Republican   Would not   Undecided/
+               candidate    candidate      vote*      Skipped
+10/13/26 LV        52           44           3           1
+10/13/26 RV        50           42           7           1
+7/13/26  RV**      48           45           7           *
+4/28/26  RV        49           44           6           *
+2/17/26  RV        47           45           8           *
+10/28/25 RV        46           44           9           *
+RV=Registered voters
+(“Democratic” and “Republican” options randomized)
+*“Would not vote” includes respondents who chose “undecided” in initial question and
+“would not vote” in a follow-up; “undecided/skipped” includes respondents who did not
+select an option in the follow-up.
+** July 2026: Post-Ipsos, all others ABC-Post-Ipsos.
+
+Compare to:
+(ASK IF REGISTERED TO VOTE AND NOT ALREADY VOTED) If the election for the U.S. House
+of Representatives were being held today, would you vote for (the Democratic
+candidate) or (the Republican candidate) in your congressional district? Would you
+lean toward the (Democratic candidate) or toward the (Republican candidate)?
+(ASK IF ALREADY VOTED) Confidentially, did you vote for (the Democratic candidate) or
+(the Republican candidate) in your congressional district?
+
+NET LEANED VOTE PREFERENCE – REG VOTERS
+
+               Dem     Rep     Other    Neither    Would not      No
+               cand.   cand.   (vol.)    (vol.)   vote (vol.)   opinion
+11/2/22         48      49       1         1           *           2
+9/21/22         46      47       1         2           *           4
+4/28/22         46      45       1         5           *           4
+2/24/22         42      49       1         3           1           4
+11/10/21        41      51       1         4           *           4
+11/1/18         50      43       1         3           1           3
+10/11/18        53      42       *         2           *           3
+8/29/18         52      38       1         3           0           6
+4/11/18         47      43       1         3           *           5
+1/18/18         51      39       1         2           1           6
+11/1/17         51      40       1         3           1           4
+10/24/16 LV     47      46       1         1           1           4
+10/13/16        48      42       1         3           1           5
+5/19/16         45      45       *         3           1           6
+10/26/14        47      44       1         2           1           5
+10/12/14        46      44       1         3           1           5
+9/7/14          46      44       1         4           1           4
+6/1/14          47      45       1         3           1           4
+4/27/14         45      44       1         2           1           7
+3/2/14          46      45       1         3           *           5
+1/23/14         45      46       1         3           1           5
+12/15/13        47      45       1         4           1           3
+10/20/13        48      40       1         5           1           4
+5/19/13         48      40       2         4           1           6
+
+
+                                                                                                          2
+
+10/28/10        49      44       1         2           *           3
+10/3/10         47      43       1         3           1           5
+9/2/10*         45      47       1         2           1           5
+7/11/10         46      47       *         2           *           5
+6/6/10          47      44       2         2           1           4
+4/25/10         48      43       1         2           1           6
+3/26/10         48      44       1         2           *           4
+2/8/10          45      48       *         3           *           4
+10/22/06        54      41       *         1           *           3
+10/8/06         54      41       *         1           1           3
+9/7/06          50      42       *         3           2           4
+8/6/06          52      39       *         2           1           5
+6/25/06         52      39       1         3           1           4
+5/15/06         52      40       1         3           1           4
+4/9/06          55      40       *         2           *           3
+1/26/06         54      38       1         3           1           5
+12/18/05        51      41       1         3           1           4
+11/2/05         52      37       1         4           2           6
+7/15/02         47      46       1         1           1           4
+1/27/02**       43      50      NA         2           1           5
+9/6/00          49      42                 2           1           6
+7/23/00         46      45                 3           1           5
+2/27/00         45      46                 2           1           5
+10/31/99        50      43                 3           1           3
+9/2/99          48      44                 3           *           5
+3/14/99         50      41                 2           1           6
+2/14/99         48      41                 3           1           7
+1/30/99         49      39                 8           1           3
+11/1/98         51      43                 4           *           2
+10/25/98        48      43                 3           1           4
+10/18/98        49      44                 3           1           4
+9/28/98         49      44                 2           *           4
+9/13/98         49      43                 3           1           4
+8/21/98         48      45                 3           1           3
+7/12/98         47      45                 2           *           6
+1/31/98         49      40                 2           1           8
+1/19/98         47      44                 3           1           5
+10/8/96         51      41                 2           1           5
+9/29/96         48      41                 3           1           7
+9/22/96         50      43                 2           1           4
+9/15/96         49      45                 1           1           4
+9/4/96          48      44                 3           *           5
+8/29/96         53      39                 3           1           5
+8/28/96         51      40                 3           1           5
+8/27/96         51      41                 3           0           5
+8/26/96         51      41                 3           0           5
+8/25/96         48      43                 3           1           6
+8/24/96         47      43                 2           1           6
+8/19/96         49      42                 3           0           6
+8/18/96         45      46                 3           0           6
+8/15/96         46      43                 4           1           5
+8/14/96         48      42                 3           1           6
+8/13/96         49      43                 3           0           5
+8/12/96         49      42                 3           1           5
+8/11/96         49      40                 4           1           6
+8/10/96         49      41                 4           1           5
+8/5/96          48      45                 2           1           4
+6/30/96         49      44                 3           *           3
+5/22/96         52      41                 3           1           3
+3/17/96         48      48                 2           *           2
+3/10/96         51      43                 2           *           4
+1/21/96         52      43                 3           1           1
+11/13/95        51      43                 4           *           2
+
+
+                                                                                                          3
+
+10/1/95         49      44                 3           *           3
+11/6/94         47      42                 5           2           5
+10/31/94        48      44                 4           1           3
+10/23/94        50      45                 2           1           2
+10/9/94         46      47                 3           2           2
+9/11/94         50      45                 1           1           4
+8/7/94          49      42                 4           1           4
+3/27/94         49      35                 6           1           9
+2/27/94         50      40                 8           1           2
+10/21/91        51      41                 4           *           4
+7/28/91         49      41                 6           *           3
+6/2/91          48      42                 4           1           5
+11/4/90         51      41                 5           *           3
+10/14/90        50      41                 5           *           3
+9/9/90          47      46                 3           *           3
+7/24/90         51      41                 4           1           4
+5/21/90         47      45                 5           1           2
+10/10/88        52      41                 2           1           4
+9/19/88         51      39                 3           1           6
+6/22/85         48      44                 5           *           3
+10/16/84        52      44                 2          NA           5
+9/11/84         53      45                 2                       1
+7/8/84          58      40                 2                       1
+10/27/82        58      39                NA                       3
+10/11/82        55      36                                         9
+9/13/82         58      36                                         6
+11/22/81        53      41       "         "           "           7
+*9/2/10 and previous: “Will not vote (vol.)”
+**1/27/02 and previous: No “other candidate” option recorded
+
+
+5. Would you rather see the next Congress controlled by...
+
+           The Democrats,   The Republicans,
+            to act as a        to support
+           check on Trump    Trump’s agenda    Skipped
+10/13/26        59                 35             6
+9/15/25*        53                 42             5
+2/18/25         54                 41             5
+*July and Feb. 2025: Post-Ipsos
+(Response options randomized)
+
+Compare to:
+Would you rather see the next Congress controlled by the (Republicans, to act as a
+check on Biden), or controlled by the (Democrats, to support Biden’s agenda)?
+
+               Controlled      Controlled       No
+              by Democrats   by Republicans   opinion
+9/21/22*           45              48            6
+2/24/22            40              50           11
+*2022 and previous: CATI mode
+
+Would you rather see the next Congress controlled by the (Democrats, to act as a check
+on Trump), or controlled by the (Republicans, to support Trump's agenda)?
+
+               Controlled      Controlled       No
+              by Democrats   by Republicans   opinion
+10/11/18           55              39            7
+8/29/18            60              31            8
+7/13/17            53              35           12
+
+
+
+                                                                                                          4
+
+Regardless of how you might vote in your own congressional district, do you think it's
+more important (to have the Democrats in charge of Congress, to help support Obama's
+policies), or (to have the Republicans in charge of Congress, to act as a check on
+Obama's policies)?
+
+             Dems in charge    Reps in charge   No opinion
+4/27/14 RV         39               53               8
+9/2/10  RV         39               55               6
+7/11/10 RV         43               51               6
+
+Which statement comes closer to the way you think: Since the president is a
+Republican, we need (Republicans in charge of Congress to help support the president's
+agenda), or since the president is a Republican, we need (Democrats in charge of
+Congress to act as a check on the president and his agenda).
+
+               Dems         Reps      No difference     No
+             in charge    in charge      (vol.)       opinion
+9/26/02 RV      55           36             6            3
+
+
+6. How closely are you following the upcoming midterm election for the U.S. House and
+some U.S. Senate and governor seats?
+
+              ------ Closely -------   Somewhat   ------ Not closely ------   No op./
+              NET   Extremely   Very   closely    NET   Not so   Not at all    Skip.
+10/13/26 RV   31       15        17       30      39      20         18         *
+11/2/22  RV   37       14        23       35      28      18         10         0
+
+
+7. Which political party, the (Democrats) or the (Republicans) do you trust to do a
+better job handling each of the following:
+
+10/13/26 – Summary table among U.S. adults
+
+                                                        Both
+                             Democrats   Republicans   equally   Neither   Skipped
+a. The economy                  37           28           5        29         1
+b. Immigration                  37           35           4        24         1
+c. Crime                        30           35           9        25         1
+d. Education and schools        41           27           8        24         1
+e. The situation with Iran      37           26           6        30         1
+f. Inflation, that is
+   rising prices                37           23           6        33         1
+g. The cost of living in
+   the U.S.                     38           24           4        34         1
+h. Reducing corruption in
+   government                   32           23           4        41         *
+i. Healthcare                   44           21           4        30         1
+j. Held for release.
+k. Taxes                        36           29           3        32         1
+l. Transgender issues           38           29           5        27         1
+m. The situation with Israel
+   and Gaza                     32           25           5        35         2
+(Items randomized; items a-b asked of full sample, items c-f & l-m asked of a random
+half sample, items g-k asked of other half sample. “Neither” and then “Both equally,”
+were anchored at end, response options flipped here to match trend.)
+
+
+
+                                                                                                          5
+
+Trend, where available:
+
+a. The economy
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      37           28           5        29         1
+7/13/26       33           34           7        26         1
+4/28/26       33           34           5        27         1
+11/4/23*      25           35           9        29         1
+10/22/22      24           36           9        31         1
+8/6/22        25           34           7        32         1
+*2022-2023 ABC News/Ipsos
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling the economy?
+
+                                           Both    Neither     No
+                Democrats   Republicans   (vol.)   (vol.)    opinion
+11/2/22            37           51           1        7         4
+9/21/22            37           53           2        5         3
+4/28/22            36           50           2       10         3
+2/24/22            35           54           1        7         3
+11/1/18  RV        39           48           3        7         4
+10/11/18 RV        40           47           3        6         3
+10/11/18           41           45           3        7         4
+10/12/14           37           42           3       13         5
+9/7/14             40           45           1       10         4
+4/27/14            41           38           2       14         5
+3/2/14             41           41           2       12         3
+1/23/14            37           44           2       15         3
+10/3/10            44           37           4       14         2
+9/2/10             42           40           2       15         2
+7/11/10            42           34           3       17         5
+3/26/10            44           36           3       16         1
+2/1/08             52           33           2       10         3
+12/9/07            51           33           2        9         5
+11/1/07            50           35           3        9         4
+9/30/07            51           33           2       11         3
+10/22/06   RV      50           41           2        5         2
+10/8/06            54           37           3        6         1
+9/7/06             50           39           1        7         4
+6/25/06            52           39           1        5         3
+5/15/06            52           34           3        9         2
+4/9/06             49           43           1        4         3
+3/5/06             49           40           2        8         2
+1/26/06            55           37           2        5         2
+11/2/05            56           34           1        8         1
+12/15/02           44           45           4        6         1
+10/27/02* LV       43           48           3        3         2
+9/26/02*           47           39           3        6         5
+7/15/02**          38           48           3        6         5
+1/27/02**          39           48           5        6         3
+4/22/01***         47           43           4        4         3
+
+
+                                                                                                          6
+
+9/28/98            53           40          NA       NA         7
+7/12/98            49           37           4        5         6
+1/19/98            45           44           3        6         3
+7/8/97             43           39           5       12         2
+10/23/94           38           43           3       14         2
+9/11/94            39           43           3       11         4
+2/27/94            47           36           3       11         3
+2/2/92             49           38           2        7         4
+12/15/91           43           36           4       11         5
+3/4/91             32           49           5       10         4
+1/16/90            33           52           4        7         4
+*”The economy and jobs”
+**”Improving the economy”
+***4/22/01 and previous: “The nation's economy”
+
+b. Immigration
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      37           35           4        24         1
+4/28/26       34           39           4        23         1
+11/4/23*      24           36           7        31         1
+10/22/22      32           35           6        27         *
+8/6/22        28           37           5        29         1
+*2022-2023 ABC News/Ipsos
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling immigration?
+
+                                         Both    Neither     No
+              Democrats   Republicans   (vol.)   (vol.)    opinion
+11/2/22          42           42           2        7         7
+9/21/22          44           43           2        7         5
+4/28/22          40           43           2       13         3
+11/1/18  RV      47           42           1        7         3
+10/11/18 RV      50           39           1        6         4
+10/11/18         50           38           2        6         4
+7/19/15*         37           40           1       15         7
+10/12/14         37           40           2       13         7
+9/7/14           39           43           1       10         6
+4/27/14          40           34           3       14         9
+3/2/14           44           36           1       13         7
+1/23/14          39           37           2       15         7
+10/3/10          37           37           3       17         6
+9/2/10           37           40           5       14         4
+3/26/10          38           35           3       16         8
+2/1/08           40           37           2       12         9
+11/1/07          42           35           4       13         6
+10/8/06          49           36           4       10         3
+6/25/06          45           40           1        9         5
+5/15/06          48           34           1       14         4
+4/9/06           50           38           1        7         4
+*7/19/15 and previous “immigration issues”
+
+
+
+                                                                                                          7
+
+c. Crime
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      30           35           9        25         1
+4/28/26       25           39           8        28         1
+11/4/23*      20           32          13        34         1
+10/22/22      22           35          10        32         1
+8/6/22        21           32          10        35         1
+*2022-2023 ABC News/Ipsos
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling crime?
+
+                                         Both    Neither     No
+              Democrats   Republicans   (vol.)   (vol.)    opinion
+11/2/22          35           51           3        8         3
+9/21/22          38           52           2        5         3
+4/28/22          35           47           3       11         5
+6/30/21          35           36           3       20         7
+10/27/06*        38           36           5        9        12
+10/25/02*        27           40          11        7        15
+9/1/02**         31           45           7        7        11
+6/6/99***        40           37           4       12         8
+3/14/99          38           42           6        7         7
+9/28/98****      44           45          NA       NA        12
+7/12/98          40           39           5        8         8
+1/19/98          39           42           5        9         5
+7/8/97           38           34           7       16         4
+10/23/94         36           34           5       19         6
+9/11/94          43           33           6       13         6
+2/27/94          39           32           7       18         3
+2/2/92           39           35           7       11         7
+12/15/91         34           35           8       15         7
+3/4/91           28           46           9       12         4
+1/16/90          31           43           8       12         6
+*Newsweek
+**Post/KFF/Harvard University
+***Washington Post poll
+****1998 and previous: “Handling the crime problem”
+
+d. Education and schools
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      41           27           8        24         1
+4/28/26       38           30           7        24         1
+11/4/23*      33           24          12        31         1
+*ABC News/Ipsos, “Education”
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling education and schools?
+
+
+
+                                                                                                          8
+
+                                        Both    Neither    No
+                Democrats  Republicans  (vol.)    (vol.)    op.
+11/2/22             47          40         2        6        5
+9/21/22             47          41         2        6        4
+4/28/22             47          39         1       10        3
+2/24/22             44          41         2       10        3
+11/10/21            44          41         1        9        5
+5/15/06*            56          33         3        6        3
+11/2/05             55          32         4        7        2
+12/15/02            49          40         4        5        2
+10/27/02 LV         44          45         4        3        3
+9/26/02             46          39         4        5        6
+9/1/02**            40          39         6        6        9
+7/15/02***          41          41         4        7        7
+1/27/02             40          45         8        4        3
+4/22/01             48          40         5        5        3
+9/28/98             56          35        NA       NA        9
+7/12/98             52          31         5        5        7
+1/19/98             54          34         4        5        3
+7/8/97              51          30         5        9        4
+10/23/94            45          30         6       13        6
+9/11/94             48          33         6        8        5
+2/27/94             53          28         5       11        3
+2/2/92              55          29         6        5        5
+12/15/91            47          31         6       10        6
+3/4/91              39          41         8        9        4
+1/16/90             45          36         7        9        3
+*5/15/06 and previous: “handling education”
+**Post-KFF-Harvard
+***7/15/02 and previous: “improving education and the schools”
+
+e. The situation with Iran
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      37           26           6        30         1
+4/28/26       34           32           4        29         1
+
+f. Inflation, that is rising prices
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      37           23           6        33         1
+4/28/26       31           30           5        33         1
+11/4/23*      21           35          10        32         1
+10/22/22      21           36           7        36         1
+8/6/22        23           33           7        36         1
+*2022-2023 ABC News/Ipsos, “inflation”
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling inflation, that is rising prices?
+
+                                       Both    Neither     No
+            Democrats   Republicans   (vol.)   (vol.)    opinion
+
+
+                                                                                                          9
+
+11/2/22        38           48           2        7         5
+9/21/22        35           54           1        8         3
+4/28/22*       31           50           1       12         6
+3/4/91**       34           49           5       10         3
+1/16/90        33           50           3       10         5
+*4/28/22 “inflation”
+**1991 and previous “controlling inflation”
+
+g. The cost of living in the U.S.
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      38           24           4        34         1
+4/28/26       33           28           4        33         1
+
+h. Reducing corruption in government
+
+                                       Both
+            Democrats   Republicans   equally   Neither   Skipped
+10/13/26       32           23           4        41         *
+4/28/26        26           26           4        44         *
+
+i. Healthcare
+
+                                      Both
+           Democrats   Republicans   equally   Neither   Skipped
+10/13/26      44           21           4        30         1
+4/28/26       42           25           5        28         1
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling health care?
+
+                                           Both    Neither     No
+                Democrats   Republicans   (vol.)   (vol.)    opinion
+11/1/18  RV        50           34           2        9         5
+10/11/18 RV        52           36           2        7         3
+10/11/18           53           35           2        7         4
+10/12/14           45           37           1       11         5
+9/7/14             46           40           1        9         4
+4/27/14            43           35           1       13         7
+3/2/14             44           36           2       15         3
+1/23/14            44           35           1       16         3
+10/3/10            46           38           1       12         3
+9/2/10             44           39           2       13         3
+3/26/10            47           34           2       15         3
+2/1/08             56           29           2       10         4
+11/1/07            54           29           2       10         5
+9/30/07            56           26           2       12         5
+10/8/06            61           28           1        7         2
+5/15/06            61           28           1        7         2
+4/9/06             61           29           *        6         3
+11/2/05            54           29           2       12         3
+12/15/02*          53           33           3        7         4
+10/27/02*  LV      50           39           3        5         3
+
+
+                                                                                                         10
+
+9/26/02*           50           35           4        5         6
+7/15/02**          47           37           3        9         5
+1/27/02**          50           35           5        5         4
+1/19/98***         54           33           2        7         4
+10/23/94           46           29           2       21         2
+9/11/94            51           29           3       12         5
+2/27/94            58           22           5       11         3
+2/2/92             60           25           3        8         4
+12/15/91           57           23           3       11         5
+*"The cost, availability, and coverage of health insurance"
+**"improving the health care system"
+***1/19/98 and previous: "Providing affordable health care"
+
+j. Held for release.
+
+k. Taxes
+
+                                       Both
+            Democrats   Republicans   equally   Neither   Skipped
+10/13/26       36           29           3        32         1
+4/28/26        31           34           5        30         *
+10/22/22*      28           30           6        35         *
+8/6/22         25           31           8        35         1
+*2022 ABC News/Ipsos
+
+Compare to ABC News/Washington Post CATI trend:
+Which political party the (Democrats) or the (Republicans) do you trust to do a better
+job handling taxes?
+                                           Both    Neither     No
+                Democrats   Republicans   (vol.)   (vol.)    opinion
+11/1/18  RV        41           45           2        8         4
+10/11/18 RV        44           44           2        6         4
+10/11/18           45           42           2        6         4
+3/2/14             42           41           1       11         4
+10/3/10            40           43           3       13         2
+9/2/10             39           45           2       12         2
+3/26/10            41           39           4       14         3
+2/1/08             48           40           1        8         4
+11/1/07            46           40           2        8         4
+5/15/06            52           38           1        5         2
+11/2/05            48           38           1       11         1
+12/15/02           46           44           2        6         2
+9/26/02            44           44           3        6         4
+4/22/01*           38           52           2        6         3
+9/2/99*            40           49           2        6         3
+3/14/99**          43           41           2       10         4
+9/28/98**          47           44          NA       NA         9
+7/12/98**          42           39           3        8         8
+1/19/98**          45           44           2        6         2
+7/8/97**           41           38           3       15         4
+10/30/95*          45           40          10        3         3
+10/23/94**         37           42           2       17         2
+9/11/94**          36           47           2       11         4
+2/27/94**          35           41           4       18         2
+2/2/92**           41           45           3        8         3
+
+
+                                                                                                         11
+
+12/15/91**         40           38           3       14         5
+3/4/91**           35           44           5       13         3
+1/16/90**          37           47           2       10         4
+*"Cutting taxes"
+**"Holding taxes down"
+
+l-m. No trend.
+
+Questions 8-9 held for release.
+
+
+10. Do you approve or disapprove of the way Donald Trump is handling his job as
+president?
+
+            ------- Approve --------    ------- Disapprove ------   No opinion
+            NET   Strongly   Somewhat   NET   Somewhat   Strongly    /Skipped
+10/13/26 RV 37       16         20      63       12         51           1
+10/13/26    33       13         19      66       14         52           1
+7/13/26*    37       15         22      61       14         47           2
+4/28/26     37       17         20      62       13         49           1
+2/17/26     39       19         21      60       13         47           1
+10/28/25    41       20         20      59       13         46           *
+9/15/25*    43       21         22      56       14         43           1
+4/22/25**   39       21         19      55       11         44           5
+2/18/25     45       27         19      53       13         39           2
+Previous term:
+1/13/21***  38       27         10      60        8         52           2
+10/9/20     44       30         13      54        9         45           3
+9/24/20     44       28         16      53        8         46           2
+8/15/20     43       29         15      55        7         47           2
+7/15/20     39       28         11      57        9         48           3
+5/28/20     45       32         12      53       11         42           3
+3/25/20     48       34         15      46       11         35           6
+2/17/20     43       31         12      53       11         42           4
+1/23/20     44       35         10      51        9         42           4
+10/30/19    38       30          8      58       10         48           5
+9/5/19      38       27         11      56        8         48           6
+7/1/19      44       32         12      53        8         45           3
+4/25/19     39       28         12      54        9         45           6
+1/24/19     37       28          9      58        9         49           5
+11/1/18     40       28         12      53        9         43           8
+10/11/18    41       29         12      54        7         46           6
+8/29/18     36       24         12      60        7         53           4
+4/11/18     40       25         15      56       10         46           4
+1/18/18     36       24         13      58        9         49           5
+11/1/17     37       25         12      59        8         50           4
+9/21/17     39       26         13      57        9         48           4
+8/20/17     37       22         15      58       13         45           5
+7/13/17     36       25         11      58       10         48           6
+4/20/17     42       27         15      53       10         43           5
+*Washington Post-Ipsos
+**April 2025 and previous Washington Post-ABC News.
+**“No opinion” option was listed as a response option; results account for an initial
+approval question and follow-up asking whether respondents lean towards
+approval/disapproval.
+***”has handled.” 2021 and previous in CATI mode.
+
+Compare to: Looking back, do you approve or disapprove of the way Donald Trump handled
+his job when he was president?
+
+           -------- Approve --------   ------- Disapprove ------     Skip/
+
+
+                                                                                                         12
+
+           NET   Strongly   Somewhat   NET   Somewhat   Strongly   No opinion
+8/13/24    44       23         20      49       10         39           7
+7/9/24     43       22         21      52       11         41           6
+4/30/24    44            22         22      50       11         39           7
+1/8/24     41       19         22      53       12         40           7
+9/20/23*   48       33         14      49        8         41           3 (If no
+opinion or question: Which way do you lean on how Trump handled his job as president?
+Leaners are netted with somewhat.)
+*2023: CATI mode
+
+
+11. Do you approve or disapprove of the way Trump is handling each of the following?
+
+10/13/26 – Summary table among U.S. adults
+
+                                     Approve   Disapprove   Skipped
+a. The economy                         28          70          2
+b. Immigration                         38          61          1
+c. The situation with Iran             27          70          2
+d. Relations with U.S. allies          30          68          2
+e. Inflation                           23          75          2
+f. The cost of living in the U.S.      21          77          2
+g. Held for release.
+h. Management of the U.S. military     35          63          2
+(Items c-h randomized; items e & f asked of half sample)
+
+Trend, where available:
+
+a. The economy
+
+               -------- Approve --------   ------- Disapprove ------
+               NET   Strongly   Somewhat   NET   Somewhat   Strongly   Skipped
+10/13/26       28       NA         NA      70       NA         NA         2
+7/13/26*       33       NA         NA      65       NA         NA         2
+4/28/26        34       NA         NA      65       NA         NA         1
+2/17/26        41       NA         NA      57       NA         NA         2
+10/28/25       37       NA         NA      62       NA         NA         1
+9/15/25*       40       NA         NA      59       NA         NA         1
+4/22/25        39       NA         NA      61       NA         NA         1
+2/18/25        45       NA         NA      53       NA         NA         2
+10/9/20 RV**   54       40         14      45       11         34         1
+9/24/20 RV     51       38         13      46       11         35         3
+9/24/20        52       36         16      45       13         32         3
+7/15/20        50       36         14      47       11         36         3
+5/28/20        52       37         15      44       13         30         4
+3/25/20        57       38         19      38       13         24         6
+2/17/20        52       NA         NA      40       NA         NA         7
+1/23/20        56       NA         NA      38       NA         NA         6
+9/5/19         46       NA         NA      47       NA         NA         7
+7/1/19         51       NA         NA      42       NA         NA         6
+10/11/18       49       35         14      46       11         35         5
+8/29/18        45       30         15      47       12         36         8
+4/11/18        46       30         16      48       12         36         6
+9/21/17        43       27         16      49       13         36         8
+7/13/17        43       26         17      41       12         29        16
+*July 20206 and Sept. 2025 Washington Post-Ipsos, all others Post-ABC.
+**Oct. 2020 and previous: CATI mode. “Skip” was “no opinion.”
+
+b. Immigration
+
+
+
+                                                                                                         13
+
+           -------- Approve --------   ------- Disapprove ------
+           NET   Strongly   Somewhat   NET   Somewhat   Strongly   Skipped
+10/13/26   38       NA         NA      61       NA         NA         1
+7/13/26*   40       NA         NA      59       NA         NA                        2
+4/28/26    40       NA         NA      59       NA         NA         1
+2/17/26    40       NA         NA      58       NA         NA         2
+10/28/25   43       NA         NA      56       NA         NA         1
+9/15/25*   44       NA         NA      55       NA         NA         1
+4/22/25    46       NA         NA      53       NA         NA         1
+2/18/25    50       NA         NA      48       NA         NA         3
+7/1/19**   40       NA         NA      57       NA         NA                        2
+4/25/19    39       29         10      57       11         46         4
+9/21/17    35       24         11      62       11         51         3
+*July 2026 and Sept. 2025: Washington Post-Ipsos, all others Post-ABC.
+**July 2019 and previous: CATI mode. “Skip” was “no opinion.”
+
+c. The situation with Iran
+
+                                   Skipped/
+           Approve   Disapprove   No opinion
+10/13/26     27          70            2
+7/13/26*     29          69            2
+4/28/26      33          66            2
+1/23/20      45          47            7
+*July 2026 Washington Post-Ipsos, all others Post-ABC.
+
+d. Relations with U.S. allies
+
+           Approve   Disapprove   Skipped
+10/13/26     30          68          2
+4/28/26      33          65          2
+
+e.  Inflation (half sample)
+
+           Approve   Disapprove   Skipped
+10/13/26     23          75          2
+4/28/26      27          72          1
+2/17/26      32          65          2
+
+f. The cost of living in the U.S. (half sample)
+
+           Approve   Disapprove   Skipped
+10/13/26     21          77          2
+4/28/26      23          76          1
+
+g. Held for release.
+
+h. No trend.
+
+
+12. In deporting undocumented immigrants, do you think Trump is (going too far), is
+(not going far enough), or is handling it about right?
+
+             Going    Not going    Handling it
+            too far   far enough   about right   Skip
+10/13/26      56          15           28          2
+2/17/26       58          12           28          1
+10/28/25*     50          15           34          1
+4/22/25       48          16           34          1
+
+
+                                                                                                         14
+
+*Both 2025 questions were asked in multi-item series
+
+
+13. If Democrats were in charge, do you think they would (go too far) deporting
+undocumented immigrants, (not go far enough), or would they handle this about right?
+
+             Go        Not go     Handle this
+           too far   far enough   about right   Skip
+10/13/26     10          48           40          3
+
+
+14. Since taking office, do you think Trump has (acted within his authority as
+president) or (gone beyond his authority as president)?
+
+           Acted within his authority   Gone beyond his authority   Skipped
+10/13/26              32                           66                  2
+2/17/26               33                           65                  2
+9/15/25               36                           62                  1
+4/22/25               40                           60                  1
+2/18/25               40                           57                  3
+
+
+15. Do you think Trump is or is not committed to each of the following?
+
+10/13/26 – Summary table among U.S. adults
+
+                                            Is committed   Is not committed   Skipped
+a. Protecting freedom of the press               31               67             2
+b. Free and fair elections                       37               61             2
+c. Respecting the authority of Congress          30               68             2
+d. Respecting the authority of the courts        31               66             2
+e. Protecting freedom of speech                  37               61             2
+(Items a-e randomized)
+
+Trend:
+
+a. Protecting freedom of the press
+
+           Is committed   Is not committed   Skipped
+10/13/26        31               67             2
+10/28/25        36               61             2
+
+b. Free and fair elections
+
+           Is committed   Is not committed   Skipped
+10/13/26        37               61             2
+10/28/25        43               56             2
+
+c-d. No trend.
+
+e. Protecting freedom of speech
+
+           Is committed   Is not committed   Skipped
+10/13/26        37               61             2
+10/28/25        42               57             2
+
+
+                                                                                                         15
+
+16. Do you approve or disapprove of the way J.D. Vance is handling his job as vice
+president?
+
+           -------- Approve --------   ------ Disapprove -------   No opinion
+           NET   Strongly   Somewhat   NET   Somewhat   Strongly    /Skipped
+10/13/26   37       18         19      59       19         40           3
+
+Compare to:
+4/28/26*   35       20         14      48       10         38          17
+*In April, “No opinion” was an explicit option.
+
+
+Questions 17-18 held for release.
+
+
+19. Would you say things in this country are headed in the (right direction) or the
+(wrong direction)?
+
+             Right       Wrong
+           direction   direction   Skipped
+10/13/26      26          72          2
+4/28/26       31          67          2
+
+Compare to:
+Do you think things in this country (are generally going in the right direction) or do
+you feel things (have gotten pretty seriously off on the wrong track)?
+
+                Right     Wrong
+              direction   track   Skipped
+10/28/25         32        67        1
+11/1/24          24        75        1
+1/15/17          29        63        8
+7/14/16          28        68        4
+1/24/16          36        60        4
+7/19/15          31        65        4
+1/15/15          39        56        5
+10/26/14         28        68        5
+10/12/14         29        66        5
+9/7/14           31        65        5
+4/27/14          30        66        4
+1/23/14          35        62        2
+11/17/13         27        70        3
+10/20/13         28        68        4
+7/21/13          36        60        4
+5/19/13          39        57        4
+1/13/13          39        57        5
+10/31/12 LV      43        55        2
+10/13/12 RV      42        56        3
+9/29/12  RV      38        60        2
+8/25/12  RV      29        69        2
+7/8/12           33        63        4
+4/8/12           33        64        3
+1/15/12          30        68        2
+
+
+                                                                                                         16
+
+11/3/11          22        74        3
+9/1/11           20        77        3
+6/5/11           32        66        2
+1/16/11          38        60        3
+12/12/10         31        67        2
+10/28/10 RV      27        71        2
+6/6/10           37        60        3
+3/26/10          38        60        2
+1/15/10          37        62        1
+11/15/09         44        55        2
+10/18/09         44        54        2
+8/17/09          44        55        1
+6/21/09          47        50        3
+4/24/09          50        48        2
+3/29/09          42        57        1
+2/22/09          31        67        2
+1/16/09          19        78        3
+12/14/08         15        82        3
+10/25/08 LV      13        85        2
+10/11/08 RV       8        90        2
+9/22/08  RV      14        83        3
+8/22/08          19        78        2
+6/15/08          14        84        2
+5/11/08          16        82        2
+1/12/08          21        77        2
+11/1/07          24        74        2
+6/1/07           25        73        2
+1/19/07          26        71        3
+11/4/06  RV      39        59        2
+10/22/06         30        68        2
+10/8/06          32        66        2
+5/15/06          29        69        2
+11/2/05          30        68        2
+10/24/04 LV      41        55        4
+4/18/04          42        57        1
+4/30/03          52        46        2
+9/26/02          43        53        4
+2/21/02          54        42        4
+2/14/99          55        41        4
+11/1/98          55        43        2
+9/13/98*         51        45        3
+8/21/98          57        40        4
+7/12/98          50        45        6
+4/4/98           55        41        4
+1/31/98          61        34        5
+1/30/98          61        34        5
+1/19/98          44        50        6
+8/27/97          39        57        4
+6/8/97           37        60        3
+3/9/97           34        62        4
+10/17/96 RV      40        55        5
+10/16/96 RV      42        53        5
+10/15/96 RV      43        52        5
+10/14/96 RV      44        51        5
+10/13/96 RV      44        51        5
+
+
+                                                                                                         17
+
+9/04/96  RV      40        54        6
+8/21/96          28        67        5
+6/30/96          26        70        5
+3/17/96          27        70        3
+1/21/96          27        66        6
+1/3/96           21        77        3
+4/5/95           23        73        3
+1/4/95           27        68        6
+10/31/94         27        69        4
+7/20/94          26        70        4
+3/27/94          28        69        3
+1/23/94          31        60       10
+11/14/93         25        69        6
+8/8/93           26        71        3
+6/20/93          26        71        3
+4/26/93          27        71        2
+3/11/93          36        57        7
+2/28/93          37        59        4
+1/17/93          31        63        6
+12/14/92         35        60        5
+10/27/92 RV      22        76        2
+10/4/92  RV      18        78        4
+6/7/92           14        83        3
+4/9/92           16        81        3
+3/11/92          18        79        4
+1/15/92          19        78        3
+11/10/91         24        72        4
+10/29/91         26        71        3
+8/27/91          31        60        9
+7/28/91          30        67        3
+6/2/91           39        57        4
+4/9/91           42        51        7
+2/26/91          58        39        3
+1/27/91          49        48        4
+10/14/90         19        79        2
+9/9/90           36        60        4
+8/20/90          35        60        5
+7/24/90          37        60        2
+5/21/90          39        60        2
+3/26/90          44        53        2
+2/4/90           49        48        3
+1/16/90          48        49        3
+5/23/89          42        55        3
+3/16/89          46        52        2
+1/16/89  LV      51        46        3
+10/25/88 LV      49        46        6
+9/27/88          48        44        8
+7/11/88          40        56        4
+5/25/88          35        59        6
+3/21/88          40        56        4
+1/23/88          39        59        2
+12/13/87         49        47        4
+12/2/87          35        61        4
+9/23/87          43        54        4
+6/29/87          35        62        3
+
+
+                                                                                                         18
+
+4/13/87          37        60        3
+3/9/87           38        58        4
+1/18/87          39        56        5
+9/8/86           50        48        2
+1/26/86          45        47        8
+7/29/85          52        43        6
+1/16/85          59        36        4
+5/22/84          47        48        5
+12/13/83         43        51        6
+11/7/83          51        44        5
+4/12/83          41        54        4
+3/2/83           43        53        3
+10/11/82         35        57        8
+1/30/82          39        56        5
+2/80**           20        70       10
+2/78             34        53       13
+2/77             41        44       14
+10/75            19        71        9
+10/74            15        75       11
+10/73            16        74       10
+(Response options randomized)
+*Washington Post
+**2/80 and previous: Roper
+
+
+20. Do you have a favorable or unfavorable impression of each:
+
+10/13/26 – Summary table among U.S. adults
+
+                          ------- Favorable -------   ------ Unfavorable ------
+                          NET   Strongly   Somewhat   NET   Somewhat   Strongly   Skip
+a. The Democratic Party   44       11         33      54       24         30        2
+b. The Republican Party   35       11         23      63       21         42        2
+c. The MAGA movement      28       11         17      69       15         54        3
+d. Democratic socialism   37       10         27      59       21         38        4
+(Items a & b randomized first and items c & d randomized second)
+
+a. The Democratic Party
+
+               ------- Favorable -------   ------ Unfavorable ------   No opinion
+               NET   Strongly   Somewhat   NET   Somewhat   Strongly    /Skipped
+10/13/26       44       11         33      54       24         30           2
+5/19/16*       48       23         25      44       18         26           7
+12/14/14       44       18         25      50       22         28                             6
+10/12/14       39       15         24      51       21         30                            10
+8/3/14         49       20         29      46       17         29                             5
+10/20/13       46       19         27      49       18         31                             5
+9/30/12        49       28         22      42       14         28                             9
+10/30/11       48       21         26      46       21         25                             7
+3/26/10        50       25         24      45       14         31                             5
+2/8/10         50       24         26      46       17         28                             4
+6/21/09        53       NA         NA      40       NA         NA                             6
+8/22/08  RV    58                          36                                                 5
+11/1/07        51                          45                                                 5
+3/5/06         55                          41                                                 4
+
+
+                                                                                                         19
+
+6/5/05         51                          47                                                 2
+12/15/02       56                          37                                                 6
+1/27/02        56                          36                                                 8
+7/30/01        60                          36                                                 4
+12/15/00       64                          25                                                11
+1/16/00        56                          35                                                9
+1/10/00**      61                          33                                                6
+1/10/00  LV    58                          37                               5
+11/21/99       51                          41                                                 8
+5/2/99         53                          37                                               10
+2/21/99        55                          37                                                 8
+2/13/99        56                          38                                                 6
+2/8/99         57                          37                               6
+1/10/99        57                          35                                                 8
+12/20/98       57                          30                                                13
+12/16/98       58                          32                                              10
+10/29/97       54                          39                               7
+9/1/96   RV    60                          36                                                4
+8/18/96  RV    55                          41                                                 4
+8/7/96   RV    57                          38                                                 5
+4/10/96        55                          38                                              7
+4/19/95        51                          43                                               6
+7/8/92   RV    54                          38                                               8
+6/6/91***      52                          34                              14
+4/2/90         54                          35                                               11
+1/15/90        58                          32                                                10
+11/16/88       54                          36                                                10
+11/4/84        47                          42                                                11
+10/4/84  RV    50       "          "       39       "          "                             11
+*2016 and previous telephone
+**1/10/00 to 7/8/92: Gallup
+***6/6/91 and previous: CBS News/New York Times
+
+b. The Republican Party
+
+               ------- Favorable -------   ------ Unfavorable ------   No opinion
+               NET   Strongly   Somewhat   NET   Somewhat   Strongly    /Skipped
+10/13/26       35       11         23      63       21         42           2
+5/19/16*       36       10         26      56       23         33           8
+12/14/14       47       18         28      47       19         28                            7
+10/12/14       33       11         22      56       27         29                            10
+8/3/14         35       11         24      60       24         36                             5
+10/20/13       32       10         22      63       25         38                           6
+9/30/12        39       18         21      53       19         33           8
+10/30/11       40       13         27      53       21         32                            7
+3/26/10        40       17         23      55       24         30                             5
+2/8/10         44       19         25      52       23         29                             4
+6/21/09        36       NA         NA      56       NA         NA                            8
+8/22/08  RV    47                          49                                                 4
+11/1/07        39                          56                                                 5
+3/5/06         51                          46                               3
+6/5/05         49                          49                                                2
+12/15/02       56                          38                                                 5
+1/27/02        63                          30                                                 7
+7/30/01        51                          46                                                 3
+
+
+                                                                                                         20
+
+12/15/00       54                          35                                                11
+1/16/00        53                          37                              10
+1/10/00**      53                          41                               6
+1/10/00  LV    56                          39                               5
+11/21/99       50                          44                                               6
+5/2/99         47                          44                                               9
+2/21/99        45                          46                               9
+2/13/99        40                          54                                                5
+2/8/99         45                          47                                                 8
+1/10/99        40                          52                                                 8
+12/20/98       31                          57                              12
+12/16/98       43                          47                                           10
+10/29/97       50                          42                                             8
+9/1/96   RV    50                          45                               5
+8/18/96  RV    55                          41                               4
+8/7/96   RV    51                          44                                              5
+4/10/96        52                          41                                               7
+4/19/95        52                          42                                               6
+7/8/92   RV    53                          39                               8
+6/6/91***      62                          28                              10
+4/2/90         58                          34                                                 8
+1/15/90        63                          28                                                 9
+11/16/88       57                          34                                               9
+11/4/84        58                          33                                                9
+10/4/84        53       "          "       36       "          "                            11
+*2016 and previous telephone
+**1/10/00 to 7/8/92: Gallup
+***6/6/91 and previous: CBS News/New York Times
+
+c-d. No trend.
+
+
+21. Thinking about the following, do you believe each is:
+
+10/13/26 – Summary table among U.S. adults
+
+                                                        Appropriately balanced
+                                         Too willing    between too extreme and
+                          Too extreme   to compromise    willing too compromise   Skip
+a. The Democratic Party       36             31                   29                3
+b. The Republican Party       55             15                   27                3
+c. Donald Trump               66              6                   25                3
+(Items a-c randomized)
+
+
+22. Considering everything, do you think the United States did the right thing in
+using military force against Iran, or do you think this was a mistake?
+
+            Right
+           decision   Mistake   Skipped
+10/13/26      32        65         3
+4/28/26       36        61         3
+
+Compare to:
+
+
+
+                                                                                                         21
+
+Considering everything, do you think the United States did the right thing in going to
+war with Iraq, or do you think it was a mistake?
+
+            Right thing    Mistake    No opin.
+1/19/07         34            64         2
+5/15/06         40            59         1
+6/26/05         48            51         1
+3/13/05         48            51         1
+4/18/04         52            46         1
+4/9/03          81            16         3
+3/27/03         69            26         5
+
+Serbia:
+6/10/99         55            41         4
+6/6/99*         48            47         5
+5/16/99         54            42         3
+4/26/99         56            41         2
+4/6/99          58            40         2
+*Washington Post
+
+Compare to: Do you think the United States made a mistake in sending military forces
+to Afghanistan, or not?
+
+           Not a mistake   Mistake    No opin.
+1/9/02*         93             6         1
+11/11/01*       89             9         2
+
+Yugoslavia*
+6/5/99          53            43         4
+4/21/99         51            42         7
+
+Persian Gulf*
+7/21/91         82            15         3
+3/3/91          87            10         3
+2/10/91         76            21         3
+2/2/91          80            18         2
+1/26/91         77            18         5
+1/20/91         80            16         4
+1/13/91         65            29         6
+1/6/91          61            30         9
+12/9/90         66            28         6
+12/2/90         66            29         5
+11/18/90        65            27         8
+11/11/90        68            27         5
+11/4/90         67            25         8
+10/28/90        71            24         5
+10/21/90        67            26         7
+10/14/90        68            27         5
+10/4/90         71            21         8
+9/30/90         73            20         7
+9/16/90         73            18        10
+9/11/90         76            19         5
+9/2/90          76            16         8
+8/26/90         76            18         6
+8/19/90         75            17         8
+
+
+                                                                                                         22
+
+Vietnam*
+11/15/00        24            69         7
+4/24/95         23            71         6
+3/18/90         22            74         4
+1/15/73         29            60        11
+5/17/71         28            61        11
+1/11/71         31            60         9
+5/26/70         36            56         8
+4/7/70          34            51        15
+1/20/70         32            57        11
+9/22/69         32            58        10
+1/28/69         39            52         9
+10/1/68         37            54         9
+8/12/68         35            53        12
+4/9/68          40            48        12
+2/27/68         42            49         9
+2/6/68          42            46        12
+12/12/67        46            45         9
+10/11/67        44            47         9
+7/18/67         48            41        11
+4/24/67         50            37        13
+1/31/67         52            32        16
+11/15/66        52            31        17
+9/13/66         48            35        17
+5/10/66         49            36        15
+3/8/66          59            26        15
+9/1/65          60            24        16
+
+Korea*
+6/7/00          47            34        19
+1/16/53         50            36        14
+10/22/52        37            43        19
+10/14/52        37            43        20
+3/5/52          35            51        14
+8/8/51          48            42        11
+6/21/51         40            43        17
+4/21/51         45            37        18
+3/31/51         43            45        12
+2/9/51          41            49         9
+1/5/51          38            49        13
+8/25/50         65            20        15
+*Gallup; various wordings
+
+
+23. Do you think the U.S. should...
+
+           ------- Increase/Keep -------   ---- Reduce/End support -----
+                  Increase       Keep              Reduce        End
+                  military     support            military     military
+                  support     at current          support      support
+           NET   for Israel     levels     NET   for Israel   for Israel   Skip
+10/13/26   37         8           29       58        25           33         5
+7/13/26*   39         8           32       55        26           29         5
+(Response options shown in reverse order for half sample.)
+
+
+                                                                                                         23
+
+*Post-Ipsos.
+
+
+24. Would you describe the state of the nation’s economy these days as...
+
+            ------ Positive ------   ------- Negative -------
+              NET   Excellent   Good   NET   Not so good   Poor   Skip
+10/13/26      25        2        22    75        40         35      1
+4/22/25       26        2        24    73        49         25      1
+2/18/25*      26        1        24    73        52         21      2
+8/13/24       27        2        25    72        40         33      1
+9/20/23**     25        2        23    74        31         42      1
+9/21/22       24        3        21    74        36         38      1
+2/24/22       24        3        21    75        36         39      1
+11/10/21      29        2        26    70        33         38      1
+4/21/21       42        4        38    58        37         20      1
+9/24/20       40        9        31    59        37         22      1
+8/15/20       31        7        24    68        34         33      1
+5/28/20       34        8        26    65        40         24      1
+9/5/19        56       16        40    43        30         13      1
+11/1/18       65       15        49    34        25          9      1
+8/29/18       58       12        46    40        31          9      2
+1/18/18       58       14        44    40        28         12      2
+1/15/17       51        6        45    48        35         14      1
+3/29/15       40        2        38    59        40         19      1
+1/15/15       41        3        39    58        40         18      1
+10/26/14      27        1        26    72        44         28      1
+9/7/14        30        1        29    69        42         27      1
+4/27/14       29        1        27    71        40         31      1
+3/2/14        27        2        26    72        44         28      *
+10/20/13      24        2        23    75        45         30      1
+9/29/12  RV   18        2        16    81        42         39      *
+8/25/12       15        1        14    84        39         45      1
+8/5/12***     13        1        12    87        42         44      *
+5/20/12       17        1        16    83        47         36      *
+2/4/12        11        *        11    89        46         42      *
+11/3/11       10        1         9    89        43         47      *
+7/17/11       10        1         9    90        40         50      *
+6/5/11        11        1        10    89        46         44      *
+1/16/11       13        1        12    87        45         41      *
+10/28/10       9        *         9    90        41         49      1
+10/3/10        9        1         8    90        40         50      *
+9/2/10         8        *         7    92        40         53      0
+7/11/10       10        1         9    90        44         46      0
+6/6/10        12        *        11    88        43         45      0
+1/16/09        5        1         5    94        32         62      *
+9/22/08        9        *         9    91        34         57      *
+4/13/08       10        1         9    90        39         51      *
+2/1/08        19        1        18    81        43         38      0
+12/9/07       28        3        25    72        40         32      *
+11/1/07       35        3        32    64        39         26      *
+4/15/07       42        5        37    57        37         20      *
+12/11/06      50        7        42    50        36         14      *
+10/22/06      55       10        45    45        28         17      *
+10/8/06       47        7        40    53        37         16      *
+
+
+                                                                                                         24
+
+3/5/06        43        5        38    57        37         19      *
+1/26/06       40        5        35    60        37         23      *
+12/18/05      45        5        39    55        38         17      *
+11/2/05       35        3        32    65        36         29      *
+9/11/05       40        3        37    59        37         22      1
+6/5/05        44        3        40    56        38         19      *
+4/24/05       37        2        35    63        44         20      *
+9/26/04  RV   46        3        43    53        38         15      1
+8/29/04  RV   45        3        41    55        37         18      *
+7/25/04       46        4        42    53        39         14      *
+6/20/04       45        4        41    55        38         17      *
+4/18/04       43        4        39    57        39         18      *
+3/7/04        39        2        37    60        38         22      1
+1/18/04       42        3        39    58        42         16      0
+12/21/03      42        4        39    57        41         16      1
+10/29/03      33        1        32    67        45         23      *
+9/13/03       30        2        27    70        45         25      *
+8/11/03       32        2        30    68        43         25      *
+4/30/03       35        1        34    64        46         19      *
+2/9/03        28        1        27    72        49         23      *
+1/20/03       25        1        25    74        48         26      1
+12/15/02      35        1        33    65        44         21      1
+11/4/02  LV   28        1        27    72        55         17      1
+11/3/02  LV   27        1        26    72        56         17      1
+11/2/02  LV   29        1        28    71        54         17      *
+9/26/02       31        2        28    69        50         19      *
+7/15/02       39        3        36    61        44         17      1
+2/21/02       30        1        29    69        51         18      *
+1/27/02       31        1        29    69        50         19      *
+9/20/01       38        3        35    60        47         14      2
+9/9/01        33        1        32    66        47         19      *
+7/30/01       50        3        46    50        39         12      *
+4/22/01       50        3        47    50        40          9      *
+1/15/01       70       10        59    29        24          6      1
+10/27/00 LV   86       24        61    14        11          3      *
+10/26/00 LV   86       24        61    14        11          3      *
+6/11/00       74       17        57    26        19          6      *
+2/27/00       80       25        55    20        14          5      *
+10/31/99      74       18        56    26        18          7      1
+9/2/99        76       19        57    23        16          6      1
+3/14/99       80       22        58    19        15          4      1
+11/1/98       73       12        61    26        21          5      1
+10/13/97      61       12        49    39        27         11      *
+*Washington Post-Ipsos
+**2023 and previous in CATI mode. “Skip” was “no opinion.”
+***Washington Post-Kaiser Family Foundation
+
+
+25. Would you say you, yourself, are better off financially than you were when Trump
+became president in January 2025, not as well off, or in about the same shape
+financially?
+
+              Better off   Not as well off   About the same   Skip
+10/13/26          15             48                36           1
+7/13/26*          17             43                39           1
+4/28/26           17             40                42           1
+
+
+                                                                                                         25
+
+2/17/26           22             33                44           1
+10/28/25          18             37                45           1
+4/22/25           10             41                48           1
+11/1/18**         25             13                60           2
+
+Compare to: Biden
+11/1/24           16             42                42           1
+10/8/24           18             44                37           1
+7/9/24            17             42                41           1
+4/30/24           16             43                40           1
+1/8/24            13             43                41           3
+9/20/23           15             44                39           1
+2/1/23            16             41                42           1
+2/24/22           17             35                47           1
+
+Obama
+9/22/16           29             25                45           2
+1/15/15           25             25                49           2
+10/12/14          22             30                46           2
+10/28/12 LV       22             33                45           1
+9/9/12   RV       20             32                47           *
+5/20/12  RV       17             31                51           1
+1/15/12  RV       15             31                53           1
+11/3/11  RV       13             35                51           1
+9/1/11   RV       14             36                50           1
+7/18/09            8             27                64           *
+
+G.W. Bush
+10/5/04 LV        30             30                40           1
+10/29/03          22             27                50           1
+9/13/03           21             30                49           *
+8/11/03           17             25                58           1
+
+Clinton
+6/11/00           34             14                50           2
+7/19/98           30             15                52           3
+3/1/98            32              9                57           1
+6/23/96           29             22                49           0
+2/27/94           12             17                71           *
+
+G.H.W. Bush
+1/17/93           27             28                44           1
+8/9/92            22             32                45           1
+6/7/92            19             32                49           *
+3/11/92           20             33                46           1
+2/2/92            19             31                49           *
+12/15/91          17             33                49           *
+10/21/91          20             27                53           1
+3/4/91            19             18                63           1
+
+Reagan
+1/16/89           42             18                39           1
+1/18/87           37             23                40           1
+9/8/86            41             20                39           1
+*Post-Ipsos, all others ABC-Post.
+*Sept. 2023 and previous in CATI mode. “Skip” was “no opinion.”
+
+
+26. Thinking about your household budget and the cost of things these days, would you
+describe each of the following as affordable or unaffordable?
+
+10/13/26 – Summary table among U.S. adults
+
+
+
+                                                                                                         26
+
+                         Affordable   Unaffordable   Skipped
+a. Groceries                 39            60           1
+b. Healthcare                34            65           1
+c. Home energy and
+   utilities                 42            57           1
+d. Your rent or
+   mortgage                  48            50           3
+e. Gasoline                  28            71           1
+f. Going out to dinner       38            61           1
+g. Taking a weeklong
+   vacation                  30            69           1
+h. A new car                 19            80           1
+(Items randomized)
+
+Trend:
+
+a. Groceries
+
+           Affordable   Unaffordable   Skipped
+10/13/26       39            60           1
+7/13/26*       33            66           1
+2/17/26        54            45           1
+*Post-Ipsos
+
+b. Healthcare
+
+           Affordable   Unaffordable   Skipped
+10/13/26       34            65           1
+2/17/26        43            56           1
+
+c. Home energy and utilities
+
+
+           Affordable   Unaffordable   Skipped
+10/13/26       42            57           1
+2/17/26        54            45           1
+
+d. Your rent or mortgage
+
+           Affordable   Unaffordable   Skipped
+10/13/26       48            50           3
+2/17/26        60            37           3
+
+e. Gasoline
+
+           Affordable   Unaffordable   Skipped
+10/13/26       28            71           1
+2/17/26        71            28           1
+
+f. Going out to dinner
+
+           Affordable   Unaffordable   Skipped
+10/13/26       38            61           1
+2/17/26        50            49           1
+
+g. Taking a weeklong vacation
+
+           Affordable   Unaffordable   Skipped
+10/13/26       30            69           1
+2/17/26        39            60           1
+
+h. A new car
+
+
+
+                                                                                                         27
+
+           Affordable   Unaffordable   Skipped
+10/13/26       19            80           1
+2/17/26        25            74           1
+
+
+Questions 27-33 held for release.
+
+
+34. Do you think Trump is using the presidency to enrich himself?
+
+           Yes   No   Skipped
+10/13/26   66    32      2
+2/17/26    62    36      2
+9/15/25    56    42      1
+
+
+35. Do you think Trump is focused (too much), (too little), or the right amount on
+building projects in D.C.?
+
+                                     Just the
+           Too much   Too little   right amount   Skipped
+10/13/26      59          11            27           3
+
+
+36. Trump has pushed to put his name on the Kennedy Center for the Performing Arts in
+Washington, D.C. Do you think this is appropriate or inappropriate?
+
+           ---- Appropriate -----   --- Inappropriate ----
+           NET   Totally   Mostly   NET   Mostly   Totally   Skipped
+10/13/26   18       5        12     80      21       59         3
+
+
+37. As you may know, the federal government paid for television ads over the past
+month promoting Trump and his policies. Do you think this is an appropriate or
+inappropriate use of government funds?
+
+           ---- Appropriate -----   --- Inappropriate ----
+           NET   Totally   Mostly   NET   Mostly   Totally   Skipped
+10/13/26   23       6        17     74      19       55         3
+
+
+38. Would you describe yourself as a supporter of the MAGA movement, or not?
+
+                               Supporter   Not a supporter   Skipped
+10/13/26                          22             75             3
+   Republicans & Rep leaners      50             48             3
+4/28/26                           26             71             3
+   Republicans & Rep leaners      54             43             2
+2/17/26                           26             70             4
+   Republicans & Rep leaners      54             42             4
+
+
+39. Would you describe yourself as a supporter of the Democratic Socialists of
+America, or not?
+
+                             Supporter   Not a supporter   Skipped
+10/13/26                        20             77             3
+   Democrats & Dem leaners      35             62             3
+
+
+                                                                                                         28
+
+40. (AMONG REPUBLICANS AND REPUBLICAN-LEANING INDEPENDENTS) Going forward, do you
+think Republican leaders should follow Trump’s leadership or should they lead the
+party in a different direction?
+
+           Follow Trump’s     Lead party in       No opinion
+            leadership     different direction    /Skipped
+10/13/26        61                 37                 2
+4/28/26         65                 34                 2
+2/17/26         71                 28                 1
+4/28/22         60                 34                 6
+1/13/21         57                 35                 7
+
+Compare to:
+(IF REPUBLICAN OR LEAN REPUBLICAN) Do you think Republican leaders in Congress should
+(follow President Trump’s leadership) or should they (lead the party in a different
+direction)?
+
+            Follow President      Lead the party in     Something else     No
+           Trump’s leadership   a different direction    else (vol.)     opinion
+2/22/18*           76                    18                   1             4
+*Washington Post-KFF
+
+
+41. As you may know, former U.S. Army officer Nidal Hasan was convicted of killing 13
+people in a 2009 shooting at Fort Hood, Texas. Would you support or oppose executing
+Hasan by firing squad?
+
+           Support   Oppose   Skipped
+10/13/26     53        42        6
+
+
+42. Regardless of whether you support executing Hasan by firing squad, do you think
+the execution should be live streamed online for the American public to watch?
+
+             Should be     Should not be
+           live streamed   live streamed   Skipped
+10/13/26        18              80            2
+
+
+*** END ***
+
+METHODOLOGICAL DETAILS
+
+This poll was jointly sponsored and funded by The Washington Post                , ABC News and Ipsos.
+The poll includes a random sample of 2,545 U.S. adults. Interviews were conducted in
+English and Spanish.
+
+The questionnaire was administered with the exact questions in the exact order as they
+appear in this document. Demographic questions are not shown. If a question was asked
+of a reduced base of the sample, a parenthetical preceding the question identifies                      the
+group asked. Phrases surrounded by parentheticals within questions indicate clauses
+that were randomly rotated for respondents.
+
+Ipsos conducted sampling, interviewing and tabulation for the survey using the
+KnowledgePanel, a nationwide survey panel designed to be representative of the U.S.
+adult population. KnowledgePanel members are recruited through probability sampling
+
+
+                                                                                                         29
+
+methods using address-based sampling. Panel members who do not have internet access
+are provided with a tablet and internet service. KnowledgePanel members receive a per
+survey incentive, usually the equivalent of $1 (though for some it is $2) in points
+that can be redeemed for cash or prizes.
+
+In this poll, invitations were sent to 3,861 panelists, resulting in 2,545 completed
+interviews. In quality control, 78 respondents were removed for skipping half or more
+of the questions for which they were eligible or for completing the survey among the
+fastest 1 percent of interviews.
+
+Ipsos used probability-proportional-to-size sampling to draw a national sample of
+adults using the KnowledgePanel matching U.S. population benchmarks. This survey uses
+statistical weighting procedures to account for deviations in the survey sample from
+known population characteristics, which helps correct for differential survey
+participation and random variation in samples.
+
+The following table shows unweighted, weighted and benchmark values for weighting
+variables:
+
+                                                    Unweighted        Weighted       Benchmark
+          Age by sex                                         %               %               %
+          18-29, Male                                    8.2            10.2            10.2
+          18-29, Female                                  7.6            10.0            10.0
+          30-44, Male                                   12.7            12.5            12.5
+          30-44, Female                                 11.2            12.9            12.9
+          45-59, Male                                   11.5            10.7            10.7
+          45-59, Female                                 10.8            11.5            11.5
+          60+, Male                                     17.9            14.9            14.9
+          60+, Female                                   20.1            17.3            17.3
+
+          Race/ethnicity
+          White/Non-Hispanic                            63.2            58.7            58.7
+          Black/Non-Hispanic                            10.7            11.2            11.2
+          Other or 2+ Races/Non-Hispanic                11.1            11.2            11.2
+          Hispanic                                      15.0            18.9            18.9
+
+          Education
+          Less than HS                                   7.8             8.6             8.6
+          HS graduate or equivalent                     27.0            28.1            28.1
+          Some college                                  25.4            26.2            26.2
+          Bachelor’s degree                             24.8            23.1            23.1
+          Master’s or above                             14.9            14.1            14.1
+
+          Region by metro status
+          Northeast, metro                              15.6            16.0            16.0
+          Northeast, non-metro                           2.0             1.3             1.3
+          Midwest, metro                                15.9            15.5            15.5
+          Midwest, non-metro                             5.3             4.9             4.9
+          South, metro                                  31.7            33.1            33.1
+          South, non-metro                               6.0             5.8             5.8
+          West, metro                                   20.9            21.0            21.0
+          West, non-metro                                2.7             2.4             2.4
+
+
+
+                                                                                                         30
+
+          Household income
+          Under $25,000                                  8.2             8.9             8.9
+          $25,000-$49,999                               13.0            12.7            12.7
+          $50,000-$74,999                               13.5            13.3            13.3
+          $75,000-$99,999                               11.7            12.2            12.2
+          $100,000-$149,999                             20.1            18.8            18.8
+          $150,000 and over                             33.5            34.1            34.1
+
+          Language dominance
+          Not Hispanic                                   3.8             5.3             5.3
+          Hispanic - English dominant                    8.3             9.8             9.8
+          Hispanic - Bilingual                           2.9             3.8             3.8
+          Hispanic - Spanish dominant                   85.0            81.1            81.1
+
+          2024 presidential vote
+          Donald Trump                                  32.5            29.5            29.5
+          Kamala Harris                                 31.0            28.6            28.6
+          Another candidate                              1.0             1.0              1.0
+          Did not vote/Refused                          35.6            40.9            40.9
+
+          Among 2024 voters
+          Donald Trump                                  50.4            49.9            49.8
+          Kamala Harris                                 48.1            48.4            48.3
+          Another candidate                              1.5             1.7              1.9
+
+          Party identification
+          Democrat                                      30.2            28.6            28.6
+          Ind/Other – lean Democrat                     16.7            18.7            18.7
+          Refused to lean                                 7.3             9.8             9.8
+          Ind/Other – lean Republican                   15.5            15.1            15.1
+          Republican                                    30.3            27.8            27.8
+          Note: Party ID was measured in the spring and weighted to benchmarks
+          for the spring Pew NPORS survey, as described below.
+
+
+Sources:
+- Census Bureau Current Population Survey 2026 March Supplement (age by sex,
+race/ethnicity,
+education, region by metro status, household income)
+- Census Bureau 2024 American Community Survey (language dominance)
+- Associated Press tabulation of certified results (2024 presidential vote)
+
+Political party identification benchmarks are from the 202              6 NPORS annual survey,
+measured at similar points for KnowledgePanel panelists as the benchmarking survey.
+
+After weighting, all registered voters were assigned a probability of voting to
+produce results among likely voters based on analysis of past surveys which measured
+the relationship between past turnout and self-reported likelihood of voting with
+validated turnout according to voter records. The overall sample size for likely
+voters is the same as registered voters (2,032).
+
+
+
+
+                                                                                                         31
+
+All error margins have been adjusted to account for the survey’s design effect, which
+is 1.05 for this survey. The design effect is a factor representing the survey                   ’s
+deviation from a simple random sample and takes into account decreases in precision
+due to sample design and weighting procedures.
+
+ABC News, The Washington Post and Ipsos are charter members of AAPOR                 ’s Transparency
+Initiative, which recognizes organizations that disclose key methodological details on
+the research they produce.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                         32

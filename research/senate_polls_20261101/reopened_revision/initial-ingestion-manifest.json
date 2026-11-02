@@ -1,0 +1,183 @@
+{
+  "window": {
+    "start": "2026-10-01",
+    "end": "2026-11-01"
+  },
+  "cutoff_basis": "publication_date",
+  "observation_date_basis": "field_end",
+  "acquisition_id": "senate_polls_20261101",
+  "accepted_count": 49,
+  "held_record_count": 19,
+  "counts_by_race": {
+    "fl_sen": 7,
+    "tx_sen": 8,
+    "ga_sen": 1,
+    "me_sen": 6,
+    "nh_sen": 3,
+    "ia_sen": 5,
+    "ak_sen": 0,
+    "mi_sen": 5,
+    "oh_sen": 5,
+    "nc_sen": 4,
+    "ks_sen": 2,
+    "mn_sen": 3
+  },
+  "accepted_poll_ids": [
+    "me_sen--aarp-fabrizio-impact-20260922",
+    "ia_sen--fox-20260928",
+    "nh_sen--anselm-aarp-20260929",
+    "mn_sen--bigdata-mn-20260930",
+    "fl_sen--mason-dixon-20261001",
+    "me_sen--yougov-cbs-20261001",
+    "me_sen--marist-20261004",
+    "ia_sen--ssrs-cnn-20261005",
+    "ia_sen--emerson-nexstar-20261006",
+    "fl_sen--stpete-20261007",
+    "nc_sen--change-20261007",
+    "ia_sen--marist-20261011",
+    "me_sen--suffolk-20261011",
+    "nc_sen--surveyusa-20261011",
+    "tx_sen--marist-20261011",
+    "mn_sen--surveyusa-mn-20261012",
+    "nh_sen--npa-20261012",
+    "tx_sen--houston-hobby-20261014",
+    "fl_sen--yougov-univision-20261015",
+    "ga_sen--uga-ajc-ga-sen-20261015",
+    "tx_sen--cbs-yougov-20261016",
+    "mi_sen--marist-2026-10-18-lv",
+    "mi_sen--onpoint-2026-10-18-lv",
+    "oh_sen--marist-oh-20261018-lv",
+    "tx_sen--onpoint-20261018",
+    "fl_sen--unf-20261019",
+    "oh_sen--fox-oh-20261019-lv",
+    "tx_sen--emerson-nexstar-20261019",
+    "nc_sen--harper-20261020",
+    "nh_sen--anselm-20261020",
+    "oh_sen--verasight-oh-20261020",
+    "ia_sen--onpoint-20261021",
+    "ks_sen--redbox-20261023",
+    "mi_sen--redbox-2026-10-23-lv",
+    "nc_sen--redbox-20261023",
+    "oh_sen--redbox-oh-20261023",
+    "me_sen--marist-20261025",
+    "mi_sen--dfp-2026-10-25-lv",
+    "tx_sen--texas-southern-20261025",
+    "oh_sen--suffolk-oh-20261026",
+    "tx_sen--data-for-progress-20261026",
+    "fl_sen--stpete-20261027",
+    "me_sen--dfp-20261027",
+    "mi_sen--ssrs-cnn-2026-10-27-lv",
+    "tx_sen--onpoint-20261027",
+    "ks_sen--emerson-20261028",
+    "mn_sen--surveyusa-mn-20261028",
+    "fl_sen--stetson-20261030",
+    "fl_sen--redbox-20261031"
+  ],
+  "held": [
+    {
+      "key": "tx_sen/ut-tpp-20261005",
+      "reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "source_url": "https://texaspolitics.utexas.edu/files/202610_POLL_CROSSTABS-913ffed6.pdf"
+    },
+    {
+      "key": "tx_sen/umass-lowell-yougov-20260928",
+      "reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "source_url": "https://www.uml.edu/docs/TOPLINE%20-%20UMass%20Lowell%20TEXAS%20GEN%201%2020261008%20-%20marcom%20final%20rem_tcm18-423387.pdf"
+    },
+    {
+      "key": "tx_sen/reconmr-siena-20261008",
+      "reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "source_url": "https://sri.siena.edu/wp-content/uploads/2026/10/TXP004-Crosstabs.pdf"
+    },
+    {
+      "key": "me_sen/wapo-schar-20261005",
+      "reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pc_YoJKZGVAl08v7PYmVPH1sFIDOL9vAHykTKbKLa5I/edit"
+    },
+    {
+      "key": "me_sen/rasmussen-20261008",
+      "reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Table labels Party but source does not establish how classified; classification as party_id is tentative and requires verification; must not be ingested if based on model inference. Ns floor(804 x rounded shares), estimates. Official generic methodology says party weighting targets take voting history, national trends, recent polling into account, but does not specify how this survey assigns respondent party. A 2006 third-party report discusses historical self-ID questions but does not establish 2026 practice. Basis remains unverified.",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_5_8_2026"
+    },
+    {
+      "key": "nh_sen/umass-lowell-yougov-20261019",
+      "reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "source_url": "https://www.uml.edu/docs/TOPLINE%20-%20UMass%20Lowell%20NEW%20HAMPSHIRE%20GEN%201%20202610XX%20FINAL_tcm18-424375.pdf"
+    },
+    {
+      "key": "nh_sen/rasmussen-20261004",
+      "reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Party basis not confirmed: labeled Party, release calls non-major-party voters unaffiliated; cannot establish whether self-reported ID or registration. Article date not displayed; On Point Politics recorded wave by Oct 5. Table question names three candidates but topline question lists seven; possible wording inconsistency. Group sizes are floor(total \u00d7 rounded published party shares), estimated weighted-equivalent figures rather than observed counts. Party weighting described in https://www.rasmussenreports.com/public_content/about_us/methodology; method of determining each respondent party is unspecified.",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_new_hampshire_senate_october_2_4_2026"
+    },
+    {
+      "key": "nh_sen/rasmussen-20261023",
+      "reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Party basis not confirmed: labeled Party, release calls non-major-party voters unaffiliated; cannot establish whether self-reported ID or registration. October 26 date from Wikipedia attribution; primary article displays no date. Group sizes are floor(total \u00d7 rounded published party shares), estimated weighted-equivalent figures rather than observed counts. Party weighting described in https://www.rasmussenreports.com/public_content/about_us/methodology; method of determining each respondent party is unspecified.",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_new_hampshire_senate_october_20_23_2026"
+    },
+    {
+      "key": "ia_sen/marist-20261011-rv-alternative",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both.",
+      "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Iowa_NOS-and-Tables_202610131230%403bcy%5Ew.pdf"
+    },
+    {
+      "key": "ak_sen/rasmussen-2026-10-15",
+      "reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Do not ingest: R/I/D basis and leaners not established. Article reverses the table\u2019s independent candidate percentages, and incorrectly attributes Peltola\u2019s House service to Sullivan; seek clarification or corrected source. Group Ns are floor(775 \u00d7 rounded composition), estimates only, not reported unweighted or exact weighted counts; source methodology says survey weighted. Another-party group is separate, not folded into Independent. Release date Oct 19 independently reported by Wikipedia and political.org, absent on retrieved original page. Source lists Daniel J. Sullivan Jr. as Republican; other sources report no party affiliation.",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_alaska_senate_october_12_15_2026"
+    },
+    {
+      "key": "mi_sen/marist-2026-10-18-rv-alternate",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both. Root verified Marist release page dated October21.",
+      "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_MI-NOS-and-Tables_202610191238FFx09@Jal.pdf"
+    },
+    {
+      "key": "oh_sen/marist-oh-20261018-rv-alternative",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both.",
+      "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_OH-NOS-and-Tables_202610191215zz9hjdV2l.pdf"
+    },
+    {
+      "key": "oh_sen/suffolk-oh-20260927",
+      "reason": "Senate result first published September30; October university repost does not establish a new eligible wave.",
+      "source_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_2_2026_ohio_statewide_complete_tables.pdf"
+    },
+    {
+      "key": "oh_sen/fox-oh-20261019-rv",
+      "reason": "Same-survey alternative; chosen LV table already included. Do not count both.",
+      "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_cross-tabs_october-21-release.pdf"
+    },
+    {
+      "key": "nc_sen/ecu-20261003",
+      "reason": "Democratic Whatley support is censored <1%, not zero, and no subgroup precision denominator/bound established.",
+      "source_url": "https://cdn.filestackcontent.com/sVeW8FAaSPaEQyJBDOZZ"
+    },
+    {
+      "key": "nc_sen/activote-20261020",
+      "reason": "Not established that voter-file party classification is actual registration for every respondent; modeled proxy not authorized.",
+      "source_url": "https://www.activote.net/polls/2026/nc-u-s-senate/"
+    },
+    {
+      "key": "ks_sen/wapo-schar-20261026",
+      "reason": "Subgroup bases or defensible published bounds are unavailable; support table retained in research.",
+      "source_url": "https://docs.google.com/spreadsheets/d/1YWj-IcboBO8qF0eVPz4agZgQDD7c8BmrBInmwoamSPU/edit"
+    },
+    {
+      "key": "mn_sen/rasmussen-mn-20261007",
+      "reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Reported party composition identical across waves despite different n. Weighting status and exact question unspecified; derived group n are estimates from rounded proportions. Independent/Other is combined. Oct 21 article conflicts with own crosstab on major-party crossovers; direct crosstab used.",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_minnesota_senate_october_5_7_2026"
+    },
+    {
+      "key": "mn_sen/rasmussen-mn-20261021",
+      "reason": "Respondent party classification not established as actual ID or registration; current general method describes weighting, not this measure. Reported party composition identical across waves despite different n. Weighting status and exact question unspecified; derived group n are estimates from rounded proportions. Independent/Other is combined. Oct 21 article conflicts with own crosstab on major-party crossovers; direct crosstab used.",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_minnesota_senate_october_20_21_2026"
+    }
+  ],
+  "precision_policy": "Working DEFF1.5 for reported unweighted bases; 2 for reported weighted/unspecified bases;3 for rounded-composition estimates and published suppression lower bounds. Source-informed larger effects override defaults; reported effective bases use DEFF1. Exact source bases retained; fractional model counts floored. These are provisional assumptions, not empirically calibrated guarantees.",
+  "limitations": [
+    "Search coverage is documented, not a proof all public polls were found. Inaccessible, paywalled, missing/suppressed-group and unresolved sources are itemized per race.",
+    "Party-ID lean definitions and Independent/Other combinations vary by publisher. Actual registration is a labeled fallback; several party-basis interpretations are explicit inferences.",
+    "Published subgroup suppression bounds are model precision limits, never actual sample sizes; derived bases use rounded matching-population composition, not reported subgroup interviews.",
+    "Censored support, unknown party classification, unresolved material table/article conflicts, and complete tables without defensible precision remain held.",
+    "No historical calibration or forecast accuracy claim follows from a successful software replay."
+  ],
+  "feed_sha256": "b1cd90cb5edd963d70fb8960435d0a20ac5fd051efb2f3a25142da18bd1da216",
+  "review_decisions_sha256": "96b63638e987e67a88f187e3833686dfde23b6a11c7766f5e278eb877e015ccd"
+}

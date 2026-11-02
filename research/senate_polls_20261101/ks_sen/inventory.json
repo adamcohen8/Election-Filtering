@@ -1,0 +1,165 @@
+{
+  "race_id": "ks_sen",
+  "search_queries": [
+    "Kansas Senate 2026 poll Marshall Hamilton October 2026 poll crosstabs",
+    "Kansas Senate 2026 polls October 2026 Roger Marshall Adam Hamilton survey",
+    "Kansas US Senate polling November 2026 Marshall Hamilton poll",
+    "Kansas CNN SSRS October 2026 party crosstabs",
+    "Kansas Times Siena October 3 2026 crosstabs",
+    "GBAO Hamilton September 30 October 4 2026 Kansas",
+    "InsiderAdvantage Kansas October 2026 tabs",
+    "RedBox Research A Fight Worth Having fabricated poll"
+  ],
+  "aggregator_urls": [
+    "https://535.wtf/races/senate-2026-ks",
+    "https://www.realclearpolling.com/polls/senate/general/2026/kansas/marshall-vs-hamilton",
+    "https://www.270towin.com/2026-senate-polls/kansas",
+    "https://www.pollcheck.co.uk/us-midterms-2026/senate/kansas",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas"
+  ],
+  "releases": [
+    {
+      "pollster": "Emerson College Polling",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-28",
+      "original_url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
+      "table_url": "https://docs.google.com/spreadsheets/d/1Fsg1YqnPjM1kKMkAQIhpoBRW3J1vwCH0/edit",
+      "status": "qualifying",
+      "reason": "First-choice registration table; weighted bases"
+    },
+    {
+      "pollster": "Washington Post / Schar School",
+      "sponsor": null,
+      "publication_date": "2026-10-30",
+      "field_start": "2026-10-22",
+      "field_end": "2026-10-26",
+      "original_url": "https://www.washingtonpost.com/tablet/2026/10/30/oct-22-26-2026-washington-post-schar-school-kansas-poll/",
+      "table_url": "https://docs.google.com/spreadsheets/d/1YWj-IcboBO8qF0eVPz4agZgQDD7c8BmrBInmwoamSPU/edit",
+      "status": "needs_denominator",
+      "reason": "Registration table has no subgroup counts or composition"
+    },
+    {
+      "pollster": "RedBox Research",
+      "sponsor": "A Fight Worth Having",
+      "publication_date": "2026-10-25",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-23",
+      "original_url": "https://afightworthhaving.com/polling/2026/kansas",
+      "table_url": "https://afightworthhaving.com/polling/2026/kansas/crosstabs.csv",
+      "status": "needs_review",
+      "reason": "Self-ID table and exact unweighted bases; unverified allegation of unreliability, not proof"
+    },
+    {
+      "pollster": "CNN / SSRS",
+      "sponsor": "CNN",
+      "publication_date": "2026-10-29",
+      "field_start": "2026-10-20",
+      "field_end": "2026-10-26",
+      "original_url": "https://keyt.com/politics/cnn-us-politics/2026/10/29/democrats-in-striking-distance-new-cnn-polls-in-four-states-highlight-partys-path-to-senate-majority/",
+      "table_url": "https://www.documentcloud.org/documents/28856723-cnn-poll-conducted-by-ssrs-kansas-october/",
+      "status": "inaccessible",
+      "reason": "DocumentCloud and direct PDF returned Cloudflare 403; secondary reporting is partial and insufficient for all six cells"
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-15",
+      "field_start": "2026-10-13",
+      "field_end": "2026-10-14",
+      "original_url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release promises tabs separately; candidate-support by all three party groups not located"
+    },
+    {
+      "pollster": "InsiderAdvantage",
+      "sponsor": null,
+      "publication_date": "2026-10-11",
+      "field_start": "2026-10-09",
+      "field_end": "2026-10-10",
+      "original_url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Release promises tabs; subgroup totals in KMBC but no full party ballot cross-tabs located"
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-11-01",
+      "field_start": "2026-10-26",
+      "field_end": "2026-10-29",
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20261026_lv.pdf",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20261026_lv.pdf",
+      "status": "excluded",
+      "reason": "PDF p8 Senate table lacks party/registration columns; publication date as listed by Wikipedia"
+    },
+    {
+      "pollster": "YouGov",
+      "sponsor": null,
+      "publication_date": "2026-10-07",
+      "field_start": "2026-09-24",
+      "field_end": "2026-10-04",
+      "original_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20260921_lv.pdf",
+      "table_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20260921_lv.pdf",
+      "status": "excluded",
+      "reason": "PDF p8 Senate table lacks party/registration columns; October 7 publication date from Political.org"
+    },
+    {
+      "pollster": "GBAO",
+      "sponsor": "Adam Hamilton campaign",
+      "publication_date": "2026-10-07",
+      "field_start": "2026-09-30",
+      "field_end": "2026-10-04",
+      "original_url": "https://535.wtf/races/senate-2026-ks",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Campaign memo/partial results located but no complete party ballot crosstabs"
+    },
+    {
+      "pollster": "New York Times / Siena College",
+      "sponsor": "New York Times",
+      "publication_date": "2026-10-03",
+      "field_start": "2026-09-22",
+      "field_end": "2026-09-30",
+      "original_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-crosstabs.html",
+      "table_url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-crosstabs.html",
+      "status": "inaccessible",
+      "reason": "Crosstabs could not be inspected: NYT direct fetch presented challenge; in-app browser site-safety policy denied access. RCP lists end Oct 1, 535 and other sources say Sept 30."
+    },
+    {
+      "pollster": "Trafalgar Group",
+      "sponsor": null,
+      "publication_date": "2026-10-01",
+      "field_start": "2026-09-29",
+      "field_end": "2026-10-01",
+      "original_url": "https://www.thetrafalgargroup.org/news/ks-senate-general-1001/",
+      "table_url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/KS-Midterms-Report-1001.pdf",
+      "status": "excluded",
+      "reason": "Original 9-page report contains party composition and age/gender/ethnicity ballot tables only, no party ballot cross-tabs; date corroborated secondary Political.org"
+    },
+    {
+      "pollster": "Global Strategy Group",
+      "sponsor": "Democratic Attorneys General Association",
+      "publication_date": null,
+      "field_start": "2026-09-13",
+      "field_end": "2026-09-16",
+      "original_url": "https://www.washingtonsun.com/",
+      "table_url": null,
+      "status": "date_unverified",
+      "reason": "September fieldwork; locate full source and Senate release publication date before eligibility decision"
+    },
+    {
+      "pollster": "Wedgewood",
+      "sponsor": null,
+      "publication_date": "2026-09-24",
+      "field_start": null,
+      "field_end": "2026-09-24",
+      "original_url": "https://www.reddit.com/r/fivethirtyeight/comments/1wpe5sm/wedgewood_kansas_statewide_poll_924_lv_sen/",
+      "table_url": null,
+      "status": "excluded",
+      "reason": "Outside window and disclosed fabricated pollster explicitly excluded by assignment"
+    }
+  ]
+}

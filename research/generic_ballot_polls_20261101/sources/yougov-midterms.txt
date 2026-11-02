@@ -1,0 +1,1230 @@
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+      1. Do you think Donald Trump is helping or hurting Republicans’ chances in the 2026 midterm elections?
+                 Helping   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20%
+                 Neither helping nor hurting   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .17%
+                 Hurting   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14%
+
+
+      2. Which party do you trust more to make you and your family financially better off?
+                 The Democratic Party    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35%
+                 The Republican Party   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .29%
+                 Neither party   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7%
+
+
+      3.  If Democrats control Congress after the 2026 midterm elections, do you think you personally would be better
+      off or worse off financially?
+                 Better off financially   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28%
+                 Worse off financially   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28%
+                 About the same   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17%
+
+
+      4. If Republicans control Congress after the 2026 midterm elections, do you think you personally would be better
+      off or worse off financially?
+                 Better off financially   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .23%
+                 Worse off financially   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39%
+                 About the same   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .23%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15%
+
+
+      5.  If control of Congress is split between Democrats and Republicans after the 2026 midterm elections, do you
+      think you personally would be better off or worse off financially?
+                 Better off financially   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8%
+                 Worse off financially   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21%
+                 About the same   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .43%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28%
+
+
+      6.  If Republicans lose control of Congress in the 2026 midterm elections, do you think Donald Trump will or will
+      not accept the results of the elections?
+                 He will accept the results   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23%
+                 He will not accept the results   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .52%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25%
+
+
+      7.  If Republicans lose control of Congress in the 2026 midterm elections, do you think Donald Trump should or
+      should not accept the results of the elections?
+                 He should accept the results   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74%
+                 He should not accept the results   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19%
+
+
+                                                                                                                                                                                                                1
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+      8. Which of the following senior officials in the Trump administration, if any, do you think will be the next to leave
+      the administration?
+                 Pete Hegseth, Secretary of Defense   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11%
+                 Kash Patel, Director of the Federal Bureau of Investigation   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8%
+                 Robert F. Kennedy, Jr., Secretary of Health and Human Services   . . . . . . . . . . . . . . . . . . . . . . . . . 4%
+                 Marco Rubio, Secretary of State    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3%
+                 Todd Blanche, acting U.S. Attorney General   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2%
+                 Scott Bessent, Secretary of the Treasury   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2%
+                 Howard Lutnick, Secretary of Commerce   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                 Sean Duffy, Secretary of Transportation   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0%
+                 Doug Burgum, Secretary of the Interior   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .0%
+                 Another senior official in the Trump administration   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                 No senior official will leave the administration    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51%
+
+
+      9.  Which of the following senior officials in the Trump administration, if any, do you think should be the next to
+      leave the administration?
+                 Pete Hegseth, Secretary of Defense   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20%
+                 Robert F. Kennedy, Jr., Secretary of Health and Human Services   . . . . . . . . . . . . . . . . . . . . . . . .11%
+                 Kash Patel, Director of the Federal Bureau of Investigation   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4%
+                 Todd Blanche, acting U.S. Attorney General   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2%
+                 Marco Rubio, Secretary of State    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2%
+                 Scott Bessent, Secretary of the Treasury   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                 Howard Lutnick, Secretary of Commerce   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                 Sean Duffy, Secretary of Transportation   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                 Doug Burgum, Secretary of the Interior   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .0%
+                 Another senior official in the Trump administration   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2%
+                 No senior official should leave the administration   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38%
+
+
+      10.  If JD Vance runs for president in 2028, who do you think he should choose as his vice presidential running
+      mate?
+      Among Republicans and Independents who lean toward the Republican Party
+                 Marco Rubio   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33%
+                 Ron DeSantis    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13%
+                 Nikki Haley    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5%
+                 Vivek Ramaswamy   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3%
+                 Tim Scott   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3%
+                 Tulsi Gabbard   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3%
+                 Sarah Huckabee Sanders   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2%
+                 Glenn Youngkin   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                 Someone else   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3%
+                 Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34%
+
+
+
+
+
+
+                                                                                                                                                                                                            2
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+      11. If JD Vance runs for president in 2028, who do you think he will choose as his vice presidential running mate?
+                  Marco Rubio   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .22%
+                  Ron DeSantis   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .8%
+                  Nikki Haley    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3%
+                  Tim Scott   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3%
+                  Vivek Ramaswamy   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3%
+                  Sarah Huckabee Sanders   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3%
+                  Tulsi Gabbard   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2%
+                  Glenn Youngkin   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1%
+                  Someone else   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2%
+                  Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55%
+
+
+      12. If Republicans lose control of Congress in the 2026 midterm elections, who or which of the following do you
+      think would be most responsible for the loss?
+                  Donald Trump   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40%
+                  Republican leaders in Congress   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10%
+                  Economic factors outside politicians’ control   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9%
+                  Republican candidates   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6%
+                  Democrats’ campaigning   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5%
+                  Someone or something else    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4%
+                  Not sure   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                       3
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+ Interviewing Dates                            October 2 - 5, 2026
+
+ Target population                             U.S. citizens, aged 18 and over
+
+ Sampling method                             Respondents   were   selected   from   YouGov’s   opt-in   panel   to   be
+                                                 representative of adult U.S. citizens.
+
+ Weighting                                          The sample was weighted according to gender, age, race, education,
+                                                 U.S.  region,   2024  presidential  vote,   2020  election  turnout  and
+                                                 presidential  vote,  baseline  party  identification,  and  current  voter
+                                                 registration  status.   Demographic  weighting  targets  come  from  the
+                                                 2019 American Community Survey.  2024 presidential vote,  at time
+                                                 of  weighting  was  estimated  to  be  48%  Harris  and  50%  Trump.
+                                                 Baseline party identification is the respondent’s most recent answer
+                                                 given around November 8,  2024,  and is weighted to the estimated
+                                                 distribution  at  that  time  (31%  Democratic,  33%  Republican).   The
+                                                 weights range from 0.052 to 6.574, with a mean of one and a standard
+                                                 deviation of 0.981.
+
+ Number of respondents                   1,053
+
+ Margin of error                       ± 4.2 points (adjusted for weighting)
+
+ Likely Voter Screen                          "Strict"  indicates  a  respondent  who  is  currently  registered  to  vote
+                                                 and  indicated  that  they  "Definitely  will  vote".    "Loose"  indicates  a
+                                                 respondent who is either currently registered to vote or indicated that
+                                                 they plan to register before the election, and also indicated that they
+                                                 either "Definitely will vote" or "Probably will vote".
+
+ Survey mode                                     Web-based interviews
+
+ Questions not reported                   116 questions not reported.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                              4
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+1. Donald Trump’s Effect on Republicans in the Midterms
+Do you think Donald Trump is helping or hurting Republicans’ chances in the 2026 midterm elections?
+
+                                                                          Gender                                        Age                                                    Race                                         Education
+
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Helping                                          20%           26%           15%            19%          20%          20%          20%          22%          16%            24%                 22%                      17%
+Neither helping nor
+   hurting                                        17%           14%           19%            12%          19%          17%          18%          17%          10%            19%                 17%                      16%
+Hurting                                           49%           50%           49%            47%          48%          49%          51%          48%          51%            42%                 44%                      58%
+Not sure                                         14%           11%           18%            21%          12%          14%          11%          13%          23%            15%                 17%                      10%
+
+Totals                                           100%         101%         101%            99%          99%        100%        100%        100%        100%          100%               100%                    101%
+Unweighted N                          (1,051)       (499)         (552)         (243)        (279)        (306)        (223)        (698)        (121)          (164)              (679)                   (372)
+
+
+                                                                     Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                  Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Helping                                           20%            24%                24%                   3%           11%           48%              59%                 52%                    3%                  3%               49%
+Neither helping nor
+   hurting                                        17%            15%                16%                13%           12%           26%              23%                 28%                    9%                  8%               25%
+Hurting                                            49%            54%                53%                77%           54%           18%                 6%                   7%                  80%                84%               18%
+Not sure                                          14%              7%                   7%                   7%           24%             9%              11%                 13%                    8%                  5%                 9%
+
+Totals                                            100%          100%              100%              100%         101%         101%              99%               100%                100%              100%             101%
+Unweighted N                          (1,051)        (697)              (803)              (350)        (385)        (316)            (253)              (369)               (632)             (454)            (343)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                              1
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+2. Party Trusted More on Personal Finances
+Which party do you trust more to make you and your family financially better off?
+
+                                                                         Gender                                        Age                                                    Race                                         Education
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+The Democratic Party                  35%           35%           36%            43%          32%          30%          38%          30%          55%            36%                 32%                      41%
+The Republican Party                  29%           34%           25%            17%          26%          33%          39%          37%            6%            26%                 30%                      28%
+Neither party                                 29%           27%           31%            30%          33%          31%          20%          29%          25%            23%                 30%                      27%
+Not sure                                           7%             5%             9%            10%            9%            6%            3%            5%          13%            15%                   9%                        3%
+
+Totals                                           100%         101%         101%          100%        100%        100%        100%        101%          99%          100%               101%                      99%
+Unweighted N                          (1,050)       (497)         (553)         (244)        (279)        (304)        (223)        (697)        (121)          (164)              (679)                   (371)
+
+
+                                                                     Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                  Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+The Democratic Party                   35%            44%                42%                85%           25%             0%                 5%                   4%                  57%                81%                 0%
+The Republican Party                   29%            36%                37%                   1%           10%           79%              77%                 74%                    5%                  0%               82%
+Neither party                                  29%            18%                19%                11%           49%           20%              14%                 18%                  35%                17%               17%
+Not sure                                            7%              2%                   2%                   3%           15%             1%                 3%                   4%                    4%                  2%                 0%
+
+Totals                                            100%          100%              100%              100%           99%         100%              99%               100%                101%              100%               99%
+Unweighted N                          (1,050)        (694)              (801)              (351)        (384)        (315)            (252)              (367)               (632)             (455)            (341)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                             2
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+3. Personal Finances if Democrats Control Congress
+If Democrats control Congress after the 2026 midterm elections, do you think you personally would be better off or worse off financially?
+
+                                                                         Gender                                        Age                                                    Race                                         Education
+
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Better off financially                      28%           30%           26%            33%          26%          23%          31%          24%          40%            36%                 26%                      31%
+Worse off financially                     28%           31%           25%              8%          23%          35%          41%          34%            9%            20%                 30%                      23%
+About the same                            28%           27%           28%            33%          27%          29%          20%          28%          23%            21%                 24%                      35%
+Not sure                                         17%           13%           20%            26%          23%          13%            7%          14%          28%            23%                 20%                      11%
+
+Totals                                           101%         101%           99%          100%          99%        100%          99%        100%        100%          100%               100%                    100%
+Unweighted N                          (1,050)       (498)         (552)         (243)        (278)        (306)        (223)        (699)        (120)          (164)              (678)                   (372)
+
+
+                                                                     Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                  Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Better off financially                      28%            35%                34%                61%           20%             7%                 9%                   7%                  44%                60%                 5%
+Worse off financially                      28%            33%                32%                   3%           16%           65%              66%                 60%                  10%                  3%               67%
+About the same                             28%            25%                26%                29%           33%           20%              17%                 21%                  34%                31%               21%
+Not sure                                          17%              7%                   8%                   7%           31%             8%                 9%                 12%                  11%                  7%                 7%
+
+Totals                                            101%          100%              100%              100%         100%         100%            101%               100%                  99%              101%             100%
+Unweighted N                          (1,050)        (696)              (803)              (351)        (384)        (315)            (252)              (368)               (632)             (455)            (342)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                            3
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+4. Personal Finances if Republicans Control Congress
+If Republicans control Congress after the 2026 midterm elections, do you think you personally would be better off or worse off financially?
+
+                                                                         Gender                                        Age                                                    Race                                         Education
+
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Better off financially                      23%           28%           19%            14%          24%          24%          30%          27%          10%            24%                 22%                      26%
+Worse off financially                     39%           38%           39%            40%          40%          36%          41%          35%          50%            35%                 37%                      43%
+About the same                            23%           23%           23%            23%          16%          28%          22%          24%          15%            17%                 22%                      23%
+Not sure                                         15%           11%           19%            23%          20%          12%            7%          13%          25%            24%                 19%                        9%
+
+Totals                                           100%         100%         100%          100%        100%        100%        100%          99%        100%          100%               100%                    101%
+Unweighted N                          (1,053)       (499)         (554)         (244)        (280)        (306)        (223)        (699)        (121)          (165)              (680)                   (373)
+
+
+                                                                     Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                  Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Better off financially                      23%            30%                30%                   3%           11%           58%              64%                 58%                    4%                  3%               59%
+Worse off financially                      39%            46%                44%                79%           36%             5%                 4%                   4%                  65%                79%                 3%
+About the same                             23%            18%                19%                12%           26%           28%              23%                 27%                  21%                13%               29%
+Not sure                                          15%              6%                   7%                   6%           27%           10%                 8%                 12%                    9%                  5%                 9%
+
+Totals                                            100%          100%              100%              100%         100%         101%              99%               101%                  99%              100%             100%
+Unweighted N                          (1,053)        (697)              (804)              (351)        (386)        (316)            (253)              (369)               (633)             (455)            (343)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                           4
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+5. Personal Finances if Democrats and Republicans Split Control of Congress
+If control of Congress is split between Democrats and Republicans after the 2026 midterm elections, do you think you personally would be better off or worse
+off financially?
+
+                                                                        Gender                                        Age                                                    Race                                         Education
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Better off financially                        8%             9%             7%            13%          11%            4%            4%            5%          11%            12%                   6%                      11%
+Worse off financially                     21%           24%           19%            14%          21%          24%          24%          23%          11%            23%                 21%                      22%
+About the same                            43%           45%           41%            37%          40%          47%          45%          45%          38%            32%                 40%                      49%
+Not sure                                         28%           22%           34%            36%          28%          24%          27%          26%          40%            33%                 33%                      19%
+
+Totals                                           100%         100%         101%          100%        100%          99%        100%          99%        100%          100%               100%                    101%
+Unweighted N                          (1,051)       (498)         (553)         (244)        (279)        (306)        (222)        (698)        (120)          (165)              (679)                   (372)
+
+
+                                                                    Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                 Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Better off financially                        8%            10%                10%                   8%             6%           10%                 9%                 10%                    7%                11%                 9%
+Worse off financially                      21%            27%                26%                21%           18%           26%              22%                 21%                  23%                24%               25%
+About the same                             43%            44%                44%                46%           41%           42%              45%                 45%                  45%                43%               46%
+Not sure                                          28%            19%                20%                25%           35%           22%              24%                 24%                  25%                23%               21%
+
+Totals                                            100%          100%              100%              100%         100%         100%            100%               100%                100%              101%             101%
+Unweighted N                          (1,051)        (695)              (802)              (350)        (386)        (315)            (252)              (368)               (632)             (454)            (342)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                          5
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+6. Will Donald Trump Accept the Midterm Results
+If Republicans lose control of Congress in the 2026 midterm elections, do you think Donald Trump will or will not accept the results of the elections?
+
+                                                                        Gender                                        Age                                                    Race                                         Education
+
+                                                Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+He will accept the results             23%           29%           19%            18%          22%          28%          25%          26%          14%            21%                 22%                      27%
+He will not accept the
+   results                                        52%           49%           54%            53%          46%          51%          58%          50%          56%            47%                 49%                      57%
+Not sure                                         25%           22%           27%            30%          33%          21%          17%          24%          30%            32%                 29%                      16%
+
+Totals                                           100%         100%         100%          101%        101%        100%        100%        100%        100%          100%               100%                    100%
+Unweighted N                          (1,050)       (497)         (553)         (243)        (278)        (306)        (223)        (697)        (120)          (165)              (679)                   (371)
+
+
+                                                                    Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                 Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+He will accept the results             23%            29%                29%                   6%           11%           55%              61%                 55%                    6%                  6%               56%
+He will not accept the
+   results                                         52%            57%                55%                81%           55%           21%              16%                 17%                  79%                86%               21%
+Not sure                                          25%            14%                15%                13%           34%           24%              23%                 28%                  14%                  8%               24%
+
+Totals                                            100%          100%                99%              100%         100%         100%            100%               100%                  99%              100%             101%
+Unweighted N                          (1,050)        (695)              (802)              (351)        (384)        (315)            (252)              (368)               (632)             (454)            (342)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                        6
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+7. Should Donald Trump Accept the Midterm Results
+If Republicans lose control of Congress in the 2026 midterm elections, do you think Donald Trump should or should not accept the results of the elections?
+
+                                                                        Gender                                        Age                                                    Race                                         Education
+
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+He should accept the
+   results                                        74%           75%           73%            67%          66%          78%          84%          78%          62%            64%                 71%                      79%
+He should not accept the
+   results                                          6%             7%             6%              9%            8%            6%            3%            6%          10%              8%                   6%                        7%
+Not sure                                         19%           18%           21%            24%          26%          16%          13%          17%          28%            29%                 23%                      14%
+
+Totals                                             99%         100%         100%          100%        100%        100%        100%        101%        100%          101%               100%                    100%
+Unweighted N                          (1,050)       (498)         (552)         (243)        (279)        (306)        (222)        (696)        (121)          (165)              (678)                   (372)
+
+
+                                                                    Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                 Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+He should accept the
+   results                                         74%            84%                83%                89%           65%           72%              65%                 63%                  89%                93%               71%
+He should not accept the
+   results                                           6%              7%                   7%                   6%             6%             8%                 8%                   9%                    5%                  4%                 9%
+Not sure                                          19%            10%                11%                   5%           30%           20%              27%                 28%                    6%                  3%               20%
+
+Totals                                              99%          101%              101%              100%         101%         100%            100%               100%                100%              100%             100%
+Unweighted N                          (1,050)        (696)              (802)              (351)        (385)        (314)            (252)              (366)               (633)             (455)            (341)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                          7
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+8. Senior Trump Administration Official Expected To Leave Next
+Which of the following senior officials in the Trump administration, if any, do you think will be the next to leave the administration?
+
+                                                                         Gender                                        Age                                                    Race                                         Education
+
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Pete Hegseth, Secretary
+   of Defense                                 11%           14%             8%              7%          15%            7%          17%          11%          11%              7%                   8%                      15%
+Kash Patel, Director of
+   the Federal Bureau of
+   Investigation                                8%           10%             6%              9%            7%            9%            7%            8%          11%              4%                   8%                        9%
+Robert F. Kennedy, Jr.,
+   Secretary of Health
+   and Human Services                 4%             5%             4%              8%            6%            1%            3%            3%            9%              3%                   4%                        6%
+Marco Rubio, Secretary
+   of State                                        3%             2%             3%              4%            4%            1%            2%            2%            3%              5%                   3%                        2%
+Todd Blanche, acting U.S.
+   Attorney General                        2%             2%             2%              2%            3%            2%            2%            2%            3%              2%                   1%                        4%
+Scott Bessent, Secretary
+   of the Treasury                            2%             2%             2%              1%            3%            2%            2%            2%            2%              0%                   2%                        2%
+Howard Lutnick,
+   Secretary of
+   Commerce                                   1%             1%             1%              1%            0%            2%            0%            1%            1%              1%                   1%                        2%
+Sean Duffy, Secretary of
+   Transportation                             0%             0%             1%              1%            1%            0%            0%            0%            0%              1%                   0%                        1%
+Doug Burgum, Secretary
+   of the Interior                               0%             1%             0%              1%            1%            0%            0%            1%            0%              0%                   0%                        0%
+Another senior official in
+   the Trump
+   administration                             1%             1%             1%              0%            2%            1%            2%            1%            2%              1%                   1%                        1%
+No senior official will
+   leave the
+   administration                           16%           14%           17%              6%          12%          21%          20%          18%            4%            14%                 16%                      15%
+
+                                                                                                                                   continued on the next page . . .
+
+
+
+
+                                                                                                                                                                                                                                                                           8
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                                        continued from previous page
+                                                                           Gender                                        Age                                                    Race                                         Education
+
+                                                  Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Not sure                                         51%           48%           55%            61%          47%          53%          44%          50%          53%            62%                 56%                      43%
+
+Totals                                             99%         100%         100%          101%        101%          99%          99%          99%          99%          100%               100%                    100%
+Unweighted N                          (1,049)       (497)         (552)         (244)        (280)        (303)        (222)        (697)        (119)          (165)              (677)                   (372)
+
+
+                                                                      Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                   Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Pete Hegseth, Secretary
+   of Defense                                  11%            16%                15%                20%             9%             5%                 4%                   3%                  18%                24%                 5%
+Kash Patel, Director of
+   the Federal Bureau of
+   Investigation                                 8%            10%                10%                13%             9%             3%                 3%                   3%                  12%                16%                 4%
+Robert F. Kennedy, Jr.,
+   Secretary of Health
+   and Human Services                  4%              5%                   5%                   4%             4%             4%                 5%                   4%                    5%                  5%                 5%
+Marco Rubio, Secretary
+   of State                                         3%              2%                   2%                   3%             3%             2%                 2%                   3%                    3%                  2%                 3%
+Todd Blanche, acting U.S.
+   Attorney General                         2%              3%                   3%                   3%             1%             2%                 3%                   3%                    2%                  4%                 2%
+Scott Bessent, Secretary
+   of the Treasury                             2%              2%                   2%                   2%             2%             1%                 1%                   1%                    2%                  3%                 2%
+Howard Lutnick,
+   Secretary of
+   Commerce                                   1%              1%                   1%                   1%             0%             2%                 2%                   2%                    1%                  1%                 1%
+Sean Duffy, Secretary of
+   Transportation                              0%              1%                   1%                   1%             0%             0%                 0%                   0%                    1%                  1%                 0%
+Doug Burgum, Secretary
+   of the Interior                                0%              1%                   1%                   1%             0%             1%                 1%                   1%                    0%                  1%                 1%
+
+                                                                                                                                       continued on the next page . . .
+
+
+
+                                                                                                                                                                                                                                                                                  9
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                                  continued from previous page
+                                                                   Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                 Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Another senior official in
+   the Trump
+   administration                              1%              2%                   2%                   3%             1%             0%                 0%                   0%                    2%                  3%                 0%
+No senior official will
+   leave the
+   administration                            16%            19%                17%                13%             9%           26%              31%                 27%                  10%                11%               28%
+Not sure                                          51%            38%                41%                37%           61%           53%              49%                 54%                  44%                31%               49%
+
+Totals                                              99%          100%              100%              101%           99%           99%            101%               101%                100%              102%             100%
+Unweighted N                          (1,049)        (694)              (800)              (349)        (385)        (315)            (250)              (367)               (632)             (453)            (341)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                     10
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+9. Senior Trump Administration Official Who Should Leave Next
+Which of the following senior officials in the Trump administration, if any, do you think should be the next to leave the administration?
+
+                                                                        Gender                                        Age                                                    Race                                         Education
+
+                                                 Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Pete Hegseth, Secretary
+   of Defense                                 20%           20%           21%            11%          19%          22%          29%          22%          19%            10%                 15%                      30%
+Robert F. Kennedy, Jr.,
+   Secretary of Health
+   and Human Services               11%           12%           11%            15%          13%            8%          10%          10%          12%            11%                 11%                      12%
+Kash Patel, Director of
+   the Federal Bureau of
+   Investigation                                4%             5%             4%              6%            9%            2%            1%            4%            5%              2%                   4%                        6%
+Todd Blanche, acting U.S.
+   Attorney General                        2%             2%             1%              2%            1%            2%            2%            1%            3%              6%                   2%                        1%
+Marco Rubio, Secretary
+   of State                                        2%             1%             2%              5%            2%            1%            0%            1%            1%              3%                   1%                        2%
+Scott Bessent, Secretary
+   of the Treasury                            1%             2%             1%              0%            2%            2%            0%            1%            3%              0%                   1%                        1%
+Howard Lutnick,
+   Secretary of
+   Commerce                                   1%             2%             0%              0%            2%            1%            1%            1%            3%              0%                   0%                        3%
+Sean Duffy, Secretary of
+   Transportation                             1%             0%             1%              0%            1%            1%            0%            0%            1%              4%                   1%                        0%
+Doug Burgum, Secretary
+   of the Interior                               0%             1%             0%              0%            0%            0%            1%            0%            1%              1%                   0%                        0%
+Another senior official in
+   the Trump
+   administration                             2%             3%             2%              4%            1%            2%            2%            3%            1%              1%                   2%                        3%
+No senior official should
+   leave the
+   administration                           16%           19%           14%              4%          12%          21%          26%          21%            2%            11%                 16%                      17%
+
+                                                                                                                                  continued on the next page . . .
+
+
+
+
+                                                                                                                                                                                                                                                                       11
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                                        continued from previous page
+                                                                           Gender                                        Age                                                    Race                                         Education
+
+                                                  Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Not sure                                         38%           33%           43%            52%          38%          37%          28%          36%          49%            51%                 46%                      24%
+
+Totals                                             98%         100%         100%            99%        100%          99%        100%        100%        100%          100%                 99%                      99%
+Unweighted N                          (1,048)       (496)         (552)         (243)        (278)        (304)        (223)        (698)        (118)          (164)              (676)                   (372)
+
+
+                                                                      Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                   Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Pete Hegseth, Secretary
+   of Defense                                  20%            27%                25%                37%           20%             6%                 4%                   3%                  34%                43%                 6%
+Robert F. Kennedy, Jr.,
+   Secretary of Health
+   and Human Services                11%            13%                13%                19%           11%             4%                 2%                   2%                  18%                20%                 5%
+Kash Patel, Director of
+   the Federal Bureau of
+   Investigation                                 4%              4%                   4%                   5%             6%             2%                 3%                   4%                    5%                  5%                 2%
+Todd Blanche, acting U.S.
+   Attorney General                         2%              3%                   2%                   3%             1%             1%                 1%                   1%                    2%                  3%                 1%
+Marco Rubio, Secretary
+   of State                                         2%              2%                   2%                   3%             1%             1%                 1%                   1%                    2%                  2%                 1%
+Scott Bessent, Secretary
+   of the Treasury                             1%              1%                   1%                   1%             1%             2%                 0%                   1%                    2%                  1%                 1%
+Howard Lutnick,
+   Secretary of
+   Commerce                                   1%              2%                   1%                   1%             0%             2%                 3%                   2%                    1%                  1%                 3%
+Sean Duffy, Secretary of
+   Transportation                              1%              0%                   0%                   2%             0%             0%                 2%                   1%                    1%                  1%                 0%
+Doug Burgum, Secretary
+   of the Interior                                0%              0%                   1%                   1%             0%             1%                 0%                   1%                    0%                  1%                 1%
+
+                                                                                                                                       continued on the next page . . .
+
+
+
+                                                                                                                                                                                                                                                                                12
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                                  continued from previous page
+                                                                   Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                 Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Another senior official in
+   the Trump
+   administration                              2%              3%                   3%                   5%             2%             0%                 0%                   0%                    4%                  6%                 0%
+No senior official should
+   leave the
+   administration                            16%            21%                20%                   3%             8%           39%              45%                 41%                    2%                  0%               43%
+Not sure                                          38%            25%                28%                22%           48%           41%              39%                 43%                  29%                18%               37%
+
+Totals                                              98%          101%              100%              102%           98%           99%            100%               100%                100%              101%             100%
+Unweighted N                          (1,048)        (695)              (801)              (351)        (383)        (314)            (252)              (368)               (631)             (454)            (342)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                     13
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+10. Preferred Running Mate for JD Vance in 2028
+If JD Vance runs for president in 2028, who do you think he should choose as his vice presidential running mate?
+Among Republicans and Independents who lean toward the Republican Party
+
+                                                                         Gender                                         Age                                                    Race                                          Education
+
+                                                 Total         Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Marco Rubio                                33%          33%            34%           ∗            ∗              36%          43%          39%         ∗              ∗                    30%                       41%
+Ron DeSantis                              13%          13%            14%           ∗            ∗              13%          16%          15%         ∗              ∗                    13%                       14%
+Nikki Haley                                     5%            7%              3%           ∗            ∗                4%            9%            5%         ∗              ∗                      6%                         4%
+Vivek Ramaswamy                        3%            3%              3%           ∗            ∗                1%            2%            2%         ∗              ∗                      4%                         1%
+Tim Scott                                        3%            4%              1%           ∗            ∗                3%            3%            3%         ∗              ∗                      2%                         3%
+Tulsi Gabbard                                3%            3%              2%           ∗            ∗                3%            0%            2%         ∗              ∗                      3%                         1%
+Sarah Huckabee Sanders            2%            1%              3%           ∗            ∗                2%            3%            3%         ∗              ∗                      2%                         3%
+Glenn Youngkin                             1%            2%              1%           ∗            ∗                1%            1%            1%         ∗              ∗                      1%                         3%
+Someone else                               3%            2%              3%           ∗            ∗                4%            1%            2%         ∗              ∗                      2%                         4%
+Not sure                                        34%          31%            36%           ∗            ∗              34%          21%          29%         ∗              ∗                    37%                       26%
+
+Totals                                          100%          99%          100%           ∗            ∗            101%          99%        101%         ∗              ∗                  100%                     100%
+Unweighted N                          (385)        (198)         (187)           (66)          (81)         (127)        (111)        (308)         (12)            (52)               (269)                    (116)
+
+
+                                                                    Likely Voter Screen                         Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                  Total         Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Marco Rubio                                 33%           41%                 38%              ∗             ∗              34%               45%                 38%                ∗                ∗                   37%
+Ron DeSantis                               13%           14%                 15%              ∗             ∗              14%               12%                 15%                ∗                ∗                   16%
+Nikki Haley                                      5%             7%                   6%              ∗             ∗                5%                 5%                   4%                ∗                ∗                     5%
+Vivek Ramaswamy                         3%             2%                   2%              ∗             ∗                2%                 1%                   1%                ∗                ∗                     2%
+Tim Scott                                         3%             3%                   3%              ∗             ∗                3%                 3%                   3%                ∗                ∗                     3%
+Tulsi Gabbard                                 3%             2%                   3%              ∗             ∗                3%                 1%                   1%                ∗                ∗                     2%
+Sarah Huckabee Sanders             2%             3%                   3%              ∗             ∗                3%                 2%                   2%                ∗                ∗                     3%
+Glenn Youngkin                              1%             2%                   2%              ∗             ∗                2%                 2%                   2%                ∗                ∗                     2%
+
+                                                                                                                                       continued on the next page . . .
+
+
+
+                                                                                                                                                                                                                                                                                 14
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                                continued from previous page
+                                                                 Likely Voter Screen                         Party ID                         MAGA              Trump job approval             House vote intent
+
+                                               Total         Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Someone else                                3%             3%                   3%              ∗             ∗                3%                 2%                   2%                ∗                ∗                     3%
+Not sure                                        34%           23%                 26%              ∗             ∗              33%               26%                 30%                ∗                ∗                   28%
+
+Totals                                           100%         100%               101%              ∗             ∗            102%               99%                 98%                ∗                ∗                101%
+Unweighted N                           (385)         (263)              (314)                (0)            (69)          (316)            (219)              (305)                (75)                (2)               (324)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                 15
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+11. Predicted Running Mate for JD Vance in 2028
+If JD Vance runs for president in 2028, who do you think he will choose as his vice presidential running mate?
+
+                                                                             Gender                                        Age                                                    Race                                         Education
+
+                                                    Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Marco Rubio                                 22%           26%           18%            12%          19%          25%          30%          25%          16%            20%                 19%                      27%
+Ron DeSantis                                  8%             9%             7%              7%            9%            6%            9%            8%          13%              7%                   9%                        6%
+Nikki Haley                                      3%             2%             4%              5%            4%            3%            1%            3%            5%              6%                   3%                        4%
+Tim Scott                                         3%             4%             2%              3%            2%            4%            2%            3%            2%              3%                   3%                        2%
+Vivek Ramaswamy                         3%             3%             3%              5%            5%            2%            1%            2%            2%              2%                   3%                        4%
+Sarah Huckabee Sanders             3%             2%             3%              1%            2%            3%            3%            3%            0%              2%                   2%                        3%
+Tulsi Gabbard                                  2%             3%             1%              1%            2%            2%            2%            2%            0%              0%                   1%                        2%
+Glenn Youngkin                              1%             1%             1%              0%            1%            0%            1%            0%            3%              0%                   1%                        1%
+Someone else                                 2%             2%             1%              1%            1%            2%            2%            2%            1%              1%                   1%                        2%
+Not sure                                         55%           47%           62%            65%          54%          53%          49%          52%          58%            60%                 58%                      48%
+
+Totals                                           102%           99%         102%          100%          99%        100%        100%        100%        100%          101%               100%                      99%
+Unweighted N                          (1,049)       (498)         (551)         (244)        (278)        (304)        (223)        (699)        (119)          (163)              (676)                   (373)
+
+
+                                                                        Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                    Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Marco Rubio                                  22%            29%                28%                22%           14%           31%              39%                 33%                  17%                22%               36%
+Ron DeSantis                                  8%              9%                   8%                   7%             7%             9%                 6%                   8%                    8%                  8%               11%
+Nikki Haley                                       3%              3%                   4%                   3%             2%             4%                 3%                   2%                    4%                  4%                 3%
+Tim Scott                                          3%              3%                   3%                   4%             2%             4%                 3%                   3%                    4%                  3%                 4%
+Vivek Ramaswamy                          3%              3%                   3%                   3%             3%             2%                 3%                   2%                    4%                  3%                 3%
+Sarah Huckabee Sanders              3%              3%                   3%                   2%             2%             4%                 4%                   4%                    2%                  2%                 3%
+Tulsi Gabbard                                  2%              2%                   2%                   2%             1%             2%                 1%                   1%                    2%                  2%                 2%
+Glenn Youngkin                               1%              1%                   1%                   1%             0%             1%                 0%                   1%                    0%                  1%                 1%
+Someone else                                  2%              3%                   3%                   4%             1%             0%                 0%                   0%                    3%                  5%                 0%
+
+                                                                                                                                           continued on the next page . . .
+
+
+
+                                                                                                                                                                                                                                                                                       16
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                             continued from previous page
+                                                                 Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                               Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Not sure                                          55%            44%                46%                52%           66%           43%              42%                 46%                  56%                51%               38%
+
+Totals                                            102%          100%              101%              100%           98%         100%            101%               100%                100%              101%             101%
+Unweighted N                          (1,049)        (695)              (802)              (351)        (382)        (316)            (253)              (368)               (630)             (454)            (343)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                           17
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+
+12. Responsibility if Republicans Lose Control of Congress
+If Republicans lose control of Congress in the 2026 midterm elections, who or which of the following do you think would be most responsible for the loss?
+
+                                                                          Gender                                        Age                                                    Race                                         Education
+
+                                                  Total          Male        Female       18-29       30-44       45-64         65+         White       Black       Hispanic       No degree       College degree
+
+Donald Trump                               40%           40%           39%            27%          41%          41%          48%          41%          46%            24%                 33%                      53%
+Republican leaders in
+   Congress                                   10%           13%             8%            14%            8%          12%            8%          10%          10%            13%                 12%                        8%
+Economic factors outside
+   politicians’ control                       9%           11%             8%              1%            5%          11%          19%          13%            1%              4%                   9%                      10%
+Republican candidates                  6%             7%             4%              8%            7%            6%            2%            6%            4%            10%                   5%                        8%
+Democrats’ campaigning               5%             4%             7%              5%            7%            4%            6%            5%            5%            11%                   7%                        3%
+Someone or something
+   else                                              4%             4%             5%              3%            3%            5%            5%            5%            1%              2%                   5%                        3%
+Not sure                                         25%           21%           29%            40%          29%          22%          12%          21%          34%            35%                 30%                      16%
+
+Totals                                             99%         100%         100%            98%        100%        101%        100%        101%        101%            99%               101%                    101%
+Unweighted N                          (1,048)       (496)         (552)         (244)        (278)        (303)        (223)        (695)        (121)          (164)              (676)                   (372)
+
+
+                                                                      Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                                  Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Donald Trump                                40%            49%                47%                65%           38%           19%              11%                 12%                  63%                71%               19%
+Republican leaders in
+   Congress                                    10%            12%                12%                   8%           11%           11%              15%                 11%                  11%                10%               14%
+Economic factors outside
+   politicians’ control                        9%            11%                12%                   2%             3%           24%              24%                 22%                    2%                  2%               24%
+Republican candidates                   6%              7%                   6%                   4%             4%           10%              10%                 10%                    4%                  3%               10%
+Democrats’ campaigning                5%              5%                   5%                   7%             2%             7%              10%                   9%                    4%                  5%                 8%
+Someone or something
+   else                                               4%              6%                   5%                   3%             3%             8%                 9%                   8%                    3%                  2%                 9%
+Not sure                                          25%            10%                13%                11%           39%           21%              22%                 28%                  14%                  6%               18%
+
+                                                                                                                                     continued on the next page . . .
+
+
+
+                                                                                                                                                                                                                                                                             18
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+                                                                                                                         continued from previous page
+                                                              Likely Voter Screen                        Party ID                         MAGA              Trump job approval             House vote intent
+
+                                             Total          Strict             Loose              Dem           Ind           Rep         Supporter        Approve        Disapprove         Dem              Rep
+
+Totals                                              99%          100%              100%              100%         100%         100%            101%               100%                101%                99%             102%
+Unweighted N                          (1,048)        (693)              (799)              (349)        (383)        (316)            (253)              (369)               (628)             (452)            (343)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                  19
+
+YouGov Survey: Politics and the Midterms
+October 2 - 5, 2026 - 1,053 U.S. adult citizens
+
+ Interviewing Dates                            October 2 - 5, 2026
+
+ Target population                             U.S. citizens, aged 18 and over
+
+ Sampling method                             Respondents   were   selected   from   YouGov’s   opt-in   panel   to   be
+                                                 representative of adult U.S. citizens.
+
+ Weighting                                          The sample was weighted according to gender, age, race, education,
+                                                 U.S.  region,   2024  presidential  vote,   2020  election  turnout  and
+                                                 presidential  vote,  baseline  party  identification,  and  current  voter
+                                                 registration  status.   Demographic  weighting  targets  come  from  the
+                                                 2019 American Community Survey.  2024 presidential vote,  at time
+                                                 of  weighting  was  estimated  to  be  48%  Harris  and  50%  Trump.
+                                                 Baseline party identification is the respondent’s most recent answer
+                                                 given around November 8,  2024,  and is weighted to the estimated
+                                                 distribution  at  that  time  (31%  Democratic,  33%  Republican).   The
+                                                 weights range from 0.052 to 6.574, with a mean of one and a standard
+                                                 deviation of 0.981.
+
+ Number of respondents                   1,053
+
+ Margin of error                            ± 4.2 points (adjusted for weighting)
+
+ Likely Voter Screen                          "Strict"  indicates  a  respondent  who  is  currently  registered  to  vote
+                                                 and  indicated  that  they  "Definitely  will  vote".    "Loose"  indicates  a
+                                                 respondent who is either currently registered to vote or indicated that
+                                                 they plan to register before the election, and also indicated that they
+                                                 either "Definitely will vote" or "Probably will vote".
+
+ Survey mode                                     Web-based interviews
+
+ Questions not reported                   116 questions not reported.
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                          20
