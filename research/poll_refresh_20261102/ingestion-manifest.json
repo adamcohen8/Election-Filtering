@@ -120,9 +120,39 @@
     "ks_sen",
     "nv_gov"
   ],
-  "all_turnout_weights_preserved": true,
+  "all_turnout_weights_preserved": false,
   "acquisition_rows_sha256": "b6f9d307da4f0ccc89f60050ef9077c56bf9b1891484f9aeaa6406041077bcbd",
   "review_decisions_sha256": "beab5c1dd1a2e9fdd26e48bc45f5422f8809df4b17fa38604353540633dc22d5",
   "baseline_sha256": "84d4a3218777b2eeabcdb8ab676749a497c12766a664210247b8ae500ff90523",
-  "feed_sha256": "2496980d44bcf294db8681231f66d929ee859db5257084a2c11c86e284e18adf"
+  "feed_sha256": "2496980d44bcf294db8681231f66d929ee859db5257084a2c11c86e284e18adf",
+  "configured_turnout_weight_changes": {
+    "me_sen": {
+      "before": {
+        "republican": 0.26,
+        "democratic": 0.3,
+        "independent": 0.44,
+        "share_standard_deviation": 0.01
+      },
+      "after": {
+        "republican": 0.31,
+        "democratic": 0.28,
+        "independent": 0.41,
+        "share_standard_deviation": 0.01
+      }
+    },
+    "me_gov": {
+      "before": {
+        "republican": 0.26,
+        "democratic": 0.3,
+        "independent": 0.44,
+        "share_standard_deviation": 0.01
+      },
+      "after": {
+        "republican": 0.31,
+        "democratic": 0.28,
+        "independent": 0.41,
+        "share_standard_deviation": 0.01
+      }
+    }
+  }
 }

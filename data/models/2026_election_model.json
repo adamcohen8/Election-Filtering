@@ -4384,9 +4384,9 @@
     },
     "me_sen": {
       "electorate": {
-        "republican": 0.26,
-        "democratic": 0.3,
-        "independent": 0.44,
+        "republican": 0.31,
+        "democratic": 0.28,
+        "independent": 0.41,
         "share_standard_deviation": 0.01
       },
       "observation_count": 11,
@@ -22619,9 +22619,9 @@
     },
     "me_gov": {
       "electorate": {
-        "republican": 0.26,
-        "democratic": 0.3,
-        "independent": 0.44,
+        "republican": 0.31,
+        "democratic": 0.28,
+        "independent": 0.41,
         "share_standard_deviation": 0.01
       },
       "observation_count": 11,

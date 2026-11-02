@@ -34,7 +34,7 @@ TURNOUT_2024_PREDICTION_ELECTORATES_BY_STATE: dict[str, Electorate] = {
     "Georgia": Electorate(republican=0.40, democratic=0.36, independent=0.24),
     "Iowa": Electorate(republican=0.38, democratic=0.27, independent=0.35),
     "Kansas": Electorate(republican=0.48, democratic=0.27, independent=0.25),
-    "Maine": Electorate(republican=0.26, democratic=0.30, independent=0.44),
+    "Maine": Electorate(republican=0.31, democratic=0.28, independent=0.41),
     "Michigan": Electorate(republican=0.35, democratic=0.33, independent=0.32),
     "Minnesota": Electorate(republican=0.34, democratic=0.37, independent=0.29),
     # User-selected Nebraska turnout shares.

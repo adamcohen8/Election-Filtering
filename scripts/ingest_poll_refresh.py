@@ -1,12 +1,13 @@
 """Compile the reviewed November 2 refresh and replay every model offline."""
 import argparse
 from collections import Counter
+from dataclasses import asdict
 import hashlib,json,tempfile
 from pathlib import Path
 import numpy as np
 from ingest_senate_research import ROOT,normalize_reviewed_row,digest,replay,write_json
 from research_revisions import original_row
-from election_modeling.cycles import RACES_2026_BY_ID
+from election_modeling.cycles import RACES_2026_BY_ID, TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID
 from election_modeling.nominees import NOMINEES_2026_BY_RACE
 from election_modeling.persistence import load_election_model,save_election_model
 from election_modeling.public import public_forecast_payload,public_race_history_payload
@@ -67,11 +68,15 @@ def main():
     assert len(waves)==len(set(waves)), 'Survey wave duplicated'
     election,ledger=replay(rows)
     previous=load_election_model(BASE/'baseline/model-before.json')
-    affected={r['race_id'] for r in selected};preserved=[]
+    affected={r['race_id'] for r in selected};preserved=[];turnout_changes={}
     additions=Counter(r['race_id'] for r in added)
     for race,model in election.races.items():
         prior=previous.races[race]
-        assert model.electorate==prior.electorate
+        # Later user-selected weights come from the current cycle configuration;
+        # keep the archived acquisition baseline intact and record the difference.
+        assert model.electorate==TURNOUT_2024_PREDICTION_ELECTORATES_BY_RACE_ID[race]
+        if model.electorate!=prior.electorate:
+            turnout_changes[race]={'before':asdict(prior.electorate),'after':asdict(model.electorate)}
         assert model.observation_count==prior.observation_count+additions[race]
         if race not in affected:
             np.testing.assert_array_equal(model.filter.joint_mean,prior.filter.joint_mean)
@@ -82,6 +87,9 @@ def main():
         staged=Path(directory)/'polls.json';write_json(staged,{'polls':rows})
         history=public_race_history_payload(feed_path=staged)
     manifest={'acquisition_id':BASE.name,'window':config['window'],'new_observations':len(added),'revised_observations':len(selected)-len(added),'new_by_office':dict(Counter(r['office'] for r in added)),'new_by_race':dict(sorted(additions.items())),'new_by_pollster':dict(Counter(r['pollster'] for r in added)),'accepted_poll_ids':[r['poll_id'] for r in selected],'revision_poll_ids':sorted(revision_ids),'total_feed_rows':len(rows),'counts_by_race':dict(sorted(Counter(r['race_id'] for r in rows).items())),'unaffected_models_preserved':sorted(preserved),'all_turnout_weights_preserved':True,'acquisition_rows_sha256':digest(selected),'review_decisions_sha256':digest(config),'baseline_sha256':digest(baseline),'feed_sha256':digest(rows)}
+    if turnout_changes:
+        manifest['all_turnout_weights_preserved']=False
+        manifest['configured_turnout_weight_changes']=turnout_changes
     if args.check:
         assert existing==rows
         saved=load_election_model(ROOT/'data/models/2026_election_model.json')

@@ -1,5 +1,7 @@
 # November 2 polling refresh
 
+After the acquisition, the user changed Maine's electorate weights to R31/D28/I41 for Senate and governor. The current model and public exports use those weights. The ingestion manifest records this change relative to the unchanged acquisition baseline.
+
 Added **31 race-level observations from 20 distinct state/national survey waves**, published November1–2, and replaced one revised Florida governor observation. The feed grew from 285 to 316 observations across 28 models. All current turnout weights and the 1pp turnout-share marginal SD are preserved.
 
 | Program | New race observations |

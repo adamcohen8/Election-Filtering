@@ -59,8 +59,8 @@ def test_average_uses_canonical_electorate_adjusted_polls_and_deduplicates(tmp_p
     result = history(tmp_path, rows)
     average = result["rolling_average"]
     assert average["poll_count"] == 1
-    assert average["candidate_a_share"] == round(.26*.9 + .30*.2 + .44*.4, 4)
-    assert average["candidate_b_share"] == round(.26*.1 + .30*.8 + .44*.5, 4)
+    assert average["candidate_a_share"] == round(.31*.9 + .28*.2 + .41*.4, 4)
+    assert average["candidate_b_share"] == round(.31*.1 + .28*.8 + .41*.5, 4)
 
 
 @pytest.mark.parametrize("race_id", ["me_sen", "pa_gov", "us_house_generic"])
