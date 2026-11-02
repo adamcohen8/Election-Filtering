@@ -1,0 +1,136 @@
+N = 534
+Margin of Error +/- 4.2%
+October 29-November 1, 2026
+Nebraska Statewide Likely Voter Survey
+VOTE STATUS
+Q. On November 3rd, Nebraska will hold elections for Governor, U.S. Senate, and other
+offices, and early voting is already under way. Thinking ahead to that election, how likely
+would you say it is that you will vote, or have you already voted? Would you say you...
+Unaffiliated /
+Response Count Overall Republican Democrat
+Other
+Have already voted 161 30% 25% 40% 30%
+Will definitely vote 350 66% 71% 59% 58%
+Will probably vote 18 3% 2% 1% 12%
+Have a 50-50 chance of voting 5 1% 1% 0% 0%
+PRESIDENTIAL APPROVAL
+Q. Do you approve or disapprove of the job Donald Trump is doing as President?
+Unaffiliated /
+Response Count Overall Republican Democrat
+Other
+Strongly approve 166 31% 50% 3% 18%
+Somewhat approve 79 15% 22% 3% 11%
+Somewhat disapprove 30 6% 6% 3% 9%
+Strongly disapprove 247 46% 19% 92% 59%
+Don't know 13 2% 4% 0% 3%
+Total Approve 46% 71% 5% 30%
+Total Disapprove 52% 25% 95% 68%
+Net -6% +46% -90% -38%
+1
+
+U.S. SENATE BALLOT
+Q. If the election for U.S. Senate were held today, for whom would you vote: Pete
+Ricketts, the Republican, Dan Osborn, the independent candidate, Mike Marvin, the Legal
+Marijuana NOW Party candidate, Robin Richards, the Nebraska Working People Party
+candidate, or Chuck Conboy, the America First Party candidate?
+Response Count Overall Republican Democrat Unaf O f t il h ia e t r ed /
+Pete Ricketts, the Republican 257 48% 75% 6% 31%
+Dan Osborn, the independent candidate 234 44% 17% 88% 59%
+Mike Marvin, the Legal Marijuana NOW Party
+7 1% 2% 1% 0%
+candidate
+Chuck Conboy, the America First Party
+6 1% 2% 0% 0%
+candidate
+Robin Richards, the Nebraska Working People
+6 1% 0% 1% 3%
+Party candidate
+Don't know 24 5% 4% 4% 7%
+Undecided voters were asked which way they lean, and their answers are added to the initial
+ballot.
+Ballot Including Leaners
+Response Count Overall Republican Democrat Unaf O f t il h ia e t r ed /
+Pete Ricketts, the Republican 269 50% 78% 6% 33%
+Dan Osborn, the independent candidate 247 46% 18% 92% 64%
+Mike Marvin, the Legal Marijuana NOW Party
+7 1% 2% 1% 0%
+candidate
+Chuck Conboy, the America First Party
+6 1% 2% 0% 0%
+candidate
+Robin Richards, the Nebraska Working People
+6 1% 0% 1% 3%
+Party candidate
+Don't know 0 0% 0% 0% 0%
+2
+
+WEIGHTED DEMOGRAPHICS
+Party Registration
+Response Overall
+Republican 55%
+Democrat 28%
+Unaffiliated / Other 17%
+2024 Presidential Vote Recall
+Response Overall
+Donald Trump, the Republican 56%
+Kamala Harris, the Democrat 40%
+Someone else 3%
+Did not vote 1%
+Don't know 0%
+Gender
+Response Overall
+Male 48%
+Female 52%
+Other 0%
+Age
+Response Overall
+18 to 29 9%
+30 to 44 20%
+45 to 54 15%
+55 to 64 20%
+65 or older 36%
+Education
+Response Overall
+Non-College 59%
+College Grad 41%
+Race / Ethnicity
+Response Overall
+White 89%
+Non-white 11%
+3
+
+Community Type
+Response Overall
+Rural 37%
+Suburban 34%
+Urban 25%
+Don't know 4%
+Household Income
+Response Overall
+Under $50,000 20%
+$50,000 to $100,000 29%
+Over $100,000 38%
+Prefer not to say 13%
+4
+
+METHODOLOGY
+Interview Dates October 29-November 1, 2026
+Target Population Likely voters in Nebraska
+Sampling Method Voter-file sample of registered voters in Nebraska;
+interviews completed by SMS text-to-web and live
+telephone calls to cell phones and landlines.
+Weighting Weighted to reflect the modeled likely November
+2026 electorate in Nebraska. The weights balance
+gender, age, race, region, urbanicity, party registration
+and 2024 presidential vote (Trump 56%, Harris 40%).
+Final weights are calibrated to GrayHouse's political
+engagement model, so that voters across the full
+range of turnout propensity are represented in their
+expected share of the electorate.
+Counts shown in tables are rounded weighted counts;
+percentages and breakouts are weighted.
+Number of respondents 534
+Margin of error +/- 4.2% at 95% confidence
+Survey Modes SMS text-to-web: 60% (n=318); Live-to-cell: 31%
+(n=166); Live-to-landline: 9% (n=50).
+5

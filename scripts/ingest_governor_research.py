@@ -8,6 +8,7 @@ from pathlib import Path
 import tempfile
 
 from ingest_senate_research import ROOT, compile_research, digest, replay, write_json
+from research_revisions import apply_current_revisions
 from election_modeling.cycles import GOVERNOR_2026_RACES
 from election_modeling.nominees import NOMINEES_2026_BY_RACE
 from election_modeling.persistence import save_election_model
@@ -44,6 +45,8 @@ def main():
         raise ValueError("governor acquisition must preserve the original feed rows")
     for row in selected:
         row["acquisition_id"] = RESEARCH.name
+    source_selected = selected
+    selected = apply_current_revisions(selected, existing)
     rows = sorted(retained + selected, key=lambda r: (r["field_date"], r["poll_id"]))
     election, ledger = replay(rows)
     forecasts = public_forecast_payload(election)
@@ -61,7 +64,7 @@ def main():
         "counts_by_party_basis": dict(Counter(r["crosstab_basis"] for r in selected)),
         "counts_by_precision_method": dict(Counter(r["model_base_method"] for r in selected)),
         "counts_by_pollster": dict(Counter(r["pollster"] for r in selected)),
-        "feed_sha256": digest(rows), "acquisition_rows_sha256": digest(selected),
+        "feed_sha256": digest(rows), "acquisition_rows_sha256": digest(source_selected),
         "review_decisions_sha256": digest(decisions), "retained_baseline_rows": len(baseline),
         "inclusion_policy": decisions.get("inclusion_policy"),
         "backfill_policy": decisions.get("backfill_policy"),

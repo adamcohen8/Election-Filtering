@@ -2,7 +2,7 @@
   "checked_on": "2026-11-01",
   "governor_waves": 129,
   "senate_rows_preserved": 129,
-  "total_feed_rows": 285,
+  "total_feed_rows": 316,
   "governor_models_with_data": 14,
   "models": 28,
   "counts_by_race": {
@@ -69,11 +69,11 @@
     "reported_weighting_unspecified": 1
   },
   "source_artifacts_hash_checked": 114,
-  "senate_filter_means_unchanged": true,
+  "unchanged_input_senate_models_preserved": true,
   "senate_covariance_tolerance": 1e-15,
   "snapshot_ledger_forecasts_history_match_replay": true,
   "turnout_sd_1pp_all_races": true,
-  "feed_sha256": "84d4a3218777b2eeabcdb8ab676749a497c12766a664210247b8ae500ff90523",
+  "feed_sha256": "2496980d44bcf294db8681231f66d929ee859db5257084a2c11c86e284e18adf",
   "limitations": [
     "Documented search is not proof that every public poll was found. Source gaps and counts below10 are retained explicitly.",
     "Independent/other, unaffiliated registration, narrow independent, and party leaner definitions vary and are retained rather than silently equated.",

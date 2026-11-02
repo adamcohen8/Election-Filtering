@@ -1,0 +1,71 @@
+ECU Poll #3 Crosstab Results
+North Carolina 2026 U.S. Senate Election
+Field dates: October 26 through October 29, 2026 | Sample: 1,041 North Carolina registered likely voters | Credibility interval: +/-3.5 percentage points
+R E P O R T C O N T E N T S
+Section Analysis
+Vote by Party Senate vote choice by party identification
+Vote by Race/Gender Senate vote choice by race and gender
+Vote by Education Senate vote choice by education
+Vote by Age Senate vote choice by age
+Reading the tables
+Each section reports column percentages rounded to the nearest whole number. Percentages are calculated within the column categories shown. Totals may be slightly higher or lower than 100% because of rounding. Positive
+percentages that round to 0% are shown as <1%.
+Results use raked weights. Weighted cell counts are rounded before calculating percentages.
+Q5r combines candidate preferences among respondents who had not yet voted with reported votes from respondents who had already voted.
+ECU Poll #3 | North Carolina 2026 U.S. Senate Election Page 1
+
+E C U P O L L CENTER FOR SURVEY RESEARCH
+Senate vote choice by party identification
+North Carolina 2026 U.S. Senate Election | Poll #3 | Q5r
+C O L U M N P E R C E N T A G E S
+Response Republican Democrat Independent (or something else) Total
+Roy Cooper (Democrat) 9% 97% 56% 54%
+Michael Whatley (Republican) 90% 2% 42% 45%
+Shannon W. Bray (Libertarian Party) 1% 1% 1% 1%
+Michael Dublin (Green Party) 0% <1% 1% <1%
+Total 100% 100% 100% 100%
+Notes: Percentages are calculated within columns and rounded to the nearest whole number. Totals may be slightly higher or lower than 100% because of rounding. Positive percentages that round to 0% are shown as <1%.
+ECU Poll #3 | North Carolina 2026 U.S. Senate Election Page 2
+
+E C U P O L L CENTER FOR SURVEY RESEARCH
+Senate vote choice by race and gender
+North Carolina 2026 U.S. Senate Election | Poll #3 | Q5r
+C O L U M N P E R C E N T A G E S
+Response White male White female Black male Black female Hispanic male Hispanic female Asian and others Total
+Roy Cooper (Democrat) 39% 46% 85% 97% 52% 64% 73% 54%
+Michael Whatley (Republican) 60% 54% 11% 3% 48% 36% 27% 45%
+Shannon W. Bray (Libertarian Party) 1% 1% 1% 1% 0% 0% 0% 1%
+Michael Dublin (Green Party) <1% 0% 4% 0% 0% 0% 0% <1%
+Total 100% 100% 100% 100% 100% 100% 100% 100%
+Notes: Percentages are calculated within columns and rounded to the nearest whole number. Totals may be slightly higher or lower than 100% because of rounding. Positive percentages that round to 0% are shown as <1%.
+ECU Poll #3 | North Carolina 2026 U.S. Senate Election Page 3
+
+E C U P O L L CENTER FOR SURVEY RESEARCH
+Senate vote choice by education
+North Carolina 2026 U.S. Senate Election | Poll #3 | Q5r
+C O L U M N P E R C E N T A G E S
+High school graduate, GED Postgraduate or advanced
+Some college or a 2-year 4-year bachelor’s degree from a
+Response certificate, or did not finish high degree from a college or Total
+associate degree college or university
+school university
+Roy Cooper (Democrat) 48% 49% 59% 67% 54%
+Michael Whatley (Republican) 51% 50% 40% 31% 45%
+Shannon W. Bray (Libertarian Party) 1% 1% 1% 1% 1%
+Michael Dublin (Green Party) 0% <1% <1% 1% <1%
+Total 100% 100% 100% 100% 100%
+Notes: Percentages are calculated within columns and rounded to the nearest whole number. Totals may be slightly higher or lower than 100% because of rounding. Positive percentages that round to 0% are shown as <1%.
+ECU Poll #3 | North Carolina 2026 U.S. Senate Election Page 4
+
+E C U P O L L CENTER FOR SURVEY RESEARCH
+Senate vote choice by age
+North Carolina 2026 U.S. Senate Election | Poll #3 | Q5r
+C O L U M N P E R C E N T A G E S
+Response 18 to 29 years old 30 to 44 years old 45 to 64 years old 65 years or older Total
+Roy Cooper (Democrat) 65% 64% 49% 48% 54%
+Michael Whatley (Republican) 34% 32% 50% 52% 45%
+Shannon W. Bray (Libertarian Party) 1% 2% 1% 0% 1%
+Michael Dublin (Green Party) 0% 1% <1% 0% <1%
+Total 100% 100% 100% 100% 100%
+Notes: Percentages are calculated within columns and rounded to the nearest whole number. Totals may be slightly higher or lower than 100% because of rounding. Positive percentages that round to 0% are shown as <1%.
+ECU Poll #3 | North Carolina 2026 U.S. Senate Election Page 5

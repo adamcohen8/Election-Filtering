@@ -1,0 +1,525 @@
+[
+  {
+    "name": "callthemap.html",
+    "url": "https://www.callthemap.com/polls",
+    "sha256": "673768be71e5f596097092ac7a37d37e143e7e925ea5bcf072724ccc85cd6675",
+    "bytes": 106157,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/callthemap.html"
+  },
+  {
+    "name": "atlas.html",
+    "url": "https://www.atlasintel.org/poll/usa-national-2026-11-01",
+    "sha256": "d5b35169e57820fb40c534e1e83aa5c5979a933d4556fa9d1f8f559b3954aadc",
+    "bytes": 295130,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/atlas.html"
+  },
+  {
+    "name": "oh-trafalgar.html",
+    "url": "https://www.thetrafalgargroup.org/news/oh-senate-gen-1102/",
+    "sha256": "e62242f2c5f248ae6bab2e07e84aca6c87f8a8539f30d7dfed04fb9717507f3f",
+    "bytes": 124259,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/oh-trafalgar.html"
+  },
+  {
+    "name": "nh-npa.pdf",
+    "url": "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_103126.2.pdf",
+    "sha256": "0990ccb17b978acb458902f6aaacde496a0817d30d87f4365bc7527952edc28a",
+    "bytes": 329179,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/nh-npa.pdf"
+  },
+  {
+    "name": "fl-redbox.pdf",
+    "url": "https://afightworthhaving.com/polling/2026/florida/crosstabs.pdf",
+    "sha256": "6c4d234b6efb22c6bfce2f263f6f64b45e3575049110dbc4f673bfce37b16450",
+    "bytes": 450732,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/fl-redbox.pdf"
+  },
+  {
+    "name": "yougov.html",
+    "url": "https://yougov.com/en-us/survey-results",
+    "sha256": "e2c51b6204a63e8df345ba792c74adae0965876891f228c882c61ef0e94c4d9b",
+    "bytes": 538026,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov.html"
+  },
+  {
+    "name": "quinnipiac.html",
+    "url": "https://poll.qu.edu/poll-results/",
+    "sha256": "23fef3ed1717defbfca5ae270257c2b339ed4b364a3be443541c150a714e463e",
+    "bytes": 89548,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/quinnipiac.html"
+  },
+  {
+    "name": "atlas.pdf",
+    "url": "https://cdn1.atlasintel.org/2026_midterms__national_poll_110126_1_87e74540c4d7f251.pdf",
+    "sha256": "ee8beb932a2ed5f37c50736d58ef32e77260e6425131ea374263c2b5a529f358",
+    "bytes": 3339713,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/atlas.pdf"
+  },
+  {
+    "name": "oh-trafalgar.pdf",
+    "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/11/OH-Midterms-Report-1102.pdf",
+    "sha256": "9acd3e42ec0b00085724ee11d139e78fe90ba04bdcdef7fa1c6a3ea48dfaa22f",
+    "bytes": 624392,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/oh-trafalgar.pdf"
+  },
+  {
+    "name": "yougov-national.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/national_20261026.pdf",
+    "sha256": "5cb10017ab3f3891dad1307183198f13d81444e0b89c9ed8283760ac01542c8e",
+    "bytes": 896753,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-national.pdf"
+  },
+  {
+    "name": "SEN-AK.html",
+    "url": "https://www.callthemap.com/polls/SEN-AK",
+    "sha256": "85532bbccb7e690aaff20d358a82e1911aaa53a76551735809e5220553727f30",
+    "bytes": 177608,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-AK.html"
+  },
+  {
+    "name": "SEN-FL.html",
+    "url": "https://www.callthemap.com/polls/SEN-FL",
+    "sha256": "65d154ac6115ead479638420f5aea297bfd04666d377424fac2322acc5a8227f",
+    "bytes": 183886,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-FL.html"
+  },
+  {
+    "name": "SEN-GA.html",
+    "url": "https://www.callthemap.com/polls/SEN-GA",
+    "sha256": "5c790dfad6572ea9f9e1ac9d8e78f9d5940a1009546db37445140ad5e06b9351",
+    "bytes": 153105,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-GA.html"
+  },
+  {
+    "name": "SEN-IA.html",
+    "url": "https://www.callthemap.com/polls/SEN-IA",
+    "sha256": "2529df6c846c8f950a779a6df1f324e332d88f7881df5ebbe22664ed6f60c063",
+    "bytes": 198731,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-IA.html"
+  },
+  {
+    "name": "SEN-KS.html",
+    "url": "https://www.callthemap.com/polls/SEN-KS",
+    "sha256": "da350e7dc0bfd88f2b00e4134049289221ded8549527137b91bc5844b529507f",
+    "bytes": 137826,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-KS.html"
+  },
+  {
+    "name": "SEN-ME.html",
+    "url": "https://www.callthemap.com/polls/SEN-ME",
+    "sha256": "9dcad6fa11c5e44bd59ceeaaa799b702e603da728d82bda654f8e1f6d3dd2f70",
+    "bytes": 209769,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-ME.html"
+  },
+  {
+    "name": "SEN-MI.html",
+    "url": "https://www.callthemap.com/polls/SEN-MI",
+    "sha256": "97b282aef85c85d0b9dee519b994d92f87abbff22a1f041cd4186cca1305046d",
+    "bytes": 272136,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-MI.html"
+  },
+  {
+    "name": "SEN-MN.html",
+    "url": "https://www.callthemap.com/polls/SEN-MN",
+    "sha256": "d79b121524176e6ad74e0e9e364a92241c99bcf3e12e299acfb97d95c0de682f",
+    "bytes": 151316,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-MN.html"
+  },
+  {
+    "name": "SEN-NC.html",
+    "url": "https://www.callthemap.com/polls/SEN-NC",
+    "sha256": "4fa767636846c14051c8dac123318abfaa6410d4922be75fad077a3f9b36d21b",
+    "bytes": 243287,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-NC.html"
+  },
+  {
+    "name": "SEN-NE.html",
+    "url": "https://www.callthemap.com/polls/SEN-NE",
+    "sha256": "45d84dffb003721bc087eba6e31205c97464af74b87fbec4afd41cb675a07b82",
+    "bytes": 146144,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-NE.html"
+  },
+  {
+    "name": "SEN-NH.html",
+    "url": "https://www.callthemap.com/polls/SEN-NH",
+    "sha256": "5b19b7d5bdd35739ee60c553ed2f48532f9a5364e08c07daebd112259b4f93d2",
+    "bytes": 191744,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-NH.html"
+  },
+  {
+    "name": "SEN-OH.html",
+    "url": "https://www.callthemap.com/polls/SEN-OH",
+    "sha256": "99151f5a8be468230c908b2f07beadb0901363764318b57369ab62b8513a0f24",
+    "bytes": 228231,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-OH.html"
+  },
+  {
+    "name": "SEN-TX.html",
+    "url": "https://www.callthemap.com/polls/SEN-TX",
+    "sha256": "54fda84648d42abd1ba4559665c25c46d75d6952ffb6025b96d497f187134e38",
+    "bytes": 321562,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/SEN-TX.html"
+  },
+  {
+    "name": "GOV-AZ.html",
+    "url": "https://www.callthemap.com/polls/GOV-AZ",
+    "sha256": "1b0aa6b83d039ed976dd638e62190d3df9afddbfd132af908a7721c25040222e",
+    "bytes": 185267,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-AZ.html"
+  },
+  {
+    "name": "GOV-FL.html",
+    "url": "https://www.callthemap.com/polls/GOV-FL",
+    "sha256": "875e06be0f0a0bf71a1b4c6fc320321c409ad7eee2af158dfc53a3cb36eb47a0",
+    "bytes": 223747,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-FL.html"
+  },
+  {
+    "name": "GOV-GA.html",
+    "url": "https://www.callthemap.com/polls/GOV-GA",
+    "sha256": "a8ccd353133cd10c3a334d600d868676360b1f390260caff8cb7277fe5b05f04",
+    "bytes": 136713,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-GA.html"
+  },
+  {
+    "name": "GOV-IA.html",
+    "url": "https://www.callthemap.com/polls/GOV-IA",
+    "sha256": "4b29e7a691799144fcf9104f3741bf67905cb23edf6a3317686000ac8b37a992",
+    "bytes": 157246,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-IA.html"
+  },
+  {
+    "name": "GOV-KS.html",
+    "url": "https://www.callthemap.com/polls/GOV-KS",
+    "sha256": "6fff56babad406b531b780127ec8cb22efd5ad642cd5f82d6192bf44d5ad4109",
+    "bytes": 111688,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-KS.html"
+  },
+  {
+    "name": "GOV-ME.html",
+    "url": "https://www.callthemap.com/polls/GOV-ME",
+    "sha256": "33c9495f888b1f835411f6e331a01f934e5f91877b1ba06e45491d537136b380",
+    "bytes": 157766,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-ME.html"
+  },
+  {
+    "name": "GOV-MI.html",
+    "url": "https://www.callthemap.com/polls/GOV-MI",
+    "sha256": "6d9693611da245cbe2efb09328051ff92b502a35b4f6db76299ed13682f314d2",
+    "bytes": 233132,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-MI.html"
+  },
+  {
+    "name": "GOV-MN.html",
+    "url": "https://www.callthemap.com/polls/GOV-MN",
+    "sha256": "7e04d499f5869e33046509652cf27226661bb37d96f8f98c4e2f60dad1860cae",
+    "bytes": 128689,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-MN.html"
+  },
+  {
+    "name": "GOV-NH.html",
+    "url": "https://www.callthemap.com/polls/GOV-NH",
+    "sha256": "315e85baaa7f2065de50bba8c3dc786a2c093a1e65cfd778c88a93f605ca38ff",
+    "bytes": 140325,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-NH.html"
+  },
+  {
+    "name": "GOV-NV.html",
+    "url": "https://www.callthemap.com/polls/GOV-NV",
+    "sha256": "727e3afbeb932e13fe7cdc52609f2299ee6aafe3b8e02da1850422535a717937",
+    "bytes": 130685,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-NV.html"
+  },
+  {
+    "name": "GOV-OH.html",
+    "url": "https://www.callthemap.com/polls/GOV-OH",
+    "sha256": "91a6bd57500b3c285bd0b7af1713941fdb3e50c2ded873c5d12685bf75c28082",
+    "bytes": 207309,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-OH.html"
+  },
+  {
+    "name": "GOV-PA.html",
+    "url": "https://www.callthemap.com/polls/GOV-PA",
+    "sha256": "e129a1e9a0b3ad3768e85a10682724513f13ee87cb7392512041efd7bf86ec5a",
+    "bytes": 154018,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-PA.html"
+  },
+  {
+    "name": "GOV-TX.html",
+    "url": "https://www.callthemap.com/polls/GOV-TX",
+    "sha256": "5d296848dec79fbb727acc685a2129948cee417cee4aba622d641d4e13e19f2f",
+    "bytes": 277577,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-TX.html"
+  },
+  {
+    "name": "GOV-WI.html",
+    "url": "https://www.callthemap.com/polls/GOV-WI",
+    "sha256": "426fa04aa6d4f0eb3d52c573c6d6a75ac51eeeb6ec3d33353c66bc060f0eb064",
+    "bytes": 120626,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/GOV-WI.html"
+  },
+  {
+    "name": "researchco.html",
+    "url": "https://researchco.ca/2026/11/01/midterms-2026-one/",
+    "sha256": "8817101689d290ea311d9a9d0d87df321b82680c6b78e88c4842e49c76e8d118",
+    "bytes": 137834,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/researchco.html"
+  },
+  {
+    "name": "unh-nh.html",
+    "url": "https://scholars.unh.edu/survey_center_polls/1011/",
+    "sha256": "1b734464ca797fa2fe79361113b37d298e94d5e05debd8733c61303f938bcc14",
+    "bytes": 33056,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/unh-nh.html"
+  },
+  {
+    "name": "unh-me.html",
+    "url": "https://scholars.unh.edu/survey_center_polls/1013/",
+    "sha256": "33289060dc93a150021baec271b3eb5e17a02b3102f2b1a5f75cf21e208d4253",
+    "bytes": 32198,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/unh-me.html"
+  },
+  {
+    "name": "atlas-tx.html",
+    "url": "https://www.atlasintel.org/poll/usa-texas-2026-11-01",
+    "sha256": "d32b90d6e6799595060f7b26640029c1436b587e577ed6f421ee03fdd1b54a2d",
+    "bytes": 295027,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/atlas-tx.html"
+  },
+  {
+    "name": "ia-mn.html",
+    "url": "https://insideradvantage.com/insideradvantage-final-minnesota-senate-survey-flanagan-49-tafoya-46/",
+    "sha256": "cec6e7bbd5b5e2144be441f741bb17b46aa6edb6de0be4546e3af6d0099d6c50",
+    "bytes": 85822,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/ia-mn.html"
+  },
+  {
+    "name": "ia-ak.html",
+    "url": "https://insideradvantage.com/insideradvantage-final-alaska-survey-race-tied-in-first-round-48-peltola-48-sullivan-tied-in-ranked-choice-round/",
+    "sha256": "8626a508f947871ac8beb887411e1cd3d56ba313984e3d3b773d67e38bfb0265",
+    "bytes": 85617,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/ia-ak.html"
+  },
+  {
+    "name": "ia-oh.html",
+    "url": "https://insideradvantage.com/final-insideradvantage-ohio-survey-brown-49-husted-47-acton-49-ramaswamy-46/",
+    "sha256": "aced5a4feafd9867f347bbec5132a3f58ba44aa60e9fc493b94fd361fc85bb7c",
+    "bytes": 86478,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/ia-oh.html"
+  },
+  {
+    "name": "ecu.html",
+    "url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-leads-whatley-by-9-points-as-election-day-nears",
+    "sha256": "93a4e1fd6a70f392c17b37789dd29c0777fd33cfc4d2e24ab76f9eff489075bb",
+    "bytes": 26751,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/ecu.html"
+  },
+  {
+    "name": "grayhouse-ia.html",
+    "url": "https://www.grayhouse.com/post/grayhouse-poll-hinson-leads-in-iowa-by-2",
+    "sha256": "f48c501cc5936ea0a15ee579596b23577ee7802cbf844651a1ee451ba698abc4",
+    "bytes": 843918,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/grayhouse-ia.html"
+  },
+  {
+    "name": "grayhouse-ne.html",
+    "url": "https://www.grayhouse.com/post/grayhouse-poll-ricketts-leads-in-nebraska-by-4",
+    "sha256": "d10eb8b8a8f3aadc32235a154b1a0f2be7258a5c4624fafc533cffe76e76562b",
+    "bytes": 846378,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/grayhouse-ne.html"
+  },
+  {
+    "name": "ne-npa.pdf",
+    "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_103126.2.pdf",
+    "sha256": "d6f8a616c3642ce41953ba92655a29fbd4b6529a71edbd1bf5133cf8e72c79b5",
+    "bytes": 314731,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/ne-npa.pdf"
+  },
+  {
+    "name": "researchco.pdf",
+    "url": "https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_01Nov2026.pdf",
+    "sha256": "1f805b191db525018cf209090878913d1d267d37f55425d81daa342dfb059f0a",
+    "bytes": 265863,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/researchco.pdf"
+  },
+  {
+    "name": "atlas-tx.pdf",
+    "url": "https://cdn1.atlasintel.org/2026_midterms__texas_110126_1_e8958087c4dc49a8.pdf",
+    "sha256": "ec9cdabb60b97f3156824817ae7d883255f880a107c43a2855571d0b1f6dc700",
+    "bytes": 3507461,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/atlas-tx.pdf"
+  },
+  {
+    "name": "yougov-me.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_me_20261026_lv.pdf",
+    "sha256": "9e933e5bc38b6b9275a2b56bcbb119bdfb371223015bbabce656dd0869ca4ecd",
+    "bytes": 151210,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-me.pdf"
+  },
+  {
+    "name": "yougov-ne.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ne_20261026_lv.pdf",
+    "sha256": "ec89ff266182091390bb8a1f4c827d4f310daa7b546bf8acdeacf628771e5885",
+    "bytes": 152004,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-ne.pdf"
+  },
+  {
+    "name": "yougov-ks.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20261026_lv.pdf",
+    "sha256": "de04e88f44badec8ecb3341503fd50b18b753dc7520ad21ddbd5884ab9500ce1",
+    "bytes": 151953,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-ks.pdf"
+  },
+  {
+    "name": "yougov-mi.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20261026_lv.pdf",
+    "sha256": "ebae5ea1aeef360cf34c4d5d69a8ccd8e8a31098c7a8a648a1bed3030c9034e6",
+    "bytes": 152060,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-mi.pdf"
+  },
+  {
+    "name": "yougov-nc.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_nc_20261026_lv.pdf",
+    "sha256": "edeae5606d7310fc9a8d73880b90fb707e075a9db006c29e770226ea6f96884b",
+    "bytes": 149478,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-nc.pdf"
+  },
+  {
+    "name": "yougov-tx.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf",
+    "sha256": "ca703a76d32178bdceb71d0c5fe8e90cc2913320d8bb6cdd12f3b292cae4efc4",
+    "bytes": 152197,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-tx.pdf"
+  },
+  {
+    "name": "yougov-ia.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261026_lv.pdf",
+    "sha256": "62eb802d32ecc6a338def7b494a5fe1a41500a4c188e11f77e272d7833c74b2c",
+    "bytes": 151401,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-ia.pdf"
+  },
+  {
+    "name": "yougov-oh.pdf",
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_oh_20261026_lv.pdf",
+    "sha256": "4e89901eb2b6f39b920445f68cbb63575d401d5d48e736f7f2dba9bfc59995d3",
+    "bytes": 152248,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/yougov-oh.pdf"
+  },
+  {
+    "name": "unh-nh.pdf",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=2010&context=survey_center_polls",
+    "sha256": "de20e4840eb22fe51bfa4c1c721514a089970ef225b5693b8abd8dde814040be",
+    "bytes": 1328518,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/unh-nh.pdf"
+  },
+  {
+    "name": "unh-me.pdf",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=2012&context=survey_center_polls",
+    "sha256": "a795c83f13282e2228b5bb2713fb809795ca4fe7a084d7fbc93601d55e029621",
+    "bytes": 1183579,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/unh-me.pdf"
+  },
+  {
+    "name": "ecu.pdf",
+    "url": "https://cdn.filestackcontent.com/L8TB6rYGSsCkruhdyBCl",
+    "sha256": "5fb339fd32230518830a7cea360fe69ab0d6e72e1be7770006ac8751aee2cbf7",
+    "bytes": 832112,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/ecu.pdf"
+  },
+  {
+    "name": "tx-trafalgar.html",
+    "url": "https://www.thetrafalgargroup.org/news/tx-senate-gen-1101/",
+    "sha256": "cd581cbc476153a4cdc3189d8f8ab81668540867d51fb611bdb25576970433c2",
+    "bytes": 124244,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/tx-trafalgar.html"
+  },
+  {
+    "name": "concord.html",
+    "url": "https://concordpublicopinionpartners.org/polls/ohio-ge-2026-oct",
+    "sha256": "c23b14fa6c30e92d28077c95197f7c24e909b7f88f614bdad3b6a8b92b869af2",
+    "bytes": 141147,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/concord.html"
+  },
+  {
+    "name": "tx-trafalgar.pdf",
+    "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/11/TX-Midterms-Report-1101.pdf",
+    "sha256": "2807290bbb569ef66221bf5ab64ac333159b164e51731d4391d25fd4aa326b6f",
+    "bytes": 587069,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/tx-trafalgar.pdf"
+  },
+  {
+    "name": "researchco-two.html",
+    "url": "https://researchco.ca/2026/11/02/midterms-2026-two/",
+    "sha256": "82f368433eab3e6cccd095dde47b0804d5fa1f1eaf7eff7d81cdfa0de699ad2f",
+    "bytes": 138191,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/researchco-two.html"
+  },
+  {
+    "name": "concord.pdf",
+    "url": "https://drive.google.com/uc?export=download&id=1k2RapfAVEqIWkSWscCwoj-Zc6h-AmVqb",
+    "sha256": "e30f3cdd449dd2f3ade80edf05174fcbb1a963e4051ffc722254c4f3b86be0fe",
+    "bytes": 229182,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/concord.pdf"
+  },
+  {
+    "name": "researchco-two.pdf",
+    "url": "https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_02Nov2026.pdf",
+    "sha256": "ec892ea04a3b1718038cfff2ff2c0045bab2d198df60896ee7ca8a77b83d7fa7",
+    "bytes": 270560,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/researchco-two.pdf"
+  },
+  {
+    "name": "insider-x-ga.webp",
+    "url": "https://pbs.twimg.com/media/HWJoA8pbcAAFWeg?format=webp&name=large",
+    "sha256": "908d180f8bb9a35f558bac07336eda4f04d1449f38a4c39a404cf0baa601efcf",
+    "bytes": 73432,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-x-ga.webp"
+  },
+  {
+    "name": "insider-x-repost1.webp",
+    "url": "https://pbs.twimg.com/media/HWJm-_EbYAEB9c6?format=webp&name=large",
+    "sha256": "608e605f46b0a997e34b5a497c31b0e891cac4f14b0125b8bf3a6d8ec1833a6b",
+    "bytes": 96138,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-x-repost1.webp"
+  },
+  {
+    "name": "insider-x-repost2.webp",
+    "url": "https://pbs.twimg.com/media/HWJmxBlaIAAIBsZ?format=webp&name=large",
+    "sha256": "55d3d765c4c6e60c5bb324001a0c25bca154c6ca7d3a82420c0d3709eac2ab90",
+    "bytes": 29692,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-x-repost2.webp"
+  },
+  {
+    "name": "insider-x-ak.webp",
+    "url": "https://pbs.twimg.com/media/HWIjQYvaoAAL6l3?format=webp&name=large",
+    "sha256": "608e605f46b0a997e34b5a497c31b0e891cac4f14b0125b8bf3a6d8ec1833a6b",
+    "bytes": 96138,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-x-ak.webp"
+  },
+  {
+    "name": "insider-x-mn.webp",
+    "url": "https://pbs.twimg.com/media/HWEoyjvaMAAOZDi?format=webp&name=large",
+    "sha256": "0534a8669cc114da1f9f5f74c00404bcde580be3a9b1064e47605bd1bf68dc22",
+    "bytes": 85564,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-x-mn.webp"
+  },
+  {
+    "name": "insider-ga.html",
+    "url": "https://jamesmagazinega.com/2026/11/02/48131/",
+    "sha256": "84d5074d915eebf02b5c6cd5d31e53c5038ae569bde38a278f5aa32188f3bf3e",
+    "bytes": 156353,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-ga.html"
+  },
+  {
+    "name": "insider-x-oh.jpg",
+    "url": "https://pbs.twimg.com/media/HWERv-4asAAcZF0?format=jpg&name=large",
+    "sha256": "1db9851255a330b74c9ad3420ec40b922c8fd2515513fba5faa770b15d351b1e",
+    "bytes": 193368,
+    "path": "/Users/adamcohen/Documents/ChatGPT/Election Filtering/research/poll_refresh_20261102/sources/insider-x-oh.jpg"
+  },
+  {
+    "name": "morningconsult.html",
+    "url": "https://pro-assets.morningconsult.com/wp-uploads/2026/09/MCPI-PI-Weekly.html",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -9,6 +9,7 @@ import tempfile
 import numpy as np
 
 from ingest_senate_research import ROOT, compile_research, digest, replay, write_json
+from research_revisions import original_rows, same_race_inputs
 from election_modeling.cycles import RACES_2026_BY_ID, create_2026_election_model
 from election_modeling.persistence import load_election_model, save_election_model
 from election_modeling.public import public_forecast_payload, public_race_history_payload
@@ -30,7 +31,7 @@ def main():
     existing = json.loads(feed_path.read_text())["polls"]
     retained = [r for r in existing if r.get("acquisition_id") != BASE.name]
     baseline = json.loads((BASE / "baseline/polls-before.json").read_text())["polls"]
-    retained_by_id = {r["poll_id"]: r for r in retained}
+    retained_by_id = {r["poll_id"]: r for r in original_rows(retained)}
     if any(retained_by_id.get(r["poll_id"]) != r for r in baseline):
         raise ValueError("Nebraska acquisition changed a pre-existing feed row")
     rows = sorted(retained + selected, key=lambda r: (r["field_date"], r["poll_id"]))
@@ -38,7 +39,7 @@ def main():
     previous = load_election_model(BASE / "baseline/model-before.json")
     configured = create_2026_election_model()
     for race_id, model in previous.races.items():
-        if race_id == "ne_sen" or any(r["race_id"] == race_id and r.get("acquisition_id") == "generic_ballot_polls_20261101" for r in retained):
+        if race_id == "ne_sen" or not same_race_inputs(rows, baseline, race_id):
             continue
         current = election.races[race_id]
         np.testing.assert_array_equal(current.filter.joint_mean, model.filter.joint_mean)

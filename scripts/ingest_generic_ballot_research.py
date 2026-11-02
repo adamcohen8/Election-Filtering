@@ -9,6 +9,7 @@ import tempfile
 import numpy as np
 
 from ingest_senate_research import ROOT, compile_research, digest, replay, write_json
+from research_revisions import original_rows, same_race_inputs
 from election_modeling.cycles import RACES_2026_BY_ID
 from election_modeling.persistence import load_election_model, save_election_model
 from election_modeling.public import public_forecast_payload, public_race_history_payload
@@ -31,14 +32,14 @@ def main():
     existing = json.loads(path.read_text())['polls']
     retained = [r for r in existing if r.get('acquisition_id') != BASE.name]
     baseline = json.loads((BASE / 'baseline/polls-before.json').read_text())['polls']
-    by_id = {r['poll_id']: r for r in retained}
+    by_id = {r['poll_id']: r for r in original_rows(retained)}
     assert all(by_id.get(r['poll_id']) == r for r in baseline), 'Pre-existing source row changed'
     rows = sorted(retained + selected, key=lambda r: (r['field_date'], r['poll_id']))
     election, ledger = replay(rows)
     previous = load_election_model(BASE / 'baseline/model-before.json')
     preserved = []
     for race_id, prior in previous.races.items():
-        if race_id == RACE:
+        if race_id == RACE or not same_race_inputs(rows, baseline, race_id):
             continue
         current = election.races[race_id]
         np.testing.assert_array_equal(current.filter.joint_mean, prior.filter.joint_mean)
@@ -49,7 +50,8 @@ def main():
     model = election.races[RACE]
     assert (model.electorate.republican, model.electorate.democratic, model.electorate.independent) == (.37, .33, .30)
     assert model.electorate.share_standard_deviation == .01
-    assert model.observation_count == len(selected) >= 10
+    assert model.observation_count == sum(r['race_id'] == RACE for r in rows)
+    assert len(selected) >= 10
     artifacts = set()
     for row in selected:
         assert row['evidence_artifacts'], row['poll_id']
@@ -91,7 +93,10 @@ def main():
         assert set(seen['seen_poll_ids']) == ledger.seen_poll_ids
         assert set(seen['measurement_keys']) == ledger.measurement_keys
         stored = json.loads((BASE / 'ingestion-manifest.json').read_text())
-        assert stored == manifest
+        # The archived manifest pins this acquisition, not later feed extensions.
+        for key in ('acquisition_id', 'accepted_count', 'accepted_poll_ids',
+                    'review_decisions_sha256', 'acquisition_rows_sha256'):
+            assert stored[key] == manifest[key]
     else:
         write_json(path, {'polls': rows})
         save_election_model(election, ROOT / 'data/models/2026_election_model.json')

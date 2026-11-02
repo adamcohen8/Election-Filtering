@@ -1,0 +1,18 @@
+[
+  {
+    "name": "grayhouse-ne.pdf",
+    "source_page": "https://www.grayhouse.com/post/grayhouse-poll-ricketts-leads-in-nebraska-by-4",
+    "download_path_without_temporary_public_signature": "https://download-files.wixmp.com/ugd/255886_db21d3c3afa4468d870ea1af4f24d306.pdf",
+    "download_method": "Observed primary-page button becomes a public signed download link; saved original PDF",
+    "sha256": "b8e7bad9bf770f77b487670f43c3d5ec8ed936330c31aeea157c8b39c934ec43",
+    "bytes": 74492
+  },
+  {
+    "name": "grayhouse-ia.pdf",
+    "source_page": "https://www.grayhouse.com/post/grayhouse-poll-hinson-leads-in-iowa-by-2",
+    "download_path_without_temporary_public_signature": "https://download-files.wixmp.com/ugd/255886_ad6df8f6e0794862befa56d124f02b44.pdf",
+    "download_method": "Observed primary-page button becomes a public signed download link; saved original PDF",
+    "sha256": "286b9b76b89b814ff12a78c6be2c6d32732aaf7a6163aa03bf1a42686310f9fe",
+    "bytes": 71898
+  }
+]

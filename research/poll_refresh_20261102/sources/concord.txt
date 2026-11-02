@@ -1,0 +1,270 @@
+TI Compliance Checklist - (revised October 2026)
+Required Disclosure Elements for Immediate Release SD General Election Polling 2026
+1. Data Collection Strategy: Describe the data collection strategies employed Survey
+(e.g. surveys, focus groups, content analyses, AIassisted interviewing).
+2. Who Sponsored the Research and Who Conducted It. Name the sponsor of the Survey and analysis was
+research and the party(ies) who conducted it. If the original source of funding is conducted by Concord Public
+different from the sponsor, this source will also be disclosed. Opinion Partners (CPOP) and
+sponsored by Education Reform
+Now Advocacy (ERNA)
+3. Measurement Tools/Instruments. Measurement tools include questionnaires with See full survey instrument below at
+survey questions and response options, show cards, vignettes, or scripts used to bottom of the document.
+guide discussions or interviews. The exact wording and presentation of any
+measurement tool from which results are reported as well as any preceding
+contextual information that might reasonably be expected to influence responses to
+the reported results and instructions to respondents or interviewers should be
+included. Also included are scripts used to guide discussions and semi-structured
+interviews, including interviews conducted using AI. Any instructions to researchers,
+interviewers, moderators, chatbots, and participants in the research must also be
+disclosed. Content analyses and ethnographic research will provide the scheme or
+guide used to categorize the data; researchers will also disclose if no formal scheme
+was used.
+4. Population Under Study. Survey and public opinion research can be conducted Registered voters in South Dakota,
+with many different populations including, but not limited to, the general public, then screened for those who were
+voters, people working in particular sectors, blog postings, news broadcasts, an likely to vote in the 2026 general
+elected official’s social media feed. Researchers will be specific about the decision
+election voters. (See Q1 on the
+rules used to define the population when describing the study population, including
+survey instrument)
+location, age, other social or demographic characteristics (e.g., persons who access
+the internet), time (e.g., immigrants entering the US between 2015 and 2019).
+Content analyses will also include the unit of analysis (e.g., news article, social media
+post), the source of the data (e.g., Twitter, Lexis-Nexis), and whether artificial
+intelligence was used to assist with the selection, coding, and/or analysis of content.
+5. Method Used to Generate and Recruit the Sample: The description of the Collected by contacting registered
+methods of sampling includes the sample design and methods used to contact or voters selected from the South
+recruit research participants or collect units of analysis, including the use of Dakota TargetSmart voter file via
+AI-generated responses. Disclose all the following, include noting if information is
+live calls to cell phones and
+missing because the data collection organization did not provide the information.
+landlines, and text-to-web surveys.
+
+5A: Explicitly state whether the sample comes from a frame selected using a The known frame for this sample
+probability-based methodology (meaning selecting potential participants with a was anyone who voted in any of
+known non-zero probability from a known frame), if the sample was selected using the last three General Elections
+non-probability methods (potential participants from opt-in, volunteer, or other
+2020-2024. Likely voters then had
+sources), if the sample was AI-generated, or if the sample was combined from
+to opt-in to the survey. There was
+multiple of these type of frames. If the sample combined AI-generated data and
+no AI generation used in creating
+human participants, the description must clearly identify to the reader that not all
+participants were human. the sample frame.
+5B: Sample specification should include a description of the sampling frame(s), The sampling frame was made
+list(s), or method(s). For example, list samples, address-based samples, telephone using TargetSmart VAN. The
+samples, social media, river sampling, snowball sampling, respondent-driven criteria for our export was anyone
+sampling, online panels and consolidators. A description of the lists, websites,
+who voted in any of the last three
+social media, or other sources for the non-probability sample should be provided It
+General Elections (2020, 2022, or
+is permissible to provide a link to the description provided by a vendor or
+2024) a random list was exported
+third-party sourcing.If a frame, list, or panel is used, the description should include
+the name of the supplier of the sample or list and nature of the list (e.g., ABS, using the criteria listed above.
+registered voters in the state of Texas in 2018, pre-recruited panel or pool).
+5C: Probability based sample specification should include additional information in The segment of the population
+the description of the sampling frame(s), list(s), or method(s). If a frame, list, or that was not sampled in this survey
+panel is used, the description should include the coverage of the population, was anyone who is not a registered
+including describing any segment of the target population that is not covered by
+voter or who has not voted in any
+the design.
+of the last three General Elections.
+The list from which we contact
+voters was only one segment of
+this likely universe.
+5D: For surveys, focus groups, or other forms of interviews, provide a clear Likely voters were contacted via
+indication of the method(s) by which participants were contacted, selected, live calls and texts through our
+recruited, intercepted, or otherwise contacted or encountered, along with any Carr Marketing. There was no
+eligibility requirements and/or oversampling.
+online panel or oversample as a
+part of our data collection
+methods.
+5E: Describe any use of quotas. Pre-stratification methods used for
+this survey were based off of the
+joint variables of college
+attainment and partisanship.
+Separate quota goals were set for
+both live calls and texts.
+5F: Include the geographic location of data collection activities for any in-person NA
+research.
+5G: For content analysis, detail the criteria or decision rules used to include or exclude All content available from the
+elements of content and any approaches used to sample content. If a census of the survey is viewable.
+target population of content was used, that will be explicitly stated.
+
+5H: For AI-generated responses (e.g., silicon responses, digital twins, synthetic NA
+responses), describe how the responses were generated.
+5I: Explicitly state whether compensation/incentives were or were not provided to No compensation or incentives
+participants. Provide details of any strategies used to help gain cooperation (e.g., used. Full script provided below for
+advance contact, letters and scripts, compensation or incentives, refusal conversion methods of cooperation.
+contacts) whether for participation in a survey, group, panel, or for participation in a
+particular research project. Describe any compensation/incentives provided to
+research subjects and the method of delivery (debit card, gift card, cash).
+6. Method(s) and Mode(s) of Data Collection. Include a description of all mode(s) Live calls to cell phones and
+used to contact participants or collect data or information (e.g., CATI, CAPI, ACASI, landlines. Text-to-web surveys.
+IVR, mail, Web for survey; paper and pencil, audio or video recording for qualitative
+research, chatbot, AI voice assistant, etc.) and the language(s) offered or included. For
+qualitative research such as in-depth interviews and focus groups, also include length
+of interviews or the focus group session.
+7. Dates of Data Collection. Disclose the dates of data collection (e.g., data 10/06/26-10/08/26
+collection from January 15 through March 10 of 2019). If this is a content
+analysis or analysis conducted using AI, include the dates of the content
+analyzed (e.g., social media posts between January 1 and 10, 2019).
+8. Numbers of Completed Interviews (by sampling frame if more than one frame N = 400
+was used) and (if applicable) Discussion of the Precision of the Results
+8A: Provide the number of human responses from each frame. 122 Live calls, 278 text-to-web
+surveys.
+8B: For probability sample surveys, report estimates of sampling error (often +/-4.90%
+described as “the margin of error”) and discuss whether the reported sampling
+error or statistical analyses have been adjusted for the design effect due to
+weighting, clustering, or other factors.
+8C: Reports of non-probability sample surveys will only provide measures of NA
+precision if they are defined and accompanied by a detailed description of how
+the underlying model was specified, its assumptions validated, and the measure(s)
+calculated. Otherwise, include a statement that the sample was selected with a
+non-probability method and measures of precision are not provided and what the
+resulting impact may be on inference.
+8D: If content was analyzed using human coders, report the number of coders, Raw data coded by Kelsey Reardon
+whether inter-coder reliability estimates were calculated for any variables, and the
+resulting estimates.
+
+9. How the Data Were Weighted. Describe how the weights were calculated, Data was weighted by the following:
+including a description of any steps to adjust weights for probability of selection Race, Age, Gender, College, Party,
+into the sample; for eligibility; for nonresponse; and for post-stratification, and Partisanship.
+raking, and/or calibration to population totals. For all steps, describe the
+variables used and the sources of the weighting parameters. If the data were not
+weighted, state that explicitly.
+9A: If multiple data sources or frames were used to recruit the sample, describe All data was sourced via TargetSmart
+how the weighting procedures accounted for combining data from multiple VAN and one set of raked weights
+sources and what weighting methods were applied. was applied to the whole data set.
+10. How the Data Were Processed and Procedures to Ensure Data Quality. Data was checked and coded by a
+Describe validity checks, where applicable, including but not limited to whether the human. It was sorted for full
+researcher added attention checks, logic checks, or excluded respondents who completes. Checks were done to
+straight-lined or completed the survey under a certain time constraint, any
+ensure age eligibility and correct
+screening of content for evidence that it originated from bots or fabricated profiles,
+voter ID associated. Data was coded
+re-contacts to confirm that the interview occurred or to verify respondent’s identity
+on Microsoft Excel.
+or both, and measures to prevent respondents from completing the survey more
+than once. Any data imputation or other data exclusions or replacement will also be
+discussed. Researchers will provide information about whether any coding was
+done by human coders, software, or AI (or a combination thereof); if automated
+coding was done, name the software or AI platform and specify the parameters or
+decision rules that were used. Explicitly state if no steps were taken for quality
+control or to ensure data quality.
+11. A General Statement Acknowledging Limitations of the Design and Data I, Karina Sanchez, acknowledge as
+Collection. All research has limitations and researchers will include a general with all public opinion research, the
+statement acknowledging the unmeasured error associated with all forms of results of this survey are subject to
+public opinion research, including the limitations of any AI tools used.
+error beyond sampling error. The
+margin of sampling error for the full
+sample of 400 respondents is ±4.9
+percentage points at the 95%
+confidence level. This reflects only
+the variation expected from
+surveying a sample rather than the
+full population. It does not account
+for other sources of error that cannot
+be measured. These include coverage
+error, meaning members of the
+target population who could not be
+reached through the [voter file /
+sample frame / mode]. The data
+were weighted to known population
+benchmarks, but weighting cannot
+fully correct for differences between
+respondents and the target
+population on
+characteristics not included in the
+weights.
+
+12. Disclosure of the Use of Artificial Intelligence: Researchers will disclose the The use of artificial intelligence was
+use of AI for data collection or data processing. The following must be included not used in data collection or data
+in any reporting or methodological summaries if AI was used as part of data processing.
+collection or processing.
+12A: Task performed by AI: What AI was used for (e.g. generating responses, AI was not used for generating
+interviewing/assisting in interviewing, cleaning data, producing estimates, responses, interviewing, cleaning of
+coding/labeling data). Disclose if this information is unknown or not available. data, coding/labeling.
+12B: Human oversight or validation: At what step(s) the AI output or process This information is not available for
+was validated by researchers (for example: how the oversight or validation was this survey.
+conducted, or a link to existing validation or platform provider’s
+documentation). Disclose if this information is unknown or not available.
+FULL SURVEY INSTRUMENT:
+SOUTH DAKOTA GENERAL ELECTION POLL
+N=400 Likely 2026 General Election Voters N=200 live calls + N-200 TTO
+1. First, how likely are you to vote in the election for Governor and other offices in November?
+1. Very likely
+2. Somewhat likely
+3. Somewhat unlikely [DNR-END]
+4. Very unlikely [DNR-END]
+5. Don’t know/Refused [DNR-END]
+2. What do you think is the most important issue facing South Dakota? [READ RESPONSES- ROTATE-
+SELECT UP TO 2]
+1. Healthcare
+2. Education
+3. Economy (jobs, inflation, taxes)
+4. Crime
+5. Immigration
+6. Housing affordability
+7. Abortion access
+8. Threats to democracy
+9. Regulating Artificial Intelligence and Data Centers
+10. Foreign policy
+11. Something else [DNR]
+Next, please tell me whether you have a favorable or unfavorable view of the following people.
+3. Donald Trump
+
+1. Very favorable
+2. Somewhat favorable
+3. Somewhat unfavorable
+4. Very Unfavorable
+5. Don’t know [DNR]
+4. Larry Rhoden
+1. Very favorable
+2. Somewhat favorable
+3. Somewhat unfavorable
+4. Very Unfavorable
+5. Don’t know [DNR]
+5. Dan Ahlers
+1. Very favorable
+2. Somewhat favorable
+3. Somewhat unfavorable
+4. Very Unfavorable
+5. Don’t know [DNR]
+6. Mike Rounds
+1. Very favorable
+2. Somewhat favorable
+3. Somewhat unfavorable
+4. Very Unfavorable
+5. Don’t know [DNR]
+7. Brian Bengs
+1. Very favorable
+2. Somewhat favorable
+3. Somewhat unfavorable
+4. Very Unfavorable
+5. Don’t know [DNR]
+8. If the general election for Congress in South Dakota were today, whom would you vote for? [READ
+RESPONSES- ROTATE]
+1. Marty Jackley, the Republican
+2. Nicole Gronli, the Democrat
+3. Someone else
+4. Don’t know/ Undecided [DNR]
+
+9. If the general election for Governor were today, whom would you vote for? [READ RESPONSES-
+ROTATE]
+1. The Democratic candidate
+2. The Republican candidate
+3. Someone else
+4. Don’t know/ Undecided [DNR]
+10. If the general election for Governor were today, whom would you vote for? [READ RESPONSES-
+ROTATE]
+1. Dan Ahlers, the Democrat
+2. Larry Rhoden, the Republican
+3. Someone else
+4. Don’t know/ Undecided [DNR]
+11. If the general election for U.S. Senate were today, whom would you vote for? [READ RESPONSES-
+ROTATE]
+1. Mike Rounds, the Republican
+2. Brian Bengs, the Independent
+3. Someone else
+4. Don’t know/ Undecided [DNR]

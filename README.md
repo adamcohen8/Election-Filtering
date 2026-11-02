@@ -206,9 +206,19 @@ July replacement convention; his previous presumptive status has been updated.
 
 ## GitHub Pages
 
-The national generic House ballot now includes23 reviewed October-window waves
-from14 pollster programs, using R37/D33/I30. No older backfill was needed.
-The combined feed contains285 observations across28 models. Voter populations,
+The November 2 refresh adds 31 race observations from 20 new surveys:
+16 Senate, 13 governor and two national generic-ballot inputs. One existing
+Florida RedBox governor observation is revised in place. The combined feed now
+contains 316 observations across 28 models; Nebraska has five and the national
+generic ballot has 25. Current turnout weights are preserved. Source records,
+pending tables and validation are in
+[`research/poll_refresh_20261102/REPORT.md`](research/poll_refresh_20261102/REPORT.md).
+Rebuild or verify the current refresh with
+`python scripts/ingest_poll_refresh.py` and its `--check` option.
+
+The original November 1 national generic House acquisition included 23 reviewed
+October-window waves from 14 pollster programs, using R37/D33/I30. No older backfill was needed.
+It brought the combined feed to 285 observations across 28 models. Voter populations,
 party proxies, missing-base precision and unrecovered tables are documented in
 `research/generic_ballot_polls_20261101/REPORT.md`. Rebuild or verify with
 `python scripts/ingest_generic_ballot_research.py` and its `--check` option.
@@ -223,11 +233,11 @@ include older 2025 hypothetical matchups of the same current candidates.
 All seven user-supplied NYT/Siena state tables and the Washington Post/Schar
 Maine and Kansas tables are included. Source-specific party definitions,
 weighted/estimated counts, provisional dates and missing-count uncertainty remain
-labeled. Minnesota uses R34/D37/I29 and now has ten accepted waves. Newer
+labeled. Minnesota uses R34/D37/I29 and had ten accepted waves at that acquisition. Newer
 unrecovered tables and the remaining Kansas gap are documented in the research
 audit. The Senate acquisition is preserved separately from governor polling.
 
-Nebraska Senate is a separate addition with four complete party-table waves:
+Nebraska Senate was a separate addition with four complete party-table waves:
 On Point October 30, SurveyUSA September 14, Tavern May 11 and Lake Research
 January 22 (December 2025 fieldwork). Its
 R57/D24/I19 electorate is user-selected. On Point's
@@ -238,7 +248,7 @@ assigned. The previous 258 input rows and 27 race states are preserved. This
 brought the feed to 262 observations across 28 models before the generic ballot addition. See
 `research/nebraska_senate_polls_20261101/REPORT.md` for evidence and limitations.
 
-The governor acquisition adds 129 reviewed waves across all 14 governor races,
+The November 1 governor acquisition added 129 reviewed waves across all 14 governor races,
 including the six user-supplied NYT/Siena governor tables and the user-supplied AJC Georgia table. Ten races meet the
 ten-poll target: Texas has 14, Florida 11, and Arizona, Iowa, Maine, Michigan,
 Minnesota, New Hampshire, Ohio and Georgia have 10 each. Kansas has 7,

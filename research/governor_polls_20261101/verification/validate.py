@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path[:0] = [str(ROOT / "scripts"), str(ROOT / "src")]
 from ingest_governor_research import compile_governors
 from ingest_senate_research import digest, replay
+from research_revisions import original_rows, same_race_inputs
 from election_modeling.persistence import load_election_model
 from election_modeling.public import public_forecast_payload, public_race_history_payload
 from election_modeling.cycles import RACES_2026
@@ -24,7 +25,7 @@ def main():
         row["acquisition_id"] = base.name
     feed_path = ROOT / "data/ingestion/2026_normalized_polls.json"
     feed = json.loads(feed_path.read_text())["polls"]
-    current = [r for r in feed if r.get("acquisition_id") == base.name]
+    current = [r for r in original_rows(feed) if r.get("acquisition_id") == base.name]
     assert current == selected
     manifest = json.loads((base / "ingestion-manifest.json").read_text())
     # Later acquisitions may extend the feed; this manifest pins governor rows.
@@ -46,7 +47,7 @@ def main():
                                    atol=1e-15, rtol=0)
         assert model.observation_count == actual.observation_count
         assert actual.electorate.share_standard_deviation == .01
-        if race.endswith("_sen") and race in previous_model.races:
+        if race.endswith("_sen") and race in previous_model.races and same_race_inputs(feed, before, race):
             prior = previous_model.races[race]
             np.testing.assert_array_equal(prior.filter.joint_mean, actual.filter.joint_mean)
             np.testing.assert_allclose(prior.filter.joint_covariance, actual.filter.joint_covariance,
@@ -101,7 +102,7 @@ def main():
         "censored_cell_approximations": censored,
         "precision_methods": dict(Counter(r["model_base_method"] for r in selected)),
         "source_artifacts_hash_checked": len(artifacts),
-        "senate_filter_means_unchanged": True, "senate_covariance_tolerance": 1e-15,
+        "unchanged_input_senate_models_preserved": True, "senate_covariance_tolerance": 1e-15,
         "snapshot_ledger_forecasts_history_match_replay": True,
         "turnout_sd_1pp_all_races": True, "feed_sha256": digest(feed),
         "limitations": config["limitations"],

@@ -1,0 +1,194 @@
+Iowa General Election 2026 – Likely Voters
+Sample 2,020IowaLikelyVoters
+Conducted October26-29,2026
+MarginofError ±3.1%
+1. HowwouldyoudescribethecurrentstateoftheAmericaneconomy?
+Excellent ................................................................................4%
+Good ...................................................................................24%
+Fair .....................................................................................24%
+Poor ....................................................................................48%
+Notsure .................................................................................1%
+2. Howwouldyoudescribeyourpoliticalviews?
+Veryliberal ..............................................................................9%
+Liberal ..................................................................................15%
+Moderate ...............................................................................30%
+Conservative ...........................................................................27%
+Veryconservative .......................................................................16%
+Notsure .................................................................................3%
+3. DoyouapproveordisapproveofthejobDonaldTrumpisdoingasPresident?
+Stronglyapprove .......................................................................26%
+Somewhatapprove .....................................................................17%
+Somewhatdisapprove ...................................................................6%
+Stronglydisapprove ....................................................................50%
+Notsure .................................................................................1%
+4. DoyouthinkDonaldTrumpisdoingabetterorworsejobinhissecondadministrationthaninhisfirst?
+Betterinhissecondadministration ......................................................29%
+Worseinhissecondadministration .....................................................55%
+Aboutthesame .........................................................................16%
+5. AreyouregisteredasaDemocratoraRepublican?
+Democrat ...............................................................................31%
+Republican .............................................................................43%
+Other/Noparty ........................................................................24%
+Notsure .................................................................................2%
+1
+
+Iowa General Election 2026 – Likely Voters
+6. Whodidyouvotefor,orwhowillyouvotefor,intheelectionforU.S.Senator?
+Respondentswhohadalreadyvotedwereaskedwhotheyvotedfor.Undecidedvoterswereaskedwhichcandidatetheyleantoward;leaners
+areincluded,andthosestillundecidedareshownasNotsure.
+JoshTurek(Democrat) .................................................................50%
+AshleyHinson(Republican) ............................................................49%
+Someoneelse ...........................................................................1%
+Notsure .................................................................................0%
+Iwouldnotvote ..........................................................................0%
+7. Whodidyouvotefor,orwhowillyouvotefor,intheelectionforGovernorofIowa?
+Respondentswhohadalreadyvotedwereaskedwhotheyvotedfor.Undecidedvoterswereaskedwhichcandidatetheyleantoward;leaners
+areincluded,andthosestillundecidedareshownasNotsure.
+RobSand(Democrat) ..................................................................53%
+ZachLahn(Republican) ................................................................46%
+Someoneelse ...........................................................................0%
+Notsure .................................................................................0%
+Iwouldnotvote ..........................................................................0%
+8. Respondentagebycategory
+18-29 ...................................................................................13%
+30-44 ...................................................................................19%
+45-64 ...................................................................................32%
+65+ .....................................................................................36%
+9. Areyouamanorawoman?
+Man ....................................................................................48%
+Woman .................................................................................51%
+Non-binary ...............................................................................1%
+10. Whatracialorethnicgroupbestdescribesyou?
+White ...................................................................................93%
+Black ....................................................................................1%
+Hispanic .................................................................................2%
+Other ....................................................................................4%
+11. Whatisthehighestlevelofeducationyouhavecompleted?
+HSorless ..............................................................................31%
+Somecollege ...........................................................................31%
+Collegegrad ............................................................................24%
+Postgrad ................................................................................15%
+2
+
+Iowa General Election 2026 – Likely Voters
+12. Whodidyouvoteforinthe2024U.S.Presidentialelection?
+KamalaHarris ..........................................................................42%
+DonaldTrump ..........................................................................51%
+Someoneelse ...........................................................................2%
+Didnotvote ..............................................................................6%
+3
+
+Iowa General Election 2026 – Likely Voters
+October 26-29, 2026 – 2,020 Iowa Likely Voters
+1. StateoftheEconomy
+HowwouldyoudescribethecurrentstateoftheAmericaneconomy?
+Age Gender 2024Vote WhiteEducation
+Total 18-29 30-44 45-64 65+ Men Women Harris Trump Non-college College
+Excellent 4% 5% 2% 4% 5% 5% 4% 0% 8% 4% 5%
+Good 24% 14% 10% 29% 31% 28% 20% 2% 43% 26% 20%
+Fair 24% 21% 25% 25% 22% 26% 22% 13% 32% 24% 24%
+Poor 48% 60% 63% 42% 41% 41% 54% 85% 17% 46% 50%
+Notsure 1% 1% 0% 0% 1% 1% 1% 0% 1% 0% 1%
+Totals 101% 101% 100% 100% 100% 101% 101% 100% 101% 100% 100%
+UnweightedN (2,018) (147) (409) (717) (745) (1,001) (1,003) (1,071) (788) (872) (974)
+1
+
+Iowa General Election 2026 – Likely Voters
+October 26-29, 2026 – 2,020 Iowa Likely Voters
+2. Ideology
+Howwouldyoudescribeyourpoliticalviews?
+Age Gender 2024Vote WhiteEducation
+Total 18-29 30-44 45-64 65+ Men Women Harris Trump Non-college College
+Veryliberal 9% 24% 16% 6% 3% 7% 10% 20% 0% 7% 12%
+Liberal 15% 17% 19% 12% 15% 11% 19% 34% 1% 12% 19%
+Moderate 30% 21% 35% 34% 27% 30% 30% 39% 19% 27% 33%
+Conservative 27% 16% 16% 31% 33% 32% 23% 2% 49% 30% 24%
+Veryconservative 16% 21% 11% 14% 18% 17% 15% 0% 29% 19% 11%
+Notsure 3% 2% 4% 3% 3% 2% 4% 4% 2% 4% 1%
+Totals 100% 101% 101% 100% 99% 99% 101% 99% 100% 99% 100%
+UnweightedN (2,016) (147) (409) (717) (743) (999) (1,003) (1,069) (788) (870) (975)
+2
+
+Iowa General Election 2026 – Likely Voters
+October 26-29, 2026 – 2,020 Iowa Likely Voters
+3. TrumpJobApproval
+DoyouapproveordisapproveofthejobDonaldTrumpisdoingasPresident?
+Age Gender 2024Vote WhiteEducation
+Total 18-29 30-44 45-64 65+ Men Women Harris Trump Non-college College
+Stronglyapprove 26% 19% 11% 30% 33% 30% 23% 0% 50% 32% 17%
+Somewhatapprove 17% 13% 14% 20% 18% 18% 17% 0% 30% 19% 15%
+Somewhatdisapprove 6% 7% 12% 5% 4% 6% 6% 1% 9% 5% 7%
+Stronglydisapprove 50% 60% 61% 45% 45% 45% 54% 98% 9% 44% 60%
+Notsure 1% 0% 2% 0% 0% 1% 0% 0% 1% 0% 1%
+Totals 100% 99% 100% 100% 100% 100% 100% 99% 99% 100% 100%
+UnweightedN (2,017) (147) (409) (715) (746) (998) (1,005) (1,070) (788) (872) (973)
+3
+
+Iowa General Election 2026 – Likely Voters
+October 26-29, 2026 – 2,020 Iowa Likely Voters
+4. TrumpBetterFirstorSecondAdministration
+DoyouthinkDonaldTrumpisdoingabetterorworsejobinhissecondadministrationthaninhisfirst?
+Age Gender 2024Vote WhiteEducation
+Total 18-29 30-44 45-64 65+ Men Women Harris Trump Non-college College
+Betterinhissecondadministration 29% 21% 12% 33% 37% 32% 27% 0% 55% 35% 20%
+Worseinhissecondadministration 55% 62% 73% 51% 48% 52% 58% 95% 22% 48% 68%
+Aboutthesame 16% 17% 15% 16% 15% 17% 15% 5% 23% 18% 12%
+Totals 100% 100% 100% 100% 100% 101% 100% 100% 100% 101% 100%
+UnweightedN (2,019) (147) (409) (717) (746) (1,001) (1,004) (1,072) (788) (872) (975)
+4
+
+Iowa General Election 2026 – Likely Voters
+October 26-29, 2026 – 2,020 Iowa Likely Voters
+5. IowaSenateVote2026
+Whodidyouvotefor,orwhowillyouvotefor,intheelectionforU.S.Senator?
+Respondentswhohadalreadyvotedwereaskedwhotheyvotedfor.Undecidedvoterswereaskedwhichcandidatetheyleantoward;leanersareincluded,andthosestillundecidedareshownas
+Notsure.
+Age Gender 2024Vote WhiteEducation
+Total 18-29 30-44 45-64 65+ Men Women Harris Trump Non-college College
+JoshTurek(Democrat) 50% 58% 61% 45% 44% 44% 54% 97% 9% 43% 61%
+AshleyHinson(Republican) 49% 40% 37% 53% 55% 54% 45% 2% 90% 56% 36%
+Someoneelse 1% 1% 1% 2% 1% 1% 1% 1% 1% 0% 2%
+Notsure 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%
+Iwouldnotvote 0% 1% 1% 0% 0% 0% 0% 0% 0% 0% 1%
+Totals 100% 100% 100% 100% 100% 99% 100% 100% 100% 99% 100%
+UnweightedN (2,016) (146) (409) (717) (744) (999) (1,003) (1,070) (787) (871) (974)
+5
+
+Iowa General Election 2026 – Likely Voters
+October 26-29, 2026 – 2,020 Iowa Likely Voters
+6. IowaGovernorVote2026
+Whodidyouvotefor,orwhowillyouvotefor,intheelectionforGovernorofIowa?
+Respondentswhohadalreadyvotedwereaskedwhotheyvotedfor.Undecidedvoterswereaskedwhichcandidatetheyleantoward;leanersareincluded,andthosestillundecidedareshownas
+Notsure.
+Age Gender 2024Vote WhiteEducation
+Total 18-29 30-44 45-64 65+ Men Women Harris Trump Non-college College
+RobSand(Democrat) 53% 59% 68% 50% 47% 48% 58% 99% 13% 46% 66%
+ZachLahn(Republican) 46% 41% 32% 50% 52% 51% 42% 1% 87% 54% 33%
+Someoneelse 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%
+Notsure 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%
+Iwouldnotvote 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%
+Totals 99% 100% 100% 100% 99% 99% 100% 100% 100% 100% 99%
+UnweightedN (2,019) (147) (409) (717) (746) (1,001) (1,004) (1,072) (788) (872) (975)
+6
+
+Fieldwork YouGov
+Interviewing Dates October 26-29, 2026
+Target population Likely Voters in Iowa
+Sample Stratified random sample of voters selected from a list of
+Iowa registered voters who were contacted via text mes-
+sageandinterviewedonYouGov’sweb-basedsurveysys-
+tem. Voters were selected at random within each stratum
+until the target number of interviews were completed.
+Weighting The sample was weighted to gender, age, in-state ge-
+ography (using the current Iowa voter list), party reg-
+istration, and imputed education and 2024 presidential
+vote. Weights were computed using the method of rak-
+ing. Likely voters are defined using a model that takes
+into account past vote, demographics, and self-reported
+likelihoodtovote. Thelikelyvoterweightsrangefromless
+than 0.1 to 10.4 with a coefficient of variation of 1.0.
+Number of respondents 2,020
+Margin of error ± 3.1% (2,020 Iowa Likely Voters)
+Survey mode AllinterviewswereconductedonlineusingYouGov’sweb-
+based survey system.
+Questions not reported Three
