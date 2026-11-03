@@ -1,0 +1,31 @@
+[
+  {
+    "name": "targoz-fl.pdf",
+    "url": "https://www.targoz.com/s/Final-Florida-Poll-Nov-2026-Marginals.pdf",
+    "final_url": "https://static1.squarespace.com/static/55d790f5e4b04ec82cf2bff1/t/6ae8d79b4a574a3c095a850c/1793644443649/Final+Florida+Poll+Nov+2026+-+Marginals.pdf",
+    "path": "research/poll_scrub_20261103/sources/targoz-fl.pdf",
+    "sha256": "6075e08c03493fd10ba1e294c38abee42cdf3350084ca84dc6f0e9cc047be416",
+    "bytes": 163136,
+    "links": []
+  },
+  {
+    "name": "rasmussen-me-tabs.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_27_november_2_2026",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_27_november_2_2026",
+    "path": "research/poll_scrub_20261103/sources/rasmussen-me-tabs.html",
+    "sha256": "0092c3c41a2d5ddeabbf87d305ffb176365597da0c97ab19eca6e0cb2ee67bde",
+    "bytes": 80887,
+    "links": []
+  },
+  {
+    "name": "rasmussen-oh-gov.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_governor",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_governor",
+    "path": "research/poll_scrub_20261103/sources/rasmussen-oh-gov.html",
+    "sha256": "3c386c6f503982f0037aacf0f588632c860c17f96d43c44c879a38f348aeb17a",
+    "bytes": 33185,
+    "links": [
+      "/public_content/politics/public_surveys/crosstabs_2_ohio_governor_october_27_31_2026"
+    ]
+  }
+]

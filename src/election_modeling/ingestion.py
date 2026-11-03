@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import re
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Iterable, Mapping, Protocol
@@ -23,6 +24,13 @@ from election_modeling.validation import covariance_matrix, nonnegative, sample_
 
 
 BLOCKED_POLLSTER_PREFIXES = ("wedgewood",)
+
+
+def user_pollster_exclusion_reason(pollster: str) -> str | None:
+    """Repository-wide user exclusions, including common joint-pollster labels."""
+    if re.search(r"\batlas[\s_-]*intel\b", pollster, flags=re.IGNORECASE):
+        return "AtlasIntel excluded from all models by user request on 2026-11-03"
+    return None
 
 
 @dataclass(frozen=True)
@@ -358,6 +366,10 @@ class PollIngestionPipeline:
             except (ValueError, TypeError) as exc:
                 errors.append(f"{poll.poll_id}: invalid date: {exc}")
         for poll in sorted(valid_polls, key=_poll_sort_key):
+            exclusion = user_pollster_exclusion_reason(poll.pollster)
+            if exclusion:
+                errors.append(f"{poll.poll_id}: {exclusion}")
+                continue
             if _is_blocked_pollster(poll.pollster):
                 errors.append(f"{poll.poll_id}: blocked fabricated pollster: {poll.pollster}")
                 continue
@@ -664,6 +676,9 @@ def measurement_key(poll: NormalizedPoll, race_id: str) -> str:
 
 def apply_poll(poll: NormalizedPoll, model: RaceModel, *, adjustment=None, extra_variance=0.0) -> None:
     """Shared ingestion/history path: dates, survey errors and design effects."""
+    exclusion = user_pollster_exclusion_reason(poll.pollster)
+    if exclusion:
+        raise ValueError(exclusion)
     if poll.crosstab is not None:
         model.update(poll.crosstab.to_observation(
             adjustment=adjustment, pollster=poll.pollster, field_date=poll.field_date,

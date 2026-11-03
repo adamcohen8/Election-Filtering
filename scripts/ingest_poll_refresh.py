@@ -11,6 +11,7 @@ from election_modeling.cycles import RACES_2026_BY_ID, TURNOUT_2024_PREDICTION_E
 from election_modeling.nominees import NOMINEES_2026_BY_RACE
 from election_modeling.persistence import load_election_model,save_election_model
 from election_modeling.public import public_forecast_payload,public_race_history_payload
+from election_modeling.ingestion import user_pollster_exclusion_reason
 BASE=ROOT/'research/poll_refresh_20261102'
 
 
@@ -27,6 +28,8 @@ def compile_refresh():
         assert review['action']=='accept' and review['record_sha256']==digest(raw)
         assert (raw['state'],raw['office'])==(race.state,race.office)
         assert (raw['candidate_a'],raw['candidate_b'],raw['candidate_a_party'],raw['candidate_b_party'])==(nom.republican.name,nom.candidate_b.name,nom.republican.party,nom.candidate_b.party)
+        if user_pollster_exclusion_reason(raw['pollster']):
+            continue
         row=normalize_reviewed_row(raw,review,source_path=str((BASE/'polls.json').relative_to(ROOT)),start=config['window']['start'],end=config['window']['end'],expected_office=race.office)
         row['acquisition_id']=BASE.name
         row['refresh_id']=BASE.name
@@ -51,6 +54,10 @@ def compile_refresh():
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
     selected,config,baseline=compile_refresh()
+    excluded=[{'poll_id':r['race_id']+'--'+r['poll_id'],'race_id':r['race_id'],
+               'pollster':r['pollster'],'reason':user_pollster_exclusion_reason(r['pollster'])}
+              for r in json.loads((BASE/'polls.json').read_text())['polls']
+              if user_pollster_exclusion_reason(r['pollster'])]
     path=ROOT/'data/ingestion/2026_normalized_polls.json'
     existing=json.loads(path.read_text())['polls']
     # Refresh is replayable without multiplying waves or resurrecting predecessors.
@@ -87,6 +94,9 @@ def main():
         staged=Path(directory)/'polls.json';write_json(staged,{'polls':rows})
         history=public_race_history_payload(feed_path=staged)
     manifest={'acquisition_id':BASE.name,'window':config['window'],'new_observations':len(added),'revised_observations':len(selected)-len(added),'new_by_office':dict(Counter(r['office'] for r in added)),'new_by_race':dict(sorted(additions.items())),'new_by_pollster':dict(Counter(r['pollster'] for r in added)),'accepted_poll_ids':[r['poll_id'] for r in selected],'revision_poll_ids':sorted(revision_ids),'total_feed_rows':len(rows),'counts_by_race':dict(sorted(Counter(r['race_id'] for r in rows).items())),'unaffected_models_preserved':sorted(preserved),'all_turnout_weights_preserved':True,'acquisition_rows_sha256':digest(selected),'review_decisions_sha256':digest(config),'baseline_sha256':digest(baseline),'feed_sha256':digest(rows)}
+    if excluded:
+        manifest['user_excluded_observations']=len(excluded)
+        manifest['user_excluded_polls']=excluded
     if turnout_changes:
         manifest['all_turnout_weights_preserved']=False
         manifest['configured_turnout_weight_changes']=turnout_changes

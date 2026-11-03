@@ -1,0 +1,26 @@
+[
+  {
+    "path": "research/poll_scrub_20261103/baseline/forecasts-before.json",
+    "sha256": "a31d8026f51d0ae1f21e54b9768c4f35543b132d94bc21d3cfc9330b32e40487"
+  },
+  {
+    "path": "research/poll_scrub_20261103/baseline/history-before.json",
+    "sha256": "6f1036259c9097ae1cb54be8cd905a12b83c66a278068199ff9d8c5c8022e4f2"
+  },
+  {
+    "path": "research/poll_scrub_20261103/baseline/model-before.json",
+    "sha256": "16eeccd6a6f8d12ac647c503d7eea221aed25649c09a080f721a963f7bf1881a"
+  },
+  {
+    "path": "research/poll_scrub_20261103/baseline/polls-before.json",
+    "sha256": "8f2a60b080246da14148c8c60b565e7858b1ddc121141ac5a708400486bde615"
+  },
+  {
+    "path": "research/poll_scrub_20261103/baseline/raw-before.json",
+    "sha256": "9061ec895e387fbf69aa5d809ca50b10e09ba8461c43d0bcf612040d22e3d720"
+  },
+  {
+    "path": "research/poll_scrub_20261103/baseline/reviews-before.json",
+    "sha256": "16d534e0100fbf71d156bbf2b427684b487e70e02541db2077c304f091990c02"
+  }
+]

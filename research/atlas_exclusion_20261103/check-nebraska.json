@@ -1,0 +1,53 @@
+{
+  "check_only": true,
+  "acquisition_id": "nebraska_senate_polls_20261101",
+  "accepted_count": 4,
+  "held": [],
+  "counts_by_race": {
+    "ne_sen": 4
+  },
+  "window": {
+    "start": "2026-10-01",
+    "end": "2026-11-01"
+  },
+  "in_window_count": 1,
+  "backfill_count": 3,
+  "shortfall_to_ten": 6,
+  "party_basis_counts": {
+    "party_registration": 1,
+    "party_id": 2,
+    "modeled_subgroup_estimate": 1
+  },
+  "precision_methods": {
+    "assumed_covariance": 3,
+    "reported_count_weighting_unspecified": 1
+  },
+  "accepted_poll_ids": [
+    "ne_sen--lake-ne-20251217",
+    "ne_sen--tavern-ne-20260511",
+    "ne_sen--surveyusa-ne-20260913",
+    "ne_sen--onpoint-ne-20261029"
+  ],
+  "electorate": {
+    "republican": 0.57,
+    "democratic": 0.24,
+    "independent": 0.19,
+    "provisional": false,
+    "basis": "User-selected R57/D24/I19, updated November1 2026"
+  },
+  "source_artifacts_hash_checked": 4,
+  "retained_baseline_rows": 258,
+  "prior_race_states_preserved": 27,
+  "review_decisions_sha256": "d8be8506c7b64695341e14b000d97b0b133da1a87c183d20c21ea7f95259a270",
+  "acquisition_rows_sha256": "4bde9a1b737d495e7f6649de1327b0f32fa6c0333fce530f92cf38ddf3c9170c",
+  "feed_sha256": "3a1489c053ffe7c863f11ac7d46c80a05cd262919d2c84ddc522b0995ed3a7e2",
+  "limitations": [
+    "Four verified six-cell sources located after re-audit; six short of the10-wave target. Inventories record partial/unreadable sources; failure to recover a table is not proof it does not exist.",
+    "User selected R57/D24/I19 for Nebraska on November1 2026, replacing R55/D25/I20 and interim R45/D27/I28; these are user assumptions, not sourced exit-poll estimates.",
+    "Osborn is Independent, with no Democratic caucus affiliation assigned. Minor candidates remain outside the two-candidate model, without renormalizing observed support.",
+    "October OnPoint ballot allocates undecideds using a model and uses registration groups including nonpartisan/other; labeled as modeled subgroup estimate, not raw intention.",
+    "Older backfills include a May hypothetical of the same two candidates. Party measures, ballot choices and subgroup precision vary.",
+    "No forecast accuracy or historical calibration claim follows from replay checks.",
+    "Lake December2025 fieldwork released Jan22 2026 uses party registration, combining unaffiliated/other; first-choice shares sum rounded strong/not-so-strong cells. Printed subgroup bases have unspecified weighting and model Ns remain null."
+  ]
+}

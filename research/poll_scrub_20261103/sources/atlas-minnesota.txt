@@ -1,0 +1,224 @@
+PAGE 1
+AtlasIntel Poll: Minnesota
+28/10/2026 - 01/11/2026
+2026 Midterms:
+Minnesota
+Approval and government evaluation | Vote intention | Key issues and candidate comparison |
+Economic perceptions | Image of political figures
+
+PAGE 2
+MINNESOTA POLL
+SUMMARY
+Summary
+0
+Methodology and sample profile
+1
+Approval and government evaluation
+2
+Vote intention
+3
+Key issues and candidate comparison
+4
+Economic perceptions
+5
+Image of political figures
+2
+
+PAGE 3
+Methodology and
+sample profile
+3
+
+PAGE 4
+MINNESOTA POLL
+METHODOLOGY
+Methodology: Atlas RDR
+The method seeks to address sources of Compared to telephone surveys based on
+Atlas Random Digital Recruitment [RDR] is a
+bias and possible over-or Random Digit Dialing (RDD), the RDR
+methodology developed by AtlasIntel to
+underrepresentation of specific method allows for granular mapping of
+demographic groups. non-response patterns, so that biases
+calibrate robust samples, representative
+arising from variable non-response rates
+Respondents are recruited randomly during
+of the target population. can be adequately addressed during the
+routine web browsing in geolocated
+process of building each sample.
+territories on any device (smartphones,
+tablets, laptops or PCs). To ensure representativeness at the
+national level, the AtlasIntel samples are
+Compared to face-to-face surveys, RDR
+post-stratified using an iterative algorithm
+avoids the possible psychological impact of
+on a minimum set of target variables:
+human interaction on the respondent at the
+gender, age group, education level, income
+time of the interview: the respondent can
+level, region, and previous electoral
+answer the questionnaire under conditions
+behavior. The samples resulting from the
+of full anonymity, without fear of causing a
+post-stratification process match the
+negative impression to the interviewer or
+profile of the US adult population and that
+to people who may eventually be listening
+of likely voters.
+to the answers shared during the interview.
+4
+
+PAGE 5
+MINNESOTA POLL
+MINNESOTA > SAMPLE PROFILE
+Sample Profile
+TARGET POPULATION
+Likely voters in Minnesota
+SAMPLE SIZE
+2,133 respondents
+METHODOLOGY
+Random Digital Recruitment (Atlas RDR)
+MARGIN OF ERROR
+±2 p.p.
+CONFIDENCE LEVEL FOR ESTIMATION OF THE MARGIN OF ERROR
+95%
+POLLING PERIOD
+10/28/2026 - 11/01/2026
+
+PAGE 6
+1. Approval and
+government evaluation
+6
+
+PAGE 7
+MINNESOTA POLL
+MINNESOTA > APPROVAL AND GOVERNMENT EVALUATION
+Do you approve or disapprove of the job these politicians are doing?
+7
+
+PAGE 8
+MINNESOTA POLL
+MINNESOTA > APPROVAL AND GOVERNMENT EVALUATION
+Do you approve or disapprove of the job these politicians are doing?
+[crosstabs]
+
+PAGE 9
+MINNESOTA POLL
+MINNESOTA > APPROVAL AND GOVERNMENT EVALUATION
+Do you approve or disapprove of the job these politicians are doing?
+[crosstabs]
+
+PAGE 10
+MINNESOTA POLL
+MINNESOTA > APPROVAL AND GOVERNMENT EVALUATION
+How do you evaluate the performance of the following leaders?
+10
+
+PAGE 11
+MINNESOTA POLL
+MINNESOTA > APPROVAL AND GOVERNMENT EVALUATION
+How do you evaluate the performance of the following leaders?
+[crosstabs]
+
+PAGE 12
+MINNESOTA POLL
+MINNESOTA > APPROVAL AND GOVERNMENT EVALUATION
+How do you evaluate the performance of the following leaders?
+[crosstabs]
+
+PAGE 13
+2. Vote intention
+13
+
+PAGE 14
+MINNESOTA POLL
+MINNESOTA > VOTE INTENTION
+If the Minnesota midterm election for US Senate were held today, and these
+were the candidates, who would you vote for?
+14
+
+PAGE 15
+MINNESOTA POLL
+MINNESOTA > VOTE INTENTION
+If the Minnesota midterm election for US Senate were held today, and these
+were the candidates, who would you vote for? [Valid votes]
+15
+
+PAGE 16
+MINNESOTA POLL
+MINNESOTA > VOTE INTENTION
+If the Minnesota midterm election for US Senate were held today, and these
+were the candidates, who would you vote for?
+[crosstabs]
+
+PAGE 17
+MINNESOTA POLL
+MINNESOTA > VOTE INTENTION
+If the Minnesota midterm election for US House were held today, which
+party/candidate would you vote for?
+17
+
+PAGE 18
+MINNESOTA POLL
+MINNESOTA > VOTE INTENTION
+If the Minnesota midterm election for US House were held today, which
+party/candidate would you vote for?
+[crosstabs]
+
+PAGE 19
+3. Key issues and
+candidate
+comparison
+19
+
+PAGE 20
+MINNESOTA POLL
+MINNESOTA > KEY ISSUES AND CANDIDATE COMPARISON
+Which of the following issues are most important to you when deciding how
+to vote in the above elections in November 2026?
+(Select up to three)
+20
+
+PAGE 21
+MINNESOTA POLL
+MINNESOTA > KEY ISSUES AND CANDIDATE COMPARISON
+When thinking about the Minnesota 2026 Senate race, which of these candidates do
+you think has the best performance/approach regarding each of the following issues?
+21
+
+PAGE 22
+4. Economic perceptions
+22
+
+PAGE 23
+MINNESOTA POLL
+MINNESOTA > ECONOMIC PERCEPTIONS
+How do you evaluate the Minnesota economy and job market right now? And
+how do you evaluate your family's economic situation?
+23
+
+PAGE 24
+MINNESOTA POLL
+MINNESOTA > ECONOMIC PERCEPTIONS
+What is your expectation regarding the Minnesota economy and job market six
+months from now? What is your expectation regarding your family's situation?
+24
+
+PAGE 25
+MINNESOTA POLL
+MINNESOTA > ECONOMIC PERCEPTIONS
+For each item below, do you think it costs less under Biden, Trump, or about
+the same in your state?
+25
+
+PAGE 26
+5. Image of political figures
+26
+
+PAGE 27
+MINNESOTA POLL
+MINNESOTA > IMAGE OF POLITICAL FIGURES
+Do you have a positive or negative image of the following political
+figures?
+27
+
+PAGE 28

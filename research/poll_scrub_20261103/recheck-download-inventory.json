@@ -1,0 +1,28 @@
+[
+  {
+    "name": "generic-filtered.html",
+    "url": "https://www.callthemap.com/polls?view=generic-ballot",
+    "final_url": "https://www.callthemap.com/polls?view=generic-ballot",
+    "path": "research/poll_scrub_20261103/sources/generic-filtered.html",
+    "sha256": "cdb679bada025520f427fc5ed2ce6385252c698b2f3fe90e809945893883e41c",
+    "bytes": 108477,
+    "links": [
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/national_20261026.pdf",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/national_20261026.pdf"
+    ]
+  },
+  {
+    "name": "rasmussen-mi-gov-release.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_michigan_governor",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_michigan_governor",
+    "path": "research/poll_scrub_20261103/sources/rasmussen-mi-gov-release.html",
+    "sha256": "1814bc55c3f371bc7c92924f4159360be6da30a08d50e288d56a6fb99279b604",
+    "bytes": 30229,
+    "links": []
+  },
+  {
+    "name": "morning-tracker.html",
+    "url": "https://pro-assets.morningconsult.com/wp-uploads/2026/09/MCPI-PI-Weekly.html",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

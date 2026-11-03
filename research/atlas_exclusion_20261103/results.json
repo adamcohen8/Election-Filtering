@@ -1,0 +1,562 @@
+[
+  {
+    "race_id": "ak_sen",
+    "state": "Alaska",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4769,
+      "candidate_b_share": 0.4812,
+      "margin_percent": -0.44,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Dan Sullivan",
+      "candidate_b_name": "Mary Peltola",
+      "candidate_a_share": 0.4885,
+      "candidate_b_share": 0.4699,
+      "margin_percent": 1.86,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "az_gov",
+    "state": "Arizona",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4346,
+      "candidate_b_share": 0.4979,
+      "margin_percent": -6.33,
+      "observation_count": 10
+    },
+    "after": {
+      "candidate_a_name": "Andy Biggs",
+      "candidate_b_name": "Katie Hobbs",
+      "candidate_a_share": 0.4346,
+      "candidate_b_share": 0.4979,
+      "margin_percent": -6.33,
+      "observation_count": 10
+    }
+  },
+  {
+    "race_id": "fl_gov",
+    "state": "Florida",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4853,
+      "candidate_b_share": 0.4452,
+      "margin_percent": 4.01,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Byron Donalds",
+      "candidate_b_name": "David Jolly",
+      "candidate_a_share": 0.4853,
+      "candidate_b_share": 0.4452,
+      "margin_percent": 4.01,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "fl_sen",
+    "state": "Florida",
+    "office": "senate",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4824,
+      "candidate_b_share": 0.4333,
+      "margin_percent": 4.91,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Ashley Moody",
+      "candidate_b_name": "Angie Nixon",
+      "candidate_a_share": 0.4824,
+      "candidate_b_share": 0.4333,
+      "margin_percent": 4.91,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "ga_gov",
+    "state": "Georgia",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4996,
+      "candidate_b_share": 0.4681,
+      "margin_percent": 3.15,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Rick Jackson",
+      "candidate_b_name": "Keisha Lance Bottoms",
+      "candidate_a_share": 0.4996,
+      "candidate_b_share": 0.4681,
+      "margin_percent": 3.15,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "ga_sen",
+    "state": "Georgia",
+    "office": "senate",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4688,
+      "candidate_b_share": 0.5082,
+      "margin_percent": -3.94,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Mike Collins",
+      "candidate_b_name": "Jon Ossoff",
+      "candidate_a_share": 0.4688,
+      "candidate_b_share": 0.5082,
+      "margin_percent": -3.94,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "ia_gov",
+    "state": "Iowa",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4467,
+      "candidate_b_share": 0.5093,
+      "margin_percent": -6.26,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Zach Lahn",
+      "candidate_b_name": "Rob Sand",
+      "candidate_a_share": 0.4432,
+      "candidate_b_share": 0.5011,
+      "margin_percent": -5.78,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "ia_sen",
+    "state": "Iowa",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4674,
+      "candidate_b_share": 0.4773,
+      "margin_percent": -1.0,
+      "observation_count": 13
+    },
+    "after": {
+      "candidate_a_name": "Ashley Hinson",
+      "candidate_b_name": "Josh Turek",
+      "candidate_a_share": 0.4664,
+      "candidate_b_share": 0.4706,
+      "margin_percent": -0.42,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "ks_gov",
+    "state": "Kansas",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.5073,
+      "candidate_b_share": 0.4523,
+      "margin_percent": 5.5,
+      "observation_count": 9
+    },
+    "after": {
+      "candidate_a_name": "Ty Masterson",
+      "candidate_b_name": "Cindy Holscher",
+      "candidate_a_share": 0.5099,
+      "candidate_b_share": 0.4488,
+      "margin_percent": 6.1,
+      "observation_count": 8
+    }
+  },
+  {
+    "race_id": "ks_sen",
+    "state": "Kansas",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4633,
+      "candidate_b_share": 0.4634,
+      "margin_percent": -0.01,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Roger Marshall",
+      "candidate_b_name": "Adam Hamilton",
+      "candidate_a_share": 0.4625,
+      "candidate_b_share": 0.4601,
+      "margin_percent": 0.24,
+      "observation_count": 10
+    }
+  },
+  {
+    "race_id": "me_gov",
+    "state": "Maine",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4266,
+      "candidate_b_share": 0.4889,
+      "margin_percent": -6.22,
+      "observation_count": 13
+    },
+    "after": {
+      "candidate_a_name": "Bobby Charles",
+      "candidate_b_name": "Hannah Pingree",
+      "candidate_a_share": 0.4248,
+      "candidate_b_share": 0.4887,
+      "margin_percent": -6.4,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "me_sen",
+    "state": "Maine",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4765,
+      "candidate_b_share": 0.4946,
+      "margin_percent": -1.8,
+      "observation_count": 14
+    },
+    "after": {
+      "candidate_a_name": "Susan Collins",
+      "candidate_b_name": "Troy Jackson",
+      "candidate_a_share": 0.478,
+      "candidate_b_share": 0.4931,
+      "margin_percent": -1.51,
+      "observation_count": 13
+    }
+  },
+  {
+    "race_id": "mi_gov",
+    "state": "Michigan",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4449,
+      "candidate_b_share": 0.5,
+      "margin_percent": -5.51,
+      "observation_count": 13
+    },
+    "after": {
+      "candidate_a_name": "John James",
+      "candidate_b_name": "Jocelyn Benson",
+      "candidate_a_share": 0.438,
+      "candidate_b_share": 0.4972,
+      "margin_percent": -5.92,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "mi_sen",
+    "state": "Michigan",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4703,
+      "candidate_b_share": 0.4801,
+      "margin_percent": -0.99,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Mike Rogers",
+      "candidate_b_name": "Abdul El-Sayed",
+      "candidate_a_share": 0.4659,
+      "candidate_b_share": 0.4742,
+      "margin_percent": -0.83,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "mn_gov",
+    "state": "Minnesota",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4306,
+      "candidate_b_share": 0.5073,
+      "margin_percent": -7.67,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Lisa Demuth",
+      "candidate_b_name": "Amy Klobuchar",
+      "candidate_a_share": 0.4306,
+      "candidate_b_share": 0.5073,
+      "margin_percent": -7.67,
+      "observation_count": 12
+    }
+  },
+  {
+    "race_id": "mn_sen",
+    "state": "Minnesota",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4602,
+      "candidate_b_share": 0.4847,
+      "margin_percent": -2.45,
+      "observation_count": 14
+    },
+    "after": {
+      "candidate_a_name": "Michele Tafoya",
+      "candidate_b_name": "Peggy Flanagan",
+      "candidate_a_share": 0.4582,
+      "candidate_b_share": 0.4866,
+      "margin_percent": -2.84,
+      "observation_count": 13
+    }
+  },
+  {
+    "race_id": "nc_sen",
+    "state": "North Carolina",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4474,
+      "candidate_b_share": 0.5234,
+      "margin_percent": -7.61,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Michael Whatley",
+      "candidate_b_name": "Roy Cooper",
+      "candidate_a_share": 0.4517,
+      "candidate_b_share": 0.5156,
+      "margin_percent": -6.4,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "ne_sen",
+    "state": "Nebraska",
+    "office": "senate",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.508,
+      "candidate_b_share": 0.4457,
+      "margin_percent": 6.22,
+      "observation_count": 5
+    },
+    "after": {
+      "candidate_a_name": "Pete Ricketts",
+      "candidate_b_name": "Dan Osborn",
+      "candidate_a_share": 0.508,
+      "candidate_b_share": 0.4457,
+      "margin_percent": 6.22,
+      "observation_count": 5
+    }
+  },
+  {
+    "race_id": "nh_gov",
+    "state": "New Hampshire",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.5173,
+      "candidate_b_share": 0.4255,
+      "margin_percent": 9.18,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Kelly Ayotte",
+      "candidate_b_name": "Cinde Warmington",
+      "candidate_a_share": 0.5214,
+      "candidate_b_share": 0.4208,
+      "margin_percent": 10.06,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "nh_sen",
+    "state": "New Hampshire",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4322,
+      "candidate_b_share": 0.5073,
+      "margin_percent": -7.51,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "John E. Sununu",
+      "candidate_b_name": "Chris Pappas",
+      "candidate_a_share": 0.4311,
+      "candidate_b_share": 0.5031,
+      "margin_percent": -7.2,
+      "observation_count": 11
+    }
+  },
+  {
+    "race_id": "nv_gov",
+    "state": "Nevada",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4533,
+      "candidate_b_share": 0.4496,
+      "margin_percent": 0.37,
+      "observation_count": 6
+    },
+    "after": {
+      "candidate_a_name": "Joe Lombardo",
+      "candidate_b_name": "Aaron Ford",
+      "candidate_a_share": 0.4533,
+      "candidate_b_share": 0.4496,
+      "margin_percent": 0.37,
+      "observation_count": 6
+    }
+  },
+  {
+    "race_id": "oh_gov",
+    "state": "Ohio",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4667,
+      "candidate_b_share": 0.4806,
+      "margin_percent": -1.39,
+      "observation_count": 15
+    },
+    "after": {
+      "candidate_a_name": "Vivek Ramaswamy",
+      "candidate_b_name": "Amy Acton",
+      "candidate_a_share": 0.4679,
+      "candidate_b_share": 0.4778,
+      "margin_percent": -0.99,
+      "observation_count": 14
+    }
+  },
+  {
+    "race_id": "oh_sen",
+    "state": "Ohio",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.474,
+      "candidate_b_share": 0.4705,
+      "margin_percent": 0.35,
+      "observation_count": 15
+    },
+    "after": {
+      "candidate_a_name": "Jon Husted",
+      "candidate_b_name": "Sherrod Brown",
+      "candidate_a_share": 0.4758,
+      "candidate_b_share": 0.4672,
+      "margin_percent": 0.85,
+      "observation_count": 14
+    }
+  },
+  {
+    "race_id": "pa_gov",
+    "state": "Pennsylvania",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.3739,
+      "candidate_b_share": 0.5869,
+      "margin_percent": -21.29,
+      "observation_count": 6
+    },
+    "after": {
+      "candidate_a_name": "Stacy Garrity",
+      "candidate_b_name": "Josh Shapiro",
+      "candidate_a_share": 0.3739,
+      "candidate_b_share": 0.5869,
+      "margin_percent": -21.29,
+      "observation_count": 6
+    }
+  },
+  {
+    "race_id": "tx_gov",
+    "state": "Texas",
+    "office": "governor",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.5055,
+      "candidate_b_share": 0.4429,
+      "margin_percent": 6.26,
+      "observation_count": 16
+    },
+    "after": {
+      "candidate_a_name": "Greg Abbott",
+      "candidate_b_name": "Gina Hinojosa",
+      "candidate_a_share": 0.5082,
+      "candidate_b_share": 0.4366,
+      "margin_percent": 7.16,
+      "observation_count": 15
+    }
+  },
+  {
+    "race_id": "tx_sen",
+    "state": "Texas",
+    "office": "senate",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4786,
+      "candidate_b_share": 0.4733,
+      "margin_percent": 0.53,
+      "observation_count": 22
+    },
+    "after": {
+      "candidate_a_name": "Ken Paxton",
+      "candidate_b_name": "James Talarico",
+      "candidate_a_share": 0.4808,
+      "candidate_b_share": 0.4684,
+      "margin_percent": 1.24,
+      "observation_count": 21
+    }
+  },
+  {
+    "race_id": "us_house_generic",
+    "state": "United States",
+    "office": "generic_ballot",
+    "removed_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4475,
+      "candidate_b_share": 0.491,
+      "margin_percent": -4.35,
+      "observation_count": 27
+    },
+    "after": {
+      "candidate_a_name": "Generic Republican",
+      "candidate_b_name": "Generic Democrat",
+      "candidate_a_share": 0.4482,
+      "candidate_b_share": 0.4889,
+      "margin_percent": -4.08,
+      "observation_count": 26
+    }
+  },
+  {
+    "race_id": "wi_gov",
+    "state": "Wisconsin",
+    "office": "governor",
+    "removed_observations": 0,
+    "before": {
+      "candidate_a_share": 0.4409,
+      "candidate_b_share": 0.5081,
+      "margin_percent": -6.72,
+      "observation_count": 7
+    },
+    "after": {
+      "candidate_a_name": "Tom Tiffany",
+      "candidate_b_name": "David Crowley",
+      "candidate_a_share": 0.4409,
+      "candidate_b_share": 0.5081,
+      "margin_percent": -6.72,
+      "observation_count": 7
+    }
+  }
+]

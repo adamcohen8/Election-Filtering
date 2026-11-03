@@ -1,0 +1,84 @@
+{
+  "checked_on": "2026-11-01",
+  "governor_waves": 129,
+  "senate_rows_preserved": 129,
+  "total_feed_rows": 347,
+  "governor_models_with_data": 14,
+  "models": 28,
+  "counts_by_race": {
+    "az_gov": 10,
+    "fl_gov": 11,
+    "ga_gov": 10,
+    "ia_gov": 10,
+    "ks_gov": 7,
+    "me_gov": 10,
+    "mi_gov": 10,
+    "mn_gov": 10,
+    "nh_gov": 10,
+    "nv_gov": 6,
+    "oh_gov": 10,
+    "pa_gov": 5,
+    "tx_gov": 14,
+    "wi_gov": 6
+  },
+  "shortfall_to_ten": {
+    "pa_gov": 5,
+    "nv_gov": 4,
+    "wi_gov": 4,
+    "ks_gov": 3
+  },
+  "in_window_count": 82,
+  "older_backfill_count": 47,
+  "held_records": [
+    {
+      "key": "az_gov/asu-20260904",
+      "reason": "First-publication bounds span September4\u2013October6. Cannot establish original-window versus older-backfill status without guessing. All six cells preserved for later review.",
+      "source_url": "https://www.dropbox.com/scl/fi/zw2q5gxws1dl59v9d9ivy/Crosstabs-full-sample-ASU-Svy-August-2026.pdf?rlkey=288kk2u0s27qzprjom3l32t16&st=dautaf2c&e=2&dl=0"
+    }
+  ],
+  "user_supplied_nyt_tables": 6,
+  "censored_cell_approximations": {
+    "me_gov": {
+      "democratic_a": {
+        "source_interval": [
+          0,
+          0.01
+        ],
+        "model_midpoint": 0.005,
+        "additional_variance": 2.5e-05
+      }
+    },
+    "mn_gov": {
+      "democratic_a": {
+        "source_interval": [
+          0,
+          0.005
+        ],
+        "model_midpoint": 0.0025,
+        "additional_variance": 6.25e-06
+      }
+    }
+  },
+  "precision_methods": {
+    "assumed_covariance": 57,
+    "reported_weighted": 31,
+    "reported_unweighted": 21,
+    "reported_count_weighting_unspecified": 12,
+    "derived_total_x_share": 5,
+    "reported_n_weighting_unspecified": 2,
+    "reported_weighting_unspecified": 1
+  },
+  "source_artifacts_hash_checked": 114,
+  "unchanged_input_senate_models_preserved": true,
+  "senate_covariance_tolerance": 1e-15,
+  "snapshot_ledger_forecasts_history_match_replay": true,
+  "turnout_sd_1pp_all_races": true,
+  "feed_sha256": "27960d07688194a0df4fa7a4e399ee3e7235f140171568a1443d63b009562ca2",
+  "limitations": [
+    "Documented search is not proof that every public poll was found. Source gaps and counts below10 are retained explicitly.",
+    "Independent/other, unaffiliated registration, narrow independent, and party leaner definitions vary and are retained rather than silently equated.",
+    "Subgroup sample counts can be weighted, approximate, suppressed, or absent; the measurement-error assumptions are provisional.",
+    "NYT governor cells are user-supplied screenshots; unshown bases stay null and parent-wave dates are provisional.",
+    "No historical forecast calibration or accuracy claim follows from replay/integrity tests."
+  ]
+}

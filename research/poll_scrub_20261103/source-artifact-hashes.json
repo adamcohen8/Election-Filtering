@@ -1,0 +1,242 @@
+[
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-AK.html",
+    "sha256": "bdfaa3a44f79489315dfaedc88348d9126cc016dc8d970970574d2ad26bcc804"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-FL.html",
+    "sha256": "994f8df7631662ab966a72c58a75cbcdffd32044457bd4608249d4eac4b13f6b"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-GA.html",
+    "sha256": "b4200cb44636c431708c4c35e7266a573fd89a32e4a3803b5bb6aa8bc65c011c"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-IA.html",
+    "sha256": "5c8f16e15a32e5062d323863e0423323b8a71828b6beb6391c14b0a2a496f803"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-KS.html",
+    "sha256": "a82952637da2db2c10822db5d6719ac6652667dc9d6f20bdcc4385bec41ee02e"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-ME.html",
+    "sha256": "4aad7c30050f3bb08b564b800e27514cb88c9f8799a10c2105794489c03497c9"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-MI.html",
+    "sha256": "05d813e78450c2cfb1889a6c9804a951f6ff0c8eb8df1d517f1763cfdd0ffc4d"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-MN.html",
+    "sha256": "bbd47451707eeb164380a1c930ee1bdcdbb1e5560f2590040667b5254dbe3f34"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-NC.html",
+    "sha256": "1c752e88543b42f8089edf376e659841da29abb8b06bfb763cd6104ccb49b5ad"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-NE.html",
+    "sha256": "9b639453b833f72e8e7da7625709fb70130726ff67fb8cd691c27d941810b197"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-NH.html",
+    "sha256": "c1e61f6ac7d3be4ef013f9ad07b3a59d39fa60a308007b90d9db411980efbb78"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-OH.html",
+    "sha256": "873c7a5ad2f8cf19c8439cc838914bc94f2973fd3d0ae20611c240dec946cbda"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/SEN-TX.html",
+    "sha256": "1e70933a53577e738fb171117e2ae6f9ea87b1b6fe2b32ccc7a68cc65a72fd3f"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-AZ.html",
+    "sha256": "8e9ea17ec781f5b8c30b9ed78952e9f2cbc6e659cde3a8837ea57f2a89b818e5"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-FL.html",
+    "sha256": "1231683443efc13342301d1d4d7ac3f80b94ee95f26e89caa7093ea70b4f25ef"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-GA.html",
+    "sha256": "a934e2e2edf76e5687724c5369b4b51a55750368265ddf2fe82609da98f907a9"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-IA.html",
+    "sha256": "2babcd7e514df3f16a617c373e8d896c2d558b14c6e1e7bb15d7c1f69b39fe65"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-KS.html",
+    "sha256": "5c0595a07632662422a88dcafa96f0112ff3bfe1b0562fca266ba4e60f5dd7bf"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-ME.html",
+    "sha256": "db2835353fccf9c182f1cbb2c60c858f9739521acf8d83595cb803bfe114d21c"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-MI.html",
+    "sha256": "06b7fda656d0a5f932c92441ca17e64b6199072beb12155459ce4cc062e7d36c"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-MN.html",
+    "sha256": "508a70d9a22fac4462681a103e7ea1b2c9549ef4b7bfe6043224bb3768212977"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-NH.html",
+    "sha256": "483ec7067da5135802475159959007edd6c9702a5a3432c52fe1e6cc6bacd269"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-NV.html",
+    "sha256": "d400f3fb7782e673203f38cd5569738c11eb1839b7d781ae2a5372287c9ea34a"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-OH.html",
+    "sha256": "06b75d8bdeea7f5ef08b4e706797d656467d57c90db42703ceb6f8af1cc68056"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-PA.html",
+    "sha256": "3da5f06239966fd59cd2b470cd6087ddb5bf3c871d8e5b8ec890d495d00792c8"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-TX.html",
+    "sha256": "2e7f023212128cc0ac6640e20489cc5e0de8abbb29d2dd51bfae7d1f0c948e0b"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/GOV-WI.html",
+    "sha256": "7bb8d03f561b939a5e001ebbce4c7cde52075dec1ff418ee74c9b0d51105adff"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/emerson.html",
+    "sha256": "08a91e7df3e729b9bdf77228a30cb0006fa9836bf4c0d7449c4941a36df99842"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas.html",
+    "sha256": "e5f9247627871d17cce79802e631f1c1365ecad9c427c7e0f7bf9bcc88612a91"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/insider.html",
+    "sha256": "a0073b914eb9b1405953134cfc3da8fca31ea021530134ff31ede15c0c871902"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/quantus.html",
+    "sha256": "485f8088114474087a1bf9d9b231bbc7d982c6885c41796c57029c722f81551d"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/zogby-us.html",
+    "sha256": "45a5168b94d7447b47a6bc3a393a5c2d612990c71ee1851d8318c992ee5559e1"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/zogby-mi.html",
+    "sha256": "27b8d02f5d43f2500df588f5b1dd999e9824d808b5c194947cf3c9d028411575"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/generic.html",
+    "sha256": "cdb679bada025520f427fc5ed2ce6385252c698b2f3fe90e809945893883e41c"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/pollvault.html",
+    "sha256": "cb63b03bc641cfe95bd6e05869dc179607dc78c6a43929c1ce95c0490676dc62"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/gotv.html",
+    "sha256": "20a66a3774aeb15ed39180655c873e35bd335b283569f72bb30167f61ca2c938"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+    "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/zogby-mi.pdf",
+    "sha256": "3b7449801bc8db21f784c5bd588e1f2ecf9538952010829928e4b1cfe812a9b7"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/zogby-us.pdf",
+    "sha256": "4445f038b3ec50a235a07780cefee5c30855def430befdd464757763908482d7"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-alaska.pdf",
+    "sha256": "1c572c4c74b54a593e7ab557c1ae987d235847167e1ee953aaaad2b29683c3d1"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-new_hampshire.pdf",
+    "sha256": "1a655a79ae60f383513eb6b49c3948ea6721b23a49e94f902bcda3e36a9fed0a"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-maine.pdf",
+    "sha256": "bcf38cbc3f15a6b99f9d120c6ca21ed2300b190eaf6abe6db80820b661da3ada"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-iowa.pdf",
+    "sha256": "54fb1e7e7be6e0fa401299326c3f84a82435bf21890bb540f9caf31c4922ed14"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-kansas.pdf",
+    "sha256": "f2ec3b8a393e706c4014d7e4b1aa4c76257f114d7ed4d5ab15afe394abc416bc"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-michigan.pdf",
+    "sha256": "bc24388432302a7163fe91d92ab37a4bbba9bb5f9bec8f45787e82ad52aa78a0"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-minnesota.pdf",
+    "sha256": "77fcbbc49cc953839b7549e57b227c756f63b1a0bcaf9914929e42db50fb80d8"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-ohio.pdf",
+    "sha256": "2d23817ee435ea188c63b0b5fdc1f92f7ec9114cea9f23277dffe9cd19a6f84e"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/atlas-north_carolina.pdf",
+    "sha256": "311c64dd998fb1d7cc59a509307b02c2d3c1a9c31ba3946a8bff1f4b98164464"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/gov-fl-12.html",
+    "sha256": "fd4c6c01041228c4c190d3866efb69b85b32fb5e24df4634e325629286755cd0"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/gov-mi-13.html",
+    "sha256": "a442f432376f786147d31558a994dfb51c6fca00ada4befc9d0d7d6ce21d79b9"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/gov-mi-14.html",
+    "sha256": "0cbca6e1fa9dca779577afb570d6220742e8b9eec57c992a5fd8b73051de4fbc"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/sen-me-15.html",
+    "sha256": "b6f3103efa7b7f631e26bf339236bca739f32063243ba8bfe2241d19e9a75fee"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/gov-wi-16.html",
+    "sha256": "b8e9638fff87aa5092ddf287462e63fa96a023a9baa3d8bbba75f93855fe1cb9"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/gotv-iowa.html",
+    "sha256": "cb94dbc68d37e5a3c7a4f8a2580aaea23ba57866e45c195aee3d06446cda525b"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/targoz-fl.pdf",
+    "sha256": "6075e08c03493fd10ba1e294c38abee42cdf3350084ca84dc6f0e9cc047be416"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/rasmussen-me-tabs.html",
+    "sha256": "0092c3c41a2d5ddeabbf87d305ffb176365597da0c97ab19eca6e0cb2ee67bde"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/rasmussen-oh-gov.html",
+    "sha256": "3c386c6f503982f0037aacf0f588632c860c17f96d43c44c879a38f348aeb17a"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/rasmussen-oh-gov-tabs.html",
+    "sha256": "f787d96be227fa267d225e39570533072ac4c3ef43c62c8ce01e8541ec96655b"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/generic-filtered.html",
+    "sha256": "cdb679bada025520f427fc5ed2ce6385252c698b2f3fe90e809945893883e41c"
+  },
+  {
+    "path": "research/poll_scrub_20261103/sources/rasmussen-mi-gov-release.html",
+    "sha256": "1814bc55c3f371bc7c92924f4159360be6da30a08d50e288d56a6fb99279b604"
+  }
+]

@@ -1,0 +1,14 @@
+✔ prior-only generic ballot renders without formatting null values (1.574ms)
+✔ observed generic ballot retains numeric forecasts (0.371667ms)
+✔ independent candidate has a distinct leader and chamber allocation (0.260458ms)
+✔ chamber totals preserve an independent seat separately (0.2535ms)
+✔ rolling average shows available poll count, shares and signed margin (0.532333ms)
+✔ rolling average clears previous values when switching to a race without polls (0.260125ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 42.839083

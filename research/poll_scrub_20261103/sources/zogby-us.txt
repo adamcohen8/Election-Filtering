@@ -1,0 +1,24 @@
+PAGE 1
+John Zogby Strategies Interactive Poll of US Likely Voters
+11/1/26 -11/2/26
+N=1000 Margin of Error +/- 3.2 percentage points
+12b. All Congress Decided (2 way)
+Total Party Region IdeologyB
+n Democrat Republican Independent East South Centr GrLks West Lib Mod Cons
+ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ %
+Democrat 518 53.4 340 94.8 14 4.0 163 60.6 107 54.9 168 49.9 122 53.9 120 57.4 289 92.0 185 60.7 37 11.1
+Republican 452 46.6 19 5.2 327 96.0 106 39.4 88 45.1 169 50.1 104 46.1 89 42.6 25 8.0 120 39.3 297 88.9
+Total 969 100.0 359 100.0 340 100.0 270 100.0 196 100.0 337 100.0 226 100.0 209 100.0 314 100.0 305 100.0 334 100.0
+Total Age GroupC 4yr Degree? Location
+n 18-29 30-44 45-64 65+ Yes No Lge city Sm city Suburbs Rural
+ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ %
+Democrat 518 53.4 87 70.0 119 52.8 176 49.7 135 51.1 237 57.4 280 50.5 128 55.4 83 58.7 226 54.7 75 42.5
+Republican 452 46.6 37 30.0 106 47.2 178 50.3 129 48.9 176 42.6 275 49.5 103 44.6 59 41.3 187 45.3 101 57.5
+Total 969 100.0 124 100.0 226 100.0 355 100.0 265 100.0 413 100.0 555 100.0 231 100.0 142 100.0 414 100.0 176 100.0
+Total Race Child under 17 Gender
+n White Hispanic Black Asian Other Yes No Male Female Other
+ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ % ƒ %
+Democrat 518 53.4 343 49.0 53 53.8 82 76.5 18 65.3 19 65.3 102 46.3 410 55.8 238 50.8 277 56.1 3 38.3
+Republican 452 46.6 357 51.0 46 46.2 25 23.5 10 34.7 10 34.7 119 53.7 324 44.2 230 49.2 217 43.9 4 61.7
+Total 969 100.0 700 100.0 99 100.0 108 100.0 28 100.0 30 100.0 222 100.0 734 100.0 468 100.0 494 100.0 7 100.0
+Page 1

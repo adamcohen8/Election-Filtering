@@ -1,0 +1,2407 @@
+{
+  "excluded_on": "2026-11-03",
+  "reason": "User instructed: I want you to exclude Atlas Intel from the model",
+  "scope": "All modeled offices and all AtlasIntel waves, including future ingestion",
+  "polls": [
+    {
+      "race_id": "ak_sen",
+      "state": "Alaska",
+      "office": "senate",
+      "poll_id": "ak_sen--atlas-20261101",
+      "sample_id": "ak_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Dan Sullivan",
+      "candidate_b": "Mary Peltola",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 522,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__alaska___atlas_pollstergraph_poll_103afadb492016f2.pdf",
+      "source_location": "PDF page15, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(84.4, 14.8), (1.2, 98.5), (25.8, 63.8)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-alaska.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization. Alaska uses the initial full multi-candidate ballot; incumbent Dan S. Sullivan is distinguished from Dan J. Sullivan and Gerald Heikes. Alaska governor remains excluded.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.8440000000000001,
+      "republican_b": 0.14800000000000002,
+      "republican_n": null,
+      "democratic_a": 0.012,
+      "democratic_b": 0.985,
+      "democratic_n": null,
+      "independent_a": 0.258,
+      "independent_b": 0.638,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.8440000000000001,
+        "republican_b": 0.14800000000000002,
+        "democratic_a": 0.012,
+        "democratic_b": 0.985,
+        "independent_a": 0.258,
+        "independent_b": 0.638
+      },
+      "source_candidate_names": {
+        "candidate_a": "Dan Sullivan",
+        "candidate_b": "Mary Peltola"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "b0d6363abd58985bc466f2abcad6d91cb17d287c3694490d794ec5d226bedb36",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-alaska.pdf",
+          "sha256": "1c572c4c74b54a593e7ab557c1ae987d235847167e1ee953aaaad2b29683c3d1"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization. Alaska uses the initial full multi-candidate ballot; incumbent Dan S. Sullivan is distinguished from Dan J. Sullivan and Gerald Heikes. Alaska governor remains excluded.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ia_gov",
+      "state": "Iowa",
+      "office": "governor",
+      "poll_id": "ia_gov--atlas-20261101",
+      "sample_id": "ia_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Zach Lahn",
+      "candidate_b": "Rob Sand",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1219,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__iowa___atlas_pollstergraph_poll_115a969a5a5d4770.pdf",
+      "source_location": "PDF page21, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(86.8, 9.1), (6.1, 93.9), (29.5, 69.2)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-iowa.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.868,
+      "republican_b": 0.091,
+      "republican_n": null,
+      "democratic_a": 0.061,
+      "democratic_b": 0.9390000000000001,
+      "democratic_n": null,
+      "independent_a": 0.295,
+      "independent_b": 0.6920000000000001,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.868,
+        "republican_b": 0.091,
+        "democratic_a": 0.061,
+        "democratic_b": 0.9390000000000001,
+        "independent_a": 0.295,
+        "independent_b": 0.6920000000000001
+      },
+      "source_candidate_names": {
+        "candidate_a": "Zach Lahn",
+        "candidate_b": "Rob Sand"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "4d5918c3acfe4b6a15d36b404792f318fa22e164dabc89c74d263d2e4ef03db1",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-iowa.pdf",
+          "sha256": "54fb1e7e7be6e0fa401299326c3f84a82435bf21890bb540f9caf31c4922ed14"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ia_sen",
+      "state": "Iowa",
+      "office": "senate",
+      "poll_id": "ia_sen--atlas-20261101",
+      "sample_id": "ia_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Ashley Hinson",
+      "candidate_b": "Josh Turek",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1219,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__iowa___atlas_pollstergraph_poll_115a969a5a5d4770.pdf",
+      "source_location": "PDF page16, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(93.9, 3.2), (6.2, 92.6), (28.5, 66.3)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-iowa.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.9390000000000001,
+      "republican_b": 0.032,
+      "republican_n": null,
+      "democratic_a": 0.062,
+      "democratic_b": 0.9259999999999999,
+      "democratic_n": null,
+      "independent_a": 0.285,
+      "independent_b": 0.6629999999999999,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.9390000000000001,
+        "republican_b": 0.032,
+        "democratic_a": 0.062,
+        "democratic_b": 0.9259999999999999,
+        "independent_a": 0.285,
+        "independent_b": 0.6629999999999999
+      },
+      "source_candidate_names": {
+        "candidate_a": "Ashley Hinson",
+        "candidate_b": "Josh Turek"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "03e35b36f2836ab24b14105d56f5ba1c834136b11beb6b8c5fa6dfa0d489cab3",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-iowa.pdf",
+          "sha256": "54fb1e7e7be6e0fa401299326c3f84a82435bf21890bb540f9caf31c4922ed14"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ks_gov",
+      "state": "Kansas",
+      "office": "governor",
+      "poll_id": "ks_gov--atlas-20261101",
+      "sample_id": "ks_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Ty Masterson",
+      "candidate_b": "Cindy Holscher",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 2038,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__kansas___atlas_pollstergraph_poll_1bc9b9829579665d.pdf",
+      "source_location": "PDF page21, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(86.1, 10.2), (1.8, 96.0), (26.4, 66.8)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-kansas.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.861,
+      "republican_b": 0.102,
+      "republican_n": null,
+      "democratic_a": 0.018000000000000002,
+      "democratic_b": 0.96,
+      "democratic_n": null,
+      "independent_a": 0.264,
+      "independent_b": 0.6679999999999999,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.861,
+        "republican_b": 0.102,
+        "democratic_a": 0.018000000000000002,
+        "democratic_b": 0.96,
+        "independent_a": 0.264,
+        "independent_b": 0.6679999999999999
+      },
+      "source_candidate_names": {
+        "candidate_a": "Ty Masterson",
+        "candidate_b": "Cindy Holscher"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "bb8077e073412e22982bf81d1c776ced14dd992e1730eb93aa95bf41a475d80b",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-kansas.pdf",
+          "sha256": "f2ec3b8a393e706c4014d7e4b1aa4c76257f114d7ed4d5ab15afe394abc416bc"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ks_sen",
+      "state": "Kansas",
+      "office": "senate",
+      "poll_id": "ks_sen--atlas-20261101",
+      "sample_id": "ks_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Roger Marshall",
+      "candidate_b": "Adam Hamilton",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 2038,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__kansas___atlas_pollstergraph_poll_1bc9b9829579665d.pdf",
+      "source_location": "PDF page16, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(85.7, 12.2), (2.8, 96.1), (24.0, 70.0)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-kansas.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.857,
+      "republican_b": 0.122,
+      "republican_n": null,
+      "democratic_a": 0.027999999999999997,
+      "democratic_b": 0.961,
+      "democratic_n": null,
+      "independent_a": 0.24,
+      "independent_b": 0.7,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.857,
+        "republican_b": 0.122,
+        "democratic_a": 0.027999999999999997,
+        "democratic_b": 0.961,
+        "independent_a": 0.24,
+        "independent_b": 0.7
+      },
+      "source_candidate_names": {
+        "candidate_a": "Roger Marshall",
+        "candidate_b": "Adam Hamilton"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "e22e1c57231e9e216bfd84636ebd662bf8c48ffbfa30bc4beee8c297380494a5",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-kansas.pdf",
+          "sha256": "f2ec3b8a393e706c4014d7e4b1aa4c76257f114d7ed4d5ab15afe394abc416bc"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "me_gov",
+      "state": "Maine",
+      "office": "governor",
+      "poll_id": "me_gov--atlas-20261101",
+      "sample_id": "me_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Bobby Charles",
+      "candidate_b": "Hannah Pingree",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 967,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__maine___atlas_pollstergraph_poll_06367ed11aab069d.pdf",
+      "source_location": "PDF page21, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(96.4, 1.0), (1.8, 87.6), (34.5, 54.8)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-maine.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.9640000000000001,
+      "republican_b": 0.01,
+      "republican_n": null,
+      "democratic_a": 0.018000000000000002,
+      "democratic_b": 0.8759999999999999,
+      "democratic_n": null,
+      "independent_a": 0.345,
+      "independent_b": 0.5479999999999999,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.9640000000000001,
+        "republican_b": 0.01,
+        "democratic_a": 0.018000000000000002,
+        "democratic_b": 0.8759999999999999,
+        "independent_a": 0.345,
+        "independent_b": 0.5479999999999999
+      },
+      "source_candidate_names": {
+        "candidate_a": "Bobby Charles",
+        "candidate_b": "Hannah Pingree"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "ff604034e107df61fa7b976c2be0cd6a4709aafde95563758fa599e16f2b9056",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-maine.pdf",
+          "sha256": "bcf38cbc3f15a6b99f9d120c6ca21ed2300b190eaf6abe6db80820b661da3ada"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "me_sen",
+      "state": "Maine",
+      "office": "senate",
+      "poll_id": "me_sen--atlas-20261101",
+      "sample_id": "me_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Susan Collins",
+      "candidate_b": "Troy Jackson",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 967,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__maine___atlas_pollstergraph_poll_06367ed11aab069d.pdf",
+      "source_location": "PDF page16, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(96.1, 1.3), (2.0, 97.4), (39.2, 56.1)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-maine.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.961,
+      "republican_b": 0.013000000000000001,
+      "republican_n": null,
+      "democratic_a": 0.02,
+      "democratic_b": 0.9740000000000001,
+      "democratic_n": null,
+      "independent_a": 0.392,
+      "independent_b": 0.561,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.961,
+        "republican_b": 0.013000000000000001,
+        "democratic_a": 0.02,
+        "democratic_b": 0.9740000000000001,
+        "independent_a": 0.392,
+        "independent_b": 0.561
+      },
+      "source_candidate_names": {
+        "candidate_a": "Susan Collins",
+        "candidate_b": "Troy Jackson"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "2cbb13d8b9e9a24bac5a1bed80973b30baf2da6199a8baed59610294b4ef6bbc",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-maine.pdf",
+          "sha256": "bcf38cbc3f15a6b99f9d120c6ca21ed2300b190eaf6abe6db80820b661da3ada"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "mi_gov",
+      "state": "Michigan",
+      "office": "governor",
+      "poll_id": "mi_gov--atlas-20261101",
+      "sample_id": "mi_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "John James",
+      "candidate_b": "Jocelyn Benson",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1316,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__michigan___atlas_pollstergraph_poll_a513687e165fc30f.pdf",
+      "source_location": "PDF page17, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(99.2, 0.4), (0.1, 99.4), (40.5, 55.6)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-michigan.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.992,
+      "republican_b": 0.004,
+      "republican_n": null,
+      "democratic_a": 0.001,
+      "democratic_b": 0.9940000000000001,
+      "democratic_n": null,
+      "independent_a": 0.405,
+      "independent_b": 0.556,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.992,
+        "republican_b": 0.004,
+        "democratic_a": 0.001,
+        "democratic_b": 0.9940000000000001,
+        "independent_a": 0.405,
+        "independent_b": 0.556
+      },
+      "source_candidate_names": {
+        "candidate_a": "John James",
+        "candidate_b": "Jocelyn Benson"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "6ed18b896df4f8e44391bd7f1246516c7c259308acb46f29d752fbc6057bad3b",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-michigan.pdf",
+          "sha256": "bc24388432302a7163fe91d92ab37a4bbba9bb5f9bec8f45787e82ad52aa78a0"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "mi_sen",
+      "state": "Michigan",
+      "office": "senate",
+      "poll_id": "mi_sen--atlas-20261101",
+      "sample_id": "mi_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Mike Rogers",
+      "candidate_b": "Abdul El-Sayed",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1316,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__michigan___atlas_pollstergraph_poll_a513687e165fc30f.pdf",
+      "source_location": "PDF page12, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(99.5, 0.5), (0.1, 99.8), (43.9, 55.9)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-michigan.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.995,
+      "republican_b": 0.005,
+      "republican_n": null,
+      "democratic_a": 0.001,
+      "democratic_b": 0.998,
+      "democratic_n": null,
+      "independent_a": 0.439,
+      "independent_b": 0.5589999999999999,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.995,
+        "republican_b": 0.005,
+        "democratic_a": 0.001,
+        "democratic_b": 0.998,
+        "independent_a": 0.439,
+        "independent_b": 0.5589999999999999
+      },
+      "source_candidate_names": {
+        "candidate_a": "Mike Rogers",
+        "candidate_b": "Abdul El-Sayed"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "076655e2ff758459393eed2ce4385fed95bc18d61907a952926f6e2329916c79",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-michigan.pdf",
+          "sha256": "bc24388432302a7163fe91d92ab37a4bbba9bb5f9bec8f45787e82ad52aa78a0"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "mn_sen",
+      "state": "Minnesota",
+      "office": "senate",
+      "poll_id": "mn_sen--atlas-20261101",
+      "sample_id": "mn_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Michele Tafoya",
+      "candidate_b": "Peggy Flanagan",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 2133,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__minnesota___atlas_pollstergraph_poll_48c699d1876c5ca0.pdf",
+      "source_location": "PDF page16, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(98.8, 0.5), (3.4, 95.6), (46.4, 39.0)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-minnesota.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.988,
+      "republican_b": 0.005,
+      "republican_n": null,
+      "democratic_a": 0.034,
+      "democratic_b": 0.956,
+      "democratic_n": null,
+      "independent_a": 0.46399999999999997,
+      "independent_b": 0.39,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.988,
+        "republican_b": 0.005,
+        "democratic_a": 0.034,
+        "democratic_b": 0.956,
+        "independent_a": 0.46399999999999997,
+        "independent_b": 0.39
+      },
+      "source_candidate_names": {
+        "candidate_a": "Michele Tafoya",
+        "candidate_b": "Peggy Flanagan"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "7cc6763d2223d709c20316cc7dba643c370f7ba47bd1dc350290241e97508f9b",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-minnesota.pdf",
+          "sha256": "77fcbbc49cc953839b7549e57b227c756f63b1a0bcaf9914929e42db50fb80d8"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "nc_sen",
+      "state": "North Carolina",
+      "office": "senate",
+      "poll_id": "nc_sen--atlas-20261101",
+      "sample_id": "nc_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Michael Whatley",
+      "candidate_b": "Roy Cooper",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1459,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__north_carolina___atlas_pollstergraph_poll_e2d4022e2b251d27.pdf",
+      "source_location": "PDF page16, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(89.6, 7.9), (0.5, 99.5), (30.4, 66.2)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-north_carolina.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.8959999999999999,
+      "republican_b": 0.079,
+      "republican_n": null,
+      "democratic_a": 0.005,
+      "democratic_b": 0.995,
+      "democratic_n": null,
+      "independent_a": 0.304,
+      "independent_b": 0.662,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.8959999999999999,
+        "republican_b": 0.079,
+        "democratic_a": 0.005,
+        "democratic_b": 0.995,
+        "independent_a": 0.304,
+        "independent_b": 0.662
+      },
+      "source_candidate_names": {
+        "candidate_a": "Michael Whatley",
+        "candidate_b": "Roy Cooper"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "20748379da6d2136835b63d23b7b2191b3856c2701fd2a79d5d7ad54d4a3a6ea",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-north_carolina.pdf",
+          "sha256": "311c64dd998fb1d7cc59a509307b02c2d3c1a9c31ba3946a8bff1f4b98164464"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "nh_gov",
+      "state": "New Hampshire",
+      "office": "governor",
+      "poll_id": "nh_gov--atlas-20261101",
+      "sample_id": "nh_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Kelly Ayotte",
+      "candidate_b": "Cinde Warmington",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1057,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__new_hampshire___atlas_pollstergraph_poll_8a777e8b3b81438d.pdf",
+      "source_location": "PDF page18, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(90.0, 6.5), (6.1, 90.8), (49.3, 40.6)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-new_hampshire.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.9,
+      "republican_b": 0.065,
+      "republican_n": null,
+      "democratic_a": 0.061,
+      "democratic_b": 0.9079999999999999,
+      "democratic_n": null,
+      "independent_a": 0.493,
+      "independent_b": 0.406,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.9,
+        "republican_b": 0.065,
+        "democratic_a": 0.061,
+        "democratic_b": 0.9079999999999999,
+        "independent_a": 0.493,
+        "independent_b": 0.406
+      },
+      "source_candidate_names": {
+        "candidate_a": "Kelly Ayotte",
+        "candidate_b": "Cinde Warmington"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "9aa79a6a5abd169233906fdcf8e75f17b0f22387efb9da47be9a428bdcd168af",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-new_hampshire.pdf",
+          "sha256": "1a655a79ae60f383513eb6b49c3948ea6721b23a49e94f902bcda3e36a9fed0a"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "nh_sen",
+      "state": "New Hampshire",
+      "office": "senate",
+      "poll_id": "nh_sen--atlas-20261101",
+      "sample_id": "nh_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "John E. Sununu",
+      "candidate_b": "Chris Pappas",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1057,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__new_hampshire___atlas_pollstergraph_poll_8a777e8b3b81438d.pdf",
+      "source_location": "PDF page13, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(92.0, 6.5), (3.1, 95.0), (37.8, 56.6)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-new_hampshire.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.92,
+      "republican_b": 0.065,
+      "republican_n": null,
+      "democratic_a": 0.031,
+      "democratic_b": 0.95,
+      "democratic_n": null,
+      "independent_a": 0.37799999999999995,
+      "independent_b": 0.5660000000000001,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.92,
+        "republican_b": 0.065,
+        "democratic_a": 0.031,
+        "democratic_b": 0.95,
+        "independent_a": 0.37799999999999995,
+        "independent_b": 0.5660000000000001
+      },
+      "source_candidate_names": {
+        "candidate_a": "John E. Sununu",
+        "candidate_b": "Chris Pappas"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "f7597edaaa593aa2a44a12720c21957149c8019845a3cd15783e0a81cc6e12f1",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-new_hampshire.pdf",
+          "sha256": "1a655a79ae60f383513eb6b49c3948ea6721b23a49e94f902bcda3e36a9fed0a"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "oh_gov",
+      "state": "Ohio",
+      "office": "governor",
+      "poll_id": "oh_gov--atlas-20261101",
+      "sample_id": "oh_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Vivek Ramaswamy",
+      "candidate_b": "Amy Acton",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1801,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__ohio___atlas_pollstergraph_poll_a53ea713086dbbe0.pdf",
+      "source_location": "PDF page21, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(88.3, 8.6), (0.6, 97.3), (29.7, 62.4)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-ohio.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.883,
+      "republican_b": 0.086,
+      "republican_n": null,
+      "democratic_a": 0.006,
+      "democratic_b": 0.973,
+      "democratic_n": null,
+      "independent_a": 0.297,
+      "independent_b": 0.624,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.883,
+        "republican_b": 0.086,
+        "democratic_a": 0.006,
+        "democratic_b": 0.973,
+        "independent_a": 0.297,
+        "independent_b": 0.624
+      },
+      "source_candidate_names": {
+        "candidate_a": "Vivek Ramaswamy",
+        "candidate_b": "Amy Acton"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "f6ffbae730ff9591176df76b2e031f1bf4295c5077024fffb419a08a3395025a",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-ohio.pdf",
+          "sha256": "2d23817ee435ea188c63b0b5fdc1f92f7ec9114cea9f23277dffe9cd19a6f84e"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "oh_sen",
+      "state": "Ohio",
+      "office": "senate",
+      "poll_id": "oh_sen--atlas-20261101",
+      "sample_id": "oh_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "sponsor": "PollsterGraph",
+      "candidate_a": "Jon Husted",
+      "candidate_b": "Sherrod Brown",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1801,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__ohio___atlas_pollstergraph_poll_a53ea713086dbbe0.pdf",
+      "source_location": "PDF page16, raw ballot crosstabs, PARTISANSHIP D/R/I columns; page5 target LV/sample",
+      "evidence_excerpt": "Published conditional candidate A/B percentages within R,D,I groups: [(87.3, 7.3), (0, 99.1), (31.4, 61.4)]",
+      "evidence_path": "research/poll_scrub_20261103/sources/atlas-ohio.pdf",
+      "notes": "Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "ballot_question_stage": "Published full ballot; no analyst undecided/other redistribution",
+      "scrub_id": "poll_scrub_20261103",
+      "republican_a": 0.873,
+      "republican_b": 0.073,
+      "republican_n": null,
+      "democratic_a": 0.0,
+      "democratic_b": 0.991,
+      "democratic_n": null,
+      "independent_a": 0.314,
+      "independent_b": 0.614,
+      "independent_n": null,
+      "additional_source_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-exclusive.html",
+          "sha256": "43d12a72abafacfd2f131a451706e72357f5fb40273060101f1e29c57c9ea395",
+          "url": "https://www.atlasintel.org/polls/exclusive-polls"
+        }
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.873,
+        "republican_b": 0.073,
+        "democratic_a": 0.0,
+        "democratic_b": 0.991,
+        "independent_a": 0.314,
+        "independent_b": 0.614
+      },
+      "source_candidate_names": {
+        "candidate_a": "Jon Husted",
+        "candidate_b": "Sherrod Brown"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "ddf712a1b8778ad3d30b96834385d265f083275b727c6eda66ccd52821728ea5",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_scrub_20261103/sources/atlas-ohio.pdf",
+          "sha256": "2d23817ee435ea188c63b0b5fdc1f92f7ec9114cea9f23277dffe9cd19a6f84e"
+        }
+      ],
+      "review_reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "tx_gov",
+      "state": "Texas",
+      "office": "governor",
+      "poll_id": "tx_gov--atlas-20261101",
+      "sample_id": "tx_gov--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "candidate_a": "Greg Abbott",
+      "candidate_b": "Gina Hinojosa",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-01",
+      "population": "LV",
+      "reported_total_n": 1678,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__texas_110126_1_e8958087c4dc49a8.pdf",
+      "source_location": "PDF page21 raw vote crosstabs, PARTISANSHIP D/R/I; page5 LV population",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I respondent groups: [(93.8, 5.6), (0, 96.3), (31.4, 62.5)]",
+      "evidence_path": "research/poll_refresh_20261102/sources/atlas-tx.pdf",
+      "notes": "Raw published ballot, not adjacent valid-votes chart. Primary LV population overrides aggregator adult label. Chart visually inspected; subgroup Ns absent.",
+      "republican_a": 0.938,
+      "republican_b": 0.055999999999999994,
+      "republican_n": null,
+      "democratic_a": 0.0,
+      "democratic_b": 0.963,
+      "democratic_n": null,
+      "independent_a": 0.314,
+      "independent_b": 0.625,
+      "independent_n": null,
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.938,
+        "republican_b": 0.055999999999999994,
+        "democratic_a": 0.0,
+        "democratic_b": 0.963,
+        "independent_a": 0.314,
+        "independent_b": 0.625
+      },
+      "source_candidate_names": {
+        "candidate_a": "Greg Abbott",
+        "candidate_b": "Gina Hinojosa"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable party subgroup bases are not published. Null Ns retained and the existing conservative 5pp cell SD covariance used."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "bfb6258bf59e2f3456a44313485747a07b17db56779d3c2d6cac82040e13f480",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_refresh_20261102/sources/atlas-tx.pdf",
+          "sha256": "ec9cdabb60b97f3156824817ae7d883255f880a107c43a2855571d0b1f6dc700"
+        }
+      ],
+      "review_reason": "All six conditional support cells verified in the primary source. Raw published ballot, not adjacent valid-votes chart. Primary LV population overrides aggregator adult label. Chart visually inspected; subgroup Ns absent.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "tx_sen",
+      "state": "Texas",
+      "office": "senate",
+      "poll_id": "tx_sen--atlas-20261101",
+      "sample_id": "tx_sen--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "candidate_a": "Ken Paxton",
+      "candidate_b": "James Talarico",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-01",
+      "population": "LV",
+      "reported_total_n": 1678,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__texas_110126_1_e8958087c4dc49a8.pdf",
+      "source_location": "PDF page16 raw vote crosstabs, PARTISANSHIP D/R/I; page5 LV population",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I respondent groups: [(90.9, 6.6), (0, 100), (28, 64.5)]",
+      "evidence_path": "research/poll_refresh_20261102/sources/atlas-tx.pdf",
+      "notes": "Raw published ballot, not adjacent valid-votes chart. Primary LV population overrides aggregator adult label. Chart visually inspected; subgroup Ns absent.",
+      "republican_a": 0.909,
+      "republican_b": 0.066,
+      "republican_n": null,
+      "democratic_a": 0.0,
+      "democratic_b": 1.0,
+      "democratic_n": null,
+      "independent_a": 0.28,
+      "independent_b": 0.645,
+      "independent_n": null,
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.909,
+        "republican_b": 0.066,
+        "democratic_a": 0.0,
+        "democratic_b": 1.0,
+        "independent_a": 0.28,
+        "independent_b": 0.645
+      },
+      "source_candidate_names": {
+        "candidate_a": "Ken Paxton",
+        "candidate_b": "James Talarico"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable party subgroup bases are not published. Null Ns retained and the existing conservative 5pp cell SD covariance used."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "a838b40188fa5c2d32753ab908ce540ce688d28faa8bf5bc87dc3a19117a2d57",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_refresh_20261102/sources/atlas-tx.pdf",
+          "sha256": "ec9cdabb60b97f3156824817ae7d883255f880a107c43a2855571d0b1f6dc700"
+        }
+      ],
+      "review_reason": "All six conditional support cells verified in the primary source. Raw published ballot, not adjacent valid-votes chart. Primary LV population overrides aggregator adult label. Chart visually inspected; subgroup Ns absent.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "poll_id": "us_house_generic--atlas-20261101",
+      "sample_id": "us_house_generic--atlas-20261101",
+      "pollster": "AtlasIntel",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-28",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-01",
+      "population": "LV",
+      "reported_total_n": 3566,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://cdn1.atlasintel.org/2026_midterms__national_poll_110126_1_87e74540c4d7f251.pdf",
+      "source_location": "PDF page16 generic ballot crosstabs, PARTISANSHIP D/R/I; page5 LV population",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I respondent groups: [(88.5, 9.5), (1.4, 97.5), (32.4, 61.4)]",
+      "evidence_path": "research/poll_refresh_20261102/sources/atlas.pdf",
+      "notes": "Primary report identifies likely voters, despite aggregator labeling adults. Chart cells visually verified. Partisanship label, leaner treatment unspecified; no subgroup Ns. No valid-vote renormalization.",
+      "republican_a": 0.885,
+      "republican_b": 0.095,
+      "republican_n": null,
+      "democratic_a": 0.013999999999999999,
+      "democratic_b": 0.975,
+      "democratic_n": null,
+      "independent_a": 0.324,
+      "independent_b": 0.614,
+      "independent_n": null,
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.885,
+        "republican_b": 0.095,
+        "democratic_a": 0.013999999999999999,
+        "democratic_b": 0.975,
+        "independent_a": 0.324,
+        "independent_b": 0.614
+      },
+      "source_candidate_names": {
+        "candidate_a": "Generic Republican",
+        "candidate_b": "Generic Democrat"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Exact applicable party subgroup bases are not published. Null Ns retained and the existing conservative 5pp cell SD covariance used."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "atlas-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "b2e1d6e2b0ff1589bc6f13852f559f7a195019fd323cfe30f5f98114810d9e54",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_refresh_20261102/sources/atlas.pdf",
+          "sha256": "ee8beb932a2ed5f37c50736d58ef32e77260e6425131ea374263c2b5a529f358"
+        }
+      ],
+      "review_reason": "All six conditional support cells verified in the primary source. Primary report identifies likely voters, despite aggregator labeling adults. Chart cells visually verified. Partisanship label, leaner treatment unspecified; no subgroup Ns. No valid-vote renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    }
+  ]
+}

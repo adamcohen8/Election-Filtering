@@ -1,0 +1,205 @@
+{
+  "decisions": {
+    "ak_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization. Alaska uses the initial full multi-candidate ballot; incumbent Dan S. Sullivan is distinguished from Dan J. Sullivan and Gerald Heikes. Alaska governor remains excluded.",
+      "record_sha256": "b0d6363abd58985bc466f2abcad6d91cb17d287c3694490d794ec5d226bedb36",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "ia_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "03e35b36f2836ab24b14105d56f5ba1c834136b11beb6b8c5fa6dfa0d489cab3",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "ia_gov/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "4d5918c3acfe4b6a15d36b404792f318fa22e164dabc89c74d263d2e4ef03db1",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "ks_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "e22e1c57231e9e216bfd84636ebd662bf8c48ffbfa30bc4beee8c297380494a5",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "ks_gov/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "bb8077e073412e22982bf81d1c776ced14dd992e1730eb93aa95bf41a475d80b",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "me_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "2cbb13d8b9e9a24bac5a1bed80973b30baf2da6199a8baed59610294b4ef6bbc",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "me_gov/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "ff604034e107df61fa7b976c2be0cd6a4709aafde95563758fa599e16f2b9056",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "mi_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "076655e2ff758459393eed2ce4385fed95bc18d61907a952926f6e2329916c79",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "mi_gov/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "6ed18b896df4f8e44391bd7f1246516c7c259308acb46f29d752fbc6057bad3b",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "mn_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "7cc6763d2223d709c20316cc7dba643c370f7ba47bd1dc350290241e97508f9b",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "nh_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "f7597edaaa593aa2a44a12720c21957149c8019845a3cd15783e0a81cc6e12f1",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "nh_gov/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "9aa79a6a5abd169233906fdcf8e75f17b0f22387efb9da47be9a428bdcd168af",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "nc_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "20748379da6d2136835b63d23b7b2191b3856c2701fd2a79d5d7ad54d4a3a6ea",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "oh_sen/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "ddf712a1b8778ad3d30b96834385d265f083275b727c6eda66ccd52821728ea5",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "oh_gov/atlas-20261101": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Atlas/PollsterGraph primary report, published November2 on the Atlas exclusive public-polls page. All-likely-voter raw ballot, not adjacent valid-vote charts. PARTISANSHIP Democrat/Republican/Independent columns; party-leaner classification unspecified. No subgroup Ns. Undecided/other/nonvoting shares retained outside the two candidates. Charts are embedded images and were visually checked in full-page renders; source figures copied without renormalization.",
+      "record_sha256": "f6ffbae730ff9591176df76b2e031f1bf4295c5077024fffb419a08a3395025a",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      }
+    },
+    "me_sen/rasmussen-20261102": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Complete public demographic HTML table, with all six support cells. Party label does not establish self-ID versus registration, so use previously authorized unspecified-party proxy. No subgroup Ns; rounded party composition is not converted to interviews. Full ballot with residual other/undecided retained. Publication date verified in archived release HTML. Independent is separate from Another party in Ohio; published Ind/Other grouping retained for Maine/Michigan.",
+      "record_sha256": "9168d825e6366e452312b36b757fc1db00e88d392187501cf15558e9b430f368",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "allow_proxy": true
+    },
+    "mi_gov/rasmussen-20261029": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Complete public demographic HTML table, with all six support cells. Party label does not establish self-ID versus registration, so use previously authorized unspecified-party proxy. No subgroup Ns; rounded party composition is not converted to interviews. Full ballot with residual other/undecided retained. Publication date verified in archived release HTML. Independent is separate from Another party in Ohio; published Ind/Other grouping retained for Maine/Michigan.",
+      "record_sha256": "c3e1a3dd92c2b3393c2cbb2360eabd2cce4d0cdd67ce5ec29fc009ce3a3ca377",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "allow_proxy": true
+    },
+    "oh_gov/rasmussen-20261031": {
+      "action": "accept",
+      "reason": "All six full-ballot conditional party support cells verified against primary source. Complete public demographic HTML table, with all six support cells. Party label does not establish self-ID versus registration, so use previously authorized unspecified-party proxy. No subgroup Ns; rounded party composition is not converted to interviews. Full ballot with residual other/undecided retained. Publication date verified in archived release HTML. Independent is separate from Another party in Ohio; published Ind/Other grouping retained for Maine/Michigan.",
+      "record_sha256": "add83807fd76e35981f8226fd048b0a7128c0bf62cb3d597c245283b5952a4b6",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup respondent counts not reported. Null Ns retained; established conservative 5pp support-cell SD with -0.5 within-group pair correlation, zero between-group correlation. No synthetic counts or precision inferred from headline N."
+      },
+      "allow_proxy": true
+    }
+  }
+}

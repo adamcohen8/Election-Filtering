@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-11-03",
+  "before_rows": 347,
+  "after_rows": 329,
+  "removed_observations": 18,
+  "removed_by_office": {
+    "senate": 10,
+    "governor": 7,
+    "generic_ballot": 1
+  },
+  "removed_by_race": {
+    "ak_sen": 1,
+    "ia_gov": 1,
+    "ia_sen": 1,
+    "ks_gov": 1,
+    "ks_sen": 1,
+    "me_gov": 1,
+    "me_sen": 1,
+    "mi_gov": 1,
+    "mi_sen": 1,
+    "mn_sen": 1,
+    "nc_sen": 1,
+    "nh_gov": 1,
+    "nh_sen": 1,
+    "oh_gov": 1,
+    "oh_sen": 1,
+    "tx_gov": 1,
+    "tx_sen": 1,
+    "us_house_generic": 1
+  },
+  "all_other_329_inputs_unchanged": true,
+  "all_original_source_records_and_reviews_preserved": true,
+  "all_28_turnout_weights_and_model_settings_preserved": true,
+  "unaffected_races_preserved": [
+    "fl_sen",
+    "ga_sen",
+    "ne_sen",
+    "fl_gov",
+    "ga_gov",
+    "pa_gov",
+    "az_gov",
+    "wi_gov",
+    "nv_gov",
+    "mn_gov"
+  ],
+  "no_excluded_polls_in_active_feed_ledger_snapshot_history_or_rolling_averages": true,
+  "snapshot_forecasts_ledger_history_match_full_replay": true,
+  "rolling_averages_independently_recomputed": true,
+  "acquisition_checks_passed": 5,
+  "python_tests_passed": 116,
+  "ui_tests_passed": 6,
+  "feed_sha256": "3a1489c053ffe7c863f11ac7d46c80a05cd262919d2c84ddc522b0995ed3a7e2",
+  "limitations": [
+    "Historical Maine calibration datasets intentionally absent; no empirical forecasting-calibration claim."
+  ]
+}

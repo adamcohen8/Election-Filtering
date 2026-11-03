@@ -1,0 +1,70 @@
+{
+  "checked_on": "2026-11-01",
+  "reviewed_records": 134,
+  "accepted_waves": 129,
+  "held_records": 5,
+  "distinct_samples": 129,
+  "models": 28,
+  "senate_models_with_data": 13,
+  "party_basis_counts": {
+    "party_basis_unspecified": 31,
+    "party_id": 72,
+    "party_registration": 19,
+    "modeled_party_id": 6,
+    "modeled_subgroup_estimate": 1
+  },
+  "model_base_method_counts": {
+    "assumed_covariance": 24,
+    "reported_weighted": 22,
+    "reported_count_weighting_unspecified": 26,
+    "reported_unweighted": 18,
+    "derived_total_x_share": 26,
+    "suppression_lower_bound": 12,
+    "reported_effective": 1
+  },
+  "field_date_range": [
+    "2025-04-27",
+    "2026-10-31"
+  ],
+  "publication_date_range": [
+    "2025-08-08",
+    "2026-11-01"
+  ],
+  "publication_date_range_including_bounds": [
+    "2025-04-27",
+    "2026-11-01"
+  ],
+  "publication_dates_bounded_not_exact": 8,
+  "backfill_counts": {
+    "ga_sen": 8,
+    "ak_sen": 7,
+    "ks_sen": 2,
+    "nh_sen": 4,
+    "mn_sen": 4,
+    "nc_sen": 3,
+    "fl_sen": 1,
+    "ia_sen": 3,
+    "mi_sen": 1
+  },
+  "remaining_shortfall": {
+    "ks_sen": 1
+  },
+  "baseline_rows_unchanged": true,
+  "explicit_covariance_count": 24,
+  "feed_sha256": "6ca59daeaf15dc8e1aeea930180d8594a727391a88f27e8f90b012ad67ac4f8a",
+  "full_feed_sha256": "27960d07688194a0df4fa7a4e399ee3e7235f140171568a1443d63b009562ca2",
+  "replay_matches_snapshot_atol": 1e-15,
+  "maximum_restored_covariance_difference": 0.0,
+  "source_artifacts_hash_checked": 132,
+  "ledger_matches_replay": true,
+  "turnout_sd_1pp_all_races": true,
+  "minnesota_weights": [
+    0.34,
+    0.37,
+    0.29
+  ],
+  "governor_and_generic_models_prior_only": false,
+  "test_limitations": [
+    "Historical Maine calibration requires the original datasets, intentionally not cloned. No forecast calibration or accuracy validation claimed."
+  ]
+}

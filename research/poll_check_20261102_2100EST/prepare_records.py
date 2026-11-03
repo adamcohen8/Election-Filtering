@@ -123,10 +123,21 @@ if __name__=='__main__':
     if args.append:
         dest=ROOT/'research/poll_refresh_20261102'
         old=json.loads((BASE/'baseline/before-5-polls.json').read_text());config=json.loads((BASE/'baseline/before-6-review-decisions.json').read_text())
-        # Base from archived raw records makes this append idempotent.
+        # Preserve later reviewed increments when reproducing this acquisition.
         assert len(old['polls'])==32 and not (set(config['decisions'])&set(decisions))
-        old['polls'].extend(rows);config['decisions'].update(decisions)
-        config['window']['start']='2026-10-31'
+        current=json.loads((dest/'polls.json').read_text());current_config=json.loads((dest/'review-decisions.json').read_text())
+        assert current['polls'][:32]==old['polls']
+        assert all(current_config['decisions'][k]==v for k,v in config['decisions'].items())
+        by_key={(r['race_id'],r['poll_id']):r for r in current['polls']}
+        for row in rows:
+            key=(row['race_id'],row['poll_id'])
+            if key in by_key:assert by_key[key]==row
+            else:current['polls'].append(row)
+        for key,review in decisions.items():
+            if key in current_config['decisions']:assert current_config['decisions'][key]==review
+            else:current_config['decisions'][key]=review
+        old,config=current,current_config
+        config['window']['start']=min(config['window']['start'],'2026-10-31')
         config['scheduled_increment']={'checked_at':'2026-11-02T21:00:00-05:00','new_observations':13,'source':'research/poll_check_20261102_2100EST','window_note':'Start broadened only to accommodate honest October31–November2 first-publication bounds for newly available Iowa Rasmussen page with stale dateline. Original32 reviewed records unchanged.'}
         write(dest/'polls.json',old);write(dest/'review-decisions.json',config)
     print(json.dumps({'prepared':len(rows),'new_surveys':8,'new_races':sorted(set(r['race_id'] for r in rows)),'appended':args.append},indent=2))

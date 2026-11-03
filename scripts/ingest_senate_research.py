@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from election_modeling.cycles import SENATE_2026_RACES, create_2026_election_model
 from election_modeling.ingestion import (
     IngestionLedger, NormalizedPoll, PollIngestionPipeline, StaticPollSource,
-    canonical_poll, measurement_key,
+    canonical_poll, measurement_key, user_pollster_exclusion_reason,
 )
 from election_modeling.persistence import save_election_model
 from election_modeling.public import public_forecast_payload, public_race_history_payload
@@ -44,6 +44,9 @@ def normalize_reviewed_row(raw: dict, review: dict, *, source_path: str,
                            expected_office: str = "senate") -> dict:
     """Produce a model row without disguising estimates as respondent counts."""
     row = {**raw, **review.get("overrides", {})}
+    exclusion = user_pollster_exclusion_reason(row.get("pollster", ""))
+    if exclusion:
+        raise ValueError(exclusion)
     publication = row.get("publication_date")
     if publication is None:
         bounds = review.get("publication_date_bounds")
@@ -237,6 +240,10 @@ def compile_research(research_root: Path, decisions: dict, *, race_specs=None,
                 raise ValueError(f"explicit review missing: {key}")
             if review.get("record_sha256") != digest(raw):
                 raise ValueError(f"research changed after review: {key}")
+            exclusion = user_pollster_exclusion_reason(raw.get("pollster", ""))
+            if exclusion:
+                held.append({"key": key, "reason": exclusion, "source_url": raw.get("source_url")})
+                continue
             if review["action"] == "hold":
                 held.append({"key": key, "reason": review["reason"], "source_url": raw.get("source_url")})
                 continue

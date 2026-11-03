@@ -1,15 +1,15 @@
 {
   "acquisition_id": "poll_refresh_20261102",
   "window": {
-    "start": "2026-10-31",
-    "end": "2026-11-02"
+    "start": "2026-10-30",
+    "end": "2026-11-03"
   },
   "new_observations": 44,
   "revised_observations": 1,
   "new_by_office": {
+    "governor": 19,
     "senate": 22,
-    "governor": 18,
-    "generic_ballot": 4
+    "generic_ballot": 3
   },
   "new_by_race": {
     "ak_sen": 1,
@@ -22,8 +22,8 @@
     "ks_gov": 1,
     "ks_sen": 1,
     "me_gov": 2,
-    "me_sen": 2,
-    "mi_gov": 1,
+    "me_sen": 3,
+    "mi_gov": 2,
     "mi_sen": 1,
     "mn_gov": 2,
     "mn_sen": 3,
@@ -31,28 +31,28 @@
     "ne_sen": 1,
     "nh_gov": 1,
     "nh_sen": 1,
-    "oh_gov": 3,
+    "oh_gov": 4,
     "oh_sen": 4,
     "pa_gov": 1,
-    "tx_gov": 2,
-    "tx_sen": 2,
-    "us_house_generic": 4,
+    "tx_gov": 1,
+    "tx_sen": 1,
+    "us_house_generic": 3,
     "wi_gov": 1
   },
   "new_by_pollster": {
+    "Rasmussen Reports": 6,
     "East Carolina University": 1,
     "InsiderAdvantage": 6,
     "YouGov": 1,
-    "Rasmussen Reports": 3,
     "GrayHouse": 2,
     "University of New Hampshire Survey Center": 4,
     "Survey 160": 8,
     "Research Co.": 14,
-    "AtlasIntel": 3,
     "Focaldata/Financial Times": 1,
     "Reuters/Ipsos": 1
   },
   "accepted_poll_ids": [
+    "mi_gov--rasmussen-20261029",
     "nc_sen--ecu-20261029",
     "mn_sen--insider-20261030",
     "oh_gov--insider-20261030",
@@ -66,6 +66,7 @@
     "me_sen--unh-20261031",
     "nh_gov--unh-20261031",
     "nh_sen--unh-20261031",
+    "oh_gov--rasmussen-20261031",
     "oh_sen--rasmussen-20261031",
     "ak_sen--insider-20261101",
     "ks_gov--survey160-20261101",
@@ -84,9 +85,6 @@
     "oh_sen--researchco-20261101",
     "oh_sen--survey160-20261101",
     "pa_gov--researchco-20261101",
-    "tx_gov--atlas-20261101",
-    "tx_sen--atlas-20261101",
-    "us_house_generic--atlas-20261101",
     "us_house_generic--focaldata-20261101",
     "wi_gov--researchco-20261101",
     "fl_gov--researchco-20261102",
@@ -95,6 +93,7 @@
     "ga_gov--researchco-20261102",
     "ga_sen--insider-20261102",
     "ga_sen--researchco-20261102",
+    "me_sen--rasmussen-20261102",
     "tx_gov--researchco-20261102",
     "tx_sen--researchco-20261102",
     "us_house_generic--ipsos-20261102"
@@ -115,8 +114,8 @@
     "ks_gov": 8,
     "ks_sen": 10,
     "me_gov": 12,
-    "me_sen": 12,
-    "mi_gov": 11,
+    "me_sen": 13,
+    "mi_gov": 12,
     "mi_sen": 11,
     "mn_gov": 12,
     "mn_sen": 13,
@@ -125,12 +124,12 @@
     "nh_gov": 11,
     "nh_sen": 11,
     "nv_gov": 6,
-    "oh_gov": 13,
+    "oh_gov": 14,
     "oh_sen": 14,
     "pa_gov": 6,
-    "tx_gov": 16,
-    "tx_sen": 22,
-    "us_house_generic": 27,
+    "tx_gov": 15,
+    "tx_sen": 21,
+    "us_house_generic": 26,
     "wi_gov": 7
   },
   "unaffected_models_preserved": [
@@ -138,10 +137,121 @@
     "nv_gov"
   ],
   "all_turnout_weights_preserved": false,
-  "acquisition_rows_sha256": "ceae6097108c26c3e734f59133653edb5409ffa559397da59b9edf21cd3dd04f",
-  "review_decisions_sha256": "b4800f21fcee4d8c3169ea7ae8fb8e33367a30cd0e38ae4bff89f16a59256d6e",
+  "acquisition_rows_sha256": "94141f3c3137cff4a147b67cfa129bcf2bfbc92f74cdf879c1bd7e10408a3790",
+  "review_decisions_sha256": "a63d9c9d108d0d9ba1b915579631ebddf6f36d7284a6ef99df92376d9fe8f788",
   "baseline_sha256": "84d4a3218777b2eeabcdb8ab676749a497c12766a664210247b8ae500ff90523",
-  "feed_sha256": "a35a21ffb51fb226cb66c7edc8fa7cb983733037983c713b598d5b07b1310a09",
+  "feed_sha256": "3a1489c053ffe7c863f11ac7d46c80a05cd262919d2c84ddc522b0995ed3a7e2",
+  "user_excluded_observations": 18,
+  "user_excluded_polls": [
+    {
+      "poll_id": "us_house_generic--atlas-20261101",
+      "race_id": "us_house_generic",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "tx_sen--atlas-20261101",
+      "race_id": "tx_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "tx_gov--atlas-20261101",
+      "race_id": "tx_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "ak_sen--atlas-20261101",
+      "race_id": "ak_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "ia_sen--atlas-20261101",
+      "race_id": "ia_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "ia_gov--atlas-20261101",
+      "race_id": "ia_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "ks_sen--atlas-20261101",
+      "race_id": "ks_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "ks_gov--atlas-20261101",
+      "race_id": "ks_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "me_sen--atlas-20261101",
+      "race_id": "me_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "me_gov--atlas-20261101",
+      "race_id": "me_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "mi_sen--atlas-20261101",
+      "race_id": "mi_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "mi_gov--atlas-20261101",
+      "race_id": "mi_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "mn_sen--atlas-20261101",
+      "race_id": "mn_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "nh_sen--atlas-20261101",
+      "race_id": "nh_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "nh_gov--atlas-20261101",
+      "race_id": "nh_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "nc_sen--atlas-20261101",
+      "race_id": "nc_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "oh_sen--atlas-20261101",
+      "race_id": "oh_sen",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    },
+    {
+      "poll_id": "oh_gov--atlas-20261101",
+      "race_id": "oh_gov",
+      "pollster": "AtlasIntel",
+      "reason": "AtlasIntel excluded from all models by user request on 2026-11-03"
+    }
+  ],
   "configured_turnout_weight_changes": {
     "me_sen": {
       "before": {

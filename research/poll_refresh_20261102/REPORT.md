@@ -1,8 +1,10 @@
 # November 2 polling refresh
 
+**Current user policy (November3): all18 AtlasIntel observations are excluded. The active feed is329 observations.** The acquisition history below describes the source reviews before that exclusion; archives and original review records are retained. See [the exclusion report](../atlas_exclusion_20261103/REPORT.md) for current validation and results.
+
 After the acquisition, the user changed Maine's electorate weights to R31/D28/I41 for Senate and governor. The current model and public exports use those weights. The ingestion manifest records this change relative to the unchanged acquisition baseline.
 
-Added **44 race-level observations from 28 distinct state/national survey waves**, including the scheduled November2 9PM EST increment, and replaced one revised Florida governor observation. The feed grew from 285 to 329 observations across 28 models. Most new releases are dated November1–2; the newly available Iowa Rasmussen Senate page has honest October31–November2 publication bounds because its displayed dateline is stale. All current turnout weights and the 1pp turnout-share marginal SD are preserved.
+Added **62 race-level observations from 39 distinct state/national survey waves**, including the scheduled November2 9PM EST increment and November3 scrub, and replaced one revised Florida governor observation. The feed grew from 285 to 347 observations across 28 models. Most new releases are dated November1–2; the recovered Michigan Rasmussen governor release is dated October30; the newly available Iowa Rasmussen Senate page has honest October31–November2 publication bounds because its displayed dateline is stale. All current turnout weights and the 1pp turnout-share marginal SD are preserved.
 
 The scheduled increment added 13 observations from eight surveys after the earlier316-row state. Its detailed source decisions, candidate shares, margins, rolling averages and independent preservation audit are in [the evening report](../poll_check_20261102_2100EST/REPORT.md). All316 earlier normalized rows and all32 earlier raw records/reviews remain exactly preserved.
 
@@ -11,16 +13,16 @@ The scheduled increment added 13 observations from eight surveys after the earli
 | Research Co. |14|
 | InsiderAdvantage |6|
 | University of New Hampshire Survey Center |4|
-| AtlasIntel |3|
+| AtlasIntel |18|
 | GrayHouse |2|
 | East Carolina University |1|
 | YouGov national pre-election study |1|
 | Survey 160 |8|
-| Rasmussen Reports |3|
+| Rasmussen Reports |6|
 | Reuters/Ipsos |1|
 | Focaldata/Financial Times |1|
 
-There are 22 new Senate inputs, 18 governor inputs and 4 national generic-ballot inputs. One survey measuring both Senate and governor produces two race observations, not two independent surveys. See [ingestion-manifest.json](ingestion-manifest.json) for exact race counts and [polls.json](polls.json) for cells, dates and table locations. Nebraska increases from 4 to 5; national generic ballot from 23 to 27. Kansas now has10 Senate /8 governor observations after Survey160's complete tables were verified.
+There are 32 new Senate inputs, 26 governor inputs and 4 national generic-ballot inputs. One survey measuring both Senate and governor produces two race observations, not two independent surveys. See [ingestion-manifest.json](ingestion-manifest.json) for exact race counts and [polls.json](polls.json) for cells, dates and table locations. Nebraska increases from 4 to 5; national generic ballot from 23 to 27. Kansas now has11 Senate /9 governor observations after the Atlas addition. The [November3 scrub](../poll_scrub_20261103/REPORT.md) adds18 observations, preserves all329 prior rows, and records the complete current validation and held-source inventory.
 
 ## Source review
 
@@ -53,4 +55,4 @@ PYTHONPATH=src python scripts/ingest_poll_refresh.py --check
 
 Compilation verifies review hashes, source hashes, matchup, publication eligibility, sample uniqueness, pinned replacements and all six cells before replaying. The full feed is replayed chronologically; the snapshot, ledger, forecasts and history are checked together. Original285 rows are preserved except the explicitly pinned RedBox revision. Every unaffected model must exactly preserve its mean and preserve covariance within1e-15; all turnout assumptions match the current cycle configuration. The manifest separately records the subsequent user-selected Maine weight change relative to the unchanged original acquisition baseline. Older acquisition rebuilds retain the revision, and their audits distinguish new inputs from unintended changes.
 
-Validation results are recorded in `validation.json`. Historical Maine calibration remains unavailable because its excluded original datasets are absent; this refresh makes no empirical calibration claim. The earlier316-row state was published to GitHub. The scheduled evening increment was prepared locally; subsequent GitHub publication and deployment are a separate user-authorized step.
+Validation results are recorded in `validation.json`. Historical Maine calibration remains unavailable because its excluded original datasets are absent; this refresh makes no empirical calibration claim. The earlier316-row state was published to GitHub. The scheduled evening increment was subsequently published in commit a2c4c6d. The November3 scrub was followed by the user-requested AtlasIntel exclusion; see that report for the current model state.

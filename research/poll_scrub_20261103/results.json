@@ -1,0 +1,542 @@
+[
+  {
+    "race_id": "ak_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4885,
+      "candidate_b_share": 0.4699,
+      "margin_percent": 1.86,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Dan Sullivan",
+      "candidate_b_name": "Mary Peltola",
+      "candidate_a_share": 0.4769,
+      "candidate_b_share": 0.4812,
+      "margin_percent": -0.44,
+      "observation_count": 12
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-09-11",
+      "poll_count": 7,
+      "poll_ids": [
+        "ak_sen--aarp-ak-20260911",
+        "ak_sen--rasmussen-ak-20260914",
+        "ak_sen--quantus-ak-sen-20260930",
+        "ak_sen--nyt-siena-ak-20261001",
+        "ak_sen--rasmussen-2026-10-15",
+        "ak_sen--atlas-20261101",
+        "ak_sen--insider-20261101"
+      ],
+      "candidate_a_share": 0.449,
+      "candidate_b_share": 0.4569,
+      "margin": -0.0079,
+      "margin_percent": -0.79
+    }
+  },
+  {
+    "race_id": "ia_gov",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4432,
+      "candidate_b_share": 0.5011,
+      "margin_percent": -5.78,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Zach Lahn",
+      "candidate_b_name": "Rob Sand",
+      "candidate_a_share": 0.4467,
+      "candidate_b_share": 0.5093,
+      "margin_percent": -6.26,
+      "observation_count": 12
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-01",
+      "poll_count": 7,
+      "poll_ids": [
+        "ia_gov--nyt-siena-ia-gov-october2026",
+        "ia_gov--ssrs-cnn-ia-gov-20261005",
+        "ia_gov--emerson-nexstar-20261006",
+        "ia_gov--marist-20261011",
+        "ia_gov--onpoint-20261021",
+        "ia_gov--rasmussen-20261031",
+        "ia_gov--atlas-20261101"
+      ],
+      "candidate_a_share": 0.4424,
+      "candidate_b_share": 0.5064,
+      "margin": -0.064,
+      "margin_percent": -6.4
+    }
+  },
+  {
+    "race_id": "ia_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4664,
+      "candidate_b_share": 0.4706,
+      "margin_percent": -0.42,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Ashley Hinson",
+      "candidate_b_name": "Josh Turek",
+      "candidate_a_share": 0.4674,
+      "candidate_b_share": 0.4773,
+      "margin_percent": -1.0,
+      "observation_count": 13
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-05",
+      "poll_count": 7,
+      "poll_ids": [
+        "ia_sen--ssrs-cnn-20261005",
+        "ia_sen--emerson-nexstar-20261006",
+        "ia_sen--marist-20261011",
+        "ia_sen--onpoint-20261021",
+        "ia_sen--grayhouse-20261031",
+        "ia_sen--rasmussen-20261031",
+        "ia_sen--atlas-20261101"
+      ],
+      "candidate_a_share": 0.4633,
+      "candidate_b_share": 0.4652,
+      "margin": -0.0019,
+      "margin_percent": -0.19
+    }
+  },
+  {
+    "race_id": "ks_gov",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.5099,
+      "candidate_b_share": 0.4488,
+      "margin_percent": 6.1,
+      "observation_count": 8
+    },
+    "after": {
+      "candidate_a_name": "Ty Masterson",
+      "candidate_b_name": "Cindy Holscher",
+      "candidate_a_share": 0.5073,
+      "candidate_b_share": 0.4523,
+      "margin_percent": 5.5,
+      "observation_count": 9
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-21",
+      "poll_count": 7,
+      "poll_ids": [
+        "ks_gov--onpoint-ks-gov-20261021",
+        "ks_gov--redbox-20261023-gov",
+        "ks_gov--cnn-ks-gov-20261026",
+        "ks_gov--wapo-schar-20261026-gov",
+        "ks_gov--emerson-20261028-gov",
+        "ks_gov--atlas-20261101",
+        "ks_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4929,
+      "candidate_b_share": 0.4588,
+      "margin": 0.0341,
+      "margin_percent": 3.41
+    }
+  },
+  {
+    "race_id": "ks_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4625,
+      "candidate_b_share": 0.4601,
+      "margin_percent": 0.24,
+      "observation_count": 10
+    },
+    "after": {
+      "candidate_a_name": "Roger Marshall",
+      "candidate_b_name": "Adam Hamilton",
+      "candidate_a_share": 0.4633,
+      "candidate_b_share": 0.4634,
+      "margin_percent": -0.01,
+      "observation_count": 11
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-14",
+      "poll_count": 7,
+      "poll_ids": [
+        "ks_sen--insider-ks_sen-20261014",
+        "ks_sen--redbox-20261023",
+        "ks_sen--ssrs-cnn-ks_sen-20261026",
+        "ks_sen--wapo-schar-20261026",
+        "ks_sen--emerson-20261028",
+        "ks_sen--atlas-20261101",
+        "ks_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4627,
+      "candidate_b_share": 0.4756,
+      "margin": -0.0129,
+      "margin_percent": -1.29
+    }
+  },
+  {
+    "race_id": "me_gov",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4248,
+      "candidate_b_share": 0.4887,
+      "margin_percent": -6.4,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Bobby Charles",
+      "candidate_b_name": "Hannah Pingree",
+      "candidate_a_share": 0.4266,
+      "candidate_b_share": 0.4889,
+      "margin_percent": -6.22,
+      "observation_count": 13
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-11",
+      "poll_count": 7,
+      "poll_ids": [
+        "me_gov--suffolk-me-gov-20261011",
+        "me_gov--marist-me-gov-20261025",
+        "me_gov--cnn-ssrs-me-gov-20261026",
+        "me_gov--dfp-me-gov-20261027",
+        "me_gov--unh-20261031",
+        "me_gov--atlas-20261101",
+        "me_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4141,
+      "candidate_b_share": 0.4779,
+      "margin": -0.0638,
+      "margin_percent": -6.38
+    }
+  },
+  {
+    "race_id": "me_sen",
+    "new_observations": 2,
+    "before": {
+      "candidate_a_share": 0.4794,
+      "candidate_b_share": 0.4932,
+      "margin_percent": -1.38,
+      "observation_count": 12
+    },
+    "after": {
+      "candidate_a_name": "Susan Collins",
+      "candidate_b_name": "Troy Jackson",
+      "candidate_a_share": 0.4765,
+      "candidate_b_share": 0.4946,
+      "margin_percent": -1.8,
+      "observation_count": 14
+    },
+    "rolling_average": {
+      "date": "2026-11-02",
+      "window_start_date": "2026-10-25",
+      "poll_count": 7,
+      "poll_ids": [
+        "me_sen--marist-20261025",
+        "me_sen--ssrs-cnn-me_sen-20261026",
+        "me_sen--dfp-20261027",
+        "me_sen--unh-20261031",
+        "me_sen--atlas-20261101",
+        "me_sen--survey160-20261101",
+        "me_sen--rasmussen-20261102"
+      ],
+      "candidate_a_share": 0.4724,
+      "candidate_b_share": 0.4867,
+      "margin": -0.0143,
+      "margin_percent": -1.43
+    }
+  },
+  {
+    "race_id": "mi_gov",
+    "new_observations": 2,
+    "before": {
+      "candidate_a_share": 0.4436,
+      "candidate_b_share": 0.4971,
+      "margin_percent": -5.35,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "John James",
+      "candidate_b_name": "Jocelyn Benson",
+      "candidate_a_share": 0.4449,
+      "candidate_b_share": 0.5,
+      "margin_percent": -5.51,
+      "observation_count": 13
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-18",
+      "poll_count": 7,
+      "poll_ids": [
+        "mi_gov--onpoint-2026-10-18-lv",
+        "mi_gov--redbox-2026-10-23-lv",
+        "mi_gov--dfp-2026-10-25-lv",
+        "mi_gov--ssrs-2026-10-27-lv",
+        "mi_gov--rasmussen-20261029",
+        "mi_gov--atlas-20261101",
+        "mi_gov--researchco-20261101"
+      ],
+      "candidate_a_share": 0.4394,
+      "candidate_b_share": 0.4932,
+      "margin": -0.0538,
+      "margin_percent": -5.38
+    }
+  },
+  {
+    "race_id": "mi_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4659,
+      "candidate_b_share": 0.4742,
+      "margin_percent": -0.83,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Mike Rogers",
+      "candidate_b_name": "Abdul El-Sayed",
+      "candidate_a_share": 0.4703,
+      "candidate_b_share": 0.4801,
+      "margin_percent": -0.99,
+      "observation_count": 12
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-22",
+      "poll_count": 7,
+      "poll_ids": [
+        "mi_sen--insider-mi_sen-20261022",
+        "mi_sen--redbox-2026-10-23-lv",
+        "mi_sen--dfp-2026-10-25-lv",
+        "mi_sen--ssrs-cnn-2026-10-27-lv",
+        "mi_sen--ras_mi_late",
+        "mi_sen--atlas-20261101",
+        "mi_sen--researchco-20261101"
+      ],
+      "candidate_a_share": 0.4664,
+      "candidate_b_share": 0.4783,
+      "margin": -0.0119,
+      "margin_percent": -1.19
+    }
+  },
+  {
+    "race_id": "mn_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4582,
+      "candidate_b_share": 0.4866,
+      "margin_percent": -2.84,
+      "observation_count": 13
+    },
+    "after": {
+      "candidate_a_name": "Michele Tafoya",
+      "candidate_b_name": "Peggy Flanagan",
+      "candidate_a_share": 0.4602,
+      "candidate_b_share": 0.4847,
+      "margin_percent": -2.45,
+      "observation_count": 14
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-21",
+      "poll_count": 7,
+      "poll_ids": [
+        "mn_sen--rasmussen-mn-20261021",
+        "mn_sen--nyt-siena-mn-release-20261028",
+        "mn_sen--surveyusa-mn-20261028",
+        "mn_sen--insider-20261030",
+        "mn_sen--atlas-20261101",
+        "mn_sen--researchco-20261101",
+        "mn_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4556,
+      "candidate_b_share": 0.4833,
+      "margin": -0.0277,
+      "margin_percent": -2.77
+    }
+  },
+  {
+    "race_id": "nc_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4517,
+      "candidate_b_share": 0.5156,
+      "margin_percent": -6.4,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Michael Whatley",
+      "candidate_b_name": "Roy Cooper",
+      "candidate_a_share": 0.4474,
+      "candidate_b_share": 0.5234,
+      "margin_percent": -7.61,
+      "observation_count": 12
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-11",
+      "poll_count": 7,
+      "poll_ids": [
+        "nc_sen--surveyusa-20261011",
+        "nc_sen--activote-20261020",
+        "nc_sen--harper-20261020",
+        "nc_sen--redbox-20261023",
+        "nc_sen--quantus-nc-sen-20261025",
+        "nc_sen--ecu-20261029",
+        "nc_sen--atlas-20261101"
+      ],
+      "candidate_a_share": 0.4365,
+      "candidate_b_share": 0.5202,
+      "margin": -0.0838,
+      "margin_percent": -8.38
+    }
+  },
+  {
+    "race_id": "nh_gov",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.5214,
+      "candidate_b_share": 0.4208,
+      "margin_percent": 10.06,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "Kelly Ayotte",
+      "candidate_b_name": "Cinde Warmington",
+      "candidate_a_share": 0.5173,
+      "candidate_b_share": 0.4255,
+      "margin_percent": 9.18,
+      "observation_count": 12
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-08-24",
+      "poll_count": 7,
+      "poll_ids": [
+        "nh_gov--unh-nh-gov-20260824",
+        "nh_gov--unh-nh-gov-20260921",
+        "nh_gov--aarp-anselm-nh-gov-20260929",
+        "nh_gov--uml-nh-gov-20261019",
+        "nh_gov--anselm-nh-gov-20261020",
+        "nh_gov--unh-20261031",
+        "nh_gov--atlas-20261101"
+      ],
+      "candidate_a_share": 0.5168,
+      "candidate_b_share": 0.3918,
+      "margin": 0.125,
+      "margin_percent": 12.5
+    }
+  },
+  {
+    "race_id": "nh_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4311,
+      "candidate_b_share": 0.5031,
+      "margin_percent": -7.2,
+      "observation_count": 11
+    },
+    "after": {
+      "candidate_a_name": "John E. Sununu",
+      "candidate_b_name": "Chris Pappas",
+      "candidate_a_share": 0.4322,
+      "candidate_b_share": 0.5073,
+      "margin_percent": -7.51,
+      "observation_count": 12
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-04",
+      "poll_count": 7,
+      "poll_ids": [
+        "nh_sen--rasmussen-20261004",
+        "nh_sen--npa-20261012",
+        "nh_sen--umass-lowell-yougov-20261019",
+        "nh_sen--anselm-20261020",
+        "nh_sen--rasmussen-20261023",
+        "nh_sen--unh-20261031",
+        "nh_sen--atlas-20261101"
+      ],
+      "candidate_a_share": 0.4406,
+      "candidate_b_share": 0.4861,
+      "margin": -0.0455,
+      "margin_percent": -4.55
+    }
+  },
+  {
+    "race_id": "oh_gov",
+    "new_observations": 2,
+    "before": {
+      "candidate_a_share": 0.4682,
+      "candidate_b_share": 0.4779,
+      "margin_percent": -0.97,
+      "observation_count": 13
+    },
+    "after": {
+      "candidate_a_name": "Vivek Ramaswamy",
+      "candidate_b_name": "Amy Acton",
+      "candidate_a_share": 0.4667,
+      "candidate_b_share": 0.4806,
+      "margin_percent": -1.39,
+      "observation_count": 15
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-23",
+      "poll_count": 7,
+      "poll_ids": [
+        "oh_gov--redbox-oh-gov-20261023",
+        "oh_gov--suffolk-oh-gov-20261026",
+        "oh_gov--insider-20261030",
+        "oh_gov--rasmussen-20261031",
+        "oh_gov--atlas-20261101",
+        "oh_gov--researchco-20261101",
+        "oh_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.463,
+      "candidate_b_share": 0.4737,
+      "margin": -0.0107,
+      "margin_percent": -1.07
+    }
+  },
+  {
+    "race_id": "oh_sen",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4758,
+      "candidate_b_share": 0.4672,
+      "margin_percent": 0.85,
+      "observation_count": 14
+    },
+    "after": {
+      "candidate_a_name": "Jon Husted",
+      "candidate_b_name": "Sherrod Brown",
+      "candidate_a_share": 0.474,
+      "candidate_b_share": 0.4705,
+      "margin_percent": 0.35,
+      "observation_count": 15
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-23",
+      "poll_count": 7,
+      "poll_ids": [
+        "oh_sen--redbox-oh-20261023",
+        "oh_sen--suffolk-oh-20261026",
+        "oh_sen--insider-20261030",
+        "oh_sen--rasmussen-20261031",
+        "oh_sen--atlas-20261101",
+        "oh_sen--researchco-20261101",
+        "oh_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4698,
+      "candidate_b_share": 0.461,
+      "margin": 0.0088,
+      "margin_percent": 0.88
+    }
+  }
+]

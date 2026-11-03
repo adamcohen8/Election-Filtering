@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:12:36.637800+00:00",
+  "generated_at": "2026-11-03T16:25:28.463923+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -4956,6 +4956,13 @@
           "candidate_b_share": 0.4932,
           "margin": -0.0138,
           "margin_percent": -1.38
+        },
+        {
+          "date": "2026-11-02",
+          "candidate_a_share": 0.478,
+          "candidate_b_share": 0.4931,
+          "margin": -0.0151,
+          "margin_percent": -1.51
         }
       ],
       "poll_points": [
@@ -5150,6 +5157,22 @@
           "precision_method": "reported_unweighted",
           "partial_party_id": false,
           "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
+        },
+        {
+          "poll_id": "me_sen--rasmussen-20261102",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-11-02",
+          "candidate_a_share": 0.4701,
+          "candidate_b_share": 0.4799,
+          "margin": -0.0098,
+          "margin_percent": -0.98,
+          "leader": "democratic",
+          "sample_size": null,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_basis_unspecified",
+          "precision_method": "assumed_covariance",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_27_november_2_2026"
         }
       ],
       "rolling_average_window": 7,
@@ -5348,25 +5371,43 @@
           "candidate_b_share": 0.4769,
           "margin": 0.0041,
           "margin_percent": 0.41
+        },
+        {
+          "date": "2026-11-02",
+          "window_start_date": "2026-10-14",
+          "poll_count": 7,
+          "poll_ids": [
+            "me_sen--insider-me_sen-20261014",
+            "me_sen--marist-20261025",
+            "me_sen--ssrs-cnn-me_sen-20261026",
+            "me_sen--dfp-20261027",
+            "me_sen--unh-20261031",
+            "me_sen--survey160-20261101",
+            "me_sen--rasmussen-20261102"
+          ],
+          "candidate_a_share": 0.4765,
+          "candidate_b_share": 0.4807,
+          "margin": -0.0042,
+          "margin_percent": -0.42
         }
       ],
       "rolling_average": {
-        "date": "2026-11-01",
-        "window_start_date": "2026-10-11",
+        "date": "2026-11-02",
+        "window_start_date": "2026-10-14",
         "poll_count": 7,
         "poll_ids": [
-          "me_sen--suffolk-20261011",
           "me_sen--insider-me_sen-20261014",
           "me_sen--marist-20261025",
           "me_sen--ssrs-cnn-me_sen-20261026",
           "me_sen--dfp-20261027",
           "me_sen--unh-20261031",
-          "me_sen--survey160-20261101"
+          "me_sen--survey160-20261101",
+          "me_sen--rasmussen-20261102"
         ],
-        "candidate_a_share": 0.481,
-        "candidate_b_share": 0.4769,
-        "margin": 0.0041,
-        "margin_percent": 0.41
+        "candidate_a_share": 0.4765,
+        "candidate_b_share": 0.4807,
+        "margin": -0.0042,
+        "margin_percent": -0.42
       }
     },
     {
@@ -5436,11 +5477,18 @@
           "margin_percent": -5.59
         },
         {
+          "date": "2026-10-29",
+          "candidate_a_share": 0.4344,
+          "candidate_b_share": 0.4975,
+          "margin": -0.0632,
+          "margin_percent": -6.32
+        },
+        {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4436,
-          "candidate_b_share": 0.4971,
-          "margin": -0.0535,
-          "margin_percent": -5.35
+          "candidate_a_share": 0.438,
+          "candidate_b_share": 0.4972,
+          "margin": -0.0592,
+          "margin_percent": -5.92
         }
       ],
       "poll_points": [
@@ -5605,6 +5653,22 @@
           "source_url": "https://www.documentcloud.org/documents/28856720-cnn-poll-conducted-by-ssrs-michigan-october/"
         },
         {
+          "poll_id": "mi_gov--rasmussen-20261029",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-29",
+          "candidate_a_share": 0.4063,
+          "candidate_b_share": 0.4945,
+          "margin": -0.0882,
+          "margin_percent": -8.82,
+          "leader": "democratic",
+          "sample_size": null,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_basis_unspecified",
+          "precision_method": "assumed_covariance",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_governor_october_28_29_2026"
+        },
+        {
           "poll_id": "mi_gov--researchco-20261101",
           "pollster": "Research Co.",
           "date": "2026-11-01",
@@ -5766,7 +5830,7 @@
           "margin_percent": -6.15
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-29",
           "window_start_date": "2026-09-28",
           "poll_count": 7,
           "poll_ids": [
@@ -5776,31 +5840,49 @@
             "mi_gov--redbox-2026-10-23-lv",
             "mi_gov--dfp-2026-10-25-lv",
             "mi_gov--ssrs-2026-10-27-lv",
+            "mi_gov--rasmussen-20261029"
+          ],
+          "candidate_a_share": 0.4338,
+          "candidate_b_share": 0.5,
+          "margin": -0.0662,
+          "margin_percent": -6.62
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-10-18",
+          "poll_count": 7,
+          "poll_ids": [
+            "mi_gov--marist-2026-10-18-lv",
+            "mi_gov--onpoint-2026-10-18-lv",
+            "mi_gov--redbox-2026-10-23-lv",
+            "mi_gov--dfp-2026-10-25-lv",
+            "mi_gov--ssrs-2026-10-27-lv",
+            "mi_gov--rasmussen-20261029",
             "mi_gov--researchco-20261101"
           ],
-          "candidate_a_share": 0.4423,
-          "candidate_b_share": 0.4978,
-          "margin": -0.0556,
-          "margin_percent": -5.56
+          "candidate_a_share": 0.4373,
+          "candidate_b_share": 0.4927,
+          "margin": -0.0553,
+          "margin_percent": -5.53
         }
       ],
       "rolling_average": {
         "date": "2026-11-01",
-        "window_start_date": "2026-09-28",
+        "window_start_date": "2026-10-18",
         "poll_count": 7,
         "poll_ids": [
-          "mi_gov--fox-2026-09-28-lv",
           "mi_gov--marist-2026-10-18-lv",
           "mi_gov--onpoint-2026-10-18-lv",
           "mi_gov--redbox-2026-10-23-lv",
           "mi_gov--dfp-2026-10-25-lv",
           "mi_gov--ssrs-2026-10-27-lv",
+          "mi_gov--rasmussen-20261029",
           "mi_gov--researchco-20261101"
         ],
-        "candidate_a_share": 0.4423,
-        "candidate_b_share": 0.4978,
-        "margin": -0.0556,
-        "margin_percent": -5.56
+        "candidate_a_share": 0.4373,
+        "candidate_b_share": 0.4927,
+        "margin": -0.0553,
+        "margin_percent": -5.53
       }
     },
     {
@@ -9114,11 +9196,18 @@
           "margin_percent": -1.05
         },
         {
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4714,
+          "candidate_b_share": 0.4805,
+          "margin": -0.0092,
+          "margin_percent": -0.92
+        },
+        {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4682,
-          "candidate_b_share": 0.4779,
-          "margin": -0.0097,
-          "margin_percent": -0.97
+          "candidate_a_share": 0.4679,
+          "candidate_b_share": 0.4778,
+          "margin": -0.0099,
+          "margin_percent": -0.99
         }
       ],
       "poll_points": [
@@ -9297,6 +9386,22 @@
           "precision_method": "reported_n_weighting_unspecified",
           "partial_party_id": false,
           "source_url": "https://x.com/InsiderPolling/status/2116992824411636158"
+        },
+        {
+          "poll_id": "oh_gov--rasmussen-20261031",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4842,
+          "candidate_b_share": 0.4518,
+          "margin": 0.0324,
+          "margin_percent": 3.24,
+          "leader": "republican",
+          "sample_size": null,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_basis_unspecified",
+          "precision_method": "assumed_covariance",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_governor_october_27_31_2026"
         },
         {
           "poll_id": "oh_gov--researchco-20261101",
@@ -9499,39 +9604,57 @@
           "margin_percent": -0.55
         },
         {
-          "date": "2026-11-01",
-          "window_start_date": "2026-10-19",
+          "date": "2026-10-31",
+          "window_start_date": "2026-10-18",
           "poll_count": 7,
           "poll_ids": [
+            "oh_gov--marist-oh-gov-20261018-lv",
             "oh_gov--fox-oh-gov-20261019-lv",
             "oh_gov--verasight-oh-gov-20261020",
             "oh_gov--redbox-oh-gov-20261023",
             "oh_gov--suffolk-oh-gov-20261026",
             "oh_gov--insider-20261030",
+            "oh_gov--rasmussen-20261031"
+          ],
+          "candidate_a_share": 0.4693,
+          "candidate_b_share": 0.4675,
+          "margin": 0.0018,
+          "margin_percent": 0.18
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-10-20",
+          "poll_count": 7,
+          "poll_ids": [
+            "oh_gov--verasight-oh-gov-20261020",
+            "oh_gov--redbox-oh-gov-20261023",
+            "oh_gov--suffolk-oh-gov-20261026",
+            "oh_gov--insider-20261030",
+            "oh_gov--rasmussen-20261031",
             "oh_gov--researchco-20261101",
             "oh_gov--survey160-20261101"
           ],
-          "candidate_a_share": 0.4669,
-          "candidate_b_share": 0.4685,
+          "candidate_a_share": 0.4649,
+          "candidate_b_share": 0.4666,
           "margin": -0.0016,
           "margin_percent": -0.16
         }
       ],
       "rolling_average": {
         "date": "2026-11-01",
-        "window_start_date": "2026-10-19",
+        "window_start_date": "2026-10-20",
         "poll_count": 7,
         "poll_ids": [
-          "oh_gov--fox-oh-gov-20261019-lv",
           "oh_gov--verasight-oh-gov-20261020",
           "oh_gov--redbox-oh-gov-20261023",
           "oh_gov--suffolk-oh-gov-20261026",
           "oh_gov--insider-20261030",
+          "oh_gov--rasmussen-20261031",
           "oh_gov--researchco-20261101",
           "oh_gov--survey160-20261101"
         ],
-        "candidate_a_share": 0.4669,
-        "candidate_b_share": 0.4685,
+        "candidate_a_share": 0.4649,
+        "candidate_b_share": 0.4666,
         "margin": -0.0016,
         "margin_percent": -0.16
       }
@@ -10439,18 +10562,11 @@
           "margin_percent": 4.85
         },
         {
-          "date": "2026-11-01",
-          "candidate_a_share": 0.5002,
-          "candidate_b_share": 0.4588,
-          "margin": 0.0414,
-          "margin_percent": 4.14
-        },
-        {
           "date": "2026-11-02",
-          "candidate_a_share": 0.5055,
-          "candidate_b_share": 0.4429,
-          "margin": 0.0626,
-          "margin_percent": 6.26
+          "candidate_a_share": 0.5082,
+          "candidate_b_share": 0.4366,
+          "margin": 0.0716,
+          "margin_percent": 7.16
         }
       ],
       "poll_points": [
@@ -10677,22 +10793,6 @@
           "precision_method": "reported_weighting_unspecified",
           "partial_party_id": false,
           "source_url": "https://drive.google.com/file/d/1ARCDbN8BXrLNkeMWZAhCC0uytZtvWnhW/view"
-        },
-        {
-          "poll_id": "tx_gov--atlas-20261101",
-          "pollster": "AtlasIntel",
-          "date": "2026-11-01",
-          "candidate_a_share": 0.4819,
-          "candidate_b_share": 0.4863,
-          "margin": -0.0044,
-          "margin_percent": -0.44,
-          "leader": "democratic",
-          "sample_size": null,
-          "measurement": "party_id_crosstab",
-          "party_basis": "party_id",
-          "precision_method": "assumed_covariance",
-          "partial_party_id": false,
-          "source_url": "https://cdn1.atlasintel.org/2026_midterms__texas_110126_1_e8958087c4dc49a8.pdf"
         },
         {
           "poll_id": "tx_gov--researchco-20261102",
@@ -10927,7 +11027,7 @@
           "margin_percent": 6.53
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "window_start_date": "2026-10-18",
           "poll_count": 7,
           "poll_ids": [
@@ -10937,49 +11037,31 @@
             "tx_gov--data-for-progress-20261026",
             "tx_gov--onpoint-20261027",
             "tx_gov--quantus-tx-gov-20261028",
-            "tx_gov--atlas-20261101"
-          ],
-          "candidate_a_share": 0.5036,
-          "candidate_b_share": 0.4418,
-          "margin": 0.0618,
-          "margin_percent": 6.18
-        },
-        {
-          "date": "2026-11-02",
-          "window_start_date": "2026-10-19",
-          "poll_count": 7,
-          "poll_ids": [
-            "tx_gov--emerson-nexstar-20261019",
-            "tx_gov--texas-southern-20261025",
-            "tx_gov--data-for-progress-20261026",
-            "tx_gov--onpoint-20261027",
-            "tx_gov--quantus-tx-gov-20261028",
-            "tx_gov--atlas-20261101",
             "tx_gov--researchco-20261102"
           ],
-          "candidate_a_share": 0.5045,
-          "candidate_b_share": 0.4405,
-          "margin": 0.0641,
-          "margin_percent": 6.41
+          "candidate_a_share": 0.5133,
+          "candidate_b_share": 0.4229,
+          "margin": 0.0904,
+          "margin_percent": 9.04
         }
       ],
       "rolling_average": {
         "date": "2026-11-02",
-        "window_start_date": "2026-10-19",
+        "window_start_date": "2026-10-18",
         "poll_count": 7,
         "poll_ids": [
+          "tx_gov--pollfinity-20261018",
           "tx_gov--emerson-nexstar-20261019",
           "tx_gov--texas-southern-20261025",
           "tx_gov--data-for-progress-20261026",
           "tx_gov--onpoint-20261027",
           "tx_gov--quantus-tx-gov-20261028",
-          "tx_gov--atlas-20261101",
           "tx_gov--researchco-20261102"
         ],
-        "candidate_a_share": 0.5045,
-        "candidate_b_share": 0.4405,
-        "margin": 0.0641,
-        "margin_percent": 6.41
+        "candidate_a_share": 0.5133,
+        "candidate_b_share": 0.4229,
+        "margin": 0.0904,
+        "margin_percent": 9.04
       }
     },
     {
@@ -11091,18 +11173,11 @@
           "margin_percent": 0.15
         },
         {
-          "date": "2026-11-01",
-          "candidate_a_share": 0.4739,
-          "candidate_b_share": 0.4788,
-          "margin": -0.0049,
-          "margin_percent": -0.49
-        },
-        {
           "date": "2026-11-02",
-          "candidate_a_share": 0.4786,
-          "candidate_b_share": 0.4733,
-          "margin": 0.0053,
-          "margin_percent": 0.53
+          "candidate_a_share": 0.4808,
+          "candidate_b_share": 0.4684,
+          "margin": 0.0124,
+          "margin_percent": 1.24
         }
       ],
       "poll_points": [
@@ -11427,22 +11502,6 @@
           "source_url": "https://drive.google.com/file/d/1ARCDbN8BXrLNkeMWZAhCC0uytZtvWnhW/view"
         },
         {
-          "poll_id": "tx_sen--atlas-20261101",
-          "pollster": "AtlasIntel",
-          "date": "2026-11-01",
-          "candidate_a_share": 0.4595,
-          "candidate_b_share": 0.507,
-          "margin": -0.0475,
-          "margin_percent": -4.75,
-          "leader": "democratic",
-          "sample_size": null,
-          "measurement": "party_id_crosstab",
-          "party_basis": "party_id",
-          "precision_method": "assumed_covariance",
-          "partial_party_id": false,
-          "source_url": "https://cdn1.atlasintel.org/2026_midterms__texas_110126_1_e8958087c4dc49a8.pdf"
-        },
-        {
           "poll_id": "tx_sen--researchco-20261102",
           "pollster": "Research Co.",
           "date": "2026-11-02",
@@ -11712,7 +11771,7 @@
           "margin_percent": 0.55
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "window_start_date": "2026-10-25",
           "poll_count": 7,
           "poll_ids": [
@@ -11722,49 +11781,31 @@
             "tx_sen--onpoint-20261027",
             "tx_sen--ssrs-cnn-tx_sen-20261027",
             "tx_sen--quantus-tx_late-sen-20261028",
-            "tx_sen--atlas-20261101"
-          ],
-          "candidate_a_share": 0.4696,
-          "candidate_b_share": 0.4764,
-          "margin": -0.0068,
-          "margin_percent": -0.68
-        },
-        {
-          "date": "2026-11-02",
-          "window_start_date": "2026-10-26",
-          "poll_count": 7,
-          "poll_ids": [
-            "tx_sen--data-for-progress-20261026",
-            "tx_sen--a2-tx-20261027",
-            "tx_sen--onpoint-20261027",
-            "tx_sen--ssrs-cnn-tx_sen-20261027",
-            "tx_sen--quantus-tx_late-sen-20261028",
-            "tx_sen--atlas-20261101",
             "tx_sen--researchco-20261102"
           ],
-          "candidate_a_share": 0.4726,
-          "candidate_b_share": 0.4721,
-          "margin": 0.0004,
-          "margin_percent": 0.04
+          "candidate_a_share": 0.4757,
+          "candidate_b_share": 0.4679,
+          "margin": 0.0078,
+          "margin_percent": 0.78
         }
       ],
       "rolling_average": {
         "date": "2026-11-02",
-        "window_start_date": "2026-10-26",
+        "window_start_date": "2026-10-25",
         "poll_count": 7,
         "poll_ids": [
+          "tx_sen--texas-southern-20261025",
           "tx_sen--data-for-progress-20261026",
           "tx_sen--a2-tx-20261027",
           "tx_sen--onpoint-20261027",
           "tx_sen--ssrs-cnn-tx_sen-20261027",
           "tx_sen--quantus-tx_late-sen-20261028",
-          "tx_sen--atlas-20261101",
           "tx_sen--researchco-20261102"
         ],
-        "candidate_a_share": 0.4726,
-        "candidate_b_share": 0.4721,
-        "margin": 0.0004,
-        "margin_percent": 0.04
+        "candidate_a_share": 0.4757,
+        "candidate_b_share": 0.4679,
+        "margin": 0.0078,
+        "margin_percent": 0.78
       }
     },
     {
@@ -11856,17 +11897,17 @@
         },
         {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4291,
-          "candidate_b_share": 0.4798,
-          "margin": -0.0507,
-          "margin_percent": -5.07
+          "candidate_a_share": 0.4288,
+          "candidate_b_share": 0.4765,
+          "margin": -0.0476,
+          "margin_percent": -4.76
         },
         {
           "date": "2026-11-02",
-          "candidate_a_share": 0.4475,
-          "candidate_b_share": 0.491,
-          "margin": -0.0435,
-          "margin_percent": -4.35
+          "candidate_a_share": 0.4482,
+          "candidate_b_share": 0.4889,
+          "margin": -0.0408,
+          "margin_percent": -4.08
         }
       ],
       "poll_points": [
@@ -12255,22 +12296,6 @@
           "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/national_20261026.pdf"
         },
         {
-          "poll_id": "us_house_generic--atlas-20261101",
-          "pollster": "AtlasIntel",
-          "date": "2026-11-01",
-          "candidate_a_share": 0.4293,
-          "candidate_b_share": 0.5411,
-          "margin": -0.1118,
-          "margin_percent": -11.18,
-          "leader": "democratic",
-          "sample_size": null,
-          "measurement": "party_id_crosstab",
-          "party_basis": "party_id",
-          "precision_method": "assumed_covariance",
-          "partial_party_id": false,
-          "source_url": "https://cdn1.atlasintel.org/2026_midterms__national_poll_110126_1_87e74540c4d7f251.pdf"
-        },
-        {
           "poll_id": "us_house_generic--focaldata-20261101",
           "pollster": "Focaldata/Financial Times",
           "date": "2026-11-01",
@@ -12515,55 +12540,55 @@
           "window_start_date": "2026-10-26",
           "poll_count": 7,
           "poll_ids": [
+            "us_house_generic--harvard-oct26",
             "us_house_generic--ipsos-oct26",
             "us_house_generic--onpoint-oct28",
             "us_house_generic--activote30",
             "us_house_generic--bigdata-oct30",
             "us_house_generic--yougov-national-20261030",
-            "us_house_generic--atlas-20261101",
             "us_house_generic--focaldata-20261101"
           ],
-          "candidate_a_share": 0.441,
-          "candidate_b_share": 0.4943,
-          "margin": -0.0534,
-          "margin_percent": -5.34
+          "candidate_a_share": 0.4497,
+          "candidate_b_share": 0.4899,
+          "margin": -0.0402,
+          "margin_percent": -4.02
         },
         {
           "date": "2026-11-02",
-          "window_start_date": "2026-10-28",
+          "window_start_date": "2026-10-26",
           "poll_count": 7,
           "poll_ids": [
+            "us_house_generic--ipsos-oct26",
             "us_house_generic--onpoint-oct28",
             "us_house_generic--activote30",
             "us_house_generic--bigdata-oct30",
             "us_house_generic--yougov-national-20261030",
-            "us_house_generic--atlas-20261101",
             "us_house_generic--focaldata-20261101",
             "us_house_generic--ipsos-20261102"
           ],
-          "candidate_a_share": 0.442,
-          "candidate_b_share": 0.4924,
-          "margin": -0.0504,
-          "margin_percent": -5.04
+          "candidate_a_share": 0.4463,
+          "candidate_b_share": 0.4871,
+          "margin": -0.0408,
+          "margin_percent": -4.08
         }
       ],
       "rolling_average": {
         "date": "2026-11-02",
-        "window_start_date": "2026-10-28",
+        "window_start_date": "2026-10-26",
         "poll_count": 7,
         "poll_ids": [
+          "us_house_generic--ipsos-oct26",
           "us_house_generic--onpoint-oct28",
           "us_house_generic--activote30",
           "us_house_generic--bigdata-oct30",
           "us_house_generic--yougov-national-20261030",
-          "us_house_generic--atlas-20261101",
           "us_house_generic--focaldata-20261101",
           "us_house_generic--ipsos-20261102"
         ],
-        "candidate_a_share": 0.442,
-        "candidate_b_share": 0.4924,
-        "margin": -0.0504,
-        "margin_percent": -5.04
+        "candidate_a_share": 0.4463,
+        "candidate_b_share": 0.4871,
+        "margin": -0.0408,
+        "margin_percent": -4.08
       }
     },
     {

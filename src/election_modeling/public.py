@@ -11,7 +11,8 @@ from pathlib import Path
 from election_modeling.cycles import RACES_2026_BY_ID, create_2026_election_model
 from election_modeling.elections import ElectionModel
 from election_modeling.ingestion import (NormalizedPoll, RaceClassifier, StructuredJSONSource,
-                                        apply_poll, canonical_poll, measurement_key, _is_blocked_pollster)
+                                        apply_poll, canonical_poll, measurement_key, _is_blocked_pollster,
+                                        user_pollster_exclusion_reason)
 from election_modeling.nominees import NOMINEES_2026_BY_RACE, RaceNominees
 from election_modeling.persistence import load_election_model
 from election_modeling.races import Forecast, RaceModel
@@ -177,7 +178,7 @@ def public_race_history_payload(
     seen_ids: set[str] = set()
     seen_measurements: set[str] = set()
     for poll, race_id in sorted(poll_pairs, key=lambda item: (item[0].field_date, item[0].poll_id)):
-        if _is_blocked_pollster(poll.pollster):
+        if _is_blocked_pollster(poll.pollster) or user_pollster_exclusion_reason(poll.pollster):
             continue
         poll = canonical_poll(poll, race_id)
         key = measurement_key(poll, race_id)

@@ -1,0 +1,3215 @@
+{
+  "GOV-AZ": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Lake Research Partners  General  \u00b7 OTH sponsor  \u00b7 OTH partisan",
+      "Sep 30, 2026",
+      "600   RV",
+      "D+23.0  Katie Hobbs   56   Andy Biggs   33   Don't know   8   Someone else   2",
+      "Nov 2",
+      "0.45",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Noble Predictive Insights  General",
+      "Oct 28, 2026",
+      "511   LV",
+      "D+6.0  Katie Hobbs   51   Andy Biggs   45   Don't know   3   Teri Hourihan   1   Someone else   0   Risa Lombardo   0",
+      "Oct 30  4d ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf GrayHouse  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 29, 2026",
+      "500   LV",
+      "D+5.0  Katie Hobbs   50   Andy Biggs   45",
+      "Oct 30  4d ago",
+      "0.57",
+      "Pollster post   \u2197"
+    ],
+    [
+      "Kreate Strategies  General \u00b7 Governor  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 27, 2026",
+      "900   LV",
+      "D+5.0  Katie Hobbs   48   Andy Biggs   43   Teri Ann Hourihan   1   Risa Lombardo   1",
+      "Oct 29  5d ago",
+      "excluded by source policy",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf RedBox Research  General  \u00b7 D sponsor  \u00b7 D partisan",
+      "Oct 23, 2026",
+      "2,686   LV",
+      "D+5.0  Katie Hobbs   47   Andy Biggs   42",
+      "Oct 27  7d ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf HighGround  General",
+      "Oct 25, 2026",
+      "400   LV",
+      "D+12.2  Katie Hobbs   51.5   Andy Biggs   39.3   Don't know   5.7   Teri Hourihan   1.8   Risa Lombardo   1.5   Someone else   0.2",
+      "Oct 27  7d ago",
+      "0.49",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf GrayHouse  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 20, 2026",
+      "550   LV",
+      "D+6.0  Katie Hobbs   51   Andy Biggs   45   Don't know   2   Teri Hourihan   2   Risa Lombardo   0",
+      "Oct 23",
+      "0.54",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf BSP Research  General",
+      "Oct 4, 2026",
+      "1,300   RV",
+      "D+13.0  Katie Hobbs   47   Andy Biggs   34   Don't know   16   Teri Hourihan   2   Risa Lombardo   1",
+      "Oct 19",
+      "0.69",
+      "Poll document   \u2197"
+    ],
+    [
+      "Equis Research  General \u00b7 Governor",
+      "Oct 9, 2026",
+      "1,214   RV",
+      "D+6.0  Katie Hobbs   49   Andy Biggs   43",
+      "Oct 15",
+      "source not read by the model",
+      "Poll release   \u2197"
+    ],
+    [
+      "BSP Research  General \u00b7 Governor",
+      "Sep 4, 2026",
+      "\u2014   LV",
+      "D+13.0  Katie Hobbs   47   Andy Biggs   34   Teri Ann Hourihan   2   Risa Lombardo   1",
+      "Oct 15",
+      "source not read by the model",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Wick  General",
+      "Oct 6, 2026",
+      "1,513   LV",
+      "D+5.7  Katie Hobbs   48.9   Andy Biggs   43.2   Don't know   4.5   Someone else   3.4",
+      "Oct 13",
+      "0.72",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf HighGround  General",
+      "Oct 8, 2026",
+      "400   LV",
+      "D+16.8  Katie Hobbs   50.5   Andy Biggs   33.7   Don't know   10.3   Teri Hourihan   2.7   Someone else   1.5   Risa Lombardo   1.3",
+      "Oct 13",
+      "0.40",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-FL": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 2, 2026",
+      "450   LV",
+      "R+4.0  Byron Donalds   48   David Jolly   44   Don't know   6   Someone else   2",
+      "Nov 2  17h ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Targoz Market Research  General",
+      "Oct 29, 2026",
+      "1,014   LV",
+      "R+7.0  Byron Donalds   50   David Jolly   43   Don't know   4   Someone else   3",
+      "Nov 2  21h ago",
+      "0.82",
+      "Poll release   \u2197"
+    ],
+    [
+      "RedBox Research  General \u00b7 Governor",
+      "Oct 31, 2026",
+      "2,898   LV",
+      "R+1.0  Byron Donalds   47   David Jolly   46   Scott Jewett   1   Charles Burkett   0   Dean Abrams   0   Frank Russo   0   Jeffrey Datto   0   Moliere Dimanche   0",
+      "Nov 2  22h ago",
+      "source not read by the model",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The Political Matrix/The Listener Group  General",
+      "Oct 28, 2026",
+      "500   LV",
+      "R+1.5  Byron Donalds   40.3   David Jolly   38.8   Don't know   20.9",
+      "Oct 31  3d ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General",
+      "Oct 31, 2026",
+      "400   LV",
+      "R+4.6  Byron Donalds   52.3   David Jolly   47.7",
+      "Oct 31  3d ago",
+      "0.53",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Stetson University Center for Public Opinion Research  General",
+      "Oct 30, 2026",
+      "858   LV",
+      "R+6.0  Byron Donalds   51   David Jolly   45   Don't know   2   Someone else   1",
+      "Oct 31  3d ago",
+      "0.76",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Big Data Poll  General",
+      "Oct 30, 2026",
+      "1,067   LV",
+      "R+3.2  Byron Donalds   47.4   David Jolly   44.2   Scott Jewett   2.9   Frank Russo   1.9   Moe Dimanche   1.5   Jeffrey Datto   1.2   Dean Abrams   0.7   + 1  other release",
+      "Oct 30  4d ago",
+      "0.85",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 29, 2026",
+      "1,200   LV",
+      "R+4.1  Byron Donalds   49   David Jolly   44.9   Don't know   3.9   Scott Jewett   1.6   Someone else   0.5",
+      "Oct 30  4d ago",
+      "0.89",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Workbench Strategy  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 22, 2026",
+      "800   LV",
+      "D+2.0  David Jolly   48   Byron Donalds   46",
+      "Oct 30  4d ago",
+      "0.67",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf St. Pete Polls  General",
+      "Oct 27, 2026",
+      "916   LV",
+      "R+2.3  Byron Donalds   47.8   David Jolly   45.5   Don't know   3.4   Someone else   3.2",
+      "Oct 28  6d ago",
+      "0.76",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Oct 25, 2026",
+      "813   LV",
+      "R+3.9  Byron Donalds   48.36   David Jolly   44.43   Don't know   7.03   Someone else   0.17",
+      "Oct 28  6d ago",
+      "0.70",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "515   LV",
+      "R+6.0  Byron Donalds   50   David Jolly   44   Don't know   5   Scott Jewett   1   Would not vote   0   Someone else   0",
+      "Oct 27  7d ago",
+      "0.54",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-GA": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Nov 2, 2026",
+      "2,500   LV",
+      "D+0.3  Keisha Lance Bottoms   49.3   Rick Jackson   49   Don't know   1.7",
+      "Nov 2  12h ago",
+      "0.99",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 2, 2026",
+      "450   LV",
+      "D+1.0  Keisha Lance Bottoms   46   Rick Jackson   45   Don't know   9",
+      "Nov 2  17h ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf State Navigate  General",
+      "Oct 27, 2026",
+      "679   LV",
+      "D+3.0  Keisha Lance Bottoms   50   Rick Jackson   47   Don't know   4",
+      "Oct 28  6d ago",
+      "0.65",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "508   LV",
+      "D+1.0  Keisha Lance Bottoms   49   Rick Jackson   48   Don't know   3   Would not vote   0   Someone else   0",
+      "Oct 27  7d ago",
+      "0.54",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Quantus Insights  General",
+      "Oct 17, 2026",
+      "755   LV",
+      "R+1.5  Rick Jackson   49   Keisha Lance Bottoms   47.5   Don't know   2.8   Someone else   0.7",
+      "Oct 20",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "GBAO  General \u00b7 Governor",
+      "Oct 15, 2026",
+      "2,000   RV",
+      "R+1.0  Rick Jackson   46   Keisha Lance Bottoms   45",
+      "Oct 20",
+      "source not read by the model",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Governor",
+      "Oct 20, 2026",
+      "400   LV",
+      "R+3.0  Rick Jackson   51.5   Keisha Lance Bottoms   48.5",
+      "Oct 20",
+      "0.46",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf University of Georgia  General",
+      "Oct 15, 2026",
+      "1,000   LV",
+      "R+1.0  Rick Jackson   46   Keisha Lance Bottoms   45   Don't know   8",
+      "Oct 20",
+      "0.69",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 13, 2026",
+      "800   LV",
+      "R+2.0  Rick Jackson   49   Keisha Lance Bottoms   47   Don't know   4",
+      "Oct 15",
+      "0.60",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Sep 23, 2026",
+      "1,200   LV",
+      "R+2.0  Rick Jackson   48   Keisha Lance Bottoms   46   Don't know   6",
+      "Oct 15",
+      "0.59",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Big Data Poll  General \u00b7 Governor",
+      "Sep 23, 2026",
+      "678   LV",
+      "R+1.0  Rick Jackson   50.5   Keisha Lance Bottoms   49.5   + 1  other release",
+      "Sep 25",
+      "0.44",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Sep 18, 2026",
+      "3,299   LV",
+      "R+2.0  Rick Jackson   46   Keisha Lance Bottoms   44   Don't know   8   Would not vote   1   Someone else   1   + 2  other release s",
+      "Sep 23",
+      "0.59",
+      "Poll document   \u2197"
+    ]
+  ],
+  "GOV-IA": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 31, 2026",
+      "901   LV",
+      "D+5.0  Rob Sand   50   Zach Lahn   45",
+      "Nov 2  12h ago",
+      "0.79",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,219   LV",
+      "D+10.1  Rob Sand   54.1   Zach Lahn   44   Someone else   1.9   Don't know   0",
+      "Nov 2  15h ago",
+      "0.93",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "705   LV",
+      "D+8.3  Rob Sand   51.3   Zach Lahn   43   Don't know   5.7",
+      "Nov 2  23h ago",
+      "0.71",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,019   LV",
+      "D+7.0  Rob Sand   53   Zach Lahn   46   Would not vote   0   Don't know   0   Someone else   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf co/efficient  General \u00b7 Governor  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 28, 2026",
+      "1,020   LV",
+      "D+5.0  Rob Sand   50   Zach Lahn   45",
+      "Oct 29  5d ago",
+      "0.81",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "403   LV",
+      "D+4.0  Rob Sand   50   Zach Lahn   46   Don't know   3   Would not vote   0   Someone else   0",
+      "Oct 27  7d ago",
+      "0.48",
+      "Poll release   \u2197"
+    ],
+    [
+      "New River  General \u00b7 Governor",
+      "Oct 13, 2026",
+      "602   LV",
+      "D+11.0  Rob Sand   54   Zach Lahn   43",
+      "Oct 22",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf New River Strategies/GS Strategy Group  General",
+      "Oct 13, 2026",
+      "602   LV",
+      "D+11.0  Rob Sand   54   Zach Lahn   43   Don't know   3",
+      "Oct 21",
+      "0.52",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf co/efficient  General \u00b7 Governor  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 19, 2026",
+      "863   LV",
+      "D+4.0  Rob Sand   49   Zach Lahn   45",
+      "Oct 20",
+      "0.67",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 12, 2026",
+      "678   LV",
+      "D+5.0  Rob Sand   50   Zach Lahn   45   Don't know   5",
+      "Oct 20",
+      "0.55",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 12, 2026",
+      "2,244   LV",
+      "D+6.0  Rob Sand   50   Zach Lahn   44   Don't know   6   Would not vote   0   Someone else   0",
+      "Oct 15",
+      "0.78",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Marist University  General \u00b7 Governor",
+      "Oct 11, 2026",
+      "1,100   LV",
+      "D+7.0  Rob Sand   52   Zach Lahn   45   + 1  other release",
+      "Oct 15",
+      "0.69",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-KS": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,267   LV",
+      "D+1.0  Cindy Holscher   49   Ty Masterson   48   Someone else   2   Don't know   1   + 1  other release",
+      "Nov 2  12h ago",
+      "0.95",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "2,038   LV",
+      "D+4.3  Cindy Holscher   49.9   Ty Masterson   45.6   Would not vote   2.3   Someone else   1.5   Don't know   0.6",
+      "Nov 2  15h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "736   LV",
+      "D+0.4  Cindy Holscher   47.8   Ty Masterson   47.4   Don't know   4.6   Someone else   0.2",
+      "Nov 2  23h ago",
+      "0.72",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,085   LV",
+      "R+1.0  Ty Masterson   50   Cindy Holscher   49   Would not vote   0   Don't know   0   Someone else   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The Washington Post/George Mason University Schar School of Policy and Government  General",
+      "Oct 26, 2026",
+      "801   LV",
+      "D+6.0  Cindy Holscher   51   Ty Masterson   45   Would not vote   2   Don't know   1   Someone else   1",
+      "Oct 30  4d ago",
+      "0.70",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General \u00b7 Governor",
+      "Oct 28, 2026",
+      "800   LV",
+      "R+5.0  Ty Masterson   52.5   Cindy Holscher   47.5",
+      "Oct 30  4d ago",
+      "0.72",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 26, 2026",
+      "838   LV",
+      "R+5.0  Ty Masterson   50   Cindy Holscher   45   Neither   4   Someone else   1   Don't know   0",
+      "Oct 29  5d ago",
+      "0.72",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Global Strategy Group  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 21, 2026",
+      "600   LV",
+      "Tied  Ty Masterson   47   Cindy Holscher   47",
+      "Oct 23",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Sep 30, 2026",
+      "605   LV",
+      "R+4.1  Ty Masterson   48.52   Cindy Holscher   44.38   Don't know   6.74   Someone else   0.36",
+      "Oct 15",
+      "0.45",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Sep 16, 2026",
+      "750   LV",
+      "R+7.3  Ty Masterson   50.82   Cindy Holscher   43.48   Don't know   5.7",
+      "Oct 15",
+      "0.43",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 4, 2026",
+      "2,252   LV",
+      "R+3.0  Ty Masterson   47   Cindy Holscher   44   Don't know   7   Someone else   1   Would not vote   0",
+      "Oct 6",
+      "0.71",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Global Strategy Group  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Sep 16, 2026",
+      "800   LV",
+      "D+3.0  Cindy Holscher   49   Ty Masterson   46",
+      "Oct 1",
+      "0.44",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-ME": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "600   LV",
+      "D+9.8  Hannah Pingree   50.3   Bobby Charles   40.5   Rick Bennett   9.1",
+      "Nov 2  13h ago",
+      "0.65",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "967   LV",
+      "D+7.4  Hannah Pingree   49.5   Bobby Charles   42.1   Rick Bennett   5.2   Don't know   2.1   Would not vote   0.9   Someone else   0.1",
+      "Nov 2  15h ago",
+      "0.83",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,323   LV",
+      "D+12.0  Hannah Pingree   53   Bobby Charles   41   Someone else   5   Don't know   1   + 2  other release s",
+      "Nov 2  19h ago",
+      "0.97",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General \u00b7 Governor",
+      "Nov 1, 2026",
+      "714   LV",
+      "D+12.0  Hannah Pingree   49   Bobby Charles   37   Rick Bennett   8   + 1  other release",
+      "Nov 2  23h ago",
+      "0.71",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf University of New Hampshire Survey Center  General",
+      "Oct 31, 2026",
+      "1,648   LV",
+      "D+11.0  Hannah Pingree   51   Bobby Charles   40   Rick Bennett   7   Don't know   1   Someone else   1",
+      "Nov 2  23h ago",
+      "0.97",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "1,500   LV",
+      "D+8.0  Hannah Pingree   53   Bobby Charles   45   Someone else   2   Would not vote   0   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 27, 2026",
+      "652   LV",
+      "D+12.0  Hannah Pingree   49   Bobby Charles   37   Rick Bennett   7   Don't know   6",
+      "Oct 30  4d ago",
+      "0.64",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 26, 2026",
+      "783   LV",
+      "D+14.0  Hannah Pingree   53   Bobby Charles   39   Someone else   4   Neither   4   Don't know   0",
+      "Oct 29  5d ago",
+      "0.69",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Marist University  General \u00b7 Governor",
+      "Oct 25, 2026",
+      "1,449   LV",
+      "Tied  Hannah Pingree   44   Bobby Charles   44   Rick Bennett   6   + 1  other release",
+      "Oct 27  7d ago",
+      "0.90",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "413   LV",
+      "D+13.0  Hannah Pingree   51   Bobby Charles   38   Rick Bennett   7   Don't know   3   Would not vote   1   Someone else   0",
+      "Oct 27  7d ago",
+      "0.49",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Beacon Research/Shaw & Company Research  General",
+      "Oct 20, 2026",
+      "1,514   LV",
+      "D+10.0  Hannah Pingree   49   Bobby Charles   39   Rick Bennett   9   Don't know   2   Would not vote   0   Someone else   0   + 1  other release",
+      "Oct 23",
+      "0.85",
+      "News coverage   \u2197"
+    ],
+    [
+      "Beacon Research/Shaw & Co. Research  General",
+      "Oct 20, 2026",
+      "1,514",
+      "",
+      "not logged",
+      "read for the candidates' shares",
+      "no link"
+    ]
+  ],
+  "GOV-MI": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "500   LV",
+      "D+4.6  Jocelyn Benson   50.4   John James   45.8   Donna Brandenburg   2   Anthony Hudson   1.7   Douglas Campbell   0.2",
+      "Nov 2  13h ago",
+      "0.59",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Nov 1, 2026",
+      "510   LV",
+      "D+9.0  Jocelyn Benson   50   John James   41   Don't know   5   Someone else   3",
+      "Nov 2  14h ago",
+      "0.60",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,316   LV",
+      "D+8.0  Jocelyn Benson   53.2   John James   45.2   Don't know   1.1   Someone else   0.4   Would not vote   0.1",
+      "Nov 2  14h ago",
+      "0.96",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 29, 2026",
+      "745   LV",
+      "D+10.0  Jocelyn Benson   50   John James   40",
+      "Nov 2  17h ago",
+      "0.70",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "1,011   LV",
+      "D+12.4  Jocelyn Benson   51.8   John James   39.4   Don't know   8.3   Someone else   0.5",
+      "Nov 2  23h ago",
+      "0.85",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+12.0  Jocelyn Benson   53   John James   41   Don't know   5   Someone else   1",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,086   LV",
+      "D+6.0  Jocelyn Benson   52   John James   46   Someone else   1   Would not vote   0   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 25, 2026",
+      "622   LV",
+      "D+9.0  Jocelyn Benson   52   John James   43   Don't know   3   Donna Brandenburg   1   Anthony Hudson   1   Douglas Campbell   0",
+      "Oct 30  4d ago",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Mitchell Research & Communications  General",
+      "Oct 27, 2026",
+      "636   LV",
+      "D+5.0  Jocelyn Benson   49   John James   44   Don't know   4   Other named candidates   3",
+      "Oct 30  4d ago",
+      "0.63",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 27, 2026",
+      "768   LV",
+      "D+12.0  Jocelyn Benson   53   John James   41   Neither   3   Someone else   2   Don't know   1",
+      "Oct 29  5d ago",
+      "0.70",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Michigan State University Office for Survey Research/Verasight  General",
+      "Oct 23, 2026",
+      "1,383   LV",
+      "D+10.2  Jocelyn Benson   51.4   John James   41.2   Someone else   7.4",
+      "Oct 29  5d ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Glengariff Group  General",
+      "Oct 22, 2026",
+      "600   LV",
+      "D+6.9  Jocelyn Benson   51.4   John James   44.5   Don't know   4",
+      "Oct 27  7d ago",
+      "0.58",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-MN": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,365   LV",
+      "D+10.0  Amy Klobuchar   53   Lisa Demuth   43   Someone else   3   Don't know   1   + 1  other release",
+      "Nov 2  12h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+13.0  Amy Klobuchar   53   Lisa Demuth   40   Don't know   6   Steven Young   1",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf SurveyUSA  General",
+      "Oct 28, 2026",
+      "714   LV",
+      "D+12.0  Amy Klobuchar   51   Lisa Demuth   39   Don't know   8   Steven Young   3",
+      "Oct 30  4d ago",
+      "0.68",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf State Navigate  General",
+      "Oct 28, 2026",
+      "806   LV",
+      "D+10.0  Amy Klobuchar   52   Lisa Demuth   42   Don't know   3   Steven Young   3",
+      "Oct 29  5d ago",
+      "0.72",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Victory Insights  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 22, 2026",
+      "1,194   LV",
+      "D+7.0  Amy Klobuchar   50.1   Lisa Demuth   43.1   Don't know   4.4   Someone else   2.4   Would not vote   0.1",
+      "Oct 28  6d ago",
+      "0.82",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Oct 26, 2026",
+      "752   LV",
+      "D+18.0  Amy Klobuchar   55.92   Lisa Demuth   37.88   Don't know   5.97   Someone else   0.23",
+      "Oct 28  6d ago",
+      "0.68",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf SurveyUSA  General",
+      "Oct 12, 2026",
+      "718   LV",
+      "D+7.0  Amy Klobuchar   48   Lisa Demuth   41   Don't know   8   Steven Young   3",
+      "Oct 15",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "Mason-Dixon  General \u00b7 Governor",
+      "Oct 7, 2026",
+      "800   LV",
+      "D+9.0  Amy Klobuchar   50   Lisa Demuth   41",
+      "Oct 15",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "GQR  General \u00b7 Governor  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 4, 2026",
+      "800   LV",
+      "D+9.0  Peggy Flanagan   53   Michele Tafoya   44",
+      "Oct 15",
+      "not in the average",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf SurveyUSA  General",
+      "Sep 14, 2026",
+      "654   LV",
+      "D+7.0  Amy Klobuchar   47   Lisa Demuth   40   Don't know   9   Steven Young   3",
+      "Oct 15",
+      "0.39",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Mason-Dixon Polling & Research, Inc.  General",
+      "Oct 7, 2026",
+      "800   LV",
+      "D+9.0  Amy Klobuchar   50   Lisa Demuth   41   Don't know   8   Someone else   0.8",
+      "Oct 12",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Morning Consult  General",
+      "Oct 7, 2026",
+      "1,000   RV",
+      "D+9.0  Amy Klobuchar   48   Lisa Demuth   39   Don't know   9   Someone else   4",
+      "Oct 9",
+      "0.63",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-NH": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,057   LV",
+      "R+5.9  Kelly Ayotte   49.7   Cinde Warmington   43.8   Don't know   4.1   Someone else   1.8   Would not vote   0.6",
+      "Nov 2  15h ago",
+      "0.86",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General \u00b7 Governor  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 29, 2026",
+      "800   LV",
+      "R+9.0  Kelly Ayotte   52   Cinde Warmington   43   Stephen Villee   3",
+      "Nov 2  23h ago",
+      "0.73",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf University of New Hampshire Survey Center  General",
+      "Oct 31, 2026",
+      "2,026   LV",
+      "Tied  Cinde Warmington   48   Kelly Ayotte   48   Stephen Villee   2   Don't know   1",
+      "Nov 2  23h ago",
+      "0.97",
+      "Poll release   \u2197"
+    ],
+    [
+      "University of Massachusetts Lowell Center for Public Opinion/YouGov  General \u00b7 Governor",
+      "Oct 19, 2026",
+      "600   LV",
+      "R+6.0  Kelly Ayotte   48   Cinde Warmington   42   Stephen Villee   3",
+      "Oct 29  5d ago",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 23, 2026",
+      "970   LV",
+      "R+10.0  Kelly Ayotte   52   Cinde Warmington   42",
+      "Oct 29  5d ago",
+      "0.75",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf UMass Lowell  General",
+      "Oct 19, 2026",
+      "600   LV",
+      "R+6.0  Kelly Ayotte   48   Cinde Warmington   42   Don't know   7   Stephen Villee   3   Would not vote   0   Someone else   0",
+      "Oct 29  5d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "Saint Anselm  General \u00b7 Governor",
+      "Oct 20, 2026",
+      "1,672   LV",
+      "R+8.0  Kelly Ayotte   50   Cinde Warmington   42",
+      "Oct 23",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf St. Anselm  General",
+      "Oct 20, 2026",
+      "1,672   LV",
+      "R+8.0  Kelly Ayotte   50   Cinde Warmington   42   Don't know   5   Someone else   3",
+      "Oct 22",
+      "0.85",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 12, 2026",
+      "600   LV",
+      "R+16.0  Kelly Ayotte   54   Cinde Warmington   38   Don't know   5   Stephen Villee   3",
+      "Oct 20",
+      "0.52",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Sep 22, 2026",
+      "613   LV",
+      "R+11.5  Kelly Ayotte   52.31   Cinde Warmington   40.84   Don't know   6.31   Someone else   0.54",
+      "Oct 15",
+      "0.41",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf University of New Hampshire Survey Center  General",
+      "Sep 21, 2026",
+      "1,407   LV",
+      "R+4.0  Kelly Ayotte   47   Cinde Warmington   43   Don't know   7   Stephen Villee   2   Someone else   1",
+      "Oct 15",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf co/efficient  General",
+      "Sep 11, 2026",
+      "958   LV",
+      "R+21.0  Kelly Ayotte   55   Cinde Warmington   34   Don't know   9   Stephen Villee   3",
+      "Oct 15",
+      "0.46",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-NV": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Noble Predictive Insights  General",
+      "Oct 28, 2026",
+      "487   LV",
+      "Tied  Aaron Ford   47   Joe Lombardo   47   Don't know   4   Someone else   1   Danielle Ford   1",
+      "Oct 30  4d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Hart Research Associates/Public Opinion Strategies  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 25, 2026",
+      "950   LV",
+      "D+4.0  Aaron Ford   49   Joe Lombardo   45",
+      "Oct 27  7d ago",
+      "0.76",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf RedBox Research  General  \u00b7 D sponsor  \u00b7 D partisan",
+      "Oct 23, 2026",
+      "1,407   LV",
+      "D+3.0  Aaron Ford   46   Joe Lombardo   43",
+      "Oct 26",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Sep 30, 2026",
+      "565   LV",
+      "R+1.0  Joe Lombardo   43   Aaron Ford   42   Don't know   8   Someone else   7",
+      "Oct 26",
+      "0.44",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Global Strategy Group  General  \u00b7 D sponsor  \u00b7 D partisan",
+      "Oct 13, 2026",
+      "700   LV",
+      "R+1.0  Joe Lombardo   48   Aaron Ford   47",
+      "Oct 19",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Noble Predictive Insights  General",
+      "Sep 26, 2026",
+      "708   LV",
+      "R+2.0  Joe Lombardo   42   Aaron Ford   40   Don't know   9   Danielle Ford   7   Neither   2   Someone else   1   + 1  other release",
+      "Oct 6",
+      "0.47",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Sep 8, 2026",
+      "680   LV",
+      "D+2.1  Aaron Ford   44.16   Joe Lombardo   42.05   Don't know   11.36   Danielle Ford   2.44",
+      "Sep 10",
+      "0.37",
+      "Poll release   \u2197"
+    ],
+    [
+      "Grassroots Targeting  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Jul 16, 2026",
+      "2,500   LV",
+      "R+12.0  Joe Lombardo   52   Aaron Ford   40",
+      "Aug 5",
+      "excluded by source policy",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Tarrance Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Jul 29, 2026",
+      "550   LV",
+      "R+7.0  Joe Lombardo   50   Aaron Ford   43",
+      "Aug 5",
+      "0.21",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Public Opinion Strategies  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Jun 29, 2026",
+      "600   LV",
+      "R+9.0  Joe Lombardo   51   Aaron Ford   42",
+      "Aug 5",
+      "0.15",
+      "Poll release   \u2197"
+    ],
+    [
+      "Vote TXT  General",
+      "May 19, 2023",
+      "412   RV",
+      "R+21.0  Joe Lombardo   51   Aaron Ford   30",
+      "Jul 29",
+      "0 \u00b7 not counted",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Public Policy Polling  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Jul 16, 2026",
+      "558   LV",
+      "Tied  Joe Lombardo   44   Aaron Ford   44   Don't know   12",
+      "Jul 22",
+      "0.18",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-OH": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,122   LV",
+      "D+7.0  Amy Acton   51   Vivek Ramaswamy   44   Someone else   4   Don't know   1   + 1  other release",
+      "Nov 2  12h ago",
+      "0.89",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "930   LV",
+      "D+0.1  Amy Acton   48.4   Vivek Ramaswamy   48.3   Donald Kissick   3.4",
+      "Nov 2  13h ago",
+      "0.81",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,801   LV",
+      "D+7.9  Amy Acton   51.8   Vivek Ramaswamy   43.9   Donald Kissick   2   Someone else   1.2   Would not vote   0.8   Don't know   0.4",
+      "Nov 2  17h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "717   LV",
+      "D+5.6  Amy Acton   48.8   Vivek Ramaswamy   43.2   Don't know   7.5   Someone else   0.4",
+      "Nov 2  23h ago",
+      "0.71",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General \u00b7 Governor  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 24, 2026",
+      "469   LV",
+      "D+10.0  Amy Acton   49   Vivek Ramaswamy   39   Don Kissick   5",
+      "Nov 2  23h ago",
+      "0.53",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+6.0  Amy Acton   48   Vivek Ramaswamy   42   Don't know   9   Donald Kissick   1",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,082   LV",
+      "D+6.0  Amy Acton   52   Vivek Ramaswamy   46   Would not vote   1   Someone else   1   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 30, 2026",
+      "1,200   LV",
+      "D+2.9  Amy Acton   49.2   Vivek Ramaswamy   46.3   Donald Kissick   3   Don't know   1.5",
+      "Nov 1  2d ago",
+      "0.90",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General",
+      "Oct 31, 2026",
+      "400   LV",
+      "D+1.6  Amy Acton   50.8   Vivek Ramaswamy   49.2",
+      "Oct 31  3d ago",
+      "0.53",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Aug 31, 2026",
+      "504   LV",
+      "D+12.0  Amy Acton   49   Vivek Ramaswamy   37   Don't know   12   Donald Kissick   2",
+      "Oct 28",
+      "0.29",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Suffolk University  General",
+      "Oct 26, 2026",
+      "500   LV",
+      "D+4.0  Amy Acton   48   Vivek Ramaswamy   44   Don't know   4   Donald Kissick   3.6",
+      "Oct 28  6d ago",
+      "0.55",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "508   LV",
+      "R+2.0  Vivek Ramaswamy   47   Amy Acton   45   Donald Kissick   4   Don't know   3   Would not vote   1   Someone else   0",
+      "Oct 27  7d ago",
+      "0.54",
+      "Poll release   \u2197"
+    ]
+  ],
+  "GOV-PA": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+25.0  Josh Shapiro   59   Stacy Garrity   34   Don't know   6   Ken Krawchuk   1",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Franklin & Marshall College  General",
+      "Oct 18, 2026",
+      "\u2014   LV",
+      "D+23.0  Josh Shapiro   59   Stacy Garrity   36   + 1  other release",
+      "Oct 22",
+      "0.64",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Governor",
+      "Oct 21, 2026",
+      "400   LV",
+      "D+23.0  Josh Shapiro   61.5   Stacy Garrity   38.5",
+      "Oct 21",
+      "0.47",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Bravo Group  General",
+      "Oct 11, 2026",
+      "628   RV",
+      "D+30.1  Josh Shapiro   57.68   Stacy Garrity   27.55   Don't know   8.15   Someone else   5.84   Would not vote   0.78",
+      "Oct 19",
+      "0.52",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Z to A Research  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 1, 2026",
+      "630   LV",
+      "D+19.0  Josh Shapiro   53   Stacy Garrity   34   Don't know   9   Ken Krawchuk   3   Would not vote   2",
+      "Oct 15",
+      "0.47",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General \u00b7 Governor",
+      "Sep 22, 2026",
+      "615   LV",
+      "D+20.0  Josh Shapiro   58   Stacy Garrity   38   + 1  other release",
+      "Oct 15",
+      "0.42",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Bravo Group  General",
+      "Sep 22, 2026",
+      "624   RV",
+      "D+27.4  Josh Shapiro   55.14   Stacy Garrity   27.72   Someone else   8.66   Don't know   7.72   Would not vote   0.77",
+      "Oct 15",
+      "0.42",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Quinnipiac University  General",
+      "Oct 5, 2026",
+      "1,159   LV",
+      "D+25.0  Josh Shapiro   59   Stacy Garrity   34   Don't know   5   Ken Krawchuk   2   Would not vote   0   Someone else   0",
+      "Oct 7",
+      "0.66",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Susquehanna Polling & Research Inc.  General",
+      "Sep 30, 2026",
+      "700   LV",
+      "D+21.0  Josh Shapiro   52   Stacy Garrity   31   Don't know   17",
+      "Oct 7",
+      "0.49",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Franklin & Marshall College  General",
+      "Aug 23, 2026",
+      "501   RV",
+      "D+25.0  Josh Shapiro   50   Stacy Garrity   25   Don't know   18   Someone else   5   Tony Dastra   2",
+      "Aug 30",
+      "0.27",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Bravo Group  General",
+      "Aug 22, 2026",
+      "711   LV",
+      "D+31.2  Josh Shapiro   56.38   Stacy Garrity   25.19   Don't know   9.58   Someone else   7.42   Would not vote   1.17",
+      "Aug 30",
+      "0.31",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General \u00b7 Governor",
+      "Aug 21, 2026",
+      "760   LV",
+      "D+16.0  Josh Shapiro   55   Stacy Garrity   39   + 1  other release",
+      "Aug 26",
+      "0.32",
+      "News coverage   \u2197"
+    ]
+  ],
+  "GOV-TX": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "500   LV",
+      "R+0.8  Greg Abbott   49.7   Gina Hinojosa   48.9   Pat Dixon   1.4",
+      "Nov 2  13h ago",
+      "0.59",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 2, 2026",
+      "450   LV",
+      "R+2.0  Greg Abbott   46   Gina Hinojosa   44   Don't know   8   Pat Dixon   2",
+      "Nov 2  17h ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General \u00b7 Governor",
+      "Nov 1, 2026",
+      "1,215   LV",
+      "D+1.0  Gina Hinojosa   48   Greg Abbott   47   + 1  other release",
+      "Nov 2  23h ago",
+      "0.93",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,678   A",
+      "D+1.6  Gina Hinojosa   49.2   Greg Abbott   47.6   Someone else   1.3   Don't know   1.2   Would not vote   0.7",
+      "Nov 1  2d ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,139   LV",
+      "R+1.0  Greg Abbott   50   Gina Hinojosa   49   Would not vote   1   Someone else   1   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Kreate Strategies  General",
+      "Oct 30, 2026",
+      "900   LV",
+      "R+2.0  Greg Abbott   49   Gina Hinojosa   47   Don't know   3   Someone else   1   Pat Dixon   1",
+      "Oct 31  3d ago",
+      "0.78",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 26, 2026",
+      "712   LV",
+      "R+1.0  Greg Abbott   48   Gina Hinojosa   47   Don't know   4   Pat Dixon   2",
+      "Oct 30  4d ago",
+      "0.66",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Quantus Insights  General",
+      "Oct 28, 2026",
+      "1,214   LV",
+      "R+5.3  Greg Abbott   51.6   Gina Hinojosa   46.3   Pat Dixon   1.2   Don't know   1",
+      "Oct 30  4d ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Governor",
+      "Oct 29, 2026",
+      "400   LV",
+      "R+4.2  Greg Abbott   52.1   Gina Hinojosa   47.9",
+      "Oct 29  5d ago",
+      "0.51",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 27, 2026",
+      "923   LV",
+      "R+2.0  Greg Abbott   48   Gina Hinojosa   46   Neither   4   Someone else   2   Don't know   0",
+      "Oct 29  5d ago",
+      "0.76",
+      "News coverage   \u2197"
+    ],
+    [
+      "Texas Southern University Barbara Jordan Public Policy Research and Survey Center  General \u00b7 Governor",
+      "Oct 25, 2026",
+      "2,000   LV",
+      "R+3.0  Greg Abbott   50   Gina Hinojosa   47   Pat Dixon   2",
+      "Oct 29  5d ago",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Barbara Jordan Public Policy Research and Survey Center  General",
+      "Oct 25, 2026",
+      "2,000   LV",
+      "R+3.0  Greg Abbott   50   Gina Hinojosa   47   Pat Dixon   2   Don't know   1",
+      "Oct 29  5d ago",
+      "0.90",
+      "Poll document   \u2197"
+    ]
+  ],
+  "GOV-WI": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+5.0  David Crowley   50   Tom Tiffany   45   Don't know   5",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Wick  General \u00b7 Governor  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 23, 2026",
+      "1,213   LV",
+      "D+3.0  David Crowley   48   Tom Tiffany   45",
+      "Oct 29  5d ago",
+      "0.83",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Marquette University Law School  General",
+      "Oct 22, 2026",
+      "668   LV",
+      "D+7.0  David Crowley   53   Tom Tiffany   46   Don't know   1   + 1  other release",
+      "Oct 28  6d ago",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General  \u00b7 OTH sponsor  \u00b7 OTH partisan",
+      "Oct 9, 2026",
+      "1,715   RV",
+      "D+4.0  David Crowley   46   Tom Tiffany   42   Don't know   9   Would not vote   2",
+      "Oct 16",
+      "0.75",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Z to A Research  General \u00b7 Governor  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 1, 2026",
+      "662   LV",
+      "D+5.0  David Crowley   49   Tom Tiffany   44",
+      "Oct 15",
+      "0.48",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Marquette University Law School  General",
+      "Sep 23, 2026",
+      "692   LV",
+      "D+3.0  David Crowley   49   Tom Tiffany   46   Don't know   5   + 1  other release",
+      "Oct 15",
+      "0.45",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Marquette University Law School  General",
+      "Aug 20, 2026",
+      "738   LV",
+      "D+5.0  David Crowley   49   Tom Tiffany   44   Don't know   7   + 1  other release",
+      "Aug 30",
+      "0.31",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf TIPP Insights  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Aug 18, 2026",
+      "1,187   LV",
+      "D+3.4  David Crowley   46.74   Tom Tiffany   43.39   Don't know   5.61   Someone else   4.26   + 2  other release s",
+      "Aug 21",
+      "0.39",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Platform Communications  General \u00b7 Governor",
+      "Aug 13, 2026",
+      "500   LV",
+      "D+4.0  David Crowley   48   Tom Tiffany   44",
+      "Aug 16",
+      "0.24",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf GBAO  General \u00b7 Governor  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Aug 3, 2026",
+      "800   LV",
+      "D+3.0  David Crowley   47   Tom Tiffany   44",
+      "Aug 14",
+      "0.27",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf RMG Research  General \u00b7 Governor",
+      "Jul 24, 2026",
+      "800   RV",
+      "Francesca Hong   44   Tom Tiffany   43   + 3  other release s",
+      "Jul 31",
+      "0.24",
+      "Poll release   \u2197"
+    ],
+    [
+      "Marquette University Law School  General \u00b7 Governor",
+      "Jul 16, 2026",
+      "695   LV",
+      "Tom Tiffany   44   Kelda Roys   42   + 9  other release s",
+      "Jul 31",
+      "tests a different matchup",
+      "Poll document   \u2197"
+    ]
+  ],
+  "SEN-AK": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026   from  Oct 28",
+      "522   LV",
+      "Mary Peltola   50.1   Dan Sullivan   44.6   Gerald Heikes   2.5   Someone else   2.2   Dan J. Sullivan   0.6    every candidate named  Mary Peltola   51.2   Dan S. Sullivan   45.6   Daniel J. Sullivan Jr.   0.6   Gerald L. Heikes   2.6",
+      "Nov 2  14h ago",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Alaska Survey Research  General",
+      "Oct 29, 2026",
+      "1,326   LV",
+      "D+2.0  Mary Peltola   48   Dan Sullivan   46",
+      "Nov 2  17h ago",
+      "0.94",
+      "no link"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Oct 30, 2026",
+      "610   LV",
+      "D+1.4  Mary Peltola   47.6   Dan Sullivan   46.2   Don't know   6.1   Someone else   0.1",
+      "Nov 2  23h ago",
+      "0.64",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Nov 1, 2026   from  Oct 31",
+      "1,200   LV",
+      "Mary Peltola   48.3   Dan Sullivan   48.1   Dan J. Sullivan   2   Don't know   1.1   Gerald Heikes   0.5    every candidate named  Mary Peltola   48.8   Dan S. Sullivan   48.6   Daniel J. Sullivan Jr.   2.0   Gerald L. Heikes   0.5",
+      "Nov 2  23h ago",
+      "0.92",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 15, 2026",
+      "775   LV",
+      "D+2.0  Mary Peltola   44   Dan Sullivan   42",
+      "Oct 28  6d ago",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 16, 2026   from  Oct 8",
+      "694   LV",
+      "Mary Peltola   47   Dan Sullivan   44   Dan J. Sullivan   4   Don't know   3   Gerald Heikes   1    every candidate named  Mary Peltola   49.0   Dan S. Sullivan   45.8   Daniel J. Sullivan Jr.   4.2   Gerald L. Heikes   1.0",
+      "Oct 21",
+      "0.58",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Public Policy Polling  General \u00b7 Senate  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 15, 2026",
+      "578   RV",
+      "D+1.0  Mary Peltola   48   Dan Sullivan   47",
+      "Oct 16",
+      "0.53",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Quantus Insights  General \u00b7 Senate",
+      "Sep 30, 2026   from  Sep 28",
+      "758   LV",
+      "R+0.6  Dan Sullivan   47.8   Mary Peltola   47.2   + 1  other release   every candidate named  Mary Peltola   48.2   Dan S. Sullivan   48.5   Daniel J. Sullivan Jr.   1.7   Gerald L. Heikes   1.6",
+      "Oct 15",
+      "0.51",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf co/efficient  General \u00b7 Senate",
+      "Sep 17, 2026   from  Sep 14",
+      "799   LV",
+      "R+3.0  Dan Sullivan   49   Mary Peltola   46   + 1  other release   every candidate named  Mary Peltola   47.9   Dan S. Sullivan   50.0   Daniel J. Sullivan Jr.   1.0   Gerald L. Heikes   1.0",
+      "Oct 15",
+      "0.45",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Fabrizio Ward/Impact Research  General  \u00b7 for AARP",
+      "Sep 11, 2026   from  Sep 8",
+      "800   LV",
+      "Mary Peltola   46   Dan Sullivan   41   Don't know   7   Dan J. Sullivan   4   Gerald Heikes   3    every candidate named  Mary Peltola   48.9   Dan S. Sullivan   43.6   Daniel J. Sullivan Jr.   4.3   Gerald L. Heikes   3.2",
+      "Oct 15",
+      "0.42",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Alaska Survey Research  General",
+      "Oct 3, 2026",
+      "1,512   LV",
+      "D+2.0  Mary Peltola   47   Dan Sullivan   45",
+      "Oct 13",
+      "0.70",
+      "no link"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 10, 2026   from  Oct 9",
+      "1,200   LV",
+      "Mary Peltola   48.2   Dan Sullivan   42.6   Don't know   5.3   Gerald Heikes   2.2   Dan J. Sullivan   1.7    every candidate named  Mary Peltola   50.9   Dan S. Sullivan   45.0   Daniel J. Sullivan Jr.   1.8   Gerald L. Heikes   2.3",
+      "Oct 11",
+      "0.71",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-FL": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 2, 2026",
+      "450   LV",
+      "R+7.0  Ashley Moody   51   Angie Nixon   44   Don't know   4   Neil Gillespie   1",
+      "Nov 2  17h ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Targoz Market Research  General",
+      "Oct 29, 2026",
+      "1,013   LV",
+      "R+9.0  Ashley Moody   52   Angie Nixon   43   Don't know   3   Someone else   2",
+      "Nov 2  21h ago",
+      "0.82",
+      "Poll release   \u2197"
+    ],
+    [
+      "RedBox Research  General \u00b7 Senate  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 31, 2026",
+      "2,898   LV",
+      "R+2.0  Ashley Moody   47   Angie Nixon   45   Neil Gillespie   1",
+      "Nov 2  22h ago",
+      "excluded by source policy",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The Political Matrix/The Listener Group  General",
+      "Oct 28, 2026",
+      "500   LV",
+      "R+6.0  Ashley Moody   41.8   Angie Nixon   35.8   Don't know   22.4",
+      "Oct 31  3d ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Stetson University Center for Public Opinion Research  General",
+      "Oct 30, 2026",
+      "859   LV",
+      "R+4.0  Ashley Moody   49   Angie Nixon   45   Don't know   3   Someone else   3",
+      "Oct 31  3d ago",
+      "0.76",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Big Data Poll  General",
+      "Oct 30, 2026",
+      "1,067   LV",
+      "R+6.9  Ashley Moody   51.6   Angie Nixon   44.7   Neil Gillespie   3.8   + 1  other release",
+      "Oct 30  4d ago",
+      "0.85",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 29, 2026",
+      "1,200   LV",
+      "R+5.8  Ashley Moody   48.5   Angie Nixon   42.7   Don't know   6.4   Neil Gillespie   2.4",
+      "Oct 30  4d ago",
+      "0.89",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Workbench Strategy  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 22, 2026",
+      "800   LV",
+      "R+2.0  Ashley Moody   49   Angie Nixon   47",
+      "Oct 30  4d ago",
+      "0.67",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf St. Pete Polls  General",
+      "Oct 27, 2026",
+      "916   LV",
+      "R+4.3  Ashley Moody   49   Angie Nixon   44.7   Don't know   3.7   Someone else   2.6",
+      "Oct 28  6d ago",
+      "0.76",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Oct 25, 2026",
+      "813   LV",
+      "R+6.0  Ashley Moody   50.35   Angie Nixon   44.32   Don't know   5.33",
+      "Oct 28  6d ago",
+      "0.70",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "515   LV",
+      "R+8.0  Ashley Moody   51   Angie Nixon   43   Don't know   4   Neil Gillespie   3   Would not vote   0   Someone else   0",
+      "Oct 27  7d ago",
+      "0.54",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Senate",
+      "Oct 27, 2026",
+      "400   LV",
+      "R+6.0  Ashley Moody   53   Angie Nixon   47",
+      "Oct 27  7d ago",
+      "0.50",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-GA": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Nov 2, 2026",
+      "2,500   LV",
+      "D+6.7  Jon Ossoff   52.7   Mike Collins   46   Don't know   1.3",
+      "Nov 2  12h ago",
+      "0.99",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 2, 2026",
+      "450   LV",
+      "D+10.0  Jon Ossoff   52   Mike Collins   42   Don't know   6",
+      "Nov 2  17h ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "508   LV",
+      "D+15.0  Jon Ossoff   55   Mike Collins   40   Someone else   3   Don't know   2   Would not vote   0",
+      "Oct 27  7d ago",
+      "0.54",
+      "Poll release   \u2197"
+    ],
+    [
+      "University of Georgia School of Public and International Affairs  General \u00b7 Senate",
+      "Oct 15, 2026",
+      "1,000   LV",
+      "D+8.0  Jon Ossoff   48   Mike Collins   40",
+      "Oct 21",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Quantus Insights  General",
+      "Oct 17, 2026",
+      "755   LV",
+      "D+7.3  Jon Ossoff   52.7   Mike Collins   45.4   Don't know   2",
+      "Oct 20",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Senate",
+      "Oct 20, 2026",
+      "400   LV",
+      "D+8.0  Jon Ossoff   54   Mike Collins   46",
+      "Oct 20",
+      "0.46",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf University of Georgia  General",
+      "Oct 15, 2026",
+      "1,000   LV",
+      "D+8.0  Jon Ossoff   48   Mike Collins   40   Don't know   12",
+      "Oct 20",
+      "0.69",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Sep 23, 2026",
+      "1,200   LV",
+      "D+8.0  Jon Ossoff   50   Mike Collins   42   Don't know   8",
+      "Oct 15",
+      "0.59",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 9, 2026",
+      "1,101   LV",
+      "D+8.0  Jon Ossoff   51   Mike Collins   43   Don't know   5.9",
+      "Oct 10",
+      "0.68",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Big Data Poll  General \u00b7 Senate",
+      "Sep 23, 2026",
+      "678   LV",
+      "D+10.8  Jon Ossoff   55.4   Mike Collins   44.6   + 1  other release",
+      "Sep 25",
+      "0.44",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Sep 18, 2026",
+      "3,301   LV",
+      "D+10.0  Jon Ossoff   52   Mike Collins   42   Don't know   5   Would not vote   1   Someone else   1   + 2  other release s",
+      "Sep 23",
+      "0.59",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Sep 14, 2026",
+      "1,019   LV",
+      "D+9.0  Jon Ossoff   51   Mike Collins   42",
+      "Sep 19",
+      "0.49",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-IA": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,219   LV",
+      "D+4.1  Josh Turek   50.5   Ashley Hinson   46.4   Someone else   2.7   Would not vote   0.3   Don't know   0.2",
+      "Nov 2  15h ago",
+      "0.93",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 31, 2026",
+      "901   LV",
+      "R+1.0  Ashley Hinson   47   Josh Turek   46",
+      "Nov 2  17h ago",
+      "0.79",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "705   LV",
+      "D+0.7  Josh Turek   47.6   Ashley Hinson   46.9   Don't know   4.8   Someone else   0.8",
+      "Nov 2  23h ago",
+      "0.71",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf GrayHouse  General",
+      "Oct 31, 2026",
+      "601   LV",
+      "R+2.0  Ashley Hinson   48   Josh Turek   46   Don't know   4   Thomas Laehn   2",
+      "Nov 2  23h ago",
+      "0.64",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,016   LV",
+      "D+1.0  Josh Turek   50   Ashley Hinson   49   Someone else   1   Would not vote   0   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf co/efficient  General \u00b7 Senate  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 28, 2026",
+      "1,020   LV",
+      "R+2.0  Ashley Hinson   48   Josh Turek   46   Thomas Laehn   1",
+      "Oct 29  5d ago",
+      "0.81",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "403   LV",
+      "D+2.0  Josh Turek   45   Ashley Hinson   43   Thomas Laehn   7   Don't know   3   Someone else   2   Would not vote   0",
+      "Oct 27  7d ago",
+      "0.48",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 22, 2026",
+      "1,200   LV",
+      "R+1.5  Ashley Hinson   47   Josh Turek   45.5   Don't know   4.4   Thomas Laehn   3.1",
+      "Oct 23",
+      "0.82",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf New River Strategies/GS Strategy Group  General",
+      "Oct 13, 2026",
+      "602   LV",
+      "D+2.0  Josh Turek   46   Ashley Hinson   44   Thomas Laehn   8   Don't know   2",
+      "Oct 22",
+      "0.52",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf co/efficient  General \u00b7 Senate  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 19, 2026",
+      "863   LV",
+      "R+3.0  Ashley Hinson   48   Josh Turek   45   Thomas Laehn   2",
+      "Oct 20",
+      "0.67",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General \u00b7 Senate  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 12, 2026",
+      "678   LV",
+      "R+3.0  Ashley Hinson   47   Josh Turek   44   Thomas Laehn   4   + 1  other release",
+      "Oct 20",
+      "0.55",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 15, 2026",
+      "1,094   LV",
+      "R+1.7  Ashley Hinson   45.9   Josh Turek   44.2   Don't know   6.4   Thomas Laehn   3.5",
+      "Oct 17",
+      "0.72",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-KS": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Survey 160  General \u00b7 Senate",
+      "Nov 1, 2026",
+      "1,365   LV",
+      "D+7.0  Adam Hamilton   50   Roger Marshall   43   + 2  other release s",
+      "Nov 2  12h ago",
+      "0.95",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "2,038   LV",
+      "D+7.0  Adam Hamilton   51.9   Roger Marshall   44.9   Someone else   1.6   Would not vote   1.2   Don't know   0.5",
+      "Nov 2  14h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "736   LV",
+      "D+5.1  Adam Hamilton   49   Roger Marshall   43.9   David Graham   4.4   Don't know   2.7",
+      "Nov 2  23h ago",
+      "0.72",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,086   LV",
+      "D+1.0  Adam Hamilton   50   Roger Marshall   49   Someone else   1   Would not vote   0   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The Washington Post/George Mason University Schar School of Policy and Government  General \u00b7 Senate",
+      "Oct 26, 2026",
+      "801   LV",
+      "D+9.0  Adam Hamilton   52   Roger Marshall   43   David Graham   4   + 1  other release",
+      "Oct 30  4d ago",
+      "0.70",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General \u00b7 Senate",
+      "Oct 28, 2026",
+      "800   LV",
+      "D+2.4  Adam Hamilton   49.5   Roger Marshall   47.1   David Graham   3.4",
+      "Oct 30  4d ago",
+      "0.72",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 26, 2026",
+      "838   LV",
+      "D+4.0  Adam Hamilton   49   Roger Marshall   45   Neither   4   Someone else   1   Don't know   0",
+      "Oct 29  5d ago",
+      "0.72",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf RedBox Research  General  \u00b7 D sponsor  \u00b7 D partisan",
+      "Oct 23, 2026",
+      "1,301   LV",
+      "R+1.0  Roger Marshall   46   Adam Hamilton   45",
+      "Oct 26",
+      "0.86",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 14, 2026",
+      "1,200   LV",
+      "R+1.1  Roger Marshall   47.7   Adam Hamilton   46.6   David Graham   3.4   Don't know   2.3",
+      "Oct 16",
+      "0.75",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Sep 16, 2026",
+      "750   LV",
+      "D+1.5  Adam Hamilton   44.75   Roger Marshall   43.3   Don't know   8.25   David Graham   3.7",
+      "Oct 15",
+      "0.43",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 10, 2026",
+      "1,200   LV",
+      "D+0.8  Adam Hamilton   47.5   Roger Marshall   46.7   David Graham   3.4   Don't know   2.4",
+      "Oct 11",
+      "0.71",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf GBAO  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 4, 2026",
+      "600   LV",
+      "D+5.0  Adam Hamilton   46   Roger Marshall   41   David Graham   7   + 1  other release",
+      "Oct 7",
+      "0.47",
+      "Pollster post   \u2197"
+    ]
+  ],
+  "SEN-ME": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Nov 2, 2026",
+      "896   LV",
+      "D+3.0  Troy Jackson   49   Susan Collins   46",
+      "Nov 2  12h ago",
+      "0.81",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,322   LV",
+      "D+3.0  Troy Jackson   50   Susan Collins   47   Don't know   2   Someone else   2   + 1  other release",
+      "Nov 2  12h ago",
+      "0.97",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "600   LV",
+      "R+1.2  Susan Collins   50.6   Troy Jackson   49.4",
+      "Nov 2  13h ago",
+      "0.65",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "967   LV",
+      "D+9.1  Troy Jackson   53.1   Susan Collins   44   Would not vote   2.1   Don't know   0.8",
+      "Nov 2  14h ago",
+      "0.83",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "714   LV",
+      "D+5.9  Troy Jackson   50.9   Susan Collins   45   Don't know   3.8   Someone else   0.2",
+      "Nov 2  23h ago",
+      "0.71",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf University of New Hampshire Survey Center  General",
+      "Oct 31, 2026",
+      "1,633   LV",
+      "D+9.0  Troy Jackson   54   Susan Collins   45   Don't know   0   Someone else   0",
+      "Nov 2  23h ago",
+      "0.97",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "1,501   LV",
+      "D+5.0  Troy Jackson   52   Susan Collins   47   Would not vote   0   Don't know   0   Someone else   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 27, 2026",
+      "652   LV",
+      "D+5.0  Troy Jackson   50   Susan Collins   45   Don't know   4",
+      "Oct 30  4d ago",
+      "0.64",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 26, 2026",
+      "783   LV",
+      "D+4.0  Troy Jackson   49   Susan Collins   45   Neither   4   Someone else   2   Don't know   0",
+      "Oct 29  5d ago",
+      "0.69",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Marist University  General \u00b7 Senate",
+      "Oct 25, 2026",
+      "1,449   LV",
+      "D+2.0  Troy Jackson   49   Susan Collins   47   + 1  other release",
+      "Oct 27  7d ago",
+      "0.90",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "413   LV",
+      "D+7.0  Troy Jackson   51   Susan Collins   44   Don't know   4   Someone else   1   Would not vote   0",
+      "Oct 27  7d ago",
+      "0.49",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 23, 2026",
+      "1,077   LV",
+      "R+0.5  Susan Collins   47   Troy Jackson   46.5   Don't know   6.5",
+      "Oct 25",
+      "0.79",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-MI": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "500   LV",
+      "D+6.0  Abdul El-Sayed   51.2   Mike Rogers   45.2   Lydia Christensen   3.2   Walter Kristy   0.4   Douglas Marsh   0.1",
+      "Nov 2  13h ago",
+      "0.59",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Nov 1, 2026",
+      "510   LV",
+      "D+10.0  Abdul El-Sayed   51   Mike Rogers   41   Don't know   4   Someone else   4",
+      "Nov 2  13h ago",
+      "0.60",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,316   LV",
+      "D+7.1  Abdul El-Sayed   53.5   Mike Rogers   46.4   Don't know   0.1   Someone else   0",
+      "Nov 2  14h ago",
+      "0.96",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf John Zogby Strategies  General",
+      "Nov 2, 2026",
+      "1,001   LV",
+      "D+2.0  Abdul El-Sayed   51   Mike Rogers   49",
+      "Nov 2  16h ago",
+      "0.85",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Nov 1, 2026",
+      "1,087   LV",
+      "D+1.2  Abdul El-Sayed   47.1   Mike Rogers   45.9   Don't know   4.8   Lydia Christensen   1.5   Timothy Long   0.3   Douglas Marsh   0.3",
+      "Nov 2  21h ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "1,011   LV",
+      "D+11.0  Abdul El-Sayed   52.6   Mike Rogers   41.6   Don't know   5.7   Someone else   0.1",
+      "Nov 2  23h ago",
+      "0.85",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+2.0  Abdul El-Sayed   48   Mike Rogers   46   Don't know   5   Someone else   1",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,088   LV",
+      "D+4.0  Abdul El-Sayed   51   Mike Rogers   47   Would not vote   1   Don't know   1   Someone else   1",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 29, 2026",
+      "745   LV",
+      "D+5.0  Abdul El-Sayed   49   Mike Rogers   44",
+      "Oct 30  4d ago",
+      "0.70",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 25, 2026",
+      "622   LV",
+      "D+4.0  Abdul El-Sayed   50   Mike Rogers   46   Don't know   3   Timothy Long   1   Lydia Christensen   1   Walter Kristy   0   Douglas Marsh   0",
+      "Oct 30  4d ago",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "Upswing Research  General \u00b7 Senate  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 28, 2026",
+      "505   LV",
+      "D+5.0  Abdul El-Sayed   50   Mike Rogers   45",
+      "Oct 30  4d ago",
+      "not in the average",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Upswing Research  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 25, 2026",
+      "505   LV",
+      "D+5.0  Abdul El-Sayed   50   Mike Rogers   45",
+      "Oct 29  5d ago",
+      "0.55",
+      "Pollster post   \u2197"
+    ]
+  ],
+  "SEN-MN": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "2,133   LV",
+      "D+2.4  Peggy Flanagan   48.1   Michele Tafoya   45.7   Would not vote   2.5   Someone else   2.5   Don't know   1.1",
+      "Nov 2  12h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,365   LV",
+      "D+9.0  Peggy Flanagan   52   Michele Tafoya   43   Don't know   2   Someone else   2   + 1  other release",
+      "Nov 2  19h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 30, 2026",
+      "1,200   LV",
+      "D+2.9  Peggy Flanagan   49.3   Michele Tafoya   46.4   Rebecca Whiting   2.7   Don't know   1.1   Marisa Simonetti   0.5",
+      "Nov 2  23h ago",
+      "0.90",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+5.0  Peggy Flanagan   48   Michele Tafoya   43   Don't know   7   Someone else   2",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf SurveyUSA  General",
+      "Oct 28, 2026",
+      "714   LV",
+      "D+7.0  Peggy Flanagan   48   Michele Tafoya   41   Don't know   7   Marisa Simonetti   2   Rebecca Whiting   2",
+      "Oct 30  4d ago",
+      "0.68",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Victory Insights  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 22, 2026",
+      "1,194   LV",
+      "D+3.4  Peggy Flanagan   47.8   Michele Tafoya   44.4   Don't know   5.6   Someone else   2.1   Would not vote   0.1",
+      "Oct 28  6d ago",
+      "0.82",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Oct 26, 2026",
+      "752   LV",
+      "D+13.9  Peggy Flanagan   54.21   Michele Tafoya   40.31   Don't know   5.26   Someone else   0.23",
+      "Oct 28  6d ago",
+      "0.68",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 21, 2026",
+      "1,182   LV",
+      "D+3.0  Peggy Flanagan   48   Michele Tafoya   45",
+      "Oct 22",
+      "0.81",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 15, 2026",
+      "1,079   LV",
+      "D+3.5  Peggy Flanagan   48.1   Michele Tafoya   44.6   Don't know   5.4   Rebecca Whiting   1.1   Marisa Simonetti   0.8",
+      "Oct 17",
+      "0.72",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf SurveyUSA  General",
+      "Oct 12, 2026",
+      "718   LV",
+      "D+3.0  Peggy Flanagan   45   Michele Tafoya   42   Don't know   9   Rebecca Whiting   2   Marisa Simonetti   2",
+      "Oct 15",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf GQR  General \u00b7 Senate  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 4, 2026",
+      "800   LV",
+      "D+8.0  Peggy Flanagan   50   Michele Tafoya   42   Marisa Simonetti   4   Rebecca Whiting   2   + 1  other release",
+      "Oct 15",
+      "0.54",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Big Data Poll  General",
+      "Sep 30, 2026",
+      "622   LV",
+      "D+2.2  Peggy Flanagan   45.8   Michele Tafoya   43.6   Marisa Simonetti   5.4   Rebecca Whiting   5.2",
+      "Oct 15",
+      "0.46",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-NC": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,459   LV",
+      "D+14.9  Roy Cooper   56.4   Michael Whatley   41.5   Someone else   1.3   Would not vote   0.4   Don't know   0.4",
+      "Nov 2  12h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf East Carolina University Center for Survey Research  General",
+      "Oct 29, 2026",
+      "1,041   LV",
+      "D+9.1  Roy Cooper   54   Michael Whatley   44.9   Shannon Bray   0.8   Michael Dublin   0.3",
+      "Nov 2  23h ago",
+      "0.83",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf RedBox Research  General  \u00b7 D sponsor  \u00b7 D partisan",
+      "Oct 23, 2026",
+      "3,292   LV",
+      "D+7.0  Roy Cooper   50   Michael Whatley   43",
+      "Nov 1  2d ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,123   LV",
+      "D+11.0  Roy Cooper   55   Michael Whatley   44   Don't know   1   Someone else   1   Would not vote   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "High Point University Survey Research Center  General \u00b7 Senate",
+      "Oct 20, 2026",
+      "620   LV",
+      "D+14.0  Roy Cooper   54   Michael Whatley   40   Shannon Bray   2   Michael Dublin   1",
+      "Oct 29  5d ago",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf High Point University  General",
+      "Oct 20, 2026",
+      "620   LV",
+      "D+14.0  Roy Cooper   54   Michael Whatley   40   Don't know/Would not vote   4   Shannon Bray   2   Michael Dublin   1",
+      "Oct 28  6d ago",
+      "0.58",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Quantus Insights  General \u00b7 Senate",
+      "Oct 25, 2026",
+      "722   LV",
+      "D+8.6  Roy Cooper   51.4   Michael Whatley   42.8   Shannon Bray   1.3   Michael Dublin   0.7",
+      "Oct 27  7d ago",
+      "0.66",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Harper Polling  General \u00b7 Senate",
+      "Oct 20, 2026",
+      "600   LV",
+      "D+10.0  Roy Cooper   49   Michael Whatley   39   Shannon Bray   3   Michael Dublin   2   + 1  other release",
+      "Oct 22",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "Elon University/YouGov  General \u00b7 Senate",
+      "Oct 8, 2026",
+      "561   LV",
+      "D+13.0  Roy Cooper   52   Michael Whatley   39   Shannon Bray   2   Michael Dublin   1",
+      "Oct 20",
+      "source not read by the model",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Senate",
+      "Oct 20, 2026",
+      "400   LV",
+      "D+13.8  Roy Cooper   56.9   Michael Whatley   43.1",
+      "Oct 20",
+      "0.46",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 8, 2026",
+      "560   LV",
+      "D+11.0  Roy Cooper   54   Michael Whatley   43   Shannon Bray   2   Would not vote   1   Michael Dublin   1   + 2  other release s",
+      "Oct 20",
+      "0.48",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf SurveyUSA  General",
+      "Oct 11, 2026",
+      "643   LV",
+      "D+14.0  Roy Cooper   54   Michael Whatley   40   Don't know   5   Someone else   1",
+      "Oct 15",
+      "0.53",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-NE": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf GrayHouse  General",
+      "Nov 1, 2026",
+      "534   LV",
+      "R+4.0  Pete Ricketts   50   Dan Osborn   46   Chuck Conboy   1   Robin Richards   1   Mike Marvin   1   Don't know   0",
+      "Nov 2  1d ago",
+      "0.61",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 29, 2026",
+      "800   LV",
+      "R+1.0  Pete Ricketts   49   Dan Osborn   48   Don't know   4   + 1  other release",
+      "Nov 1  2d ago",
+      "0.73",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "1,974   LV",
+      "Tied  Dan Osborn   49   Pete Ricketts   49   Would not vote   1   Someone else   1   Don't know   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Oct 29, 2026",
+      "809   LV",
+      "R+5.7  Pete Ricketts   48.7   Dan Osborn   43.01   Don't know   8.29",
+      "Oct 31  3d ago",
+      "0.73",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Echelon Insights  General",
+      "Oct 23, 2026",
+      "407   LV",
+      "R+1.0  Pete Ricketts   47   Dan Osborn   46   Don't know   3   Robin Richards   2   Someone else   1   Chuck Conboy   1   Would not vote   0",
+      "Oct 27  7d ago",
+      "0.48",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 18, 2026",
+      "500   LV",
+      "I+7.0  Dan Osborn   48   Pete Ricketts   41   Someone else   6   Don't know   5",
+      "Oct 26",
+      "0.51",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf GBAO  General  \u00b7 IND sponsor  \u00b7 IND partisan",
+      "Oct 22, 2026",
+      "800   LV",
+      "I+1.0  Dan Osborn   46   Pete Ricketts   45   Don't know   7",
+      "Oct 23",
+      "0.67",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General \u00b7 Senate  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 18, 2026",
+      "598   LV",
+      "R+3.0  Pete Ricketts   50   Dan Osborn   47   + 1  other release",
+      "Oct 23",
+      "0.55",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Impact Research  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 20, 2026",
+      "600   LV",
+      "R+2.0  Pete Ricketts   50   Dan Osborn   48   Don't know   1",
+      "Oct 23",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 5, 2026",
+      "800   LV",
+      "R+3.0  Pete Ricketts   46   Dan Osborn   43   Don't know   5   Chuck Conboy   2   Robin Richards   2   Mike Marvin   2   + 1  other release",
+      "Oct 20",
+      "0.55",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf GBAO  General \u00b7 Senate  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Sep 8, 2026",
+      "800   LV",
+      "I+1.0  Dan Osborn   47   Pete Ricketts   46",
+      "Oct 15",
+      "0.40",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 3, 2026",
+      "1,808   LV",
+      "I+1.0  Dan Osborn   48   Pete Ricketts   47   Don't know   3   Would not vote   1   Someone else   0",
+      "Oct 6",
+      "0.70",
+      "Poll document   \u2197"
+    ]
+  ],
+  "SEN-NH": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,057   LV",
+      "D+8.1  Chris Pappas   52.3   John Sununu   44.2   Would not vote   1.9   Don't know   1.6",
+      "Nov 2  15h ago",
+      "0.86",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General \u00b7 Senate  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 29, 2026",
+      "800   LV",
+      "D+6.0  Chris Pappas   51   John Sununu   45   Edmond Laplante   2",
+      "Nov 2  22h ago",
+      "0.73",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf University of New Hampshire Survey Center  General",
+      "Oct 31, 2026",
+      "2,035   LV",
+      "D+12.0  Chris Pappas   54   John Sununu   42   Don't know   2   Edmond Laplante   2",
+      "Nov 2  23h ago",
+      "0.97",
+      "Poll release   \u2197"
+    ],
+    [
+      "University of Massachusetts Lowell Center for Public Opinion/YouGov  General \u00b7 Senate",
+      "Oct 19, 2026",
+      "600   LV",
+      "D+7.0  Chris Pappas   48   John Sununu   41   Edmond Laplante   4",
+      "Oct 29  5d ago",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf UMass Lowell  General",
+      "Oct 19, 2026",
+      "600   LV",
+      "D+7.0  Chris Pappas   48   John Sununu   41   Don't know   7   Edmond Laplante   4   Would not vote   0   Someone else   0",
+      "Oct 29  5d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 23, 2026",
+      "970   LV",
+      "D+6.0  Chris Pappas   50   John Sununu   44",
+      "Oct 27  7d ago",
+      "0.75",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 4, 2026",
+      "979   LV",
+      "D+5.0  Chris Pappas   49   John Sununu   44",
+      "Oct 27  7d ago",
+      "0.60",
+      "Poll release   \u2197"
+    ],
+    [
+      "Saint Anselm  General \u00b7 Senate",
+      "Oct 20, 2026",
+      "1,672   LV",
+      "D+7.0  Chris Pappas   50   John Sununu   43",
+      "Oct 23",
+      "counted once \u00b7 listed twice",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf St. Anselm  General",
+      "Oct 20, 2026",
+      "1,672   LV",
+      "D+7.0  Chris Pappas   50   John Sununu   43   Someone else   5   Don't know   2",
+      "Oct 22",
+      "0.85",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf National Public Affairs  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Oct 12, 2026",
+      "600   LV",
+      "D+7.0  Chris Pappas   50   John Sununu   43   Edmond Laplante   4   Don't know   3   + 1  other release",
+      "Oct 20",
+      "0.52",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Sep 22, 2026",
+      "613   LV",
+      "D+5.0  Chris Pappas   49.82   John Sununu   44.82   Don't know   4.5   Someone else   0.86",
+      "Oct 15",
+      "0.41",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf University of New Hampshire Survey Center  General",
+      "Sep 21, 2026",
+      "1,392   LV",
+      "D+8.0  Chris Pappas   50   John Sununu   42   Don't know   4   Edmond Laplante   2   Someone else   1",
+      "Oct 15",
+      "0.61",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-OH": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Rasmussen Reports  General  \u00b7 R sponsor  \u00b7 R partisan",
+      "Oct 31, 2026",
+      "1,119   LV",
+      "Tied  Sherrod Brown   46   Jon Husted   46",
+      "Nov 2  12h ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Survey 160  General",
+      "Nov 1, 2026",
+      "1,122   LV",
+      "D+4.0  Sherrod Brown   50   Jon Husted   46   Someone else   4   Don't know   1   + 1  other release",
+      "Nov 2  12h ago",
+      "0.89",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "930   LV",
+      "R+2.5  Jon Husted   48.3   Sherrod Brown   45.8   Bill Redpath   3.6   Gregory Levy   2.3",
+      "Nov 2  13h ago",
+      "0.81",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,801   LV",
+      "D+7.5  Sherrod Brown   51.4   Jon Husted   43.9   Someone else   2.9   Would not vote   1.2   Don't know   0.6",
+      "Nov 2  17h ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Nov 1, 2026",
+      "1,092   LV",
+      "D+1.5  Sherrod Brown   46.6   Jon Husted   45.1   Don't know   3.5   Gregory Levy   3.4   Bill Redpath   1.4",
+      "Nov 2  23h ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General",
+      "Nov 1, 2026",
+      "717   LV",
+      "D+5.6  Sherrod Brown   49.3   Jon Husted   43.7   Don't know   6.8   Someone else   0.2",
+      "Nov 2  23h ago",
+      "0.71",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General \u00b7 Senate  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Oct 24, 2026",
+      "469   LV",
+      "D+4.0  Sherrod Brown   46   Jon Husted   42",
+      "Nov 2  23h ago",
+      "0.53",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 1, 2026",
+      "450   LV",
+      "D+1.0  Sherrod Brown   45   Jon Husted   44   Don't know/Would not vote   9   Someone else   2",
+      "Nov 1  1d ago",
+      "0.56",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf InsiderAdvantage  General",
+      "Oct 30, 2026",
+      "1,200   LV",
+      "D+1.8  Sherrod Brown   48.8   Jon Husted   47   Bill Redpath   1.7   Don't know   1.3   Gregory Levy   1.2",
+      "Nov 1  2d ago",
+      "0.90",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,084   LV",
+      "D+2.0  Sherrod Brown   50   Jon Husted   48   Someone else   2   Don't know   1   Would not vote   0",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General",
+      "Oct 31, 2026",
+      "400   LV",
+      "D+0.4  Sherrod Brown   50.2   Jon Husted   49.8",
+      "Oct 31  3d ago",
+      "0.53",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Concord Public Opinion Partners  General  \u00b7 DEM sponsor  \u00b7 DEM partisan",
+      "Aug 31, 2026",
+      "504   LV",
+      "D+10.0  Sherrod Brown   50   Jon Husted   40   Don't know   7   Someone else   4",
+      "Oct 28",
+      "0.29",
+      "Poll release   \u2197"
+    ]
+  ],
+  "SEN-TX": [
+    [
+      "Pollster",
+      "Fielded",
+      "Sample",
+      "Result",
+      "Added",
+      "Weight",
+      "Source"
+    ],
+    [
+      "\u25cf Emerson College  General",
+      "Nov 1, 2026",
+      "500   LV",
+      "D+1.4  James Talarico   49.8   Ken Paxton   48.4   Ted Brown   1.8",
+      "Nov 2  13h ago",
+      "0.59",
+      "Pollster post   \u2197"
+    ],
+    [
+      "\u25cf Research Co.  General",
+      "Nov 2, 2026",
+      "450   LV",
+      "D+3.0  James Talarico   49   Ken Paxton   46   Don't know   4   Ted Brown   1",
+      "Nov 2  17h ago",
+      "0.57",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf The New York Times/Siena College  General \u00b7 Senate",
+      "Nov 1, 2026",
+      "1,215   LV",
+      "D+7.0  James Talarico   50   Ken Paxton   43   + 1  other release",
+      "Nov 2  23h ago",
+      "0.93",
+      "News coverage   \u2197"
+    ],
+    [
+      "\u25cf Trafalgar Group  General  \u00b7 REP sponsor  \u00b7 REP partisan",
+      "Nov 1, 2026",
+      "1,089   LV",
+      "R+0.6  Ken Paxton   48.1   James Talarico   47.5   Ted Brown   2.4   Don't know   2",
+      "Nov 1  1d ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf AtlasIntel  General",
+      "Nov 1, 2026",
+      "1,678   A",
+      "D+5.9  James Talarico   51.3   Ken Paxton   45.4   Someone else   1.5   Don't know   1.1   Would not vote   0.7",
+      "Nov 1  1d ago",
+      "0.98",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf YouGov  General",
+      "Oct 29, 2026",
+      "2,138   LV",
+      "D+4.0  James Talarico   51   Ken Paxton   47   Would not vote   1   Don't know   1   Someone else   1",
+      "Nov 1  2d ago",
+      "0.94",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf Kreate Strategies  General",
+      "Oct 30, 2026",
+      "900   LV",
+      "D+3.0  James Talarico   48   Ken Paxton   45   Don't know   6   Someone else   0   Ted Brown   0",
+      "Oct 31  3d ago",
+      "0.78",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Data for Progress  General",
+      "Oct 26, 2026",
+      "712   LV",
+      "D+4.0  James Talarico   49   Ken Paxton   45   Don't know   4   Ted Brown   2",
+      "Oct 30  4d ago",
+      "0.66",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf Quantus Insights  General",
+      "Oct 28, 2026",
+      "1,207   LV",
+      "R+1.0  Ken Paxton   49.4   James Talarico   48.4   Ted Brown   1.4   Don't know   0.8",
+      "Oct 30  4d ago",
+      "0.88",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf ActiVote  General \u00b7 Senate",
+      "Oct 28, 2026",
+      "400   LV",
+      "D+4.2  James Talarico   52.1   Ken Paxton   47.9",
+      "Oct 29  5d ago",
+      "0.51",
+      "Poll release   \u2197"
+    ],
+    [
+      "\u25cf A2 Insights  General",
+      "Oct 27, 2026",
+      "631   LV",
+      "D+3.0  James Talarico   50.2   Ken Paxton   47.2   Someone else   2.3   Don't know   0.3",
+      "Oct 29  5d ago",
+      "0.63",
+      "Poll document   \u2197"
+    ],
+    [
+      "\u25cf CNN/SSRS  General",
+      "Oct 27, 2026",
+      "923   LV",
+      "D+6.0  James Talarico   49   Ken Paxton   43   Neither   5   Someone else   3   Don't know   0",
+      "Oct 29  5d ago",
+      "0.76",
+      "News coverage   \u2197"
+    ]
+  ]
+}

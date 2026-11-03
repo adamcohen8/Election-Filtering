@@ -1,0 +1,220 @@
+PAGE 1
+AtlasIntel Poll: Michigan
+28/10/2026 - 01/11/2026
+2026 Midterms: Michigan
+Approval and government evaluation | Vote intention | Key issues and candidate comparison |
+Economic perceptions | Image of political figures
+
+PAGE 2
+MICHIGAN POLL
+SUMMARY
+Summary
+0
+Methodology and sample profile
+1
+Approval and government evaluation
+2
+Vote intention
+3
+Key issues and candidate comparison
+4
+Economic perceptions
+5
+Image of political figures
+2
+
+PAGE 3
+Methodology and
+sample profile
+3
+
+PAGE 4
+MICHIGAN POLL
+METHODOLOGY
+Methodology: Atlas RDR
+The method seeks to address sources of Compared to telephone surveys based on
+Atlas Random Digital Recruitment [RDR] is a
+bias and possible over-or Random Digit Dialing (RDD), the RDR
+methodology developed by AtlasIntel to
+underrepresentation of specific method allows for granular mapping of
+demographic groups. non-response patterns, so that biases
+calibrate robust samples, representative
+arising from variable non-response rates
+Respondents are recruited randomly during
+of the target population. can be adequately addressed during the
+routine web browsing in geolocated
+process of building each sample.
+territories on any device (smartphones,
+tablets, laptops or PCs). To ensure representativeness at the
+national level, the AtlasIntel samples are
+Compared to face-to-face surveys, RDR
+post-stratified using an iterative algorithm
+avoids the possible psychological impact of
+on a minimum set of target variables:
+human interaction on the respondent at the
+gender, age group, education level, income
+time of the interview: the respondent can
+level, region, and previous electoral
+answer the questionnaire under conditions
+behavior. The samples resulting from the
+of full anonymity, without fear of causing a
+post-stratification process match the
+negative impression to the interviewer or
+profile of the US adult population and that
+to people who may eventually be listening
+of likely voters.
+to the answers shared during the interview.
+4
+
+PAGE 5
+MICHIGAN POLL
+MICHIGAN > SAMPLE PROFILE
+Sample Profile
+TARGET POPULATION
+Likely voters in Michigan
+SAMPLE SIZE
+1,316 respondents
+METHODOLOGY
+Random Digital Recruitment (Atlas RDR)
+MARGIN OF ERROR
+±3 p.p.
+CONFIDENCE LEVEL FOR ESTIMATION OF THE MARGIN OF ERROR
+95%
+POLLING PERIOD
+10/28/2026 - 11/01/2026
+
+PAGE 6
+1. Approval and
+government evaluation
+6
+
+PAGE 7
+MICHIGAN POLL
+MICHIGAN > APPROVAL AND GOVERNMENT EVALUATION
+Do you approve or disapprove of the job these politicians are doing?
+7
+
+PAGE 8
+MICHIGAN POLL
+MICHIGAN > APPROVAL AND GOVERNMENT EVALUATION
+How do you evaluate the performance of the following leaders?
+8
+
+PAGE 9
+2. Vote intention
+9
+
+PAGE 10
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan midterm election for US Senate were held today, and these
+were the candidates, who would you vote for?
+10
+
+PAGE 11
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan midterm election for US Senate were held today, and these
+were the candidates, who would you vote for? [Valid votes]
+11
+
+PAGE 12
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan midterm election for US Senate were held today, and these were
+the candidates, who would you vote for?
+[crosstabs]
+
+PAGE 13
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan midterm election for US House were held today, which
+party/candidate would you vote for?
+13
+
+PAGE 14
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan midterm election for US House were held today, which
+party/candidate would you vote for?
+[crosstabs]
+
+PAGE 15
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan election for state governor were held today, and these were
+the candidates, who would you vote for?
+15
+
+PAGE 16
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan election for state governor were held today, and these were
+the candidates, who would you vote for? [Valid votes]
+16
+
+PAGE 17
+MICHIGAN POLL
+MICHIGAN > VOTE INTENTION
+If the Michigan election for state governor were held today, and these were the
+candidates, who would you vote for?
+[crosstabs]
+
+PAGE 18
+3. Key issues and
+candidate
+comparison
+18
+
+PAGE 19
+MICHIGAN POLL
+MICHIGAN > KEY ISSUES AND CANDIDATE COMPARISON
+Which of the following issues are most important to you when deciding how
+to vote in the above elections in November 2026?
+(Select up to three)
+19
+
+PAGE 20
+MICHIGAN POLL
+MICHIGAN > KEY ISSUES AND CANDIDATE COMPARISON
+When thinking about the Michigan 2026 Senate race, which of these candidates do
+you think has the best performance/approach to each of the following issues?
+20
+
+PAGE 21
+4. Economic perceptions
+21
+
+PAGE 22
+MICHIGAN POLL
+MICHIGAN > ECONOMIC PERCEPTIONS
+How do you evaluate the Michigan economy and job market right now? And
+how do you evaluate your family's economic situation?
+22
+
+PAGE 23
+MICHIGAN POLL
+MICHIGAN > ECONOMIC PERCEPTIONS
+What is your expectation regarding the Michigan economy and job market six
+months from now? What is your expectation regarding your family's situation?
+23
+
+PAGE 24
+MICHIGAN POLL
+MICHIGAN > ECONOMIC PERCEPTIONS
+For each item below, do you think it costs less under Biden, Trump, or about
+the same in your state?
+24
+
+PAGE 25
+5. Image of political figures
+25
+
+PAGE 26
+MICHIGAN POLL
+MICHIGAN > IMAGE OF POLITICAL FIGURES
+Do you have a positive or negative image of the following political
+figures?
+26
+
+PAGE 27

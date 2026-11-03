@@ -1,0 +1,63 @@
+[
+  {
+    "name": "gov-fl-12.html",
+    "url": "https://www.targoz.com/market-matters-blog/2026/11/2/republicans-lead-all-five-florida-statewide-races",
+    "final_url": "https://www.targoz.com/market-matters-blog/2026/11/2/republicans-lead-all-five-florida-statewide-races",
+    "path": "research/poll_scrub_20261103/sources/gov-fl-12.html",
+    "sha256": "fd4c6c01041228c4c190d3866efb69b85b32fb5e24df4634e325629286755cd0",
+    "bytes": 177419,
+    "links": [
+      "/s/Final-Florida-Poll-Nov-2026-Marginals.pdf"
+    ]
+  },
+  {
+    "name": "gov-mi-13.html",
+    "url": "https://concordpublicopinionpartners.org/blog/michigan-ge-2026",
+    "final_url": "https://concordpublicopinionpartners.org/blog/michigan-ge-2026",
+    "path": "research/poll_scrub_20261103/sources/gov-mi-13.html",
+    "sha256": "a442f432376f786147d31558a994dfb51c6fca00ada4befc9d0d7d6ce21d79b9",
+    "bytes": 13200,
+    "links": []
+  },
+  {
+    "name": "gov-mi-14.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_governor_october_28_29_2026",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_governor_october_28_29_2026",
+    "path": "research/poll_scrub_20261103/sources/gov-mi-14.html",
+    "sha256": "0cbca6e1fa9dca779577afb570d6220742e8b9eec57c992a5fd8b73051de4fbc",
+    "bytes": 91936,
+    "links": []
+  },
+  {
+    "name": "sen-me-15.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_maine_senate",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_maine_senate",
+    "path": "research/poll_scrub_20261103/sources/sen-me-15.html",
+    "sha256": "b6f3103efa7b7f631e26bf339236bca739f32063243ba8bfe2241d19e9a75fee",
+    "bytes": 33816,
+    "links": [
+      "/public_content/politics/public_surveys/crosstabs_2_maine_senate_october_27_november_2_2026"
+    ]
+  },
+  {
+    "name": "gov-wi-16.html",
+    "url": "https://law.marquette.edu/poll/2026/10/28/mlsp92-press-release/",
+    "final_url": "https://law.marquette.edu/poll/2026/10/28/mlsp92-press-release/",
+    "path": "research/poll_scrub_20261103/sources/gov-wi-16.html",
+    "sha256": "b8e9638fff87aa5092ddf287462e63fa96a023a9baa3d8bbba75f93855fe1cb9",
+    "bytes": 163744,
+    "links": [
+      "https://lubarcenter.shinyapps.io/MLSPCrosstabs/",
+      "https://lubarcenter.shinyapps.io/MLSPCrosstabs/"
+    ]
+  },
+  {
+    "name": "gotv-iowa.html",
+    "url": "https://gotvpolling.com/polls/iowa-2026",
+    "final_url": "https://gotvpolling.com/polls/iowa-2026",
+    "path": "research/poll_scrub_20261103/sources/gotv-iowa.html",
+    "sha256": "cb94dbc68d37e5a3c7a4f8a2580aaea23ba57866e45c195aee3d06446cda525b",
+    "bytes": 2036301,
+    "links": []
+  }
+]

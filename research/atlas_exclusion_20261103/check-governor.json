@@ -1,0 +1,21 @@
+{
+  "check_only": true,
+  "accepted": 129,
+  "held": 1,
+  "counts_by_race": {
+    "fl_gov": 11,
+    "ga_gov": 10,
+    "tx_gov": 14,
+    "nh_gov": 10,
+    "ia_gov": 10,
+    "pa_gov": 5,
+    "az_gov": 10,
+    "oh_gov": 10,
+    "mi_gov": 10,
+    "wi_gov": 6,
+    "ks_gov": 7,
+    "me_gov": 10,
+    "nv_gov": 6,
+    "mn_gov": 10
+  }
+}

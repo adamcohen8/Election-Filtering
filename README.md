@@ -54,6 +54,14 @@ print(forecast.margin_of_error)
 
 Positive margins mean candidate A leads candidate B.
 
+## Pollster exclusions
+
+AtlasIntel is excluded from every model by user request on November 3, 2026. The
+shared ingestion policy also covers Atlas Intel and joint pollster labels.
+Refreshes retain the source archives and review records while omitting excluded
+inputs from the active feed, forecasts, public history and rolling averages.
+See [the exclusion report](research/atlas_exclusion_20261103/REPORT.md).
+
 ## Local Python environment
 
 ```bash

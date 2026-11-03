@@ -1,0 +1,20 @@
+{
+  "check_only": true,
+  "accepted": 129,
+  "held": 5,
+  "counts_by_race": {
+    "fl_sen": 10,
+    "tx_sen": 20,
+    "ga_sen": 10,
+    "me_sen": 10,
+    "nh_sen": 10,
+    "ia_sen": 10,
+    "ak_sen": 10,
+    "mi_sen": 10,
+    "oh_sen": 10,
+    "nc_sen": 10,
+    "ks_sen": 9,
+    "mn_sen": 10,
+    "ne_sen": 0
+  }
+}

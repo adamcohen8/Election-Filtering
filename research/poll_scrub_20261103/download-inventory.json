@@ -1,0 +1,436 @@
+[
+  {
+    "name": "SEN-AK.html",
+    "url": "https://www.callthemap.com/polls/SEN-AK",
+    "final_url": "https://www.callthemap.com/polls/SEN-AK",
+    "path": "research/poll_scrub_20261103/sources/SEN-AK.html",
+    "sha256": "bdfaa3a44f79489315dfaedc88348d9126cc016dc8d970970574d2ad26bcc804",
+    "bytes": 182779,
+    "links": [
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html"
+    ]
+  },
+  {
+    "name": "SEN-FL.html",
+    "url": "https://www.callthemap.com/polls/SEN-FL",
+    "final_url": "https://www.callthemap.com/polls/SEN-FL",
+    "path": "research/poll_scrub_20261103/sources/SEN-FL.html",
+    "sha256": "994f8df7631662ab966a72c58a75cbcdffd32044457bd4608249d4eac4b13f6b",
+    "bytes": 189396,
+    "links": []
+  },
+  {
+    "name": "SEN-GA.html",
+    "url": "https://www.callthemap.com/polls/SEN-GA",
+    "final_url": "https://www.callthemap.com/polls/SEN-GA",
+    "path": "research/poll_scrub_20261103/sources/SEN-GA.html",
+    "sha256": "b4200cb44636c431708c4c35e7266a573fd89a32e4a3803b5bb6aa8bc65c011c",
+    "bytes": 155507,
+    "links": [
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ga_20260915.pdf"
+    ]
+  },
+  {
+    "name": "SEN-IA.html",
+    "url": "https://www.callthemap.com/polls/SEN-IA",
+    "final_url": "https://www.callthemap.com/polls/SEN-IA",
+    "path": "research/poll_scrub_20261103/sources/SEN-IA.html",
+    "sha256": "5c8f16e15a32e5062d323863e0423323b8a71828b6beb6391c14b0a2a496f803",
+    "bytes": 203873,
+    "links": [
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261026_lv.pdf",
+      "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf"
+    ]
+  },
+  {
+    "name": "SEN-KS.html",
+    "url": "https://www.callthemap.com/polls/SEN-KS",
+    "final_url": "https://www.callthemap.com/polls/SEN-KS",
+    "path": "research/poll_scrub_20261103/sources/SEN-KS.html",
+    "sha256": "a82952637da2db2c10822db5d6719ac6652667dc9d6f20bdcc4385bec41ee02e",
+    "bytes": 142999,
+    "links": [
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "SEN-ME.html",
+    "url": "https://www.callthemap.com/polls/SEN-ME",
+    "final_url": "https://www.callthemap.com/polls/SEN-ME",
+    "path": "research/poll_scrub_20261103/sources/SEN-ME.html",
+    "sha256": "4aad7c30050f3bb08b564b800e27514cb88c9f8799a10c2105794489c03497c9",
+    "bytes": 219591,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_me_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "SEN-MI.html",
+    "url": "https://www.callthemap.com/polls/SEN-MI",
+    "final_url": "https://www.callthemap.com/polls/SEN-MI",
+    "path": "research/poll_scrub_20261103/sources/SEN-MI.html",
+    "sha256": "05d813e78450c2cfb1889a6c9804a951f6ff0c8eb8df1d517f1763cfdd0ffc4d",
+    "bytes": 285597,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "SEN-MN.html",
+    "url": "https://www.callthemap.com/polls/SEN-MN",
+    "final_url": "https://www.callthemap.com/polls/SEN-MN",
+    "path": "research/poll_scrub_20261103/sources/SEN-MN.html",
+    "sha256": "bbd47451707eeb164380a1c930ee1bdcdbb1e5560f2590040667b5254dbe3f34",
+    "bytes": 156149,
+    "links": [
+      "https://irp.cdn-website.com/07e08705/files/uploaded/PollReport_MN-GE-26_10-28-26.pdf"
+    ]
+  },
+  {
+    "name": "SEN-NC.html",
+    "url": "https://www.callthemap.com/polls/SEN-NC",
+    "final_url": "https://www.callthemap.com/polls/SEN-NC",
+    "path": "research/poll_scrub_20261103/sources/SEN-NC.html",
+    "sha256": "1c752e88543b42f8089edf376e659841da29abb8b06bfb763cd6104ccb49b5ad",
+    "bytes": 246253,
+    "links": [
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_nc_20261026_lv.pdf",
+      "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/10/Elon-Poll-news-release-10-20-26.pdf",
+      "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/10/Elon-Poll-news-release-10-20-26.pdf"
+    ]
+  },
+  {
+    "name": "SEN-NE.html",
+    "url": "https://www.callthemap.com/polls/SEN-NE",
+    "final_url": "https://www.callthemap.com/polls/SEN-NE",
+    "path": "research/poll_scrub_20261103/sources/SEN-NE.html",
+    "sha256": "9b639453b833f72e8e7da7625709fb70130726ff67fb8cd691c27d941810b197",
+    "bytes": 146029,
+    "links": [
+      "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_103126.2.pdf",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ne_20261026_lv.pdf",
+      "https://backend.natpublicaffairs.com/media/NE_Tracker_R2_Trend_Memo_102226.7.pdf",
+      "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ne_20260921_lv.pdf"
+    ]
+  },
+  {
+    "name": "SEN-NH.html",
+    "url": "https://www.callthemap.com/polls/SEN-NH",
+    "final_url": "https://www.callthemap.com/polls/SEN-NH",
+    "path": "research/poll_scrub_20261103/sources/SEN-NH.html",
+    "sha256": "c1e61f6ac7d3be4ef013f9ad07b3a59d39fa60a308007b90d9db411980efbb78",
+    "bytes": 194815,
+    "links": [
+      "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_103126.2.pdf",
+      "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_101526.2.pdf"
+    ]
+  },
+  {
+    "name": "SEN-OH.html",
+    "url": "https://www.callthemap.com/polls/SEN-OH",
+    "final_url": "https://www.callthemap.com/polls/SEN-OH",
+    "path": "research/poll_scrub_20261103/sources/SEN-OH.html",
+    "sha256": "873c7a5ad2f8cf19c8439cc838914bc94f2973fd3d0ae20611c240dec946cbda",
+    "bytes": 239121,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_oh_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "SEN-TX.html",
+    "url": "https://www.callthemap.com/polls/SEN-TX",
+    "final_url": "https://www.callthemap.com/polls/SEN-TX",
+    "path": "research/poll_scrub_20261103/sources/SEN-TX.html",
+    "sha256": "1e70933a53577e738fb171117e2ae6f9ea87b1b6fe2b32ccc7a68cc65a72fd3f",
+    "bytes": 326864,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.atlasintel.org/poll/usa-texas-2026-11-01",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf",
+      "https://drive.google.com/file/d/1UACnmnM84Dd1hU0l6iqHNgXkyh5oCelO/view"
+    ]
+  },
+  {
+    "name": "GOV-AZ.html",
+    "url": "https://www.callthemap.com/polls/GOV-AZ",
+    "final_url": "https://www.callthemap.com/polls/GOV-AZ",
+    "path": "research/poll_scrub_20261103/sources/GOV-AZ.html",
+    "sha256": "8e9ea17ec781f5b8c30b9ed78952e9f2cbc6e659cde3a8837ea57f2a89b818e5",
+    "bytes": 185188,
+    "links": [
+      "https://ballot.org/wp-content/uploads/2026/10/LRP-Topline-AZ-BISC-State-Partners-10.8.26.pdf",
+      "https://www.dropbox.com/scl/fi/zw2q5gxws1dl59v9d9ivy/Crosstabs-full-sample-ASU-Svy-August-2026.pdf?rlkey=288kk2u0s27qzprjom3l32t16&amp;st=dautaf2c&amp;e=2&amp;dl=0"
+    ]
+  },
+  {
+    "name": "GOV-FL.html",
+    "url": "https://www.callthemap.com/polls/GOV-FL",
+    "final_url": "https://www.callthemap.com/polls/GOV-FL",
+    "path": "research/poll_scrub_20261103/sources/GOV-FL.html",
+    "sha256": "1231683443efc13342301d1d4d7ac3f80b94ee95f26e89caa7093ea70b4f25ef",
+    "bytes": 229402,
+    "links": []
+  },
+  {
+    "name": "GOV-GA.html",
+    "url": "https://www.callthemap.com/polls/GOV-GA",
+    "final_url": "https://www.callthemap.com/polls/GOV-GA",
+    "path": "research/poll_scrub_20261103/sources/GOV-GA.html",
+    "sha256": "a934e2e2edf76e5687724c5369b4b51a55750368265ddf2fe82609da98f907a9",
+    "bytes": 142066,
+    "links": [
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ga_20260915.pdf"
+    ]
+  },
+  {
+    "name": "GOV-IA.html",
+    "url": "https://www.callthemap.com/polls/GOV-IA",
+    "final_url": "https://www.callthemap.com/polls/GOV-IA",
+    "path": "research/poll_scrub_20261103/sources/GOV-IA.html",
+    "sha256": "2babcd7e514df3f16a617c373e8d896c2d558b14c6e1e7bb15d7c1f69b39fe65",
+    "bytes": 162746,
+    "links": [
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261026_lv.pdf",
+      "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf"
+    ]
+  },
+  {
+    "name": "GOV-KS.html",
+    "url": "https://www.callthemap.com/polls/GOV-KS",
+    "final_url": "https://www.callthemap.com/polls/GOV-KS",
+    "path": "research/poll_scrub_20261103/sources/GOV-KS.html",
+    "sha256": "5c0595a07632662422a88dcafa96f0112ff3bfe1b0562fca266ba4e60f5dd7bf",
+    "bytes": 117634,
+    "links": [
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20261026_lv.pdf",
+      "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ks_20260921_lv.pdf"
+    ]
+  },
+  {
+    "name": "GOV-ME.html",
+    "url": "https://www.callthemap.com/polls/GOV-ME",
+    "final_url": "https://www.callthemap.com/polls/GOV-ME",
+    "path": "research/poll_scrub_20261103/sources/GOV-ME.html",
+    "sha256": "db2835353fccf9c182f1cbb2c60c858f9739521acf8d83595cb803bfe114d21c",
+    "bytes": 165633,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_me_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "GOV-MI.html",
+    "url": "https://www.callthemap.com/polls/GOV-MI",
+    "final_url": "https://www.callthemap.com/polls/GOV-MI",
+    "path": "research/poll_scrub_20261103/sources/GOV-MI.html",
+    "sha256": "06b7fda656d0a5f932c92441ca17e64b6199072beb12155459ce4cc062e7d36c",
+    "bytes": 244440,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_michigan_governor_october_28_29_2026",
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "GOV-MN.html",
+    "url": "https://www.callthemap.com/polls/GOV-MN",
+    "final_url": "https://www.callthemap.com/polls/GOV-MN",
+    "path": "research/poll_scrub_20261103/sources/GOV-MN.html",
+    "sha256": "508a70d9a22fac4462681a103e7ea1b2c9549ef4b7bfe6043224bb3768212977",
+    "bytes": 131663,
+    "links": [
+      "https://irp.cdn-website.com/07e08705/files/uploaded/PollReport_MN-GE-26_10-28-26.pdf"
+    ]
+  },
+  {
+    "name": "GOV-NH.html",
+    "url": "https://www.callthemap.com/polls/GOV-NH",
+    "final_url": "https://www.callthemap.com/polls/GOV-NH",
+    "path": "research/poll_scrub_20261103/sources/GOV-NH.html",
+    "sha256": "483ec7067da5135802475159959007edd6c9702a5a3432c52fe1e6cc6bacd269",
+    "bytes": 143740,
+    "links": [
+      "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_103126.2.pdf",
+      "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_101526.2.pdf"
+    ]
+  },
+  {
+    "name": "GOV-NV.html",
+    "url": "https://www.callthemap.com/polls/GOV-NV",
+    "final_url": "https://www.callthemap.com/polls/GOV-NV",
+    "path": "research/poll_scrub_20261103/sources/GOV-NV.html",
+    "sha256": "d400f3fb7782e673203f38cd5569738c11eb1839b7d781ae2a5372287c9ea34a",
+    "bytes": 130548,
+    "links": []
+  },
+  {
+    "name": "GOV-OH.html",
+    "url": "https://www.callthemap.com/polls/GOV-OH",
+    "final_url": "https://www.callthemap.com/polls/GOV-OH",
+    "path": "research/poll_scrub_20261103/sources/GOV-OH.html",
+    "sha256": "06b75d8bdeea7f5ef08b4e706797d656467d57c90db42703ceb6f8af1cc68056",
+    "bytes": 215454,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_oh_20261026_lv.pdf"
+    ]
+  },
+  {
+    "name": "GOV-PA.html",
+    "url": "https://www.callthemap.com/polls/GOV-PA",
+    "final_url": "https://www.callthemap.com/polls/GOV-PA",
+    "path": "research/poll_scrub_20261103/sources/GOV-PA.html",
+    "sha256": "3da5f06239966fd59cd2b470cd6087ddb5bf3c871d8e5b8ec890d495d00792c8",
+    "bytes": 154632,
+    "links": [
+      "https://www.nytimes.com/interactive/2026/08/25/polls/times-inquirer-siena-pa-poll-lv-crosstabs.html"
+    ]
+  },
+  {
+    "name": "GOV-TX.html",
+    "url": "https://www.callthemap.com/polls/GOV-TX",
+    "final_url": "https://www.callthemap.com/polls/GOV-TX",
+    "path": "research/poll_scrub_20261103/sources/GOV-TX.html",
+    "sha256": "2e7f023212128cc0ac6640e20489cc5e0de8abbb29d2dd51bfae7d1f0c948e0b",
+    "bytes": 282919,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://www.atlasintel.org/poll/usa-texas-2026-11-01",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf",
+      "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6ae28aaadbf6636957aa51e7/1793231530759/TSUStatewideOct2026.pdf"
+    ]
+  },
+  {
+    "name": "GOV-WI.html",
+    "url": "https://www.callthemap.com/polls/GOV-WI",
+    "final_url": "https://www.callthemap.com/polls/GOV-WI",
+    "path": "research/poll_scrub_20261103/sources/GOV-WI.html",
+    "sha256": "7bb8d03f561b939a5e001ebbce4c7cde52075dec1ff418ee74c9b0d51105adff",
+    "bytes": 120665,
+    "links": [
+      "https://www.wpr.org/wp-content/uploads/2026/08/Badger-Battleground-Poll-Memo-August-2026-Final.pdf",
+      "https://law.marquette.edu/assets/community/poll/MLSP89/MLSP89PressRelease.pdf"
+    ]
+  },
+  {
+    "name": "emerson.html",
+    "url": "https://emersoncollegepolling.com/",
+    "final_url": "https://emersoncollegepolling.com/",
+    "path": "research/poll_scrub_20261103/sources/emerson.html",
+    "sha256": "08a91e7df3e729b9bdf77228a30cb0006fa9836bf4c0d7449c4941a36df99842",
+    "bytes": 171968,
+    "links": []
+  },
+  {
+    "name": "atlas.html",
+    "url": "https://www.atlasintel.org/",
+    "final_url": "https://www.atlasintel.org/",
+    "path": "research/poll_scrub_20261103/sources/atlas.html",
+    "sha256": "e5f9247627871d17cce79802e631f1c1365ecad9c427c7e0f7bf9bcc88612a91",
+    "bytes": 320646,
+    "links": [
+      "https://tracking.atlasintel.org",
+      "https://monitor.atlasintel.org",
+      "https://www.linkedin.com/company/atlasintel"
+    ]
+  },
+  {
+    "name": "insider.html",
+    "url": "https://insideradvantage.com/",
+    "final_url": "https://insideradvantage.com/",
+    "path": "research/poll_scrub_20261103/sources/insider.html",
+    "sha256": "a0073b914eb9b1405953134cfc3da8fca31ea021530134ff31ede15c0c871902",
+    "bytes": 490586,
+    "links": [
+      "https://insideradvantage.com/pennsylvania-top-line-crosstabs/",
+      "https://insideradvantage.com/pennsylvania-top-line-crosstabs/",
+      "https://insideradvantage.com/wisconsin-top-line-crosstabs/",
+      "https://insideradvantage.com/wisconsin-top-line-crosstabs/"
+    ]
+  },
+  {
+    "name": "quantus.html",
+    "url": "https://quantusinsights.org/",
+    "final_url": "https://quantusinsights.org/",
+    "path": "research/poll_scrub_20261103/sources/quantus.html",
+    "sha256": "485f8088114474087a1bf9d9b231bbc7d982c6885c41796c57029c722f81551d",
+    "bytes": 183589,
+    "links": []
+  },
+  {
+    "name": "zogby-us.html",
+    "url": "https://johnzogbystrategies.com/democrats-lead-republicans-53-47-in-congressional-generic-ballot-new-john-zogby-strategies-election-day-eve-of-election-poll/",
+    "final_url": "https://johnzogbystrategies.com/democrats-lead-republicans-53-47-in-congressional-generic-ballot-new-john-zogby-strategies-election-day-eve-of-election-poll/",
+    "path": "research/poll_scrub_20261103/sources/zogby-us.html",
+    "sha256": "45a5168b94d7447b47a6bc3a393a5c2d612990c71ee1851d8318c992ee5559e1",
+    "bytes": 116391,
+    "links": [
+      "https://johnzogbystrategies.com/wp-content/uploads/2026/11/X-Media-Congress-US-LV-110126.pdf"
+    ]
+  },
+  {
+    "name": "zogby-mi.html",
+    "url": "https://johnzogbystrategies.com/el-sayed-leads-rogers-51-49-new-john-zogby-strategies-eve-of-election-day-poll/",
+    "final_url": "https://johnzogbystrategies.com/el-sayed-leads-rogers-51-49-new-john-zogby-strategies-eve-of-election-day-poll/",
+    "path": "research/poll_scrub_20261103/sources/zogby-mi.html",
+    "sha256": "27b8d02f5d43f2500df588f5b1dd999e9824d808b5c194947cf3c9d028411575",
+    "bytes": 113778,
+    "links": [
+      "https://johnzogbystrategies.com/wp-content/uploads/2026/11/X-Media-Michigan-103126.pdf"
+    ]
+  },
+  {
+    "name": "generic.html",
+    "url": "https://www.callthemap.com/polls?view=generic",
+    "final_url": "https://www.callthemap.com/polls?view=generic",
+    "path": "research/poll_scrub_20261103/sources/generic.html",
+    "sha256": "cdb679bada025520f427fc5ed2ce6385252c698b2f3fe90e809945893883e41c",
+    "bytes": 108477,
+    "links": [
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/national_20261026.pdf",
+      "https://d3nkl3psvxxpe9.cloudfront.net/documents/national_20261026.pdf"
+    ]
+  },
+  {
+    "name": "pollvault.html",
+    "url": "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+    "final_url": "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+    "path": "research/poll_scrub_20261103/sources/pollvault.html",
+    "sha256": "cb63b03bc641cfe95bd6e05869dc179607dc78c6a43929c1ce95c0490676dc62",
+    "bytes": 187158,
+    "links": [
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://substack.com/sign-in?redirect=%2Fp%2Fnew-poll-vault-emerson-senate-and&amp;for_pub=pollvault",
+      "https://pollvault.substack.com",
+      "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and/comments",
+      "https://pollvault.substack.com/subscribe?simple=true&amp;next=https%3A%2F%2Fpollvault.substack.com%2Fp%2Fnew-poll-vault-emerson-senate-and&amp;utm_source=paywall&amp;utm_medium=web&amp;utm_content=223191075&amp;just_signed_up=falsesimple=true&amp;utm_source=paywall&amp;utm_medium=email&amp;utm_content=223191075&amp;next=https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "https://pollvault.substack.com",
+      "https://pollvault.substack.com/p/live-with-chris-matthews",
+      "https://pollvault.substack.com/p/levee-math"
+    ]
+  },
+  {
+    "name": "gotv.html",
+    "url": "https://gotvpolling.com/",
+    "final_url": "https://gotvpolling.com/",
+    "path": "research/poll_scrub_20261103/sources/gotv.html",
+    "sha256": "20a66a3774aeb15ed39180655c873e35bd335b283569f72bb30167f61ca2c938",
+    "bytes": 2041482,
+    "links": []
+  }
+]
