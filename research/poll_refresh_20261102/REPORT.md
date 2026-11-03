@@ -2,7 +2,9 @@
 
 After the acquisition, the user changed Maine's electorate weights to R31/D28/I41 for Senate and governor. The current model and public exports use those weights. The ingestion manifest records this change relative to the unchanged acquisition baseline.
 
-Added **31 race-level observations from 20 distinct state/national survey waves**, published November1–2, and replaced one revised Florida governor observation. The feed grew from 285 to 316 observations across 28 models. All current turnout weights and the 1pp turnout-share marginal SD are preserved.
+Added **44 race-level observations from 28 distinct state/national survey waves**, including the scheduled November2 9PM EST increment, and replaced one revised Florida governor observation. The feed grew from 285 to 329 observations across 28 models. Most new releases are dated November1–2; the newly available Iowa Rasmussen Senate page has honest October31–November2 publication bounds because its displayed dateline is stale. All current turnout weights and the 1pp turnout-share marginal SD are preserved.
+
+The scheduled increment added 13 observations from eight surveys after the earlier316-row state. Its detailed source decisions, candidate shares, margins, rolling averages and independent preservation audit are in [the evening report](../poll_check_20261102_2100EST/REPORT.md). All316 earlier normalized rows and all32 earlier raw records/reviews remain exactly preserved.
 
 | Program | New race observations |
 |---|---:|
@@ -13,8 +15,12 @@ Added **31 race-level observations from 20 distinct state/national survey waves*
 | GrayHouse |2|
 | East Carolina University |1|
 | YouGov national pre-election study |1|
+| Survey 160 |8|
+| Rasmussen Reports |3|
+| Reuters/Ipsos |1|
+| Focaldata/Financial Times |1|
 
-There are 16 new Senate inputs, 13 governor inputs and 2 national generic-ballot inputs. One survey measuring both Senate and governor produces two race observations, not two independent surveys. See [ingestion-manifest.json](ingestion-manifest.json) for exact race counts and [polls.json](polls.json) for cells, dates and table locations. Nebraska increases from 4 to 5; national generic ballot from 23 to 25. Kansas remains 9 Senate / 7 governor because new identified sources lack retrievable complete tables.
+There are 22 new Senate inputs, 18 governor inputs and 4 national generic-ballot inputs. One survey measuring both Senate and governor produces two race observations, not two independent surveys. See [ingestion-manifest.json](ingestion-manifest.json) for exact race counts and [polls.json](polls.json) for cells, dates and table locations. Nebraska increases from 4 to 5; national generic ballot from 23 to 27. Kansas now has10 Senate /8 governor observations after Survey160's complete tables were verified.
 
 ## Source review
 
@@ -30,7 +36,7 @@ The current Florida RedBox PDF SHA256 is `6c4d234b6efb22c6bfce2f263f6f64b45e3575
 
 ## Coverage and pending sources
 
-The user also reports new Emerson Texas and Ohio polls. Their release dates, tested offices and full R/D/I tables are unverified; this lead is recorded as pending full results, with no new observations added.
+The user also reports new Emerson Texas and Ohio polls. The evening review found a November2 Poll Vault briefing lead, but exact survey dates, tested offices and full R/D/I tables remain unverified. The primary Emerson blog still showed October30 releases. This lead remains pending full results, with no new observations added. The evening [held inventory](../poll_check_20261102_2100EST/held-inventory.json) also records unresolved Atlas Ohio, co/efficient Iowa and incomplete/restricted sources.
 
 The user explicitly excluded the new November 1 NYT/Siena Texas Senate screenshot after supplying it. That wave was never ingested and remains excluded; older NYT/Siena waves and Texas governor are unaffected.
 
@@ -45,6 +51,6 @@ PYTHONPATH=src python scripts/ingest_poll_refresh.py
 PYTHONPATH=src python scripts/ingest_poll_refresh.py --check
 ```
 
-Compilation verifies review hashes, source hashes, matchup, publication eligibility, sample uniqueness, pinned replacements and all six cells before replaying. The full feed is replayed chronologically; the snapshot, ledger, forecasts and history are checked together. Original 285 rows are preserved except the explicitly pinned RedBox revision. Every unaffected model must exactly preserve its mean and preserve covariance within 1e-15; all turnout assumptions must match the pre-refresh snapshot. Older acquisition rebuilds retain this revision, and their audits distinguish new inputs from unintended changes.
+Compilation verifies review hashes, source hashes, matchup, publication eligibility, sample uniqueness, pinned replacements and all six cells before replaying. The full feed is replayed chronologically; the snapshot, ledger, forecasts and history are checked together. Original285 rows are preserved except the explicitly pinned RedBox revision. Every unaffected model must exactly preserve its mean and preserve covariance within1e-15; all turnout assumptions match the current cycle configuration. The manifest separately records the subsequent user-selected Maine weight change relative to the unchanged original acquisition baseline. Older acquisition rebuilds retain the revision, and their audits distinguish new inputs from unintended changes.
 
-Validation results are recorded in `validation.json`. Historical Maine calibration remains unavailable because its excluded original datasets are absent; this refresh makes no empirical calibration claim. GitHub publication was requested after local validation; repository history records the resulting commit. No empirical forecast calibration is implied by publication.
+Validation results are recorded in `validation.json`. Historical Maine calibration remains unavailable because its excluded original datasets are absent; this refresh makes no empirical calibration claim. The earlier316-row state was published to GitHub. The scheduled evening increment was prepared locally; subsequent GitHub publication and deployment are a separate user-authorized step.

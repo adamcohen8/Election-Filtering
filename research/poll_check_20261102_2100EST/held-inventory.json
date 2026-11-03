@@ -1,0 +1,228 @@
+{
+  "checked_at": "2026-11-02T21:00:00-05:00",
+  "prior_inventory": "research/poll_refresh_20261102/held-sources.json",
+  "items": [
+    {
+      "pollster": "NYT/Siena",
+      "races": [
+        "ak_sen",
+        "ia_sen",
+        "ia_gov",
+        "ks_sen",
+        "ks_gov",
+        "me_sen",
+        "me_gov",
+        "mi_sen",
+        "mi_gov",
+        "oh_sen",
+        "oh_gov",
+        "tx_gov"
+      ],
+      "source_url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "status": "pending_source_access",
+      "reason": "New wave identified through current indexes. Earlier browser policy denied retrieval and same-outcome alternate-copy access; no new attempt or workaround. User-supplied relevant tables could resolve this gap. Prior user-supplied October tables remain in the feed."
+    },
+    {
+      "pollster": "YouGov state pre-election studies",
+      "races": [
+        "me_sen",
+        "me_gov",
+        "ks_sen",
+        "ks_gov",
+        "mi_sen",
+        "mi_gov",
+        "nc_sen",
+        "ne_sen",
+        "tx_sen",
+        "tx_gov",
+        "ia_sen",
+        "ia_gov",
+        "oh_sen",
+        "oh_gov"
+      ],
+      "source_url": "https://yougov.com/en-us/survey-results",
+      "status": "missing_required_crosstabs",
+      "reason": "All eight primary state PDFs were downloaded. Candidate tables break out age, gender, recalled2024 vote and white education, not R/D/I candidate support. Party composition or previous presidential vote cannot substitute for party support. The separate complete national YouGov poll WAS added."
+    },
+    {
+      "pollster": "Trafalgar",
+      "races": [
+        "oh_sen",
+        "tx_sen"
+      ],
+      "source_url": "https://www.thetrafalgargroup.org/news/oh-senate-gen-1102/",
+      "status": "missing_required_crosstabs",
+      "reason": "Ohio9-page and Texas9-page primary reports show party participation composition, age/gender and ethnicity candidate crosstabs, but not six R/D/I candidate support cells. Do not confuse composition with conditional support."
+    },
+    {
+      "pollster": "National Public Affairs",
+      "races": [
+        "nh_sen",
+        "nh_gov",
+        "ne_sen"
+      ],
+      "source_url": "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_103126.2.pdf",
+      "status": "incomplete_required_crosstabs",
+      "reason": "NH memo supplies five Senate cells but omits Sununu among Democrats; governor also incomplete. Nebraska memo provides toplines and registration composition, not candidate support by all parties. No complement-to100 inference."
+    },
+    {
+      "pollster": "Morning Consult",
+      "races": [
+        "us_house_generic"
+      ],
+      "source_url": "https://pro-assets.morningconsult.com/wp-uploads/2026/09/MCPI-PI-Weekly.html",
+      "status": "source_access_failed",
+      "reason": "NewNov1-ended16929LV tracker indexedNov2. Primary tracker returns HTTP403 and usable complete party candidate tables were not recovered."
+    },
+    {
+      "pollster": "Concord Public Opinion Partners",
+      "races": [
+        "oh_sen",
+        "oh_gov"
+      ],
+      "source_url": "https://concordpublicopinionpartners.org/polls/ohio-ge-2026-oct",
+      "status": "not_verified",
+      "reason": "Current index adds October24-ended poll Nov2. Primary site returned broad multi-poll page. Downloaded first full-report link is SOUTH DAKOTA, not Ohio; it was not used as Ohio evidence. Complete applicable Ohio R/D/I tables not recovered."
+    },
+    {
+      "pollster": "RedBox Research",
+      "races": [
+        "fl_sen",
+        "fl_gov"
+      ],
+      "source_url": "https://afightworthhaving.com/polling/2026/florida/crosstabs.pdf",
+      "status": "same_wave_not_new_poll",
+      "reason": "Oct30\u201331 sample2898 already loaded. Nov2 PDF hash differs from archived Nov1 PDF; all six Senate cells and applicable Ns unchanged, so keep existing Senate input. Governor independent Jolly55to56 is an explicit same-ID replacement; zero additional waves. Publication label on current pageNov2 is logged, not a second poll."
+    },
+    {
+      "pollster": "RedBox Research",
+      "races": [
+        "nc_sen"
+      ],
+      "source_url": "https://afightworthhaving.com/polling/2026/north-carolina",
+      "status": "same_wave_not_new_poll",
+      "reason": "Oct20\u201323 sample3292 is already in the baseline; aggregator recently added timestamp does not create a new survey."
+    },
+    {
+      "pollster": "Lake Research Partners",
+      "races": [
+        "az_gov"
+      ],
+      "source_url": "https://ballot.org/wp-content/uploads/2026/10/LRP-Topline-AZ-BISC-State-Partners-10.8.26.pdf",
+      "status": "older_release_recently_indexed",
+      "reason": "September30-ended sample600 indexedNov2 but linked October8 memo is not a newNov1\u20132 publication; not added in this refresh."
+    },
+    {
+      "pollster": "NYT/Siena",
+      "races": [
+        "tx_sen"
+      ],
+      "status": "excluded_by_user",
+      "wave": "November 1, 2026 release; new Texas Senate screenshot",
+      "source_url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-poll-crosstabs.html",
+      "reason": "User explicitly instructed: \"Exclude that poll something is very wrong with it\" after providing the new Texas Senate party-ID table. This wave was never added; exclude it from further ingestion. This exclusion applies only to this new Texas Senate wave, not prior NYT/Siena surveys or Texas governor."
+    },
+    {
+      "pollster": "Emerson College Polling",
+      "races": [
+        "tx_sen",
+        "tx_gov",
+        "oh_sen",
+        "oh_gov"
+      ],
+      "status": "user_reported_pending_full_results",
+      "reported_on": "2026-11-02",
+      "publication_date": null,
+      "field_start": null,
+      "field_date": null,
+      "source_url": "https://emersoncollegepolling.com/",
+      "reason": "User reports Emerson polled Texas and Ohio and suggests full results may not yet be released. November2 release, exact offices tested, field dates, and complete R/D/I support tables are unverified. Primary website and X profile checked this session showed October30 as latest public releases. Record as a pending lead only; no model observation or inferred crosstabs. Race list identifies modeled offices to check, not confirmed survey questions."
+    },
+    {
+      "pollster": "Survey 160",
+      "races": [
+        "ks_sen",
+        "ks_gov",
+        "oh_sen",
+        "oh_gov",
+        "me_sen",
+        "me_gov",
+        "mn_sen",
+        "mn_gov"
+      ],
+      "status": "same_wave_alternatives_excluded",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "reason": "First-choice ballots accepted. Adjacent leaned versions are the same survey, not additional polls. State House ballots do not qualify as national generic ballot."
+    },
+    {
+      "pollster": "Emerson / Poll Vault",
+      "races": [
+        "tx_sen",
+        "tx_gov",
+        "oh_sen",
+        "oh_gov",
+        "me_sen",
+        "me_gov"
+      ],
+      "status": "pending_complete_original_tables",
+      "source_url": "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and",
+      "reason": "November2 22:38GMT sponsor briefing is a public lead; public RSS excerpt contains no full party tables. Emerson public blog/homepage still lists October30 releases. Exact tested offices and new wave dates not independently established. Existing October28 Kansas/October26 national surveys already loaded. Paid content not bypassed."
+    },
+    {
+      "pollster": "AtlasIntel",
+      "races": [
+        "oh_sen"
+      ],
+      "status": "pending_complete_original_tables",
+      "source_url": "https://www.atlasintel.org/",
+      "reason": "Secondary index identifies November1-ended Ohio survey, n1801; original Ohio report and full R/D/I cells not recovered. Homepage and targeted original-domain search found no applicable table; aggregator shares not used."
+    },
+    {
+      "pollster": "co/efficient",
+      "races": [
+        "ia_sen",
+        "ia_gov"
+      ],
+      "status": "missing_required_crosstabs",
+      "source_url": "https://battlegrounds.coefficient.org/ia/",
+      "reason": "Original October28 survey n1020 has ballot toplines and party composition45R/33D/22Other but no candidate support within all R/D/I groups. No inferred conditional support."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "races": [
+        "us_house_generic"
+      ],
+      "status": "missing_required_crosstabs_access_restricted",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_nov02",
+      "reason": "November2 release supplies only four of six required cells: R-to-R86, D-to-D88, I40/40. Cross-party R/D support absent. Linked premium crosstabs returned401; no alternate path or bypass attempted."
+    },
+    {
+      "pollster": "Rasmussen Reports",
+      "races": [
+        "mi_gov"
+      ],
+      "status": "missing_required_crosstabs_access_restricted",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_michigan_governor",
+      "reason": "October28\u201329 n745 original release public preview only; full story requests subscription. No complete party cells accessible; not added. Same-wave Michigan Senate is already present."
+    },
+    {
+      "pollster": "Quantus Insights",
+      "races": [
+        "tx_sen"
+      ],
+      "status": "same_wave_not_new_poll",
+      "source_url": "https://quantusinsights.org/",
+      "reason": "Current secondary final-poll mention refers to already loaded October26\u201328 n1221 survey. No new complete primary table established."
+    },
+    {
+      "pollster": "NBC News",
+      "races": [
+        "us_house_generic"
+      ],
+      "status": "pending_complete_original_tables",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
+      "reason": "November1 poll lead; original article fetch unavailable in this review, and no complete original party-support table established. No model input inferred."
+    }
+  ],
+  "coverage_limit": "Original-source review is bounded to existing races and publicly accessible evidence. No claim of exhaustive private/unpublished coverage. Prior NYT/AJC restrictions and explicit November1 Texas NYT Senate exclusion retained."
+}

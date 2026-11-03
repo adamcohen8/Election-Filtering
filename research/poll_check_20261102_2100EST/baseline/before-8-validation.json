@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-11-02",
+  "feed_rows": 316,
+  "new_race_observations": 31,
+  "new_distinct_surveys": 20,
+  "same_wave_revisions": 1,
+  "unaffected_models_preserved": [
+    "az_gov",
+    "ia_gov",
+    "ks_gov",
+    "ks_sen",
+    "nv_gov"
+  ],
+  "all_turnout_weights_preserved": true,
+  "source_artifacts_hash_checked": 15,
+  "snapshot_ledger_forecasts_history_match_full_replay": true,
+  "all_five_acquisition_check_commands_passed": true,
+  "historical_senate_and_governor_source_audits_passed": true,
+  "python_tests_passed": 103,
+  "ui_tests_passed": 6,
+  "test_limitations": [
+    "Original historical Maine calibration data intentionally not cloned; that calibration module excluded. No empirical forecast accuracy claim."
+  ],
+  "feed_sha256": "2496980d44bcf294db8681231f66d929ee859db5257084a2c11c86e284e18adf"
+}

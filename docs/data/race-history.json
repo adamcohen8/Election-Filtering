@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:24:28.614076+00:00",
+  "generated_at": "2026-11-03T02:12:36.637800+00:00",
   "cycle": 2026,
   "races": [
     {
@@ -2807,6 +2807,13 @@
           "candidate_b_share": 0.5059,
           "margin": -0.067,
           "margin_percent": -6.7
+        },
+        {
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4432,
+          "candidate_b_share": 0.5011,
+          "margin": -0.0578,
+          "margin_percent": -5.78
         }
       ],
       "poll_points": [
@@ -2969,6 +2976,22 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1Gt6_kirOc965SYxeNHgJRfIUZVWyxhh39ku8d4wJ_Io/edit?usp=sharing"
+        },
+        {
+          "poll_id": "ia_gov--rasmussen-20261031",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4546,
+          "candidate_b_share": 0.4892,
+          "margin": -0.0346,
+          "margin_percent": -3.46,
+          "leader": "democratic",
+          "sample_size": null,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_basis_unspecified",
+          "precision_method": "assumed_covariance",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_governor"
         }
       ],
       "rolling_average_window": 7,
@@ -3131,25 +3154,43 @@
           "candidate_b_share": 0.5132,
           "margin": -0.0826,
           "margin_percent": -8.26
+        },
+        {
+          "date": "2026-10-31",
+          "window_start_date": "2026-09-28",
+          "poll_count": 7,
+          "poll_ids": [
+            "ia_gov--fox-20260928",
+            "ia_gov--nyt-siena-ia-gov-october2026",
+            "ia_gov--ssrs-cnn-ia-gov-20261005",
+            "ia_gov--emerson-nexstar-20261006",
+            "ia_gov--marist-20261011",
+            "ia_gov--onpoint-20261021",
+            "ia_gov--rasmussen-20261031"
+          ],
+          "candidate_a_share": 0.4326,
+          "candidate_b_share": 0.5086,
+          "margin": -0.0761,
+          "margin_percent": -7.61
         }
       ],
       "rolling_average": {
-        "date": "2026-10-21",
-        "window_start_date": "2026-09-20",
+        "date": "2026-10-31",
+        "window_start_date": "2026-09-28",
         "poll_count": 7,
         "poll_ids": [
-          "ia_gov--marist-ia-gov-20260920",
           "ia_gov--fox-20260928",
           "ia_gov--nyt-siena-ia-gov-october2026",
           "ia_gov--ssrs-cnn-ia-gov-20261005",
           "ia_gov--emerson-nexstar-20261006",
           "ia_gov--marist-20261011",
-          "ia_gov--onpoint-20261021"
+          "ia_gov--onpoint-20261021",
+          "ia_gov--rasmussen-20261031"
         ],
-        "candidate_a_share": 0.4306,
-        "candidate_b_share": 0.5132,
-        "margin": -0.0826,
-        "margin_percent": -8.26
+        "candidate_a_share": 0.4326,
+        "candidate_b_share": 0.5086,
+        "margin": -0.0761,
+        "margin_percent": -7.61
       }
     },
     {
@@ -3227,10 +3268,10 @@
         },
         {
           "date": "2026-10-31",
-          "candidate_a_share": 0.466,
-          "candidate_b_share": 0.4787,
-          "margin": -0.0127,
-          "margin_percent": -1.27
+          "candidate_a_share": 0.4664,
+          "candidate_b_share": 0.4706,
+          "margin": -0.0042,
+          "margin_percent": -0.42
         }
       ],
       "poll_points": [
@@ -3409,6 +3450,22 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://www.grayhouse.com/post/grayhouse-poll-hinson-leads-in-iowa-by-2"
+        },
+        {
+          "poll_id": "ia_sen--rasmussen-20261031",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4779,
+          "candidate_b_share": 0.4422,
+          "margin": 0.0357,
+          "margin_percent": 3.57,
+          "leader": "republican",
+          "sample_size": null,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_basis_unspecified",
+          "precision_method": "assumed_covariance",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate"
         }
       ],
       "rolling_average_window": 7,
@@ -3574,40 +3631,40 @@
         },
         {
           "date": "2026-10-31",
-          "window_start_date": "2026-09-30",
+          "window_start_date": "2026-10-01",
           "poll_count": 7,
           "poll_ids": [
-            "ia_sen--ras_ia",
             "ia_sen--nyt-siena-ia-20261001",
             "ia_sen--ssrs-cnn-20261005",
             "ia_sen--emerson-nexstar-20261006",
             "ia_sen--marist-20261011",
             "ia_sen--onpoint-20261021",
-            "ia_sen--grayhouse-20261031"
+            "ia_sen--grayhouse-20261031",
+            "ia_sen--rasmussen-20261031"
           ],
-          "candidate_a_share": 0.4587,
-          "candidate_b_share": 0.4638,
-          "margin": -0.0051,
-          "margin_percent": -0.51
+          "candidate_a_share": 0.4674,
+          "candidate_b_share": 0.4595,
+          "margin": 0.0079,
+          "margin_percent": 0.79
         }
       ],
       "rolling_average": {
         "date": "2026-10-31",
-        "window_start_date": "2026-09-30",
+        "window_start_date": "2026-10-01",
         "poll_count": 7,
         "poll_ids": [
-          "ia_sen--ras_ia",
           "ia_sen--nyt-siena-ia-20261001",
           "ia_sen--ssrs-cnn-20261005",
           "ia_sen--emerson-nexstar-20261006",
           "ia_sen--marist-20261011",
           "ia_sen--onpoint-20261021",
-          "ia_sen--grayhouse-20261031"
+          "ia_sen--grayhouse-20261031",
+          "ia_sen--rasmussen-20261031"
         ],
-        "candidate_a_share": 0.4587,
-        "candidate_b_share": 0.4638,
-        "margin": -0.0051,
-        "margin_percent": -0.51
+        "candidate_a_share": 0.4674,
+        "candidate_b_share": 0.4595,
+        "margin": 0.0079,
+        "margin_percent": 0.79
       }
     },
     {
@@ -3654,6 +3711,13 @@
           "candidate_b_share": 0.4559,
           "margin": 0.0407,
           "margin_percent": 4.07
+        },
+        {
+          "date": "2026-11-01",
+          "candidate_a_share": 0.5099,
+          "candidate_b_share": 0.4488,
+          "margin": 0.061,
+          "margin_percent": 6.1
         }
       ],
       "poll_points": [
@@ -3768,6 +3832,22 @@
           "precision_method": "reported_weighted",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1Fsg1YqnPjM1kKMkAQIhpoBRW3J1vwCH0/edit"
+        },
+        {
+          "poll_id": "ks_gov--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.5216,
+          "candidate_b_share": 0.4382,
+          "margin": 0.0834,
+          "margin_percent": 8.34,
+          "leader": "republican",
+          "sample_size": 1339,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -3860,25 +3940,43 @@
           "candidate_b_share": 0.4489,
           "margin": 0.048,
           "margin_percent": 4.8
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-09-30",
+          "poll_count": 7,
+          "poll_ids": [
+            "ks_gov--nyt-siena-ks-gov-october2026",
+            "ks_gov--onpoint-ks-gov-20261021",
+            "ks_gov--redbox-20261023-gov",
+            "ks_gov--cnn-ks-gov-20261026",
+            "ks_gov--wapo-schar-20261026-gov",
+            "ks_gov--emerson-20261028-gov",
+            "ks_gov--survey160-20261101"
+          ],
+          "candidate_a_share": 0.4961,
+          "candidate_b_share": 0.4522,
+          "margin": 0.0439,
+          "margin_percent": 4.39
         }
       ],
       "rolling_average": {
-        "date": "2026-10-28",
-        "window_start_date": "2026-09-16",
+        "date": "2026-11-01",
+        "window_start_date": "2026-09-30",
         "poll_count": 7,
         "poll_ids": [
-          "ks_gov--emerson-ks-20260916-gov",
           "ks_gov--nyt-siena-ks-gov-october2026",
           "ks_gov--onpoint-ks-gov-20261021",
           "ks_gov--redbox-20261023-gov",
           "ks_gov--cnn-ks-gov-20261026",
           "ks_gov--wapo-schar-20261026-gov",
-          "ks_gov--emerson-20261028-gov"
+          "ks_gov--emerson-20261028-gov",
+          "ks_gov--survey160-20261101"
         ],
-        "candidate_a_share": 0.4969,
-        "candidate_b_share": 0.4489,
-        "margin": 0.048,
-        "margin_percent": 4.8
+        "candidate_a_share": 0.4961,
+        "candidate_b_share": 0.4522,
+        "margin": 0.0439,
+        "margin_percent": 4.39
       }
     },
     {
@@ -3939,6 +4037,13 @@
           "candidate_b_share": 0.4682,
           "margin": -0.0054,
           "margin_percent": -0.54
+        },
+        {
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4625,
+          "candidate_b_share": 0.4601,
+          "margin": 0.0024,
+          "margin_percent": 0.24
         }
       ],
       "poll_points": [
@@ -4085,6 +4190,22 @@
           "precision_method": "reported_weighted",
           "partial_party_id": false,
           "source_url": "https://docs.google.com/spreadsheets/d/1Fsg1YqnPjM1kKMkAQIhpoBRW3J1vwCH0/edit"
+        },
+        {
+          "poll_id": "ks_sen--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4682,
+          "candidate_b_share": 0.4553,
+          "margin": 0.0129,
+          "margin_percent": 1.29,
+          "leader": "republican",
+          "sample_size": 1339,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -4211,25 +4332,43 @@
           "candidate_b_share": 0.4691,
           "margin": -0.0059,
           "margin_percent": -0.59
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-10-10",
+          "poll_count": 7,
+          "poll_ids": [
+            "ks_sen--insider-ks_sen-20261010",
+            "ks_sen--insider-ks_sen-20261014",
+            "ks_sen--redbox-20261023",
+            "ks_sen--ssrs-cnn-ks_sen-20261026",
+            "ks_sen--wapo-schar-20261026",
+            "ks_sen--emerson-20261028",
+            "ks_sen--survey160-20261101"
+          ],
+          "candidate_a_share": 0.4624,
+          "candidate_b_share": 0.4717,
+          "margin": -0.0093,
+          "margin_percent": -0.93
         }
       ],
       "rolling_average": {
-        "date": "2026-10-28",
-        "window_start_date": "2026-09-30",
+        "date": "2026-11-01",
+        "window_start_date": "2026-10-10",
         "poll_count": 7,
         "poll_ids": [
-          "ks_sen--nyt-siena-ks-20260930",
           "ks_sen--insider-ks_sen-20261010",
           "ks_sen--insider-ks_sen-20261014",
           "ks_sen--redbox-20261023",
           "ks_sen--ssrs-cnn-ks_sen-20261026",
           "ks_sen--wapo-schar-20261026",
-          "ks_sen--emerson-20261028"
+          "ks_sen--emerson-20261028",
+          "ks_sen--survey160-20261101"
         ],
-        "candidate_a_share": 0.4632,
-        "candidate_b_share": 0.4691,
-        "margin": -0.0059,
-        "margin_percent": -0.59
+        "candidate_a_share": 0.4624,
+        "candidate_b_share": 0.4717,
+        "margin": -0.0093,
+        "margin_percent": -0.93
       }
     },
     {
@@ -4311,6 +4450,13 @@
           "candidate_b_share": 0.4629,
           "margin": -0.0425,
           "margin_percent": -4.25
+        },
+        {
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4248,
+          "candidate_b_share": 0.4887,
+          "margin": -0.064,
+          "margin_percent": -6.4
         }
       ],
       "poll_points": [
@@ -4489,6 +4635,22 @@
           "precision_method": "reported_n_weighting_unspecified",
           "partial_party_id": false,
           "source_url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=2012&context=survey_center_polls"
+        },
+        {
+          "poll_id": "me_gov--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4048,
+          "candidate_b_share": 0.5236,
+          "margin": -0.1188,
+          "margin_percent": -11.88,
+          "leader": "democratic",
+          "sample_size": 1335,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -4669,25 +4831,43 @@
           "candidate_b_share": 0.4762,
           "margin": -0.0715,
           "margin_percent": -7.15
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-10-05",
+          "poll_count": 7,
+          "poll_ids": [
+            "me_gov--wapo-schar-me-gov-20261005",
+            "me_gov--suffolk-me-gov-20261011",
+            "me_gov--marist-me-gov-20261025",
+            "me_gov--cnn-ssrs-me-gov-20261026",
+            "me_gov--dfp-me-gov-20261027",
+            "me_gov--unh-20261031",
+            "me_gov--survey160-20261101"
+          ],
+          "candidate_a_share": 0.4019,
+          "candidate_b_share": 0.4814,
+          "margin": -0.0795,
+          "margin_percent": -7.95
         }
       ],
       "rolling_average": {
-        "date": "2026-10-31",
-        "window_start_date": "2026-10-04",
+        "date": "2026-11-01",
+        "window_start_date": "2026-10-05",
         "poll_count": 7,
         "poll_ids": [
-          "me_gov--marist-me-gov-20261004",
           "me_gov--wapo-schar-me-gov-20261005",
           "me_gov--suffolk-me-gov-20261011",
           "me_gov--marist-me-gov-20261025",
           "me_gov--cnn-ssrs-me-gov-20261026",
           "me_gov--dfp-me-gov-20261027",
-          "me_gov--unh-20261031"
+          "me_gov--unh-20261031",
+          "me_gov--survey160-20261101"
         ],
-        "candidate_a_share": 0.4047,
-        "candidate_b_share": 0.4762,
-        "margin": -0.0715,
-        "margin_percent": -7.15
+        "candidate_a_share": 0.4019,
+        "candidate_b_share": 0.4814,
+        "margin": -0.0795,
+        "margin_percent": -7.95
       }
     },
     {
@@ -4769,6 +4949,13 @@
           "candidate_b_share": 0.4921,
           "margin": 0.0024,
           "margin_percent": 0.24
+        },
+        {
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4794,
+          "candidate_b_share": 0.4932,
+          "margin": -0.0138,
+          "margin_percent": -1.38
         }
       ],
       "poll_points": [
@@ -4947,6 +5134,22 @@
           "precision_method": "reported_n_weighting_unspecified",
           "partial_party_id": false,
           "source_url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=2012&context=survey_center_polls"
+        },
+        {
+          "poll_id": "me_sen--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4543,
+          "candidate_b_share": 0.4937,
+          "margin": -0.0394,
+          "margin_percent": -3.94,
+          "leader": "democratic",
+          "sample_size": 1334,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -5127,25 +5330,43 @@
           "candidate_b_share": 0.4728,
           "margin": 0.0137,
           "margin_percent": 1.37
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-10-11",
+          "poll_count": 7,
+          "poll_ids": [
+            "me_sen--suffolk-20261011",
+            "me_sen--insider-me_sen-20261014",
+            "me_sen--marist-20261025",
+            "me_sen--ssrs-cnn-me_sen-20261026",
+            "me_sen--dfp-20261027",
+            "me_sen--unh-20261031",
+            "me_sen--survey160-20261101"
+          ],
+          "candidate_a_share": 0.481,
+          "candidate_b_share": 0.4769,
+          "margin": 0.0041,
+          "margin_percent": 0.41
         }
       ],
       "rolling_average": {
-        "date": "2026-10-31",
-        "window_start_date": "2026-10-08",
+        "date": "2026-11-01",
+        "window_start_date": "2026-10-11",
         "poll_count": 7,
         "poll_ids": [
-          "me_sen--rasmussen-20261008",
           "me_sen--suffolk-20261011",
           "me_sen--insider-me_sen-20261014",
           "me_sen--marist-20261025",
           "me_sen--ssrs-cnn-me_sen-20261026",
           "me_sen--dfp-20261027",
-          "me_sen--unh-20261031"
+          "me_sen--unh-20261031",
+          "me_sen--survey160-20261101"
         ],
-        "candidate_a_share": 0.4864,
-        "candidate_b_share": 0.4728,
-        "margin": 0.0137,
-        "margin_percent": 1.37
+        "candidate_a_share": 0.481,
+        "candidate_b_share": 0.4769,
+        "margin": 0.0041,
+        "margin_percent": 0.41
       }
     },
     {
@@ -6093,10 +6314,10 @@
         },
         {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4137,
-          "candidate_b_share": 0.5006,
-          "margin": -0.087,
-          "margin_percent": -8.7
+          "candidate_a_share": 0.4306,
+          "candidate_b_share": 0.5073,
+          "margin": -0.0767,
+          "margin_percent": -7.67
         }
       ],
       "poll_points": [
@@ -6275,6 +6496,22 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_01Nov2026.pdf"
+        },
+        {
+          "poll_id": "mn_gov--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4403,
+          "candidate_b_share": 0.507,
+          "margin": -0.0667,
+          "margin_percent": -6.67,
+          "leader": "democratic",
+          "sample_size": 1408,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -6440,40 +6677,40 @@
         },
         {
           "date": "2026-11-01",
-          "window_start_date": "2026-09-02",
+          "window_start_date": "2026-09-14",
           "poll_count": 7,
           "poll_ids": [
-            "mn_gov--tipp-mn-20260902",
             "mn_gov--surveyusa-mn-20260914",
             "mn_gov--mason-dixon-mn-gov-20261007",
             "mn_gov--surveyusa-mn-20261012",
             "mn_gov--nyt-siena-mn-gov-october2026",
             "mn_gov--surveyusa-mn-20261028",
-            "mn_gov--researchco-20261101"
+            "mn_gov--researchco-20261101",
+            "mn_gov--survey160-20261101"
           ],
-          "candidate_a_share": 0.4139,
-          "candidate_b_share": 0.4948,
-          "margin": -0.0809,
-          "margin_percent": -8.09
+          "candidate_a_share": 0.419,
+          "candidate_b_share": 0.4975,
+          "margin": -0.0785,
+          "margin_percent": -7.85
         }
       ],
       "rolling_average": {
         "date": "2026-11-01",
-        "window_start_date": "2026-09-02",
+        "window_start_date": "2026-09-14",
         "poll_count": 7,
         "poll_ids": [
-          "mn_gov--tipp-mn-20260902",
           "mn_gov--surveyusa-mn-20260914",
           "mn_gov--mason-dixon-mn-gov-20261007",
           "mn_gov--surveyusa-mn-20261012",
           "mn_gov--nyt-siena-mn-gov-october2026",
           "mn_gov--surveyusa-mn-20261028",
-          "mn_gov--researchco-20261101"
+          "mn_gov--researchco-20261101",
+          "mn_gov--survey160-20261101"
         ],
-        "candidate_a_share": 0.4139,
-        "candidate_b_share": 0.4948,
-        "margin": -0.0809,
-        "margin_percent": -8.09
+        "candidate_a_share": 0.419,
+        "candidate_b_share": 0.4975,
+        "margin": -0.0785,
+        "margin_percent": -7.85
       }
     },
     {
@@ -6558,10 +6795,10 @@
         },
         {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4638,
-          "candidate_b_share": 0.4886,
-          "margin": -0.0249,
-          "margin_percent": -2.49
+          "candidate_a_share": 0.4582,
+          "candidate_b_share": 0.4866,
+          "margin": -0.0284,
+          "margin_percent": -2.84
         }
       ],
       "poll_points": [
@@ -6756,6 +6993,22 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_01Nov2026.pdf"
+        },
+        {
+          "poll_id": "mn_sen--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4472,
+          "candidate_b_share": 0.493,
+          "margin": -0.0458,
+          "margin_percent": -4.58,
+          "leader": "democratic",
+          "sample_size": 1409,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -6939,40 +7192,40 @@
         },
         {
           "date": "2026-11-01",
-          "window_start_date": "2026-10-07",
+          "window_start_date": "2026-10-12",
           "poll_count": 7,
           "poll_ids": [
-            "mn_sen--rasmussen-mn-20261007",
             "mn_sen--surveyusa-mn-20261012",
             "mn_sen--rasmussen-mn-20261021",
             "mn_sen--nyt-siena-mn-release-20261028",
             "mn_sen--surveyusa-mn-20261028",
             "mn_sen--insider-20261030",
-            "mn_sen--researchco-20261101"
+            "mn_sen--researchco-20261101",
+            "mn_sen--survey160-20261101"
           ],
-          "candidate_a_share": 0.447,
-          "candidate_b_share": 0.4787,
-          "margin": -0.0317,
-          "margin_percent": -3.17
+          "candidate_a_share": 0.4472,
+          "candidate_b_share": 0.48,
+          "margin": -0.0328,
+          "margin_percent": -3.28
         }
       ],
       "rolling_average": {
         "date": "2026-11-01",
-        "window_start_date": "2026-10-07",
+        "window_start_date": "2026-10-12",
         "poll_count": 7,
         "poll_ids": [
-          "mn_sen--rasmussen-mn-20261007",
           "mn_sen--surveyusa-mn-20261012",
           "mn_sen--rasmussen-mn-20261021",
           "mn_sen--nyt-siena-mn-release-20261028",
           "mn_sen--surveyusa-mn-20261028",
           "mn_sen--insider-20261030",
-          "mn_sen--researchco-20261101"
+          "mn_sen--researchco-20261101",
+          "mn_sen--survey160-20261101"
         ],
-        "candidate_a_share": 0.447,
-        "candidate_b_share": 0.4787,
-        "margin": -0.0317,
-        "margin_percent": -3.17
+        "candidate_a_share": 0.4472,
+        "candidate_b_share": 0.48,
+        "margin": -0.0328,
+        "margin_percent": -3.28
       }
     },
     {
@@ -8862,10 +9115,10 @@
         },
         {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4721,
-          "candidate_b_share": 0.4773,
-          "margin": -0.0052,
-          "margin_percent": -0.52
+          "candidate_a_share": 0.4682,
+          "candidate_b_share": 0.4779,
+          "margin": -0.0097,
+          "margin_percent": -0.97
         }
       ],
       "poll_points": [
@@ -9060,6 +9313,22 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_01Nov2026.pdf"
+        },
+        {
+          "poll_id": "oh_gov--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4566,
+          "candidate_b_share": 0.4844,
+          "margin": -0.0278,
+          "margin_percent": -2.78,
+          "leader": "democratic",
+          "sample_size": 1159,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -9231,40 +9500,40 @@
         },
         {
           "date": "2026-11-01",
-          "window_start_date": "2026-10-18",
+          "window_start_date": "2026-10-19",
           "poll_count": 7,
           "poll_ids": [
-            "oh_gov--marist-oh-gov-20261018-lv",
             "oh_gov--fox-oh-gov-20261019-lv",
             "oh_gov--verasight-oh-gov-20261020",
             "oh_gov--redbox-oh-gov-20261023",
             "oh_gov--suffolk-oh-gov-20261026",
             "oh_gov--insider-20261030",
-            "oh_gov--researchco-20261101"
+            "oh_gov--researchco-20261101",
+            "oh_gov--survey160-20261101"
           ],
-          "candidate_a_share": 0.4675,
-          "candidate_b_share": 0.4671,
-          "margin": 0.0005,
-          "margin_percent": 0.05
+          "candidate_a_share": 0.4669,
+          "candidate_b_share": 0.4685,
+          "margin": -0.0016,
+          "margin_percent": -0.16
         }
       ],
       "rolling_average": {
         "date": "2026-11-01",
-        "window_start_date": "2026-10-18",
+        "window_start_date": "2026-10-19",
         "poll_count": 7,
         "poll_ids": [
-          "oh_gov--marist-oh-gov-20261018-lv",
           "oh_gov--fox-oh-gov-20261019-lv",
           "oh_gov--verasight-oh-gov-20261020",
           "oh_gov--redbox-oh-gov-20261023",
           "oh_gov--suffolk-oh-gov-20261026",
           "oh_gov--insider-20261030",
-          "oh_gov--researchco-20261101"
+          "oh_gov--researchco-20261101",
+          "oh_gov--survey160-20261101"
         ],
-        "candidate_a_share": 0.4675,
-        "candidate_b_share": 0.4671,
-        "margin": 0.0005,
-        "margin_percent": 0.05
+        "candidate_a_share": 0.4669,
+        "candidate_b_share": 0.4685,
+        "margin": -0.0016,
+        "margin_percent": -0.16
       }
     },
     {
@@ -9348,11 +9617,18 @@
           "margin_percent": 0.43
         },
         {
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4777,
+          "candidate_b_share": 0.474,
+          "margin": 0.0037,
+          "margin_percent": 0.37
+        },
+        {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4812,
+          "candidate_a_share": 0.4758,
           "candidate_b_share": 0.4672,
-          "margin": 0.0139,
-          "margin_percent": 1.39
+          "margin": 0.0085,
+          "margin_percent": 0.85
         }
       ],
       "poll_points": [
@@ -9533,6 +9809,22 @@
           "source_url": "https://x.com/InsiderPolling/status/2116992824411636158"
         },
         {
+          "poll_id": "oh_sen--rasmussen-20261031",
+          "pollster": "Rasmussen Reports",
+          "date": "2026-10-31",
+          "candidate_a_share": 0.4796,
+          "candidate_b_share": 0.4536,
+          "margin": 0.026,
+          "margin_percent": 2.6,
+          "leader": "republican",
+          "sample_size": null,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_basis_unspecified",
+          "precision_method": "assumed_covariance",
+          "partial_party_id": false,
+          "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_senate_october_27_31_2026"
+        },
+        {
           "poll_id": "oh_sen--researchco-20261101",
           "pollster": "Research Co.",
           "date": "2026-11-01",
@@ -9547,6 +9839,22 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_01Nov2026.pdf"
+        },
+        {
+          "poll_id": "oh_sen--survey160-20261101",
+          "pollster": "Survey 160",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.4664,
+          "candidate_b_share": 0.4688,
+          "margin": -0.0024,
+          "margin_percent": -0.24,
+          "leader": "democratic",
+          "sample_size": 1159,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states"
         }
       ],
       "rolling_average_window": 7,
@@ -9729,7 +10037,7 @@
           "margin_percent": 0.55
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "window_start_date": "2026-10-18",
           "poll_count": 7,
           "poll_ids": [
@@ -9739,31 +10047,49 @@
             "oh_sen--redbox-oh-20261023",
             "oh_sen--suffolk-oh-20261026",
             "oh_sen--insider-20261030",
-            "oh_sen--researchco-20261101"
+            "oh_sen--rasmussen-20261031"
           ],
-          "candidate_a_share": 0.4686,
-          "candidate_b_share": 0.4609,
-          "margin": 0.0077,
-          "margin_percent": 0.77
+          "candidate_a_share": 0.4659,
+          "candidate_b_share": 0.4667,
+          "margin": -0.0007,
+          "margin_percent": -0.07
+        },
+        {
+          "date": "2026-11-01",
+          "window_start_date": "2026-10-20",
+          "poll_count": 7,
+          "poll_ids": [
+            "oh_sen--verasight-oh-20261020",
+            "oh_sen--redbox-oh-20261023",
+            "oh_sen--suffolk-oh-20261026",
+            "oh_sen--insider-20261030",
+            "oh_sen--rasmussen-20261031",
+            "oh_sen--researchco-20261101",
+            "oh_sen--survey160-20261101"
+          ],
+          "candidate_a_share": 0.4695,
+          "candidate_b_share": 0.4557,
+          "margin": 0.0137,
+          "margin_percent": 1.37
         }
       ],
       "rolling_average": {
         "date": "2026-11-01",
-        "window_start_date": "2026-10-18",
+        "window_start_date": "2026-10-20",
         "poll_count": 7,
         "poll_ids": [
-          "oh_sen--marist-oh-20261018-lv",
-          "oh_sen--fox-oh-20261019-lv",
           "oh_sen--verasight-oh-20261020",
           "oh_sen--redbox-oh-20261023",
           "oh_sen--suffolk-oh-20261026",
           "oh_sen--insider-20261030",
-          "oh_sen--researchco-20261101"
+          "oh_sen--rasmussen-20261031",
+          "oh_sen--researchco-20261101",
+          "oh_sen--survey160-20261101"
         ],
-        "candidate_a_share": 0.4686,
-        "candidate_b_share": 0.4609,
-        "margin": 0.0077,
-        "margin_percent": 0.77
+        "candidate_a_share": 0.4695,
+        "candidate_b_share": 0.4557,
+        "margin": 0.0137,
+        "margin_percent": 1.37
       }
     },
     {
@@ -11530,10 +11856,17 @@
         },
         {
           "date": "2026-11-01",
-          "candidate_a_share": 0.4456,
-          "candidate_b_share": 0.5032,
-          "margin": -0.0576,
-          "margin_percent": -5.76
+          "candidate_a_share": 0.4291,
+          "candidate_b_share": 0.4798,
+          "margin": -0.0507,
+          "margin_percent": -5.07
+        },
+        {
+          "date": "2026-11-02",
+          "candidate_a_share": 0.4475,
+          "candidate_b_share": 0.491,
+          "margin": -0.0435,
+          "margin_percent": -4.35
         }
       ],
       "poll_points": [
@@ -11936,6 +12269,38 @@
           "precision_method": "assumed_covariance",
           "partial_party_id": false,
           "source_url": "https://cdn1.atlasintel.org/2026_midterms__national_poll_110126_1_87e74540c4d7f251.pdf"
+        },
+        {
+          "poll_id": "us_house_generic--focaldata-20261101",
+          "pollster": "Focaldata/Financial Times",
+          "date": "2026-11-01",
+          "candidate_a_share": 0.3994,
+          "candidate_b_share": 0.4209,
+          "margin": -0.0215,
+          "margin_percent": -2.15,
+          "leader": "democratic",
+          "sample_size": 2333,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://landing.focaldata.com/hubfs/Marketing%20content/Focaldata_US_Midterms_Poll_Nov2026_all.xlsx"
+        },
+        {
+          "poll_id": "us_house_generic--ipsos-20261102",
+          "pollster": "Reuters/Ipsos",
+          "date": "2026-11-02",
+          "candidate_a_share": 0.4665,
+          "candidate_b_share": 0.4902,
+          "margin": -0.0237,
+          "margin_percent": -2.37,
+          "leader": "democratic",
+          "sample_size": 1212,
+          "measurement": "party_id_crosstab",
+          "party_basis": "party_id",
+          "precision_method": "reported_unweighted",
+          "partial_party_id": false,
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Reuters%20Ipsos%20November%20Midterm%20Survey%20Topline.pdf"
         }
       ],
       "rolling_average_window": 7,
@@ -12150,37 +12515,55 @@
           "window_start_date": "2026-10-26",
           "poll_count": 7,
           "poll_ids": [
-            "us_house_generic--harvard-oct26",
             "us_house_generic--ipsos-oct26",
             "us_house_generic--onpoint-oct28",
             "us_house_generic--activote30",
             "us_house_generic--bigdata-oct30",
             "us_house_generic--yougov-national-20261030",
-            "us_house_generic--atlas-20261101"
+            "us_house_generic--atlas-20261101",
+            "us_house_generic--focaldata-20261101"
           ],
-          "candidate_a_share": 0.4539,
-          "candidate_b_share": 0.5071,
-          "margin": -0.0531,
-          "margin_percent": -5.31
+          "candidate_a_share": 0.441,
+          "candidate_b_share": 0.4943,
+          "margin": -0.0534,
+          "margin_percent": -5.34
+        },
+        {
+          "date": "2026-11-02",
+          "window_start_date": "2026-10-28",
+          "poll_count": 7,
+          "poll_ids": [
+            "us_house_generic--onpoint-oct28",
+            "us_house_generic--activote30",
+            "us_house_generic--bigdata-oct30",
+            "us_house_generic--yougov-national-20261030",
+            "us_house_generic--atlas-20261101",
+            "us_house_generic--focaldata-20261101",
+            "us_house_generic--ipsos-20261102"
+          ],
+          "candidate_a_share": 0.442,
+          "candidate_b_share": 0.4924,
+          "margin": -0.0504,
+          "margin_percent": -5.04
         }
       ],
       "rolling_average": {
-        "date": "2026-11-01",
-        "window_start_date": "2026-10-26",
+        "date": "2026-11-02",
+        "window_start_date": "2026-10-28",
         "poll_count": 7,
         "poll_ids": [
-          "us_house_generic--harvard-oct26",
-          "us_house_generic--ipsos-oct26",
           "us_house_generic--onpoint-oct28",
           "us_house_generic--activote30",
           "us_house_generic--bigdata-oct30",
           "us_house_generic--yougov-national-20261030",
-          "us_house_generic--atlas-20261101"
+          "us_house_generic--atlas-20261101",
+          "us_house_generic--focaldata-20261101",
+          "us_house_generic--ipsos-20261102"
         ],
-        "candidate_a_share": 0.4539,
-        "candidate_b_share": 0.5071,
-        "margin": -0.0531,
-        "margin_percent": -5.31
+        "candidate_a_share": 0.442,
+        "candidate_b_share": 0.4924,
+        "margin": -0.0504,
+        "margin_percent": -5.04
       }
     },
     {

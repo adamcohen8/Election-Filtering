@@ -1,0 +1,257 @@
+[
+  {
+    "A1": "2026 US midterms poll (November): data tables"
+  },
+  {},
+  {},
+  {
+    "A4": "Question",
+    "B4": "Wording",
+    "C4": "Overall"
+  },
+  {
+    "A5": "Q56",
+    "B5": "Q56 Are you registered to vote?",
+    "C5": "Go to"
+  },
+  {
+    "A6": "Q57",
+    "B6": "Q57 With which party, if any, are you registered?",
+    "C6": "Go to"
+  },
+  {
+    "A7": "Q58",
+    "B7": "Q58 Generally speaking, do you think of yourself as a...?",
+    "C7": "Go to"
+  },
+  {
+    "A8": "Q59",
+    "B8": "Q59 Would you call yourself a strong Republican or a not very strong Republican?",
+    "C8": "Go to"
+  },
+  {
+    "A9": "Q60",
+    "B9": "Q60 Would you call yourself a strong Democrat or a not very strong Democrat?",
+    "C9": "Go to"
+  },
+  {
+    "A10": "Q61",
+    "B10": "Q61 Do you think of yourself as closer to the Republican Party or the Democratic Party?",
+    "C10": "Go to"
+  },
+  {
+    "A11": "Q63",
+    "B11": "Q63 Do you intend to vote in the elections for the U.S. Congress (House of Representatives) on November 3rd?",
+    "C11": "Go to"
+  },
+  {
+    "A12": "Q64.slider",
+    "B12": "Q64 And on a scale of 0 to 10, how likely are you to vote in the elections for the U.S. Congress (House of Representatives) on November 3rd?",
+    "C12": "Go to"
+  },
+  {
+    "A13": "Q66",
+    "B13": "Q66 In the elections for the U.S. Congress (House of Representatives) on November 3rd, who do you intend to vote for in the district where you live?",
+    "C13": "Go to"
+  },
+  {
+    "A14": "Q67",
+    "B14": "Q67 If you had to choose, who would you vote for?",
+    "C14": "Go to"
+  },
+  {
+    "A15": "Q68",
+    "B15": "Q68 You said you will vote for \"Another candidate\". Who will you vote for?",
+    "C15": "Go to"
+  },
+  {
+    "A16": "Q69",
+    "B16": "Q69 If you had to choose between the Democratic and Republican candidates, who would you vote for?",
+    "C16": "Go to"
+  },
+  {
+    "A17": "house_vi_squeeze",
+    "B17": "House voting intention",
+    "C17": "Go to"
+  },
+  {
+    "A18": "Q72",
+    "B18": "Q72 In general, how much trust and confidence do you have in the news media when it comes to reporting the news fully, accurately, and fairly?",
+    "C18": "Go to"
+  },
+  {
+    "A19": "Q74",
+    "B19": "Q74 And if you had to choose from the following list, as far as you\u2019re concerned, what are the most important issues or topics currently facing the co",
+    "C19": "Go to"
+  },
+  {
+    "A20": "Q75.1",
+    "B20": "Q75.1 Economy and Jobs | Which party do you think would be best at handling the following issues?",
+    "C20": "Go to"
+  },
+  {
+    "A21": "Q75.2",
+    "B21": "Q75.2 Inflation and Cost of Living | Which party do you think would be best at handling the following issues?",
+    "C21": "Go to"
+  },
+  {
+    "A22": "Q75.3",
+    "B22": "Q75.3 Immigration and Border Security | Which party do you think would be best at handling the following issues?",
+    "C22": "Go to"
+  },
+  {
+    "A23": "Q75.4",
+    "B23": "Q75.4 War and International Conflicts | Which party do you think would be best at handling the following issues?",
+    "C23": "Go to"
+  },
+  {
+    "A24": "Q75.5",
+    "B24": "Q75.5 Healthcare | Which party do you think would be best at handling the following issues?",
+    "C24": "Go to"
+  },
+  {
+    "A25": "Q75.6",
+    "B25": "Q75.6 Poor Leadership / Corruption | Which party do you think would be best at handling the following issues?",
+    "C25": "Go to"
+  },
+  {
+    "A26": "Q75.7",
+    "B26": "Q75.7 Crime and Public Safety | Which party do you think would be best at handling the following issues?",
+    "C26": "Go to"
+  },
+  {
+    "A27": "Q75.8",
+    "B27": "Q75.8 Housing and Homelessness | Which party do you think would be best at handling the following issues?",
+    "C27": "Go to"
+  },
+  {
+    "A28": "Q75.9",
+    "B28": "Q75.9 Threats to Democracy / Authoritarianism | Which party do you think would be best at handling the following issues?",
+    "C28": "Go to"
+  },
+  {
+    "A29": "Q75.10",
+    "B29": "Q75.10 Political Division | Which party do you think would be best at handling the following issues?",
+    "C29": "Go to"
+  },
+  {
+    "A30": "Q75.11",
+    "B30": "Q75.11 Welfare and Social Security | Which party do you think would be best at handling the following issues?",
+    "C30": "Go to"
+  },
+  {
+    "A31": "Q75.12",
+    "B31": "Q75.12 Climate Change and the Environment | Which party do you think would be best at handling the following issues?",
+    "C31": "Go to"
+  },
+  {
+    "A32": "Q75.13",
+    "B32": "Q75.13 Tariffs / Trade Policies | Which party do you think would be best at handling the following issues?",
+    "C32": "Go to"
+  },
+  {
+    "A33": "Q75.14",
+    "B33": "Q75.14 Racism and Discrimination | Which party do you think would be best at handling the following issues?",
+    "C33": "Go to"
+  },
+  {
+    "A34": "Q75.15",
+    "B34": "Q75.15 Education | Which party do you think would be best at handling the following issues?",
+    "C34": "Go to"
+  },
+  {
+    "A35": "Q75.16",
+    "B35": "Q75.16 Artificial Intelligence (AI) / Data Centres | Which party do you think would be best at handling the following issues?",
+    "C35": "Go to"
+  },
+  {
+    "A36": "Q76",
+    "B36": "Q76 To what extent do you approve or disapprove of how Donald Trump is doing as President?",
+    "C36": "Go to"
+  },
+  {
+    "A37": "Q77.1",
+    "B37": "Q77.1 Immigration and border security | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues?",
+    "C37": "Go to"
+  },
+  {
+    "A38": "Q77.2",
+    "B38": "Q77.2 Inflation and the cost of living | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues",
+    "C38": "Go to"
+  },
+  {
+    "A39": "Q77.3",
+    "B39": "Q77.3 Jobs and the economy | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues?",
+    "C39": "Go to"
+  },
+  {
+    "A40": "Q77.4",
+    "B40": "Q77.4 Artificial intelligence (AI) | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues?",
+    "C40": "Go to"
+  },
+  {
+    "A41": "Q77.5",
+    "B41": "Q77.5 Healthcare | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues?",
+    "C41": "Go to"
+  },
+  {
+    "A42": "Q77.6",
+    "B42": "Q77.6 War and international conflicts | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues?",
+    "C42": "Go to"
+  },
+  {
+    "A43": "Q77.7",
+    "B43": "Q77.7 Crime and public safety | To what extent do you approve or disapprove of how Donald Trump is doing as President on the following issues?",
+    "C43": "Go to"
+  },
+  {
+    "A44": "Q78.1",
+    "B44": "Q78.1 Donald Trump | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C44": "Go to"
+  },
+  {
+    "A45": "Q78.2",
+    "B45": "Q78.2 JD Vance | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C45": "Go to"
+  },
+  {
+    "A46": "Q78.3",
+    "B46": "Q78.3 Marco Rubio | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C46": "Go to"
+  },
+  {
+    "A47": "Q78.4",
+    "B47": "Q78.4 Kamala Harris | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C47": "Go to"
+  },
+  {
+    "A48": "Q78.5",
+    "B48": "Q78.5 Gavin Newsom | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C48": "Go to"
+  },
+  {
+    "A49": "Q78.6",
+    "B49": "Q78.6 Alexandria Ocasio-Cortez | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C49": "Go to"
+  },
+  {
+    "A50": "Q78.7",
+    "B50": "Q78.7 Jon Ossoff | To what extent do you have a favorable or unfavorable opinion of the following people?",
+    "C50": "Go to"
+  },
+  {
+    "A51": "Q79",
+    "B51": "Q79 How would you expect the economy to change, if at all, if Democrats win control of Congress (both the House of Representatives and the Senate) aft",
+    "C51": "Go to"
+  },
+  {
+    "A52": "Q80.first",
+    "B52": "Q80 Which of the following outcomes do you most want to\u00a0see as a result of the US midterm elections on November 3? Please rank your top three.",
+    "C52": "Go to"
+  },
+  {
+    "A53": "Q80.top",
+    "B53": "Q80 Which of the following outcomes do you most want to\u00a0see as a result of the US midterm elections on November 3? Please rank your top three.",
+    "C53": "Go to"
+  }
+]

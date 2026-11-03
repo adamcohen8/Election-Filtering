@@ -1,0 +1,453 @@
+[
+  {
+    "race_id": "ia_gov",
+    "state": "Iowa",
+    "office": "governor",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4389,
+      "candidate_b_share": 0.5059,
+      "margin_percent": -6.7,
+      "status": "likely-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Zach Lahn",
+      "candidate_b_name": "Rob Sand",
+      "candidate_a_share": 0.4432,
+      "candidate_b_share": 0.5011,
+      "margin_percent": -5.78,
+      "status": "likely-democratic",
+      "observation_count": 11,
+      "state_date": "2026-10-31",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-10-31",
+      "window_start_date": "2026-09-28",
+      "poll_count": 7,
+      "poll_ids": [
+        "ia_gov--fox-20260928",
+        "ia_gov--nyt-siena-ia-gov-october2026",
+        "ia_gov--ssrs-cnn-ia-gov-20261005",
+        "ia_gov--emerson-nexstar-20261006",
+        "ia_gov--marist-20261011",
+        "ia_gov--onpoint-20261021",
+        "ia_gov--rasmussen-20261031"
+      ],
+      "candidate_a_share": 0.4326,
+      "candidate_b_share": 0.5086,
+      "margin": -0.0761,
+      "margin_percent": -7.61
+    }
+  },
+  {
+    "race_id": "ia_sen",
+    "state": "Iowa",
+    "office": "senate",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.466,
+      "candidate_b_share": 0.4787,
+      "margin_percent": -1.27,
+      "status": "tilt-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Ashley Hinson",
+      "candidate_b_name": "Josh Turek",
+      "candidate_a_share": 0.4664,
+      "candidate_b_share": 0.4706,
+      "margin_percent": -0.42,
+      "status": "tossup",
+      "observation_count": 12,
+      "state_date": "2026-10-31",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-10-31",
+      "window_start_date": "2026-10-01",
+      "poll_count": 7,
+      "poll_ids": [
+        "ia_sen--nyt-siena-ia-20261001",
+        "ia_sen--ssrs-cnn-20261005",
+        "ia_sen--emerson-nexstar-20261006",
+        "ia_sen--marist-20261011",
+        "ia_sen--onpoint-20261021",
+        "ia_sen--grayhouse-20261031",
+        "ia_sen--rasmussen-20261031"
+      ],
+      "candidate_a_share": 0.4674,
+      "candidate_b_share": 0.4595,
+      "margin": 0.0079,
+      "margin_percent": 0.79
+    }
+  },
+  {
+    "race_id": "ks_gov",
+    "state": "Kansas",
+    "office": "governor",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4966,
+      "candidate_b_share": 0.4559,
+      "margin_percent": 4.07,
+      "status": "lean-republican"
+    },
+    "kalman": {
+      "candidate_a_name": "Ty Masterson",
+      "candidate_b_name": "Cindy Holscher",
+      "candidate_a_share": 0.5099,
+      "candidate_b_share": 0.4488,
+      "margin_percent": 6.1,
+      "status": "likely-republican",
+      "observation_count": 8,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-09-30",
+      "poll_count": 7,
+      "poll_ids": [
+        "ks_gov--nyt-siena-ks-gov-october2026",
+        "ks_gov--onpoint-ks-gov-20261021",
+        "ks_gov--redbox-20261023-gov",
+        "ks_gov--cnn-ks-gov-20261026",
+        "ks_gov--wapo-schar-20261026-gov",
+        "ks_gov--emerson-20261028-gov",
+        "ks_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4961,
+      "candidate_b_share": 0.4522,
+      "margin": 0.0439,
+      "margin_percent": 4.39
+    }
+  },
+  {
+    "race_id": "ks_sen",
+    "state": "Kansas",
+    "office": "senate",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4628,
+      "candidate_b_share": 0.4682,
+      "margin_percent": -0.54,
+      "status": "tilt-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Roger Marshall",
+      "candidate_b_name": "Adam Hamilton",
+      "candidate_a_share": 0.4625,
+      "candidate_b_share": 0.4601,
+      "margin_percent": 0.24,
+      "status": "tossup",
+      "observation_count": 10,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-10",
+      "poll_count": 7,
+      "poll_ids": [
+        "ks_sen--insider-ks_sen-20261010",
+        "ks_sen--insider-ks_sen-20261014",
+        "ks_sen--redbox-20261023",
+        "ks_sen--ssrs-cnn-ks_sen-20261026",
+        "ks_sen--wapo-schar-20261026",
+        "ks_sen--emerson-20261028",
+        "ks_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4624,
+      "candidate_b_share": 0.4717,
+      "margin": -0.0093,
+      "margin_percent": -0.93
+    }
+  },
+  {
+    "race_id": "me_gov",
+    "state": "Maine",
+    "office": "governor",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4204,
+      "candidate_b_share": 0.4629,
+      "margin_percent": -4.25,
+      "status": "lean-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Bobby Charles",
+      "candidate_b_name": "Hannah Pingree",
+      "candidate_a_share": 0.4248,
+      "candidate_b_share": 0.4887,
+      "margin_percent": -6.4,
+      "status": "likely-democratic",
+      "observation_count": 12,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-05",
+      "poll_count": 7,
+      "poll_ids": [
+        "me_gov--wapo-schar-me-gov-20261005",
+        "me_gov--suffolk-me-gov-20261011",
+        "me_gov--marist-me-gov-20261025",
+        "me_gov--cnn-ssrs-me-gov-20261026",
+        "me_gov--dfp-me-gov-20261027",
+        "me_gov--unh-20261031",
+        "me_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4019,
+      "candidate_b_share": 0.4814,
+      "margin": -0.0795,
+      "margin_percent": -7.95
+    }
+  },
+  {
+    "race_id": "me_sen",
+    "state": "Maine",
+    "office": "senate",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4945,
+      "candidate_b_share": 0.4921,
+      "margin_percent": 0.24,
+      "status": "tossup"
+    },
+    "kalman": {
+      "candidate_a_name": "Susan Collins",
+      "candidate_b_name": "Troy Jackson",
+      "candidate_a_share": 0.4794,
+      "candidate_b_share": 0.4932,
+      "margin_percent": -1.38,
+      "status": "tilt-democratic",
+      "observation_count": 12,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-11",
+      "poll_count": 7,
+      "poll_ids": [
+        "me_sen--suffolk-20261011",
+        "me_sen--insider-me_sen-20261014",
+        "me_sen--marist-20261025",
+        "me_sen--ssrs-cnn-me_sen-20261026",
+        "me_sen--dfp-20261027",
+        "me_sen--unh-20261031",
+        "me_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.481,
+      "candidate_b_share": 0.4769,
+      "margin": 0.0041,
+      "margin_percent": 0.41
+    }
+  },
+  {
+    "race_id": "mn_gov",
+    "state": "Minnesota",
+    "office": "governor",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4137,
+      "candidate_b_share": 0.5006,
+      "margin_percent": -8.7,
+      "status": "safe-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Lisa Demuth",
+      "candidate_b_name": "Amy Klobuchar",
+      "candidate_a_share": 0.4306,
+      "candidate_b_share": 0.5073,
+      "margin_percent": -7.67,
+      "status": "likely-democratic",
+      "observation_count": 12,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-09-14",
+      "poll_count": 7,
+      "poll_ids": [
+        "mn_gov--surveyusa-mn-20260914",
+        "mn_gov--mason-dixon-mn-gov-20261007",
+        "mn_gov--surveyusa-mn-20261012",
+        "mn_gov--nyt-siena-mn-gov-october2026",
+        "mn_gov--surveyusa-mn-20261028",
+        "mn_gov--researchco-20261101",
+        "mn_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.419,
+      "candidate_b_share": 0.4975,
+      "margin": -0.0785,
+      "margin_percent": -7.85
+    }
+  },
+  {
+    "race_id": "mn_sen",
+    "state": "Minnesota",
+    "office": "senate",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4638,
+      "candidate_b_share": 0.4886,
+      "margin_percent": -2.49,
+      "status": "lean-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Michele Tafoya",
+      "candidate_b_name": "Peggy Flanagan",
+      "candidate_a_share": 0.4582,
+      "candidate_b_share": 0.4866,
+      "margin_percent": -2.84,
+      "status": "lean-democratic",
+      "observation_count": 13,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-12",
+      "poll_count": 7,
+      "poll_ids": [
+        "mn_sen--surveyusa-mn-20261012",
+        "mn_sen--rasmussen-mn-20261021",
+        "mn_sen--nyt-siena-mn-release-20261028",
+        "mn_sen--surveyusa-mn-20261028",
+        "mn_sen--insider-20261030",
+        "mn_sen--researchco-20261101",
+        "mn_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4472,
+      "candidate_b_share": 0.48,
+      "margin": -0.0328,
+      "margin_percent": -3.28
+    }
+  },
+  {
+    "race_id": "oh_gov",
+    "state": "Ohio",
+    "office": "governor",
+    "new_observations": 1,
+    "before": {
+      "candidate_a_share": 0.4721,
+      "candidate_b_share": 0.4773,
+      "margin_percent": -0.52,
+      "status": "tilt-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Vivek Ramaswamy",
+      "candidate_b_name": "Amy Acton",
+      "candidate_a_share": 0.4682,
+      "candidate_b_share": 0.4779,
+      "margin_percent": -0.97,
+      "status": "tilt-democratic",
+      "observation_count": 13,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-19",
+      "poll_count": 7,
+      "poll_ids": [
+        "oh_gov--fox-oh-gov-20261019-lv",
+        "oh_gov--verasight-oh-gov-20261020",
+        "oh_gov--redbox-oh-gov-20261023",
+        "oh_gov--suffolk-oh-gov-20261026",
+        "oh_gov--insider-20261030",
+        "oh_gov--researchco-20261101",
+        "oh_gov--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4669,
+      "candidate_b_share": 0.4685,
+      "margin": -0.0016,
+      "margin_percent": -0.16
+    }
+  },
+  {
+    "race_id": "oh_sen",
+    "state": "Ohio",
+    "office": "senate",
+    "new_observations": 2,
+    "before": {
+      "candidate_a_share": 0.4812,
+      "candidate_b_share": 0.4672,
+      "margin_percent": 1.39,
+      "status": "tilt-republican"
+    },
+    "kalman": {
+      "candidate_a_name": "Jon Husted",
+      "candidate_b_name": "Sherrod Brown",
+      "candidate_a_share": 0.4758,
+      "candidate_b_share": 0.4672,
+      "margin_percent": 0.85,
+      "status": "tilt-republican",
+      "observation_count": 14,
+      "state_date": "2026-11-01",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-01",
+      "window_start_date": "2026-10-20",
+      "poll_count": 7,
+      "poll_ids": [
+        "oh_sen--verasight-oh-20261020",
+        "oh_sen--redbox-oh-20261023",
+        "oh_sen--suffolk-oh-20261026",
+        "oh_sen--insider-20261030",
+        "oh_sen--rasmussen-20261031",
+        "oh_sen--researchco-20261101",
+        "oh_sen--survey160-20261101"
+      ],
+      "candidate_a_share": 0.4695,
+      "candidate_b_share": 0.4557,
+      "margin": 0.0137,
+      "margin_percent": 1.37
+    }
+  },
+  {
+    "race_id": "us_house_generic",
+    "state": "United States",
+    "office": "generic_ballot",
+    "new_observations": 2,
+    "before": {
+      "candidate_a_share": 0.4456,
+      "candidate_b_share": 0.5032,
+      "margin_percent": -5.76,
+      "status": "likely-democratic"
+    },
+    "kalman": {
+      "candidate_a_name": "Generic Republican",
+      "candidate_b_name": "Generic Democrat",
+      "candidate_a_share": 0.4475,
+      "candidate_b_share": 0.491,
+      "margin_percent": -4.35,
+      "status": "lean-democratic",
+      "observation_count": 27,
+      "state_date": "2026-11-02",
+      "forecast_date": "2026-11-03"
+    },
+    "rolling_average": {
+      "date": "2026-11-02",
+      "window_start_date": "2026-10-28",
+      "poll_count": 7,
+      "poll_ids": [
+        "us_house_generic--onpoint-oct28",
+        "us_house_generic--activote30",
+        "us_house_generic--bigdata-oct30",
+        "us_house_generic--yougov-national-20261030",
+        "us_house_generic--atlas-20261101",
+        "us_house_generic--focaldata-20261101",
+        "us_house_generic--ipsos-20261102"
+      ],
+      "candidate_a_share": 0.442,
+      "candidate_b_share": 0.4924,
+      "margin": -0.0504,
+      "margin_percent": -5.04
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/survey160.html",
+    "url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+    "final_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+    "status": "downloaded",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 504626,
+    "original_sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e",
+    "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/ipsos-nov02.pdf",
+    "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Reuters%20Ipsos%20November%20Midterm%20Survey%20Topline.pdf",
+    "final_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Reuters%20Ipsos%20November%20Midterm%20Survey%20Topline.pdf",
+    "status": "downloaded",
+    "content_type": "application/pdf",
+    "bytes": 311572,
+    "original_sha256": "0cc3070d45f91e6031a6b61f6165ca5d51b91cd1fe5028b11c99a68b4b1fbeaa",
+    "sha256": "0cc3070d45f91e6031a6b61f6165ca5d51b91cd1fe5028b11c99a68b4b1fbeaa",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/focaldata-nov02.xlsx",
+    "url": "https://landing.focaldata.com/hubfs/Marketing%20content/Focaldata_US_Midterms_Poll_Nov2026_all.xlsx",
+    "final_url": "https://landing.focaldata.com/hubfs/Marketing%20content/Focaldata_US_Midterms_Poll_Nov2026_all.xlsx",
+    "status": "downloaded",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 529623,
+    "original_sha256": "1f62b2e330b0a80cdef00bd848d80311e4aafeafb343a3868dfcb93006997d1f",
+    "sha256": "1f62b2e330b0a80cdef00bd848d80311e4aafeafb343a3868dfcb93006997d1f",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/pollvault-feed.xml",
+    "url": "https://pollvault.substack.com/feed",
+    "final_url": "https://pollvault.substack.com/feed",
+    "status": "downloaded",
+    "content_type": "application/xml; charset=utf-8",
+    "bytes": 143805,
+    "original_sha256": "62801f70cd0a37027cf786e8cecce0d0279926e98b937a39c66923f6da4a145a",
+    "sha256": "62801f70cd0a37027cf786e8cecce0d0279926e98b937a39c66923f6da4a145a",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "rasmussen-ia.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "rasmussen-oh.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_senate",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "rasmussen-oh-crosstabs.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_senate_october_27_31_2026",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "coefficient-ia.html",
+    "url": "https://battlegrounds.coefficient.org/ia/",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "ipsos-release.html",
+    "url": "https://www.ipsos.com/en-us/reutersipsos-early-november-survey",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "focaldata-release.html",
+    "url": "https://www.focaldata.com/blog/democrats-lead-by-7-points-in-final-focaldata-ft-midterms-poll",
+    "status": "failed",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/rasmussen-ia.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate",
+    "status": "downloaded",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 34363,
+    "original_sha256": "408608f37fb853ac4974ffe96b4d4e9880a7d1669269cd5d8f4d84dd0557eb13",
+    "sha256": "408608f37fb853ac4974ffe96b4d4e9880a7d1669269cd5d8f4d84dd0557eb13",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/rasmussen-oh.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_senate",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_senate",
+    "status": "downloaded",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 34049,
+    "original_sha256": "9bedf780615d978db9a22ca0962d9fc5df420cd71159d83b5bf0ca71223dd66b",
+    "sha256": "9bedf780615d978db9a22ca0962d9fc5df420cd71159d83b5bf0ca71223dd66b",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/rasmussen-oh-crosstabs.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_senate_october_27_31_2026",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_senate_october_27_31_2026",
+    "status": "downloaded",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 83213,
+    "original_sha256": "72d40ce925f77bff0e799e3cec688fa8aceae6b97fd35c0f61f7264026c34150",
+    "sha256": "72d40ce925f77bff0e799e3cec688fa8aceae6b97fd35c0f61f7264026c34150",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/coefficient-ia.html",
+    "url": "https://battlegrounds.coefficient.org/ia/",
+    "final_url": "https://battlegrounds.coefficient.org/ia/",
+    "status": "downloaded",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 38700,
+    "original_sha256": "1278e83760123f0af655819d0263aa6347ee1439d076ce8d429c075ee704cb94",
+    "sha256": "1278e83760123f0af655819d0263aa6347ee1439d076ce8d429c075ee704cb94",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/ipsos-release.html",
+    "url": "https://www.ipsos.com/en-us/reutersipsos-early-november-survey",
+    "final_url": "https://www.ipsos.com/en-us/reutersipsos-early-november-survey",
+    "status": "downloaded",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 50386,
+    "original_sha256": "f77e6a4bf3d8b216cf09b3e2d59d0ea73b4915638f30685b6b949a1ba5c495b8",
+    "sha256": "f77e6a4bf3d8b216cf09b3e2d59d0ea73b4915638f30685b6b949a1ba5c495b8",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/focaldata-release.html",
+    "url": "https://www.focaldata.com/blog/democrats-lead-by-7-points-in-final-focaldata-ft-midterms-poll",
+    "final_url": "https://www.focaldata.com/blog/democrats-lead-by-7-points-in-final-focaldata-ft-midterms-poll",
+    "status": "downloaded",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 73602,
+    "original_sha256": "0423ff69fcb1ad2f484761d0550805ce6b2f2c7154edc318140faa27d99dfd05",
+    "sha256": "0423ff69fcb1ad2f484761d0550805ce6b2f2c7154edc318140faa27d99dfd05",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/rasmussen-ia-gov.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_governor",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_governor",
+    "status": "downloaded",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 33015,
+    "original_sha256": "b423ef8a771ab3a23b07cd6c8a4ecfdf087dcc603e5e21945623a1598e2e9a2b",
+    "sha256": "b423ef8a771ab3a23b07cd6c8a4ecfdf087dcc603e5e21945623a1598e2e9a2b",
+    "google_key_redactions": 0
+  },
+  {
+    "file": "research/poll_check_20261102_2100EST/sources/rasmussen-generic.html",
+    "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_nov02",
+    "final_url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_nov02",
+    "status": "downloaded",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 34117,
+    "original_sha256": "6a6b40f750460dc4acce1d2164aef250b3a03dd4ed1eb6bc4beefef65f3d06ea",
+    "sha256": "6a6b40f750460dc4acce1d2164aef250b3a03dd4ed1eb6bc4beefef65f3d06ea",
+    "google_key_redactions": 0
+  }
+]

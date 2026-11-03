@@ -206,13 +206,17 @@ July replacement convention; his previous presumptive status has been updated.
 
 ## GitHub Pages
 
-The November 2 refresh adds 31 race observations from 20 new surveys:
-16 Senate, 13 governor and two national generic-ballot inputs. One existing
+The November 2 refresh, including the scheduled 9PM EST check, adds 44 race
+observations from 28 new surveys: 22 Senate, 18 governor and four national
+generic-ballot inputs. One existing
 Florida RedBox governor observation is revised in place. The combined feed now
-contains 316 observations across 28 models; Nebraska has five and the national
-generic ballot has 25. Current turnout weights are preserved. Source records,
+contains 329 observations across 28 models; Nebraska has five and the national
+generic ballot has 27. Current turnout weights are preserved. Source records,
 pending tables and validation are in
 [`research/poll_refresh_20261102/REPORT.md`](research/poll_refresh_20261102/REPORT.md).
+The scheduled increment added 13 observations from eight surveys; its results,
+source gaps and preservation audit are in
+[`research/poll_check_20261102_2100EST/REPORT.md`](research/poll_check_20261102_2100EST/REPORT.md).
 Rebuild or verify the current refresh with
 `python scripts/ingest_poll_refresh.py` and its `--check` option.
 

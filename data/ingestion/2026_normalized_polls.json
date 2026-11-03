@@ -27948,6 +27948,134 @@
       "acquisition_id": "senate_polls_20261101"
     },
     {
+      "race_id": "ia_gov",
+      "state": "Iowa",
+      "office": "governor",
+      "poll_id": "ia_gov--rasmussen-20261031",
+      "sample_id": "ia_gov--rasmussen-20261031",
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "candidate_a": "Zach Lahn",
+      "candidate_b": "Rob Sand",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-10-31",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 901,
+      "crosstab_basis": "party_basis_unspecified",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_governor",
+      "source_location": "Public governor release narrative, Sand and Lahn support within Democrat, Republican and unaffiliated groups",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(81, 13), (9, 89), (35, 57)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/rasmussen-ia-gov.html",
+      "notes": "Complete six-cell public narrative; exact party classification and leaner handling unspecified, authorized proxy. Same901-person Iowa survey as Senate; separate offices updated once each. Applicable subgroup counts missing, retained null; no sample-size fabrication or undecided allocation.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.81,
+      "republican_b": 0.13,
+      "republican_n": null,
+      "democratic_a": 0.09,
+      "democratic_b": 0.89,
+      "democratic_n": null,
+      "independent_a": 0.35,
+      "independent_b": 0.57,
+      "independent_n": null,
+      "fieldwork_organization": "Pulse Opinion Research",
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.81,
+        "republican_b": 0.13,
+        "democratic_a": 0.09,
+        "democratic_b": 0.89,
+        "independent_a": 0.35,
+        "independent_b": 0.57
+      },
+      "source_candidate_names": {
+        "candidate_a": "Zach Lahn",
+        "candidate_b": "Rob Sand"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_basis_unspecified",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup counts unavailable. Retain null Ns and the established provisional 5pp cell SD / -0.5 within-pair correlation covariance; no fabricated counts."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "rasmussen-20261031",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "6242e5c1cb2abb2095ea61d6bd0dccc7431185725b93f76a547577b0b98a0500",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/rasmussen-ia-gov.html",
+          "sha256": "b423ef8a771ab3a23b07cd6c8a4ecfdf087dcc603e5e21945623a1598e2e9a2b"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Complete six-cell public narrative; exact party classification and leaner handling unspecified, authorized proxy. Same901-person Iowa survey as Senate; separate offices updated once each. Applicable subgroup counts missing, retained null; no sample-size fabrication or undecided allocation.",
+      "proxy_inclusion_authorized": true,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
       "race_id": "ia_sen",
       "state": "Iowa",
       "office": "senate",
@@ -28068,6 +28196,140 @@
       ],
       "review_reason": "All six conditional support cells verified in the primary source. Party ID preferred to voter-file registration alternative. Other-party/unsure ID categories outside R/D/I. No exact party-ID subgroup bases printed; null Ns and conservative covariance. PDF retrieved from article download control.",
       "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ia_sen",
+      "state": "Iowa",
+      "office": "senate",
+      "poll_id": "ia_sen--rasmussen-20261031",
+      "sample_id": "ia_sen--rasmussen-20261031",
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "candidate_a": "Ashley Hinson",
+      "candidate_b": "Josh Turek",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-10-31",
+      "publication_date": null,
+      "population": "LV",
+      "reported_total_n": 901,
+      "crosstab_basis": "party_basis_unspecified",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_iowa_senate",
+      "source_location": "Public release narrative, complete named candidate support across Republican, Democrat and unaffiliated voters",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(86, 8), (8, 89), (37, 49)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/rasmussen-ia.html",
+      "notes": "Complete six-cell public narrative; exact party classification and leaner handling unspecified, previously authorized proxy. Applicable subgroup counts missing; no exact Ns inferred from total901. Primary page retains stale October2 dateline preceding October27\u201331 fieldwork: do not treat it as release date. First publication unknown; conservative bounds October31\u2013November2, newly available in this scheduled capture. Separate premium table401 was not retried or bypassed.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.86,
+      "republican_b": 0.08,
+      "republican_n": null,
+      "democratic_a": 0.08,
+      "democratic_b": 0.89,
+      "democratic_n": null,
+      "independent_a": 0.37,
+      "independent_b": 0.49,
+      "independent_n": null,
+      "publication_date_discrepancy": "Primary label October2 precedes fieldwork; publication bounded by field end and November2 capture",
+      "availability_date": "2026-11-02",
+      "fieldwork_organization": "Pulse Opinion Research",
+      "publication_date_bounds": [
+        "2026-10-31",
+        "2026-11-02"
+      ],
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.86,
+        "republican_b": 0.08,
+        "democratic_a": 0.08,
+        "democratic_b": 0.89,
+        "independent_a": 0.37,
+        "independent_b": 0.49
+      },
+      "source_candidate_names": {
+        "candidate_a": "Ashley Hinson",
+        "candidate_b": "Josh Turek"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_basis_unspecified",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup counts unavailable. Retain null Ns and the established provisional 5pp cell SD / -0.5 within-pair correlation covariance; no fabricated counts."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "rasmussen-20261031",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "0a3bb393cb51b789bcb6700a9c03f2fa9bf1078f1f173a4b1fe5840e14843b1f",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/rasmussen-ia.html",
+          "sha256": "408608f37fb853ac4974ffe96b4d4e9880a7d1669269cd5d8f4d84dd0557eb13"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Complete six-cell public narrative; exact party classification and leaner handling unspecified, previously authorized proxy. Applicable subgroup counts missing; no exact Ns inferred from total901. Primary page retains stale October2 dateline preceding October27\u201331 fieldwork: do not treat it as release date. First publication unknown; conservative bounds October31\u2013November2, newly available in this scheduled capture. Separate premium table401 was not retried or bypassed.",
+      "proxy_inclusion_authorized": true,
       "ingestion_status": "accepted",
       "acquisition_id": "poll_refresh_20261102",
       "refresh_id": "poll_refresh_20261102"
@@ -28369,6 +28631,135 @@
       "refresh_id": "poll_refresh_20261102"
     },
     {
+      "race_id": "oh_sen",
+      "state": "Ohio",
+      "office": "senate",
+      "poll_id": "oh_sen--rasmussen-20261031",
+      "sample_id": "oh_sen--rasmussen-20261031",
+      "pollster": "Rasmussen Reports",
+      "sponsor": null,
+      "candidate_a": "Jon Husted",
+      "candidate_b": "Sherrod Brown",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-10-31",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1119,
+      "crosstab_basis": "party_basis_unspecified",
+      "subgroup_n_method": "assumed_covariance",
+      "source_url": "https://www.rasmussenreports.com/public_content/politics/public_surveys/crosstabs_2_ohio_senate_october_27_31_2026",
+      "source_location": "First Senate ballot, Party Democrat/Republican/Independent columns; Another party separate",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(83, 12), (11, 84), (35, 54)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/rasmussen-oh-crosstabs.html",
+      "notes": "Party classification source/leaners unspecified, authorized proxy. Independent and Another party separate; do not pool Another party. Source full LV total1119 and rounded composition40R/28D/30I/2Other are not exact group counts; keep subgroup Ns null and established conservative covariance. Public original table accessible; no paywall bypass.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.83,
+      "republican_b": 0.12,
+      "republican_n": null,
+      "democratic_a": 0.11,
+      "democratic_b": 0.84,
+      "democratic_n": null,
+      "independent_a": 0.35,
+      "independent_b": 0.54,
+      "independent_n": null,
+      "release_url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_ohio_senate",
+      "fieldwork_organization": "Pulse Opinion Research",
+      "crosstab_covariance": [
+        [
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0025000000000000005,
+          -0.0012500000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0012500000000000002,
+          0.0025000000000000005
+        ]
+      ],
+      "source_support_values": {
+        "republican_a": 0.83,
+        "republican_b": 0.12,
+        "democratic_a": 0.11,
+        "democratic_b": 0.84,
+        "independent_a": 0.35,
+        "independent_b": 0.54
+      },
+      "source_candidate_names": {
+        "candidate_a": "Jon Husted",
+        "candidate_b": "Sherrod Brown"
+      },
+      "source_subgroup_bases": {
+        "republican": null,
+        "democratic": null,
+        "independent": null
+      },
+      "source_crosstab_basis": "party_basis_unspecified",
+      "source_subgroup_n_method": "missing",
+      "model_base_method": "assumed_covariance",
+      "model_base_rounding": null,
+      "precision_review": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup counts unavailable. Retain null Ns and the established provisional 5pp cell SD / -0.5 within-pair correlation covariance; no fabricated counts."
+      },
+      "design_effect": 1.0,
+      "research_poll_id": "rasmussen-20261031",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "6a78b572db8242c0305a4de5a1d2bfa1be458ae0c0fb9476ded0a42d5943ebbe",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/rasmussen-oh-crosstabs.html",
+          "sha256": "72d40ce925f77bff0e799e3cec688fa8aceae6b97fd35c0f61f7264026c34150"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Party classification source/leaners unspecified, authorized proxy. Independent and Another party separate; do not pool Another party. Source full LV total1119 and rounded composition40R/28D/30I/2Other are not exact group counts; keep subgroup Ns null and established conservative covariance. Public original table accessible; no paywall bypass.",
+      "proxy_inclusion_authorized": true,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
       "race_id": "ak_sen",
       "state": "Alaska",
       "office": "senate",
@@ -28438,6 +28829,338 @@
       ],
       "review_reason": "All six conditional support cells verified in the primary source. First-round candidate support retained as published. Final RCV alternative in same image and duplicate repost are not separate observations. Dan S. Sullivan distinguished from Daniel J. Sullivan Jr. Party basis not explicit, authorized proxy.",
       "proxy_inclusion_authorized": true,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ks_gov",
+      "state": "Kansas",
+      "office": "governor",
+      "poll_id": "ks_gov--survey160-20261101",
+      "sample_id": "ks_gov--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Ty Masterson",
+      "candidate_b": "Cindy Holscher",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1339,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 3 (zero-based 2), first-choice GOV, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(93.0, 6.0), (1.0, 97.0), (29.0, 59.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.93,
+      "republican_b": 0.06,
+      "republican_n": 405,
+      "democratic_a": 0.01,
+      "democratic_b": 0.97,
+      "democratic_n": 406,
+      "independent_a": 0.29,
+      "independent_b": 0.59,
+      "independent_n": 528,
+      "reported_full_state_n": 1353,
+      "source_table_index": 2,
+      "source_party_column_indices": [
+        19,
+        18,
+        20
+      ],
+      "source_support_values": {
+        "republican_a": 0.93,
+        "republican_b": 0.06,
+        "democratic_a": 0.01,
+        "democratic_b": 0.97,
+        "independent_a": 0.29,
+        "independent_b": 0.59
+      },
+      "source_candidate_names": {
+        "candidate_a": "Ty Masterson",
+        "candidate_b": "Cindy Holscher"
+      },
+      "source_subgroup_bases": {
+        "republican": 405,
+        "democratic": 406,
+        "independent": 528
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 1.78,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 1.78,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "271a5469b342b4008cba3180305ee37ad886747c90d86604a4cbd6f1ea0ae276",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "ks_sen",
+      "state": "Kansas",
+      "office": "senate",
+      "poll_id": "ks_sen--survey160-20261101",
+      "sample_id": "ks_sen--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Roger Marshall",
+      "candidate_b": "Adam Hamilton",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1339,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 1 (zero-based 0), first-choice SEN, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(85.0, 8.0), (1.0, 97.0), (23.0, 62.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.85,
+      "republican_b": 0.08,
+      "republican_n": 405,
+      "democratic_a": 0.01,
+      "democratic_b": 0.97,
+      "democratic_n": 406,
+      "independent_a": 0.23,
+      "independent_b": 0.62,
+      "independent_n": 528,
+      "reported_full_state_n": 1353,
+      "source_table_index": 0,
+      "source_party_column_indices": [
+        19,
+        18,
+        20
+      ],
+      "source_support_values": {
+        "republican_a": 0.85,
+        "republican_b": 0.08,
+        "democratic_a": 0.01,
+        "democratic_b": 0.97,
+        "independent_a": 0.23,
+        "independent_b": 0.62
+      },
+      "source_candidate_names": {
+        "candidate_a": "Roger Marshall",
+        "candidate_b": "Adam Hamilton"
+      },
+      "source_subgroup_bases": {
+        "republican": 405,
+        "democratic": 406,
+        "independent": 528
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 1.78,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 1.78,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "b7e144d0db0123875cf0343b377e4c4c72a11af6bfe90d77f1283bae997daf98",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "me_gov",
+      "state": "Maine",
+      "office": "governor",
+      "poll_id": "me_gov--survey160-20261101",
+      "sample_id": "me_gov--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Bobby Charles",
+      "candidate_b": "Hannah Pingree",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1335,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 31 (zero-based 30), first-choice GOV, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(90.0, 5.0), (1.0, 98.0), (30.0, 57.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.9,
+      "republican_b": 0.05,
+      "republican_n": 373,
+      "democratic_a": 0.01,
+      "democratic_b": 0.98,
+      "democratic_n": 396,
+      "independent_a": 0.3,
+      "independent_b": 0.57,
+      "independent_n": 566,
+      "reported_full_state_n": 1342,
+      "source_table_index": 30,
+      "source_party_column_indices": [
+        19,
+        18,
+        20
+      ],
+      "source_support_values": {
+        "republican_a": 0.9,
+        "republican_b": 0.05,
+        "democratic_a": 0.01,
+        "democratic_b": 0.98,
+        "independent_a": 0.3,
+        "independent_b": 0.57
+      },
+      "source_candidate_names": {
+        "candidate_a": "Bobby Charles",
+        "candidate_b": "Hannah Pingree"
+      },
+      "source_subgroup_bases": {
+        "republican": 373,
+        "democratic": 396,
+        "independent": 566
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 2.3,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 2.3,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "9064aaa0133815056734538c6530ebb475652550f2e52711477af6ac1bbaa3f7",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "me_sen",
+      "state": "Maine",
+      "office": "senate",
+      "poll_id": "me_sen--survey160-20261101",
+      "sample_id": "me_sen--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Susan Collins",
+      "candidate_b": "Troy Jackson",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1334,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 29 (zero-based 28), first-choice SEN, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(94.0, 3.0), (4.0, 91.0), (37.0, 56.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.94,
+      "republican_b": 0.03,
+      "republican_n": 373,
+      "democratic_a": 0.04,
+      "democratic_b": 0.91,
+      "democratic_n": 395,
+      "independent_a": 0.37,
+      "independent_b": 0.56,
+      "independent_n": 566,
+      "reported_full_state_n": 1342,
+      "source_table_index": 28,
+      "source_party_column_indices": [
+        19,
+        18,
+        20
+      ],
+      "source_support_values": {
+        "republican_a": 0.94,
+        "republican_b": 0.03,
+        "democratic_a": 0.04,
+        "democratic_b": 0.91,
+        "independent_a": 0.37,
+        "independent_b": 0.56
+      },
+      "source_candidate_names": {
+        "candidate_a": "Susan Collins",
+        "candidate_b": "Troy Jackson"
+      },
+      "source_subgroup_bases": {
+        "republican": 373,
+        "democratic": 395,
+        "independent": 566
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 2.3,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 2.3,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "5c4aab50e47df844792af74c7e7cafabf4f5f02fd8a4af7660c718d5e9922a83",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "proxy_inclusion_authorized": false,
       "ingestion_status": "accepted",
       "acquisition_id": "poll_refresh_20261102",
       "refresh_id": "poll_refresh_20261102"
@@ -28818,6 +29541,89 @@
       "refresh_id": "poll_refresh_20261102"
     },
     {
+      "race_id": "mn_gov",
+      "state": "Minnesota",
+      "office": "governor",
+      "poll_id": "mn_gov--survey160-20261101",
+      "sample_id": "mn_gov--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Lisa Demuth",
+      "candidate_b": "Amy Klobuchar",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1409,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 45 (zero-based 44), first-choice GOV, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(96.0, 2.0), (1.0, 96.0), (38.0, 50.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.96,
+      "republican_b": 0.02,
+      "republican_n": 313,
+      "democratic_a": 0.01,
+      "democratic_b": 0.96,
+      "democratic_n": 558,
+      "independent_a": 0.38,
+      "independent_b": 0.5,
+      "independent_n": 537,
+      "reported_full_state_n": 1423,
+      "source_table_index": 44,
+      "source_party_column_indices": [
+        20,
+        19,
+        21
+      ],
+      "source_support_values": {
+        "republican_a": 0.96,
+        "republican_b": 0.02,
+        "democratic_a": 0.01,
+        "democratic_b": 0.96,
+        "independent_a": 0.38,
+        "independent_b": 0.5
+      },
+      "source_candidate_names": {
+        "candidate_a": "Lisa Demuth",
+        "candidate_b": "Amy Klobuchar"
+      },
+      "source_subgroup_bases": {
+        "republican": 313,
+        "democratic": 558,
+        "independent": 537
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 2.04,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 2.04,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "121cfae3efaf8cb46cc1272b7d1601c97a27b967a723ef3c07755c667180e531",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
       "race_id": "mn_sen",
       "state": "Minnesota",
       "office": "senate",
@@ -28937,6 +29743,89 @@
         }
       ],
       "review_reason": "All six conditional support cells verified in the primary source. All450 LV, including undecided/other; adjacent decided-only ballot omitted. Political ID is source label; leaner handling unspecified. No subgroup Ns reported.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "mn_sen",
+      "state": "Minnesota",
+      "office": "senate",
+      "poll_id": "mn_sen--survey160-20261101",
+      "sample_id": "mn_sen--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Michele Tafoya",
+      "candidate_b": "Peggy Flanagan",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1410,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 43 (zero-based 42), first-choice SEN, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(95.0, 2.0), (3.0, 93.0), (39.0, 49.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.95,
+      "republican_b": 0.02,
+      "republican_n": 314,
+      "democratic_a": 0.03,
+      "democratic_b": 0.93,
+      "democratic_n": 558,
+      "independent_a": 0.39,
+      "independent_b": 0.49,
+      "independent_n": 537,
+      "reported_full_state_n": 1423,
+      "source_table_index": 42,
+      "source_party_column_indices": [
+        20,
+        19,
+        21
+      ],
+      "source_support_values": {
+        "republican_a": 0.95,
+        "republican_b": 0.02,
+        "democratic_a": 0.03,
+        "democratic_b": 0.93,
+        "independent_a": 0.39,
+        "independent_b": 0.49
+      },
+      "source_candidate_names": {
+        "candidate_a": "Michele Tafoya",
+        "candidate_b": "Peggy Flanagan"
+      },
+      "source_subgroup_bases": {
+        "republican": 314,
+        "democratic": 558,
+        "independent": 537
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 2.04,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 2.04,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "7f6b2d78d57647206416eca541b25a75b13fe76e09dba88f430c8052a1648081",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
       "proxy_inclusion_authorized": false,
       "ingestion_status": "accepted",
       "acquisition_id": "poll_refresh_20261102",
@@ -29193,6 +30082,89 @@
       "refresh_id": "poll_refresh_20261102"
     },
     {
+      "race_id": "oh_gov",
+      "state": "Ohio",
+      "office": "governor",
+      "poll_id": "oh_gov--survey160-20261101",
+      "sample_id": "oh_gov--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Vivek Ramaswamy",
+      "candidate_b": "Amy Acton",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1159,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 17 (zero-based 16), first-choice GOV, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(88.0, 8.0), (1.0, 98.0), (30.0, 56.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.88,
+      "republican_b": 0.08,
+      "republican_n": 320,
+      "democratic_a": 0.01,
+      "democratic_b": 0.98,
+      "democratic_n": 422,
+      "independent_a": 0.3,
+      "independent_b": 0.56,
+      "independent_n": 417,
+      "reported_full_state_n": 1174,
+      "source_table_index": 16,
+      "source_party_column_indices": [
+        19,
+        18,
+        20
+      ],
+      "source_support_values": {
+        "republican_a": 0.88,
+        "republican_b": 0.08,
+        "democratic_a": 0.01,
+        "democratic_b": 0.98,
+        "independent_a": 0.3,
+        "independent_b": 0.56
+      },
+      "source_candidate_names": {
+        "candidate_a": "Vivek Ramaswamy",
+        "candidate_b": "Amy Acton"
+      },
+      "source_subgroup_bases": {
+        "republican": 320,
+        "democratic": 422,
+        "independent": 417
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 3.63,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 3.63,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "d3a8c3c6e1d1f20a6212c3661b503884f6a0a6db89da80d38fcc57c81da65895",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
       "race_id": "oh_sen",
       "state": "Ohio",
       "office": "senate",
@@ -29312,6 +30284,89 @@
         }
       ],
       "review_reason": "All six conditional support cells verified in the primary source. All450 LV, including undecided/other; adjacent decided-only ballot omitted. Political ID is source label; leaner handling unspecified. No subgroup Ns reported.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "oh_sen",
+      "state": "Ohio",
+      "office": "senate",
+      "poll_id": "oh_sen--survey160-20261101",
+      "sample_id": "oh_sen--survey160-20261101",
+      "pollster": "Survey 160",
+      "sponsor": "Survey 160",
+      "candidate_a": "Jon Husted",
+      "candidate_b": "Sherrod Brown",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-27",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "RV",
+      "reported_total_n": 1159,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+      "source_location": "HTML table 15 (zero-based 14), first-choice SEN, Party ID columns; Unweighted n and named candidate rows",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(89.0, 7.0), (1.0, 97.0), (32.0, 53.0)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+      "notes": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.89,
+      "republican_b": 0.07,
+      "republican_n": 320,
+      "democratic_a": 0.01,
+      "democratic_b": 0.97,
+      "democratic_n": 422,
+      "independent_a": 0.32,
+      "independent_b": 0.53,
+      "independent_n": 417,
+      "reported_full_state_n": 1174,
+      "source_table_index": 14,
+      "source_party_column_indices": [
+        19,
+        18,
+        20
+      ],
+      "source_support_values": {
+        "republican_a": 0.89,
+        "republican_b": 0.07,
+        "democratic_a": 0.01,
+        "democratic_b": 0.97,
+        "independent_a": 0.32,
+        "independent_b": 0.53
+      },
+      "source_candidate_names": {
+        "candidate_a": "Jon Husted",
+        "candidate_b": "Sherrod Brown"
+      },
+      "source_subgroup_bases": {
+        "republican": 320,
+        "democratic": 422,
+        "independent": 417
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 3.63,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      },
+      "design_effect": 3.63,
+      "research_poll_id": "survey160-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "5d8593f66d21a09e6c5e1f027c115507997f9094b6dc8dbde4413d83717cacb6",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+          "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
       "proxy_inclusion_authorized": false,
       "ingestion_status": "accepted",
       "acquisition_id": "poll_refresh_20261102",
@@ -29812,6 +30867,128 @@
         }
       ],
       "review_reason": "All six conditional support cells verified in the primary source. Primary report identifies likely voters, despite aggregator labeling adults. Chart cells visually verified. Partisanship label, leaner treatment unspecified; no subgroup Ns. No valid-vote renormalization.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "poll_id": "us_house_generic--focaldata-20261101",
+      "sample_id": "us_house_generic--focaldata-20261101",
+      "pollster": "Focaldata/Financial Times",
+      "sponsor": "Financial Times",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-30",
+      "field_date": "2026-11-01",
+      "publication_date": "2026-11-02",
+      "population": "A",
+      "reported_total_n": 2444,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://landing.focaldata.com/hubfs/Marketing%20content/Focaldata_US_Midterms_Poll_Nov2026_all.xlsx",
+      "source_location": "Workbook Overall Q66 rows144\u2013158; AQ:AW Party ID; candidate weighted counts rows148/150 divided by weighted bases158; raw Ns157",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(86.13220256858398, 4.368304315785838), (1.8928682786683755, 91.76597502859602), (24.836216392928012, 33.97991196109154)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/focaldata-nov02.xlsx",
+      "notes": "All-adult first-choice party columns, not LV/RV headline or forced-choice/leaned alternatives. Pool strong/not-strong into R/D; both partisan leaner groups remain with Independent, matching prior Focaldata records. Exact weighted counts/bases determine pooled support; summed raw unweighted counts determine measurement bases. R/D/I Ns sum2333 of2444; unknown-party respondents excluded from these groups. Existing provisional DEFF2.0 retained, not calibrated subgroup precision.",
+      "ballot_question_stage": "First-choice full ballot; no analyst undecided allocation",
+      "republican_a": 0.8613220256858398,
+      "republican_b": 0.04368304315785838,
+      "republican_n": 916,
+      "democratic_a": 0.018928682786683755,
+      "democratic_b": 0.9176597502859601,
+      "democratic_n": 771,
+      "independent_a": 0.24836216392928012,
+      "independent_b": 0.33979911961091536,
+      "independent_n": 646,
+      "pooling_details": [
+        {
+          "labels": [
+            "Not very strong Republican",
+            "Strong Republican"
+          ],
+          "columns": [
+            "AV",
+            "AW"
+          ],
+          "weighted_base": 800.8494935456492,
+          "raw_n": 916,
+          "candidate_a_weighted_count": 689.7893080502174,
+          "candidate_b_weighted_count": 34.98354298950362
+        },
+        {
+          "labels": [
+            "Strong Democrat",
+            "Not very strong Democrat"
+          ],
+          "columns": [
+            "AQ",
+            "AR"
+          ],
+          "weighted_base": 823.593948621605,
+          "raw_n": 771,
+          "candidate_a_weighted_count": 15.58954859849068,
+          "candidate_b_weighted_count": 755.77901722913
+        },
+        {
+          "labels": [
+            "Lean Democrat",
+            "Independent",
+            "Lean Republican"
+          ],
+          "columns": [
+            "AS",
+            "AT",
+            "AU"
+          ],
+          "weighted_base": 691.9871620431845,
+          "raw_n": 646,
+          "candidate_a_weighted_count": 171.86342897632673,
+          "candidate_b_weighted_count": 235.13662844432997
+        }
+      ],
+      "source_support_values": {
+        "republican_a": 0.8613220256858398,
+        "republican_b": 0.04368304315785838,
+        "democratic_a": 0.018928682786683755,
+        "democratic_b": 0.9176597502859601,
+        "independent_a": 0.24836216392928012,
+        "independent_b": 0.33979911961091536
+      },
+      "source_candidate_names": {
+        "candidate_a": "Generic Republican",
+        "candidate_b": "Generic Democrat"
+      },
+      "source_subgroup_bases": {
+        "republican": 916,
+        "democratic": 771,
+        "independent": 646
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "All-adult first-choice party columns, not LV/RV headline or forced-choice/leaned alternatives. Pool strong/not-strong into R/D; both partisan leaner groups remain with Independent, matching prior Focaldata records. Exact weighted counts/bases determine pooled support; summed raw unweighted counts determine measurement bases. R/D/I Ns sum2333 of2444; unknown-party respondents excluded from these groups. Existing provisional DEFF2.0 retained, not calibrated subgroup precision."
+      },
+      "design_effect": 2.0,
+      "research_poll_id": "focaldata-20261101",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "7bc497061af8a5349704958ce3ed362a08b5da95d92de8898c3231a1f2e59372",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/focaldata-nov02.xlsx",
+          "sha256": "1f62b2e330b0a80cdef00bd848d80311e4aafeafb343a3868dfcb93006997d1f"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. All-adult first-choice party columns, not LV/RV headline or forced-choice/leaned alternatives. Pool strong/not-strong into R/D; both partisan leaner groups remain with Independent, matching prior Focaldata records. Exact weighted counts/bases determine pooled support; summed raw unweighted counts determine measurement bases. R/D/I Ns sum2333 of2444; unknown-party respondents excluded from these groups. Existing provisional DEFF2.0 retained, not calibrated subgroup precision.",
       "proxy_inclusion_authorized": false,
       "ingestion_status": "accepted",
       "acquisition_id": "poll_refresh_20261102",
@@ -30835,6 +32012,82 @@
         }
       ],
       "review_reason": "All six conditional support cells verified in the primary source. All450 LV including undecided/other. Adjacent decided-only alternative omitted. Candidate source aliases (Angela Nixon, Keisha Bottoms) map to registered nominees. No subgroup Ns reported.",
+      "proxy_inclusion_authorized": false,
+      "ingestion_status": "accepted",
+      "acquisition_id": "poll_refresh_20261102",
+      "refresh_id": "poll_refresh_20261102"
+    },
+    {
+      "race_id": "us_house_generic",
+      "state": "United States",
+      "office": "generic_ballot",
+      "poll_id": "us_house_generic--ipsos-20261102",
+      "sample_id": "us_house_generic--ipsos-20261102",
+      "pollster": "Reuters/Ipsos",
+      "sponsor": "Reuters",
+      "candidate_a": "Generic Republican",
+      "candidate_b": "Generic Democrat",
+      "candidate_a_party": "republican",
+      "candidate_b_party": "democratic",
+      "field_start": "2026-10-29",
+      "field_date": "2026-11-02",
+      "publication_date": "2026-11-02",
+      "population": "LV",
+      "reported_total_n": 1212,
+      "crosstab_basis": "party_id",
+      "subgroup_n_method": "reported_unweighted",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Reuters%20Ipsos%20November%20Midterm%20Survey%20Topline.pdf",
+      "source_location": "PDF page2 TM3287Y24, Base Likely Voters; Rep LV, Dem LV, Ind/Other LV columns",
+      "evidence_excerpt": "Conditional candidate A/B support within R,D,I groups: [(96, 3), (1, 97), (36, 53)]",
+      "evidence_path": "research/poll_check_20261102_2100EST/sources/ipsos-nov02.pdf",
+      "notes": "Lean-inclusive candidate ballot; one LV version, RV alternative omitted. Exact applicable unweighted bases413/421/378. Ind/Other source reporting group retained; party-leaner classification not independently specified. Overall source DEFF1.03 does not override the existing conservative unweighted-base floor1.5; this is not a subgroup-calibrated DEFF.",
+      "ballot_question_stage": "Source ballot including candidate leaners; no analyst allocation",
+      "republican_a": 0.96,
+      "republican_b": 0.03,
+      "republican_n": 413,
+      "democratic_a": 0.01,
+      "democratic_b": 0.97,
+      "democratic_n": 421,
+      "independent_a": 0.36,
+      "independent_b": 0.53,
+      "independent_n": 378,
+      "source_support_values": {
+        "republican_a": 0.96,
+        "republican_b": 0.03,
+        "democratic_a": 0.01,
+        "democratic_b": 0.97,
+        "independent_a": 0.36,
+        "independent_b": 0.53
+      },
+      "source_candidate_names": {
+        "candidate_a": "Generic Republican",
+        "candidate_b": "Generic Democrat"
+      },
+      "source_subgroup_bases": {
+        "republican": 413,
+        "democratic": 421,
+        "independent": 378
+      },
+      "source_crosstab_basis": "party_id",
+      "source_subgroup_n_method": "reported_unweighted",
+      "model_base_method": "reported_unweighted",
+      "model_base_rounding": "floor",
+      "precision_review": {
+        "method": "reported_unweighted",
+        "design_effect": 1.5,
+        "evidence": "Lean-inclusive candidate ballot; one LV version, RV alternative omitted. Exact applicable unweighted bases413/421/378. Ind/Other source reporting group retained; party-leaner classification not independently specified. Overall source DEFF1.03 does not override the existing conservative unweighted-base floor1.5; this is not a subgroup-calibrated DEFF."
+      },
+      "design_effect": 1.5,
+      "research_poll_id": "ipsos-20261102",
+      "research_source_path": "research/poll_refresh_20261102/polls.json",
+      "research_record_sha256": "d8d09b7e32ae457b499d7b12e2813ec21b66e90d7928ac4a24e2cfc502238e80",
+      "evidence_artifacts": [
+        {
+          "path": "research/poll_check_20261102_2100EST/sources/ipsos-nov02.pdf",
+          "sha256": "0cc3070d45f91e6031a6b61f6165ca5d51b91cd1fe5028b11c99a68b4b1fbeaa"
+        }
+      ],
+      "review_reason": "Verified all six candidate-support cells in the archived original source. Lean-inclusive candidate ballot; one LV version, RV alternative omitted. Exact applicable unweighted bases413/421/378. Ind/Other source reporting group retained; party-leaner classification not independently specified. Overall source DEFF1.03 does not override the existing conservative unweighted-base floor1.5; this is not a subgroup-calibrated DEFF.",
       "proxy_inclusion_authorized": false,
       "ingestion_status": "accepted",
       "acquisition_id": "poll_refresh_20261102",

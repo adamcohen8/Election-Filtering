@@ -1,0 +1,47 @@
+[
+  {
+    "path": "data/ingestion/2026_normalized_polls.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-0-2026_normalized_polls.json",
+    "sha256": "1e056dfaa395be2aabe0313d85f5b1e52a00629fe47b825005ee41cd59c36d39"
+  },
+  {
+    "path": "data/models/2026_election_model.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-1-2026_election_model.json",
+    "sha256": "0ee259d24652380b5afdac917cedaa3c0635616ea034c752b46aaca44377ff3b"
+  },
+  {
+    "path": "data/ingestion/2026_seen_polls.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-2-2026_seen_polls.json",
+    "sha256": "38c46588f4d5bf8ace6a6e09446a3b30659a09b411fcb756d2057c7ce66db38b"
+  },
+  {
+    "path": "docs/data/forecasts.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-3-forecasts.json",
+    "sha256": "4e1386e59d217386e065045705f34d1d45fd13ada8d2ca2353192e4c5107287c"
+  },
+  {
+    "path": "docs/data/race-history.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-4-race-history.json",
+    "sha256": "e75263b0592eca4973e7dba933361e4d0cb344c5671fe4c570c1e0cad54323c7"
+  },
+  {
+    "path": "research/poll_refresh_20261102/polls.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-5-polls.json",
+    "sha256": "dd1b26f0f47cb600f9ff3155bbeee7db25820378812c659956ba10f4c277fc18"
+  },
+  {
+    "path": "research/poll_refresh_20261102/review-decisions.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-6-review-decisions.json",
+    "sha256": "c4b47e1326fa0dcd25a207c20331d6eabdd5a9ec517eac6ab812fe86a8d68b9a"
+  },
+  {
+    "path": "research/poll_refresh_20261102/ingestion-manifest.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-7-ingestion-manifest.json",
+    "sha256": "4c342b92fd10b555eaadba1a1ef4b2d95f32cd8ce0a9ddfbf9b3ddb0962bc241"
+  },
+  {
+    "path": "research/poll_refresh_20261102/validation.json",
+    "baseline": "research/poll_check_20261102_2100EST/baseline/before-8-validation.json",
+    "sha256": "54f7b01d133225033cd031cb85fa7cfc9ffc205120ff1ab192d698dee62cb421"
+  }
+]

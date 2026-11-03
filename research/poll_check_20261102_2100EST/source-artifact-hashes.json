@@ -1,0 +1,62 @@
+[
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/survey160.html",
+    "sha256": "891f2c26b7ba324f651ca40c63e1c5f07bc728b0fc6ff1e97b4b2982b33bd39e",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/ipsos-nov02.pdf",
+    "sha256": "0cc3070d45f91e6031a6b61f6165ca5d51b91cd1fe5028b11c99a68b4b1fbeaa",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/focaldata-nov02.xlsx",
+    "sha256": "1f62b2e330b0a80cdef00bd848d80311e4aafeafb343a3868dfcb93006997d1f",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/pollvault-feed.xml",
+    "sha256": "62801f70cd0a37027cf786e8cecce0d0279926e98b937a39c66923f6da4a145a",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/rasmussen-ia.html",
+    "sha256": "408608f37fb853ac4974ffe96b4d4e9880a7d1669269cd5d8f4d84dd0557eb13",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/rasmussen-oh.html",
+    "sha256": "9bedf780615d978db9a22ca0962d9fc5df420cd71159d83b5bf0ca71223dd66b",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/rasmussen-oh-crosstabs.html",
+    "sha256": "72d40ce925f77bff0e799e3cec688fa8aceae6b97fd35c0f61f7264026c34150",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/coefficient-ia.html",
+    "sha256": "1278e83760123f0af655819d0263aa6347ee1439d076ce8d429c075ee704cb94",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/ipsos-release.html",
+    "sha256": "f77e6a4bf3d8b216cf09b3e2d59d0ea73b4915638f30685b6b949a1ba5c495b8",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/focaldata-release.html",
+    "sha256": "0423ff69fcb1ad2f484761d0550805ce6b2f2c7154edc318140faa27d99dfd05",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/rasmussen-ia-gov.html",
+    "sha256": "b423ef8a771ab3a23b07cd6c8a4ecfdf087dcc603e5e21945623a1598e2e9a2b",
+    "redactions": 0
+  },
+  {
+    "path": "research/poll_check_20261102_2100EST/sources/rasmussen-generic.html",
+    "sha256": "6a6b40f750460dc4acce1d2164aef250b3a03dd4ed1eb6bc4beefef65f3d06ea",
+    "redactions": 0
+  }
+]

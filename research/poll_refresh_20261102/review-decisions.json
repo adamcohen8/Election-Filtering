@@ -1,6 +1,6 @@
 {
   "window": {
-    "start": "2026-11-01",
+    "start": "2026-10-31",
     "end": "2026-11-02"
   },
   "reviewed_on": "2026-11-02",
@@ -354,6 +354,152 @@
         "evidence": "Exact applicable table bases are reported; weighting classification retained. Provisional conservative design effect; no precision inferred from the headline N."
       },
       "record_sha256": "74db1c175a20c7738c5bf3156dcd74f2c633c19772568b57ab113bbd1dd7f03f"
+    },
+    "ks_sen/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "b7e144d0db0123875cf0343b377e4c4c72a11af6bfe90d77f1283bae997daf98",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 1.78,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "ks_gov/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "271a5469b342b4008cba3180305ee37ad886747c90d86604a4cbd6f1ea0ae276",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 1.78,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 1.78 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1353; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "oh_sen/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "5d8593f66d21a09e6c5e1f027c115507997f9094b6dc8dbde4413d83717cacb6",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 3.63,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "oh_gov/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "d3a8c3c6e1d1f20a6212c3661b503884f6a0a6db89da80d38fcc57c81da65895",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 3.63,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 3.63 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1174; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "me_sen/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "5c4aab50e47df844792af74c7e7cafabf4f5f02fd8a4af7660c718d5e9922a83",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.3,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "me_gov/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "9064aaa0133815056734538c6530ebb475652550f2e52711477af6ac1bbaa3f7",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.3,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.3 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1342; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "mn_sen/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "7f6b2d78d57647206416eca541b25a75b13fe76e09dba88f430c8052a1648081",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.04,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "mn_gov/survey160-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair.",
+      "record_sha256": "121cfae3efaf8cb46cc1272b7d1601c97a27b967a723ef3c07755c667180e531",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.04,
+        "evidence": "Actual self-reported Party ID columns, full RV question base, NOT the adjacent LV headline or SEN_LEAN/GOV_LEAN variant. Independent/Other pools independent/something else/unsure as published; no analyst reassignment of party leaners. Exact question-specific unweighted subgroup Ns retained; source full-state design effect 2.04 applied provisionally to each subgroup, not subgroup-calibrated. Question-base totals can differ from full state sample 1423; unclassified/missing party answers remain outside R/D/I. Other candidates and undecided remain outside the pair."
+      }
+    },
+    "us_house_generic/ipsos-20261102": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Lean-inclusive candidate ballot; one LV version, RV alternative omitted. Exact applicable unweighted bases413/421/378. Ind/Other source reporting group retained; party-leaner classification not independently specified. Overall source DEFF1.03 does not override the existing conservative unweighted-base floor1.5; this is not a subgroup-calibrated DEFF.",
+      "record_sha256": "d8d09b7e32ae457b499d7b12e2813ec21b66e90d7928ac4a24e2cfc502238e80",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 1.5,
+        "evidence": "Lean-inclusive candidate ballot; one LV version, RV alternative omitted. Exact applicable unweighted bases413/421/378. Ind/Other source reporting group retained; party-leaner classification not independently specified. Overall source DEFF1.03 does not override the existing conservative unweighted-base floor1.5; this is not a subgroup-calibrated DEFF."
+      }
+    },
+    "us_house_generic/focaldata-20261101": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. All-adult first-choice party columns, not LV/RV headline or forced-choice/leaned alternatives. Pool strong/not-strong into R/D; both partisan leaner groups remain with Independent, matching prior Focaldata records. Exact weighted counts/bases determine pooled support; summed raw unweighted counts determine measurement bases. R/D/I Ns sum2333 of2444; unknown-party respondents excluded from these groups. Existing provisional DEFF2.0 retained, not calibrated subgroup precision.",
+      "record_sha256": "7bc497061af8a5349704958ce3ed362a08b5da95d92de8898c3231a1f2e59372",
+      "precision": {
+        "method": "reported_unweighted",
+        "design_effect": 2.0,
+        "evidence": "All-adult first-choice party columns, not LV/RV headline or forced-choice/leaned alternatives. Pool strong/not-strong into R/D; both partisan leaner groups remain with Independent, matching prior Focaldata records. Exact weighted counts/bases determine pooled support; summed raw unweighted counts determine measurement bases. R/D/I Ns sum2333 of2444; unknown-party respondents excluded from these groups. Existing provisional DEFF2.0 retained, not calibrated subgroup precision."
+      }
+    },
+    "ia_sen/rasmussen-20261031": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Complete six-cell public narrative; exact party classification and leaner handling unspecified, previously authorized proxy. Applicable subgroup counts missing; no exact Ns inferred from total901. Primary page retains stale October2 dateline preceding October27\u201331 fieldwork: do not treat it as release date. First publication unknown; conservative bounds October31\u2013November2, newly available in this scheduled capture. Separate premium table401 was not retried or bypassed.",
+      "record_sha256": "0a3bb393cb51b789bcb6700a9c03f2fa9bf1078f1f173a4b1fe5840e14843b1f",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup counts unavailable. Retain null Ns and the established provisional 5pp cell SD / -0.5 within-pair correlation covariance; no fabricated counts."
+      },
+      "allow_proxy": true,
+      "publication_date_bounds": [
+        "2026-10-31",
+        "2026-11-02"
+      ]
+    },
+    "oh_sen/rasmussen-20261031": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Party classification source/leaners unspecified, authorized proxy. Independent and Another party separate; do not pool Another party. Source full LV total1119 and rounded composition40R/28D/30I/2Other are not exact group counts; keep subgroup Ns null and established conservative covariance. Public original table accessible; no paywall bypass.",
+      "record_sha256": "6a78b572db8242c0305a4de5a1d2bfa1be458ae0c0fb9476ded0a42d5943ebbe",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup counts unavailable. Retain null Ns and the established provisional 5pp cell SD / -0.5 within-pair correlation covariance; no fabricated counts."
+      },
+      "allow_proxy": true
+    },
+    "ia_gov/rasmussen-20261031": {
+      "action": "accept",
+      "reason": "Verified all six candidate-support cells in the archived original source. Complete six-cell public narrative; exact party classification and leaner handling unspecified, authorized proxy. Same901-person Iowa survey as Senate; separate offices updated once each. Applicable subgroup counts missing, retained null; no sample-size fabrication or undecided allocation.",
+      "record_sha256": "6242e5c1cb2abb2095ea61d6bd0dccc7431185725b93f76a547577b0b98a0500",
+      "precision": {
+        "method": "assumed_covariance",
+        "cell_sd": 0.05,
+        "within_group_correlation": -0.5,
+        "evidence": "Applicable subgroup counts unavailable. Retain null Ns and the established provisional 5pp cell SD / -0.5 within-pair correlation covariance; no fabricated counts."
+      },
+      "allow_proxy": true
     }
+  },
+  "scheduled_increment": {
+    "checked_at": "2026-11-02T21:00:00-05:00",
+    "new_observations": 13,
+    "source": "research/poll_check_20261102_2100EST",
+    "window_note": "Start broadened only to accommodate honest October31\u2013November2 first-publication bounds for newly available Iowa Rasmussen page with stale dateline. Original32 reviewed records unchanged."
   }
 }
